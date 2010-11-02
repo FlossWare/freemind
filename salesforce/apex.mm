@@ -4,21 +4,285 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1288644518716" ID="ID_618413869" MODIFIED="1288647676765" POSITION="right" TEXT="Not case sensitive">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="18"/>
-<icon BUILTIN="yes"/>
-</node>
-<node COLOR="#0033ff" CREATED="1288644890913" ID="ID_1062866203" MODIFIED="1288712333174" POSITION="right" TEXT="Language">
+<node COLOR="#0033ff" CREATED="1288720555180" ID="ID_1677175764" MODIFIED="1288720559331" POSITION="right" TEXT="Database Integration">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1288644981898" ID="ID_950481084" MODIFIED="1288647673315" TEXT="this">
+<node COLOR="#00b439" CREATED="1288647720453" ID="ID_205025232" MODIFIED="1288720561681" TEXT="Query Language">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1288647726581" ID="ID_1781541397" MODIFIED="1288720561682" TEXT="SOQL">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1288718870335" ID="ID_1404611533" MODIFIED="1288720561682" TEXT="Saleforce Object Query Language">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1288719933293" ID="ID_539456656" MODIFIED="1288720561682" TEXT="Result of any select is  the type">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1288719955634" ID="ID_1746736879" MODIFIED="1288720216620" TEXT="select annualRevenue from Account where name = &apos;Acme&apos;">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1288719972842" ID="ID_1185982994" MODIFIED="1288719985775" TEXT="Selects an Account object"/>
+<node COLOR="#111111" CREATED="1288719986274" ID="ID_999645484" MODIFIED="1288719993045" TEXT="annualRevenue is populated"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1288720016362" ID="ID_1781685343" MODIFIED="1288720561683" TEXT="Can only select from a single object/table">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1288720029802" ID="ID_1204209103" MODIFIED="1288720561683" TEXT="Fields in select">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1288720050402" ID="ID_34620124" MODIFIED="1288720216623" TEXT="populated in returned record/object">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1288720066906" ID="ID_1109219292" MODIFIED="1288720561684" TEXT="No select * from [object]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1288720104338" ID="ID_1258224563" MODIFIED="1288720561684" TEXT="When a field isn&apos;t selected">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1288720125443" ID="ID_1277681497" MODIFIED="1288720216627" TEXT="Won&apos;t be affected on update">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1288720139163" ID="ID_1315931916" MODIFIED="1288720561685" TEXT="Failure to seelct a field = not interested">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1288720333331" ID="ID_1469663493" MODIFIED="1288720561685" TEXT="Example">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1288720353899" ID="ID_785677513" MODIFIED="1288720360518" TEXT="sObject s = [select id, name from account where name=&apos;Acme&apos;];"/>
+<node COLOR="#111111" CREATED="1288720336331" ID="ID_283673955" MODIFIED="1288720351984">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      String myName = 'Acme';
+    </p>
+    <p>
+      Account [] accts = [select ID from Account where name=:myName];
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1288720372691" ID="ID_380429073" MODIFIED="1288720378767" TEXT="Contact c= [select Account.name from Contact where id =:id];"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1288647731197" ID="ID_304942177" MODIFIED="1288720561688" TEXT="SOSL">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1288718880623" ID="ID_1144248435" MODIFIED="1288720561688" TEXT="Salesforce Object Search Language">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1288720262515" ID="ID_568308129" MODIFIED="1288720561689" TEXT="Evaluate to a list of sObject&apos;s">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1288720315939" ID="ID_1450950585" MODIFIED="1288720331785" TEXT="Each list contains the search results for a particular sObject type"/>
+</node>
+<node COLOR="#111111" CREATED="1288720415171" ID="ID_318352864" MODIFIED="1288720561689" TEXT="Example">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1288720442372" ID="ID_990915327" MODIFIED="1288720453013">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      List&lt;List&lt;SObject&gt;&gt; searchList= [FIND 'map*' IN NAME FIELDS RETURNING Account (id, name),Contact];
+    </p>
+    <p>
+      Account [] accounts= ((List&lt;Account&gt;)searchList[0]);
+    </p>
+    <p>
+      Contact [] contacts= ((List&lt;Contact&gt;)searchList[1]);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1288720476267" ID="ID_726016042" MODIFIED="1288720503456">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for (Account[] tmp : [select id from Account where name= 'yyy']){
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1288720563548" ID="ID_767513815" MODIFIED="1288720565551" TEXT="Triggers">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1288720579052" ID="ID_1625822055" MODIFIED="1288720592051" TEXT="Execute before or after">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1288720593020" ID="ID_1585494010" MODIFIED="1288720596408" TEXT="insert">
+<node COLOR="#111111" CREATED="1288720667452" ID="ID_1830491470" MODIFIED="1288720675951" TEXT="Trigger.isInsert"/>
+</node>
+<node COLOR="#111111" CREATED="1288720598124" ID="ID_1076940914" MODIFIED="1288720599519" TEXT="update">
+<node COLOR="#111111" CREATED="1288720677676" ID="ID_1282103176" MODIFIED="1288720682777" TEXT="Trigger.isUpdate"/>
+</node>
+<node COLOR="#111111" CREATED="1288720599900" ID="ID_524663330" MODIFIED="1288720601373" TEXT="delete"/>
+<node COLOR="#111111" CREATED="1288720604596" ID="ID_410392227" MODIFIED="1288720606111" TEXT="undelete"/>
+</node>
+<node COLOR="#990000" CREATED="1288720616252" ID="ID_1969497678" MODIFIED="1288720695922" TEXT="Context">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1288720621364" ID="ID_739448730" MODIFIED="1288720706473" TEXT="Trigger.new"/>
+<node COLOR="#111111" CREATED="1288720697052" ID="ID_724332845" MODIFIED="1288720710099" TEXT="Trigger.old"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1288720730980" ID="ID_1427293522" MODIFIED="1288721131441" TEXT="DML">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1288720734308" ID="ID_1251735015" MODIFIED="1288720742754" TEXT="insert [sObject]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1288720745292" ID="ID_1490990098" MODIFIED="1288720747183" TEXT="Database">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1288720748284" ID="ID_472098897" MODIFIED="1288720769336" TEXT="setSavepoint()"/>
+<node COLOR="#111111" CREATED="1288720754412" ID="ID_855213862" MODIFIED="1288720786830" TEXT="rollback( [SavePoint] )"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1288721172230" ID="ID_1688453310" MODIFIED="1288721174597" POSITION="right" TEXT="Testing">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1288721199926" ID="ID_37394921" MODIFIED="1288721218197" TEXT="75% of classes coverd by testing">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1288644984242" ID="ID_1075816509" MODIFIED="1288647673320" TEXT="instanceof">
+<node COLOR="#00b439" CREATED="1288721239278" ID="ID_967453817" MODIFIED="1288721242331" TEXT="Test methods">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1288721243190" ID="ID_847229309" MODIFIED="1288721250496" TEXT="denote with testMethod keyword">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1288721259550" ID="ID_289169670" MODIFIED="1288721263767" TEXT="static testMethod void myTest() { }"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1288721309238" ID="ID_716558958" MODIFIED="1288721315067" TEXT="System">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1288721315934" ID="ID_257081351" MODIFIED="1288721322500" TEXT="assertEquals ( ... )">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1288721322880" ID="ID_370988803" MODIFIED="1288721500783" TEXT="assert ( false );">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1288721591191" ID="ID_1399025263" MODIFIED="1288721596685" POSITION="right" TEXT="Visualforce">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1288721597671" ID="ID_456522640" MODIFIED="1288721603823" TEXT="UI layer">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1288721608751" ID="ID_1237723986" MODIFIED="1288721619893" TEXT="Acts as a controller (MVC)">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1288721628103" ID="ID_126910750" MODIFIED="1288721633874" POSITION="right" TEXT="Web Services">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1288721645255" ID="ID_703251836" MODIFIED="1288721651975" TEXT="Invokes external web services">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1288724732110" ID="ID_78588882" MODIFIED="1288724733911" TEXT="Steps">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1288724658798" ID="ID_1629329433" MODIFIED="1288724738625" TEXT="Setup">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1288724662885" ID="ID_86130506" MODIFIED="1288724738626" TEXT="Develop">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1288724668261" ID="ID_1387841202" MODIFIED="1288724738627" TEXT="Apex Classes">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#111111" CREATED="1288724671813" ID="ID_1982391748" MODIFIED="1288724738627" TEXT="Generate from WSDL">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-4"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1288724740694" ID="ID_1354873786" MODIFIED="1288724743825" TEXT="Example">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1288724744590" ID="ID_1080716312" MODIFIED="1288724758401">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AcmeServices.grabService gs = new AcmeServices.grabService();
+    </p>
+    <p>
+      String result = gs.doLookup('some data');
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1288721689975" ID="ID_1996073728" MODIFIED="1288721701648" TEXT="Expose method">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1288721702711" ID="ID_115070716" MODIFIED="1288721719536" TEXT="webService static Id makeContact ( String lastname, Account a ) { }">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1288722680857" ID="ID_1276768259" MODIFIED="1288722711237" TEXT="Must use global keyword">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1288722697657" ID="ID_1764310317" MODIFIED="1288722704274" TEXT="global class MyWebService"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1288726447001" ID="ID_794474916" MODIFIED="1288726449021" POSITION="right" TEXT="Dynamic">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1288726455233" ID="ID_1547458847" MODIFIED="1288726456953" TEXT="runtime">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1288726457169" ID="ID_1395161286" MODIFIED="1288726459294" TEXT="compile time">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1288644890913" ID="ID_1062866203" MODIFIED="1288712333174" POSITION="left" TEXT="Language">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1288644518716" ID="ID_618413869" MODIFIED="1288713395164" TEXT="Not case sensitive">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="yes"/>
+</node>
+<node COLOR="#00b439" CREATED="1288713405348" ID="ID_1955818443" MODIFIED="1288713410141" TEXT="keywords">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1288644981898" ID="ID_950481084" MODIFIED="1288713411868" TEXT="this">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1288644984242" ID="ID_1075816509" MODIFIED="1288713413078" TEXT="instanceof">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1288718733399" ID="ID_607451772" MODIFIED="1288718734634" TEXT="new">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1288718735735" ID="ID_186821308" MODIFIED="1288718742460" TEXT="Account a = new Account( name=&apos;Acme&apos;, billingCity=&apos;Edinburgh&apos;);"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1288645269709" ID="ID_1931907629" MODIFIED="1288647673321" TEXT="Generics">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -143,10 +407,10 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1288646204825" ID="ID_1014295304" MODIFIED="1288647669586" POSITION="right" TEXT="Data">
+<node COLOR="#0033ff" CREATED="1288646204825" ID="ID_1014295304" MODIFIED="1288647669586" POSITION="left" TEXT="Data">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1288645110755" ID="ID_350285801" MODIFIED="1288647669586" TEXT="Primitives">
+<node COLOR="#00b439" CREATED="1288645110755" ID="ID_350285801" MODIFIED="1288721192380" TEXT="Types">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1288645122940" ID="ID_650531804" MODIFIED="1288647669586" TEXT="Blob">
@@ -188,6 +452,8 @@
 </node>
 <node COLOR="#990000" CREATED="1288645228269" ID="ID_1977908036" MODIFIED="1288647669597" TEXT="Maps">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1288718311453" ID="ID_1993934638" MODIFIED="1288718329817" TEXT="Map&lt;String,String&gt; myStrings = new Map&lt;String,String&gt;{&apos;a&apos;=&gt;&apos;b&apos;,&apos;c&apos;=&gt;&apos;d&apos;.toUpperCase()};"/>
+<node COLOR="#111111" CREATED="1288718330477" ID="ID_1292194169" MODIFIED="1288718341368" TEXT="Map&lt;ID,Contact&gt; m = new Map&lt;ID, Contact&gt;([select id, lastname from contact]); "/>
 </node>
 <node COLOR="#990000" CREATED="1288645282094" ID="ID_1844554765" MODIFIED="1288647669598" TEXT="Arrays">
 <font NAME="SansSerif" SIZE="14"/>
@@ -214,18 +480,6 @@
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1288647400128" ID="ID_1801288779" MODIFIED="1288647403767" TEXT="Like java.lang.Object"/>
 </node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1288647720453" ID="ID_205025232" MODIFIED="1288647724787" POSITION="left" TEXT="Query Language">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1288647726581" ID="ID_1781541397" MODIFIED="1288647730651" TEXT="SOQL">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1288647731197" ID="ID_304942177" MODIFIED="1288648128906" TEXT="SOSL">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>

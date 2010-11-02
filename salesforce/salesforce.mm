@@ -4,7 +4,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1288644203991" ID="ID_1504253769" LINK="apex.mm" MODIFIED="1288712732481" POSITION="left" TEXT="Apex">
+<node COLOR="#0033ff" CREATED="1288644203991" ID="ID_1504253769" LINK="apex.mm" MODIFIED="1288718243385" POSITION="right" TEXT="Apex">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
