@@ -8,6 +8,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1288726804594" ID="ID_1998551911" LINK="database.mm" MODIFIED="1288726856936" POSITION="right" TEXT="Database">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1288712588418" ID="ID_1618932349" LINK="ide.mm" MODIFIED="1288712671671" POSITION="right" TEXT="IDE">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
