@@ -46,16 +46,6 @@
 <node COLOR="#00b439" CREATED="1281544696022" ID="ID_109271432" MODIFIED="1281544699407" TEXT="syslog">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1279509517123" ID="ID_49540457" MODIFIED="1281544701133" TEXT="Address__c a = [select id from Address__c where external_id__c=&apos;CT-WCW-5245826-toywawa&apos;];">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1281544702845" ID="ID_1585169979" MODIFIED="1281544725825" TEXT="ContactAccount__c a = [Select  external_id__c ,  contact_number__c  from ContactAccount__c where id = &apos;a0NT0000002Ug3b&apos; ];   System.debug (&apos;Key  = &apos; + a.external_id__c + &apos; + contact number = &apos; + a.contact_number__c);">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1281728671996" ID="ID_796576489" MODIFIED="1281728692688" TEXT="System.debug ([select id, external_id__c, accountNumber__c,  party_number__c, contact_number__c from ContactAccount__c where  contact_number__c = &apos;rhn-support-sgoldber&apos; and ((party_number__c = &apos;673991&apos; and accountnumber__c = &apos;540155&apos;) or (party_number__c = &apos;673991&apos; and accountnumber__c = null))]);">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1282163048392" ID="ID_472761833" MODIFIED="1282163052557" POSITION="right" TEXT="Change Security Token">
