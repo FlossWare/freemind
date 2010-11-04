@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1288726810103" ID="ID_425626197" LINK="salesforce.mm" MODIFIED="1288726847498" TEXT="Database">
+<node COLOR="#000000" CREATED="1288726810103" ID="ID_425626197" LINK="Salesforce.mm" MODIFIED="1288875069821" TEXT="Database">
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
 <node COLOR="#0033ff" CREATED="1288726873002" ID="ID_947103067" MODIFIED="1288726875568" POSITION="left" TEXT="Data Types">

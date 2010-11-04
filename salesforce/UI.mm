@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1273593826080" ID="ID_1361209462" LINK="salesforce.mm" MODIFIED="1288712780713" TEXT="UI">
+<node COLOR="#000000" CREATED="1273593826080" ID="ID_1361209462" LINK="Salesforce.mm" MODIFIED="1288875048542" TEXT="UI">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>

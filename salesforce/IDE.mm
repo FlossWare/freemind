@@ -1,10 +1,10 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1273593826080" ID="ID_1361209462" LINK="salesforce.mm" MODIFIED="1288712765648" TEXT="IDE">
+<node COLOR="#000000" CREATED="1273593826080" ID="ID_1361209462" LINK="Salesforce.mm" MODIFIED="1288875081189" TEXT="IDE">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1288636589968" ID="ID_667264552" MODIFIED="1288636592583" POSITION="left" TEXT="Eclipse">
+<node COLOR="#0033ff" CREATED="1288636589968" ID="ID_667264552" MODIFIED="1288636592583" POSITION="right" TEXT="Eclipse">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1288636594056" ID="ID_358811930" MODIFIED="1288637184523" TEXT="http://wiki.developerforce.com/index.php/Force.com_IDE_Installation_for_Eclipse_3.5">
