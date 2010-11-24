@@ -262,6 +262,16 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1290614779338" ID="ID_1178837861" MODIFIED="1290614783597" TEXT="Introspection">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1290614804352" ID="ID_1595552971" MODIFIED="1290614827880" TEXT="Schema.SObjectType.[Object Name].fields.getMap()">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1290614830376" ID="ID_464260542" MODIFIED="1290614839495" TEXT="Key = field name">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1288646204825" ID="ID_1014295304" MODIFIED="1288647669586" POSITION="left" TEXT="Data">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
