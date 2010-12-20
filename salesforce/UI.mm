@@ -134,5 +134,17 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1291045981812" ID="ID_1782445793" MODIFIED="1291045983493" POSITION="right" TEXT="Templates">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1291045988874" ID="ID_1902399046" MODIFIED="1291045992014" TEXT="setup">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1291046003571" ID="ID_1756165800" MODIFIED="1291046035510" TEXT="Communications Templates">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1291046038939" ID="ID_1657459943" MODIFIED="1291046042596" TEXT="Email Templates"/>
+</node>
+</node>
+</node>
 </node>
 </map>
