@@ -8,5 +8,9 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1292966745156" ID="ID_1485368427" LINK="Eclipse.mm" MODIFIED="1292966745160" POSITION="right" TEXT="Eclipse">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 </node>
 </map>
