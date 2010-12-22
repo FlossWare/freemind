@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1292966733781" ID="ID_620612556" LINK="Development.mm" MODIFIED="1292966795487" TEXT="Eclipse">
+<node COLOR="#000000" CREATED="1292966733781" ID="ID_620612556" LINK="Development.mm" MODIFIED="1293055192433" TEXT="Eclipse">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
