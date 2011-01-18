@@ -7,6 +7,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1295364429237" ID="ID_1443470952" LINK="bash/Bash.mm" MODIFIED="1295364445948" POSITION="right" TEXT="Bash">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1295104571579" ID="ID_822169857" LINK="cobbler/Cobbler.mm" MODIFIED="1295104571581" POSITION="right" TEXT="Cobbler">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
