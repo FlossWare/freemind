@@ -28,5 +28,16 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1295706029272" ID="ID_95966117" MODIFIED="1295706030773" POSITION="right" TEXT="rpmbuild">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1295706022584" ID="ID_1328183602" MODIFIED="1295706032427" TEXT="options">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1295706034168" ID="ID_738893910" MODIFIED="1295706048021" TEXT="--buildarch [architecture type]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 </node>
 </map>

@@ -39,5 +39,9 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1301231910072" ID="ID_1120113763" LINK="X.mm" MODIFIED="1301231910077" POSITION="left" TEXT="X">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 </node>
 </map>
