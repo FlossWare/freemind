@@ -4,11 +4,27 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<node COLOR="#0033ff" CREATED="1295699810391" ID="ID_1871448881" LINK="Ant.mm" MODIFIED="1295699853665" POSITION="right" TEXT="Ant">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1292966745156" ID="ID_1485368427" LINK="Eclipse.mm" MODIFIED="1295699988703" POSITION="right" TEXT="Eclipse">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1290436617049" ID="ID_136764595" LINK="Git.mm" MODIFIED="1290436617050" POSITION="right" TEXT="Git">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
-<node COLOR="#0033ff" CREATED="1292966745156" ID="ID_1485368427" LINK="Eclipse.mm" MODIFIED="1292966745160" POSITION="right" TEXT="Eclipse">
+<node COLOR="#0033ff" CREATED="1295699991417" ID="ID_1365467272" LINK="Glassfish.mm" MODIFIED="1295700001618" POSITION="right" TEXT="Glassfish">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1295700074922" ID="ID_548272597" LINK="JEE.mm" MODIFIED="1295700083931" POSITION="right" TEXT="JEE">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1295700145946" ID="ID_24812944" LINK="Netbeans.mm" MODIFIED="1295700157587" POSITION="right" TEXT="Netbeans">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>

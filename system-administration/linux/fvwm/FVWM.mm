@@ -3,9 +3,17 @@
 <node COLOR="#000000" CREATED="1269088464921" ID="ID_1928601631" LINK="../Linux.mm" MODIFIED="1288889496033" TEXT="FVWM">
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1270213487757" ID="ID_1136884133" MODIFIED="1270213490616" POSITION="right" TEXT="fvwmtabs">
+<node COLOR="#0033ff" CREATED="1270213487757" ID="ID_1992963501" MODIFIED="1295699934249" POSITION="right" TEXT="fvwmtabs">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1289150128262" ID="ID_1553525005" MODIFIED="1289150132952" TEXT="New Tab">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1289150115421" ID="ID_797336858" MODIFIED="1289150134144" TEXT="ctrl alt t">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 </node>
 </map>
