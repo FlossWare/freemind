@@ -32,6 +32,18 @@
 <node COLOR="#111111" CREATED="1290436690014" ID="ID_883877205" MODIFIED="1290436700061" TEXT="Will ignore all files but .c files"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1295705825127" ID="ID_151965249" MODIFIED="1295705833797" TEXT="Check into git">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1295705723511" ID="ID_425797221" MODIFIED="1295705726709" POSITION="right" TEXT="Building">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1295705743463" ID="ID_1783632343" MODIFIED="1295705844691" TEXT="yum -y install openssl-devel curl-devel expat-devel xmlto asciidoc perl-Error">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1292960013594" ID="ID_1518505701" MODIFIED="1292960826860" POSITION="right" TEXT="diff">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
