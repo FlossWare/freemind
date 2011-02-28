@@ -146,5 +146,17 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1298916453029" ID="ID_253372276" MODIFIED="1298916455177" POSITION="left" TEXT="Profiles">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1298916461141" ID="ID_624716760" MODIFIED="1298916464566" TEXT="Setup">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1298916466141" ID="ID_1567185757" MODIFIED="1298916475260" TEXT="Manage Users">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1298916477181" ID="ID_1933755359" MODIFIED="1298916478999" TEXT="Profiles"/>
+</node>
+</node>
+</node>
 </node>
 </map>
