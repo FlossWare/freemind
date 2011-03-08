@@ -24,6 +24,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1299613398843" ID="ID_1948074316" LINK="Maven.mm" MODIFIED="1299613398845" POSITION="right" TEXT="Maven">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1295700145946" ID="ID_24812944" LINK="Netbeans.mm" MODIFIED="1295700157587" POSITION="right" TEXT="Netbeans">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
