@@ -23,5 +23,13 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1301231858373" ID="ID_399529602" MODIFIED="1301231863928" POSITION="right" TEXT="Themes">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1301231865610" ID="ID_1453148126" MODIFIED="1301231878232" TEXT="fvwm-themes-start">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>
