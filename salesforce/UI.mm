@@ -146,6 +146,18 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1300327599215" ID="ID_1651992767" MODIFIED="1300327605535" POSITION="right" TEXT="Debug Log">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1300327611926" ID="ID_31241674" MODIFIED="1300327614587" TEXT="Setup">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1300327619007" ID="ID_82985485" MODIFIED="1300327622586" TEXT="Monitoring">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1300327625046" ID="ID_1293939406" MODIFIED="1300327629645" TEXT="Debug Logs"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1298916453029" ID="ID_253372276" MODIFIED="1298916455177" POSITION="left" TEXT="Profiles">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
