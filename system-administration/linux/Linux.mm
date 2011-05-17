@@ -35,6 +35,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1305636456492" ID="ID_728782428" LINK="nx/NX.mm" MODIFIED="1305636456494" POSITION="right" TEXT="NX">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1281890683211" ID="ID_931296403" LINK="Sound.mm" MODIFIED="1288889381857" POSITION="left" TEXT="Sound">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
