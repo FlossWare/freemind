@@ -210,6 +210,82 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1307188995757" ID="ID_553007295" MODIFIED="1307189001155" POSITION="right" TEXT="YAML">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1307189003000" ID="ID_1372442804" MODIFIED="1307189006636" TEXT="Denote environment">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1307189007512" ID="ID_1387802100" MODIFIED="1307189015904" TEXT="environment:  [env name]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1307189017592" ID="ID_112355335" MODIFIED="1307189095039">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ---
+    </p>
+    <p>
+      classes:
+    </p>
+    <p>
+      &#160;&#160;- common
+    </p>
+    <p>
+      environment: production
+    </p>
+    <p>
+      parameters:
+    </p>
+    <p>
+      &#160;&#160;puppet_server: puppet.example.com
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1307189122824" ID="ID_1588015211" MODIFIED="1307189127833" TEXT="Parameterized classes">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1307189129384" ID="ID_830453482" MODIFIED="1307189142969">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      classes:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;ntp:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ntpserver: 0.pool.ntp.org
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;aptsetup:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;additional_apt_repos:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;- deb localrepo.magpie.lan/ubuntu lucid production
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;- deb localrepo.magpie.lan/ubuntu lucid vendor
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1278347030883" ID="ID_1429207533" MODIFIED="1290446835982" POSITION="left" TEXT="Environments">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
