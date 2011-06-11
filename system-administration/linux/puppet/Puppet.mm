@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1261057109791" ID="ID_121229838" LINK="../Linux.mm" MODIFIED="1288889454680" TEXT="Puppet">
+<node COLOR="#000000" CREATED="1261057109791" ID="ID_121229838" LINK="../Linux.mm" MODIFIED="1307803966656" TEXT="Puppet">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
@@ -244,8 +244,7 @@
       &#160;&#160;puppet_server: puppet.example.com
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
@@ -280,10 +279,21 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;- deb localrepo.magpie.lan/ubuntu lucid vendor
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1307808127913" ID="ID_1030426702" MODIFIED="1307808131848" POSITION="right" TEXT="define">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1307808133430" ID="ID_1574328205" MODIFIED="1307808141181" TEXT="must include classes inside">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1307808141735" ID="ID_813413767" MODIFIED="1307808163498" TEXT="include outside have no access to member variables for default values">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1278347030883" ID="ID_1429207533" MODIFIED="1290446835982" POSITION="left" TEXT="Environments">
