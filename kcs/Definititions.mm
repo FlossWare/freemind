@@ -54,5 +54,17 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1310306254617" ID="ID_6868627" MODIFIED="1310306263325" POSITION="right" TEXT="Environment states">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1310306264913" ID="ID_935740884" MODIFIED="1310306269074" TEXT="products">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1310306269580" ID="ID_1824104434" MODIFIED="1310306270909" TEXT="versions">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>
