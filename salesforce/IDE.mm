@@ -4,7 +4,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1289258065108" ID="ID_1847685842" MODIFIED="1289258085754" POSITION="right" TEXT="Eclipse">
+<node COLOR="#0033ff" CREATED="1289258065108" ID="ID_1847685842" MODIFIED="1310253807500" POSITION="right" TEXT="Eclipse">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1288636589968" ID="ID_667264552" MODIFIED="1289258088378" TEXT="Setup">
@@ -222,10 +222,10 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1310253815899" ID="ID_770829984" LINK="http://wiki.developerforce.com/index.php/Force.com_IDE_Installation_for_Eclipse_3.5" MODIFIED="1310253829088" TEXT="3.5">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#0033ff" CREATED="1288636594056" ID="ID_358811930" MODIFIED="1289257523365" POSITION="left" TEXT="http://wiki.developerforce.com/index.php/Force.com_IDE_Installation_for_Eclipse_3.5">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
 </node>
 </node>
 </map>
