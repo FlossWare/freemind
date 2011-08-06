@@ -15,6 +15,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1311180264890" ID="ID_1368899136" LINK="DHCP.mm" MODIFIED="1311180264893" POSITION="right" TEXT="DHCP">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1269099851500" ID="ID_341618243" LINK="fvwm/FVWM.mm" MODIFIED="1291902222088" POSITION="right" TEXT="FVWM">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
