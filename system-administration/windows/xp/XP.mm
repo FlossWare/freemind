@@ -146,5 +146,19 @@
 <icon BUILTIN="full-4"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1315316699967" ID="ID_84496152" MODIFIED="1315316706893" POSITION="right" TEXT="Convert to NTFS">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1315316719643" ID="ID_1784600408" MODIFIED="1315316741253" TEXT="Command Prompt">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#00b439" CREATED="1315316723910" ID="ID_990168336" MODIFIED="1315316744432" TEXT="convert [drive letter]: /fs:ntfs">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-2"/>
+</node>
+</node>
 </node>
 </map>
