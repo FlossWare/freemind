@@ -23,6 +23,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1315654233231" ID="ID_585100924" LINK="KDE.mm" MODIFIED="1315654233236" POSITION="right" TEXT="KDE">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1291902249893" ID="ID_1257249063" LINK="mysql/MySQL.mm" MODIFIED="1291902249895" POSITION="right" TEXT="MySQL">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
