@@ -13,7 +13,7 @@
 <node COLOR="#990000" CREATED="1290272906428" ID="ID_128674641" MODIFIED="1290272934753" TEXT="yaml">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1290273142941" ID="ID_134331823" MODIFIED="1290275346180">
+<node COLOR="#111111" CREATED="1290273142941" ID="ID_134331823" MODIFIED="1318983052209">
 <richcontent TYPE="NODE"><html>
                                 <head>
 
@@ -102,38 +102,32 @@
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1290445220417" ID="ID_607227414" MODIFIED="1290445222105" TEXT="yaml">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1290445650184" ID="ID_1593193151" MODIFIED="1290445709733">
+<node COLOR="#111111" CREATED="1290445650184" ID="ID_1593193151" MODIFIED="1318695046504">
 <richcontent TYPE="NODE"><html>
-                                <head>
-
-                                </head>
-                                <body>
-                                    <p>
-                                        seqMap:
-                                    </p>
-                                    <p>
-                                        &#160;&#160;&#160;&#160;-&#160;&#160;
-                                    </p>
-                                    <p>
-                                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;key1: Key1-1 String
-                                    </p>
-                                    <p>
-                                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;key2: Key1-2 String
-                                    </p>
-                                    <p>
-                                        &#160;&#160;&#160;&#160;-&#160;&#160;
-                                    </p>
-                                    <p>
-                                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;key1: Key2-1 String
-                                    </p>
-                                    <p>
-                                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;key2: Key2-2 String
-                                    </p>
-                                    <p>
-
-                                    </p>
-                                </body>
-                        </html></richcontent>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      package::class:
+    </p>
+    <p>
+      &#160;&#160;seqMap:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;-&#160;&#160;key1: Key1-1 String
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;key2: Key1-2 String
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;-&#160;&#160;key1: Key2-1 String
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;key2: Key2-2 String
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1290445222408" ID="ID_1431255216" MODIFIED="1290445224569" TEXT="variable">
@@ -292,6 +286,14 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 <node COLOR="#00b439" CREATED="1307808141735" ID="ID_813413767" MODIFIED="1307808163498" TEXT="include outside have no access to member variables for default values">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1318778787117" ID="ID_1808990355" MODIFIED="1318778788459" POSITION="right" TEXT="variables">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1318778789646" ID="ID_8964424" MODIFIED="1318778794463" TEXT="cannot reassign values">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

@@ -58,6 +58,19 @@
 <node COLOR="#111111" CREATED="1317340734752" ID="ID_716720876" MODIFIED="1317340742490" TEXT="Enable Password-Less Logins"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1322410032052" ID="ID_1934819387" MODIFIED="1322410040001" TEXT="/etc/kde/kdm/kdmrc">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1322410041337" ID="ID_349154463" MODIFIED="1322410049166" TEXT="AutoLoginEnable=true">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1322410056102" ID="ID_1168229042" MODIFIED="1322410058496" TEXT="AutoLoginLocked=false">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1322410065721" ID="ID_544922710" MODIFIED="1322410068252" TEXT="AutoLoginUser=sfloess">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 </node>
 </map>
