@@ -32,5 +32,44 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1323264504223" ID="ID_1774006264" MODIFIED="1323264508498" POSITION="left" TEXT="Order of Execution">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1323264509883" ID="ID_929100745" MODIFIED="1323264602995" TEXT="&quot;Before&quot; insert/update triggers">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#00b439" CREATED="1323264526743" ID="ID_1458115191" MODIFIED="1323264609958" TEXT="Validation rules">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#00b439" CREATED="1323264533123" ID="ID_1742251598" MODIFIED="1323264612055" TEXT="&quot;After&quot; insert/update triggers">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#00b439" CREATED="1323264541462" ID="ID_1438349224" MODIFIED="1323264614798" TEXT="Assignment rules">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-4"/>
+</node>
+<node COLOR="#00b439" CREATED="1323264545622" ID="ID_1981141534" MODIFIED="1323264617059" TEXT="Auto-repsonse rules">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-5"/>
+</node>
+<node COLOR="#00b439" CREATED="1323264549782" ID="ID_1001518430" MODIFIED="1323264618918" TEXT="Workflows rules (with immediate actions)">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-6"/>
+</node>
+<node COLOR="#00b439" CREATED="1323264559822" ID="ID_742295995" MODIFIED="1323264621818" TEXT="Escalation rules">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-7"/>
+</node>
+</node>
 </node>
 </map>
