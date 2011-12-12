@@ -39,6 +39,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1323704381319" ID="ID_419899" LINK="Screen.mm" MODIFIED="1323704381325" POSITION="right" TEXT="Screen">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1269099440697" ID="ID_1446862936" LINK="ssh/SSH.mm" MODIFIED="1288889412518" POSITION="right" TEXT="SSH">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
