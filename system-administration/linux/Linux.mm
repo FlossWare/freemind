@@ -31,6 +31,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1305636456492" ID="ID_728782428" LINK="nx/NX.mm" MODIFIED="1324994116449" POSITION="right" TEXT="NX">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1269099335760" ID="ID_1455357393" LINK="puppet/Puppet.mm" MODIFIED="1288889442200" POSITION="right" TEXT="Puppet">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -47,7 +51,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
-<node COLOR="#0033ff" CREATED="1305636456492" ID="ID_728782428" LINK="nx/NX.mm" MODIFIED="1305636456494" POSITION="right" TEXT="NX">
+<node COLOR="#0033ff" CREATED="1324994170187" ID="ID_671827509" LINK="Xen.mm" MODIFIED="1324994170193" POSITION="right" TEXT="Xen">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
