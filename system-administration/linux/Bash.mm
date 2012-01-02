@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1295364411409" ID="ID_816188546" LINK="../Linux.mm" MODIFIED="1295364457784" TEXT="Bash">
+<node COLOR="#000000" CREATED="1295364411409" ID="ID_816188546" LINK="Linux.mm" MODIFIED="1325522577613" TEXT="Bash">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>

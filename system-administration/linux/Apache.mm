@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1291901955750" ID="ID_399741388" LINK="../Linux.mm" MODIFIED="1291901988951" TEXT="Apache">
+<node COLOR="#000000" CREATED="1291901955750" ID="ID_399741388" LINK="Linux.mm" MODIFIED="1325522565575" TEXT="Apache">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
@@ -48,8 +48,7 @@
       &lt;/Directory&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
