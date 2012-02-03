@@ -20,5 +20,17 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1328277908252" ID="ID_1428229623" MODIFIED="1328277911170" POSITION="right" TEXT="Run a test">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1328277914064" ID="ID_1149157040" MODIFIED="1328277922057" TEXT="mvn test -Dtest=TheClass">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1328277922955" ID="ID_861043761" MODIFIED="1328277930894" TEXT="TheClass minus package">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>
