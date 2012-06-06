@@ -172,6 +172,18 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1338996856315" ID="ID_76207894" MODIFIED="1338996859358" POSITION="right" TEXT="Watch deploys">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1338996860977" ID="ID_898984589" MODIFIED="1338996863332" TEXT="Setup">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1338996865721" ID="ID_452389776" MODIFIED="1338996869072" TEXT="Deploy">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1338996870462" ID="ID_1213021505" MODIFIED="1338996874849" TEXT="Monitor Deployments"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1298916453029" ID="ID_253372276" MODIFIED="1298916455177" POSITION="left" TEXT="Profiles">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
