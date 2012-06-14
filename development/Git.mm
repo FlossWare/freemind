@@ -103,5 +103,13 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1339679915712" ID="ID_220753505" MODIFIED="1339679922406" POSITION="right" TEXT="Clean up references">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1339679924292" ID="ID_441492380" MODIFIED="1339679931385" TEXT="git remote prune origin">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>
