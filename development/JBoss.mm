@@ -14,6 +14,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1341851861730" ID="ID_813272889" MODIFIED="1341851871376" TEXT="Password">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1341852032825" ID="ID_656064951" MODIFIED="1341852060193" TEXT="$JBOSS_HOME/server/production/conf/props/jmx-console-users.properties">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 </node>
 </map>
