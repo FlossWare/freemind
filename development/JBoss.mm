@@ -22,5 +22,23 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1342197940664" ID="ID_317979469" MODIFIED="1342197946056" POSITION="right" TEXT="Java options">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1342197984307" ID="ID_431549841" MODIFIED="1342198005529" TEXT="${JBOSS_HOME}/server/[run type]/run.conf">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1342198006617" ID="ID_1716099350" MODIFIED="1342198010223" TEXT="Can change memory options">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1342198013027" ID="ID_252376154" MODIFIED="1342198014874" TEXT="Example">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1342198016462" ID="ID_1969193626" MODIFIED="1342198029247" TEXT="jboss-eap-4.3/jboss-as/server/production/run.conf">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 </node>
 </map>
