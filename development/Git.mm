@@ -111,5 +111,76 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1342178477910" ID="ID_1165683231" MODIFIED="1342182833259" POSITION="right" TEXT="Tag">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1342182837486" ID="ID_565097134" MODIFIED="1342182840097" TEXT="Add">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1342182842401" ID="ID_1187466836" MODIFIED="1342182879415">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git tag [tag name]
+    </p>
+    <p>
+      git push --tags origin
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1342182880456" ID="ID_77460564" MODIFIED="1342182882123" TEXT="Example">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1342182888113" ID="ID_770208174" MODIFIED="1342182912886">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git tag foo
+    </p>
+    <p>
+      git push --tags origin
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1342178481191" ID="ID_268843067" MODIFIED="1342182836084" TEXT="Remove">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1342178491906" ID="ID_463953369" MODIFIED="1342178504177" TEXT="git push origin :refs/tags[tag name]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1342178506290" ID="ID_1614338475" MODIFIED="1342178508264" TEXT="Example">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1342178509177" ID="ID_264708376" MODIFIED="1342178517630">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git tag -d 12345
+    </p>
+    <p>
+      git push origin :refs/tags/12345
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </map>
