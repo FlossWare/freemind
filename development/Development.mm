@@ -20,6 +20,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1344537782240" ID="ID_1117792955" LINK="Java.mm" MODIFIED="1344537782242" POSITION="right" TEXT="Java">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1333546073601" ID="ID_1392989418" LINK="JBoss.mm" MODIFIED="1333546073610" POSITION="right" TEXT="JBoss">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
