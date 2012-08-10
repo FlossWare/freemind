@@ -71,5 +71,13 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1344603055439" ID="ID_1807790648" MODIFIED="1344603056755" POSITION="left" TEXT="tidy">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1344603058499" ID="ID_91608106" MODIFIED="1344603068489" TEXT="cat [file] | tidy -xml -i">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>
