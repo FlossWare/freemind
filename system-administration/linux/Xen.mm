@@ -91,5 +91,16 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1344706333490" ID="ID_69320040" MODIFIED="1344706338633" POSITION="right" TEXT="Security">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1344706343745" ID="ID_734927625" MODIFIED="1344706355111" TEXT="/boot/grub.conf">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1344706412763" ID="ID_1525442431" MODIFIED="1344706426454" TEXT="kernel /xen.gz-2.6.18-308.11.1.el5.centos.plus allow_unsafe">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 </node>
 </map>
