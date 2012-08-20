@@ -40,5 +40,21 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1345486534718" ID="ID_589499278" MODIFIED="1345486537412" POSITION="right" TEXT="Logging">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1345486538505" ID="ID_1484498409" MODIFIED="1345486540819" TEXT="JMX">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1345486542110" ID="ID_1764255507" MODIFIED="1345486546320" TEXT="service=Logging,type=Log4jService">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1345486561216" ID="ID_811255267" MODIFIED="1345486563725" TEXT="void setLoggerLevel()">
+<node COLOR="#111111" CREATED="1345486572950" ID="ID_1822685223" MODIFIED="1345486578058" TEXT="logger = class/package"/>
+<node COLOR="#111111" CREATED="1345486586280" ID="ID_1457034539" MODIFIED="1345486593825" TEXT="level = DEBUG/INFO/etc"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </map>
