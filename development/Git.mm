@@ -130,8 +130,7 @@
       git push --tags origin
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#990000" CREATED="1342182880456" ID="ID_77460564" MODIFIED="1342182882123" TEXT="Example">
@@ -149,8 +148,7 @@
       git push --tags origin
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -158,7 +156,7 @@
 <node COLOR="#00b439" CREATED="1342178481191" ID="ID_268843067" MODIFIED="1342182836084" TEXT="Remove">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1342178491906" ID="ID_463953369" MODIFIED="1342178504177" TEXT="git push origin :refs/tags[tag name]">
+<node COLOR="#990000" CREATED="1342178491906" ID="ID_463953369" MODIFIED="1347385822365" TEXT="git push origin :refs/tags/[tag name]">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#990000" CREATED="1342178506290" ID="ID_1614338475" MODIFIED="1342178508264" TEXT="Example">
@@ -176,10 +174,17 @@
       git push origin :refs/tags/12345
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1346422838569" ID="ID_175591449" MODIFIED="1346422842912" POSITION="right" TEXT="Cherry pick">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1346422844248" ID="ID_622438243" MODIFIED="1346422854020" TEXT="git cherry-pick [commit]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>
