@@ -55,6 +55,28 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1349274840033" ID="ID_989854390" MODIFIED="1349274875510" TEXT="HTTP">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1349274853332" ID="ID_1878219539" MODIFIED="1349274922389">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      log4j.logger.org.apache.http=DEBUG
+    </p>
+    <p>
+      log4j.logger.org.apache.http.wire=ERROR
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 </node>
 </map>
