@@ -368,6 +368,53 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1352127996443" ID="ID_477959330" MODIFIED="1352128000553" TEXT="fileserver.conf">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1352128005302" ID="ID_1041872445" MODIFIED="1352128122791">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [files]
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;path [path to module]/[share dir]
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;allow *.[domain name]
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1352128125049" ID="ID_713909620" MODIFIED="1352128157008">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [files]
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;path /etc/puppet/modules
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;allow *.flossware.com
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1352128012519" ID="ID_1523785021" MODIFIED="1352128043357" TEXT="puppet:///[dir name]/[module name]/[file]">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1352128045063" ID="ID_703589766" MODIFIED="1352128058727" TEXT="puppet:///modules/ntp/ntp.conf"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1282490446569" ID="ID_1733823290" MODIFIED="1290446830076" POSITION="left" TEXT="Language">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
