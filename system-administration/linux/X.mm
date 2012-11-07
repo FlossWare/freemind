@@ -19,5 +19,17 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1352301364103" ID="ID_1426246993" MODIFIED="1352301365586" POSITION="right" TEXT="Configure">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1352301268553" ID="ID_1040913109" MODIFIED="1352301367258" TEXT="X -configure">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1352301368183" ID="ID_892976594" MODIFIED="1352301374180" TEXT="system-config-display">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>
