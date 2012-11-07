@@ -112,6 +112,43 @@
 <icon BUILTIN="full-4"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1352292107311" ID="ID_1977854821" MODIFIED="1352292108774" POSITION="right" TEXT="menu32">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1352292114087" ID="ID_65547208" MODIFIED="1352292223905">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if [ -e /usr/share/syslinux/menu.c32 ]
+    </p>
+    <p>
+      then
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ln -s /usr/share/syslinux/menu.c32 /var/lib/cobbler/loaders/menu.c32
+    </p>
+    <p>
+      elif [ -e /usr/lib/syslinux/menu.c32 ]
+    </p>
+    <p>
+      then
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ln -s /usr/lib/syslinux/menu.c32 /var/lib/cobbler/loaders/menu.c32
+    </p>
+    <p>
+      fi
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1267198368495" ID="ID_1253917073" MODIFIED="1269099380575" POSITION="left" TEXT="RPMForge">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -177,8 +214,7 @@
       module = authz_allowall
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
