@@ -333,6 +333,14 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1352291821651" ID="ID_395338285" MODIFIED="1352291828840" POSITION="left" TEXT="Certificates">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1352291830945" ID="ID_1697803992" MODIFIED="1352291839570" TEXT="puppet cert clean [host]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1283617420531" ID="ID_100023166" MODIFIED="1283617422707" POSITION="left" TEXT="Modules">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -387,8 +395,7 @@
       &#160;&#160;&#160;&#160;allow *.[domain name]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1352128125049" ID="ID_713909620" MODIFIED="1352128157008">
 <richcontent TYPE="NODE"><html>
@@ -406,8 +413,7 @@
       &#160;&#160;&#160;&#160;allow *.flossware.com
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1352128012519" ID="ID_1523785021" MODIFIED="1352128043357" TEXT="puppet:///[dir name]/[module name]/[file]">
