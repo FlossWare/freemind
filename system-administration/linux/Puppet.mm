@@ -278,27 +278,23 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1307808127913" ID="ID_1030426702" MODIFIED="1307808131848" POSITION="right" TEXT="define">
+<node COLOR="#0033ff" CREATED="1352291821651" ID="ID_395338285" MODIFIED="1352291828840" POSITION="left" TEXT="Certificates">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1307808133430" ID="ID_1574328205" MODIFIED="1307808141181" TEXT="must include classes inside">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1307808141735" ID="ID_813413767" MODIFIED="1307808163498" TEXT="include outside have no access to member variables for default values">
+<node COLOR="#00b439" CREATED="1352291830945" ID="ID_1697803992" MODIFIED="1352291839570" TEXT="puppet cert clean [host]">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1318778787117" ID="ID_1808990355" MODIFIED="1318778788459" POSITION="right" TEXT="variables">
+<node COLOR="#0033ff" CREATED="1352409621888" ID="ID_267896465" MODIFIED="1352409625211" POSITION="left" TEXT="Run">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1318778789646" ID="ID_8964424" MODIFIED="1318778794463" TEXT="cannot reassign values">
+<node COLOR="#00b439" CREATED="1352409637764" ID="ID_214038503" MODIFIED="1352409639847" TEXT="puppet agent -t">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1278347030883" ID="ID_1429207533" MODIFIED="1290446835982" POSITION="left" TEXT="Environments">
+<node COLOR="#0033ff" CREATED="1278347030883" ID="ID_1429207533" MODIFIED="1352409658514" POSITION="left" TEXT="Environments">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1278347037905" ID="ID_861377727" MODIFIED="1278347041502" TEXT="puppet.conf">
@@ -331,14 +327,6 @@
 <node COLOR="#990000" CREATED="1278347120921" ID="ID_1169431609" MODIFIED="1278347129677" TEXT="environment=[name]">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1352291821651" ID="ID_395338285" MODIFIED="1352291828840" POSITION="left" TEXT="Certificates">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1352291830945" ID="ID_1697803992" MODIFIED="1352291839570" TEXT="puppet cert clean [host]">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1283617420531" ID="ID_100023166" MODIFIED="1283617422707" POSITION="left" TEXT="Modules">
@@ -448,6 +436,26 @@
 <node COLOR="#990000" CREATED="1312644769186" ID="ID_403345601" MODIFIED="1312644769882" TEXT="true">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1312644772117" ID="ID_1788556174" MODIFIED="1312644773318" TEXT="0"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1307808127913" ID="ID_1030426702" MODIFIED="1352409689943" TEXT="define">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1307808133430" ID="ID_1574328205" MODIFIED="1352409689943" TEXT="must include classes inside">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1307808141735" ID="ID_813413767" MODIFIED="1352409689943" TEXT="include outside have no access to member variables for default values">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1318778787117" ID="ID_1808990355" MODIFIED="1352409689945" TEXT="variables">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1318778789646" ID="ID_8964424" MODIFIED="1352409689945" TEXT="cannot reassign values">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>
