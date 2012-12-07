@@ -169,6 +169,24 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1322661406840" ID="ID_1830352569" MODIFIED="1354752161612" POSITION="right" TEXT="SOQL statement structure">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1332270454533" ID="ID_359634001" MODIFIED="1354752161612">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Map&lt;Id,Case&gt; caseMap = new Map&lt;Id,Case&gt;([select&#160;AccountId,...]);
+    </p>
+  </body>
+</html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1288644890913" ID="ID_1062866203" MODIFIED="1288712333174" POSITION="left" TEXT="Language">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

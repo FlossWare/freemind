@@ -397,6 +397,7 @@
   </body>
 </html></richcontent>
 </node>
+<node COLOR="#111111" CREATED="1354752188732" ID="ID_179510602" MODIFIED="1354752191816" TEXT="Map&lt;Id,Case&gt; caseMap = new Map&lt;Id,Case&gt;([select&#xa0;AccountId,...]); "/>
 </node>
 </node>
 </node>
