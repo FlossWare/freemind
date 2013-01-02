@@ -4,7 +4,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1315654247180" ID="ID_1387274344" MODIFIED="1315654259882" POSITION="right" TEXT="Keep Display Resolution">
+<node COLOR="#0033ff" CREATED="1315654247180" ID="ID_1387274344" MODIFIED="1315654259882" POSITION="left" TEXT="Keep Display Resolution">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1315654386059" ID="ID_1033781698" MODIFIED="1315654440331" TEXT="System Tools">
@@ -33,7 +33,7 @@
 <icon BUILTIN="full-5"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1317340522393" ID="ID_30873626" MODIFIED="1317340529519" POSITION="right" TEXT="Auto login">
+<node COLOR="#0033ff" CREATED="1317340522393" ID="ID_30873626" MODIFIED="1317340529519" POSITION="left" TEXT="Auto login">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1317340531417" ID="ID_13318859" MODIFIED="1329062065234" TEXT="/etc/sysconfig/desktop">
@@ -76,6 +76,47 @@
 <node COLOR="#111111" CREATED="1322410065721" ID="ID_544922710" MODIFIED="1322410467206" TEXT="AutoLoginUser=sfloess">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1357130719295" ID="ID_1777008284" MODIFIED="1357130723567" POSITION="right" TEXT="xdmcp">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1357130724598" ID="ID_1224582826" MODIFIED="1357130734079" TEXT="/etc/X11/xdm/Xaccess">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1357130864398" ID="ID_972075117" MODIFIED="1357130866670" TEXT="Uncomment">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1357130852710" ID="ID_1423095868" MODIFIED="1357130867706" TEXT="*                      #any host can get a login window">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1357130855830" ID="ID_284262667" MODIFIED="1357130868713" TEXT="*    CHOOSER BROADCAST #any indirect host can get a chooser">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1357130741814" ID="ID_1143513358" MODIFIED="1357130877587" TEXT="/usr/share/kde/kdm">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1357130883478" ID="ID_1304926543" MODIFIED="1357130889375">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [Xdmcp]
+    </p>
+    <p>
+      # Whether KDM should listen to XDMCP requests.
+    </p>
+    <p>
+      Enable=true
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>

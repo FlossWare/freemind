@@ -3,6 +3,36 @@
 <node COLOR="#000000" CREATED="1267989932139" ID="ID_1520991245" LINK="../Windows.mm" MODIFIED="1288889615480" TEXT="Vista">
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<node COLOR="#0033ff" CREATED="1356978708917" ID="ID_336765009" MODIFIED="1356979467721" POSITION="right" TEXT="Autologin">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1356978713765" ID="ID_1225079213" MODIFIED="1356978788908" TEXT="netplwiz">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#00b439" CREATED="1356978720685" ID="ID_994660468" MODIFIED="1356978790576" TEXT="Users tab">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-2"/>
+<node COLOR="#990000" CREATED="1356978727877" ID="ID_1946430243" MODIFIED="1356978743062" TEXT="Uncheck box next to &quot;Users must enter a user name and password to use this computer.&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1356978744749" ID="ID_631583800" MODIFIED="1356978792515" TEXT="Click Apply">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#00b439" CREATED="1356978759237" ID="ID_1075741763" MODIFIED="1356978794196" TEXT="&quot;Automatically Log On&quot; dialog box">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-4"/>
+<node COLOR="#990000" CREATED="1356978774109" ID="ID_304633189" MODIFIED="1356978785342" TEXT="Enter password">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1267989976073" ID="ID_1932318800" MODIFIED="1267989979995" POSITION="right" TEXT="User Access Control">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -20,6 +50,34 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-3"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1267990627410" ID="ID_1960587932" MODIFIED="1356979477288" POSITION="right" TEXT="Printer">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1267990774220" ID="ID_46113155" MODIFIED="1267990775983" TEXT="Sharing">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1268006929166" ID="ID_91016112" MODIFIED="1268007040754" TEXT="Control Panel">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#990000" CREATED="1268006933121" ID="ID_1062771244" MODIFIED="1268007043520" TEXT="Network and Internet">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#990000" CREATED="1268006963643" ID="ID_1841170043" MODIFIED="1268007046152" TEXT="Network and Sharing Center">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#990000" CREATED="1268006971960" ID="ID_1063690557" MODIFIED="1268007048600" TEXT="Printer sharing (on)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-4"/>
+</node>
+<node COLOR="#990000" CREATED="1268007027803" ID="ID_748905779" MODIFIED="1268007051096" TEXT="Password protected sharing (off)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-5"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1267989949738" ID="ID_958360142" MODIFIED="1267989958371" POSITION="right" TEXT="Network">
@@ -73,34 +131,6 @@
 <node COLOR="#111111" CREATED="1268010290269" ID="ID_130328230" MODIFIED="1268010306542" TEXT="Storage">
 <icon BUILTIN="full-4"/>
 </node>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1267990627410" ID="ID_1960587932" MODIFIED="1267990630903" POSITION="right" TEXT="Printer">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1267990774220" ID="ID_46113155" MODIFIED="1267990775983" TEXT="Sharing">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1268006929166" ID="ID_91016112" MODIFIED="1268007040754" TEXT="Control Panel">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-<node COLOR="#990000" CREATED="1268006933121" ID="ID_1062771244" MODIFIED="1268007043520" TEXT="Network and Internet">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-2"/>
-</node>
-<node COLOR="#990000" CREATED="1268006963643" ID="ID_1841170043" MODIFIED="1268007046152" TEXT="Network and Sharing Center">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-3"/>
-</node>
-<node COLOR="#990000" CREATED="1268006971960" ID="ID_1063690557" MODIFIED="1268007048600" TEXT="Printer sharing (on)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-4"/>
-</node>
-<node COLOR="#990000" CREATED="1268007027803" ID="ID_748905779" MODIFIED="1268007051096" TEXT="Password protected sharing (off)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-5"/>
 </node>
 </node>
 </node>
