@@ -32,6 +32,7 @@
 <node COLOR="#990000" CREATED="1357390864033" ID="ID_326584398" LINK="http://www.youtube.com/mrbeer" MODIFIED="1357390877913" TEXT="You Tube">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1357390996761" ID="ID_1406782762" LINK="http://www.youtube.com/watch?v=gF5kNYHcIBE&amp;list=PL165CB8C41189340D" MODIFIED="1357391010688" TEXT="How To&apos;s"/>
+<node COLOR="#111111" CREATED="1357391388362" ID="ID_167647566" MODIFIED="1357391393784" TEXT="Individual">
 <node COLOR="#111111" CREATED="1357391056937" ID="ID_415064091" LINK="https://www.youtube.com/watch?v=-jG6T6jkyDI&amp;list=PL165CB8C41189340D&amp;index=9" MODIFIED="1357391081508" TEXT="Add fruit to any standard, deluxe, or craft series refill"/>
 <node COLOR="#111111" CREATED="1357391083065" ID="ID_1290535999" LINK="https://www.youtube.com/watch?v=gF5kNYHcIBE&amp;list=PL165CB8C41189340D&amp;index=1" MODIFIED="1357391139162" TEXT="Assemble your swing top bottles"/>
 <node COLOR="#111111" CREATED="1357391093417" ID="ID_1253911113" LINK="https://www.youtube.com/watch?v=b85PoC-z4W4&amp;list=PL165CB8C41189340D&amp;index=2" MODIFIED="1357391166890" TEXT="Attach your stick on thermometer"/>
@@ -40,6 +41,7 @@
 <node COLOR="#111111" CREATED="1357391111008" ID="ID_1637753632" LINK="https://www.youtube.com/watch?v=m_-wJFIfWLg&amp;list=PL165CB8C41189340D&amp;index=6" MODIFIED="1357391229201" TEXT="Use your hydrometer"/>
 <node COLOR="#111111" CREATED="1357391116408" ID="ID_405884158" LINK="https://www.youtube.com/watch?v=fqMxpcIJ67A&amp;list=PL165CB8C41189340D&amp;index=7" MODIFIED="1357391248818" TEXT="Use your hop scale"/>
 <node COLOR="#111111" CREATED="1357391121424" ID="ID_9945532" LINK="https://www.youtube.com/watch?v=URBolj4IQF0&amp;list=PL165CB8C41189340D&amp;index=8" MODIFIED="1357391269258" TEXT="Use the hand bottle capper to cap a beer bottle"/>
+</node>
 </node>
 <node COLOR="#990000" CREATED="1357390914342" ID="ID_229125114" LINK="https://www.facebook.com/mrbeer" MODIFIED="1357390923481" TEXT="Facebook">
 <font NAME="SansSerif" SIZE="14"/>
