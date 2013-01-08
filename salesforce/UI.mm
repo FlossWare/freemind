@@ -205,10 +205,18 @@
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-3"/>
 </node>
-<node COLOR="#00b439" CREATED="1357652417663" ID="ID_1663849906" MODIFIED="1357652434443" TEXT="Find view and delete">
+<node COLOR="#00b439" CREATED="1357653825344" ID="ID_688349841" MODIFIED="1357653843877" TEXT="Take ownership of view">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-4"/>
+<node COLOR="#990000" CREATED="1357653833256" ID="ID_1095852367" MODIFIED="1357653837303" TEXT="Visible only to me">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1357652417663" ID="ID_1663849906" MODIFIED="1357653862632" TEXT="Find view and delete">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-5"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1298916453029" ID="ID_253372276" MODIFIED="1298916455177" POSITION="left" TEXT="Profiles">
