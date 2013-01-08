@@ -15,6 +15,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1357485379270" ID="ID_532264394" LINK="mac/Mac.mm" MODIFIED="1357485379273" POSITION="right" TEXT="Mac">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1270222924342" ID="ID_883797694" LINK="VirtualBox.mm" MODIFIED="1288889249727" POSITION="left" STYLE="bubble" TEXT="VirtualBox">
 <edge COLOR="#808080" STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
