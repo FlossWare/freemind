@@ -184,6 +184,33 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1357652352897" ID="ID_1071734991" MODIFIED="1357652438264" POSITION="right" TEXT="Delete a View">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1357652377599" ID="ID_773364409" MODIFIED="1357652424759" TEXT="Find tab for view">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-1"/>
+<node COLOR="#990000" CREATED="1357652394103" ID="ID_396346887" MODIFIED="1357652400118" TEXT="Ex:  Ideas">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1357652402263" ID="ID_70139632" MODIFIED="1357652427875" TEXT="Click tab">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#00b439" CREATED="1357652407263" ID="ID_294423335" MODIFIED="1357652431091" TEXT="Right side, click &quot;list&quot;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#00b439" CREATED="1357652417663" ID="ID_1663849906" MODIFIED="1357652434443" TEXT="Find view and delete">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-4"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1298916453029" ID="ID_253372276" MODIFIED="1298916455177" POSITION="left" TEXT="Profiles">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
