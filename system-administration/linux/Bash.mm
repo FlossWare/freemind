@@ -38,5 +38,57 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1357911262741" ID="ID_133299742" MODIFIED="1357911266530" POSITION="right" TEXT="Numeric for loop">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1357911273956" ID="ID_1058259082" MODIFIED="1357911309692">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for i in $(seq [lower] [higher])
+    </p>
+    <p>
+      do
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;...
+    </p>
+    <p>
+      done
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1357911273956" ID="ID_547407504" MODIFIED="1357911329513">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for i in $(seq 1 10)
+    </p>
+    <p>
+      do
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;echo $i
+    </p>
+    <p>
+      done
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 </node>
 </map>
