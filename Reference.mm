@@ -23,6 +23,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1358084813422" ID="ID_1970389043" LINK="free-node/Free%20Node.mm" MODIFIED="1358084813424" POSITION="right" TEXT="Free Node">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1357388859936" ID="ID_1057549518" LINK="mr-beer/Mr%20Beer.mm" MODIFIED="1357388859937" POSITION="left" TEXT="Mr Beer">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
