@@ -143,10 +143,20 @@
       fi
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1358956943834" ID="ID_590738642" MODIFIED="1358956945468" POSITION="right" TEXT="Errors">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1358956940213" ID="ID_1943552725" MODIFIED="1358956953426" TEXT="Invalid command &apos;WSGIScriptAliasMatch&apos;, perhaps misspelled or defined by a module not included in the server configuration">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1358956964633" ID="ID_1176761517" MODIFIED="1358956973065" TEXT="Enable this module by editing /etc/httpd/conf.d/wsgi.conf and un-commenting the &quot;LoadModule wsgi_module modules/mod_wsgi.so&quot; line.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1267198368495" ID="ID_1253917073" MODIFIED="1269099380575" POSITION="left" TEXT="RPMForge">
