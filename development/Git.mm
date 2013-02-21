@@ -56,7 +56,14 @@
 <node COLOR="#111111" CREATED="1292960024553" ID="ID_208870129" MODIFIED="1292960112103" TEXT="git config --global diff.external git-meld">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
-<node COLOR="#111111" CREATED="1292960061865" ID="ID_1238640596" MODIFIED="1292960075337">
+</node>
+<node COLOR="#111111" CREATED="1292960086505" ID="ID_1936378151" MODIFIED="1292960113187" TEXT="Place git-meld in PATH">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1359726530694" ID="ID_1232611184" MODIFIED="1359726551758" TEXT="git meld script">
+<icon BUILTIN="full-3"/>
+<node COLOR="#111111" CREATED="1359726566671" ID="ID_1704121191" MODIFIED="1359726581015">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -66,23 +73,16 @@
       #!/bin/sh
     </p>
     <p>
-      
-    </p>
-    <p>
       meld &quot;$2&quot; &quot;$5&quot;
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1292960086505" ID="ID_1936378151" MODIFIED="1292960113187" TEXT="Place git-meld in PATH">
-<font NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="full-2"/>
-</node>
 </node>
 <node COLOR="#990000" CREATED="1292960115561" ID="ID_1024466186" MODIFIED="1292960117751" TEXT="Disable">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1292960141081" ID="ID_1595371417" MODIFIED="1292960143881" TEXT="add --no-ext-diff to your git-diff comman"/>
+<node COLOR="#111111" CREATED="1292960141081" ID="ID_1595371417" MODIFIED="1359726824974" TEXT="add --no-ext-diff to your git-diff command"/>
 </node>
 <node COLOR="#990000" CREATED="1292960180793" ID="ID_1782644547" MODIFIED="1292960183308" TEXT="Reference">
 <font NAME="SansSerif" SIZE="14"/>
@@ -103,7 +103,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1339679915712" ID="ID_220753505" MODIFIED="1339679922406" POSITION="right" TEXT="Clean up references">
+<node COLOR="#0033ff" CREATED="1339679915712" ID="ID_220753505" MODIFIED="1360070476569" POSITION="right" TEXT="Clean up branches (references)">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1339679924292" ID="ID_441492380" MODIFIED="1339679931385" TEXT="git remote prune origin">

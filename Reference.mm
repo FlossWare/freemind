@@ -31,5 +31,9 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1360104143237" ID="ID_1837158144" LINK="mathematica/Mathematica.mm" MODIFIED="1360104143239" POSITION="left" TEXT="Mathematica">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 </node>
 </map>
