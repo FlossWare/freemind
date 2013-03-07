@@ -26,5 +26,16 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1362669879755" ID="ID_773209108" MODIFIED="1362669887917" POSITION="right" TEXT="Up memory">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1362669890590" ID="ID_402512" MODIFIED="1362669905203" TEXT="$NETBEANS_HOME/etc/netbeans.conf">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1362669907014" ID="ID_1531974699" MODIFIED="1362669915122" TEXT="netbeans_default_options=&quot;-J-Xms384m -J-Xmx512m -J-XX:PermSize=32m -J-XX:MaxPermSize=96m -J-Xverify:none&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 </node>
 </map>
