@@ -178,6 +178,13 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1362676196175" ID="ID_254383965" MODIFIED="1362676197826" TEXT="Fetch">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1362676206455" ID="ID_1932408737" MODIFIED="1362676208869" TEXT="git fetch --tags">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1346422838569" ID="ID_175591449" MODIFIED="1346422842912" POSITION="right" TEXT="Cherry pick">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
