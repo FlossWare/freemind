@@ -40,6 +40,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1363289420757" ID="ID_1931664902" LINK="MySQL.mm" MODIFIED="1363289420759" POSITION="right" TEXT="MySQL">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1295700145946" ID="ID_24812944" LINK="Netbeans.mm" MODIFIED="1295700157587" POSITION="right" TEXT="Netbeans">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

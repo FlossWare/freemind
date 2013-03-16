@@ -27,6 +27,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1363430764140" ID="ID_1173407211" LINK="Jenkins.mm" MODIFIED="1363430764142" POSITION="right" TEXT="Jenkins">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1315654233231" ID="ID_585100924" LINK="KDE.mm" MODIFIED="1325522468023" POSITION="right" TEXT="KDE">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
