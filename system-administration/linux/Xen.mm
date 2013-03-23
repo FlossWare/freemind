@@ -102,5 +102,36 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1364070346382" ID="ID_1681105795" MODIFIED="1364070358951" POSITION="right" TEXT="WOL">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1364070376119" ID="ID_1021222975" MODIFIED="1364070379919" TEXT="/etc/rc.d/init.d/xend">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1364070397115" ID="ID_441387877" MODIFIED="1364070427861">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Add the following line:
+    </p>
+    <p>
+      /etc/xen/scripts/network-bridge stop
+    </p>
+    <p>
+      before the line:
+    </p>
+    <p>
+      /usr/sbin/xend stop
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 </node>
 </map>
