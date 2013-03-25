@@ -48,6 +48,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1364209104025" ID="ID_130399068" LINK="REST.mm" MODIFIED="1364209104026" POSITION="right" TEXT="REST">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1293055220871" ID="ID_249445657" LINK="VIM.mm" MODIFIED="1293055220873" POSITION="right" TEXT="VIM">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
