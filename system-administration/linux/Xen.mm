@@ -127,9 +127,16 @@
       /usr/sbin/xend stop
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1364070614983" ID="ID_1249789845" MODIFIED="1364216426082" TEXT=" /etc/sysconfig/network-scripts/ifcfg-eth0">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1364070621012" ID="ID_1771011197" MODIFIED="1364216426082" TEXT="ETHTOOL_OPTS=&quot;wol g&quot;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 </node>

@@ -71,6 +71,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1364216287092" ID="ID_1294782699" LINK="WOL.mm" MODIFIED="1364216287093" POSITION="right" TEXT="WOL">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1324994170187" ID="ID_671827509" LINK="Xen.mm" MODIFIED="1325522532708" POSITION="right" TEXT="Xen">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -104,6 +108,22 @@
 <node COLOR="#990000" CREATED="1357680256113" ID="ID_950739778" MODIFIED="1357680258802" TEXT="Press F9">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1364241250475" ID="ID_1442613364" MODIFIED="1364241253370" POSITION="left" TEXT="ISO">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1364241258692" ID="ID_94313769" MODIFIED="1364241260165" TEXT="dd if=/dev/cdrom of=/path/to/cdcopy.iso">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1364241263771" ID="ID_1602637614" MODIFIED="1364241273460" TEXT="dd if=/dev/dvd of=/path/to/dvd.iso">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1364241263771" ID="ID_617637091" MODIFIED="1364241289492" TEXT="dd if=/dev/dvdrw of=/path/to/dvdrw.iso">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>
