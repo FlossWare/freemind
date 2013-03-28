@@ -267,6 +267,35 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1364503570971" ID="ID_128447083" MODIFIED="1364503579263" TEXT="intended to evoke an image of how a well-designed Web application behaves">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1364503593115" ID="ID_336230929" MODIFIED="1364503594902" TEXT="a network of web pages (a virtual state-machine)">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1364503602316" ID="ID_1831832091" MODIFIED="1364503604175" TEXT="user progresses through the application by selecting links (state transitions)">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1364503613796" ID="ID_962506246" MODIFIED="1364503616045" TEXT="resulting in the next page (representing the next state of the application) being transferred to the user and rendered for their use">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1364492441312" ID="ID_1086582290" MODIFIED="1364503713030" TEXT="Four interface constraints">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1364492448576" ID="ID_1400260618" MODIFIED="1364492456719" TEXT="identification of resources">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1364492457881" ID="ID_813923007" MODIFIED="1364492465452" TEXT="manipulation of resources through representations">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1364492470449" ID="ID_148327639" MODIFIED="1364492473060" TEXT="self-descriptive messages">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1364492479049" ID="ID_1334276263" MODIFIED="1364492481095" TEXT="hypermedia as the engine of application state">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1364490945132" FOLDED="true" ID="ID_360067940" MODIFIED="1364498027619" TEXT="Deriving REST">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -331,7 +360,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1364492753861" ID="ID_437561287" MODIFIED="1364498031853" TEXT="Architectural Elements">
+<node COLOR="#00b439" CREATED="1364492753861" FOLDED="true" ID="ID_437561287" MODIFIED="1364507538430" TEXT="Architectural Elements">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1364492892761" FOLDED="true" ID="ID_1369045163" MODIFIED="1364492935208" TEXT="an abstraction of the architectural elements within a distributed hypermedia system.">
@@ -415,29 +444,38 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1364494596601" ID="ID_484707361" MODIFIED="1364494602698" TEXT="Connectors">
+<node COLOR="#990000" CREATED="1364494596601" FOLDED="true" ID="ID_484707361" MODIFIED="1364498897515" TEXT="Connectors">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1364494709132" ID="ID_1201063611" MODIFIED="1364494716912" TEXT="Types">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1364494643778" ID="ID_1462111925" MODIFIED="1364494645423" TEXT="client">
+<node COLOR="#111111" CREATED="1364498352633" ID="ID_492689666" MODIFIED="1364498537867" TEXT="Primary">
+<node COLOR="#111111" CREATED="1364498358953" ID="ID_1991738040" MODIFIED="1364498360152" TEXT="client">
 <node COLOR="#111111" CREATED="1364494665243" ID="ID_1240172432" MODIFIED="1364494666357" TEXT="libwww, libwww-perl"/>
+<node COLOR="#111111" CREATED="1364498488507" ID="ID_1047447161" MODIFIED="1364498490213" TEXT="initiates communication by making a request"/>
 </node>
-<node COLOR="#111111" CREATED="1364494645898" ID="ID_288726959" MODIFIED="1364494646895" TEXT="server">
+<node COLOR="#111111" CREATED="1364498360449" ID="ID_1619929914" MODIFIED="1364498361489" TEXT="server">
 <node COLOR="#111111" CREATED="1364494668419" ID="ID_36766789" MODIFIED="1364494673088" TEXT="libwww, Apache API, NSAPI"/>
+<node COLOR="#111111" CREATED="1364498499036" ID="ID_206470018" MODIFIED="1364498500315" TEXT="listens for connections and responds to requests in order to supply access to its services"/>
+</node>
 </node>
 <node COLOR="#111111" CREATED="1364494647114" ID="ID_88987088" MODIFIED="1364494653064" TEXT="cache">
 <node COLOR="#111111" CREATED="1364494682378" ID="ID_1696478499" MODIFIED="1364494684323" TEXT="browser cache, Akamai cache network"/>
+<node COLOR="#111111" CREATED="1364498569501" ID="ID_185191369" MODIFIED="1364498571445" TEXT="can be located on the interface to a client or server"/>
+<node COLOR="#111111" CREATED="1364498608622" ID="ID_101239091" MODIFIED="1364498609660" TEXT="client">
+<node COLOR="#111111" CREATED="1364498616110" ID="ID_251010225" MODIFIED="1364498643590" TEXT="avoids repetition of network communication"/>
+</node>
+<node COLOR="#111111" CREATED="1364498621942" ID="ID_1365534257" MODIFIED="1364498622892" TEXT="server">
+<node COLOR="#111111" CREATED="1364498631494" ID="ID_1652235965" MODIFIED="1364498635686" TEXT="avoids repeating the process of generating a response"/>
+</node>
 </node>
 <node COLOR="#111111" CREATED="1364494653258" ID="ID_1832090467" MODIFIED="1364494654657" TEXT="resolver">
 <node COLOR="#111111" CREATED="1364494688363" ID="ID_980281128" MODIFIED="1364494689621" TEXT="bind (DNS lookup library)"/>
+<node COLOR="#111111" CREATED="1364498829138" ID="ID_251175939" MODIFIED="1364498831206" TEXT="translates partial or complete resource identifiers into the network address information needed to establish an inter-component connection"/>
 </node>
 <node COLOR="#111111" CREATED="1364494654922" ID="ID_1903993776" MODIFIED="1364494656808" TEXT="tunnel">
 <node COLOR="#111111" CREATED="1364494693251" ID="ID_1450472988" MODIFIED="1364494694283" TEXT="SOCKS, SSL after HTTP CONNECT"/>
+<node COLOR="#111111" CREATED="1364498862270" ID="ID_1576331217" MODIFIED="1364498864087" TEXT="relays communication across a connection boundary, such as a firewall or lower-level network gateway"/>
 </node>
-</node>
-<node COLOR="#111111" CREATED="1364498352633" ID="ID_492689666" MODIFIED="1364498355704" TEXT="Primary types">
-<node COLOR="#111111" CREATED="1364498358953" ID="ID_1991738040" MODIFIED="1364498360152" TEXT="client"/>
-<node COLOR="#111111" CREATED="1364498360449" ID="ID_1619929914" MODIFIED="1364498361489" TEXT="server"/>
 </node>
 <node COLOR="#111111" CREATED="1364494719315" ID="ID_422711418" MODIFIED="1364497866258" TEXT="interactions are stateless">
 <node COLOR="#111111" CREATED="1364494738252" FOLDED="true" ID="ID_1279610275" MODIFIED="1364494774571" TEXT="each request contains all of the information necessary for a connector to understand the request, independent of any requests that may have preceded it.">
@@ -458,21 +496,235 @@
 <node COLOR="#111111" CREATED="1364494831206" ID="ID_698525744" MODIFIED="1364494861284" TEXT="optional representation"/>
 </node>
 </node>
+<node COLOR="#990000" CREATED="1364498899116" FOLDED="true" ID="ID_1923435701" MODIFIED="1364499208625" TEXT="Components">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1364498906676" ID="ID_884476449" MODIFIED="1364498907673" TEXT="Types">
+<node COLOR="#111111" CREATED="1364498913052" ID="ID_1227319844" MODIFIED="1364498915028" TEXT="origin server">
+<node COLOR="#111111" CREATED="1364498919059" ID="ID_1520050385" MODIFIED="1364498921227" TEXT="Apache httpd, Microsoft IIS"/>
+<node COLOR="#111111" CREATED="1364498987509" ID="ID_1805127162" MODIFIED="1364498988840" TEXT="uses a server connector to govern the namespace for a requested resource"/>
+<node COLOR="#111111" CREATED="1364499205505" ID="ID_1329979052" MODIFIED="1364499206961" TEXT="provides a generic interface to its services as a resource hierarchy"/>
 </node>
-<node COLOR="#00b439" CREATED="1364492441312" ID="ID_1086582290" MODIFIED="1364497837703" TEXT="Four interface constraints">
+<node COLOR="#111111" CREATED="1364498921996" ID="ID_1914389525" MODIFIED="1364498926948" TEXT="gateway">
+<node COLOR="#111111" CREATED="1364498930388" ID="ID_84396997" MODIFIED="1364498931448" TEXT="Squid, CGI, Reverse Proxy"/>
+<node COLOR="#111111" CREATED="1364499070959" ID="ID_1372275477" MODIFIED="1364499073083" TEXT="intermediary imposed by the network or origin server to provide an interface encapsulation">
+<node COLOR="#111111" CREATED="1364499078854" ID="ID_7419118" MODIFIED="1364499080473" TEXT="services"/>
+<node COLOR="#111111" CREATED="1364499035613" ID="ID_210159120" MODIFIED="1364499036706" TEXT="data translation"/>
+<node COLOR="#111111" CREATED="1364499040478" ID="ID_1633705051" MODIFIED="1364499041582" TEXT="performance enhancement"/>
+<node COLOR="#111111" CREATED="1364499049958" ID="ID_1509287620" MODIFIED="1364499051261" TEXT="security protection"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1364498935212" ID="ID_684086172" MODIFIED="1364498936559" TEXT="proxy">
+<node COLOR="#111111" CREATED="1364498942500" ID="ID_470359588" MODIFIED="1364498943936" TEXT="CERN Proxy, Netscape Proxy, Gauntlet"/>
+<node COLOR="#111111" CREATED="1364499019998" ID="ID_874621677" MODIFIED="1364499021408" TEXT="intermediary selected by a client to provide interface encapsulation ">
+<node COLOR="#111111" CREATED="1364499029701" ID="ID_185929869" MODIFIED="1364499031212" TEXT="services"/>
+<node COLOR="#111111" CREATED="1364499035613" ID="ID_472788079" MODIFIED="1364499036706" TEXT="data translation"/>
+<node COLOR="#111111" CREATED="1364499040478" ID="ID_1126550319" MODIFIED="1364499041582" TEXT="performance enhancement"/>
+<node COLOR="#111111" CREATED="1364499049958" ID="ID_1288768744" MODIFIED="1364499051261" TEXT="security protection"/>
+</node>
+<node COLOR="#111111" CREATED="1364499110535" ID="ID_1903720254" MODIFIED="1364499114870" TEXT="client determines when to use"/>
+</node>
+<node COLOR="#111111" CREATED="1364498945756" ID="ID_1518609464" MODIFIED="1364498950560" TEXT="user agent">
+<node COLOR="#111111" CREATED="1364498956044" ID="ID_1187094730" MODIFIED="1364498957234" TEXT="Netscape Navigator, Lynx, MOMspider "/>
+<node COLOR="#111111" CREATED="1364498979524" ID="ID_390048798" MODIFIED="1364498980830" TEXT="uses a client connector to initiate a request and becomes the ultimate recipient of the response"/>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1364499129160" ID="ID_1170571054" MODIFIED="1364499362489" TEXT="Architectural Views">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1364499143664" FOLDED="true" ID="ID_606789746" MODIFIED="1364500356765" TEXT="Process View">
+<node COLOR="#111111" CREATED="1364499166608" ID="ID_1302357416" MODIFIED="1364499168275" TEXT="interaction relationships among components by revealing the path of data as it flows through the system"/>
+<node COLOR="#111111" CREATED="1364499239314" ID="ID_1042026202" MODIFIED="1364499298803" TEXT="Client-Server">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1364499248626" ID="ID_1718156399" MODIFIED="1364499298803" TEXT="simplifies component implementation">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1364499258049" ID="ID_871050319" MODIFIED="1364499298803" TEXT="reduces the complexity of connector semantics">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1364499264418" ID="ID_841855171" MODIFIED="1364499298803" TEXT="improves the effectiveness of performance tuning">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1364499270362" ID="ID_1829444583" MODIFIED="1364499298803" TEXT="increases the scalability of pure server components">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1364499348076" FOLDED="true" ID="ID_1808613444" MODIFIED="1364500357589" TEXT="Connector View">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1364499797308" ID="ID_29553572" MODIFIED="1364499799383" TEXT="concentrates on the mechanics of the communication between components"/>
+<node COLOR="#111111" CREATED="1364500293293" ID="ID_656710511" MODIFIED="1364500308557" TEXT="no restriction on communication to a particular protocol">
+<node COLOR="#111111" CREATED="1364500326815" ID="ID_51048077" MODIFIED="1364500337485" TEXT="constrains the interface between components"/>
+</node>
+<node COLOR="#111111" CREATED="1364499810389" ID="ID_990473984" MODIFIED="1364499811275" TEXT="client">
+<node COLOR="#111111" CREATED="1364499819773" ID="ID_921911645" MODIFIED="1364499823579" TEXT="examines the resource identifier in order to select an appropriate communication mechanism for each request"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1364499375196" ID="ID_1879506287" MODIFIED="1364499377266" TEXT="Data View">
+<node COLOR="#111111" CREATED="1364500354102" ID="ID_1283883440" MODIFIED="1364500355919" TEXT="application state as information flows through the components"/>
+<node COLOR="#111111" CREATED="1364500374375" ID="ID_1563053598" MODIFIED="1364500376709" TEXT="cohesive structure">
+<node COLOR="#111111" CREATED="1364500382575" ID="ID_1589252269" MODIFIED="1364500384182" TEXT="information"/>
+<node COLOR="#111111" CREATED="1364500390968" ID="ID_1260875093" MODIFIED="1364500392839" TEXT="control alternatives"/>
+</node>
+<node COLOR="#111111" CREATED="1364500450696" ID="ID_1156057275" MODIFIED="1364500453607" TEXT="control state">
+<node COLOR="#111111" CREATED="1364500462521" ID="ID_1840132659" MODIFIED="1364500463787" TEXT="representations received in response to interactions"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1364507539774" ID="ID_608722459" MODIFIED="1364507543958" TEXT="Standardizing the Web">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1364492448576" ID="ID_1400260618" MODIFIED="1364492456719" TEXT="identification of resources">
-<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1364492457881" ID="ID_813923007" MODIFIED="1364492465452" TEXT="manipulation of resources through representations">
+<node COLOR="#00b439" CREATED="1364508295421" ID="ID_275529251" MODIFIED="1364508301390" TEXT="REST Applied to">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1364507592799" FOLDED="true" ID="ID_1482771842" MODIFIED="1364508514449" TEXT="URI">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1364503727310" ID="ID_1143000793" MODIFIED="1364508302540" TEXT="aka">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1364503729166" ID="ID_882448534" MODIFIED="1364503732245" TEXT="WWW addresses"/>
+<node COLOR="#111111" CREATED="1364503739302" ID="ID_819573578" MODIFIED="1364503740939" TEXT="Universal Document Identifiers"/>
+<node COLOR="#111111" CREATED="1364503747950" ID="ID_1441948341" MODIFIED="1364503749770" TEXT="Universal Resource Identifiers"/>
+<node COLOR="#111111" CREATED="1364503757294" ID="ID_1815241125" MODIFIED="1364503769946" TEXT="combination">
+<node COLOR="#111111" CREATED="1364503761695" ID="ID_667654325" MODIFIED="1364503775110" TEXT="Uniform Resource Locators (URL)"/>
+<node COLOR="#111111" CREATED="1364503780775" ID="ID_704710955" MODIFIED="1364503782178" TEXT="Names (URN) "/>
 </node>
-<node COLOR="#990000" CREATED="1364492470449" ID="ID_148327639" MODIFIED="1364492473060" TEXT="self-descriptive messages">
-<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1364492479049" ID="ID_1334276263" MODIFIED="1364492481095" TEXT="hypermedia as the engine of application state">
+<node COLOR="#111111" CREATED="1364503840136" ID="ID_269257808" MODIFIED="1364508302540" TEXT="Redfinition of Resource">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1364503853824" ID="ID_1816610034" MODIFIED="1364503855512" TEXT="identifiers should change as infrequently as possible"/>
+</node>
+<node COLOR="#111111" CREATED="1364504719809" ID="ID_822712010" MODIFIED="1364508302540" TEXT="Manipulating Shadows">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1364504741393" ID="ID_964693032" MODIFIED="1364504743595" TEXT="defining the things that are manipulated to be representations of the identified resource, rather than the resource itself"/>
+</node>
+<node COLOR="#111111" CREATED="1364504803466" ID="ID_1828680383" MODIFIED="1364508302541" TEXT="Remote Authoring">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1364506617901" ID="ID_1639105774" MODIFIED="1364506619721" TEXT="author must first obtain the specific source resource URI">
+<node COLOR="#111111" CREATED="1364506630397" ID="ID_34578508" MODIFIED="1364506632134" TEXT="the set of URI that bind to the handler&apos;s underlying representation for the target resource"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1364506222030" ID="ID_1988188047" MODIFIED="1364508302541" TEXT="Binding Semantics to URI">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1364506271407" ID="ID_570860274" MODIFIED="1364506273311" TEXT="a resource can have many identifiers"/>
+<node COLOR="#111111" CREATED="1364506315855" ID="ID_217082139" MODIFIED="1364506318599" TEXT="there are no resources on the server">
+<node COLOR="#111111" CREATED="1364506327672" ID="ID_1272201039" MODIFIED="1364506330419" TEXT="just mechanisms that supply answers across an abstract interface defined by resources"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1364506253494" ID="ID_582877140" MODIFIED="1364508302541" TEXT="REST Mismatches in URI">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1364506944627" ID="ID_999542242" MODIFIED="1364506991308" TEXT="Wrong">
+<node COLOR="#111111" CREATED="1364506934875" ID="ID_534592569" MODIFIED="1364506937081" TEXT="include information that identifies the current user within all of the URI referenced by a hypermedia response representation"/>
+<node COLOR="#111111" CREATED="1364506984628" ID="ID_1170078271" MODIFIED="1364506988390" TEXT="software attempts to treat the Web as a distributed file system"/>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1364507507302" ID="ID_1946855360" MODIFIED="1364509141931" TEXT="HTTP">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1364507784619" ID="ID_10300484" MODIFIED="1364508307411" TEXT="Extensibility">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1364507801588" ID="ID_738143630" MODIFIED="1364507803414" TEXT="Protocol Versioning">
+<node COLOR="#111111" CREATED="1364507896549" ID="ID_1329862800" MODIFIED="1364507898507" TEXT="server should always respond with the highest minor version of the protocol it understands within the same major version of the client&apos;s request message"/>
+</node>
+<node COLOR="#111111" CREATED="1364507904949" ID="ID_524777542" MODIFIED="1364507906954" TEXT="Extensible Protocol Elements">
+<node COLOR="#111111" CREATED="1364508124545" ID="ID_1551412865" MODIFIED="1364508126570" TEXT="HTTP request semantics are signified by the request method name"/>
+<node COLOR="#111111" CREATED="1364508138258" ID="ID_319238421" MODIFIED="1364508140272" TEXT="Method extension is allowed whenever a standardizable set of semantics can be shared between client, server, and any intermediaries that may be between them"/>
+<node COLOR="#111111" CREATED="1364507992695" ID="ID_781142833" MODIFIED="1364507998374" TEXT="Status Code">
+<node COLOR="#111111" CREATED="1364508001040" ID="ID_517146614" MODIFIED="1364508003143" TEXT="100 - 199">
+<node COLOR="#111111" CREATED="1364508009712" ID="ID_946322174" MODIFIED="1364508012133" TEXT="the message contains a provisional information response"/>
+</node>
+<node COLOR="#111111" CREATED="1364508013271" ID="ID_1225488874" MODIFIED="1364508015720" TEXT="200 - 299">
+<node COLOR="#111111" CREATED="1364508021736" ID="ID_851382922" MODIFIED="1364508024456" TEXT="request succeeded"/>
+</node>
+<node COLOR="#111111" CREATED="1364508025816" ID="ID_657866784" MODIFIED="1364508027703" TEXT="300 - 399">
+<node COLOR="#111111" CREATED="1364508036008" ID="ID_1640861927" MODIFIED="1364508037339" TEXT=" request needs to be redirected to another resource"/>
+</node>
+<node COLOR="#111111" CREATED="1364508038904" ID="ID_1053638631" MODIFIED="1364508056019" TEXT="400 - 499">
+<node COLOR="#111111" CREATED="1364508048240" ID="ID_1766173100" MODIFIED="1364508050378" TEXT="client made an error that should not be repeated"/>
+</node>
+<node COLOR="#111111" CREATED="1364508057057" ID="ID_430284114" MODIFIED="1364508059465" TEXT="500-599">
+<node COLOR="#111111" CREATED="1364508066129" ID="ID_411670994" MODIFIED="1364508068010" TEXT="server encountered an error"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1364508089449" ID="ID_1995760489" MODIFIED="1364508093257" TEXT="Upgrade">
+<node COLOR="#111111" CREATED="1364508169731" ID="ID_682776481" MODIFIED="1364508174099" TEXT="supports the selective replacement of HTTP/1.x with other, future protocols that might be more efficient for some tasks"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1364508180658" ID="ID_1525706008" MODIFIED="1364508307413" TEXT="Self-descriptive Messages">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1364508204859" ID="ID_843578646" MODIFIED="1364508207190" TEXT="constrains messages between components to be self-descriptive in order to support intermediate processing of interactions"/>
+<node COLOR="#111111" CREATED="1364508251884" ID="ID_947060478" MODIFIED="1364508252844" TEXT="Host">
+<node COLOR="#111111" CREATED="1364508266340" ID="ID_1956756071" MODIFIED="1364508268217" TEXT="include the target URL&apos;s host information within a Host header field of the request message"/>
+</node>
+<node COLOR="#111111" CREATED="1364508284452" ID="ID_803622221" MODIFIED="1364508307413" TEXT="Layered Encodings">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1364508340670" ID="ID_1269617139" MODIFIED="1364508342425" TEXT="placed on a message by a connector in order to improve its transferability over the network"/>
+<node COLOR="#111111" CREATED="1364508392855" ID="ID_1604098252" MODIFIED="1364508394345" TEXT="transfer-encoding"/>
+</node>
+<node COLOR="#111111" CREATED="1364508510929" ID="ID_1224533169" MODIFIED="1364508513108" TEXT="Semantic Independence">
+<node COLOR="#111111" CREATED="1364508539185" ID="ID_1837838294" MODIFIED="1364508550085" TEXT="Message parsing occurs entirely separate from the process of parsing the header field contents"/>
+</node>
+<node COLOR="#111111" CREATED="1364508561714" ID="ID_1885451204" MODIFIED="1364508563281" TEXT="Transport Independence">
+<node COLOR="#111111" CREATED="1364508615907" ID="ID_266700941" MODIFIED="1364508617731" TEXT="allows a representation whose size is unknown at the beginning of its generation (when the header fields are sent) to have its boundaries delineated by a series of chunks that can be individually sized before being sent"/>
+<node COLOR="#111111" CREATED="1364508633411" ID="ID_1673923919" MODIFIED="1364508635093" TEXT="HTTP/1.0">
+<node COLOR="#111111" CREATED="1364508640851" ID="ID_1100828211" MODIFIED="1364508644182" TEXT="Content-Length header fields "/>
+</node>
+<node COLOR="#111111" CREATED="1364508649859" ID="ID_1423778585" MODIFIED="1364508651816" TEXT="HTTP/1.1">
+<node COLOR="#111111" CREATED="1364508658684" ID="ID_1844789105" MODIFIED="1364508660165" TEXT="&quot;chunked&quot; transfer encoding"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1364508668180" ID="ID_772677196" MODIFIED="1364508669850" TEXT="Size Limits">
+<node COLOR="#111111" CREATED="1364508756318" ID="ID_508347256" MODIFIED="1364508758272" TEXT="no way for a client to indicate to a server that it may have resource limits"/>
+</node>
+<node COLOR="#111111" CREATED="1364508739030" ID="ID_793426089" MODIFIED="1364508825163" TEXT="Cache Control">
+<node COLOR="#111111" CREATED="1364508776407" ID="ID_1314400724" MODIFIED="1364508778374" TEXT="fully and accurately describe the data being transferred">
+<node COLOR="#111111" CREATED="1364508788438" ID="ID_1220712271" MODIFIED="1364508790918" TEXT="no application is fooled into thinking it has one thing when it actually has something else"/>
+</node>
+<node COLOR="#111111" CREATED="1364508802407" ID="ID_697613261" MODIFIED="1364508803623" TEXT="HTTP/1.1">
+<node COLOR="#111111" CREATED="1364508810887" ID="ID_1703031711" MODIFIED="1364508811926" TEXT="Cache-Control, Age, Etag, and Vary header fields"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1364508838400" ID="ID_1854931850" MODIFIED="1364508842804" TEXT="Content Negotiation">
+<node COLOR="#111111" CREATED="1364508876032" ID="ID_1951732563" MODIFIED="1364508877699" TEXT="resources map">
+<node COLOR="#111111" CREATED="1364508881104" ID="ID_1693997669" MODIFIED="1364508882718" TEXT="request">
+<node COLOR="#111111" CREATED="1364508893984" ID="ID_632499787" MODIFIED="1364508895082" TEXT="method, identifier, request-header fields, and sometimes a representation"/>
+</node>
+<node COLOR="#111111" CREATED="1364508885328" ID="ID_346409359" MODIFIED="1364508887105" TEXT="response">
+<node COLOR="#111111" CREATED="1364508901056" ID="ID_960209520" MODIFIED="1364508902367" TEXT="status code, response-header fields, and sometimes a representation"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1364509024251" ID="ID_302558591" MODIFIED="1364509025998" TEXT="preemptive negotiation">
+<node COLOR="#111111" CREATED="1364509031691" ID="ID_1517980265" MODIFIED="1364509033538" TEXT="user agent tells the server what it is capable of accepting"/>
+</node>
+<node COLOR="#111111" CREATED="1364509045115" ID="ID_739453455" MODIFIED="1364509051103" TEXT="reactive negotiation">
+<node COLOR="#111111" CREATED="1364509057683" ID="ID_103377908" MODIFIED="1364509059924" TEXT="user agent requests a negotiated resource, the server responds with a list of the available representations"/>
+<node COLOR="#111111" CREATED="1364509061363" ID="ID_1054425542" MODIFIED="1364509065843" TEXT="HTTP/1.1"/>
+</node>
+<node COLOR="#111111" CREATED="1364509075379" ID="ID_791720958" MODIFIED="1364509076710" TEXT="transparent negotiation">
+<node COLOR="#111111" CREATED="1364509086740" ID="ID_1290261828" MODIFIED="1364509098130" TEXT="an intermediary cache acts as an agent, on behalf of other agents, for selecting a better representation and initiating requests to retrieve that representation"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1364509121357" ID="ID_758450043" MODIFIED="1364509246812" TEXT="Performance">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1364509124021" ID="ID_596000843" MODIFIED="1364509131619" TEXT="Persistent Connections">
+<node COLOR="#111111" CREATED="1364509308536" ID="ID_81532955" MODIFIED="1364509310671" TEXT="length-delimited messages in order to send multiple HTTP messages on a single connection"/>
+<node COLOR="#111111" CREATED="1364509317921" ID="ID_739238129" MODIFIED="1364509320037" TEXT="HTTP/1.0">
+<node COLOR="#111111" CREATED="1364509325905" ID="ID_83306176" MODIFIED="1364509328167" TEXT="&quot;keep-alive&quot; directive within the Connection header field"/>
+</node>
+<node COLOR="#111111" CREATED="1364509334705" ID="ID_21307843" MODIFIED="1364509336699" TEXT="HTTP/1.1">
+<node COLOR="#111111" CREATED="1364509346665" ID="ID_522367243" MODIFIED="1364509351273" TEXT="persistent connections are default"/>
+<node COLOR="#111111" CREATED="1364509365289" ID="ID_3080382" MODIFIED="1364509367978" TEXT="connection-directive &quot;close&quot; to reverse the default"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1364509255887" ID="ID_1613647798" MODIFIED="1364509257155" TEXT="Write-through Caching">
+<node COLOR="#111111" CREATED="1364509505476" ID="ID_665100457" MODIFIED="1364509509951" TEXT="No support"/>
+</node>
+</node>
 </node>
 </node>
 </node>
