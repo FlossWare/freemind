@@ -54,7 +54,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1364411175277" ID="ID_1473562075" MODIFIED="1364411185340" TEXT="Network-based Application Architectures">
+<node COLOR="#00b439" CREATED="1364411175277" FOLDED="true" ID="ID_1473562075" MODIFIED="1364436721583" TEXT="Network-based Application Architectures">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1364412717315" FOLDED="true" ID="ID_452111554" MODIFIED="1364419976004" TEXT="Scope">
@@ -137,23 +137,6 @@
 <node COLOR="#111111" CREATED="1364419960845" ID="ID_865157545" MODIFIED="1364419963366" TEXT="the degree to which an architecture is susceptible to failure at the system level in the presence of partial failures within components, connectors, or data."/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1364421654750" FOLDED="true" ID="ID_360974636" MODIFIED="1364424802530" TEXT="Network Based Architectural Styles">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1364419993006" ID="ID_1637595818" MODIFIED="1364421666342" TEXT="Classification Methodology">
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1364421513788" ID="ID_232938642" MODIFIED="1364421515733" TEXT="Selection of Architectural Styles for Classification"/>
-<node COLOR="#111111" CREATED="1364421581253" ID="ID_431250791" MODIFIED="1364421582686" TEXT="Style-induced Architectural Properties"/>
-<node COLOR="#111111" CREATED="1364421644822" ID="ID_1722138524" MODIFIED="1364421646116" TEXT="Visualization"/>
-</node>
-<node COLOR="#111111" CREATED="1364421674343" ID="ID_119680107" MODIFIED="1364421680628" TEXT="Data-flow Styles">
-<node COLOR="#111111" CREATED="1364421738199" ID="ID_1105803919" MODIFIED="1364421820663" TEXT="Pipe and Filter (PF)">
-<node COLOR="#111111" CREATED="1364421753920" ID="ID_1749365654" MODIFIED="1364421755730" TEXT="each component (filter) reads streams of data on its inputs and produces streams of data on its outputs, usually while applying a transformation to the input streams and processing them incrementally so that output begins before the input is completely consumed"/>
-</node>
-<node COLOR="#111111" CREATED="1364421807698" ID="ID_1587987735" MODIFIED="1364421814934" TEXT="Uniform Pipe and Filter (UPF)">
-<node COLOR="#111111" CREATED="1364423185316" ID="ID_1835056742" MODIFIED="1364423187334" TEXT="adds the constraint that all filters must have the same interface."/>
-</node>
-</node>
-</node>
 <node COLOR="#990000" CREATED="1364423251189" FOLDED="true" ID="ID_807362580" MODIFIED="1364424803274" TEXT="Replication Styles">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1364423950763" ID="ID_1546476980" MODIFIED="1364423952474" TEXT="Replicated Repository (RR)">
@@ -207,7 +190,7 @@
 <node COLOR="#111111" CREATED="1364428065170" ID="ID_951401493" MODIFIED="1364428067166" TEXT="an entire computational component is moved to a remote site, along with its state, the code it needs, and possibly some data required to perform the task."/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1364432894621" ID="ID_1130845139" MODIFIED="1364432899717" TEXT="Peer-to-Peer Styles">
+<node COLOR="#990000" CREATED="1364432894621" FOLDED="true" ID="ID_1130845139" MODIFIED="1364434135110" TEXT="Peer-to-Peer Styles">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1364432929018" ID="ID_1400432100" MODIFIED="1364432932734" TEXT="Event-based Integration (EBI)">
 <node COLOR="#111111" CREATED="1364432997819" ID="ID_862270909" MODIFIED="1364433001147" TEXT="reduces coupling between components by removing the need for identity on the connector interface."/>
@@ -224,6 +207,58 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1364421654750" FOLDED="true" ID="ID_360974636" MODIFIED="1364436716150" TEXT="Network Based Architectural Styles">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1364419993006" ID="ID_1637595818" MODIFIED="1364436716150" TEXT="Classification Methodology">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1364421513788" ID="ID_232938642" MODIFIED="1364421515733" TEXT="Selection of Architectural Styles for Classification"/>
+<node COLOR="#111111" CREATED="1364421581253" ID="ID_431250791" MODIFIED="1364421582686" TEXT="Style-induced Architectural Properties"/>
+<node COLOR="#111111" CREATED="1364421644822" ID="ID_1722138524" MODIFIED="1364421646116" TEXT="Visualization"/>
+</node>
+<node COLOR="#990000" CREATED="1364421674343" ID="ID_119680107" MODIFIED="1364436716150" TEXT="Data-flow Styles">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1364421738199" ID="ID_1105803919" MODIFIED="1364421820663" TEXT="Pipe and Filter (PF)">
+<node COLOR="#111111" CREATED="1364421753920" ID="ID_1749365654" MODIFIED="1364421755730" TEXT="each component (filter) reads streams of data on its inputs and produces streams of data on its outputs, usually while applying a transformation to the input streams and processing them incrementally so that output begins before the input is completely consumed"/>
+</node>
+<node COLOR="#111111" CREATED="1364421807698" ID="ID_1587987735" MODIFIED="1364421814934" TEXT="Uniform Pipe and Filter (UPF)">
+<node COLOR="#111111" CREATED="1364423185316" ID="ID_1835056742" MODIFIED="1364423187334" TEXT="adds the constraint that all filters must have the same interface."/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1364434136434" FOLDED="true" ID="ID_609863060" MODIFIED="1364436683402" TEXT="WWW Application Domain Requirements">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1364434162791" ID="ID_1509008247" MODIFIED="1364436683402" TEXT="a way for people to store and structure their own information, whether permanent or ephemeral in nature, such that it could be usable by themselves and others, and to be able to reference and structure the information stored by others so that it would not be necessary for everyone to keep and maintain local copies.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1364434444078" ID="ID_1569156607" MODIFIED="1364436683403" TEXT="Extensibility">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1364434200288" ID="ID_632077213" MODIFIED="1364436683403" TEXT="Low Entry-barrier">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1364434430491" ID="ID_696383868" MODIFIED="1364436683403" TEXT="Distributed Hypermedia">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1364434637612" FOLDED="true" ID="ID_10577799" MODIFIED="1364436683403" TEXT="Internet-scale">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1364434647291" ID="ID_327019461" MODIFIED="1364434649870" TEXT="Anarchic Scalability">
+<node COLOR="#111111" CREATED="1364434691027" ID="ID_1863184243" MODIFIED="1364434693783" TEXT="the need for architectural elements to continue operating when they are subjected to an unanticipated load, or when given malformed or maliciously constructed data, since they may be communicating with elements outside their organizational control."/>
+</node>
+<node COLOR="#111111" CREATED="1364434779905" ID="ID_244757166" MODIFIED="1364434782259" TEXT="Independent Deployment"/>
+</node>
+<node COLOR="#990000" CREATED="1364436345925" ID="ID_590869517" MODIFIED="1364436683404" TEXT="Approach">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1364436357141" ID="ID_244985341" MODIFIED="1364436381933" TEXT="Hypothesis I: The design rationale behind the WWW architecture can be described by an architectural style consisting of the set of constraints applied to the elements within the Web architecture."/>
+<node COLOR="#111111" CREATED="1364436368603" ID="ID_1722287315" MODIFIED="1364436371130" TEXT="Hypothesis II: Constraints can be added to the WWW architectural style to derive a new hybrid style that better reflects the desired properties of a modern Web architecture."/>
+<node COLOR="#111111" CREATED="1364436393576" ID="ID_1653294549" MODIFIED="1364436403455" TEXT="Hypothesis III: Proposals to modify the Web architecture can be compared to the updated WWW architectural style and analyzed for conflicts prior to deployment."/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1364436727556" ID="ID_935426333" MODIFIED="1364436729838" POSITION="right" TEXT="REST">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
 </node>
 </node>
 </map>
