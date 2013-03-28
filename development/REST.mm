@@ -256,7 +256,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1364436727556" ID="ID_935426333" MODIFIED="1364436729838" POSITION="right" TEXT="REST">
+<node COLOR="#0033ff" CREATED="1364436801627" ID="ID_1411821720" MODIFIED="1364436804430" POSITION="right" TEXT="Representational State Transfer">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
