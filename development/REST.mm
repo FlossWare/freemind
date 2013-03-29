@@ -4,7 +4,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1364405046122" FOLDED="true" ID="ID_665286804" MODIFIED="1364498022921" POSITION="left" TEXT="Concepts">
+<node COLOR="#0033ff" CREATED="1364405046122" FOLDED="true" ID="ID_665286804" MODIFIED="1364516925313" POSITION="left" TEXT="Concepts">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1364405079636" ID="ID_1839995728" MODIFIED="1364497783308" TEXT="Software Architecture">
@@ -296,7 +296,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1364490945132" FOLDED="true" ID="ID_360067940" MODIFIED="1364498027619" TEXT="Deriving REST">
+<node COLOR="#00b439" CREATED="1364490945132" FOLDED="true" ID="ID_360067940" MODIFIED="1364516932958" TEXT="Deriving REST">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1364491278522" ID="ID_1007774972" MODIFIED="1364497809575" TEXT="Null Style">
@@ -360,16 +360,16 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1364492753861" FOLDED="true" ID="ID_437561287" MODIFIED="1364507538430" TEXT="Architectural Elements">
+<node COLOR="#00b439" CREATED="1364492753861" FOLDED="true" ID="ID_437561287" MODIFIED="1364516928472" TEXT="Architectural Elements">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1364492892761" FOLDED="true" ID="ID_1369045163" MODIFIED="1364492935208" TEXT="an abstraction of the architectural elements within a distributed hypermedia system.">
+<node COLOR="#990000" CREATED="1364492892761" ID="ID_1369045163" MODIFIED="1364510514425" TEXT="an abstraction of the architectural elements within a distributed hypermedia system.">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1364492918329" ID="ID_647498347" MODIFIED="1364492927138" TEXT=" ignores the details of component implementation and protocol syntax in order to focus on the roles of components, the constraints upon their interaction with other components, and their interpretation of significant data elements">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1364492928779" FOLDED="true" ID="ID_370069932" MODIFIED="1364498415428" TEXT="Data Elements">
+<node COLOR="#990000" CREATED="1364492928779" ID="ID_370069932" MODIFIED="1364510514449" TEXT="Data Elements">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1364492956714" ID="ID_1235208602" MODIFIED="1364492964400" TEXT="all data is encapsulated within and hidden by the processing components, the nature and state of an architecture&apos;s data elements is a key aspect"/>
 <node COLOR="#111111" CREATED="1364493207255" ID="ID_58875521" MODIFIED="1364493211453" TEXT="Distributed hypermedia">
@@ -444,7 +444,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1364494596601" FOLDED="true" ID="ID_484707361" MODIFIED="1364498897515" TEXT="Connectors">
+<node COLOR="#990000" CREATED="1364494596601" ID="ID_484707361" MODIFIED="1364510514469" TEXT="Connectors">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1364494709132" ID="ID_1201063611" MODIFIED="1364494716912" TEXT="Types">
 <font NAME="SansSerif" SIZE="12"/>
@@ -478,7 +478,7 @@
 </node>
 </node>
 <node COLOR="#111111" CREATED="1364494719315" ID="ID_422711418" MODIFIED="1364497866258" TEXT="interactions are stateless">
-<node COLOR="#111111" CREATED="1364494738252" FOLDED="true" ID="ID_1279610275" MODIFIED="1364494774571" TEXT="each request contains all of the information necessary for a connector to understand the request, independent of any requests that may have preceded it.">
+<node COLOR="#111111" CREATED="1364494738252" ID="ID_1279610275" MODIFIED="1364510514480" TEXT="each request contains all of the information necessary for a connector to understand the request, independent of any requests that may have preceded it.">
 <node COLOR="#111111" CREATED="1364494752932" ID="ID_993106592" MODIFIED="1364494754174" TEXT="removes any need for the connectors to retain application state between requests, thus reducing consumption of physical resources and improving scalability"/>
 <node COLOR="#111111" CREATED="1364494758652" ID="ID_491415258" MODIFIED="1364494759871" TEXT="allows interactions to be processed in parallel without requiring that the processing mechanism understand the interaction semantics"/>
 <node COLOR="#111111" CREATED="1364494765476" ID="ID_1328593446" MODIFIED="1364494766571" TEXT="allows an intermediary to view and understand a request in isolation, which may be necessary when services are dynamically rearranged"/>
@@ -496,7 +496,7 @@
 <node COLOR="#111111" CREATED="1364494831206" ID="ID_698525744" MODIFIED="1364494861284" TEXT="optional representation"/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1364498899116" FOLDED="true" ID="ID_1923435701" MODIFIED="1364499208625" TEXT="Components">
+<node COLOR="#990000" CREATED="1364498899116" ID="ID_1923435701" MODIFIED="1364510514489" TEXT="Components">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1364498906676" ID="ID_884476449" MODIFIED="1364498907673" TEXT="Types">
 <node COLOR="#111111" CREATED="1364498913052" ID="ID_1227319844" MODIFIED="1364498915028" TEXT="origin server">
@@ -531,7 +531,7 @@
 </node>
 <node COLOR="#990000" CREATED="1364499129160" ID="ID_1170571054" MODIFIED="1364499362489" TEXT="Architectural Views">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1364499143664" FOLDED="true" ID="ID_606789746" MODIFIED="1364500356765" TEXT="Process View">
+<node COLOR="#111111" CREATED="1364499143664" ID="ID_606789746" MODIFIED="1364510514494" TEXT="Process View">
 <node COLOR="#111111" CREATED="1364499166608" ID="ID_1302357416" MODIFIED="1364499168275" TEXT="interaction relationships among components by revealing the path of data as it flows through the system"/>
 <node COLOR="#111111" CREATED="1364499239314" ID="ID_1042026202" MODIFIED="1364499298803" TEXT="Client-Server">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -550,7 +550,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1364499348076" FOLDED="true" ID="ID_1808613444" MODIFIED="1364500357589" TEXT="Connector View">
+<node COLOR="#111111" CREATED="1364499348076" ID="ID_1808613444" MODIFIED="1364510514498" TEXT="Connector View">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1364499797308" ID="ID_29553572" MODIFIED="1364499799383" TEXT="concentrates on the mechanics of the communication between components"/>
 <node COLOR="#111111" CREATED="1364500293293" ID="ID_656710511" MODIFIED="1364500308557" TEXT="no restriction on communication to a particular protocol">
@@ -576,10 +576,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1364508295421" ID="ID_275529251" MODIFIED="1364508301390" TEXT="REST Applied to">
+<node COLOR="#00b439" CREATED="1364508295421" FOLDED="true" ID="ID_275529251" MODIFIED="1364516937102" TEXT="REST Applied to">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1364507592799" FOLDED="true" ID="ID_1482771842" MODIFIED="1364508514449" TEXT="URI">
+<node COLOR="#990000" CREATED="1364507592799" ID="ID_1482771842" MODIFIED="1364516891036" TEXT="URI">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1364503727310" ID="ID_1143000793" MODIFIED="1364508302540" TEXT="aka">
@@ -621,10 +621,10 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1364507507302" ID="ID_1946855360" MODIFIED="1364509141931" TEXT="HTTP">
+<node COLOR="#990000" CREATED="1364507507302" ID="ID_1946855360" MODIFIED="1364516891048" TEXT="HTTP">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1364507784619" ID="ID_10300484" MODIFIED="1364508307411" TEXT="Extensibility">
+<node COLOR="#111111" CREATED="1364507784619" ID="ID_10300484" MODIFIED="1364516891064" TEXT="Extensibility">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1364507801588" ID="ID_738143630" MODIFIED="1364507803414" TEXT="Protocol Versioning">
 <node COLOR="#111111" CREATED="1364507896549" ID="ID_1329862800" MODIFIED="1364507898507" TEXT="server should always respond with the highest minor version of the protocol it understands within the same major version of the client&apos;s request message"/>
@@ -654,7 +654,7 @@
 <node COLOR="#111111" CREATED="1364508169731" ID="ID_682776481" MODIFIED="1364508174099" TEXT="supports the selective replacement of HTTP/1.x with other, future protocols that might be more efficient for some tasks"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1364508180658" ID="ID_1525706008" MODIFIED="1364508307413" TEXT="Self-descriptive Messages">
+<node COLOR="#111111" CREATED="1364508180658" ID="ID_1525706008" MODIFIED="1364516891080" TEXT="Self-descriptive Messages">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1364508204859" ID="ID_843578646" MODIFIED="1364508207190" TEXT="constrains messages between components to be self-descriptive in order to support intermediate processing of interactions"/>
 <node COLOR="#111111" CREATED="1364508251884" ID="ID_947060478" MODIFIED="1364508252844" TEXT="Host">
@@ -725,6 +725,52 @@
 <node COLOR="#111111" CREATED="1364509505476" ID="ID_665100457" MODIFIED="1364509509951" TEXT="No support"/>
 </node>
 </node>
+<node COLOR="#111111" CREATED="1364510577645" ID="ID_404322850" MODIFIED="1364510583229" TEXT="REST Mismatches in HTTP">
+<node COLOR="#111111" CREATED="1364510796993" ID="ID_1534810587" MODIFIED="1364510799835" TEXT="Differentiating Non-authoritative Responses">
+<node COLOR="#111111" CREATED="1364510875120" ID="ID_1092390151" MODIFIED="1364510878233" TEXT="HTTP/1.1">
+<node COLOR="#111111" CREATED="1364510891219" ID="ID_979274808" MODIFIED="1364510894019" TEXT="&apos;no-cache&apos; directive on a request message requires any cache to forward the request toward the origin server even if it has a cached copy of what is being requested"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1364510929220" ID="ID_211462263" MODIFIED="1364510933887" TEXT="Cookies">
+<node COLOR="#111111" CREATED="1364510997196" ID="ID_947597249" MODIFIED="1364511001752" TEXT="violate REST because they allow data to be passed without sufficiently identifying its semantics, thus becoming a concern for both security and privacy"/>
+</node>
+<node COLOR="#111111" CREATED="1364511152326" ID="ID_631746789" MODIFIED="1364511155160" TEXT="Mandatory Extensions"/>
+<node COLOR="#111111" CREATED="1364511444041" ID="ID_149857539" MODIFIED="1364511447140" TEXT="Mixing Metadata"/>
+<node COLOR="#111111" CREATED="1364511680371" ID="ID_40455160" MODIFIED="1364511683404" TEXT="MIME Syntax"/>
+<node COLOR="#111111" CREATED="1364511829956" ID="ID_919176109" MODIFIED="1364511835070" TEXT="Matching Responses to Requests"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1364512528045" ID="ID_705362156" MODIFIED="1364513667045" TEXT="Technology Transfer">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1364512548699" ID="ID_900479977" MODIFIED="1364513667045" TEXT="Deployment experience with libwww-perl">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1364512688414" ID="ID_1476523084" MODIFIED="1364513667046" TEXT="Deployment experience with Apache">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1364513505561" ID="ID_1971210276" MODIFIED="1364513667046" TEXT="Deployment of URI and HTTP/1.1-compliant Software">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1364513623795" ID="ID_799469446" MODIFIED="1364513660723" TEXT="Architectural Lessons">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1364513738167" ID="ID_673548489" MODIFIED="1364513741557" TEXT="Advantages of a Network-based API">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1364514496908" ID="ID_237895669" MODIFIED="1364514500065" TEXT="HTTP is not RPC">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1364515660214" ID="ID_1080137314" MODIFIED="1364515661874" TEXT="Design of Media Types">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1364515731157" ID="ID_1811286314" MODIFIED="1364515735840" TEXT=" influences the definition of data elements within the Web architecture"/>
+<node COLOR="#111111" CREATED="1364515677250" ID="ID_1790876108" MODIFIED="1364515679516" TEXT="Application State in a Network-based System">
+<node COLOR="#111111" CREATED="1364515754188" ID="ID_1211293491" MODIFIED="1364515756468" TEXT="defines a model of expected application behavior which supports simple and robust applications that are largely immune from the partial failure conditions that beset most network-based applications"/>
+</node>
+<node COLOR="#111111" CREATED="1364516065664" ID="ID_1107548820" MODIFIED="1364516068046" TEXT="Incremental Processing"/>
+<node COLOR="#111111" CREATED="1364516606699" ID="ID_1163446912" MODIFIED="1364516608669" TEXT="Java versus JavaScript"/>
 </node>
 </node>
 </node>
