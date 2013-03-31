@@ -340,6 +340,18 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1364746175671" ID="ID_1203940242" MODIFIED="1364746179162" POSITION="left" TEXT="Startup">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1364746187285" ID="ID_954838508" MODIFIED="1364746189470" TEXT="sudo puppet resource service puppet ensure=running enable=true">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1364746195446" ID="ID_182883971" MODIFIED="1364746197978" TEXT="sudo puppet resource service puppetmaster ensure=running enable=true">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1283617420531" ID="ID_100023166" MODIFIED="1283617422707" POSITION="left" TEXT="Modules">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
