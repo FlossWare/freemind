@@ -24,6 +24,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1366039915346" ID="ID_1947270866" LINK="Jenkins.mm" MODIFIED="1366039915348" POSITION="right" TEXT="Jenkins">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1333546073601" ID="ID_1392989418" LINK="JBoss.mm" MODIFIED="1333546073610" POSITION="right" TEXT="JBoss">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
