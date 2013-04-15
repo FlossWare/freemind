@@ -43,6 +43,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1364908138303" ID="ID_388302992" LINK="Open%20Shift.mm" MODIFIED="1364908138304" POSITION="right" TEXT="Open Shift">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1354751851875" ID="ID_256312895" LINK="Postfix.mm" MODIFIED="1354751851877" POSITION="right" TEXT="Postfix">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -107,6 +111,29 @@
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1357680256113" ID="ID_950739778" MODIFIED="1357680258802" TEXT="Press F9">
 <font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1365001320229" ID="ID_1473462850" MODIFIED="1365001335855" TEXT="Alerts">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1365001336854" ID="ID_1187993622" MODIFIED="1365001362825" TEXT="settings">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#990000" CREATED="1365001339523" ID="ID_1887176408" MODIFIED="1365001368698" TEXT="preferences">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#990000" CREATED="1365001348786" ID="ID_903011290" MODIFIED="1365001407648" TEXT="chatting">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-3"/>
+<node COLOR="#111111" CREATED="1365001356814" ID="ID_1238865074" MODIFIED="1365001410551" TEXT="Alerts">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-4"/>
+<node COLOR="#111111" CREATED="1365001427307" ID="ID_698239039" MODIFIED="1365001437267" TEXT="Extra Words to Highlight">
+<icon BUILTIN="full-5"/>
+</node>
+</node>
 </node>
 </node>
 </node>
