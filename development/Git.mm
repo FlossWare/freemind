@@ -103,12 +103,23 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1339679915712" ID="ID_220753505" MODIFIED="1360070476569" POSITION="right" TEXT="Clean up branches (references)">
+<node COLOR="#0033ff" CREATED="1369316238597" ID="ID_552070455" MODIFIED="1369316239782" POSITION="right" TEXT="Branch">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1339679924292" ID="ID_441492380" MODIFIED="1339679931385" TEXT="git remote prune origin">
+<node COLOR="#00b439" CREATED="1339679915712" ID="ID_220753505" MODIFIED="1369316252863" TEXT="Clean up references">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1339679924292" ID="ID_441492380" MODIFIED="1369316242464" TEXT="git remote prune origin">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1369316253326" ID="ID_1436075855" MODIFIED="1369316254581" TEXT="Rename">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1369316265686" ID="ID_466608291" MODIFIED="1369316278742" TEXT="git branch -m [old_branch_name] [new_branch_name]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1342178477910" ID="ID_1165683231" MODIFIED="1342182833259" POSITION="right" TEXT="Tag">
