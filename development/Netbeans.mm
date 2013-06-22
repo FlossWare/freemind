@@ -37,5 +37,13 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1371841684566" ID="ID_1218540361" MODIFIED="1371841687260" POSITION="right" TEXT="Change JDK">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1371841689148" ID="ID_1993492573" MODIFIED="1371841723540" TEXT="$NETBEANS_HOME/bin/netbeans --jdkhome $JAVA_HOME">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>

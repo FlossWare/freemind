@@ -32,6 +32,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1371647847468" ID="ID_55664161" LINK="Log4J.mm" MODIFIED="1371647847470" POSITION="right" TEXT="Log4J">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1295700074922" ID="ID_548272597" LINK="JEE.mm" MODIFIED="1295700083931" POSITION="right" TEXT="JEE">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
