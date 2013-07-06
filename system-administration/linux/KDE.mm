@@ -114,6 +114,48 @@
       Enable=true
     </p>
   </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1373125790624" ID="ID_1895153960" MODIFIED="1373125793795" POSITION="right" TEXT="synergy">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1373125796323" ID="ID_1366040906" MODIFIED="1373125799581" TEXT="/etc/kde/kdm/Xsetup">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1373125836166" ID="ID_1041232985" MODIFIED="1373125842303">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if [ &quot;`ps -fu root | grep synergy | grep -v grep`&quot; = &quot;&quot; ]
+    </p>
+    <p>
+      then
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;synergys --daemon -c /home/sfloess/Config/work_synergy.conf
+    </p>
+    <p>
+      else
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/usr/bin/killall synergyc
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sleep 1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/usr/bin/synergyc --name sfloess-laptop-x sfloess-laptop
+    </p>
+    <p>
+      fi
+    </p>
+  </body>
 </html>
 </richcontent>
 <font NAME="SansSerif" SIZE="14"/>

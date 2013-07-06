@@ -31,5 +31,9 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1372938534497" ID="ID_1809981817" MODIFIED="1372938536975" POSITION="right" TEXT="/etc/inittab">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 </node>
 </map>
