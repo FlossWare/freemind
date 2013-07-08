@@ -137,7 +137,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1364241250475" ID="ID_1442613364" MODIFIED="1364241253370" POSITION="left" TEXT="ISO">
+<node COLOR="#0033ff" CREATED="1364241250475" ID="ID_1442613364" MODIFIED="1373289865015" POSITION="left" TEXT="ISO">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1364241258692" ID="ID_94313769" MODIFIED="1364241260165" TEXT="dd if=/dev/cdrom of=/path/to/cdcopy.iso">
@@ -149,6 +149,14 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 <node COLOR="#00b439" CREATED="1364241263771" ID="ID_617637091" MODIFIED="1364241289492" TEXT="dd if=/dev/dvdrw of=/path/to/dvdrw.iso">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1373289852957" ID="ID_1088105537" MODIFIED="1373289855870" POSITION="left" TEXT="Release">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1373289860580" ID="ID_1805302200" MODIFIED="1373289863802" TEXT="/etc/system-release">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

@@ -122,10 +122,13 @@
 <node COLOR="#0033ff" CREATED="1373125790624" ID="ID_1895153960" MODIFIED="1373125793795" POSITION="right" TEXT="synergy">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1373125796323" ID="ID_1366040906" MODIFIED="1373125799581" TEXT="/etc/kde/kdm/Xsetup">
+<node COLOR="#00b439" CREATED="1373125796323" ID="ID_1366040906" MODIFIED="1373290037266" TEXT="/etc/kde/kdm/Xsetup">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1373125836166" ID="ID_1041232985" MODIFIED="1373125842303">
+<node COLOR="#990000" CREATED="1373290021919" ID="ID_599692112" MODIFIED="1373290039599" TEXT="server">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1373125836166" ID="ID_1041232985" MODIFIED="1373290041923">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -156,9 +159,32 @@
       fi
     </p>
   </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1373290030020" ID="ID_818034674" MODIFIED="1373290043644" TEXT="client">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1373290058365" ID="ID_1822873186" MODIFIED="1373290065650">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      /usr/bin/killall synergyc
+    </p>
+    <p>
+      sleep 1
+    </p>
+    <p>
+      /usr/bin/synergyc sfloess-laptop
+    </p>
+  </body>
 </html>
 </richcontent>
-<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 </node>
