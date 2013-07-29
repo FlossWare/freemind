@@ -132,6 +132,20 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1374439800128" ID="ID_271369817" MODIFIED="1374439802481" POSITION="right" TEXT="CDI">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1374439804136" ID="ID_1046696268" MODIFIED="1374439814604" TEXT="Must have a beans.xml">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1374439815372" ID="ID_1856522873" MODIFIED="1374439818811" TEXT="WEB-INF">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1374439819297" ID="ID_479033481" MODIFIED="1374439822448" TEXT="META-INF">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1261447317643" HGAP="18" ID="ID_114209216" MODIFIED="1269704678205" POSITION="left" TEXT="Web Service" VSHIFT="-39">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
