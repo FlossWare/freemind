@@ -97,6 +97,117 @@
 <node COLOR="#990000" CREATED="1375103762369" ID="ID_400924432" MODIFIED="1375103789758" TEXT="${JBOSS_HOME/bin/standalone.sh -c [config]">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+<node COLOR="#990000" CREATED="1376391042034" ID="ID_1326507653" MODIFIED="1376391043323" TEXT="JMS">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1376391374175" ID="ID_1438425312" MODIFIED="1376391381476" TEXT="standalone-full.xml ">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1375462734008" ID="ID_403279046" MODIFIED="1376391251174">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;subsystem xmlns=&quot;urn:jboss:domain:messaging:1.3&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&lt;hornetq-server&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;...
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;jms-destinations&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&lt;jms-queue name=&quot;<i><b>QueueName1</b></i>&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;entry name=&quot;queue/<i><b>QueueName1</b></i>&quot;/&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;entry name=&quot;java:jboss/exported/jms/queue/<i><b>QueueName1</b></i>&quot;/&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&lt;/jms-queue&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;...
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&lt;jms-queue name=&quot;<i><b>QueueNameN</b></i>&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;entry name=&quot;queue/<i><b>QueueNameN</b></i>&quot;/&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;entry name=&quot;java:jboss/exported/jms/queue/QueueNameN<i><b>QueueNameN</b></i>/&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&lt;/jms-queue&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;/jms-destinations&gt;
+    </p>
+    <p>
+      &#160;&#160;&lt;/hornetq-server&gt;
+    </p>
+    <p>
+      &lt;/subsystem&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1376679688272" ID="ID_48654858" MODIFIED="1376679690145" TEXT="Logging">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1376679694652" ID="ID_1346383326" MODIFIED="1376679701086" TEXT="standalone*.xml">
+<node COLOR="#111111" CREATED="1376679754113" ID="ID_908057370" MODIFIED="1376679822912">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;profile&gt;
+    </p>
+    <p>
+      &#160;&#160;&lt;subsystem xmlns=&quot;urn:jboss:domain:logging:1.2&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;console-handler name=&quot;CONSOLE&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&lt;level name=&quot;<b><i>ALL</i></b>&quot;/&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;...
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;/console-handler&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;...
+    </p>
+    <p>
+      &#160;&#160;&lt;/subsystem&gt;
+    </p>
+    <p>
+      &lt;/profile&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
