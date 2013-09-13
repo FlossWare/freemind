@@ -28,5 +28,29 @@
 <icon BUILTIN="full-4"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1378903288146" ID="ID_1525540278" MODIFIED="1378903291729" POSITION="right" TEXT="Clients">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1378903293228" ID="ID_938501253" MODIFIED="1378903300305" TEXT="yum -y install openssh-clients">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1378903313271" ID="ID_925221410" MODIFIED="1378903315535" TEXT="apps">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1378903303804" ID="ID_600762620" MODIFIED="1378903319879" TEXT="ssh">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1378903305950" ID="ID_1900116613" MODIFIED="1378903319881" TEXT="sftp">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1378903310928" ID="ID_1997077070" MODIFIED="1378903319883" TEXT="scp">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 </node>
 </map>

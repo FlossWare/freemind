@@ -158,6 +158,18 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1378568039672" ID="ID_457689265" MODIFIED="1378568041625" TEXT="httpd does not appear to be running and proxying cobbler">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1378568118083" ID="ID_1097087587" MODIFIED="1378568133854" TEXT="/etc/http/conf/httpd.conf">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1378568229263" ID="ID_1618475804" MODIFIED="1378568234442" TEXT="Listen [port]"/>
+</node>
+<node COLOR="#990000" CREATED="1378568242506" ID="ID_1321700375" MODIFIED="1378568244634" TEXT="/etc/cobbler/settings">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1378568246044" ID="ID_1447972358" MODIFIED="1378568257216" TEXT="http_port: [port]"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1267198368495" ID="ID_1253917073" MODIFIED="1269099380575" POSITION="left" TEXT="RPMForge">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -316,8 +328,7 @@
       yum
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
