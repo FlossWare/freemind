@@ -7,10 +7,97 @@
 <node COLOR="#0033ff" CREATED="1379529063576" ID="ID_521036948" MODIFIED="1379529065734" POSITION="right" TEXT="OS">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1379529077662" ID="ID_1192188537" MODIFIED="1379529089218" TEXT="/mnt/HD/HD_a2/fun_plug">
+<node COLOR="#00b439" CREATED="1379529077662" ID="ID_1192188537" MODIFIED="1380462803592" TEXT="/mnt/HD/HD_a2/fun_plug">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1379529250805" ID="ID_742018395" MODIFIED="1379529349149">
+<node COLOR="#990000" CREATED="1380463013176" FOLDED="true" ID="ID_1149204909" MODIFIED="1380463051539" TEXT="Stock">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1380462819424" ID="ID_686224867" MODIFIED="1380462856512">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #!/bin/sh
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Root DISK1
+    </p>
+    <p>
+      export DISK1=/mnt/HD/HD_a2
+    </p>
+    <p>
+      export DISTDIR=squeeze
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      cd $DISK1
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      mount --bind $DISK1 $DISTDIR$DISK1
+    </p>
+    <p>
+      mount --bind / $DISTDIR/mnt/root
+    </p>
+    <p>
+      mount --bind /dev $DISTDIR/dev
+    </p>
+    <p>
+      mount --bind /sys&#160;&#160;$DISTDIR/sys
+    </p>
+    <p>
+      #mount --bind /sys/crfs $DISTDIR/sys/crfs
+    </p>
+    <p>
+      #mount --bind /web $DISTDIR/web
+    </p>
+    <p>
+      mount --bind /proc $DISTDIR/proc
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      cp -f /proc/mounts $DISTDIR/etc/mtab
+    </p>
+    <p>
+      rm -f $DISTDIR/etc/fstab
+    </p>
+    <p>
+      touch $DISTDIR/etc/fstab
+    </p>
+    <p>
+      cp -f /etc/resolv.conf $DISTDIR/etc
+    </p>
+    <p>
+      hostname &gt;$DISTDIR/etc/hostname
+    </p>
+    <p>
+      cp -f /etc/hosts $DISTDIR/etc
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      $DISK1/$DISTDIR/boot/chroot $DISK1/$DISTDIR /boot/linuxrc
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1380463037430" FOLDED="true" ID="ID_1471193738" MODIFIED="1380463052775" TEXT="Generic">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1379529250805" ID="ID_742018395" MODIFIED="1380463025470">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -77,6 +164,9 @@
       cp -f /etc/resolv.conf $DISTDIR/etc
     </p>
     <p>
+      echo &quot;search [<b><i>yourdomainname]</i></b>&quot; &gt;&gt; $DISTDIR/etc/resolv.conf
+    </p>
+    <p>
       hostname &gt;$DISTDIR/etc/hostname
     </p>
     <p>
@@ -89,9 +179,96 @@
       $DISK1/$DISTDIR/usr/sbin/chroot $DISK1/$DISTDIR <b><i>[fully qualified path to script kick things off]</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1380463021038" ID="ID_657860643" MODIFIED="1380463184569" TEXT="FlossWare">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1380462931763" ID="ID_356244836" MODIFIED="1380462940898">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #!/bin/sh
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Root DISK1
+    </p>
+    <p>
+      export DISK1=/mnt/HD/HD_a2
+    </p>
+    <p>
+      export DISTDIR=squeeze
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      cd $DISK1
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      mount --bind $DISK1 $DISTDIR$DISK1
+    </p>
+    <p>
+      mount --bind / $DISTDIR/mnt/root
+    </p>
+    <p>
+      mount --bind /dev $DISTDIR/dev
+    </p>
+    <p>
+      mount --bind /sys&#160;&#160;$DISTDIR/sys
+    </p>
+    <p>
+      #mount --bind /sys/crfs $DISTDIR/sys/crfs
+    </p>
+    <p>
+      #mount --bind /web $DISTDIR/web
+    </p>
+    <p>
+      mount --bind /proc $DISTDIR/proc
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      cp -f /proc/mounts $DISTDIR/etc/mtab
+    </p>
+    <p>
+      rm -f $DISTDIR/etc/fstab
+    </p>
+    <p>
+      touch $DISTDIR/etc/fstab
+    </p>
+    <p>
+      cp -f /etc/resolv.conf $DISTDIR/etc
+    </p>
+    <p>
+      echo &quot;search flossware.com&quot; &gt;&gt; $DISTDIR/etc/resolv.conf
+    </p>
+    <p>
+      hostname &gt; $DISTDIR/etc/hostname
+    </p>
+    <p>
+      cp -f /etc/hosts $DISTDIR/etc
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      $DISK1/$DISTDIR/boot/chroot $DISK1/$DISTDIR /boot/linuxrc
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node COLOR="#990000" CREATED="1379529377883" ID="ID_1112481094" MODIFIED="1379529383707" TEXT="Scripts to kick off">
 <font NAME="SansSerif" SIZE="14"/>
@@ -326,8 +503,7 @@
       /etc/rc.local
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -470,6 +646,62 @@
 </node>
 </node>
 </node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1380462735986" ID="ID_355564253" LINK="https://code.google.com/p/funplug-dns320-dns325/downloads/detail?name=squeeze.tar.gz&amp;can=2&amp;q=" MODIFIED="1380463174112" TEXT="Download">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1380463130104" ID="ID_791991808" MODIFIED="1380463132276" TEXT="Installation">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1380463152641" ID="ID_440151336" MODIFIED="1380463188554" TEXT="Download">
+<arrowlink DESTINATION="ID_355564253" ENDARROW="Default" ENDINCLINATION="94;0;" ID="Arrow_ID_698968473" STARTARROW="None" STARTINCLINATION="94;0;"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#990000" CREATED="1380463209167" ID="ID_152547387" MODIFIED="1380463320360" TEXT="Enable NFS">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+<node COLOR="#111111" CREATED="1380463249216" ID="ID_1128370816" MODIFIED="1380463251993" TEXT="Web UI">
+<node COLOR="#111111" CREATED="1380463253597" ID="ID_109752260" MODIFIED="1380463257287" TEXT="Management"/>
+<node COLOR="#111111" CREATED="1380463258292" ID="ID_1593703756" MODIFIED="1380463263096" TEXT="Account Management"/>
+<node COLOR="#111111" CREATED="1380463263829" ID="ID_1743763664" MODIFIED="1380463267251" TEXT="Network Shares">
+<node COLOR="#111111" CREATED="1380463277909" ID="ID_833023742" MODIFIED="1380463282231" TEXT="Volume 1"/>
+<node COLOR="#111111" CREATED="1380463293145" ID="ID_1441803490" MODIFIED="1380463294100" TEXT="Write"/>
+<node COLOR="#111111" CREATED="1380463299005" ID="ID_1171859847" MODIFIED="1380463306948" TEXT="Do not click root squash"/>
+<node COLOR="#111111" CREATED="1380463307655" ID="ID_1752231677" MODIFIED="1380463313683" TEXT="* as host name"/>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1380463321498" ID="ID_561901802" MODIFIED="1380463351870" TEXT="Unpack downloaded squeeze to /mnt/HD/HD_a2">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#990000" CREATED="1380463156723" ID="ID_740363403" MODIFIED="1380464927793" TEXT="Add fun_plug">
+<arrowlink DESTINATION="ID_657860643" ENDARROW="Default" ENDINCLINATION="314;0;" ID="Arrow_ID_534899642" STARTARROW="None" STARTINCLINATION="314;0;"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-4"/>
+<node COLOR="#111111" CREATED="1380464910397" ID="ID_892474384" MODIFIED="1380464919852" TEXT="chmod 777 fun_plug"/>
+</node>
+<node COLOR="#990000" CREATED="1380463355718" ID="ID_1755887429" MODIFIED="1380463359412" TEXT="Reboot">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-5"/>
+</node>
+<node COLOR="#990000" CREATED="1380463192418" ID="ID_1200495246" LINK="Debian.mm" MODIFIED="1380463463741" TEXT="Update/Upgrade">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-6"/>
+<node COLOR="#111111" CREATED="1380464990338" ID="ID_1552846589" MODIFIED="1380464992820" TEXT="Initial">
+<node COLOR="#111111" CREATED="1380463700142" ID="ID_1609212638" MODIFIED="1380463711783" TEXT="ssh root to nas"/>
+<node COLOR="#111111" CREATED="1380463712485" ID="ID_417857343" MODIFIED="1380463718918" TEXT="default password is dlink"/>
+<node COLOR="#111111" CREATED="1380463844253" ID="ID_1268037551" MODIFIED="1380463851572" TEXT="Set time zone"/>
+<node COLOR="#111111" CREATED="1380463851978" ID="ID_1769173108" MODIFIED="1380463855057" TEXT="Set local"/>
+<node COLOR="#111111" CREATED="1380463857265" ID="ID_67460958" MODIFIED="1380463860942" TEXT="Update"/>
+<node COLOR="#111111" CREATED="1380463861950" ID="ID_1762634438" MODIFIED="1380463863828" TEXT="Upgrade"/>
+<node COLOR="#111111" CREATED="1380463864233" ID="ID_1393692324" MODIFIED="1380463867317" TEXT="Reboot"/>
+<node COLOR="#111111" CREATED="1380463868025" ID="ID_1409956632" MODIFIED="1380463872000" TEXT="Update"/>
+</node>
+<node COLOR="#111111" CREATED="1380465016688" ID="ID_1437321478" MODIFIED="1380465019184" TEXT="apt-get install dnsutils "/>
 </node>
 </node>
 </node>

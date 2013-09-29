@@ -18,6 +18,10 @@
 <node COLOR="#0033ff" CREATED="1270222854170" ID="ID_219128712" LINK="linux/Linux.mm" MODIFIED="1288889330896" POSITION="right" TEXT="Linux">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1380459961076" ID="ID_801737412" LINK="Debian.mm" MODIFIED="1380459961081" TEXT="Debian">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1357485379270" ID="ID_532264394" LINK="mac/Mac.mm" MODIFIED="1357485379273" POSITION="right" TEXT="Mac">
 <edge STYLE="sharp_bezier" WIDTH="8"/>

@@ -101,7 +101,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1376391374175" ID="ID_1438425312" MODIFIED="1376391381476" TEXT="standalone-full.xml ">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1375462734008" ID="ID_403279046" MODIFIED="1376391251174">
+<node COLOR="#111111" CREATED="1375462734008" ID="ID_403279046" MODIFIED="1380375268104">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -123,10 +123,10 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&lt;jms-queue name=&quot;<i><b>QueueName1</b></i>&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;entry name=&quot;queue/<i><b>QueueName1</b></i>&quot;/&gt;
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;entry name=&quot;queue/<b><i>QueueName1</i></b>&quot;/&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;entry name=&quot;java:jboss/exported/jms/queue/<i><b>QueueName1</b></i>&quot;/&gt;
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;entry name=&quot;java:jboss/exported/jms/queue/<b><i>QueueName1</i></b>&quot;/&gt;
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&lt;/jms-queue&gt;
@@ -141,13 +141,13 @@
       
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;jms-queue name=&quot;<i><b>QueueNameN</b></i>&quot;&gt;
+      &#160;&#160;&#160;&#160;&#160;&#160;&lt;jms-queue name=&quot;<b><i>QueueNameN</i></b>&quot;&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;entry name=&quot;queue/<i><b>QueueNameN</b></i>&quot;/&gt;
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;entry name=&quot;queue/<b><i>QueueNameN</i></b>&quot;/&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;entry name=&quot;java:jboss/exported/jms/queue/QueueNameN<i><b>QueueNameN</b></i>/&gt;
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;entry name=&quot;java:jboss/exported/jms/queue/<b><i>QueueNameN</i></b>/&gt;
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&lt;/jms-queue&gt;
@@ -162,7 +162,8 @@
       &lt;/subsystem&gt;
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
