@@ -59,6 +59,14 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1380632938152" ID="ID_1342641388" MODIFIED="1380632939620" POSITION="right" TEXT="rsync">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1380632941195" ID="ID_1469336021" MODIFIED="1380632945399" TEXT="--chmod=a+rwx,g+rwx,o-wx">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1323704381319" ID="ID_419899" LINK="Screen.mm" MODIFIED="1325522511921" POSITION="right" TEXT="Screen">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

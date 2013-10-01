@@ -15,7 +15,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
-<node COLOR="#0033ff" CREATED="1270222854170" ID="ID_219128712" LINK="linux/Linux.mm" MODIFIED="1288889330896" POSITION="right" TEXT="Linux">
+<node COLOR="#0033ff" CREATED="1270222854170" FOLDED="true" ID="ID_219128712" LINK="linux/Linux.mm" MODIFIED="1380640806796" POSITION="right" TEXT="Linux">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1380459961076" ID="ID_801737412" LINK="Debian.mm" MODIFIED="1380459961081" TEXT="Debian">
@@ -32,6 +32,10 @@
 <font NAME="SansSerif" SIZE="18"/>
 </node>
 <node COLOR="#0033ff" CREATED="1269099162834" ID="ID_48147952" LINK="windows/Windows.mm" MODIFIED="1352747990399" POSITION="right" TEXT="Windows">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1380628333452" ID="ID_832247259" LINK="Chrome.mm" MODIFIED="1380628333455" POSITION="right" TEXT="Chrome">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>

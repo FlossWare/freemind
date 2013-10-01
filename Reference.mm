@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1288808822794" ID="ID_1348475184" MODIFIED="1378209792469" TEXT="Reference">
+<node COLOR="#000000" CREATED="1288808822794" ID="ID_1348475184" MODIFIED="1380536293224" TEXT="www.ya">
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
 <node COLOR="#0033ff" CREATED="1367432365582" ID="ID_1534458971" MODIFIED="1367432471147" POSITION="right" TEXT="9&apos;3&quot; x 6&apos;7&quot;">

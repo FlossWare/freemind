@@ -648,7 +648,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1380462735986" ID="ID_355564253" LINK="https://code.google.com/p/funplug-dns320-dns325/downloads/detail?name=squeeze.tar.gz&amp;can=2&amp;q=" MODIFIED="1380463174112" TEXT="Download">
+<node COLOR="#00b439" CREATED="1380462735986" ID="ID_355564253" LINK="https://code.google.com/p/funplug-dns320-dns325/downloads/detail?name=squeeze.tar.gz&amp;can=2&amp;q=" MODIFIED="1380555217709" TEXT="Download">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -702,12 +702,105 @@
 <node COLOR="#111111" CREATED="1380463868025" ID="ID_1409956632" MODIFIED="1380463872000" TEXT="Update"/>
 </node>
 <node COLOR="#111111" CREATED="1380465782422" ID="ID_1956325289" MODIFIED="1380465785808" TEXT="apt-get install">
-<node COLOR="#111111" CREATED="1380465016688" ID="ID_1437321478" MODIFIED="1380465794704" TEXT="dnsutils "/>
+<node COLOR="#111111" CREATED="1380465016688" ID="ID_1437321478" MODIFIED="1380465794704" TEXT="dnsutils ">
+<node COLOR="#111111" CREATED="1380541454233" ID="ID_933607760" MODIFIED="1380541457122" TEXT="nslookup"/>
+</node>
+<node COLOR="#111111" CREATED="1380545068572" ID="ID_1794291371" MODIFIED="1380633909416" TEXT="fetchmail"/>
+<node COLOR="#111111" CREATED="1380545487263" ID="ID_1813382075" MODIFIED="1380633909419" TEXT="rsync"/>
+<node COLOR="#111111" CREATED="1380633887427" ID="ID_161803862" MODIFIED="1380633909423" TEXT="alpine"/>
+<node COLOR="#111111" CREATED="1380635523910" ID="ID_993266678" MODIFIED="1380635530303" TEXT="aspell aspell-en"/>
+<node COLOR="#111111" CREATED="1380633888788" ID="ID_1235141635" MODIFIED="1380633909442" TEXT="vim"/>
 <node COLOR="#111111" CREATED="1380465795282" ID="ID_290703279" MODIFIED="1380465797516" TEXT="ntp">
 <node COLOR="#111111" CREATED="1380465807946" ID="ID_361491127" MODIFIED="1380465810542" TEXT="/etc/ntp.conf"/>
 <node COLOR="#111111" CREATED="1380465811006" ID="ID_1635473753" MODIFIED="1380465818268" TEXT="broadcast 192.168.168.255"/>
 </node>
 <node COLOR="#111111" CREATED="1380466508500" ID="ID_1943003970" MODIFIED="1380466511101" TEXT="ntpdate"/>
+<node COLOR="#111111" CREATED="1380541487406" ID="ID_628646267" MODIFIED="1380545068204" TEXT="nis">
+<node COLOR="#111111" CREATED="1380638594052" ID="ID_458109456" MODIFIED="1380638596319" TEXT="/etc/default/nis">
+<node COLOR="#111111" CREATED="1380638601714" ID="ID_366240363" MODIFIED="1380638726878">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      NISSERVER=true
+    </p>
+    <p>
+      NISCLIENT=false
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1380545141732" ID="ID_26478271" MODIFIED="1380545149744" TEXT="dovecot-pop3d dovecot-common"/>
+</node>
+<node COLOR="#111111" CREATED="1380635754802" ID="ID_1875065796" MODIFIED="1380635762879" TEXT="/boot/linuxrc">
+<node COLOR="#111111" CREATED="1380636702745" ID="ID_91751665" MODIFIED="1380636735503">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # PTYs
+    </p>
+    <p>
+      cd dev
+    </p>
+    <p>
+      MAKEDEV ptyp
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # FlossWare
+    </p>
+    <p>
+      MAKEDEV ttyp
+    </p>
+    <p>
+      MAKEDEV ptyp
+    </p>
+    <p>
+      chmod 666 /dev/*ty*
+    </p>
+    <p>
+      chown root:tty /dev/*ty*
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1380635769359" ID="ID_891307323" MODIFIED="1380636178286">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # FlossWare starts
+    </p>
+    <p>
+      /etc/init.d/rsyslog start
+    </p>
+    <p>
+      /etc/init.d/nis start
+    </p>
+    <p>
+      /etc/init.d/ntp start
+    </p>
+    <p>
+      /etc/init.d/postfix start
+    </p>
+    <p>
+      /etc/init.d/dovecot start
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 </node>
