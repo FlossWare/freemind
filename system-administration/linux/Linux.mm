@@ -182,5 +182,21 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1381459982745" ID="ID_1640276757" MODIFIED="1381459986660" POSITION="left" TEXT="WOL">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1381460004469" ID="ID_1710754817" MODIFIED="1381460007635" TEXT="Fedora">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1381460018560" ID="ID_132523523" MODIFIED="1381460021135" TEXT=" /etc/sysconfig/network-scripts/ifcfg-em1">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1381460027254" ID="ID_986522052" MODIFIED="1381460029247" TEXT="ETHTOOL_OPTIONS=&quot;wol g&quot;"/>
+</node>
+<node COLOR="#990000" CREATED="1381460048846" ID="ID_1415491241" MODIFIED="1381460055945" TEXT="/etc/rc.d/rc.local">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1381460060263" ID="ID_1491041314" MODIFIED="1381460062586" TEXT="/usr/sbin/ethtool -s em1 wol g"/>
+</node>
+</node>
+</node>
 </node>
 </map>
