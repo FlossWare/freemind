@@ -39,5 +39,25 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1382055611825" ID="ID_1198250793" MODIFIED="1382055616428" POSITION="right" TEXT="Query contents of an RPM">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1382055631268" ID="ID_1847324320" MODIFIED="1382055670960" TEXT="rpm -qpl [rpm file name]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1382055682279" ID="ID_1119236816" MODIFIED="1382055684966" TEXT="rpm -qpl zlib-1.2.3-3.i386.rpm">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1382102279528" ID="ID_1859218263" MODIFIED="1382102283834" POSITION="right" TEXT="Query an RPM for its version">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1382102286170" ID="ID_1588577769" MODIFIED="1382102296010" TEXT="rpm -qpv [rpm file name]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>

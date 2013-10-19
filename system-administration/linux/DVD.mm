@@ -204,5 +204,30 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1381498440419" ID="ID_1726897025" MODIFIED="1381498442044" POSITION="right" TEXT="RHEL">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1381498445059" ID="ID_1516418719" MODIFIED="1381498448132" TEXT="DVD::Rip">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1381498449378" ID="ID_1894337145" MODIFIED="1381498463848">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cd /usr/local/lib64/perl5
+    </p>
+    <p>
+      ln -s /usr/lib/perl5/vendor_perl/5.8.8/Video
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 </node>
 </map>

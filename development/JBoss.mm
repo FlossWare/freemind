@@ -162,8 +162,7 @@
       &lt;/subsystem&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -241,12 +240,16 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1379526623846" ID="ID_833090950" MODIFIED="1379526624849" TEXT="JMS">
+<node COLOR="#990000" CREATED="1379526623846" ID="ID_833090950" MODIFIED="1381861827459" TEXT="JMS">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1379526637000" ID="ID_1456223088" MODIFIED="1379526669327" TEXT="cd /subsystem=messaging/hornetq-server=default/jms-queue/[queue name]"/>
 <node COLOR="#111111" CREATED="1379526672565" ID="ID_1114112932" MODIFIED="1379526678128" TEXT="Dump contents of queue">
 <node COLOR="#111111" CREATED="1379526680064" ID="ID_1005111846" MODIFIED="1379526689746" TEXT=":list-messages-as-json"/>
 </node>
+</node>
+<node COLOR="#990000" CREATED="1381861828909" ID="ID_1568034623" MODIFIED="1381861832390" TEXT="Logging">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1381861834836" ID="ID_1692929118" MODIFIED="1381861846499" TEXT="/subsystem=logging:read-resource(recursive=true)"/>
 </node>
 </node>
 </node>
