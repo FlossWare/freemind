@@ -31,6 +31,18 @@
 <edge COLOR="#808080" STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1382808147415" ID="ID_1891840399" MODIFIED="1382808149132" POSITION="left" TEXT="no-ip">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1382808150550" ID="ID_981334866" MODIFIED="1382808154076" TEXT="flossware.no-ip.org">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1382808155090" ID="ID_1141396360" MODIFIED="1382808159950" TEXT="flossware@gmail.com">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1269099162834" ID="ID_48147952" LINK="windows/Windows.mm" MODIFIED="1352747990399" POSITION="right" TEXT="Windows">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
