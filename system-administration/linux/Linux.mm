@@ -39,6 +39,18 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1386513923177" ID="ID_133353271" MODIFIED="1386513931539" POSITION="right" TEXT="Network Manager">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1386513940841" ID="ID_1283679046" MODIFIED="1386513946952" TEXT="nm-applet">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1386513960789" ID="ID_1334758311" MODIFIED="1386513963614" TEXT="nm-connection-editor">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1305636456492" ID="ID_728782428" LINK="NX.mm" MODIFIED="1325522483167" POSITION="right" TEXT="NX">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

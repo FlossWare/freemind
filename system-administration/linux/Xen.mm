@@ -140,5 +140,16 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1387296666581" ID="ID_1872438747" MODIFIED="1387296670836" POSITION="right" TEXT="CentOS 6.x">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1387296672564" ID="ID_279233932" MODIFIED="1387296678401" TEXT="grub-bootxen.sh">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1387296682351" ID="ID_1155533640" MODIFIED="1387296691918" TEXT="Ensures kernel is loaded with correct Xen work.">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 </node>
 </map>

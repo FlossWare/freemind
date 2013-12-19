@@ -233,7 +233,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1379526616468" ID="ID_886754501" MODIFIED="1379526617918" TEXT="Connecting">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1379515193639" ID="ID_462335781" MODIFIED="1379526622167" TEXT="$JBOSS_HOME/bin/jboss-cli.sh --connect controller=[ip address/host name]:[port]">
+<node COLOR="#111111" CREATED="1379515193639" ID="ID_462335781" MODIFIED="1386192667342" TEXT="$JBOSS_HOME/bin/jboss-cli.sh --connect controller=[ip address/host name]:[port]">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#111111" CREATED="1379515919528" ID="ID_967106701" MODIFIED="1379526622169" TEXT="/usr/share/jbossas/bin/jboss-cli.sh --connect controller=10.7.24.142:9999">
@@ -251,6 +251,10 @@
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1381861834836" ID="ID_1692929118" MODIFIED="1381861846499" TEXT="/subsystem=logging:read-resource(recursive=true)"/>
 </node>
+</node>
+<node COLOR="#00b439" CREATED="1386194212662" ID="ID_437011255" MODIFIED="1386194218623" TEXT="tcpdump s0">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>
