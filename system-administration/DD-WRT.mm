@@ -59,6 +59,42 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1387899637196" ID="ID_951477651" MODIFIED="1387899643697" POSITION="right" TEXT="Building toolchain">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1387899757665" ID="ID_1939462838" LINK="http://basmaf.com/howto/create-ipk-package-for-dd-wrt/" MODIFIED="1387899777625" TEXT="Simple Directions">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1387901759908" ID="ID_1466358782" MODIFIED="1387901765748" TEXT="4 Get the missing utils">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1387901782382" ID="ID_1983508143" MODIFIED="1387901861235">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cd ~/optware/ddwrt
+    </p>
+    <p>
+      wget -P ~/optware/ddwrt/downloads <i><b>http://ftp.gnu.org/gnu/binutils/binutils-2.17a.tar.bz2</b></i>
+    </p>
+    <p>
+      wget -P ~/optware/ddwrt/downloads http://ftp.gnu.org/gnu/gdb/gdb-6.5a.tar.bz2
+    </p>
+    <p>
+      mv ~/optware/ddwrt/downloads/gdb-6.5a.tar.bz2 ~/optware/ddwrt/downloads/gdb-6.5.tar.bz2
+    </p>
+    <p>
+      <b><i>mv ~/optware/ddwrt/downloads/binutils-2.17a.tar.bz2 ~/optware/ddwrt/downloads/binutils-2.17.50.0.8.tar.bz2</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1383573797498" ID="ID_307451124" LINK="http://www.dd-wrt.com/wiki/index.php/Hardware" MODIFIED="1383573834997" POSITION="left" TEXT="Hardware">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
