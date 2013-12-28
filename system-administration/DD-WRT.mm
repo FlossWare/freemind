@@ -62,12 +62,15 @@
 <node COLOR="#0033ff" CREATED="1387899637196" ID="ID_951477651" MODIFIED="1387899643697" POSITION="right" TEXT="Building toolchain">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1387899757665" ID="ID_1939462838" LINK="http://basmaf.com/howto/create-ipk-package-for-dd-wrt/" MODIFIED="1387899777625" TEXT="Simple Directions">
+<node COLOR="#00b439" CREATED="1388077109485" ID="ID_272522556" MODIFIED="1388077122494" TEXT="Directions">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1387901759908" ID="ID_1466358782" MODIFIED="1387901765748" TEXT="4 Get the missing utils">
+<node COLOR="#990000" CREATED="1387899757665" ID="ID_1939462838" LINK="http://basmaf.com/howto/create-ipk-package-for-dd-wrt/" MODIFIED="1388077128440" TEXT="Simple">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1387901782382" ID="ID_1983508143" MODIFIED="1387901861235">
+<node COLOR="#111111" CREATED="1387901759908" ID="ID_1466358782" MODIFIED="1388077116697" TEXT="4 Get the missing utils">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1387901782382" ID="ID_1983508143" MODIFIED="1387916759858">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -86,11 +89,63 @@
       mv ~/optware/ddwrt/downloads/gdb-6.5a.tar.bz2 ~/optware/ddwrt/downloads/gdb-6.5.tar.bz2
     </p>
     <p>
-      <b><i>mv ~/optware/ddwrt/downloads/binutils-2.17a.tar.bz2 ~/optware/ddwrt/downloads/binutils-2.17.50.0.8.tar.bz2</i></b>
+      <i><b>mv ~/optware/ddwrt/downloads/binutils-2.17a.tar.bz2 ~/optware/ddwrt/downloads/binutils-2.17.50.0.8.tar.bz2 </b></i>
+    </p>
+    <p>
+      <i><b>ln -s ~/optware/ddwrt/toolchain/buildroot/toolchain_build_mipsel/binutils-2.17 ~/optware/ddwrt/toolchain/buildroot/toolchain_build_mipsel/binutils-2.17.50.0.8</b></i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1388077073610" ID="ID_1512024140" LINK="http://www.openfsg.com/index.php/Crosscompile_with_Optware" MODIFIED="1388077125772" TEXT="Full">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1388077399652" ID="ID_316796757" MODIFIED="1388077480954" TEXT="svn co http://svn.nslu2-linux.org/svnroot/optware/trunk optware">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1388077408004" ID="ID_1565689681" MODIFIED="1388077485506" TEXT="cd optware">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1388077414597" ID="ID_740429515" MODIFIED="1388077490803" TEXT="make ddwrt-target">
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#111111" CREATED="1388077421166" ID="ID_1750286778" MODIFIED="1388077494115" TEXT="cd ddwrt">
+<icon BUILTIN="full-4"/>
+</node>
+<node COLOR="#111111" CREATED="1388077377273" ID="ID_1524118425" MODIFIED="1388077499583" TEXT="Apps">
+<icon BUILTIN="full-5"/>
+<node COLOR="#111111" CREATED="1388077155664" ID="ID_1410340061" MODIFIED="1388077166468" TEXT="make [app]"/>
+<node COLOR="#111111" CREATED="1388077180947" ID="ID_989183686" MODIFIED="1388077189406" TEXT="make [app]-dirclean"/>
+<node COLOR="#111111" CREATED="1388077167232" ID="ID_240632334" MODIFIED="1388077173500" TEXT="make [app]-ipk"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1388077138209" ID="ID_1824271548" MODIFIED="1388077139995" TEXT="Corrections">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1388076953922" ID="ID_629759202" MODIFIED="1388077142696" TEXT="pcre">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1388077007559" ID="ID_1448153067" MODIFIED="1388077142697" TEXT="Wrong version">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1388077039150" ID="ID_1793792390" MODIFIED="1388077042222" TEXT="ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre"/>
+</node>
+<node COLOR="#111111" CREATED="1388076998641" ID="ID_367666631" MODIFIED="1388077142697" TEXT="make/pcre.mk">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1388077018291" ID="ID_181330368" MODIFIED="1388077032148">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      PCRE_VERSION=<b>8.32</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 </node>

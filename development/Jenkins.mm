@@ -27,5 +27,44 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1388168738004" ID="ID_1561826340" MODIFIED="1388168747982" POSITION="right" TEXT="Build Maven Repo">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1387906977369" ID="ID_808669744" MODIFIED="1388168804740" POSITION="left" TEXT="Adjust memory">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1387907005221" ID="ID_1464650096" MODIFIED="1388168804740" TEXT="Configuration">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#00b439" CREATED="1387906989283" ID="ID_1215629246" MODIFIED="1388168804741" TEXT="Manage Jenkins">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#00b439" CREATED="1387906995454" ID="ID_890539461" MODIFIED="1388168804742" TEXT="Global Properties">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-3"/>
+<node COLOR="#990000" CREATED="1387907096473" ID="ID_1157408525" MODIFIED="1388168804743" TEXT="Click Environment variables">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1387907112024" ID="ID_1527695419" MODIFIED="1388168804744" TEXT="List of key-value pairs">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-4"/>
+<node COLOR="#990000" CREATED="1387907130612" ID="ID_473344163" MODIFIED="1388168804745" TEXT="name">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1387907135281" ID="ID_735261825" MODIFIED="1387907139284" TEXT="MAVEN_OPTS"/>
+</node>
+<node COLOR="#990000" CREATED="1387907142912" ID="ID_750160117" MODIFIED="1388168804745" TEXT="value">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1387907146673" ID="ID_439755444" MODIFIED="1387907152175" TEXT="-Xmx512m -XX:MaxPermSize=512m"/>
+</node>
+</node>
+</node>
 </node>
 </map>
