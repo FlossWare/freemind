@@ -59,6 +59,18 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1388611021781" ID="ID_927250594" MODIFIED="1388611026505" POSITION="right" TEXT="Atheros">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1388611029344" ID="ID_895356268" MODIFIED="1388611036711" TEXT="Wireless">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1388611038077" ID="ID_431382194" MODIFIED="1388611041526" TEXT="Basic Settings">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1388611044392" ID="ID_1125513170" MODIFIED="1388611060515" TEXT="Default GW Mode = Auto (DHCP)"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1387899637196" ID="ID_951477651" MODIFIED="1387899643697" POSITION="right" TEXT="Building toolchain">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
