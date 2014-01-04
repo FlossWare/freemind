@@ -4,6 +4,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<node COLOR="#0033ff" CREATED="1388759820088" ID="ID_561429259" LINK="Windows%208.mm" MODIFIED="1388759820097" POSITION="right" TEXT="Windows 8">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1269953067286" ID="ID_133343616" LINK="xp/XP.mm" MODIFIED="1288889582545" POSITION="right" TEXT="XP">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
