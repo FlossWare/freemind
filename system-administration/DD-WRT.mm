@@ -70,6 +70,40 @@
 <node COLOR="#111111" CREATED="1388611044392" ID="ID_1125513170" MODIFIED="1388611060515" TEXT="Default GW Mode = Auto (DHCP)"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1388856150644" ID="ID_1448315920" MODIFIED="1388856152927" TEXT="opkg">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1388856154727" ID="ID_1164706981" MODIFIED="1388856157503" TEXT="opkg.conf">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1388856158403" ID="ID_1102803121" MODIFIED="1388856163312" TEXT="Can have two repos">
+<node COLOR="#111111" CREATED="1388856176999" ID="ID_977442745" MODIFIED="1388856190311">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>src/gz snapshots http://downloads.openwrt.org/snapshots/trunk/ar71xx/packages </i></b>
+    </p>
+    <p>
+      <b><i>src/gz host-1 http://host-1/packages</i></b>
+    </p>
+    <p>
+      dest root /opt
+    </p>
+    <p>
+      dest ram /opt/tmp
+    </p>
+    <p>
+      lists_dir ext /opt/tmp/var/opkg-lists
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1387899637196" ID="ID_951477651" MODIFIED="1387899643697" POSITION="right" TEXT="Building toolchain">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -80,6 +114,7 @@
 <node COLOR="#990000" CREATED="1388514410391" ID="ID_1798871342" MODIFIED="1388514418554" TEXT="Find target list">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1388514419957" ID="ID_1729345034" MODIFIED="1388514423242" TEXT="scripts/optware-check-package.pl"/>
+<node COLOR="#111111" CREATED="1388765923041" ID="ID_313761128" MODIFIED="1388765926082" TEXT="openwrt-atheros"/>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1388077109485" ID="ID_272522556" MODIFIED="1388077122494" TEXT="Directions">
