@@ -119,6 +119,17 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1389365140839" ID="ID_1470621551" MODIFIED="1389365145937" POSITION="right" TEXT="Enable TCP listening">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1389365152987" ID="ID_1679284480" MODIFIED="1389365155694" TEXT="/etc/kde/kdm/kdmrc">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1389365157638" ID="ID_925288919" MODIFIED="1389365161380" TEXT="Remove &quot;nolisten&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1373125790624" ID="ID_1895153960" MODIFIED="1373125793795" POSITION="right" TEXT="synergy">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -182,8 +193,7 @@
       /usr/bin/synergyc sfloess-laptop
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

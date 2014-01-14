@@ -59,5 +59,13 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1389711431406" ID="ID_1433962302" MODIFIED="1389711439044" POSITION="right" TEXT="Find package a file belongs to">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1389711440092" ID="ID_663234849" MODIFIED="1389711451285" TEXT="rpm -qf [path to file/[file name]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>

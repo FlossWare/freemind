@@ -150,6 +150,23 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1389120680184" ID="ID_1201227542" MODIFIED="1389120681147" TEXT="Cobbler">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1389120682889" ID="ID_567569836" MODIFIED="1389120689893" TEXT="Disable reboot for VMs">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1389120691609" ID="ID_1846247604" MODIFIED="1389120699183" TEXT="xl delete [vm name]">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1389120718075" ID="ID_450224368" MODIFIED="1389120733405" TEXT="Note:  not &quot;xm&quot; but &quot;xl&quot;"/>
+</node>
+<node COLOR="#990000" CREATED="1389120699704" ID="ID_1055488358" MODIFIED="1389120702699" TEXT="Create config file">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1389120703825" ID="ID_1818198942" MODIFIED="1389120712313" TEXT="xm create [vm name]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 </node>
 </map>
