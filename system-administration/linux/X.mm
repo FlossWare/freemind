@@ -35,5 +35,13 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1390138545658" ID="ID_1092929397" MODIFIED="1390138576793" POSITION="right" TEXT="Xdmx :2 -display [host 1]:0 -display [host 2]:0 -ignorebadfontpaths +xinerama -noglxproxy">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1390145669182" ID="ID_780935057" MODIFIED="1390146074274" POSITION="right" TEXT="xinit -- /usr/bin/Xdmx :1 -display [host 1]:0 -display [host 2]:0 +xinerama -noglxproxy ">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 </node>
 </map>

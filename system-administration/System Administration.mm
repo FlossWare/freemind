@@ -15,6 +15,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1390306968365" ID="ID_211249819" LINK="OpenWRT.mm" MODIFIED="1390306968369" POSITION="right" TEXT="OpenWRT">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1270222854170" ID="ID_219128712" LINK="linux/Linux.mm" MODIFIED="1385584487833" POSITION="right" TEXT="Linux">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
