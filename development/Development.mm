@@ -64,5 +64,21 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1390751793153" ID="ID_1173335635" MODIFIED="1390751796369" POSITION="left" TEXT="Platform">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1364908138303" ID="ID_388302992" LINK="Open%20Shift.mm" MODIFIED="1390751807587" TEXT="Open Shift">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1288808857697" ID="ID_1008189407" LINK="salesforce/Salesforce.mm" MODIFIED="1390751852297" TEXT="Salesforce">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1292849043177" ID="ID_614060217" LINK="SAP.mm" MODIFIED="1390751852303" TEXT="SAP">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>

@@ -55,10 +55,6 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
-<node COLOR="#0033ff" CREATED="1364908138303" ID="ID_388302992" LINK="Open%20Shift.mm" MODIFIED="1364908138304" POSITION="right" TEXT="Open Shift">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-</node>
 <node COLOR="#0033ff" CREATED="1354751851875" ID="ID_256312895" LINK="Postfix.mm" MODIFIED="1354751851877" POSITION="right" TEXT="Postfix">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
