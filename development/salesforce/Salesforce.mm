@@ -19,6 +19,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1390762092050" ID="ID_881282307" LINK="Tooling.mm" MODIFIED="1390762092056" TEXT="Tooling">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1289353978406" ID="ID_382941273" MODIFIED="1289353991323" POSITION="right" TEXT="Client/API">
 <edge STYLE="sharp_bezier" WIDTH="8"/>

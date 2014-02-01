@@ -83,6 +83,16 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1391291551924" ID="ID_1719603" MODIFIED="1391291553461" TEXT="list">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1391291556278" ID="ID_1432170678" MODIFIED="1391291563070" TEXT="mvn help:active-profiles">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1391291563780" ID="ID_1573204271" MODIFIED="1391291570132" TEXT="mvn help:all-profiles">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1357677400097" ID="ID_1808226012" MODIFIED="1357677404574" POSITION="right" TEXT="Include test jars">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
