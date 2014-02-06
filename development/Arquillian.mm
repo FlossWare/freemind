@@ -21,5 +21,23 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1391622932672" ID="ID_129030525" MODIFIED="1391622947323" POSITION="right" TEXT="MavenImporter">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1391622950547" ID="ID_182406837" MODIFIED="1391622956725" TEXT="Experimental">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1391622962867" ID="ID_933124544" MODIFIED="1391622968647" TEXT="Jar/War building from pom">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1391622969988" ID="ID_1721727029" MODIFIED="1391622973684" TEXT="EAR in development">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1391632724073" ID="ID_956379252" MODIFIED="1391632726034" POSITION="right" TEXT="arquillian.debug=true">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 </node>
 </map>
