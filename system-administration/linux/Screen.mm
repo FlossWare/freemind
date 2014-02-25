@@ -42,5 +42,56 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1393347780949" ID="ID_1483299695" MODIFIED="1393347782794" POSITION="right" TEXT="Fedora">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1393347784678" ID="ID_528941973" MODIFIED="1393347788124" TEXT="Titles not showing">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1393347806636" ID="ID_739547256" MODIFIED="1393347810675" TEXT="~/.bashrc">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1393347812157" ID="ID_513639473" MODIFIED="1393347859079">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # .bashrc
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Source global definitions
+    </p>
+    <p>
+      if [ -f /etc/bashrc ]; then
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;. /etc/bashrc
+    </p>
+    <p>
+      fi
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><i>unset PROMPT_COMMAND </i></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ...
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </map>
