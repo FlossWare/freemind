@@ -216,6 +216,13 @@
 <node COLOR="#111111" CREATED="1390052137328" ID="ID_353129999" MODIFIED="1390052143743" TEXT="Upgrades to Fedora 20"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1395842938953" ID="ID_676220910" MODIFIED="1395842949563" TEXT="javaws">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1395842958845" ID="ID_1862723331" MODIFIED="1395842958845" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 </node>
 </map>
