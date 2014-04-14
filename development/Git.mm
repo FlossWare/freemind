@@ -205,5 +205,28 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1397483775960" ID="ID_1418206332" MODIFIED="1397483782435" POSITION="right" TEXT="Checkout">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1397483786339" ID="ID_701016594" MODIFIED="1397483788789" TEXT="remotes">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1397483790690" ID="ID_827464184" MODIFIED="1397483820305" TEXT="git checkout [remote name]/[branch name]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1397170903826" ID="ID_1331083498" MODIFIED="1397170905007" POSITION="right" TEXT="Gerrit">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1397170906550" ID="ID_1219226958" MODIFIED="1397170919478" TEXT="git review -d &lt;review number&gt;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1397170924925" ID="ID_214073387" MODIFIED="1397170930474" TEXT="git review -R">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>
