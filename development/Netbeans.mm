@@ -45,5 +45,21 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1397653492908" ID="ID_1395851928" MODIFIED="1397653505414" POSITION="right" TEXT="Things showing up broken but aren&apos;t">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1397653509516" ID="ID_1244796148" MODIFIED="1397653569230" TEXT="close Netbeans">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1397653515468" ID="ID_50981652" MODIFIED="1397653555559" TEXT="rm -rf ~/.cache/netbeans/8.0/index/*">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1397653556054" ID="ID_317412473" MODIFIED="1397653561515" TEXT="restart Netbeans">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>

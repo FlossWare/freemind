@@ -223,6 +223,82 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1397132236837" ID="ID_791778752" MODIFIED="1397822605344" TEXT="/etc/rc.d/rc.local">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1397822615969" ID="ID_140398114" MODIFIED="1397822626052" TEXT="Run things post init scripts">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1397132234309" ID="ID_680823589" MODIFIED="1397822568385" POSITION="left" TEXT="autofs">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1397304252377" ID="ID_952784219" MODIFIED="1397822568385" TEXT="yum">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1397303966607" ID="ID_453567005" MODIFIED="1397822568385" TEXT="net-utils">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1397304257955" ID="ID_1410785664" MODIFIED="1397822568385" TEXT="config">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1397304079486" ID="ID_776314485" MODIFIED="1397822568385" TEXT="/etc/auto.master">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1397304097524" ID="ID_130781671" MODIFIED="1397304190729">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      /mnt/fileserver /etc/auto.fileserver-misc
+    </p>
+    <p>
+      /home&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/etc/auto.fileserver-home
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1397304118244" ID="ID_1891931455" MODIFIED="1397822568386" TEXT="/etc/auto.fileserver-home">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1397304139508" ID="ID_1943182370" MODIFIED="1397304222701">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #*&#160;&#160;&#160;&#160;-rw,no_root_squash&#160;&#160;fileserver:/mnt/HD/HD_a2/home/&amp;
+    </p>
+    <p>
+      *&#160;&#160;&#160;&#160;fileserver:/mnt/HD/HD_a2/home/&amp;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1397304155541" ID="ID_64942860" MODIFIED="1397822568386" TEXT="/etc/auto.fileserver-misc">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1397304164403" ID="ID_1052102757" MODIFIED="1397304172802">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      media&#160;&#160;&#160;fileserver:/mnt/HD/HD_a2/media
+    </p>
+    <p>
+      shared&#160;&#160;fileserver:/mnt/HD/HD_a2/shared
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>

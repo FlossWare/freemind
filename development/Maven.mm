@@ -102,28 +102,35 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1328277908252" ID="ID_1428229623" MODIFIED="1328277911170" POSITION="right" TEXT="Run a test">
+<node COLOR="#0033ff" CREATED="1397737516822" ID="ID_66488616" MODIFIED="1397737518078" POSITION="right" TEXT="Run">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1328277914064" ID="ID_1149157040" MODIFIED="1328277922057" TEXT="mvn test -Dtest=TheClass">
+<node COLOR="#00b439" CREATED="1328277908252" ID="ID_1428229623" MODIFIED="1397737534472" TEXT="test">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1328277914064" ID="ID_1149157040" MODIFIED="1397737520861" TEXT="mvn test -Dtest=TheClass">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1328277922955" ID="ID_861043761" MODIFIED="1397737520861" TEXT="TheClass minus package">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#00b439" CREATED="1328277922955" ID="ID_861043761" MODIFIED="1328277930894" TEXT="TheClass minus package">
+</node>
+<node COLOR="#990000" CREATED="1397737562084" ID="ID_1796190096" MODIFIED="1397737571162" TEXT="mven test 0D">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1387903806072" ID="ID_1095477044" MODIFIED="1397737544756" TEXT="class">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1387903806072" ID="ID_1095477044" MODIFIED="1387903807958" POSITION="right" TEXT="Run a class">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1387903817106" ID="ID_869198855" MODIFIED="1391373806129" TEXT="mvn exec:java -DmainClass=TheClass">
+<node COLOR="#990000" CREATED="1387903817106" ID="ID_869198855" MODIFIED="1397737523353" TEXT="mvn exec:java -DmainClass=TheClass">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1387903823413" ID="ID_176576825" MODIFIED="1387903827999" TEXT="TheClass minus package">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1387903823413" ID="ID_176576825" MODIFIED="1397737547525" TEXT="TheClass minus package">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1342033371832" ID="ID_904609159" MODIFIED="1342033374830" POSITION="right" TEXT="Dependency tree">

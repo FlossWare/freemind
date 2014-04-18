@@ -211,7 +211,7 @@
 <node COLOR="#00b439" CREATED="1397483786339" ID="ID_701016594" MODIFIED="1397483788789" TEXT="remotes">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1397483790690" ID="ID_827464184" MODIFIED="1397483820305" TEXT="git checkout [remote name]/[branch name]">
+<node COLOR="#990000" CREATED="1397483790690" ID="ID_827464184" MODIFIED="1397486446557" TEXT="git checkout --track [remote name]/[branch name]">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
