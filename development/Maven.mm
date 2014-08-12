@@ -116,7 +116,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1397737562084" ID="ID_1796190096" MODIFIED="1397737571162" TEXT="mven test 0D">
+<node COLOR="#990000" CREATED="1397737562084" ID="ID_1796190096" MODIFIED="1400529374137" TEXT="mvn test -Dtest=TheClass#TheMethod">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>

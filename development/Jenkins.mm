@@ -31,6 +31,29 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1406573284299" ID="ID_413288506" MODIFIED="1406573286651" POSITION="right" TEXT="Building tags">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1407856844655" ID="ID_1313990479" MODIFIED="1407856862062" TEXT="Repositories">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1407856866964" ID="ID_16027433" MODIFIED="1407856872343" TEXT="Refspec">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1407856878282" ID="ID_59611686" MODIFIED="1407856894258" TEXT="+refs/tags/*:refs/remotes/origin/tags/*">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1406573300653" ID="ID_498230587" MODIFIED="1406573304425" TEXT="Branches to build">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1406573305712" ID="ID_720146059" MODIFIED="1406573315132" TEXT="*/tags/*">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1387906977369" ID="ID_808669744" MODIFIED="1388168804740" POSITION="left" TEXT="Adjust memory">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
