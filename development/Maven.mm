@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1299613389747" ID="ID_243187349" LINK="Development.mm" MODIFIED="1299613403655" TEXT="Maven">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -33,25 +33,25 @@
   </head>
   <body>
     <p>
-      &#160;&#160;&#160;&#160;&lt;repositories&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;repositories&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;repository&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;repository&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;id&gt;Id&lt;/id&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;id&gt;Id&lt;/id&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;name&gt;Name&lt;/name&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;name&gt;Name&lt;/name&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;url&gt;URL&lt;/url&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;url&gt;URL&lt;/url&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/repository&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;/repository&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&lt;/repositories&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;/repositories&gt;
     </p>
   </body>
 </html></richcontent>
@@ -63,25 +63,25 @@
   </head>
   <body>
     <p>
-      &#160;&#160;&#160;&#160;&lt;repositories&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;repositories&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;repository&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;repository&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;id&gt;solenopsis-repo&lt;/id&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;id&gt;solenopsis-repo&lt;/id&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;name&gt;Solenopsis Maven Repo&lt;/name&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;name&gt;Solenopsis Maven Repo&lt;/name&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;url&gt;http://maven.solenopsis.org&lt;/url&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;url&gt;http://maven.solenopsis.org&lt;/url&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/repository&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;/repository&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&lt;/repositories&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;/repositories&gt;
     </p>
   </body>
 </html></richcontent>
@@ -191,6 +191,14 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1409749280629" ID="ID_688497459" MODIFIED="1409749291467" POSITION="right" TEXT="Sub-project building">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1409749294124" ID="ID_127003641" MODIFIED="1409749326351" TEXT="mvn -am --projects [proj]/.../[sub-proj N]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1357677400097" ID="ID_1808226012" MODIFIED="1357677404574" POSITION="right" TEXT="Include test jars">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -204,22 +212,22 @@
       &lt;dependencies&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&lt;dependency&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;dependency&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;group&gt;...&lt;/group&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;group&gt;...&lt;/group&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;artifactId&gt;...&lt;/artifactId&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;artifactId&gt;...&lt;/artifactId&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;type&gt;test-jar&lt;/type&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;type&gt;test-jar&lt;/type&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;scope&gt;test&lt;/scope&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;scope&gt;test&lt;/scope&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&lt;/dependency&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;/dependency&gt;
     </p>
     <p>
       &lt;/dependencies&gt;
