@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1270310396325" ID="ID_251328639" LINK="../Reference.mm" MODIFIED="1288889636984" TEXT="System Administration">
 <font NAME="SansSerif" SIZE="20"/>
@@ -37,6 +37,10 @@
 </node>
 <node COLOR="#0033ff" CREATED="1270222924342" ID="ID_883797694" LINK="VirtualBox.mm" MODIFIED="1288889249727" POSITION="left" STYLE="bubble" TEXT="VirtualBox">
 <edge COLOR="#808080" STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1410107118554" ID="ID_1062665547" LINK="Open%20Shift.mm" MODIFIED="1410107118556" POSITION="left" TEXT="Open Shift">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
 <node COLOR="#0033ff" CREATED="1382808147415" ID="ID_1891840399" MODIFIED="1382808149132" POSITION="left" TEXT="no-ip">
