@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1333546065204" ID="ID_389662430" LINK="Development.mm" MODIFIED="1333546086045" TEXT="JBoss">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -90,6 +90,103 @@
 <node COLOR="#990000" CREATED="1374079101151" ID="ID_796363515" MODIFIED="1374079113526" TEXT="${JBOSS_HOME}/standalone/configuration/standalone.xml">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+<node COLOR="#990000" CREATED="1410435950665" ID="ID_444451876" MODIFIED="1410435956761" TEXT="Outbound HTTP calls">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1410435978873" ID="ID_967728174" MODIFIED="1410435987214" TEXT="standalone.xml">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1410435960093" ID="ID_1347168451" MODIFIED="1410436195515">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;logger category=&quot;httpclient.wire.header&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
+    </p>
+    <p>
+      &lt;/logger&gt;
+    </p>
+    <p>
+      &#160;
+    </p>
+    <p>
+      &lt;logger category=&quot;httpclient.wire&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
+    </p>
+    <p>
+      &lt;/logger&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;logger category=&quot;org.apache.http.headers&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
+    </p>
+    <p>
+      &lt;/logger&gt;
+    </p>
+    <p>
+      &#160;
+    </p>
+    <p>
+      &lt;logger category=&quot;org.apache.http.impl.conn&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
+    </p>
+    <p>
+      &lt;/logger&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;logger category=&quot;org.apache.http.impl.client&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
+    </p>
+    <p>
+      &lt;/logger&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;logger category=&quot;org.apache.http&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
+    </p>
+    <p>
+      &lt;/logger&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;logger category=&quot;org.apache.http.client&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
+    </p>
+    <p>
+      &lt;/logger&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1375103752185" ID="ID_842932293" MODIFIED="1375103757973" TEXT="confguration">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -108,55 +205,55 @@
   </head>
   <body>
     <p>
-      &lt;subsystem xmlns=&quot;urn:jboss:domain:messaging:1.3&quot;&gt;
+      &lt;subsystem xmlns="urn:jboss:domain:messaging:1.3"&gt;
     </p>
     <p>
-      &#160;&#160;&lt;hornetq-server&gt;
+      &#xa0;&#xa0;&lt;hornetq-server&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;...
+      &#xa0;&#xa0;&#xa0;&#xa0;...
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&lt;jms-destinations&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;jms-destinations&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;jms-queue name=&quot;<i><b>QueueName1</b></i>&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;jms-queue name="<i><b>QueueName1</b></i>&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;entry name=&quot;queue/<b><i>QueueName1</i></b>&quot;/&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;entry name="queue/<b><i>QueueName1</i></b>"/&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;entry name=&quot;java:jboss/exported/jms/queue/<b><i>QueueName1</i></b>&quot;/&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;entry name="java:jboss/exported/jms/queue/<b><i>QueueName1</i></b>"/&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;/jms-queue&gt;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;...
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;/jms-queue&gt;
     </p>
     <p>
       
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;jms-queue name=&quot;<b><i>QueueNameN</i></b>&quot;&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;...
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;entry name=&quot;queue/<b><i>QueueNameN</i></b>&quot;/&gt;
+      
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;entry name=&quot;java:jboss/exported/jms/queue/<b><i>QueueNameN</i></b>/&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;jms-queue name="<b><i>QueueNameN</i></b>"&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;/jms-queue&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;entry name="queue/<b><i>QueueNameN</i></b>"/&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&lt;/jms-destinations&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;entry name="java:jboss/exported/jms/queue/<b><i>QueueNameN</i></b>/&gt;
     </p>
     <p>
-      &#160;&#160;&lt;/hornetq-server&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;/jms-queue&gt;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;/jms-destinations&gt;
+    </p>
+    <p>
+      &#xa0;&#xa0;&lt;/hornetq-server&gt;
     </p>
     <p>
       &lt;/subsystem&gt;
@@ -179,25 +276,25 @@
       &lt;profile&gt;
     </p>
     <p>
-      &#160;&#160;&lt;subsystem xmlns=&quot;urn:jboss:domain:logging:1.2&quot;&gt;
+      &#xa0;&#xa0;&lt;subsystem xmlns="urn:jboss:domain:logging:1.2"&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&lt;console-handler name=&quot;CONSOLE&quot;&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;console-handler name="CONSOLE"&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;level name=&quot;<b><i>ALL</i></b>&quot;/&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;level name="<b><i>ALL</i></b>"/&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;...
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;...
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&lt;/console-handler&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;/console-handler&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;...
+      &#xa0;&#xa0;&#xa0;&#xa0;...
     </p>
     <p>
-      &#160;&#160;&lt;/subsystem&gt;
+      &#xa0;&#xa0;&lt;/subsystem&gt;
     </p>
     <p>
       &lt;/profile&gt;
@@ -219,7 +316,7 @@
   </head>
   <body>
     <p>
-      <font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span style="line-height: normal; font-weight: normal; font-family: courier new, courier, monaco, monospace, sans-serif; text-indent: 0px; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px" content="text/html; charset=utf-8" http-equiv="content-type">&lt;interfaces&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start" /></font><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&#160;</span><span class="Apple-converted-space">&#160;</span><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&lt;interface name=&quot;management&quot;&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start" /></font><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&#160;&#160;&#160;</span><span class="Apple-converted-space">&#160;</span><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&lt;inet-address value=&quot;${jboss.bind.address.management:127.0.0.1}&quot;/&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start" /></font><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&#160;</span><span class="Apple-converted-space">&#160;</span><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&lt;/interface&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start" /></font><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&#160;</span><span class="Apple-converted-space">&#160;</span><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&lt;interface name=&quot;public&quot;&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start" /></font><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&#160;&#160;&#160;</span><span class="Apple-converted-space">&#160;</span><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&lt;inet-address value=<i>&quot;<em><strong>Your IP Address here</strong></em></i>&quot;/&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start" /></font><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px"><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small">&#160;</font></span><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span class="Apple-converted-space">&#160;</span><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&lt;/interface&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start" /></font><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px"><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small">&#160;</font></span><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span class="Apple-converted-space">&#160;</span><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&lt;interface name=&quot;unsecure&quot;&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start" /></font><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px"><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small">&#160;&#160;&#160;</font></span><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span class="Apple-converted-space">&#160;</span><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&lt;inet-address value=&quot;${jboss.bind.address.unsecure:127.0.0.1}&quot;/&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start" /></font><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px"><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small">&#160;</font></span><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span class="Apple-converted-space">&#160;</span><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&lt;/interface&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start" /></font><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px"><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small">&lt;/interfaces&gt;</font></span>
+      <font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span style="line-height: normal; font-weight: normal; font-family: courier new, courier, monaco, monospace, sans-serif; text-indent: 0px; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px" content="text/html; charset=utf-8" http-equiv="content-type">&lt;interfaces&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start"/></font><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&#xa0;</span><span class="Apple-converted-space">&#xa0;</span><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&lt;interface name="management"&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start"/></font><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&#xa0;&#xa0;&#xa0;</span><span class="Apple-converted-space">&#xa0;</span><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&lt;inet-address value="${jboss.bind.address.management:127.0.0.1}"/&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start"/></font><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&#xa0;</span><span class="Apple-converted-space">&#xa0;</span><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&lt;/interface&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start"/></font><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&#xa0;</span><span class="Apple-converted-space">&#xa0;</span><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&lt;interface name="public"&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start"/></font><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&#xa0;&#xa0;&#xa0;</span><span class="Apple-converted-space">&#xa0;</span><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&lt;inet-address value=<i>"<em><strong>Your IP Address here</strong></em></i>"/&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start"/></font><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px"><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small">&#xa0;</font></span><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span class="Apple-converted-space">&#xa0;</span><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&lt;/interface&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start"/></font><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px"><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small">&#xa0;</font></span><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span class="Apple-converted-space">&#xa0;</span><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&lt;interface name="unsecure"&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start"/></font><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px"><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small">&#xa0;&#xa0;&#xa0;</font></span><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span class="Apple-converted-space">&#xa0;</span><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&lt;inet-address value="${jboss.bind.address.unsecure:127.0.0.1}"/&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start"/></font><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px"><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small">&#xa0;</font></span><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small"><span class="Apple-converted-space">&#xa0;</span><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px">&lt;/interface&gt;</span></font><font color="rgb(0, 0, 0)" face="times new roman, new york, times, serif" size="16px"><br style="line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; letter-spacing: normal; word-spacing: 0px" align="start"/></font><span style="line-height: normal; font-weight: normal; text-indent: 0px; font-family: courier new, courier, monaco, monospace, sans-serif; text-transform: none; font-size: small; color: rgb(0, 0, 0); white-space: normal; background-color: rgb(253, 253, 253); font-variant: normal; text-align: start; letter-spacing: normal; font-style: normal; word-spacing: 0px"><font color="rgb(0, 0, 0)" face="courier new, courier, monaco, monospace, sans-serif" size="small">&lt;/interfaces&gt;</font></span>
     </p>
   </body>
 </html></richcontent>
