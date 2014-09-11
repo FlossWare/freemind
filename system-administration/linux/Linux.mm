@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1270310396325" ID="ID_251328639" LINK="../System%20Administration.mm" MODIFIED="1288889529768" TEXT="Linux">
 <font NAME="SansSerif" SIZE="20"/>
@@ -230,6 +230,17 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1410440411842" ID="ID_653415301" MODIFIED="1410440413806" TEXT="mp3">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1410440423266" ID="ID_1879209800" MODIFIED="1410440425938" TEXT="yum install gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-bad-free gstreamer-plugins-ffmpeg gstreamer1-plugins-good gstreamer1-plugins-bad gstreamer1-plugins-ugly">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1410440426482" ID="ID_1694195932" MODIFIED="1410440439295" TEXT="yum install k3b-extras-freeworld">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="yes"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1397132234309" ID="ID_680823589" MODIFIED="1397822568385" POSITION="left" TEXT="autofs">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -256,7 +267,7 @@
       /mnt/fileserver /etc/auto.fileserver-misc
     </p>
     <p>
-      /home&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/etc/auto.fileserver-home
+      /home&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/etc/auto.fileserver-home
     </p>
   </body>
 </html></richcontent>
@@ -271,10 +282,10 @@
   </head>
   <body>
     <p>
-      #*&#160;&#160;&#160;&#160;-rw,no_root_squash&#160;&#160;fileserver:/mnt/HD/HD_a2/home/&amp;
+      #*&#xa0;&#xa0;&#xa0;&#xa0;-rw,no_root_squash&#xa0;&#xa0;fileserver:/mnt/HD/HD_a2/home/&amp;
     </p>
     <p>
-      *&#160;&#160;&#160;&#160;fileserver:/mnt/HD/HD_a2/home/&amp;
+      *&#xa0;&#xa0;&#xa0;&#xa0;fileserver:/mnt/HD/HD_a2/home/&amp;
     </p>
   </body>
 </html></richcontent>
@@ -289,10 +300,10 @@
   </head>
   <body>
     <p>
-      media&#160;&#160;&#160;fileserver:/mnt/HD/HD_a2/media
+      media&#xa0;&#xa0;&#xa0;fileserver:/mnt/HD/HD_a2/media
     </p>
     <p>
-      shared&#160;&#160;fileserver:/mnt/HD/HD_a2/shared
+      shared&#xa0;&#xa0;fileserver:/mnt/HD/HD_a2/shared
     </p>
   </body>
 </html></richcontent>
