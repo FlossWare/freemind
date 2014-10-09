@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1267112688698" ID="ID_1113562717" LINK="Linux.mm" MODIFIED="1288889469032" TEXT="RPM">
 <font NAME="SansSerif" SIZE="20"/>
@@ -63,6 +63,22 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1389711440092" ID="ID_663234849" MODIFIED="1389711451285" TEXT="rpm -qf [path to file/[file name]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1412872730291" ID="ID_1079629069" MODIFIED="1412872737086" POSITION="right" TEXT="Print version of an rpm">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1412872743445" ID="ID_1661647041" LINK="http://serverfault.com/questions/557350/parse-an-rpm-name-into-its-components" MODIFIED="1412872767137" TEXT="Stack Overflow">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1412872768233" ID="ID_1657913300" MODIFIED="1412872782825" TEXT="rpm --queryformat &quot;%{VERSION}-%{RELEASE}&quot; [rpm file name]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1412872783944" ID="ID_427772106" MODIFIED="1412872794976" TEXT="rpm --queryformat &quot;%{VERSION}-%{RELEASE}&quot; -qp /home/sfloess/.solenopsis/rpm/RPMS/noarch/solenopsis-1.2-12.noarch.rpm">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

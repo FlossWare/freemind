@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1290436605918" ID="ID_618115719" LINK="Development.mm" MODIFIED="1290436620423" TEXT="Git">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -73,7 +73,7 @@
       #!/bin/sh
     </p>
     <p>
-      meld &quot;$2&quot; &quot;$5&quot;
+      meld "$2" "$5"
     </p>
   </body>
 </html></richcontent>
@@ -224,6 +224,14 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 <node COLOR="#00b439" CREATED="1397170924925" ID="ID_214073387" MODIFIED="1397170930474" TEXT="git review -R">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1412370444017" ID="ID_692991489" MODIFIED="1412370447247" POSITION="right" TEXT="push">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1412370456976" ID="ID_730565607" MODIFIED="1412370460111" TEXT="--no-thin ">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

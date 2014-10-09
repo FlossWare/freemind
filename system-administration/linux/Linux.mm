@@ -163,10 +163,20 @@
       <i><b>exclude=kernel*, xorg-x11-drv-intel*</b></i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1412694946657" ID="ID_161101779" MODIFIED="1412694949209" POSITION="right" TEXT="Image to pdf">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1412694951454" ID="ID_936559847" MODIFIED="1412694962773" TEXT="convert [image] [file].pdf">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1412694964681" ID="ID_1922259712" MODIFIED="1412694973808" TEXT="convert foo.jpg bar.pdf">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>
