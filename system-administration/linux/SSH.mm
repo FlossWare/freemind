@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1267734714408" ID="ID_324811815" LINK="Linux.mm" MODIFIED="1288889482736" TEXT="SSH">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -49,6 +49,18 @@
 <node COLOR="#990000" CREATED="1378903310928" ID="ID_1997077070" MODIFIED="1378903319883" TEXT="scp">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1413200014013" ID="ID_667785668" MODIFIED="1413200015648" POSITION="right" TEXT="Errors">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1413200023407" ID="ID_1696467763" MODIFIED="1413200025075" TEXT=" SSH Authentication Refused: Bad Ownership or Modes for Directory">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1413200036659" ID="ID_1140299695" MODIFIED="1413200041703" TEXT="ssh_config">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1413200044110" ID="ID_119398044" MODIFIED="1413200046486" TEXT="StrictModes off"/>
 </node>
 </node>
 </node>
