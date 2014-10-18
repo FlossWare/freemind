@@ -323,58 +323,17 @@
 <node COLOR="#00b439" CREATED="1397304257955" ID="ID_1410785664" MODIFIED="1397822568385" TEXT="config">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1397304079486" ID="ID_776314485" MODIFIED="1397822568385" TEXT="/etc/auto.master">
+<node COLOR="#990000" CREATED="1413639868126" ID="ID_218382519" MODIFIED="1413639889777" TEXT="/etc/auto.master">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1397304097524" ID="ID_130781671" MODIFIED="1397304190729">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      /mnt/fileserver /etc/auto.fileserver-misc
-    </p>
-    <p>
-      /home&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/etc/auto.fileserver-home
-    </p>
-  </body>
-</html></richcontent>
+<node COLOR="#111111" CREATED="1413639892869" ID="ID_1055504899" MODIFIED="1413639911000" TEXT="[local dir]  [config file]"/>
 </node>
-</node>
-<node COLOR="#990000" CREATED="1397304118244" ID="ID_1891931455" MODIFIED="1397822568386" TEXT="/etc/auto.fileserver-home">
+<node COLOR="#990000" CREATED="1413640023615" ID="ID_70690353" MODIFIED="1413640035278" TEXT="config file">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1397304139508" ID="ID_1943182370" MODIFIED="1397304222701">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      #*&#xa0;&#xa0;&#xa0;&#xa0;-rw,no_root_squash&#xa0;&#xa0;fileserver:/mnt/HD/HD_a2/home/&amp;
-    </p>
-    <p>
-      *&#xa0;&#xa0;&#xa0;&#xa0;fileserver:/mnt/HD/HD_a2/home/&amp;
-    </p>
-  </body>
-</html></richcontent>
+<node COLOR="#111111" CREATED="1413640039296" ID="ID_1054453541" MODIFIED="1413640100361" TEXT="[dir name]  [mount options]  [nfs server]">
+<node COLOR="#111111" CREATED="1413640585654" ID="ID_1964886547" MODIFIED="1413640605688" TEXT="media -rw,no_root_squash   fileserver:/mnt/HD/HD_a2/medi"/>
 </node>
-</node>
-<node COLOR="#990000" CREATED="1397304155541" ID="ID_64942860" MODIFIED="1397822568386" TEXT="/etc/auto.fileserver-misc">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1397304164403" ID="ID_1052102757" MODIFIED="1397304172802">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      media&#xa0;&#xa0;&#xa0;fileserver:/mnt/HD/HD_a2/media
-    </p>
-    <p>
-      shared&#xa0;&#xa0;fileserver:/mnt/HD/HD_a2/shared
-    </p>
-  </body>
-</html></richcontent>
+<node COLOR="#111111" CREATED="1413640103245" ID="ID_1076996986" MODIFIED="1413640112073" TEXT="[dir name]  [mount options]  [iso file] ">
+<node COLOR="#111111" CREATED="1413640610157" ID="ID_1684302122" MODIFIED="1413640651021" TEXT="centos-6.5-i386  -fstype=iso9660,ro,loop  :/home/CentOS-6.5-i386-bin-DVD1.iso"/>
 </node>
 </node>
 </node>

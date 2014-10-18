@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1295104454850" ID="ID_1224862914" LINK="Linux.mm" MODIFIED="1295104577174" TEXT="Cobbler">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -61,7 +61,7 @@
       [authentication]
     </p>
     <p>
-      module = authn_configfile&#160;&#160;
+      module = authn_configfile&#xa0;&#xa0;
     </p>
     <p>
       [authorization]
@@ -88,7 +88,7 @@
 <node COLOR="#0033ff" CREATED="1343832306271" ID="ID_1651836415" MODIFIED="1343832307624" POSITION="right" TEXT="Server">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1343832309706" ID="ID_1110820558" MODIFIED="1343832386804" TEXT="/etc/cobbler/system">
+<node COLOR="#00b439" CREATED="1343832309706" ID="ID_1110820558" MODIFIED="1413217669435" TEXT="/etc/cobbler/settings">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-1"/>
@@ -128,7 +128,7 @@
       then
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ln -s /usr/share/syslinux/menu.c32 /var/lib/cobbler/loaders/menu.c32
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;ln -s /usr/share/syslinux/menu.c32 /var/lib/cobbler/loaders/menu.c32
     </p>
     <p>
       elif [ -e /usr/lib/syslinux/menu.c32 ]
@@ -137,7 +137,7 @@
       then
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ln -s /usr/lib/syslinux/menu.c32 /var/lib/cobbler/loaders/menu.c32
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;ln -s /usr/lib/syslinux/menu.c32 /var/lib/cobbler/loaders/menu.c32
     </p>
     <p>
       fi
@@ -168,6 +168,10 @@
 <node COLOR="#990000" CREATED="1378568242506" ID="ID_1321700375" MODIFIED="1378568244634" TEXT="/etc/cobbler/settings">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1378568246044" ID="ID_1447972358" MODIFIED="1378568257216" TEXT="http_port: [port]"/>
+</node>
+<node COLOR="#990000" CREATED="1413220168446" ID="ID_1403740306" MODIFIED="1413220172093" TEXT="/etc/hosts">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1413220173494" ID="ID_1429234356" MODIFIED="1413220202629" TEXT="Ensure the ip address is the same as the &quot;server:&quot; name in the /etc/cobbler/settings file"/>
 </node>
 </node>
 </node>
