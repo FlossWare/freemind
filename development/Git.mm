@@ -121,6 +121,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1413650083927" ID="ID_1663960515" MODIFIED="1413650087787" TEXT="Compute current branch">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1413650089727" ID="ID_1330311453" MODIFIED="1413650096244" TEXT="git rev-parse --abbrev-ref HEAD">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1342178477910" ID="ID_1165683231" MODIFIED="1342182833259" POSITION="right" TEXT="Tag">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
