@@ -13,6 +13,12 @@
 <node COLOR="#990000" CREATED="1413902237224" ID="ID_115711571" MODIFIED="1413902260756" TEXT="mvn [clean] test -Dcucumber.options=&quot;--tags @[tag name]">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+<node COLOR="#990000" CREATED="1414607044608" ID="ID_766649182" MODIFIED="1414607047960" TEXT="Ignore a tag">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1414607028528" ID="ID_1402863072" MODIFIED="1414607050159" TEXT="mvn [clean] test -Dcucumber.options=&quot;--tags ~@tagToIgnore&quot;">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1413902205004" ID="ID_1310127500" MODIFIED="1413902208315" TEXT="Feature">
 <edge STYLE="bezier" WIDTH="thin"/>
