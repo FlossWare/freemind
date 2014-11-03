@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1295364411409" ID="ID_816188546" LINK="Linux.mm" MODIFIED="1325522577613" TEXT="Bash">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -54,14 +54,13 @@
       do
     </p>
     <p>
-      &#160;&#160;&#160;&#160;...
+      &#xa0;&#xa0;&#xa0;&#xa0;...
     </p>
     <p>
       done
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1357911273956" ID="ID_547407504" MODIFIED="1357911329513">
@@ -77,17 +76,24 @@
       do
     </p>
     <p>
-      &#160;&#160;&#160;&#160;echo $i
+      &#xa0;&#xa0;&#xa0;&#xa0;echo $i
     </p>
     <p>
       done
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1415023702483" ID="ID_648588496" LINK="http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in" MODIFIED="1415023751631" POSITION="right" TEXT="Script&apos;s actual dir">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1415023709463" ID="ID_1618738054" MODIFIED="1415023725628" TEXT="dirname &quot;${BASH_SOURCE[0]}&quot;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>
