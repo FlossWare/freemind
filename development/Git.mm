@@ -242,6 +242,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1415905081230" ID="ID_1341912592" MODIFIED="1415905083130" TEXT=" ! [remote rejected] release -&gt; release (n/a (unpacker error)) ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 </node>
 </map>
