@@ -83,6 +83,35 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1416233634117" ID="ID_98572430" MODIFIED="1416233635632" POSITION="right" TEXT="sudo">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1416233637048" ID="ID_490201756" MODIFIED="1416233655307" TEXT="visudo">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1416233664904" ID="ID_726467903" MODIFIED="1416233671678">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      root&#160;&#160;&#160;&#160;ALL=(ALL)&#160;&#160;&#160;&#160;&#160;&#160;&#160;ALL
+    </p>
+    <p>
+      sfloess ALL=(ALL)&#160;&#160;&#160;&#160;&#160;&#160;&#160;ALL
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1416233708715" ID="ID_1811662791" MODIFIED="1416233711966" TEXT="https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file-on-ubuntu-and-centos">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1352295995181" ID="ID_1330344617" LINK="TFTP.mm" MODIFIED="1352295995183" POSITION="right" TEXT="TFTP">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
