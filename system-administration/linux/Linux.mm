@@ -217,6 +217,18 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1386513923177" ID="ID_133353271" MODIFIED="1416757800997" TEXT="Network Manager">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1386513940841" ID="ID_1283679046" MODIFIED="1416757504256" TEXT="nm-applet">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1386513960789" ID="ID_1334758311" MODIFIED="1416757504257" TEXT="nm-connection-editor">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1380632938152" ID="ID_1342641388" MODIFIED="1416757427994" TEXT="rsync">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -281,6 +293,53 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1357680246827" ID="ID_212578750" MODIFIED="1416757812851" TEXT="xchat">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1357680251769" ID="ID_833606588" MODIFIED="1416757493406" TEXT="Menu disappears">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1357680256113" ID="ID_950739778" MODIFIED="1416757493406" TEXT="Press F9">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1365001320229" ID="ID_1473462850" MODIFIED="1416757493407" TEXT="Alerts">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1365001336854" ID="ID_1187993622" MODIFIED="1416757493407" TEXT="settings">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1365001339523" ID="ID_1887176408" MODIFIED="1416757493408" TEXT="preferences">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1365001348786" ID="ID_903011290" MODIFIED="1416757493408" TEXT="chatting">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-3"/>
+<node COLOR="#111111" CREATED="1365001356814" ID="ID_1238865074" MODIFIED="1365001410551" TEXT="Alerts">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-4"/>
+<node COLOR="#111111" CREATED="1365001427307" ID="ID_698239039" MODIFIED="1365001437267" TEXT="Extra Words to Highlight">
+<icon BUILTIN="full-5"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1377862391032" ID="ID_1564617092" MODIFIED="1416757812852" TEXT="Xmms">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1377862405083" ID="ID_670310610" MODIFIED="1416757496633" TEXT="Building">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1377862408647" ID="ID_1242845152" MODIFIED="1416757496633" TEXT="yum">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1377862413074" ID="ID_1328030245" MODIFIED="1377862489347" TEXT="gtk+-devel"/>
+<node COLOR="#111111" CREATED="1377862496965" ID="ID_1281282753" MODIFIED="1377862500089" TEXT="glib-devel"/>
+</node>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1411049332566" ID="ID_253525469" MODIFIED="1416757411167" TEXT="yum">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -336,65 +395,6 @@
 </node>
 </node>
 </node>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1357680246827" ID="ID_212578750" MODIFIED="1416757493405" TEXT="xchat">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1357680251769" ID="ID_833606588" MODIFIED="1416757493406" TEXT="Menu disappears">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1357680256113" ID="ID_950739778" MODIFIED="1416757493406" TEXT="Press F9">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#990000" CREATED="1365001320229" ID="ID_1473462850" MODIFIED="1416757493407" TEXT="Alerts">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1365001336854" ID="ID_1187993622" MODIFIED="1416757493407" TEXT="settings">
-<font NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="full-1"/>
-</node>
-<node COLOR="#111111" CREATED="1365001339523" ID="ID_1887176408" MODIFIED="1416757493408" TEXT="preferences">
-<font NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="full-2"/>
-</node>
-<node COLOR="#111111" CREATED="1365001348786" ID="ID_903011290" MODIFIED="1416757493408" TEXT="chatting">
-<font NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="full-3"/>
-<node COLOR="#111111" CREATED="1365001356814" ID="ID_1238865074" MODIFIED="1365001410551" TEXT="Alerts">
-<font NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="full-4"/>
-<node COLOR="#111111" CREATED="1365001427307" ID="ID_698239039" MODIFIED="1365001437267" TEXT="Extra Words to Highlight">
-<icon BUILTIN="full-5"/>
-</node>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1377862391032" ID="ID_1564617092" MODIFIED="1416757496632" TEXT="Xmms">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1377862405083" ID="ID_670310610" MODIFIED="1416757496633" TEXT="Building">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1377862408647" ID="ID_1242845152" MODIFIED="1416757496633" TEXT="yum">
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1377862413074" ID="ID_1328030245" MODIFIED="1377862489347" TEXT="gtk+-devel"/>
-<node COLOR="#111111" CREATED="1377862496965" ID="ID_1281282753" MODIFIED="1377862500089" TEXT="glib-devel"/>
-</node>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1386513923177" ID="ID_133353271" MODIFIED="1416757504256" TEXT="Network Manager">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1386513940841" ID="ID_1283679046" MODIFIED="1416757504256" TEXT="nm-applet">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1386513960789" ID="ID_1334758311" MODIFIED="1416757504257" TEXT="nm-connection-editor">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>
