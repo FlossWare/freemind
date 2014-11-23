@@ -102,8 +102,7 @@
       sfloess ALL=(ALL)&#160;&#160;&#160;&#160;&#160;&#160;&#160;ALL
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
@@ -127,87 +126,6 @@
 <node COLOR="#0033ff" CREATED="1324994170187" ID="ID_671827509" LINK="Xen.mm" MODIFIED="1325522532708" POSITION="right" TEXT="Xen">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-</node>
-<node COLOR="#0033ff" CREATED="1377862391032" ID="ID_1564617092" MODIFIED="1377862393614" POSITION="right" TEXT="Xmms">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1377862405083" ID="ID_670310610" MODIFIED="1377862407341" TEXT="Building">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1377862408647" ID="ID_1242845152" MODIFIED="1377862412324" TEXT="yum">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1377862413074" ID="ID_1328030245" MODIFIED="1377862489347" TEXT="gtk+-devel"/>
-<node COLOR="#111111" CREATED="1377862496965" ID="ID_1281282753" MODIFIED="1377862500089" TEXT="glib-devel"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1411049332566" ID="ID_253525469" MODIFIED="1411049334115" POSITION="right" TEXT="yum">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1411049337358" ID="ID_170314673" MODIFIED="1411049341856" TEXT="Exclude packages">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1411049345027" ID="ID_807087337" MODIFIED="1411049350390" TEXT="/etc/yum.conf">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1411049361947" ID="ID_138215451" MODIFIED="1411049393705" TEXT="exclude=package1, package2, ..., package N"/>
-<node COLOR="#111111" CREATED="1411049371000" ID="ID_1862102104" MODIFIED="1411049411172" TEXT="exclude=kernel*, xorg-x11-drv-intel*"/>
-</node>
-<node COLOR="#990000" CREATED="1411049413615" ID="ID_291053411" MODIFIED="1411049425367" TEXT="/etc/yum.repos.d/[repo name].repo">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1411051483102" ID="ID_954710888" MODIFIED="1411051821631" TEXT="/etc/yum.repos.d/fedora-updates.repo">
-<node COLOR="#111111" CREATED="1411051637224" ID="ID_119425383" MODIFIED="1411051834418">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      [updates]
-    </p>
-    <p>
-      name=Fedora $releasever - $basearch - Updates
-    </p>
-    <p>
-      failovermethod=priority
-    </p>
-    <p>
-      #baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/$releasever/$basearch/
-    </p>
-    <p>
-      metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&amp;arch=$basearch
-    </p>
-    <p>
-      enabled=1
-    </p>
-    <p>
-      gpgcheck=1
-    </p>
-    <p>
-      gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
-    </p>
-    <p>
-      skip_if_unavailable=False
-    </p>
-    <p>
-      <i><b>exclude=kernel*, xorg-x11-drv-intel*</b></i>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1412694946657" ID="ID_161101779" MODIFIED="1412694949209" POSITION="right" TEXT="Image to pdf">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1412694951454" ID="ID_936559847" MODIFIED="1412694962773" TEXT="convert [image] [file].pdf">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1412694964681" ID="ID_1922259712" MODIFIED="1412694973808" TEXT="convert foo.jpg bar.pdf">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
 </node>
 <node COLOR="#0033ff" CREATED="1354890513222" ID="ID_1488782830" LINK="DVD.mm" MODIFIED="1354890513223" POSITION="left" TEXT="DVD">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -363,6 +281,107 @@
 </node>
 <node COLOR="#111111" CREATED="1413640103245" ID="ID_1076996986" MODIFIED="1413640112073" TEXT="[dir name]  [mount options]  [iso file] ">
 <node COLOR="#111111" CREATED="1413640610157" ID="ID_1684302122" MODIFIED="1413640651021" TEXT="centos-6.5-i386  -fstype=iso9660,ro,loop  :/home/CentOS-6.5-i386-bin-DVD1.iso"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1377862391032" ID="ID_1564617092" MODIFIED="1377862393614" POSITION="left" TEXT="Xmms">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1377862405083" ID="ID_670310610" MODIFIED="1377862407341" TEXT="Building">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1377862408647" ID="ID_1242845152" MODIFIED="1377862412324" TEXT="yum">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1377862413074" ID="ID_1328030245" MODIFIED="1377862489347" TEXT="gtk+-devel"/>
+<node COLOR="#111111" CREATED="1377862496965" ID="ID_1281282753" MODIFIED="1377862500089" TEXT="glib-devel"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1412694946657" ID="ID_161101779" MODIFIED="1412694949209" POSITION="left" TEXT="Image to pdf">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1412694951454" ID="ID_936559847" MODIFIED="1412694962773" TEXT="convert [image] [file].pdf">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1412694964681" ID="ID_1922259712" MODIFIED="1412694973808" TEXT="convert foo.jpg bar.pdf">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1415378699256" ID="ID_1498338552" MODIFIED="1416757338376" POSITION="left" TEXT="virsh">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1415378667673" ID="ID_1776307560" MODIFIED="1416757332346" TEXT="virsh -c qemu:///system list --all">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1415378682376" ID="ID_1052278730" MODIFIED="1416757332346" TEXT="virsh -c qemu:///system destroy [name]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1415378936138" ID="ID_1856601210" MODIFIED="1416757332347" TEXT="virsh -c qemu:///system net-destroy [name]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1415379239713" ID="ID_113702633" MODIFIED="1416757332348" TEXT="virsh -c qemu:///system undefine [name]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1411049332566" ID="ID_253525469" MODIFIED="1411049334115" POSITION="left" TEXT="yum">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1411049337358" ID="ID_170314673" MODIFIED="1411049341856" TEXT="Exclude packages">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1411049345027" ID="ID_807087337" MODIFIED="1411049350390" TEXT="/etc/yum.conf">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1411049361947" ID="ID_138215451" MODIFIED="1411049393705" TEXT="exclude=package1, package2, ..., package N"/>
+<node COLOR="#111111" CREATED="1411049371000" ID="ID_1862102104" MODIFIED="1411049411172" TEXT="exclude=kernel*, xorg-x11-drv-intel*"/>
+</node>
+<node COLOR="#990000" CREATED="1411049413615" ID="ID_291053411" MODIFIED="1411049425367" TEXT="/etc/yum.repos.d/[repo name].repo">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1411051483102" ID="ID_954710888" MODIFIED="1411051821631" TEXT="/etc/yum.repos.d/fedora-updates.repo">
+<node COLOR="#111111" CREATED="1411051637224" ID="ID_119425383" MODIFIED="1411051834418">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [updates]
+    </p>
+    <p>
+      name=Fedora $releasever - $basearch - Updates
+    </p>
+    <p>
+      failovermethod=priority
+    </p>
+    <p>
+      #baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/$releasever/$basearch/
+    </p>
+    <p>
+      metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&amp;arch=$basearch
+    </p>
+    <p>
+      enabled=1
+    </p>
+    <p>
+      gpgcheck=1
+    </p>
+    <p>
+      gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
+    </p>
+    <p>
+      skip_if_unavailable=False
+    </p>
+    <p>
+      <i><b>exclude=kernel*, xorg-x11-drv-intel*</b></i>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 </node>
