@@ -4,104 +4,6 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1299613535915" ID="ID_1318727193" MODIFIED="1299613542409" POSITION="right" TEXT="Generate a project">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1299613545496" ID="ID_122935549" MODIFIED="1299613554050" TEXT="mvn archetype:generate">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1326382023034" ID="ID_156731977" MODIFIED="1326382024625" POSITION="right" TEXT="Skip tests">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1326382026152" ID="ID_272321278" MODIFIED="1326382028117" TEXT="mvn install -DskipTests">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1391534085330" ID="ID_1998987545" MODIFIED="1391534087502" POSITION="right" TEXT="Repository">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1391534089238" ID="ID_1620183318" MODIFIED="1391534091312" TEXT="pom.xml">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1391534092248" ID="ID_635184147" MODIFIED="1391534129473">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#xa0;&#xa0;&#xa0;&#xa0;&lt;repositories&gt;
-    </p>
-    <p>
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;repository&gt;
-    </p>
-    <p>
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;id&gt;Id&lt;/id&gt;
-    </p>
-    <p>
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;name&gt;Name&lt;/name&gt;
-    </p>
-    <p>
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;url&gt;URL&lt;/url&gt;
-    </p>
-    <p>
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;/repository&gt;
-    </p>
-    <p>
-      &#xa0;&#xa0;&#xa0;&#xa0;&lt;/repositories&gt;
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1391534131831" ID="ID_311716285" MODIFIED="1391534149769">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#xa0;&#xa0;&#xa0;&#xa0;&lt;repositories&gt;
-    </p>
-    <p>
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;repository&gt;
-    </p>
-    <p>
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;id&gt;solenopsis-repo&lt;/id&gt;
-    </p>
-    <p>
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;name&gt;Solenopsis Maven Repo&lt;/name&gt;
-    </p>
-    <p>
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;url&gt;http://maven.solenopsis.org&lt;/url&gt;
-    </p>
-    <p>
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;/repository&gt;
-    </p>
-    <p>
-      &#xa0;&#xa0;&#xa0;&#xa0;&lt;/repositories&gt;
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1392211583611" ID="ID_865892207" MODIFIED="1392211590272" POSITION="right" TEXT="Always download artifacts">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1392211591211" ID="ID_985561507" MODIFIED="1392211599855" TEXT="mvn -U [options]">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1392211600987" ID="ID_470769598" MODIFIED="1392211602913" TEXT="-U">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
 <node COLOR="#0033ff" CREATED="1397737516822" ID="ID_66488616" MODIFIED="1397737518078" POSITION="right" TEXT="Run">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -234,6 +136,184 @@
     </p>
   </body>
 </html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1416756874888" ID="ID_339276202" MODIFIED="1416756876740" POSITION="right" TEXT="JRebel">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1416756928059" ID="ID_1377921055" MODIFIED="1416756929771" TEXT="http://manuals.zeroturnaround.com/jrebel/standalone/config.html#maven ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1416497087769" ID="ID_1674778909" MODIFIED="1416756894483" TEXT="Edit pom.xml&apos;s">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1416497096361" ID="ID_608509937" MODIFIED="1416756894484">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;build&gt;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&lt;plugins&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;plugin&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;groupId&gt;org.zeroturnaround&lt;/groupId&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;artifactId&gt;jrebel-maven-plugin&lt;/artifactId&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;version&gt;1.1.5&lt;/version&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;executions&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;execution&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;id&gt;generate-rebel-xml&lt;/id&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;phase&gt;process-resources&lt;/phase&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;goals&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;goal&gt;generate&lt;/goal&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/goals&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/execution&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/executions&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/plugin&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;/plugins&gt;
+    </p>
+    <p>
+      &lt;/build&gt;
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1416497133366" ID="ID_1790857893" MODIFIED="1416756894491" TEXT="mvn jrebel:generate">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1299613535915" ID="ID_1318727193" MODIFIED="1299613542409" POSITION="left" TEXT="Generate a project">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1299613545496" ID="ID_122935549" MODIFIED="1299613554050" TEXT="mvn archetype:generate">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1326382023034" ID="ID_156731977" MODIFIED="1326382024625" POSITION="left" TEXT="Skip tests">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1326382026152" ID="ID_272321278" MODIFIED="1326382028117" TEXT="mvn install -DskipTests">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1391534085330" ID="ID_1998987545" MODIFIED="1391534087502" POSITION="left" TEXT="Repository">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1391534089238" ID="ID_1620183318" MODIFIED="1391534091312" TEXT="pom.xml">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1391534092248" ID="ID_635184147" MODIFIED="1391534129473">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;repositories&gt;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;repository&gt;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;id&gt;Id&lt;/id&gt;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;name&gt;Name&lt;/name&gt;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;url&gt;URL&lt;/url&gt;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;/repository&gt;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;/repositories&gt;
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1391534131831" ID="ID_311716285" MODIFIED="1391534149769">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;repositories&gt;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;repository&gt;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;id&gt;solenopsis-repo&lt;/id&gt;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;name&gt;Solenopsis Maven Repo&lt;/name&gt;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;url&gt;http://maven.solenopsis.org&lt;/url&gt;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;/repository&gt;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;/repositories&gt;
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1392211583611" ID="ID_865892207" MODIFIED="1392211590272" POSITION="left" TEXT="Always download artifacts">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1392211591211" ID="ID_985561507" MODIFIED="1392211599855" TEXT="mvn -U [options]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1392211600987" ID="ID_470769598" MODIFIED="1392211602913" TEXT="-U">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
