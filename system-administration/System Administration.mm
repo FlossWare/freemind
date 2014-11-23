@@ -43,7 +43,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
-<node COLOR="#0033ff" CREATED="1270222924342" ID="ID_883797694" LINK="VirtualBox.mm" MODIFIED="1288889249727" POSITION="left" STYLE="bubble" TEXT="VirtualBox">
+<node COLOR="#0033ff" CREATED="1270222924342" ID="ID_883797694" LINK="VirtualBox.mm" MODIFIED="1416756741296" POSITION="left" TEXT="VirtualBox">
 <edge COLOR="#808080" STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
