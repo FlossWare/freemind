@@ -190,6 +190,38 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1416941608850" ID="ID_474739998" MODIFIED="1416941610542" TEXT="curl">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1416941654710" ID="ID_1465815932" MODIFIED="1416941708146">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      curl [URL] | xmllint &#8212;format -
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1416941654710" ID="ID_1560348773" MODIFIED="1416941700386">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      curl [URL]&#160;| python -mjson.tool
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1412694946657" ID="ID_161101779" MODIFIED="1416757442178" TEXT="Image to pdf">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
