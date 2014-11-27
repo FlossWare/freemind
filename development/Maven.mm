@@ -223,7 +223,35 @@
 <node COLOR="#0033ff" CREATED="1299613535915" ID="ID_1318727193" MODIFIED="1299613542409" POSITION="left" TEXT="Generate a project">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1417096244728" ID="ID_282297221" MODIFIED="1417096246724" TEXT="http://maven.apache.org/guides/getting-started/">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 <node COLOR="#00b439" CREATED="1299613545496" ID="ID_122935549" MODIFIED="1299613554050" TEXT="mvn archetype:generate">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1417096223648" ID="ID_1279328063" MODIFIED="1417096232555">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mvn archetype:generate \
+    </p>
+    <p>
+      &#160;&#160;-DarchetypeGroupId=org.apache.maven.archetypes \
+    </p>
+    <p>
+      &#160;&#160;-DgroupId=com.mycompany.app \
+    </p>
+    <p>
+      &#160;&#160;-DartifactId=my-app
+    </p>
+  </body>
+</html>
+</richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
