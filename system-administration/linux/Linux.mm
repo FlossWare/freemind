@@ -158,6 +158,17 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1417273376905" ID="ID_1264126532" MODIFIED="1417273379030" TEXT="Handbrake">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1417273408581" ID="ID_1143465389" MODIFIED="1417273421440" TEXT="Free Type">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1417273417153" ID="ID_1688253872" MODIFIED="1417273419050" TEXT="http://download.savannah.gnu.org/releases/freetype/"/>
+</node>
+<node COLOR="#990000" CREATED="1417273406665" ID="ID_1840031309" MODIFIED="1417273407581" TEXT="https://handbrake.fr/downloads.php">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1416757402529" ID="ID_744161246" MODIFIED="1416757487128" POSITION="left" TEXT="Apps">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -203,8 +214,7 @@
       curl [URL] | xmllint &#8212;format -
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#990000" CREATED="1416941654710" ID="ID_1560348773" MODIFIED="1416941700386">
@@ -217,8 +227,7 @@
       curl [URL]&#160;| python -mjson.tool
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
