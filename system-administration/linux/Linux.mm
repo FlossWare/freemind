@@ -158,17 +158,6 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1417273376905" ID="ID_1264126532" MODIFIED="1417273379030" TEXT="Handbrake">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1417273408581" ID="ID_1143465389" MODIFIED="1417273421440" TEXT="Free Type">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1417273417153" ID="ID_1688253872" MODIFIED="1417273419050" TEXT="http://download.savannah.gnu.org/releases/freetype/"/>
-</node>
-<node COLOR="#990000" CREATED="1417273406665" ID="ID_1840031309" MODIFIED="1417273407581" TEXT="https://handbrake.fr/downloads.php">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
 </node>
 <node COLOR="#0033ff" CREATED="1416757402529" ID="ID_744161246" MODIFIED="1416757487128" POSITION="left" TEXT="Apps">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -239,6 +228,94 @@
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1412694964681" ID="ID_1922259712" MODIFIED="1416757436310" TEXT="convert foo.jpg bar.pdf">
 <font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1417273376905" ID="ID_1264126532" MODIFIED="1417354065563" TEXT="Handbrake">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1417273406665" ID="ID_1840031309" MODIFIED="1417354059104" TEXT="https://handbrake.fr/downloads.php">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1417354081526" ID="ID_819711903" MODIFIED="1417354085222" TEXT="Fedora 20">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1417353840392" ID="ID_50174995" MODIFIED="1417354092695" TEXT="yum install">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1417353851219" ID="ID_109177593" MODIFIED="1417354059106" TEXT="ftp://rpmfind.net/linux/fedora/linux/updates/20/x86_64/libdvdread-5.0.0-1.fc20.i686.rpm">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1417353857490" ID="ID_936526345" MODIFIED="1417354059107" TEXT="ftp://rpmfind.net/linux/fedora/linux/updates/20/x86_64/libdvdnav-5.0.1-2.20140901gite225924.fc20.i686.rpm">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1417353865102" ID="ID_1580695524" MODIFIED="1417354059108" TEXT="http://dl.atrpms.net/all/libdvdcss-1.2.13-7.fc20.x86_64.rpm">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1417353872934" ID="ID_1287865278" MODIFIED="1417354059108" TEXT="http://dl.atrpms.net/all/libdvdcss2-1.2.13-7.fc20.x86_64.rpm">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1417353881083" ID="ID_1252682668" MODIFIED="1417354059109" TEXT="ftp://fr2.rpmfind.net/linux/sourceforge/s/sn/snowbird/yum/sb20/HandBrake-gui-0.9.9-12.fc20.x86_64.rpm">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1417353887571" ID="ID_670168398" MODIFIED="1417354059109" TEXT="libdvdnav xine-lib-extras-freeworld">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1417353890769" ID="ID_102888393" MODIFIED="1417354059110" TEXT="regionset">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1417353895702" ID="ID_1500977455" MODIFIED="1417354092701" TEXT="regionset /dev/sr0">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1417353922573" ID="ID_1481378664" MODIFIED="1417354059111" TEXT="Values">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1417353907581" ID="ID_1865087486" MODIFIED="1417353916277" TEXT="y"/>
+<node COLOR="#111111" CREATED="1417353916817" ID="ID_1400710033" MODIFIED="1417353917429" TEXT="1"/>
+<node COLOR="#111111" CREATED="1417353918141" ID="ID_882265651" MODIFIED="1417353919369" TEXT="y"/>
+</node>
+<node COLOR="#111111" CREATED="1417353931501" ID="ID_198669833" MODIFIED="1417354059112" TEXT="Example">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1417353943442" ID="ID_1400124213" MODIFIED="1417353978977">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $ regionset /dev/sr0
+    </p>
+    <p>
+      Current drive parameters for /dev/sr0:
+    </p>
+    <p>
+      &#160;&#160;RPC Type: Phase II (Hardware)
+    </p>
+    <p>
+      &#160;&#160;RPC Status: no region code set (bitmask=0xFF)
+    </p>
+    <p>
+      &#160;&#160;Vendor may reset the RPC 4 times
+    </p>
+    <p>
+      &#160;&#160;User is allowed change the region setting 5 times
+    </p>
+    <p>
+      Would you like to change the region setting for this drive? [y/n]: <b><i>y</i></b>
+    </p>
+    <p>
+      Enter the new region number for your drive [1..8]: <b><i>1</i></b>
+    </p>
+    <p>
+      New RPC bitmask is 0xFE, ok? [y/n]: <b><i>y</i></b>
+    </p>
+    <p>
+      Region code set successfully.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
