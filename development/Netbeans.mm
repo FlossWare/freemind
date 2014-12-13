@@ -61,6 +61,17 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1418494855473" ID="ID_1674291855" MODIFIED="1418494868064" POSITION="right" TEXT="Display branch names next to project">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1418494872811" ID="ID_1624304982" MODIFIED="1418494874422" TEXT="View">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1418494875712" ID="ID_1925471297" MODIFIED="1418494884222" TEXT="Select &quot;Show Version Labels&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1416756787334" ID="ID_55458901" MODIFIED="1416756791765" POSITION="right" TEXT="JRebel">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
