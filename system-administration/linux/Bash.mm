@@ -96,5 +96,17 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1418581334458" ID="ID_1288165653" MODIFIED="1418581422958" POSITION="right" TEXT="Fully qualified path">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1418581344476" ID="ID_160493785" MODIFIED="1418581352187" TEXT="realpath [file name]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1418582580237" ID="ID_1188246694" MODIFIED="1418582590357" TEXT="readlink -f -- &quot;[file name]&quot;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>
