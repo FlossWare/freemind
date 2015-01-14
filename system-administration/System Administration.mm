@@ -43,13 +43,29 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
-<node COLOR="#0033ff" CREATED="1270222924342" ID="ID_883797694" LINK="VirtualBox.mm" MODIFIED="1416756741296" POSITION="left" TEXT="VirtualBox">
-<edge COLOR="#808080" STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-</node>
-<node COLOR="#0033ff" CREATED="1410107118554" ID="ID_1062665547" LINK="Open%20Shift.mm" MODIFIED="1410107118556" POSITION="left" TEXT="Open Shift">
+<node COLOR="#0033ff" CREATED="1420896763643" ID="ID_1784596895" MODIFIED="1420896766878" POSITION="left" TEXT="Virtualization">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1270222924342" ID="ID_883797694" LINK="VirtualBox.mm" MODIFIED="1420896771108" TEXT="VirtualBox">
+<edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1410107118554" ID="ID_1062665547" LINK="Open%20Shift.mm" MODIFIED="1420896771110" TEXT="Open Shift">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1420656895525" ID="ID_29302563" LINK="Open%20Stack.mm" MODIFIED="1420896771112" TEXT="Open Stack">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1420663732062" ID="ID_191731771" LINK="RHEV.mm" MODIFIED="1420896771113" TEXT="RHEV">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1420896787693" ID="ID_708939460" LINK="Docker.mm" MODIFIED="1420896787695" TEXT="Docker">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1382808147415" ID="ID_1891840399" MODIFIED="1382808149132" POSITION="left" TEXT="no-ip">
 <edge STYLE="sharp_bezier" WIDTH="8"/>

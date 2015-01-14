@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1388759792883" ID="ID_1745805795" LINK="Windows.mm" MODIFIED="1388759831001" TEXT="Windows 8">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -27,6 +27,7 @@
 </node>
 <node COLOR="#990000" CREATED="1388759904802" ID="ID_302985624" MODIFIED="1388759981145" TEXT="Select as CSV">
 <edge STYLE="bezier" WIDTH="thin"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_302985624" ENDARROW="Default" ENDINCLINATION="117;0;" ID="Arrow_ID_1672108675" SOURCE="ID_1817671145" STARTARROW="None" STARTINCLINATION="117;0;"/>
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-4"/>
 </node>
@@ -42,6 +43,29 @@
 <arrowlink DESTINATION="ID_302985624" ENDARROW="Default" ENDINCLINATION="117;0;" ID="Arrow_ID_1672108675" STARTARROW="None" STARTINCLINATION="117;0;"/>
 <icon BUILTIN="full-7"/>
 </node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1419362708632" ID="ID_1783875276" LINK="http://windows.microsoft.com/en-us/windows7/Getting-started-with-media-streaming" MODIFIED="1419362962762" POSITION="right" TEXT="DLNA Server">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1419362878700" ID="ID_1675516378" MODIFIED="1419362927355" TEXT="Start Windows Media Player">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#00b439" CREATED="1419362888020" ID="ID_1188679214" MODIFIED="1419362930812" TEXT="Switch to Library">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#00b439" CREATED="1419362906701" ID="ID_1181010925" MODIFIED="1419362932793" TEXT="Click Stream">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-3"/>
+<node COLOR="#990000" CREATED="1419362917540" ID="ID_1616914770" MODIFIED="1419362935072" TEXT="Turn on home media streaming">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-4"/>
 </node>
 </node>
 </node>

@@ -108,5 +108,69 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1419690198737" ID="ID_1648654049" LINK="http://misc.flogisoft.com/bash/tip_colors_and_formatting" MODIFIED="1419690227925" POSITION="right" TEXT="Log in color">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1419690231251" ID="ID_142952237" LINK="http://unix.stackexchange.com/questions/9957/how-to-check-if-bash-can-print-colors" MODIFIED="1419690273819" TEXT="Enabled">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1419690288908" ID="ID_239292912" MODIFIED="1419690291670" TEXT="tput colors">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1419690294514" ID="ID_1119369963" MODIFIED="1419690305663" TEXT="if $? ne 0, unsupported">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1419690384433" ID="ID_1436757101" MODIFIED="1419690390065" TEXT="Foreground">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1419690308713" ID="ID_1853402515" MODIFIED="1419690395607" TEXT="Red">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1419690421833" ID="ID_472966130" MODIFIED="1419690425538" TEXT="echo -e &quot;Default \e[31mRed&quot;"/>
+</node>
+<node COLOR="#990000" CREATED="1419690310471" ID="ID_846672688" MODIFIED="1419690397654" TEXT="Yellow">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1419690487759" ID="ID_315140480" MODIFIED="1419690487759" TEXT="echo -e &quot;Default \e[33mYellow&quot;"/>
+</node>
+<node COLOR="#990000" CREATED="1419690313732" ID="ID_157251158" MODIFIED="1419690399383" TEXT="Green">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1419690504394" ID="ID_725056008" MODIFIED="1419690504394" TEXT="echo -e &quot;Default \e[32mGreen&quot;"/>
+</node>
+<node COLOR="#990000" CREATED="1419690546093" ID="ID_783138474" MODIFIED="1419690547225" TEXT="Black">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1419690524772" ID="ID_1868333462" MODIFIED="1419690549002" TEXT="echo -e &quot;Default \e[30mBlack&quot;">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1419690390571" ID="ID_348245878" MODIFIED="1419690392964" TEXT="Background">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1419690308713" ID="ID_1986098304" MODIFIED="1419690395607" TEXT="Red">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1419690438751" ID="ID_1571164072" MODIFIED="1419690440083" TEXT="echo -e &quot;Default \e[41mRed&quot;"/>
+</node>
+<node COLOR="#990000" CREATED="1419690310471" ID="ID_745306605" MODIFIED="1419690397654" TEXT="Yellow">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1419690456386" ID="ID_93324276" MODIFIED="1419690456386" TEXT="echo -e &quot;Default \e[43mYellow&quot;"/>
+</node>
+<node COLOR="#990000" CREATED="1419690313732" ID="ID_472744765" MODIFIED="1419690399383" TEXT="Green">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1419690469953" ID="ID_577312435" MODIFIED="1419690469953" TEXT="echo -e &quot;Default \e[42mGreen&quot;"/>
+</node>
+<node COLOR="#990000" CREATED="1419690538652" ID="ID_431942575" MODIFIED="1419690542565" TEXT="Black">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1419690537391" ID="ID_1865375750" MODIFIED="1419690544683" TEXT="echo -e &quot;Default \e[40mBlack&quot;">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </map>
