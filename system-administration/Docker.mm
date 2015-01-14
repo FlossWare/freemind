@@ -16,5 +16,29 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1421261843895" ID="ID_700254899" MODIFIED="1421264311698" POSITION="right" TEXT="sudo docker run  --name=&quot;some name&quot; -td [image]">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1421258441822" ID="ID_1984112980" MODIFIED="1421261799603" POSITION="right" TEXT="sudo docker logs [container]">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1421261770475" ID="ID_692363432" MODIFIED="1421261776695" POSITION="right" TEXT="sudo docker stop [container]">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1421261778908" ID="ID_1994505144" MODIFIED="1421261780939" POSITION="right" TEXT="sudo docker ps">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1421269405246" ID="ID_1453348936" MODIFIED="1421269406078" POSITION="right" TEXT="sudo docker exec -it $(sudo docker ps -q | head -1) /bin/bash">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1421269407866" ID="ID_970262493" MODIFIED="1421269419779" POSITION="right" TEXT="sudo docker exec -it [container] /bin/bash">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 </node>
 </map>
