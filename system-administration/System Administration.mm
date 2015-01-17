@@ -26,6 +26,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1421503362033" ID="ID_1128093225" LINK="Red%20Hat%20Based%20Linux.mm" MODIFIED="1421503362035" TEXT="Red Hat Based">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1416178190171" ID="ID_631344911" LINK="Vagrant.mm" MODIFIED="1416178190173" POSITION="right" TEXT="Vagrant">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
