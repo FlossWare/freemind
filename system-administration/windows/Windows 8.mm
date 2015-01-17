@@ -69,5 +69,47 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1421502320125" ID="ID_1085023563" MODIFIED="1421502327333" POSITION="right" TEXT="Auto Start Apps">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1421502328377" ID="ID_831849697" MODIFIED="1421502329913" TEXT="Review">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1421502331529" ID="ID_117136107" MODIFIED="1421502410073" TEXT="Right click on task bar">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#990000" CREATED="1421502338961" ID="ID_421435932" MODIFIED="1421502412160" TEXT="Select Task Manager">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+<node COLOR="#111111" CREATED="1421502359104" ID="ID_1151572497" MODIFIED="1421502414744" TEXT="Click &quot;More details&quot;">
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#111111" CREATED="1421502371252" ID="ID_1080034204" MODIFIED="1421502416464" TEXT="Startup tab">
+<icon BUILTIN="full-4"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1421502399208" ID="ID_1682451740" MODIFIED="1421502400024" TEXT="Add">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1421502401640" ID="ID_1486746118" MODIFIED="1421502624873" TEXT="Win + R">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#990000" CREATED="1421502407112" ID="ID_1946504076" MODIFIED="1421502626493" TEXT="Open:  %AppData%">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#990000" CREATED="1421502461639" ID="ID_1187833804" MODIFIED="1421502628861" TEXT="C:\Users\[user name]\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#990000" CREATED="1421502586445" ID="ID_951423558" MODIFIED="1421502630557" TEXT="Paste shortcut here">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-4"/>
+</node>
+</node>
+</node>
 </node>
 </map>
