@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1269602580988" ID="ID_259137342" LINK="Development.mm" MODIFIED="1295699803217" TEXT="Ant">
 <font NAME="SansSerif" SIZE="20"/>
@@ -236,6 +236,35 @@
 <node COLOR="#00b439" CREATED="1270392590821" ID="ID_1838536532" MODIFIED="1270392594474" TEXT="import">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1422200127018" ID="ID_1310052852" MODIFIED="1422200130674" TEXT="scriptdef">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1422200134154" ID="ID_1083836591" MODIFIED="1422200145873" TEXT="dirset as an element">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1422200146825" ID="ID_1401534013" MODIFIED="1422200192370">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;scriptdef ...&gt;
+    </p>
+    <p>
+      &#160;&#160;&lt;element name=&quot;someVar&quot; type=&quot;<b><i>dirset</i></b>&quot;/&gt;
+    </p>
+    <p>
+      &#160;&#160;...
+    </p>
+    <p>
+      &lt;/scriptdef&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
