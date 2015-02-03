@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1327003813618" ID="ID_1194352961" LINK="System%20Administration.mm" MODIFIED="1327003831380" TEXT="DNS-320">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -52,7 +52,7 @@
       mount --bind /dev $DISTDIR/dev
     </p>
     <p>
-      mount --bind /sys&#160;&#160;$DISTDIR/sys
+      mount --bind /sys&#xa0;&#xa0;$DISTDIR/sys
     </p>
     <p>
       #mount --bind /sys/crfs $DISTDIR/sys/crfs
@@ -137,7 +137,7 @@
       mount --bind /dev $DISTDIR/dev
     </p>
     <p>
-      mount --bind /sys&#160;&#160;$DISTDIR/sys
+      mount --bind /sys&#xa0;&#xa0;$DISTDIR/sys
     </p>
     <p>
       #mount --bind /sys/crfs $DISTDIR/sys/crfs
@@ -164,7 +164,7 @@
       cp -f /etc/resolv.conf $DISTDIR/etc
     </p>
     <p>
-      echo &quot;search [<b><i>yourdomainname]</i></b>&quot; &gt;&gt; $DISTDIR/etc/resolv.conf
+      echo "search [<b><i>yourdomainname]</i></b>" &gt;&gt; $DISTDIR/etc/resolv.conf
     </p>
     <p>
       hostname &gt;$DISTDIR/etc/hostname
@@ -184,6 +184,7 @@
 </node>
 </node>
 <node COLOR="#990000" CREATED="1380463021038" ID="ID_657860643" MODIFIED="1380463184569" TEXT="FlossWare">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_657860643" ENDARROW="Default" ENDINCLINATION="314;0;" ID="Arrow_ID_534899642" SOURCE="ID_740363403" STARTARROW="None" STARTINCLINATION="314;0;"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1380462931763" ID="ID_356244836" MODIFIED="1380462940898">
 <richcontent TYPE="NODE"><html>
@@ -225,7 +226,7 @@
       mount --bind /dev $DISTDIR/dev
     </p>
     <p>
-      mount --bind /sys&#160;&#160;$DISTDIR/sys
+      mount --bind /sys&#xa0;&#xa0;$DISTDIR/sys
     </p>
     <p>
       #mount --bind /sys/crfs $DISTDIR/sys/crfs
@@ -252,7 +253,7 @@
       cp -f /etc/resolv.conf $DISTDIR/etc
     </p>
     <p>
-      echo &quot;search flossware.com&quot; &gt;&gt; $DISTDIR/etc/resolv.conf
+      echo "search flossware.com" &gt;&gt; $DISTDIR/etc/resolv.conf
     </p>
     <p>
       hostname &gt; $DISTDIR/etc/hostname
@@ -273,8 +274,8 @@
 <node COLOR="#990000" CREATED="1379529377883" ID="ID_1112481094" MODIFIED="1379529383707" TEXT="Scripts to kick off">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1379529388046" ID="ID_1484524806" MODIFIED="1379529391114" TEXT="debian">
-<node COLOR="#111111" CREATED="1379529396518" FOLDED="true" ID="ID_231468975" MODIFIED="1379529632588" TEXT="/boot/linuxrc">
-<node COLOR="#111111" CREATED="1379529606546" ID="ID_1566235113" MODIFIED="1379529629214">
+<node COLOR="#111111" CREATED="1379529396518" FOLDED="true" ID="ID_231468975" MODIFIED="1422972099706" TEXT="/boot/linuxrc">
+<node COLOR="#111111" CREATED="1379529606546" ID="ID_1566235113" MODIFIED="1422972097242">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -359,6 +360,24 @@
       cd dev
     </p>
     <p>
+      MAKEDEV ptyp
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # --------------------------------------------
+    </p>
+    <p>
+      # FlossWare start
+    </p>
+    <p>
+      # --------------------------------------------
+    </p>
+    <p>
+      
+    </p>
+    <p>
       MAKEDEV ttyp
     </p>
     <p>
@@ -369,6 +388,21 @@
     </p>
     <p>
       chown root:tty /dev/*ty*
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # --------------------------------------------
+    </p>
+    <p>
+      # FlossWare end
+    </p>
+    <p>
+      # --------------------------------------------
+    </p>
+    <p>
+      
     </p>
     <p>
       
@@ -440,7 +474,7 @@
       # STOP BOOTLOG (For etch you need to add &quot;start&quot; at the end of the line)
     </p>
     <p>
-      /etc/init.d/stop-bootlogd start
+      #/etc/init.d/stop-bootlogd start
     </p>
     <p>
       #/etc/init.d/mysql start
@@ -452,49 +486,31 @@
       
     </p>
     <p>
-      # FlossWare Start
+      # --------------------------------------------
     </p>
     <p>
-      /etc/init.d/rsyslog start
+      # FlossWare start
     </p>
     <p>
-      ##/etc/init.d/portmap start
+      # --------------------------------------------
     </p>
     <p>
-      /etc/init.d/rpcbind start
+      
     </p>
     <p>
-      /etc/init.d/postfix start
+      /usr/bin/nohup /boot/flossware.sh &amp;
     </p>
     <p>
-      /etc/init.d/dovecot start
+      
     </p>
     <p>
-      /etc/init.d/nfs-common start
+      # --------------------------------------------
     </p>
     <p>
-      /etc/init.d/nfs-kernel-server restart
+      # FlossWare end
     </p>
     <p>
-      ##/etc/init.d/bind9 start
-    </p>
-    <p>
-      ##/etc/init.d/isc-dhcp-server start
-    </p>
-    <p>
-      #/etc/init.d/ntp start
-    </p>
-    <p>
-      /etc/init.d/nis start
-    </p>
-    <p>
-      #/etc/init.d/tftpd-hpa start
-    </p>
-    <p>
-      #/etc/init.d/puppetmaster start
-    </p>
-    <p>
-      # FlossWare Stop
+      # --------------------------------------------
     </p>
     <p>
       
@@ -503,7 +519,92 @@
       /etc/rc.local
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1422972100828" FOLDED="true" ID="ID_1653422704" MODIFIED="1422972131741" TEXT="/boot/flossware.sh">
+<node COLOR="#111111" CREATED="1422972109975" ID="ID_221850712" MODIFIED="1422972122035">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #!/bin/bash
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      export PATH=&quot;/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      start() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/etc/init.d/$1 start &gt;&gt; /var/log/flossware.log 2&gt;&amp;1
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # -------------------------------
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      date &gt; /var/log/flossware.log
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Wait for NAS to start up...
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      sleep 20s
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # -------------------------------
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      start portmap
+    </p>
+    <p>
+      start nis
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # -------------------------------
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      date &gt;&gt; /var/log/flossware.log
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -522,34 +623,34 @@
       
     </p>
     <p>
-      #export PATH=&quot;/bin:/usr/bin:/usr/local/bin:/sbin:/usr/sbin:/usr/local/sbin&quot;
+      #export PATH="/bin:/usr/bin:/usr/local/bin:/sbin:/usr/sbin:/usr/local/sbin"
     </p>
     <p>
       
     </p>
     <p>
-      export PATH=&quot;/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin&quot;
+      export PATH="/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"
     </p>
     <p>
-      export ETCDIR=&quot;/etc&quot;
+      export ETCDIR="/etc"
     </p>
     <p>
-      export SBINDIR=&quot;/sbin&quot;
+      export SBINDIR="/sbin"
     </p>
     <p>
-      export HOME=&quot;/root&quot;
+      export HOME="/root"
     </p>
     <p>
-      export BINDIR=&quot;/bin&quot;
+      export BINDIR="/bin"
     </p>
     <p>
-      export SHELL=&quot;/bin/bash&quot;
+      export SHELL="/bin/bash"
     </p>
     <p>
-      export DATADIR=&quot;/usr/share&quot;
+      export DATADIR="/usr/share"
     </p>
     <p>
-      export LD_LIBRARY_PATH=&quot;/lib:/usr/lib:/usr/local/lib&quot;
+      export LD_LIBRARY_PATH="/lib:/usr/lib:/usr/local/lib"
     </p>
     <p>
       
@@ -630,7 +731,7 @@
       
     </p>
     <p>
-      echo &quot;search flossware.com&quot; &gt;&gt; /etc/resolv.conf
+      echo "search flossware.com" &gt;&gt; /etc/resolv.conf
     </p>
     <p>
       
@@ -650,6 +751,7 @@
 </node>
 <node COLOR="#00b439" CREATED="1380462735986" ID="ID_355564253" LINK="https://code.google.com/p/funplug-dns320-dns325/downloads/detail?name=squeeze.tar.gz&amp;can=2&amp;q=" MODIFIED="1380555217709" TEXT="Download">
 <edge STYLE="bezier" WIDTH="thin"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_355564253" ENDARROW="Default" ENDINCLINATION="94;0;" ID="Arrow_ID_698968473" SOURCE="ID_440151336" STARTARROW="None" STARTINCLINATION="94;0;"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 <node COLOR="#00b439" CREATED="1380463130104" ID="ID_791991808" MODIFIED="1380463132276" TEXT="Installation">
@@ -730,8 +832,7 @@
       NISCLIENT=false
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
