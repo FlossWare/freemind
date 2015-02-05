@@ -247,5 +247,17 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1423080939200" ID="ID_852902343" MODIFIED="1423080941464" POSITION="right" TEXT="describe">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1423080944984" ID="ID_374038558" MODIFIED="1423080952116" TEXT="git describe --tags">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1423080952532" ID="ID_1804149901" MODIFIED="1423080961288" TEXT="Give the latest tag in a given branch">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>

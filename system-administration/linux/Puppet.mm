@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1261057109791" ID="ID_121229838" LINK="Linux.mm" MODIFIED="1307803966656" TEXT="Puppet">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -23,13 +23,13 @@
                                         multidimensions:
                                     </p>
                                     <p>
-                                        &#160;&#160;&#160;&#160;- [ Home, /this is home ]
+                                        &#xa0;&#xa0;&#xa0;&#xa0;- [ Home, /this is home ]
                                     </p>
                                     <p>
-                                        &#160;&#160;&#160;&#160;- [ Foo,&#160;&#160;&#160;&#160;&#160;/foo/bar/alpha ]
+                                        &#xa0;&#xa0;&#xa0;&#xa0;- [ Foo,&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/foo/bar/alpha ]
                                     </p>
                                     <p>
-                                        &#160;&#160;&#160;&#160;- [ Beta,&#160;&#160;&#160;&#160;/another/dir ]
+                                        &#xa0;&#xa0;&#xa0;&#xa0;- [ Beta,&#xa0;&#xa0;&#xa0;&#xa0;/another/dir ]
                                     </p>
                                 </body>
                         </html></richcontent>
@@ -45,13 +45,13 @@
                                 </head>
                                 <body>
                                     <p>
-                                        $var1 = [ &quot;Home&quot;, &quot;/this is home&quot;&#160;&#160;&#160;&#160;]
+                                        $var1 = [ "Home", "/this is home"&#xa0;&#xa0;&#xa0;&#xa0;]
                                     </p>
                                     <p>
-                                        $var2 = [ &quot;Foo&quot;,&#160;&#160;&#160;&#160;&quot;/foo/bar/alpha&quot; ]
+                                        $var2 = [ "Foo",&#xa0;&#xa0;&#xa0;&#xa0;"/foo/bar/alpha" ]
                                     </p>
                                     <p>
-                                        $var3 = [ &quot;Beta&quot;,&#160;&#160;&#160;&quot;/another/dir&quot;&#160;&#160;&#160;&#160;&#160;]
+                                        $var3 = [ "Beta",&#xa0;&#xa0;&#xa0;"/another/dir"&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;]
                                     </p>
                                     <p>
 
@@ -60,13 +60,13 @@
                                         $multidimensions = [
                                     </p>
                                     <p>
-                                        &#160;&#160;&#160;$var1,
+                                        &#xa0;&#xa0;&#xa0;$var1,
                                     </p>
                                     <p>
-                                        &#160;&#160;&#160;$var2,
+                                        &#xa0;&#xa0;&#xa0;$var2,
                                     </p>
                                     <p>
-                                        &#160;&#160;&#160;$var3,
+                                        &#xa0;&#xa0;&#xa0;$var3,
                                     </p>
                                     <p>
                                         ]
@@ -87,7 +87,7 @@
                                         &lt;% multidimensions.each do |variables| -%&gt;
                                     </p>
                                     <p>
-                                        &#160;&#160;&#160;&#160;0 [&lt;%= variables [ 0 ] %&gt;]&#160;&#160;1 [&lt;%= variables [ 1 ] %&gt;]
+                                        &#xa0;&#xa0;&#xa0;&#xa0;0 [&lt;%= variables [ 0 ] %&gt;]&#xa0;&#xa0;1 [&lt;%= variables [ 1 ] %&gt;]
                                     </p>
                                     <p>
                                         &lt;% end -%
@@ -112,19 +112,19 @@
       package::class:
     </p>
     <p>
-      &#160;&#160;seqMap:
+      &#xa0;&#xa0;seqMap:
     </p>
     <p>
-      &#160;&#160;&#160;&#160;-&#160;&#160;key1: Key1-1 String
+      &#xa0;&#xa0;&#xa0;&#xa0;-&#xa0;&#xa0;key1: Key1-1 String
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;key2: Key1-2 String
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;key2: Key1-2 String
     </p>
     <p>
-      &#160;&#160;&#160;&#160;-&#160;&#160;key1: Key2-1 String
+      &#xa0;&#xa0;&#xa0;&#xa0;-&#xa0;&#xa0;key1: Key2-1 String
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;key2: Key2-2 String
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;key2: Key2-2 String
     </p>
   </body>
 </html></richcontent>
@@ -142,10 +142,10 @@
                                         $seq1 = {
                                     </p>
                                     <p>
-                                        &#160;&#160;&#160;&#160;key1&#160;=&gt; &quot;Key1-1 String&quot;,
+                                        &#xa0;&#xa0;&#xa0;&#xa0;key1&#xa0;=&gt; "Key1-1 String",
                                     </p>
                                     <p>
-                                        &#160;&#160;&#160;&#160;key2 =&gt; &quot;Key1-2 String&quot;,
+                                        &#xa0;&#xa0;&#xa0;&#xa0;key2 =&gt; "Key1-2 String",
                                     </p>
                                     <p>
                                         }
@@ -154,10 +154,10 @@
                                         $seq2 = {
                                     </p>
                                     <p>
-                                        &#160;&#160;&#160;&#160;key1&#160;=&gt; &quot;Key1 String&quot;,
+                                        &#xa0;&#xa0;&#xa0;&#xa0;key1&#xa0;=&gt; "Key1 String",
                                     </p>
                                     <p>
-                                        &#160;&#160;&#160;&#160;key2 =&gt; &quot;Key2 String&quot;,
+                                        &#xa0;&#xa0;&#xa0;&#xa0;key2 =&gt; "Key2 String",
                                     </p>
                                     <p>
                                         }
@@ -166,13 +166,13 @@
 
                                     </p>
                                     <p>
-                                        $seqMap&#160;= [
+                                        $seqMap&#xa0;= [
                                     </p>
                                     <p>
-                                        &#160;&#160;&#160;&#160;&#160;$seq1,
+                                        &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;$seq1,
                                     </p>
                                     <p>
-                                        &#160;&#160;&#160;&#160;&#160;$seq2,
+                                        &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;$seq2,
                                     </p>
                                     <p>
                                         ]
@@ -193,7 +193,7 @@
                                         &lt;% mapSeq.each do |map| -%&gt;
                                     </p>
                                     <p>
-                                        &#160;&#160;&#160;&#160;key1 [&lt;%= map [ &quot;key1&quot; ] %&gt;]&#160;&#160;key2 [&lt;%= map [ &quot;key2&quot; ] %&gt;]
+                                        &#xa0;&#xa0;&#xa0;&#xa0;key1 [&lt;%= map [ "key1" ] %&gt;]&#xa0;&#xa0;key2 [&lt;%= map [ "key2" ] %&gt;]
                                     </p>
                                     <p>
                                         &lt;% end -%&gt;
@@ -226,7 +226,7 @@
       classes:
     </p>
     <p>
-      &#160;&#160;- common
+      &#xa0;&#xa0;- common
     </p>
     <p>
       environment: production
@@ -235,7 +235,7 @@
       parameters:
     </p>
     <p>
-      &#160;&#160;puppet_server: puppet.example.com
+      &#xa0;&#xa0;puppet_server: puppet.example.com
     </p>
   </body>
 </html></richcontent>
@@ -255,27 +255,35 @@
       classes:
     </p>
     <p>
-      &#160;&#160;&#160;&#160;ntp:
+      &#xa0;&#xa0;&#xa0;&#xa0;ntp:
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ntpserver: 0.pool.ntp.org
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;ntpserver: 0.pool.ntp.org
     </p>
     <p>
-      &#160;&#160;&#160;&#160;aptsetup:
+      &#xa0;&#xa0;&#xa0;&#xa0;aptsetup:
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;additional_apt_repos:
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;additional_apt_repos:
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;- deb localrepo.magpie.lan/ubuntu lucid production
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;- deb localrepo.magpie.lan/ubuntu lucid production
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;- deb localrepo.magpie.lan/ubuntu lucid vendor
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;- deb localrepo.magpie.lan/ubuntu lucid vendor
     </p>
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1423161626922" ID="ID_83894962" MODIFIED="1423161627927" POSITION="right" TEXT="Runs">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1423161637860" ID="ID_1088870504" MODIFIED="1423161638780" TEXT="/var/lib/puppet/state/last_run_report.yaml">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1352291821651" ID="ID_395338285" MODIFIED="1352291828840" POSITION="left" TEXT="Certificates">
@@ -400,10 +408,10 @@
       [files]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;path [path to module]/[share dir]
+      &#xa0;&#xa0;&#xa0;&#xa0;path [path to module]/[share dir]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;allow *.[domain name]
+      &#xa0;&#xa0;&#xa0;&#xa0;allow *.[domain name]
     </p>
   </body>
 </html></richcontent>
@@ -418,10 +426,10 @@
       [files]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;path /etc/puppet/modules
+      &#xa0;&#xa0;&#xa0;&#xa0;path /etc/puppet/modules
     </p>
     <p>
-      &#160;&#160;&#160;&#160;allow *.flossware.com
+      &#xa0;&#xa0;&#xa0;&#xa0;allow *.flossware.com
     </p>
   </body>
 </html></richcontent>

@@ -48,7 +48,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1421683192904" ID="ID_288888198" MODIFIED="1421683266317" POSITION="right" TEXT="images">
+<node COLOR="#0033ff" CREATED="1421683192904" ID="ID_288888198" MODIFIED="1422999232451" POSITION="right" TEXT="images">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
