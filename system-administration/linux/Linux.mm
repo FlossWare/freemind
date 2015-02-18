@@ -3,99 +3,7 @@
 <node COLOR="#000000" CREATED="1270310396325" ID="ID_251328639" LINK="../System%20Administration.mm" MODIFIED="1288889529768" TEXT="Linux">
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1416757565899" ID="ID_1717868975" MODIFIED="1416757568363" POSITION="right" TEXT="Detail">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1291901984982" ID="ID_1209787263" LINK="Apache.mm" MODIFIED="1416757573442" TEXT="Apache">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1325522805264" ID="ID_1686665674" LINK="Anaconda.mm" MODIFIED="1416757573443" TEXT="Anaconda">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1295364429237" ID="ID_1443470952" LINK="Bash.mm" MODIFIED="1416757573444" TEXT="Bash">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1295104571579" ID="ID_822169857" LINK="Cobbler.mm" MODIFIED="1416757573445" TEXT="Cobbler">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1311180264890" ID="ID_1368899136" LINK="DHCP.mm" MODIFIED="1416757573445" TEXT="DHCP">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1354890513222" ID="ID_1488782830" LINK="DVD.mm" MODIFIED="1416757573446" TEXT="DVD">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1269099851500" ID="ID_341618243" LINK="FVWM.mm" MODIFIED="1416757573447" TEXT="FVWM">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1363430764140" ID="ID_1173407211" LINK="Jenkins.mm" MODIFIED="1416757573448" TEXT="Jenkins">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1315654233231" ID="ID_585100924" LINK="KDE.mm" MODIFIED="1416757573449" TEXT="KDE">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1291902249893" ID="ID_1257249063" LINK="MySQL.mm" MODIFIED="1416757573450" TEXT="MySQL">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1305636456492" ID="ID_728782428" LINK="NX.mm" MODIFIED="1416757573451" TEXT="NX">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1354751851875" ID="ID_256312895" LINK="Postfix.mm" MODIFIED="1416757573451" TEXT="Postfix">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1269099335760" ID="ID_1455357393" LINK="Puppet.mm" MODIFIED="1416757573452" TEXT="Puppet">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1270219908203" ID="ID_1456202770" LINK="RPM.mm" MODIFIED="1416757573453" TEXT="RPM">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1323704381319" ID="ID_419899" LINK="Screen.mm" MODIFIED="1416757573454" TEXT="Screen">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1281890683211" ID="ID_931296403" LINK="Sound.mm" MODIFIED="1416757573455" TEXT="Sound">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1269099440697" ID="ID_1446862936" LINK="SSH.mm" MODIFIED="1416757573456" TEXT="SSH">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1352295995181" ID="ID_1330344617" LINK="TFTP.mm" MODIFIED="1416757573457" TEXT="TFTP">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1325947266640" ID="ID_1677443137" LINK="udev.mm" MODIFIED="1416757573457" TEXT="udev">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1364216287092" ID="ID_1294782699" LINK="WOL.mm" MODIFIED="1416757573458" TEXT="WOL">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1301231910072" ID="ID_1120113763" LINK="X.mm" MODIFIED="1416757573459" TEXT="X">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1324994170187" ID="ID_671827509" LINK="Xen.mm" MODIFIED="1416757573460" TEXT="Xen">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1416757402529" ID="ID_744161246" MODIFIED="1416757487128" POSITION="left" TEXT="Apps">
+<node COLOR="#0033ff" CREATED="1416757402529" ID="ID_744161246" MODIFIED="1416757487128" POSITION="right" TEXT="Apps">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1397132234309" ID="ID_680823589" MODIFIED="1417700099687" TEXT="autofs">
@@ -326,6 +234,25 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1424282496902" ID="ID_1867054112" MODIFIED="1424282498375" TEXT="selinux">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1424282544543" ID="ID_195890632" MODIFIED="1424282545615" TEXT="setenforce 0">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1424282562143" ID="ID_1874866771" MODIFIED="1424282563395" TEXT="getenforce">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1424282576883" ID="ID_326555008" MODIFIED="1424282588156" TEXT="enforcing"/>
+<node COLOR="#111111" CREATED="1424282580264" ID="ID_1568618882" MODIFIED="1424282594201" TEXT="permissive"/>
+<node COLOR="#111111" CREATED="1424282582223" ID="ID_1027388943" MODIFIED="1424282598055" TEXT="disabled"/>
+</node>
+<node COLOR="#990000" CREATED="1424282525883" ID="ID_1082167207" MODIFIED="1424282528035" TEXT="sealert">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1424282519843" ID="ID_445730507" MODIFIED="1424282530171" TEXT="sealert -a /var/log/audit/audit.log">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1416233634117" ID="ID_98572430" MODIFIED="1421195209391" TEXT="sudo">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -485,6 +412,98 @@
 </node>
 </node>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1416757565899" ID="ID_1717868975" MODIFIED="1416757568363" POSITION="left" TEXT="Detail">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1291901984982" ID="ID_1209787263" LINK="Apache.mm" MODIFIED="1416757573442" TEXT="Apache">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1325522805264" ID="ID_1686665674" LINK="Anaconda.mm" MODIFIED="1416757573443" TEXT="Anaconda">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1295364429237" ID="ID_1443470952" LINK="Bash.mm" MODIFIED="1416757573444" TEXT="Bash">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1295104571579" ID="ID_822169857" LINK="Cobbler.mm" MODIFIED="1416757573445" TEXT="Cobbler">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1311180264890" ID="ID_1368899136" LINK="DHCP.mm" MODIFIED="1416757573445" TEXT="DHCP">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1354890513222" ID="ID_1488782830" LINK="DVD.mm" MODIFIED="1416757573446" TEXT="DVD">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1269099851500" ID="ID_341618243" LINK="FVWM.mm" MODIFIED="1416757573447" TEXT="FVWM">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1363430764140" ID="ID_1173407211" LINK="Jenkins.mm" MODIFIED="1416757573448" TEXT="Jenkins">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1315654233231" ID="ID_585100924" LINK="KDE.mm" MODIFIED="1416757573449" TEXT="KDE">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1291902249893" ID="ID_1257249063" LINK="MySQL.mm" MODIFIED="1416757573450" TEXT="MySQL">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1305636456492" ID="ID_728782428" LINK="NX.mm" MODIFIED="1416757573451" TEXT="NX">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1354751851875" ID="ID_256312895" LINK="Postfix.mm" MODIFIED="1416757573451" TEXT="Postfix">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1269099335760" ID="ID_1455357393" LINK="Puppet.mm" MODIFIED="1416757573452" TEXT="Puppet">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1270219908203" ID="ID_1456202770" LINK="RPM.mm" MODIFIED="1416757573453" TEXT="RPM">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1323704381319" ID="ID_419899" LINK="Screen.mm" MODIFIED="1416757573454" TEXT="Screen">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1281890683211" ID="ID_931296403" LINK="Sound.mm" MODIFIED="1416757573455" TEXT="Sound">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1269099440697" ID="ID_1446862936" LINK="SSH.mm" MODIFIED="1416757573456" TEXT="SSH">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1352295995181" ID="ID_1330344617" LINK="TFTP.mm" MODIFIED="1416757573457" TEXT="TFTP">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1325947266640" ID="ID_1677443137" LINK="udev.mm" MODIFIED="1416757573457" TEXT="udev">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1364216287092" ID="ID_1294782699" LINK="WOL.mm" MODIFIED="1416757573458" TEXT="WOL">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1301231910072" ID="ID_1120113763" LINK="X.mm" MODIFIED="1416757573459" TEXT="X">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1324994170187" ID="ID_671827509" LINK="Xen.mm" MODIFIED="1416757573460" TEXT="Xen">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>

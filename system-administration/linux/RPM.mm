@@ -20,12 +20,27 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1280509005197" ID="ID_188560991" MODIFIED="1280509013313" POSITION="right" TEXT="Find installed app">
+<node COLOR="#0033ff" CREATED="1424282394062" ID="ID_1470803754" MODIFIED="1424282394914" POSITION="right" TEXT="Find">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1280509014335" ID="ID_1477334817" MODIFIED="1280509020783" TEXT="rpm -ql &lt;rpm name&gt;">
+<node COLOR="#00b439" CREATED="1280509005197" ID="ID_188560991" MODIFIED="1424282436854" TEXT="Installed app">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1280509014335" ID="ID_1477334817" MODIFIED="1424282396698" TEXT="rpm -ql &lt;rpm name&gt;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1424282437864" ID="ID_1496553494" MODIFIED="1424282444794" TEXT="When u know the app name">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1424282425963" ID="ID_1455638467" MODIFIED="1424282464894" TEXT="yum provides *[dir]/app">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1424282453157" ID="ID_644330659" MODIFIED="1424282455378" TEXT="yum provides *bin/sealert">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1295706029272" ID="ID_95966117" MODIFIED="1295706030773" POSITION="right" TEXT="rpmbuild">
