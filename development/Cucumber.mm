@@ -29,5 +29,13 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1425220384555" ID="ID_172671255" MODIFIED="1425220388319" POSITION="right" TEXT="java">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1425220397967" ID="ID_1706554571" MODIFIED="1425220605219" TEXT="@CucumberOptions(tags=&quot;@tag1,...,@tagN&quot;, features={&quot;[dir1]/file1.feature&quot;, ..., &quot;[dirN]/fileN.feature&quot;})">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>
