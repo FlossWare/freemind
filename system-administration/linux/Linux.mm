@@ -465,10 +465,6 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1269099335760" ID="ID_1455357393" LINK="Puppet.mm" MODIFIED="1416757573452" TEXT="Puppet">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1270219908203" ID="ID_1456202770" LINK="RPM.mm" MODIFIED="1416757573453" TEXT="RPM">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -502,6 +498,18 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 <node COLOR="#00b439" CREATED="1324994170187" ID="ID_671827509" LINK="Xen.mm" MODIFIED="1416757573460" TEXT="Xen">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1425994550324" ID="ID_1066222231" MODIFIED="1425994558570" POSITION="left" TEXT="Configuration Management">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1425994580251" ID="ID_1848444620" LINK="Ansilble.mm" MODIFIED="1425994580253" TEXT="Ansilble">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1269099335760" ID="ID_1455357393" LINK="Puppet.mm" MODIFIED="1416757573452" TEXT="Puppet">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
