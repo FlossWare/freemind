@@ -65,7 +65,7 @@
 <node COLOR="#00b439" CREATED="1424379713072" ID="ID_714400796" MODIFIED="1424379715524" TEXT="all images">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1424379738652" ID="ID_530091352" MODIFIED="1424379740024" TEXT="docker rmi $(docker images -q)">
+<node COLOR="#990000" CREATED="1424379738652" ID="ID_530091352" MODIFIED="1427554131269" TEXT="docker rmi $(docker images -q)">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>

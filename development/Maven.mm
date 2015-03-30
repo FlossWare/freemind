@@ -25,13 +25,9 @@
 <node COLOR="#00b439" CREATED="1387903806072" ID="ID_1095477044" MODIFIED="1397737544756" TEXT="class">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1387903817106" ID="ID_869198855" MODIFIED="1412776426932" TEXT="mvn exec:java -Dexec.mainClass=TheClass">
+<node COLOR="#990000" CREATED="1387903817106" ID="ID_869198855" MODIFIED="1426942144580" TEXT="mvn exec:java -Dexec.mainClass=[package].TheClass -Dexec.args=&quot;[Command line params]">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1387903823413" ID="ID_176576825" MODIFIED="1397737547525" TEXT="TheClass minus package">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
 </node>
 </node>
 </node>
@@ -250,8 +246,7 @@
       &#160;&#160;-DartifactId=my-app
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
