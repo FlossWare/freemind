@@ -203,6 +203,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1428577055639" ID="ID_425233896" MODIFIED="1428577058889" TEXT="ip">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1428577060269" ID="ID_849029489" MODIFIED="1428577075073" TEXT="ip addr show">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1417366743936" FOLDED="true" ID="ID_1796342552" MODIFIED="1417366820249" TEXT="mktemp">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

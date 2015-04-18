@@ -70,5 +70,9 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1428348244112" ID="ID_502829791" MODIFIED="1428348247140" POSITION="right" TEXT=" /var/lib/docker">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 </node>
 </map>

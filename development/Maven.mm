@@ -328,6 +328,13 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1429361607931" ID="ID_1516105034" MODIFIED="1429361613347" TEXT="Choose a different one">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1429361614971" ID="ID_1600175886" MODIFIED="1429361617943" TEXT="-Dmaven.repo.local=/path/to/repository">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1392211583611" ID="ID_865892207" MODIFIED="1392211590272" POSITION="left" TEXT="Always download artifacts">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
