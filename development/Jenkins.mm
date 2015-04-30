@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1366039906663" ID="ID_1566321833" LINK="Development.mm" MODIFIED="1366039926122" TEXT="Jenkins">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -52,6 +52,27 @@
 <node COLOR="#990000" CREATED="1406573305712" ID="ID_720146059" MODIFIED="1406573315132" TEXT="*/tags/*">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1430404997400" ID="ID_316960649" MODIFIED="1430405003103" POSITION="right" TEXT="Trigger a job on another Jenkins">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1430405004184" ID="ID_1715704319" MODIFIED="1430405014631" TEXT="Get your token">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1430405015839" ID="ID_149023873" MODIFIED="1430405020159" TEXT="Click on your user name">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1430405028299" ID="ID_569906401" MODIFIED="1430405031395" TEXT="Click configure">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1430405044699" ID="ID_866366155" MODIFIED="1430405053475" TEXT="Click &quot;Show API Token&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1430405078191" ID="ID_1072635928" MODIFIED="1430405183375" TEXT="curl -k -X POST http[s]://[username]:[api token]@[host]/job/[job name]/build?delay=0sec">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1387906977369" ID="ID_808669744" MODIFIED="1388168804740" POSITION="left" TEXT="Adjust memory">
