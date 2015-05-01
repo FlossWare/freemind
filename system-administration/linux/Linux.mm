@@ -420,6 +420,14 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1429989854463" ID="ID_423033672" MODIFIED="1430508256876" TEXT="Convert flv to mp4">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1429989862194" ID="ID_536958422" MODIFIED="1430508256876" TEXT="ffmpeg -i input.flv -codec copy output.mp4">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1416757565899" ID="ID_1717868975" MODIFIED="1416757568363" POSITION="left" TEXT="Detail">
 <edge STYLE="sharp_bezier" WIDTH="8"/>

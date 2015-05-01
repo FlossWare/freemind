@@ -47,10 +47,6 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1387480268937" ID="ID_410891512" LINK="Splunk.mm" MODIFIED="1387480268941" POSITION="right" TEXT="Splunk">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-</node>
 <node COLOR="#0033ff" CREATED="1420896763643" ID="ID_1784596895" MODIFIED="1420896766878" POSITION="left" TEXT="Virtualization">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -83,9 +79,21 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1380628333452" ID="ID_832247259" LINK="Chrome.mm" MODIFIED="1380628333455" POSITION="right" TEXT="Chrome">
+<node COLOR="#0033ff" CREATED="1430479548597" ID="ID_510441919" MODIFIED="1430479549693" POSITION="right" TEXT="Apps">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1387480268937" ID="ID_410891512" LINK="Splunk.mm" MODIFIED="1430479553287" TEXT="Splunk">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1380628333452" ID="ID_832247259" LINK="Chrome.mm" MODIFIED="1430479553288" TEXT="Chrome">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1430479572609" ID="ID_827804454" LINK="Firefox.mm" MODIFIED="1430479572612" TEXT="Firefox">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 </node>
 </map>
