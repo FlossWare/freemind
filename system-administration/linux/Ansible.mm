@@ -144,24 +144,13 @@
       host_key_checking = False
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1430495360696" ID="ID_1139626476" MODIFIED="1430495398487">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      sudo ansible-playbook -l [host] -i [inventory] -k [playbook].yml
-    </p>
-  </body>
-</html>
-</richcontent>
-<font NAME="SansSerif" SIZE="14"/>
 </node>
+<node COLOR="#00b439" CREATED="1430577070941" ID="ID_974076470" MODIFIED="1430577074965" TEXT="yum install sshpass">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1426037717286" ID="ID_673900833" MODIFIED="1426037721877" POSITION="right" TEXT="Directory Layout">
@@ -402,6 +391,35 @@
 <node COLOR="#990000" CREATED="1427554701879" ID="ID_710983155" MODIFIED="1427554744067" TEXT="-e &quot;salesUsers={{salesforce.preusers}}">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+</node>
+<node COLOR="#00b439" CREATED="1430495360696" ID="ID_1139626476" MODIFIED="1430579703832">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sudo ansible-playbook -l [host] -i [inventory] -k [playbook].yml
+    </p>
+  </body>
+</html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1430495360696" ID="ID_1921058720" MODIFIED="1430579751178">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sudo ansible-playbook -l [host] -i [inventory] -u [sudo user] [playbook].yml
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1426007798191" ID="ID_448424956" MODIFIED="1426007800003" POSITION="left" TEXT="Playbook">

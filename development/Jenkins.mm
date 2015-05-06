@@ -74,6 +74,24 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1430914783939" ID="ID_816933654" MODIFIED="1430914788139" TEXT="With params">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1430914791347" ID="ID_457198594" MODIFIED="1430914922434">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      curl -k -X POST http[s]://[username]:[api token]@[host]/job/[job name]/buildWithParameters?[param1]=[val1]&amp;[param2]=[val2]&amp;...&amp;[paramN]=[valN]
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1387906977369" ID="ID_808669744" MODIFIED="1388168804740" POSITION="left" TEXT="Adjust memory">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
