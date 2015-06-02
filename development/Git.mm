@@ -45,6 +45,14 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1433174776184" ID="ID_354218309" MODIFIED="1433174778615" POSITION="right" TEXT="Remotes">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1433174779312" ID="ID_742756588" MODIFIED="1433174781348" TEXT="git remote set-url origin url://new/url.git">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1292960013594" ID="ID_1518505701" MODIFIED="1292960826860" POSITION="right" TEXT="diff">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -257,6 +265,25 @@
 <node COLOR="#00b439" CREATED="1423080952532" ID="ID_1804149901" MODIFIED="1423080961288" TEXT="Give the latest tag in a given branch">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1431364372574" ID="ID_1070283070" MODIFIED="1431364374282" POSITION="right" TEXT="submodules">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1431364403125" ID="ID_70038783" MODIFIED="1431364407777" TEXT=" git submodule add [url]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1431364408837" ID="ID_294421263" MODIFIED="1431364419121" TEXT="git submodule update --init">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1431446179713" ID="ID_291742375" MODIFIED="1431446181297" TEXT="configure">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1431446182577" ID="ID_1489808453" MODIFIED="1431446201109" TEXT="git config -f .gitmodules submodule.[sub module name].branch [branch name]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 </node>
