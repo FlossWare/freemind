@@ -74,5 +74,43 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1433264796568" ID="ID_763286805" MODIFIED="1433264800076" POSITION="right" TEXT="Miscellaenous">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1420818524739" ID="ID_1522282413" MODIFIED="1433264803253" TEXT="chkconfig docker on">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1420818540542" ID="ID_750680235" MODIFIED="1433264803254" TEXT="service docker start">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1420842245717" ID="ID_1130947993" MODIFIED="1433264803255" TEXT="systemctl daemon-reload">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1420842259013" ID="ID_1766466571" MODIFIED="1433264803256" TEXT="service docker restart">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1433423643991" ID="ID_910028699" MODIFIED="1433423645914" POSITION="right" TEXT="registry">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1433423646863" ID="ID_433644344" MODIFIED="1433423647779" TEXT="list">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1433423648887" ID="ID_1790435955" MODIFIED="1433423737533" TEXT="curl -X GET [host]:[port]/v1/repositories/[name]/tags">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1433423715754" ID="ID_1550929287" MODIFIED="1433423716846" TEXT="delete">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1433423726014" ID="ID_239626478" MODIFIED="1433423765813" TEXT="curl -X DELETE http://[host]:[port]/v1/repositories/[name]/tags/[tag]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 </node>
 </map>
