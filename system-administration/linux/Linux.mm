@@ -196,6 +196,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1434294449459" ID="ID_506672336" MODIFIED="1434294460882" TEXT="genisoimage">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1434294462098" ID="ID_1287560263" MODIFIED="1434294480470" TEXT="genisoimage -o [iso file name] [dir1] ... [dirN]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1419008708891" ID="ID_1793127488" MODIFIED="1419008710969" TEXT="ifconfig">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

@@ -267,6 +267,14 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1433770207759" ID="ID_54887149" MODIFIED="1433770209362" POSITION="left" TEXT="yum">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1433770217470" ID="ID_1762710290" MODIFIED="1433770219444" TEXT="syslinux-tftpboot">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1369758180382" ID="ID_1666935281" MODIFIED="1369758183030" POSITION="left" TEXT="Debian">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
