@@ -58,14 +58,14 @@
 <node COLOR="#00b439" CREATED="1424379710472" ID="ID_1306103469" MODIFIED="1424379712764" TEXT="all containers">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1424379725832" ID="ID_333975960" MODIFIED="1424379726984" TEXT="docker rm $(docker ps -a -q)">
+<node COLOR="#990000" CREATED="1424379725832" ID="ID_333975960" MODIFIED="1434375803003" TEXT="docker rm -f $(docker ps -a -q)">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1424379713072" ID="ID_714400796" MODIFIED="1424379715524" TEXT="all images">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1424379738652" ID="ID_530091352" MODIFIED="1427554131269" TEXT="docker rmi $(docker images -q)">
+<node COLOR="#990000" CREATED="1424379738652" ID="ID_530091352" MODIFIED="1434375806679" TEXT="docker rmi -f $(docker images -q)">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>

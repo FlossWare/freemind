@@ -273,7 +273,7 @@
 <node COLOR="#990000" CREATED="1416233637048" ID="ID_490201756" MODIFIED="1416757419910" TEXT="visudo">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1416233664904" ID="ID_726467903" MODIFIED="1416757419910">
+<node COLOR="#111111" CREATED="1416233664904" ID="ID_726467903" MODIFIED="1434972814703">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -285,8 +285,15 @@
     <p>
       sfloess ALL=(ALL)&#160;&#160;&#160;&#160;&#160;&#160;&#160;ALL
     </p>
+    <p>
+      
+    </p>
+    <p>
+      ALL&#160;&#160;&#160;&#160;&#160;ALL=(ALL)&#160;&#160;&#160;&#160;&#160;&#160;&#160;NOPASSWD: ALL
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
