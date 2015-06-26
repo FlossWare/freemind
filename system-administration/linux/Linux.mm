@@ -84,7 +84,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1417273376905" FOLDED="true" ID="ID_1264126532" MODIFIED="1417718793546" TEXT="Handbrake">
+<node COLOR="#00b439" CREATED="1417273376905" FOLDED="true" ID="ID_1264126532" MODIFIED="1435149494655" TEXT="Handbrake">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1417273406665" ID="ID_1840031309" MODIFIED="1417354059104" TEXT="https://handbrake.fr/downloads.php">
@@ -292,8 +292,7 @@
       ALL&#160;&#160;&#160;&#160;&#160;ALL=(ALL)&#160;&#160;&#160;&#160;&#160;&#160;&#160;NOPASSWD: ALL
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
