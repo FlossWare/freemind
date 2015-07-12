@@ -4,7 +4,7 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1435149627724" ID="ID_239994505" MODIFIED="1435149629576" POSITION="right" TEXT="7.0">
+<node COLOR="#0033ff" CREATED="1435149627724" ID="ID_239994505" MODIFIED="1436107961199" POSITION="right" TEXT="7">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1435149640460" ID="ID_875080470" MODIFIED="1435149726170" TEXT="multimedia">
@@ -46,6 +46,10 @@
 </node>
 </node>
 </node>
+</node>
+<node COLOR="#00b439" CREATED="1436107963555" ID="ID_1733189226" MODIFIED="1436107971854" TEXT="nmcli d">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>
