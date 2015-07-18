@@ -3,9 +3,17 @@
 <node COLOR="#000000" CREATED="1270310396325" ID="ID_251328639" LINK="../Reference.mm" MODIFIED="1288889636984" TEXT="System Administration">
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1327003827279" ID="ID_1749573106" LINK="DNS-320.mm" MODIFIED="1352747992573" POSITION="right" TEXT="DNS-320">
+<node COLOR="#0033ff" CREATED="1437223275435" ID="ID_1238905325" MODIFIED="1437223277609" POSITION="right" TEXT="Hardware">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1327003827279" ID="ID_1749573106" LINK="DNS-320.mm" MODIFIED="1437223283540" TEXT="DNS-320">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1437223310863" ID="ID_564729937" LINK="Lenovo%20T540p.mm" MODIFIED="1437223310865" TEXT="Lenovo T540p">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1425994609444" ID="ID_333680386" MODIFIED="1425994611936" POSITION="right" TEXT="Wireless">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
