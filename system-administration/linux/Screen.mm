@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1323704371938" ID="ID_1203511625" LINK="Linux.mm" MODIFIED="1323704386950" TEXT="Screen">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -42,6 +42,21 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1437226194399" ID="ID_1147651021" MODIFIED="1437226198995" POSITION="right" TEXT="Mouse wheel">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1437226199639" ID="ID_275436374" MODIFIED="1437226206171" TEXT="http://unix.stackexchange.com/questions/18006/can-mouse-wheel-scrolling-work-in-a-usr-bin-screen-session">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1437226206735" ID="ID_480580701" MODIFIED="1437226214355" TEXT="screenrc">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1437226215639" ID="ID_1891384943" MODIFIED="1437226217995" TEXT="termcapinfo xterm* ti@:te@ ">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1393347780949" ID="ID_1483299695" MODIFIED="1393347782794" POSITION="right" TEXT="Fedora">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -69,7 +84,7 @@
       if [ -f /etc/bashrc ]; then
     </p>
     <p>
-      &#160;&#160;&#160;&#160;. /etc/bashrc
+      &#xa0;&#xa0;&#xa0;&#xa0;. /etc/bashrc
     </p>
     <p>
       fi
@@ -87,8 +102,7 @@
       ...
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
