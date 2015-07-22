@@ -329,7 +329,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1357680246827" FOLDED="true" ID="ID_212578750" MODIFIED="1417366813623" TEXT="xchat">
+<node COLOR="#00b439" CREATED="1357680246827" ID="ID_212578750" MODIFIED="1437479735777" TEXT="xchat">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1357680251769" ID="ID_833606588" MODIFIED="1416757493406" TEXT="Menu disappears">
@@ -360,6 +360,12 @@
 <icon BUILTIN="full-5"/>
 </node>
 </node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1437479743398" ID="ID_113640879" MODIFIED="1437479746683" TEXT="Past chats">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1437479738597" ID="ID_1039705178" MODIFIED="1437479749122" TEXT="/home/sfloess/.config/xchat2/scrollback">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>

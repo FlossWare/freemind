@@ -33,6 +33,20 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1437499002211" ID="ID_359743993" MODIFIED="1437499004671" TEXT="list">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1437499006003" ID="ID_1783453986" MODIFIED="1437499009106" TEXT="--available">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1437499010791" ID="ID_28983600" MODIFIED="1437499018492" TEXT="attach">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1437499125927" ID="ID_570175894" MODIFIED="1437499138170" TEXT="--pool=[pool id]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 </node>
 </map>
