@@ -83,6 +83,17 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
+<node COLOR="#990000" CREATED="1437999475666" ID="ID_414640922" MODIFIED="1437999483010" TEXT="yum install ImageMagick">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1429989854463" ID="ID_423033672" MODIFIED="1437999454548" TEXT="Convert flv to mp4">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1429989862194" ID="ID_536958422" MODIFIED="1430508256876" TEXT="ffmpeg -i input.flv -codec copy output.mp4">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1417273376905" FOLDED="true" ID="ID_1264126532" MODIFIED="1435149494655" TEXT="Handbrake">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -437,14 +448,6 @@
 </node>
 </node>
 </node>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1429989854463" ID="ID_423033672" MODIFIED="1430508256876" TEXT="Convert flv to mp4">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1429989862194" ID="ID_536958422" MODIFIED="1430508256876" TEXT="ffmpeg -i input.flv -codec copy output.mp4">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>
