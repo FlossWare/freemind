@@ -70,9 +70,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1430405078191" ID="ID_1072635928" MODIFIED="1430405183375" TEXT="curl -k -X POST http[s]://[username]:[api token]@[host]/job/[job name]/build?delay=0sec">
+<node COLOR="#00b439" CREATED="1438091931911" ID="ID_739858658" MODIFIED="1438091934582" TEXT="No params">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1430405078191" ID="ID_1072635928" MODIFIED="1438091936599" TEXT="curl -k -X POST http[s]://[username]:[api token]@[host]/job/[job name]/build?delay=0sec">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1430914783939" ID="ID_816933654" MODIFIED="1430914788139" TEXT="With params">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -87,8 +91,24 @@
       curl -k -X POST http[s]://[username]:[api token]@[host]/job/[job name]/buildWithParameters?[param1]=[val1]&amp;[param2]=[val2]&amp;...&amp;[paramN]=[valN]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1438091910282" ID="ID_1490479562" MODIFIED="1438091915614" TEXT="With params that have defaults">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1430914791347" ID="ID_1062412821" MODIFIED="1438091901355">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      curl -k -X POST http[s]://[username]:[api token]@[host]/job/[job name]/buildWithParameters
+    </p>
+  </body>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
