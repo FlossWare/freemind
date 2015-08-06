@@ -23,6 +23,17 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1438376601445" ID="ID_1644424333" MODIFIED="1438376603553" TEXT="--net=host">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1438376605009" ID="ID_1547482940" MODIFIED="1438376612250" TEXT="Use the host&apos;s network">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1438633126267" ID="ID_745266029" MODIFIED="1438633140247" TEXT="--env LANG=en_US.utf8">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1421683226950" ID="ID_1871230490" MODIFIED="1421683238269" POSITION="right" TEXT="logs [container]">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -108,6 +119,17 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1433423726014" ID="ID_239626478" MODIFIED="1433423765813" TEXT="curl -X DELETE http://[host]:[port]/v1/repositories/[name]/tags/[tag]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1438606454055" ID="ID_15787221" MODIFIED="1438606457227" POSITION="right" TEXT="No locales">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1438606458255" ID="ID_817664529" MODIFIED="1438606467507" TEXT="To install">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1438606468719" ID="ID_244377725" MODIFIED="1438606470890" TEXT="RUN yum -y -q reinstall glibc-common">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
