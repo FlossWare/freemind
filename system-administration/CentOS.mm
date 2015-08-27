@@ -51,6 +51,32 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1440504140480" ID="ID_423703538" MODIFIED="1440504141615" TEXT="Docker">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1440504201607" ID="ID_1758153499" MODIFIED="1440504205731" TEXT="Install">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1440504147391" ID="ID_965538581" MODIFIED="1440504208854" TEXT="http://www.liquidweb.com/kb/how-to-install-docker-on-centos-7/">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1440504148588" ID="ID_812096522" MODIFIED="1440504214436" TEXT="yum -y install docker docker-registry">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1440504159875" ID="ID_1122722986" MODIFIED="1440504215872" TEXT="systemctl enable docker.service">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1440504165083" ID="ID_63869001" MODIFIED="1440504217367" TEXT="systemctl start docker.service">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#111111" CREATED="1440504172239" ID="ID_432510743" MODIFIED="1440504220555" TEXT="systemctl status docker.service">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-4"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>

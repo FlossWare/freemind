@@ -81,7 +81,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1374079078251" ID="ID_199444075" MODIFIED="1374079080845" POSITION="right" TEXT="EAP 6.1">
+<node COLOR="#0033ff" CREATED="1374079078251" ID="ID_199444075" MODIFIED="1440675724064" POSITION="right" TEXT="EAP 6.x">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1374079081932" ID="ID_1282432085" MODIFIED="1374079099586" TEXT="logging">
@@ -182,8 +182,7 @@
       &lt;/logger&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -261,7 +260,52 @@
   </body>
 </html></richcontent>
 </node>
+<node COLOR="#111111" CREATED="1440675637997" ID="ID_1467874626" MODIFIED="1440675741383" TEXT="Disable JMS creds">
+<node COLOR="#111111" CREATED="1440618713903" ID="ID_1526354792" MODIFIED="1440675679289">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;hornetq-server&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;<b><i>&lt;security-enabled&gt;false&lt;/security-enabled&gt;</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
+<node COLOR="#111111" CREATED="1440618713903" ID="ID_717765961" MODIFIED="1440675701828">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;!--
+    </p>
+    <p>
+      &lt;security-settings&gt;
+    </p>
+    <p>
+      &#160;&#160;...
+    </p>
+    <p>
+      &lt;/security-settings&gt;
+    </p>
+    <p>
+      --&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node COLOR="#111111" CREATED="1440675705632" ID="ID_1215146597" MODIFIED="1440675718640" TEXT="Comment out security settings"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1440618696004" ID="ID_33768934" MODIFIED="1440618699607" TEXT="standalone-full.xml"/>
 </node>
 <node COLOR="#990000" CREATED="1376679688272" ID="ID_48654858" MODIFIED="1376679690145" TEXT="Logging">
 <font NAME="SansSerif" SIZE="14"/>

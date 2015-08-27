@@ -122,6 +122,20 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1440673949372" ID="ID_1633298146" MODIFIED="1440673955000" TEXT="certs">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1437773291152" ID="ID_1312584923" MODIFIED="1440673981008" TEXT="Retrieve cert">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1437773329638" ID="ID_777678528" MODIFIED="1440674015227" TEXT="wget http[s]://[host]/[path]/[name of cert file]">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1437773300181" ID="ID_1651412545" MODIFIED="1440673968135" TEXT="/etc/docker/certs.d/[host]/ca.crt">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1438606454055" ID="ID_15787221" MODIFIED="1438606457227" POSITION="right" TEXT="No locales">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
