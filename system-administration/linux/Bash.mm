@@ -38,6 +38,17 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1440935266718" ID="ID_39157598" MODIFIED="1440935268978" POSITION="right" TEXT="Substrings">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1440935269798" ID="ID_46451450" MODIFIED="1440935285830" TEXT="${[variable name}:[start index]:[end index]}">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1440935479780" ID="ID_1679499454" MODIFIED="1440935495760" TEXT="${1:0:2}">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1357911262741" ID="ID_133299742" MODIFIED="1357911266530" POSITION="right" TEXT="Numeric for loop">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

@@ -47,6 +47,69 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1440935783891" ID="ID_1073361687" MODIFIED="1440935785119" TEXT="KVM">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1440935790658" ID="ID_1733881171" LINK="https://wiki.centos.org/HowTos/KVM" MODIFIED="1440935790658" TEXT="https://wiki.centos.org/HowTos/KVM">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1440935801911" ID="ID_1584462684" MODIFIED="1440935810804" TEXT="yum -y install @virt* dejavu-lgc-* xorg-x11-xauth tigervnc libguestfs-tools policycoreutils-python bridge-utils">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1440935894261" ID="ID_1265264002" MODIFIED="1440935894905" TEXT="semanage fcontext -a -t virt_image_t &quot;/vm(/.*)?&quot;; restorecon -R /vm ">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1440935899397" ID="ID_5451815" MODIFIED="1440935900709" TEXT="sed -i &apos;s/^\(net.ipv4.ip_forward =\).*/\1 1/&apos; /etc/sysctl.conf; sysctl -p ">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1440935905461" ID="ID_923208888" MODIFIED="1440935905929" TEXT="chkconfig libvirtd on; shutdown -r now">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1440935918209" ID="ID_1521732607" MODIFIED="1440935923282">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      chkconfig network on
+    </p>
+    <p>
+      service network restart
+    </p>
+    <p>
+      yum -y erase NetworkManager
+    </p>
+    <p>
+      cp -p /etc/sysconfig/network-scripts/ifcfg-{eth0,br0}
+    </p>
+    <p>
+      sed -i -e'/HWADDR/d' -e'/UUID/d' -e's/eth0/br0/' -e's/Ethernet/Bridge/' \
+    </p>
+    <p>
+      /etc/sysconfig/network-scripts/ifcfg-br0
+    </p>
+    <p>
+      echo DELAY=0 &gt;&gt; /etc/sysconfig/network-scripts/ifcfg-br0
+    </p>
+    <p>
+      echo 'BOOTPROTO=&quot;none&quot;' &gt;&gt; /etc/sysconfig/network-scripts/ifcfg-eth0
+    </p>
+    <p>
+      echo BRIDGE=br0 &gt;&gt; /etc/sysconfig/network-scripts/ifcfg-eth0
+    </p>
+    <p>
+      service network restart
+    </p>
+    <p>
+      brctl show
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1436107963555" ID="ID_1733189226" MODIFIED="1436107971854" TEXT="nmcli d">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

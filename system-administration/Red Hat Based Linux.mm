@@ -20,6 +20,17 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1440936365956" ID="ID_1458041291" MODIFIED="1440936370303" POSITION="right" TEXT="Enable">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1440936371115" ID="ID_1425920678" MODIFIED="1440936375531" TEXT="Packet forwarding">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1440936381491" ID="ID_387681674" MODIFIED="1440936382527" TEXT="sed -i &apos;s/^\(net.ipv4.ip_forward =\).*/\1 1/&apos; /etc/sysctl.conf; sysctl -p ">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1421503207892" ID="ID_71621550" LINK="RHEL.mm" MODIFIED="1421503419913" POSITION="left" TEXT="RHEL">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
