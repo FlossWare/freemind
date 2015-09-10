@@ -286,5 +286,13 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1441824754102" ID="ID_109564179" MODIFIED="1441824757777" POSITION="right" TEXT="clone">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1441824768121" ID="ID_3899420" MODIFIED="1441824793809" TEXT="git clone --recurse-submodules -b [branch] [url]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>

@@ -274,8 +274,7 @@
       &#160;&#160;&#160;&#160;<b><i>&lt;security-enabled&gt;false&lt;/security-enabled&gt;</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1440618713903" ID="ID_717765961" MODIFIED="1440675701828">
 <richcontent TYPE="NODE"><html>
@@ -299,8 +298,7 @@
       --&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node COLOR="#111111" CREATED="1440675705632" ID="ID_1215146597" MODIFIED="1440675718640" TEXT="Comment out security settings"/>
 </node>
 </node>
@@ -386,6 +384,17 @@
 <node COLOR="#111111" CREATED="1379526637000" ID="ID_1456223088" MODIFIED="1379526669327" TEXT="cd /subsystem=messaging/hornetq-server=default/jms-queue/[queue name]"/>
 <node COLOR="#111111" CREATED="1379526672565" ID="ID_1114112932" MODIFIED="1379526678128" TEXT="Dump contents of queue">
 <node COLOR="#111111" CREATED="1379526680064" ID="ID_1005111846" MODIFIED="1379526689746" TEXT=":list-messages-as-json"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1441919574193" ID="ID_840779403" MODIFIED="1441919579577" TEXT="Run a command">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1379515193639" ID="ID_1062633769" MODIFIED="1441919611400" TEXT="$JBOSS_HOME/bin/jboss-cli.sh --connect controller=[ip address/host name]:[port] &apos;The command&apos;">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1441919642168" ID="ID_1353072725" MODIFIED="1441919645204" TEXT="Reload configuration">
+<node COLOR="#111111" CREATED="1379515193639" ID="ID_7284700" MODIFIED="1441919636608" TEXT="$JBOSS_HOME/bin/jboss-cli.sh --connect controller=[ip address/host name]:[port] &apos;/:reload&apos;">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1381861828909" ID="ID_1568034623" MODIFIED="1381861832390" TEXT="Logging">

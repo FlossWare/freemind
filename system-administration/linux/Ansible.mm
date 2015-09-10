@@ -317,6 +317,29 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1441194587709" ID="ID_1740424073" MODIFIED="1441194590848" POSITION="left" TEXT="variables">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1441194604057" ID="ID_796482214" MODIFIED="1441194620484" TEXT="/etc/ansible/group_vars/[group name]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1441194621284" ID="ID_1773398035" MODIFIED="1441194639020" TEXT="/etc/ansible/host_vars/[host name]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1441542341258" ID="ID_1185222798" MODIFIED="1441542343438" TEXT="global">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1441542348525" ID="ID_1467150181" MODIFIED="1441542349341" TEXT="http://robert-reiz.com/2014/09/03/global-variables-with-ansible/">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1441542364681" ID="ID_1953654800" MODIFIED="1441543746272" TEXT="/etc/ansible/group_vars/all/[name]">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1441543750968" ID="ID_278468038" MODIFIED="1441543762616" TEXT="/etc/ansible/group_vars/all/rhn.yml"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1426440120529" ID="ID_817383242" MODIFIED="1426440122755" POSITION="left" TEXT="yaml">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -416,8 +439,7 @@
       sudo ansible-playbook -l [host] -i [inventory] -u [sudo user] [playbook].yml
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
