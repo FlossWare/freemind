@@ -402,6 +402,13 @@
 <node COLOR="#111111" CREATED="1381861834836" ID="ID_1692929118" MODIFIED="1381861846499" TEXT="/subsystem=logging:read-resource(recursive=true)"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1442857399538" ID="ID_501280047" MODIFIED="1442857401205" TEXT="Users">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1442857402110" ID="ID_1795899861" MODIFIED="1442857404237" TEXT="https://docs.jboss.org/author/display/AS71/add-user+utility?_sscc=t">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1386194212662" ID="ID_437011255" MODIFIED="1386194218623" TEXT="tcpdump s0">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
