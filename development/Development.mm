@@ -67,6 +67,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1443192456742" ID="ID_341839008" LINK="CORS.mm" MODIFIED="1443192456744" TEXT="CORS">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1390752271716" ID="ID_463533623" MODIFIED="1390752272671" POSITION="right" TEXT="Tools">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
