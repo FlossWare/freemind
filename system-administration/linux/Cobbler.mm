@@ -183,6 +183,18 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1445080327550" ID="ID_78043454" MODIFIED="1445080329065" POSITION="right" TEXT="urls">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1445080329892" ID="ID_1142699988" MODIFIED="1445080348264" TEXT="http://[host]/cblr/ks_mirror/[import]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1445080497510" ID="ID_152323517" MODIFIED="1445080503942" TEXT="/var/www/cobbler">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1267198368495" ID="ID_1253917073" MODIFIED="1269099380575" POSITION="left" TEXT="RPMForge">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -205,12 +217,19 @@
 <node COLOR="#0033ff" CREATED="1295104584624" ID="ID_140239077" MODIFIED="1295699702976" POSITION="left" TEXT="Unsupported distro">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1387456258275" ID="ID_1022376173" MODIFIED="1387456261155" TEXT="Old">
+<node COLOR="#00b439" CREATED="1445822954736" ID="ID_1871182537" MODIFIED="1445822957576" TEXT="cobbler signature update">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1295104599536" ID="ID_643069862" MODIFIED="1387456264998" TEXT="Edit">
+</node>
+<node COLOR="#00b439" CREATED="1445822961312" ID="ID_1717005750" MODIFIED="1445822965357" TEXT="Manually">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1387456258275" ID="ID_1022376173" MODIFIED="1445822967124" TEXT="Old">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1295104599536" ID="ID_643069862" MODIFIED="1445822967125" TEXT="Edit">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1295104605664" ID="ID_898157990" MODIFIED="1387456264998" TEXT="/usr/lib/python[version]/site-packages/cobbler/codes.py">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
@@ -219,14 +238,15 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1387456266925" ID="ID_1105747107" MODIFIED="1387456267969" TEXT="Edit">
+<node COLOR="#990000" CREATED="1387456266925" ID="ID_1105747107" MODIFIED="1445822969263" TEXT="Edit">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1387456270403" ID="ID_10220973" MODIFIED="1387456274705" TEXT="/var/lib/cobbler/distro_signatures.json">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1387456270403" ID="ID_10220973" MODIFIED="1445822969264" TEXT="/var/lib/cobbler/distro_signatures.json">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#990000" CREATED="1387456276114" ID="ID_1598023864" MODIFIED="1387456279026" TEXT="Add version">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1387456276114" ID="ID_1598023864" MODIFIED="1445822969264" TEXT="Add version">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 </node>
