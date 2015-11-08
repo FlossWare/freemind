@@ -31,6 +31,25 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1446684212702" ID="ID_108654222" MODIFIED="1446684214329" POSITION="right" TEXT="kernel">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1446684215805" ID="ID_1176793872" MODIFIED="1446684239829" TEXT="kernel-[version]-[val]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1446684241093" ID="ID_1822252412" MODIFIED="1446684257734" TEXT="kernel-3.10.0-229.4.2.el7">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1446737783216" ID="ID_62928793" MODIFIED="1446737785007" POSITION="right" TEXT="TERM">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1446737786120" ID="ID_943406573" MODIFIED="1446842822786" TEXT="export TERM=xterm-256color">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1421503207892" ID="ID_71621550" LINK="RHEL.mm" MODIFIED="1421503419913" POSITION="left" TEXT="RHEL">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

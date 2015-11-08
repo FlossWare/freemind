@@ -195,6 +195,130 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1446925263598" ID="ID_1359674463" MODIFIED="1446925265882" POSITION="right" TEXT="2.6.9">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1446925266878" ID="ID_1048199664" MODIFIED="1446925268650" TEXT="issues">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1446925299794" ID="ID_719974991" MODIFIED="1446925301548" TEXT="/usr/lib/python2.7/site-packages/koan/utils.py">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1446943992419" ID="ID_1883095530" MODIFIED="1446944064389">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      def check_version_greater_or_equal(version1, version2):
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;# ass = version1.split(&quot;.&quot;) </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;# bss = version2.split(&quot;.&quot;) </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;# if len(ass) != len(bss): </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;#&#160;&#160;&#160;&#160;&#160;raise Exception(&quot;expected version format differs&quot;) </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;# for i, a in enumerate(ass): </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;#&#160;&#160;&#160;&#160;&#160;a = int(a) </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;#&#160;&#160;&#160;&#160;&#160;b = int(bss[i]) </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;#&#160;&#160;&#160;&#160;&#160;if a &lt; b: </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;#&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return False</b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;return True
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1446925276283" ID="ID_278654895" MODIFIED="1446925276283" TEXT="/usr/lib/python2.7/site-packages/koan/virtinstall.py">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1446944030643" ID="ID_550610233" MODIFIED="1446944054126">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;if breed and breed != &quot;other&quot;:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if os_version and os_version != &quot;other&quot;:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if breed == &quot;suse&quot;:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;suse_version_re = re.compile(&quot;^(opensuse[0-9]+)\.([0-9]+)$&quot;)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if suse_version_re.match(os_version):
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;os_version = suse_version_re.match(os_version).groups()[0]
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# make sure virt-install knows about our os_version,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# otherwise default it to virtio26 or generic26
+    </p>
+    <p>
+      <i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;os_version = &quot;virtio26&quot;</i>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# found = False </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# if os_version not in supported_variants: </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&#160;&#160;&#160;if &quot;virtio26&quot; in supported_variants: </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;os_version = &quot;virtio26&quot; </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&#160;&#160;&#160;else: </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;os_version = &quot;generic26&quot; </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&#160;&#160;&#160;print(&quot;- warning: virt-install doesn't know this os_version, &quot; </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;defaulting to %s&quot; % os_version)</b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cmd += &quot;--os-variant %s &quot; % os_version
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1446925289646" ID="ID_1304902991" MODIFIED="1446944027174" TEXT="/usr/lib/python2.7/site-packages/koan/app.py">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1267198368495" ID="ID_1253917073" MODIFIED="1269099380575" POSITION="left" TEXT="RPMForge">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
