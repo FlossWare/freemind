@@ -534,10 +534,6 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1324994170187" ID="ID_671827509" LINK="Xen.mm" MODIFIED="1416757573460" TEXT="Xen">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 </node>
 <node COLOR="#0033ff" CREATED="1425994550324" ID="ID_1066222231" MODIFIED="1425994558570" POSITION="left" TEXT="Configuration Management">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
