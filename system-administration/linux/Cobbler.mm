@@ -243,8 +243,7 @@
       &#160;&#160;&#160;&#160;return True
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1446925276283" ID="ID_278654895" MODIFIED="1446925276283" TEXT="/usr/lib/python2.7/site-packages/koan/virtinstall.py">
@@ -310,12 +309,63 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cmd += &quot;--os-variant %s &quot; % os_version
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1448476387971" ID="ID_209363832" MODIFIED="1448476389926" TEXT="Fedora 23">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1446925289646" ID="ID_1304902991" MODIFIED="1448476391814" TEXT="/usr/lib/python2.7/site-packages/koan/app.py">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1448476396366" ID="ID_1151448376" MODIFIED="1448476419924">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if self.virt_type in [ &quot;xenpv&quot;, &quot;xenfv&quot; ]:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cmd = sub_process.Popen(&quot;uname -r&quot;, stdout=sub_process.PIPE, shell=True)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uname_str = cmd.communicate()[0]
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# correct kernel on dom0?
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if uname_str &lt; &quot;2.6.37&quot; and uname_str.find(&quot;xen&quot;) == -1:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;raise InfoException(&quot;kernel &gt;= 2.6.37 or kernel-xen needs to be in use&quot;)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# xend installed?
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#if not os.path.exists(&quot;/usr/sbin/xend&quot;): </i></b>
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&#160;raise InfoException(&quot;xen package needs to be installed&quot;) </i></b>
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# xend running? </i></b>
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#rc = sub_process.call(&quot;/usr/sbin/xend status&quot;, stderr=None, stdout=None, shell=True) </i></b>
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#if rc != 0: </i></b>
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&#160;raise InfoException(&quot;xend needs to be started&quot;)</i></b>
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1446925289646" ID="ID_1304902991" MODIFIED="1446944027174" TEXT="/usr/lib/python2.7/site-packages/koan/app.py">
-<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>

@@ -84,109 +84,6 @@
 <node COLOR="#0033ff" CREATED="1374079078251" ID="ID_199444075" MODIFIED="1440675724064" POSITION="right" TEXT="EAP 6.x">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1374079081932" ID="ID_1282432085" MODIFIED="1374079099586" TEXT="logging">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1374079101151" ID="ID_796363515" MODIFIED="1374079113526" TEXT="${JBOSS_HOME}/standalone/configuration/standalone.xml">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1410435950665" ID="ID_444451876" MODIFIED="1410435956761" TEXT="Outbound HTTP calls">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1410435978873" ID="ID_967728174" MODIFIED="1410435987214" TEXT="standalone.xml">
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1410435960093" ID="ID_1347168451" MODIFIED="1410436195515">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &lt;logger category=&quot;httpclient.wire.header&quot;&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
-    </p>
-    <p>
-      &lt;/logger&gt;
-    </p>
-    <p>
-      &#160;
-    </p>
-    <p>
-      &lt;logger category=&quot;httpclient.wire&quot;&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
-    </p>
-    <p>
-      &lt;/logger&gt;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &lt;logger category=&quot;org.apache.http.headers&quot;&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
-    </p>
-    <p>
-      &lt;/logger&gt;
-    </p>
-    <p>
-      &#160;
-    </p>
-    <p>
-      &lt;logger category=&quot;org.apache.http.impl.conn&quot;&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
-    </p>
-    <p>
-      &lt;/logger&gt;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &lt;logger category=&quot;org.apache.http.impl.client&quot;&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
-    </p>
-    <p>
-      &lt;/logger&gt;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &lt;logger category=&quot;org.apache.http&quot;&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
-    </p>
-    <p>
-      &lt;/logger&gt;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &lt;logger category=&quot;org.apache.http.client&quot;&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
-    </p>
-    <p>
-      &lt;/logger&gt;
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-</node>
 <node COLOR="#00b439" CREATED="1375103752185" ID="ID_842932293" MODIFIED="1375103757973" TEXT="confguration">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -401,6 +298,14 @@
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1381861834836" ID="ID_1692929118" MODIFIED="1381861846499" TEXT="/subsystem=logging:read-resource(recursive=true)"/>
 </node>
+<node COLOR="#990000" CREATED="1449067859523" ID="ID_846006837" MODIFIED="1449067863687" TEXT="Reloading">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1449067874919" ID="ID_428611135" MODIFIED="1449067877530" TEXT="/usr/share/jbossas/bin/jboss-cli.sh --connect --controller=remote://localhost:9999 --command=:reload"/>
+<node COLOR="#111111" CREATED="1449067889195" ID="ID_1573613037" MODIFIED="1449067891502" TEXT="/usr/share/jbossas/bin/jboss-cli.sh -controller=localhost:9999 --command=:reload"/>
+<node COLOR="#111111" CREATED="1449067895878" ID="ID_1405906899" MODIFIED="1449067898486" TEXT="/usr/share/jbossas/bin/jboss-cli.sh --connect --controller=localhost --command=:reload"/>
+<node COLOR="#111111" CREATED="1449067904122" ID="ID_1898122464" MODIFIED="1449067906010" TEXT="/usr/share/jbossas/bin/jboss-cli.sh --connect --controller=localhost:9999 --command=:reload"/>
+<node COLOR="#111111" CREATED="1449067911566" ID="ID_1431319374" MODIFIED="1449067913834" TEXT="/usr/share/jbossas/bin/jboss-cli.sh --connect --controller=$(hostname):9999 --command=:reload"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1442857399538" ID="ID_501280047" MODIFIED="1442857401205" TEXT="Users">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -412,6 +317,111 @@
 <node COLOR="#00b439" CREATED="1386194212662" ID="ID_437011255" MODIFIED="1386194218623" TEXT="tcpdump s0">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1374079081932" ID="ID_1282432085" MODIFIED="1449067840471" POSITION="left" TEXT="logging">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1374079101151" ID="ID_796363515" MODIFIED="1449067840471" TEXT="${JBOSS_HOME}/standalone/configuration/standalone.xml">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1410435950665" ID="ID_444451876" MODIFIED="1449067840472" TEXT="Outbound HTTP calls">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1410435978873" ID="ID_967728174" MODIFIED="1449067840472" TEXT="standalone.xml">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1410435960093" ID="ID_1347168451" MODIFIED="1410436195515">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;logger category=&quot;httpclient.wire.header&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
+    </p>
+    <p>
+      &lt;/logger&gt;
+    </p>
+    <p>
+      &#160;
+    </p>
+    <p>
+      &lt;logger category=&quot;httpclient.wire&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
+    </p>
+    <p>
+      &lt;/logger&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;logger category=&quot;org.apache.http.headers&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
+    </p>
+    <p>
+      &lt;/logger&gt;
+    </p>
+    <p>
+      &#160;
+    </p>
+    <p>
+      &lt;logger category=&quot;org.apache.http.impl.conn&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
+    </p>
+    <p>
+      &lt;/logger&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;logger category=&quot;org.apache.http.impl.client&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
+    </p>
+    <p>
+      &lt;/logger&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;logger category=&quot;org.apache.http&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
+    </p>
+    <p>
+      &lt;/logger&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;logger category=&quot;org.apache.http.client&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;level name=&quot;TRACE&quot;/&gt;
+    </p>
+    <p>
+      &lt;/logger&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>

@@ -50,6 +50,79 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1448285410797" ID="ID_1850244786" MODIFIED="1448285412220" POSITION="right" TEXT="epel">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1448285414103" ID="ID_1852694435" MODIFIED="1448285420551" TEXT="yum install epel-release -y">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1411049332566" ID="ID_253525469" MODIFIED="1449156256738" POSITION="right" TEXT="yum">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1411049337358" ID="ID_170314673" MODIFIED="1449156247334" TEXT="Exclude packages">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1411049345027" ID="ID_807087337" MODIFIED="1449156247334" TEXT="/etc/yum.conf">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1411049361947" ID="ID_138215451" MODIFIED="1411049393705" TEXT="exclude=package1, package2, ..., package N"/>
+<node COLOR="#111111" CREATED="1411049371000" ID="ID_1862102104" MODIFIED="1411049411172" TEXT="exclude=kernel*, xorg-x11-drv-intel*"/>
+</node>
+<node COLOR="#990000" CREATED="1411049413615" ID="ID_291053411" MODIFIED="1449156247335" TEXT="/etc/yum.repos.d/[repo name].repo">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1411051483102" ID="ID_954710888" MODIFIED="1411051821631" TEXT="/etc/yum.repos.d/fedora-updates.repo">
+<node COLOR="#111111" CREATED="1411051637224" ID="ID_119425383" MODIFIED="1411051834418">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [updates]
+    </p>
+    <p>
+      name=Fedora $releasever - $basearch - Updates
+    </p>
+    <p>
+      failovermethod=priority
+    </p>
+    <p>
+      #baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/$releasever/$basearch/
+    </p>
+    <p>
+      metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&amp;arch=$basearch
+    </p>
+    <p>
+      enabled=1
+    </p>
+    <p>
+      gpgcheck=1
+    </p>
+    <p>
+      gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
+    </p>
+    <p>
+      skip_if_unavailable=False
+    </p>
+    <p>
+      <i><b>exclude=kernel*, xorg-x11-drv-intel*</b></i>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1449164639564" ID="ID_1250563226" MODIFIED="1449164648503" TEXT="whatprovides [package]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1449164661459" ID="ID_1836427406" MODIFIED="1449164667026" TEXT="info [package]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1421503207892" ID="ID_71621550" LINK="RHEL.mm" MODIFIED="1421503419913" POSITION="left" TEXT="RHEL">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

@@ -1,10 +1,14 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1269099141689" ID="ID_891288635" LINK="../System%20Administration.mm" MODIFIED="1288889568224" TEXT="Windows">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
 <node COLOR="#0033ff" CREATED="1388759820088" ID="ID_561429259" LINK="Windows%208.mm" MODIFIED="1388759820097" POSITION="right" TEXT="Windows 8">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1449164930024" ID="ID_1595391666" LINK="Windows%2010.mm" MODIFIED="1449164930025" POSITION="right" TEXT="Windows 10">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
