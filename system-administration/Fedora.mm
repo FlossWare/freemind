@@ -66,5 +66,35 @@
 <icon BUILTIN="yes"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1449686779889" ID="ID_50212624" MODIFIED="1449686781748" POSITION="right" TEXT="FedUp">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1449686807008" ID="ID_1143948262" MODIFIED="1449686809252" TEXT="Install">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1449691522422" ID="ID_1103427746" MODIFIED="1449691526078" TEXT="yum install fedup">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1449686790576" ID="ID_240334153" MODIFIED="1449686812954" TEXT="yum update fedup fedora-release">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1449686794508" ID="ID_669329583" MODIFIED="1449686812955" TEXT="dnf upgrade fedup fedora-release   ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1449686813840" ID="ID_710581151" MODIFIED="1449686829480" TEXT="fedup --network [Fedora Version]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1449686830660" ID="ID_1899458385" MODIFIED="1449686838236" TEXT="fedup --network 23">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1449686864212" ID="ID_379077197" MODIFIED="1449693336036" TEXT="dnf system-upgrade reboot">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>
