@@ -195,14 +195,16 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1446925263598" ID="ID_1359674463" MODIFIED="1446925265882" POSITION="right" TEXT="2.6.9">
+<node COLOR="#0033ff" CREATED="1446925263598" FOLDED="true" ID="ID_1359674463" MODIFIED="1449959199173" POSITION="right" TEXT="2.6.9">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1446925266878" ID="ID_1048199664" MODIFIED="1446925268650" TEXT="issues">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1446925299794" ID="ID_719974991" MODIFIED="1446925301548" TEXT="/usr/lib/python2.7/site-packages/koan/utils.py">
+<node COLOR="#990000" CREATED="1449955228156" ID="ID_408813368" MODIFIED="1449955228960" TEXT="/usr/lib/python2.7/site-packages/koan">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1446925299794" ID="ID_719974991" MODIFIED="1449955242149" TEXT="utils.py">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1446943992419" ID="ID_1883095530" MODIFIED="1446944064389">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -246,8 +248,8 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1446925276283" ID="ID_278654895" MODIFIED="1446925276283" TEXT="/usr/lib/python2.7/site-packages/koan/virtinstall.py">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1446925276283" ID="ID_278654895" MODIFIED="1449955246792" TEXT="virtinstall.py">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1446944030643" ID="ID_550610233" MODIFIED="1446944054126">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -312,9 +314,11 @@
 </html></richcontent>
 </node>
 </node>
+</node>
 <node COLOR="#990000" CREATED="1448476387971" ID="ID_209363832" MODIFIED="1448476389926" TEXT="Fedora 23">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1446925289646" ID="ID_1304902991" MODIFIED="1448476391814" TEXT="/usr/lib/python2.7/site-packages/koan/app.py">
+<node COLOR="#111111" CREATED="1449955262264" ID="ID_366109416" MODIFIED="1449955265396" TEXT="/usr/lib/python2.7/site-packages/koan">
+<node COLOR="#111111" CREATED="1446925289646" ID="ID_1304902991" MODIFIED="1449955272478" TEXT="app.py">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1448476396366" ID="ID_1151448376" MODIFIED="1448476419924">
 <richcontent TYPE="NODE"><html>
@@ -362,10 +366,84 @@
       <b><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&#160;raise InfoException(&quot;xend needs to be started&quot;)</i></b>
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1449959270017" ID="ID_458705291" MODIFIED="1449959272737" POSITION="right" TEXT="Snippets">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1449959279349" ID="ID_51606512" MODIFIED="1449959280037" TEXT="SNIPPET::snippet_name_here ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1449959359968" ID="ID_1346418983" MODIFIED="1449959360440" TEXT="/var/lib/cobbler/snippets ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1449960071393" ID="ID_780301336" MODIFIED="1449960076421" TEXT="Overridding">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1449960081813" ID="ID_836044744" MODIFIED="1449960099650">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      /var/lib/cobbler/snippets/per_system/$snippet_name/$system_name
+    </p>
+    <p>
+      /var/lib/cobbler/snippets/per_profile/$snippet_name/$profile_name
+    </p>
+    <p>
+      /var/lib/cobbler/snippets/per_distro/$snippet_name/$distro_name
+    </p>
+    <p>
+      /var/lib/cobbler/snippets/$snippet_name
+    </p>
+  </body>
 </html>
 </richcontent>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1449960620415" ID="ID_1116721072" MODIFIED="1449960622896" TEXT="/var/lib/cobbler/snippets/$subdirectory/$snippet_name">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1449960665699" ID="ID_1308493345" MODIFIED="1449960670806" TEXT="Variables">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1449960675487" ID="ID_1080774567" MODIFIED="1449960676110" TEXT="$SNIPPET($my_snippet)">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1449960698614" ID="ID_1066435436" MODIFIED="1449960873798">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #set my_snippet = 'foo'
+    </p>
+    <p>
+      SNIPPET::$my_snippet
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1449960874940" ID="ID_1825813960" MODIFIED="1449960889848" TEXT="Destroyed as soon as processed">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1449960900040" ID="ID_1274284871" MODIFIED="1449960901496" TEXT="Global">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1449960911984" ID="ID_521978482" MODIFIED="1449960928336" TEXT="#set global $var = [val]"/>
+<node COLOR="#111111" CREATED="1449960971755" ID="ID_404343498" MODIFIED="1449960987123" TEXT="Will allow a snippet to set a variable that can be seen in the kickstart"/>
 </node>
 </node>
 </node>
@@ -477,7 +555,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1369758180382" ID="ID_1666935281" MODIFIED="1369758183030" POSITION="left" TEXT="Debian">
+<node COLOR="#0033ff" CREATED="1369758180382" FOLDED="true" ID="ID_1666935281" MODIFIED="1449959253674" POSITION="left" TEXT="Debian">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1369758206781" ID="ID_502428480" MODIFIED="1369758210999" TEXT="apt-get">
