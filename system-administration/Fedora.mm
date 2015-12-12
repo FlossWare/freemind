@@ -195,15 +195,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1449748376227" ID="ID_921937824" MODIFIED="1449748514379" TEXT="chkconfig">
-<edge STYLE="bezier" WIDTH="thin"/>
+<node COLOR="#990000" CREATED="1449950431006" ID="ID_1309560607" MODIFIED="1449950456100" TEXT="systemctl">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1449748396454" ID="ID_760734907" MODIFIED="1449748514380" TEXT="network on">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#111111" CREATED="1449748399910" ID="ID_1831213452" MODIFIED="1449748514380" TEXT="NetworkManager off">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
+<node COLOR="#111111" CREATED="1449950435113" ID="ID_346095927" MODIFIED="1449950439933" TEXT="enable network"/>
+<node COLOR="#111111" CREATED="1449950440365" ID="ID_369831721" MODIFIED="1449950449968" TEXT="disable NetworkManager"/>
 </node>
 <node COLOR="#990000" CREATED="1449748383138" ID="ID_1659210935" MODIFIED="1449748514380" TEXT="Configure bridge">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -237,8 +232,7 @@
       libvirt-daemon-driver-libxl libvirt-daemon-xen
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1449748540052" ID="ID_296512047" MODIFIED="1449748568292" TEXT="tigervnc"/>
 </node>
