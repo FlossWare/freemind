@@ -215,6 +215,14 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1449955840829" ID="ID_45913672" MODIFIED="1449955842297" POSITION="right" TEXT="Disks">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1449955843293" ID="ID_510954600" MODIFIED="1449955845590" TEXT="/var/lib/xen/images/">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1387296666581" ID="ID_1872438747" MODIFIED="1387296670836" POSITION="left" TEXT="CentOS 6.x">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -241,6 +249,14 @@
 <node COLOR="#990000" CREATED="1389120703825" ID="ID_1818198942" MODIFIED="1447773482608" TEXT="xl create [vm name]">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1449955862961" ID="ID_85903213" MODIFIED="1449955865253" POSITION="right" TEXT="Configuration">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1449955881110" ID="ID_860435509" MODIFIED="1449955883979" TEXT="/etc/libvirt/libxl">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>
