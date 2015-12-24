@@ -519,8 +519,7 @@
       /etc/rc.local
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#111111" CREATED="1422972100828" FOLDED="true" ID="ID_1653422704" MODIFIED="1422972131741" TEXT="/boot/flossware.sh">
@@ -603,8 +602,7 @@
       date &gt;&gt; /var/log/flossware.log
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -903,6 +901,18 @@
 </html></richcontent>
 </node>
 </node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1450961647693" ID="ID_27359695" MODIFIED="1450961651321" TEXT="Set workgroup">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1450961653465" ID="ID_592207741" MODIFIED="1450961714595" TEXT="System Management">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#990000" CREATED="1450961658973" ID="ID_1645013663" MODIFIED="1450961718761" TEXT="Device">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
 </node>
 </node>
 </node>

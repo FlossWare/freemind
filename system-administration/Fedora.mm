@@ -220,7 +220,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1449748541320" ID="ID_1333702671" MODIFIED="1449748542980" TEXT="install">
 <node COLOR="#111111" CREATED="1449748523188" ID="ID_850259706" MODIFIED="1449748553436" TEXT="debootstrap perl-Text-Templateh perl-Config-IniFiles perl-File-Slurp perl-File-Which perl-Data-Dumper"/>
-<node COLOR="#111111" CREATED="1449748531148" ID="ID_1297234225" MODIFIED="1449748561952" TEXT="libvirt-daemon-driver-xen python-virtinst libvirt-daemon-config-network libvirt-daemon-driver-network virt-manager virt-viewer"/>
+<node COLOR="#111111" CREATED="1449748531148" ID="ID_1297234225" MODIFIED="1450126596638" TEXT="libvirt-daemon-driver-xen libvirt-daemon-config-network libvirt-daemon-driver-network virt-manager virt-viewer"/>
 <node COLOR="#111111" CREATED="1449752146489" ID="ID_1882132519" MODIFIED="1449752149893" TEXT="@virtualization"/>
 <node COLOR="#111111" CREATED="1449753691213" ID="ID_1492341993" MODIFIED="1449753706034">
 <richcontent TYPE="NODE"><html>
