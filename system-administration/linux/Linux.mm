@@ -251,6 +251,16 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1451585862890" ID="ID_1070232595" MODIFIED="1451585866704" TEXT="List network cards">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1451585872528" ID="ID_1466291337" MODIFIED="1451585875129" TEXT="lspci | egrep -i --color &apos;network|ethernet&apos;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1451585961631" ID="ID_1175144540" MODIFIED="1451585962247" TEXT="http://www.cyberciti.biz/faq/linux-list-network-cards-command/">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1380632938152" FOLDED="true" ID="ID_1342641388" MODIFIED="1417366818375" TEXT="rsync">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
