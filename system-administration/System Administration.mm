@@ -66,6 +66,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1452774627126" ID="ID_504306298" LINK="Kubernetes.mm" MODIFIED="1452774627127" TEXT="Kubernetes">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 <node COLOR="#00b439" CREATED="1410107118554" ID="ID_1062665547" LINK="Open%20Shift.mm" MODIFIED="1420896771110" TEXT="Open Shift">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
