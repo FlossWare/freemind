@@ -476,6 +476,11 @@
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1453122069813" ID="ID_1309924170" MODIFIED="1453122092157" TEXT="usquashfs -d [location] [squash img]">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1453124698531" ID="ID_1696015521" MODIFIED="1453124765978" TEXT="unsquashfs -d `pwd`/CentOS /CentOS-7.1-Atomic-x86_64/LiveOS/squashfs.img"/>
+</node>
+<node COLOR="#990000" CREATED="1453124646523" ID="ID_1300094097" MODIFIED="1453124664255" TEXT="mount -r -o loop [image file] [mnt pt]">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1453124670611" ID="ID_1561077450" MODIFIED="1453124672658" TEXT="mount -r -o loop file.img /mnt  "/>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1269099440697" ID="ID_1446862936" LINK="SSH.mm" MODIFIED="1416757573456" TEXT="SSH">
