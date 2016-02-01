@@ -123,6 +123,17 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1454334837805" ID="ID_1264175135" MODIFIED="1454334839309" POSITION="right" TEXT="rpm">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1454334840357" ID="ID_820309926" MODIFIED="1454334852565" TEXT="List files">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1454334863705" ID="ID_1638367117" MODIFIED="1454334870605" TEXT="rpm -ql [package name]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1421503207892" ID="ID_71621550" LINK="RHEL.mm" MODIFIED="1421503419913" POSITION="left" TEXT="RHEL">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
