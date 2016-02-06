@@ -20,6 +20,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1454436268038" ID="ID_770583857" MODIFIED="1454436272482" POSITION="right" TEXT="tail -f /var/log/xen/xend.log">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1447438872022" ID="ID_620470296" MODIFIED="1447773221682" POSITION="right" TEXT="Bridge">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
