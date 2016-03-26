@@ -16,6 +16,14 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1458986419220" ID="ID_342396211" MODIFIED="1458986421272" POSITION="right" TEXT="Version">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1458986422788" ID="ID_76159418" MODIFIED="1458986425344" TEXT="xl info">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1447437331620" ID="ID_24361325" MODIFIED="1447773226388" POSITION="right" TEXT="tail -f /var/log/libvirt/libxl/libxl-driver.log">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -251,6 +259,94 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#990000" CREATED="1389120703825" ID="ID_1818198942" MODIFIED="1447773482608" TEXT="xl create [vm name]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1458646897274" ID="ID_894637008" MODIFIED="1458646900606" POSITION="left" TEXT="CentOS 7.x">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1458646904966" ID="ID_228196213" MODIFIED="1458646914022" TEXT="/etc/libvirt/libxl/autostart">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1458984507567" ID="ID_1936304132" MODIFIED="1458984521340" TEXT="/usr/share/virt-manager/virtinst/urlfetcher.py">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1458984535042" ID="ID_1208736234" MODIFIED="1458984546914">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      class GenericDistro(Distro):
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;&quot;&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;Generic distro store. Check well known paths for kernel locations
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;as a last resort if we can't recognize any actual distro
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;&quot;&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;name = &quot;Generic&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;os_variant = &quot;linux&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uses_treeinfo = True
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;_xen_paths = [(&quot;images/xen/vmlinuz&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;images/xen/initrd.img&quot;),&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# Fedora
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;]
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;_hvm_paths = [(&quot;images/pxeboot/vmlinuz&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;images/pxeboot/initrd.img&quot;),&#160;&#160;&#160;&#160;&#160;&#160;&#160;# Fedora
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;]
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;_iso_paths = [&quot;images/boot.iso&quot;,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# RH/Fedora
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;boot/boot.iso&quot;,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# Suse
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;current/images/netboot/mini.iso&quot;,&#160;&#160;&#160;# Debian
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;install/images/boot.iso&quot;,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# Mandriva
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;]
+    </p>
+    <p>
+      &#160;&#160;&#160; <b><i>_xen_paths = _hvm_paths</i></b>
+    </p>
+  </body>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>

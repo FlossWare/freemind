@@ -307,6 +307,30 @@
 <node COLOR="#111111" CREATED="1449067911566" ID="ID_1431319374" MODIFIED="1449067913834" TEXT="/usr/share/jbossas/bin/jboss-cli.sh --connect --controller=$(hostname):9999 --command=:reload"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1455375452578" ID="ID_1895657222" MODIFIED="1455375462069" TEXT="App startup timeout">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1455375484521" ID="ID_705264402" MODIFIED="1455375502536">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;system-properties
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;property name=&quot;jboss.as.management.blocking.timeout&quot; value=&quot;7200&quot;/&gt;
+    </p>
+    <p>
+      &lt;/system-properties&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1442857399538" ID="ID_501280047" MODIFIED="1442857401205" TEXT="Users">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

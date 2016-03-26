@@ -7,65 +7,28 @@
 <node COLOR="#0033ff" CREATED="1435149627724" ID="ID_239994505" MODIFIED="1436107961199" POSITION="right" TEXT="7">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1435149640460" ID="ID_875080470" MODIFIED="1435149726170" TEXT="multimedia">
+<node COLOR="#00b439" CREATED="1455721358841" ID="ID_1837839639" MODIFIED="1455721365200" TEXT="Virtualization">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1435149737866" ID="ID_476856699" MODIFIED="1435149739162" TEXT="http://wiki.centos.org/TipsAndTricks/MultimediaOnCentOS7">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1435149562817" ID="ID_1996954012" MODIFIED="1435149646007" TEXT="yum">
+<node COLOR="#990000" CREATED="1440935783891" ID="ID_1073361687" MODIFIED="1455721373002" TEXT="KVM">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1435149621372" ID="ID_1246307121" MODIFIED="1448481078197" TEXT="groupinstall">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1435151021179" ID="ID_59726647" MODIFIED="1435151023289" TEXT="&apos;KDE Plasma Workspaces&apos;"/>
-</node>
-<node COLOR="#111111" CREATED="1435149565028" ID="ID_709786252" MODIFIED="1435149646007" TEXT="install">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1435149550777" ID="ID_312291180" MODIFIED="1435149631928" TEXT="http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm">
-<edge STYLE="bezier" WIDTH="thin"/>
+<node COLOR="#111111" CREATED="1440935790658" ID="ID_1733881171" LINK="https://wiki.centos.org/HowTos/KVM" MODIFIED="1455721373003" TEXT="https://wiki.centos.org/HowTos/KVM">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#111111" CREATED="1435149558141" ID="ID_323633101" MODIFIED="1435149631928" TEXT="http://linuxdownload.adobe.com/linux/x86_64/adobe-release-x86_64-1.0-1.noarch.rpm">
-<edge STYLE="bezier" WIDTH="thin"/>
+<node COLOR="#111111" CREATED="1440935801911" ID="ID_1584462684" MODIFIED="1455721373003" TEXT="yum -y install @virt* dejavu-lgc-* xorg-x11-xauth tigervnc libguestfs-tools policycoreutils-python bridge-utils">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#111111" CREATED="1435149581216" ID="ID_562994264" MODIFIED="1435149631929" TEXT="flash-plugin ">
+<node COLOR="#111111" CREATED="1440935894261" ID="ID_1265264002" MODIFIED="1455721373003" TEXT="semanage fcontext -a -t virt_image_t &quot;/vm(/.*)?&quot;; restorecon -R /vm ">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#111111" CREATED="1435149587128" ID="ID_1847608822" MODIFIED="1435149631929" TEXT="icedtea-web ">
+<node COLOR="#111111" CREATED="1440935899397" ID="ID_5451815" MODIFIED="1455721373003" TEXT="sed -i &apos;s/^\(net.ipv4.ip_forward =\).*/\1 1/&apos; /etc/sysctl.conf; sysctl -p ">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#111111" CREATED="1435149595780" ID="ID_1236401113" MODIFIED="1435149631930" TEXT="vlc smplayer ffmpeg HandBrake-{gui,cli}">
+<node COLOR="#111111" CREATED="1440935905461" ID="ID_923208888" MODIFIED="1455721373004" TEXT="chkconfig libvirtd on; shutdown -r now">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#111111" CREATED="1435149602108" ID="ID_1982783545" MODIFIED="1435149631930" TEXT="libdvdcss gstreamer{,1}-plugins-ugly gstreamer-plugins-bad-nonfree gstreamer1-plugins-bad-freeworld">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1440935783891" ID="ID_1073361687" MODIFIED="1440935785119" TEXT="KVM">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1440935790658" ID="ID_1733881171" LINK="https://wiki.centos.org/HowTos/KVM" MODIFIED="1440935790658" TEXT="https://wiki.centos.org/HowTos/KVM">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1440935801911" ID="ID_1584462684" MODIFIED="1440935810804" TEXT="yum -y install @virt* dejavu-lgc-* xorg-x11-xauth tigervnc libguestfs-tools policycoreutils-python bridge-utils">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1440935894261" ID="ID_1265264002" MODIFIED="1440935894905" TEXT="semanage fcontext -a -t virt_image_t &quot;/vm(/.*)?&quot;; restorecon -R /vm ">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1440935899397" ID="ID_5451815" MODIFIED="1440935900709" TEXT="sed -i &apos;s/^\(net.ipv4.ip_forward =\).*/\1 1/&apos; /etc/sysctl.conf; sysctl -p ">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1440935905461" ID="ID_923208888" MODIFIED="1440935905929" TEXT="chkconfig libvirtd on; shutdown -r now">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1440935918209" ID="ID_1521732607" MODIFIED="1440935923282">
+<node COLOR="#111111" CREATED="1440935918209" ID="ID_1521732607" MODIFIED="1455721373004">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -106,7 +69,7 @@
     </p>
   </body>
 </html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1447880029582" ID="ID_1851330091" MODIFIED="1447880034449">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -178,15 +141,37 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1436107963555" ID="ID_1733189226" MODIFIED="1436107971854" TEXT="nmcli d">
+<node COLOR="#990000" CREATED="1455210403008" ID="ID_1408661389" MODIFIED="1455721373011" TEXT="Xen">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1440504140480" ID="ID_423703538" MODIFIED="1440504141615" TEXT="Docker">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1440504201607" ID="ID_1758153499" MODIFIED="1440504205731" TEXT="Install">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1455222440581" ID="ID_1905169088" MODIFIED="1455721373011" TEXT="Installation">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1455210412860" ID="ID_1613490466" MODIFIED="1455222449844" TEXT="yum install centos-release-xen">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1455210420840" ID="ID_807023945" MODIFIED="1455222449844" TEXT="yum update">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1455210428036" ID="ID_960890306" MODIFIED="1455222449845" TEXT="yum install xen">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1455211197001" ID="ID_655969713" MODIFIED="1455222449845" TEXT="yum install libvirt">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1455225230765" ID="ID_224162066" MODIFIED="1455721373011" TEXT="Errors">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1455222445005" ID="ID_357409181" MODIFIED="1455225233773" TEXT="tail -f /var/log/libvirt/libxl/libxl-driver.log">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1455225235577" ID="ID_724960868" MODIFIED="1455225237745" TEXT="ERROR    internal error: libxenlight failed to create new domain &apos;centos-workstation-xen&apos;"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1440504140480" ID="ID_423703538" MODIFIED="1455721373013" TEXT="Docker">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1440504201607" ID="ID_1758153499" MODIFIED="1455721373014" TEXT="Install">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1440504147391" ID="ID_965538581" MODIFIED="1440504208854" TEXT="http://www.liquidweb.com/kb/how-to-install-docker-on-centos-7/">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
@@ -205,6 +190,59 @@
 <node COLOR="#111111" CREATED="1440504172239" ID="ID_432510743" MODIFIED="1440504220555" TEXT="systemctl status docker.service">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-4"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1455721376896" ID="ID_1664993921" MODIFIED="1455721378520" TEXT="chrome">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1455721410480" ID="ID_1896776134" MODIFIED="1455721424314" TEXT="yum install https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm -y">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1436107963555" ID="ID_1733189226" MODIFIED="1436107971854" TEXT="nmcli d">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1435149640460" ID="ID_875080470" MODIFIED="1455210394924" POSITION="left" TEXT="multimedia">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1435149737866" ID="ID_476856699" MODIFIED="1455210394925" TEXT="http://wiki.centos.org/TipsAndTricks/MultimediaOnCentOS7">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1435149562817" ID="ID_1996954012" MODIFIED="1455210394925" TEXT="yum">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1435149621372" ID="ID_1246307121" MODIFIED="1455210394925" TEXT="groupinstall">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1435151021179" ID="ID_59726647" MODIFIED="1435151023289" TEXT="&apos;KDE Plasma Workspaces&apos;"/>
+</node>
+<node COLOR="#990000" CREATED="1435149565028" ID="ID_709786252" MODIFIED="1455210394926" TEXT="install">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1435149550777" ID="ID_312291180" MODIFIED="1435149631928" TEXT="http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1435149558141" ID="ID_323633101" MODIFIED="1435149631928" TEXT="http://linuxdownload.adobe.com/linux/x86_64/adobe-release-x86_64-1.0-1.noarch.rpm">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1435149581216" ID="ID_562994264" MODIFIED="1435149631929" TEXT="flash-plugin ">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1435149587128" ID="ID_1847608822" MODIFIED="1435149631929" TEXT="icedtea-web ">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1435149595780" ID="ID_1236401113" MODIFIED="1435149631930" TEXT="vlc smplayer ffmpeg HandBrake-{gui,cli}">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1435149602108" ID="ID_1982783545" MODIFIED="1435149631930" TEXT="libdvdcss gstreamer{,1}-plugins-ugly gstreamer-plugins-bad-nonfree gstreamer1-plugins-bad-freeworld">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>

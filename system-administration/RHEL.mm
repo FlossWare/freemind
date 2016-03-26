@@ -50,5 +50,21 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1457398444585" ID="ID_271587838" MODIFIED="1457398446937" POSITION="right" TEXT="autofs">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1457398452809" ID="ID_916776983" MODIFIED="1457398457633" TEXT="yum install nfs-utils">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1457894264951" ID="ID_1450865393" MODIFIED="1457894266659" POSITION="right" TEXT="nfs">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1457894272299" ID="ID_1343669612" MODIFIED="1457894274027" TEXT="systemctl enable nfs-server.service">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>
