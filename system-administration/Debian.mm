@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1380459951189" ID="ID_371227061" LINK="System%20Administration.mm" MODIFIED="1380459984285" TEXT="Debian">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -16,7 +16,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
-<node COLOR="#990000" CREATED="1380460677344" ID="ID_1575525463" MODIFIED="1380460734663" TEXT="apt-get dist-upgrade">
+<node COLOR="#990000" CREATED="1380460677344" ID="ID_1575525463" MODIFIED="1460310143392" TEXT="apt-get dist-upgrade">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-2"/>
@@ -77,6 +77,34 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1397830615624" ID="ID_350290866" MODIFIED="1397830620471" TEXT="apt-get install mailutils">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1460310250234" ID="ID_6847889" MODIFIED="1460310254177" POSITION="right" TEXT="squeeze">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1460310172813" ID="ID_668646387" MODIFIED="1460310258889" TEXT="https://code.google.com/archive/p/funplug-dns320-dns325/downloads">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1460310175230" ID="ID_1479410973" MODIFIED="1460310258889" TEXT="root">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1460310176650" ID="ID_54048935" MODIFIED="1460310258889" TEXT="dlink">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1460319499954" ID="ID_969260195" MODIFIED="1460319511200" POSITION="right" TEXT="no public keys">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1460319526815" ID="ID_1670702866" MODIFIED="1460319545967" TEXT="apt-key adv --keyserver keyserver.ubuntu.com --recv-keys [key 1] [key 2] ... [key N]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1460319522696" ID="ID_873303101" MODIFIED="1460319525523" TEXT="apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 7638D0442B90D010 CBF8D6FD518E17E1 6FB2A1C265FFB764">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

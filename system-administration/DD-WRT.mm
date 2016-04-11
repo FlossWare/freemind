@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1366916155097" ID="ID_1757922090" LINK="System%20Administration.mm" MODIFIED="1366916173640" TEXT="DD-WRT">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -59,53 +59,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1388611021781" ID="ID_927250594" MODIFIED="1388611026505" POSITION="right" TEXT="Atheros">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1388611029344" ID="ID_895356268" MODIFIED="1388611036711" TEXT="Wireless">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1388611038077" ID="ID_431382194" MODIFIED="1388611041526" TEXT="Basic Settings">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1388611044392" ID="ID_1125513170" MODIFIED="1388611060515" TEXT="Default GW Mode = Auto (DHCP)"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1388856150644" ID="ID_1448315920" MODIFIED="1388856152927" TEXT="opkg">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1388856154727" ID="ID_1164706981" MODIFIED="1388856157503" TEXT="opkg.conf">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1388856158403" ID="ID_1102803121" MODIFIED="1388856163312" TEXT="Can have two repos">
-<node COLOR="#111111" CREATED="1388856176999" ID="ID_977442745" MODIFIED="1388856190311">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b><i>src/gz snapshots http://downloads.openwrt.org/snapshots/trunk/ar71xx/packages </i></b>
-    </p>
-    <p>
-      <b><i>src/gz host-1 http://host-1/packages</i></b>
-    </p>
-    <p>
-      dest root /opt
-    </p>
-    <p>
-      dest ram /opt/tmp
-    </p>
-    <p>
-      lists_dir ext /opt/tmp/var/opkg-lists
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1387899637196" ID="ID_951477651" MODIFIED="1387899643697" POSITION="right" TEXT="Building toolchain">
+<node COLOR="#0033ff" CREATED="1387899637196" ID="ID_951477651" MODIFIED="1387899643697" POSITION="left" TEXT="Building toolchain">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1388514407084" ID="ID_1518941294" MODIFIED="1388514408994" TEXT="Misc">
@@ -218,9 +172,67 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1383573797498" ID="ID_307451124" LINK="http://www.dd-wrt.com/wiki/index.php/Hardware" MODIFIED="1383573834997" POSITION="left" TEXT="Hardware">
+<node COLOR="#0033ff" CREATED="1383573797498" ID="ID_307451124" LINK="http://www.dd-wrt.com/wiki/index.php/Hardware" MODIFIED="1383573834997" POSITION="right" TEXT="Hardware">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1388611021781" ID="ID_927250594" MODIFIED="1460207346347" TEXT="Atheros">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1388611029344" ID="ID_895356268" MODIFIED="1460207346348" TEXT="Wireless">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1388611038077" ID="ID_431382194" MODIFIED="1460207346348" TEXT="Basic Settings">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1388611044392" ID="ID_1125513170" MODIFIED="1388611060515" TEXT="Default GW Mode = Auto (DHCP)"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1388856150644" ID="ID_1448315920" MODIFIED="1460207346349" TEXT="opkg">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1388856154727" ID="ID_1164706981" MODIFIED="1460207346349" TEXT="opkg.conf">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1388856158403" ID="ID_1102803121" MODIFIED="1388856163312" TEXT="Can have two repos">
+<node COLOR="#111111" CREATED="1388856176999" ID="ID_977442745" MODIFIED="1388856190311">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>src/gz snapshots http://downloads.openwrt.org/snapshots/trunk/ar71xx/packages </i></b>
+    </p>
+    <p>
+      <b><i>src/gz host-1 http://host-1/packages</i></b>
+    </p>
+    <p>
+      dest root /opt
+    </p>
+    <p>
+      dest ram /opt/tmp
+    </p>
+    <p>
+      lists_dir ext /opt/tmp/var/opkg-lists
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1460207354584" ID="ID_1100712107" MODIFIED="1460207356691" TEXT="Broadcom">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1460207357608" ID="ID_724452624" MODIFIED="1460207384174" TEXT="Buffalo">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1460207385283" ID="ID_1669871710" MODIFIED="1460207395564" TEXT="WZR-1750DHPD">
+<node COLOR="#111111" CREATED="1460207397127" ID="ID_638495256" MODIFIED="1460207407376" TEXT="Optware 2">
+<node COLOR="#111111" CREATED="1460207408331" ID="ID_1863342066" MODIFIED="1460207409247" TEXT="http://www.dd-wrt.com/phpBB2/viewtopic.php?p=896593"/>
+</node>
+<node COLOR="#111111" CREATED="1460207414682" ID="ID_254564862" MODIFIED="1460207419594" TEXT="kirkwood generic"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>

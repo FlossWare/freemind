@@ -66,5 +66,41 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1459777649391" ID="ID_655191944" MODIFIED="1459777656262" POSITION="right" TEXT="LVM">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1459777748486" ID="ID_1187640201" MODIFIED="1459777749638" TEXT="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html-single/Logical_Volume_Manager_Administration/index.html#LV">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1459777750261" ID="ID_1216660049" MODIFIED="1459777753657" TEXT="Commands">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1459777623387" ID="ID_857074963" MODIFIED="1459777756759" TEXT="lvextend -l +100%FREE  /dev/rhel/root">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1459777625879" ID="ID_1967733184" MODIFIED="1459777756760" TEXT="lvremove /dev/rhel/home">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1459777642623" ID="ID_75752490" MODIFIED="1459777644062" POSITION="right" TEXT="XFS">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1459777640359" ID="ID_898831323" MODIFIED="1459777759580" TEXT="https://ma.ttias.be/increase-expand-xfs-filesystem-in-red-hat-rhel-7-cento7/">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1459777760269" ID="ID_1419793821" MODIFIED="1459777761537" TEXT="Commands">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1459777601555" ID="ID_1142447327" MODIFIED="1459777763715" TEXT="xfs_growfs /dev/mapper/rhel-root">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 </node>
 </map>
