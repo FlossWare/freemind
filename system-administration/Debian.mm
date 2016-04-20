@@ -65,6 +65,14 @@
 <icon BUILTIN="full-3"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1461162124146" ID="ID_1390773543" MODIFIED="1461162126037" POSITION="right" TEXT="Set editor">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1461162135374" ID="ID_1351152867" MODIFIED="1461162135375" TEXT="update-alternatives --config editor">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1380463899026" ID="ID_831607622" MODIFIED="1380463902096" POSITION="right" TEXT="Reboot">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -105,6 +113,22 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 <node COLOR="#00b439" CREATED="1460319522696" ID="ID_873303101" MODIFIED="1460319525523" TEXT="apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 7638D0442B90D010 CBF8D6FD518E17E1 6FB2A1C265FFB764">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1460385424694" ID="ID_106730277" MODIFIED="1460385435785" POSITION="right" TEXT="adduser [user] tty ">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1461161870987" ID="ID_703675721" MODIFIED="1461161932743" POSITION="right" TEXT="mount -t cifs -o username=[user name],password=[password],workgroup=[work group] //[server]/[dir] [local dir base]/[sub dir]">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1461162192128" ID="ID_1208574567" MODIFIED="1461162193288" POSITION="right" TEXT="sudo">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1461162205509" ID="ID_827858091" MODIFIED="1461162208021" TEXT="%sudo   ALL=(ALL:ALL) NOPASSWD:ALL">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
