@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1354046229071" ID="ID_1658894726" LINK="Development.mm" MODIFIED="1354046240954" TEXT="Mockito">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -34,6 +34,32 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 <node COLOR="#00b439" CREATED="1354046333032" ID="ID_252165472" MODIFIED="1354046336025" TEXT="endsWith(String)">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1462723887358" ID="ID_1814548499" MODIFIED="1462723893084" POSITION="right" TEXT="Mock multiple interfaces">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1462723894835" ID="ID_1060634183" MODIFIED="1462723918971" TEXT="@Mock(extraInterfaces = {Interface1, interface2, ..., Interface3})">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1462723920195" ID="ID_353567371" MODIFIED="1462723932676">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      @Mock(extraInterfaces = {BindingProvider.class})
+    </p>
+    <p>
+      Soap port;
+    </p>
+  </body>
+</html>
+</richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
