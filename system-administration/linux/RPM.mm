@@ -98,5 +98,19 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1463145407101" ID="ID_1578313827" MODIFIED="1463145440694" POSITION="right" TEXT="Problems">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1463145451654" ID="ID_1097348400" MODIFIED="1463145452886" TEXT="error: db5 error(11) from dbenv-&gt;open: Resource temporarily unavailabl">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1463145457702" ID="ID_1739450587" MODIFIED="1463145458374" TEXT="yum clean all">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1463145462346" ID="ID_1364627979" MODIFIED="1463145463106" TEXT="rpm --rebuilddb ">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 </node>
 </map>
