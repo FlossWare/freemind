@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1425997499771" ID="ID_372254598" LINK="Linux.mm" MODIFIED="1426189801529" TEXT="Ansible">
+<node COLOR="#000000" CREATED="1425997499771" ID="ID_372254598" LINK="System%20Administration.mm" MODIFIED="1466431819867" TEXT="Ansible">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>

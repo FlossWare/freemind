@@ -97,6 +97,99 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1466424370139" ID="ID_1638705182" MODIFIED="1466424397451" POSITION="right" TEXT="packages">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1466425888134" ID="ID_1242333572" MODIFIED="1466425889694" TEXT="vim">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1466428798191" ID="ID_571164922" MODIFIED="1466428799679" TEXT="screen">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1466428800655" ID="ID_626186638" MODIFIED="1466428801563" TEXT="alpine">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1466430724895" ID="ID_1757137261" MODIFIED="1466430726339" TEXT="aspell">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1466426807023" ID="ID_1153799275" MODIFIED="1466426808011" TEXT="rsync">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1466425890486" ID="ID_1107335885" MODIFIED="1466425896179" TEXT="ntpdate">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1466424376199" ID="ID_1794971928" MODIFIED="1466424379559" TEXT="cifs-utils">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1466424379915" ID="ID_646536688" MODIFIED="1466424383063" TEXT="smbclient">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1466424383591" ID="ID_668741664" MODIFIED="1466426127595" TEXT="dovecot-common">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1466424391399" ID="ID_783311614" MODIFIED="1466424392899" TEXT="postfix">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1466426038808" ID="ID_1168545413" MODIFIED="1466426042800" TEXT="fetchmail">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1466428863602" ID="ID_1485286587" MODIFIED="1466428864414" TEXT="sudo">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1416233634117" ID="ID_98572430" MODIFIED="1466429799680" POSITION="right" TEXT="sudo">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1416233637048" ID="ID_490201756" MODIFIED="1466429799680" TEXT="visudo">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1416233664904" ID="ID_726467903" MODIFIED="1466429829865">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # User privilege specification
+    </p>
+    <p>
+      root&#160;&#160;&#160;&#160;ALL=(ALL:ALL) ALL
+    </p>
+    <p>
+      sfloess ALL=(ALL)&#160;&#160;&#160;&#160;&#160;NOPASSWD:ALL
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Allow members of group sudo to execute any command
+    </p>
+    <p>
+      %sudo&#160;&#160;&#160;ALL=(ALL:ALL) NOPASSWD:ALL
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1466429807640" ID="ID_482477968" MODIFIED="1466429808344" TEXT="http://askubuntu.com/questions/192050/how-to-run-sudo-command-with-no-password/443071#443071">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1460310250234" ID="ID_6847889" MODIFIED="1460310254177" POSITION="right" TEXT="squeeze">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

@@ -513,17 +513,5 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1425994550324" ID="ID_1066222231" MODIFIED="1425994558570" POSITION="left" TEXT="Configuration Management">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1425997513929" ID="ID_704759652" LINK="Ansible.mm" MODIFIED="1425997513931" TEXT="Ansible">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1269099335760" ID="ID_1455357393" LINK="Puppet.mm" MODIFIED="1416757573452" TEXT="Puppet">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
 </node>
 </map>
