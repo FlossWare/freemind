@@ -70,6 +70,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1465755894279" ID="ID_808865391" MODIFIED="1465755895427" TEXT="ifcfg-bridge0">
 <node COLOR="#111111" CREATED="1447880029582" ID="ID_1851330091" MODIFIED="1447880034449">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -97,6 +98,8 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node COLOR="#111111" CREATED="1465755911907" ID="ID_317123593" MODIFIED="1465755916634" TEXT="ifcfg-enp11s0">
 <node COLOR="#111111" CREATED="1447880004642" ID="ID_201594783" MODIFIED="1447880014393">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -138,6 +141,7 @@
     </p>
   </body>
 </html></richcontent>
+</node>
 </node>
 </node>
 </node>

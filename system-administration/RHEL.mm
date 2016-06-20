@@ -66,39 +66,159 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1459777649391" ID="ID_655191944" MODIFIED="1459777656262" POSITION="right" TEXT="LVM">
+<node COLOR="#0033ff" CREATED="1466348647825" ID="ID_1544044603" MODIFIED="1466348650718" POSITION="right" TEXT="File Systems">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1459777748486" ID="ID_1187640201" MODIFIED="1459777749638" TEXT="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html-single/Logical_Volume_Manager_Administration/index.html#LV">
+<node COLOR="#00b439" CREATED="1459777649391" ID="ID_655191944" MODIFIED="1466348654726" TEXT="LVM">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1459777750261" ID="ID_1216660049" MODIFIED="1459777753657" TEXT="Commands">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1459777623387" ID="ID_857074963" MODIFIED="1459777756759" TEXT="lvextend -l +100%FREE  /dev/rhel/root">
+<node COLOR="#990000" CREATED="1459777748486" ID="ID_1187640201" MODIFIED="1466348654727" TEXT="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html-single/Logical_Volume_Manager_Administration/index.html#LV">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1459777625879" ID="ID_1967733184" MODIFIED="1459777756760" TEXT="lvremove /dev/rhel/home">
+<node COLOR="#990000" CREATED="1459777750261" ID="ID_1216660049" MODIFIED="1466348654727" TEXT="Commands">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1459777623387" ID="ID_857074963" MODIFIED="1466348654727" TEXT="lvextend -l +100%FREE  /dev/rhel/root">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1459777625879" ID="ID_1967733184" MODIFIED="1466348654727" TEXT="lvremove /dev/rhel/home">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1459777642623" ID="ID_75752490" MODIFIED="1466348654729" TEXT="XFS">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1459777640359" ID="ID_898831323" MODIFIED="1466348654729" TEXT="https://ma.ttias.be/increase-expand-xfs-filesystem-in-red-hat-rhel-7-cento7/">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+<node COLOR="#990000" CREATED="1459777760269" ID="ID_1419793821" MODIFIED="1466348654730" TEXT="Commands">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1459777601555" ID="ID_1142447327" MODIFIED="1466348654730" TEXT="xfs_growfs /dev/mapper/rhel-root">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1459777642623" ID="ID_75752490" MODIFIED="1459777644062" POSITION="right" TEXT="XFS">
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1466348657843" ID="ID_600706096" MODIFIED="1466348661827" POSITION="right" TEXT="Virtualization">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1459777640359" ID="ID_898831323" MODIFIED="1459777759580" TEXT="https://ma.ttias.be/increase-expand-xfs-filesystem-in-red-hat-rhel-7-cento7/">
+<node COLOR="#00b439" CREATED="1466348662711" ID="ID_452247123" MODIFIED="1466348664146" TEXT="KVM">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1459777760269" ID="ID_1419793821" MODIFIED="1459777761537" TEXT="Commands">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1459777601555" ID="ID_1142447327" MODIFIED="1459777763715" TEXT="xfs_growfs /dev/mapper/rhel-root">
-<edge STYLE="bezier" WIDTH="thin"/>
+<node COLOR="#990000" CREATED="1466348665291" ID="ID_1946658986" MODIFIED="1466348667292" TEXT="yum install kvm virt-manager libvirt virt-install qemu-kvm xauth dejavu-lgc-sans-fonts">
 <font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1466349318501" ID="ID_713094990" MODIFIED="1466349320077" TEXT="/usr/lib/sysctl.d/00-system.conf">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1466349327109" ID="ID_1845880511" MODIFIED="1466349336297">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      net.bridge.bridge-nf-call-ip6tables = 0
+    </p>
+    <p>
+      net.bridge.bridge-nf-call-iptables = 0
+    </p>
+    <p>
+      net.bridge.bridge-nf-call-arptables = 0
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><i>net.ipv4.ip_forward = 1</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1466349832130" ID="ID_21606021" MODIFIED="1466349839638" TEXT="ifcfg-enp11s0">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1466349850518" ID="ID_689053460" MODIFIED="1466349869210">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # Generated by dracut initrd
+    </p>
+    <p>
+      NAME=&quot;enp11s0&quot;
+    </p>
+    <p>
+      DEVICE=&quot;enp11s0&quot;
+    </p>
+    <p>
+      ONBOOT=yes
+    </p>
+    <p>
+      NETBOOT=yes
+    </p>
+    <p>
+      UUID=&quot;ba141a68-8315-404d-96c9-c70689e3649b&quot;
+    </p>
+    <p>
+      IPV6INIT=yes
+    </p>
+    <p>
+      BOOTPROTO=dhcp
+    </p>
+    <p>
+      TYPE=Ethernet
+    </p>
+    <p>
+      <b><i>BRIDGE=bridge0</i></b>
+    </p>
+    <p>
+      NM_CONTROLLED=NO
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1466349840030" ID="ID_420481273" MODIFIED="1466349848869" TEXT="ifcfg-bridge0">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1466349853254" ID="ID_578519373" MODIFIED="1466349884479">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DEVICE=&quot;bridge0&quot;
+    </p>
+    <p>
+      ONBOOT=&quot;yes&quot;
+    </p>
+    <p>
+      BOOTPROTO=dhcp
+    </p>
+    <p>
+      TYPE=Bridge
+    </p>
+    <p>
+      NM_CONTROLLED=NO
+    </p>
+    <p>
+      DELAY=0
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>

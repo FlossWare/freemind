@@ -11,7 +11,7 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-1"/>
-<node COLOR="#990000" CREATED="1380460670408" ID="ID_972211382" MODIFIED="1380460732141" TEXT="apt-get update">
+<node COLOR="#990000" CREATED="1380460670408" ID="ID_972211382" MODIFIED="1466288435792" TEXT="apt-get update --allow-unauthenticated">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
@@ -85,6 +85,14 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1397830615624" ID="ID_350290866" MODIFIED="1397830620471" TEXT="apt-get install mailutils">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1466299444014" ID="ID_1244758482" MODIFIED="1466299445572" POSITION="right" TEXT="nis">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1466299451951" ID="ID_1847718072" MODIFIED="1466299454732" TEXT="/etc/default/nis ">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

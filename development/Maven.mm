@@ -92,7 +92,7 @@
 <node COLOR="#0033ff" CREATED="1435614517676" ID="ID_1127490666" MODIFIED="1435614523813" POSITION="right" TEXT="Update properties">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1435614540206" ID="ID_94636217" MODIFIED="1435618052056" TEXT="mvn -U versions:update-properties -DexcludeProperties=&quot;prop1, ..., propN&quot;">
+<node COLOR="#00b439" CREATED="1435614540206" ID="ID_94636217" MODIFIED="1464038014820" TEXT="mvn -U versions:update-properties -DexcludeProperties=&quot;prop1, ..., propN&quot; -DincludeProperties=&quot;prop1, ..., propN&quot;">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
