@@ -127,10 +127,6 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1466431766073" ID="ID_1793984649" MODIFIED="1466431768400" POSITION="right" TEXT="/dev/ttyp1">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-</node>
 <node COLOR="#0033ff" CREATED="1425994550324" ID="ID_1066222231" MODIFIED="1425994558570" POSITION="left" TEXT="Configuration Management">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
