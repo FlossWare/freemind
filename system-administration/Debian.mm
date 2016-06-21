@@ -132,7 +132,12 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1466424383591" ID="ID_668741664" MODIFIED="1466426127595" TEXT="dovecot-common">
+<node COLOR="#00b439" CREATED="1466424383591" ID="ID_668741664" MODIFIED="1466515418933" TEXT="dovecot-common">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="help"/>
+</node>
+<node COLOR="#00b439" CREATED="1466515407973" ID="ID_517657200" MODIFIED="1466515411451" TEXT="dovecot-core">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -180,8 +185,7 @@
       %sudo&#160;&#160;&#160;ALL=(ALL:ALL) NOPASSWD:ALL
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
