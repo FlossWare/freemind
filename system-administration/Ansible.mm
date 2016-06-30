@@ -8,6 +8,87 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1466856840570" ID="ID_1240612232" MODIFIED="1466856844566" POSITION="right" TEXT="Dynamic inventory">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1466856802723" ID="ID_1245899366" MODIFIED="1466856846624" TEXT="cobbler">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1466856823887" ID="ID_81488062" MODIFIED="1466856846624" TEXT="https://raw.github.com/ansible/ansible/devel/contrib/inventory/cobbler.py">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1466856849210" ID="ID_430872276" MODIFIED="1466856879361" TEXT="cp /etc/ansible">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1466856880293" ID="ID_50633217" MODIFIED="1466856889065" TEXT="chmod +x /etc/ansible/cobbler.py">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1466857057054" FOLDED="true" ID="ID_1215818995" MODIFIED="1466857102033" TEXT="/etc/ansible/cobbler.ini">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1466857073722" ID="ID_653973222" MODIFIED="1466857098814">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [cobbler]
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Set Cobbler's hostname or IP address
+    </p>
+    <p>
+      host = http://127.0.0.1/cobbler_api
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # API calls to Cobbler can be slow. For this reason, we cache the results of an API
+    </p>
+    <p>
+      # call. Set this to the path you want cache files to be written to. Two files
+    </p>
+    <p>
+      # will be written to this directory:
+    </p>
+    <p>
+      #&#160;&#160;&#160;- ansible-cobbler.cache
+    </p>
+    <p>
+      #&#160;&#160;&#160;- ansible-cobbler.index
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      cache_path = /tmp
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # The number of seconds a cache file is considered valid. After this many
+    </p>
+    <p>
+      # seconds, a new API call will be made, and the cache file will be updated.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      cache_max_age = 900
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1426011990066" ID="ID_776284567" MODIFIED="1426011992959" POSITION="right" TEXT="Role">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -156,125 +237,125 @@
 <node COLOR="#0033ff" CREATED="1426037717286" ID="ID_673900833" MODIFIED="1426037721877" POSITION="right" TEXT="Directory Layout">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1426037723246" ID="ID_1648148000" MODIFIED="1426037815970">
+<node COLOR="#00b439" CREATED="1426037723246" ID="ID_1648148000" MODIFIED="1466858551973">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font face="Monospaced" size="3">production&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# inventory file for production servers </font>
+      <font face="Courier 10 Pitch" size="4">production&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# inventory file for production servers </font>
     </p>
     <p>
-      <font face="Monospaced" size="3">stage&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# inventory file for stage environment </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font face="Monospaced" size="3">group_vars/ </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;group1&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# here we assign variables to particular groups </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;group2&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# &quot;&quot; </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">host_vars/ </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;hostname1&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# if systems need specific variables, put them here </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;hostname2&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# &quot;&quot; </font>
+      <font face="Courier 10 Pitch" size="4">staging&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# inventory file for staging environment </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font face="Monospaced" size="3">library/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# if any custom modules, put them here (optional) </font>
+      <font face="Courier 10 Pitch" size="4">group_vars/ </font>
     </p>
     <p>
-      <font face="Monospaced" size="3">filter_plugins/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# if any custom filter plugins, put them here (optional) </font>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;group1&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# here we assign variables to particular groups </font>
     </p>
     <p>
-      
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;group2&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# &quot;&quot; </font>
     </p>
     <p>
-      <font face="Monospaced" size="3">site.yml&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# master playbook </font>
+      <font face="Courier 10 Pitch" size="4">host_vars/ </font>
     </p>
     <p>
-      <font face="Monospaced" size="3">webservers.yml&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# playbook for webserver tier </font>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;hostname1&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# if systems need specific variables, put them here </font>
     </p>
     <p>
-      <font face="Monospaced" size="3">dbservers.yml&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# playbook for dbserver tier </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font face="Monospaced" size="3">roles/ </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;common/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# this hierarchy represents a &quot;role&quot; </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;tasks/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;main.yml&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&lt;-- tasks file can include smaller files if warranted </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;handlers/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;main.yml&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&lt;-- handlers file </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;templates/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&lt;-- files for use with the template resource </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ntp.conf.j2&#160;&#160;&#160;#&#160;&#160;&lt;------- templates end in .j2 </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;files/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;bar.txt&#160;&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&lt;-- files for use with the copy resource </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;foo.sh&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&lt;-- script files for use with the script resource </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;vars/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;main.yml&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&lt;-- variables associated with this role </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;defaults/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;main.yml&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&lt;-- default lower priority variables for this role </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;meta/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# </font>
-    </p>
-    <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;main.yml&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&lt;-- role dependencies </font>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;hostname2&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# &quot;&quot; </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;webtier/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# same kind of structure as &quot;common&quot; was above, done for the webtier role </font>
+      <font face="Courier 10 Pitch" size="4">library/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# if any custom modules, put them here (optional) </font>
     </p>
     <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;monitoring/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# &quot;&quot; </font>
+      <font face="Courier 10 Pitch" size="4">filter_plugins/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# if any custom filter plugins, put them here (optional) </font>
     </p>
     <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;fooapp/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# &quot;&quot;</font>
+      
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">site.yml&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# master playbook </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">webservers.yml&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# playbook for webserver tier </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">dbservers.yml&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# playbook for dbserver tier </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">roles/ </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;common/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# this hierarchy represents a &quot;role&quot; </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;tasks/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;main.yml&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&lt;-- tasks file can include smaller files if warranted </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;handlers/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;main.yml&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&lt;-- handlers file </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;templates/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&lt;-- files for use with the template resource </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ntp.conf.j2&#160;&#160;&#160;#&#160;&#160;&lt;------- templates end in .j2 </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;files/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;bar.txt&#160;&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&lt;-- files for use with the copy resource </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;foo.sh&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&lt;-- script files for use with the script resource </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;vars/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;main.yml&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&lt;-- variables associated with this role </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;defaults/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;main.yml&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&lt;-- default lower priority variables for this role </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;meta/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;main.yml&#160;&#160;&#160;&#160;&#160;&#160;#&#160;&#160;&lt;-- role dependencies </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;webtier/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# same kind of structure as &quot;common&quot; was above, done for the webtier role </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;monitoring/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# &quot;&quot; </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;fooapp/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# &quot;&quot; </font>
     </p>
   </body>
 </html></richcontent>
@@ -385,6 +466,13 @@
 <node COLOR="#0033ff" CREATED="1426001826397" ID="ID_464185751" MODIFIED="1426001828469" POSITION="left" TEXT="Commands">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1467249037549" ID="ID_1875004566" MODIFIED="1467249042108" TEXT="Gather facts">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1467249045769" ID="ID_355483576" MODIFIED="1467249045770" TEXT="ansible all -m setup">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1426001830617" ID="ID_1240157877" MODIFIED="1426001848809" TEXT="ansible -m [module name] [attributes/values]">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

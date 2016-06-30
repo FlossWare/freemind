@@ -112,11 +112,13 @@
 <node COLOR="#00b439" CREATED="1466348662711" ID="ID_452247123" MODIFIED="1466348664146" TEXT="KVM">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1466348665291" ID="ID_1946658986" MODIFIED="1466348667292" TEXT="yum install kvm virt-manager libvirt virt-install qemu-kvm xauth dejavu-lgc-sans-fonts">
+<node COLOR="#990000" CREATED="1466960653996" ID="ID_77272811" MODIFIED="1466960656383" TEXT="Configuration">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1466348665291" ID="ID_1946658986" MODIFIED="1466960661484" TEXT="yum install kvm virt-manager libvirt virt-install qemu-kvm xauth dejavu-lgc-sans-fonts">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#990000" CREATED="1466349318501" ID="ID_713094990" MODIFIED="1466349320077" TEXT="/usr/lib/sysctl.d/00-system.conf">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1466349318501" ID="ID_713094990" MODIFIED="1466960661485" TEXT="/usr/lib/sysctl.d/00-system.conf">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1466349327109" ID="ID_1845880511" MODIFIED="1466349336297">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -139,12 +141,11 @@
       <b><i>net.ipv4.ip_forward = 1</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1466349832130" ID="ID_21606021" MODIFIED="1466349839638" TEXT="ifcfg-enp11s0">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1466349832130" ID="ID_21606021" MODIFIED="1466960661487" TEXT="ifcfg-enp11s0">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1466349850518" ID="ID_689053460" MODIFIED="1466349869210">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -185,12 +186,11 @@
       NM_CONTROLLED=NO
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1466349840030" ID="ID_420481273" MODIFIED="1466349848869" TEXT="ifcfg-bridge0">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1466349840030" ID="ID_420481273" MODIFIED="1466960661489" TEXT="ifcfg-bridge0">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1466349853254" ID="ID_578519373" MODIFIED="1466349884479">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -216,10 +216,26 @@
       DELAY=0
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
+</node>
+<node COLOR="#990000" CREATED="1466960663475" ID="ID_1733376198" MODIFIED="1466960666863" TEXT="auto start">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1466960672407" ID="ID_828094006" MODIFIED="1466960674142" TEXT="/etc/libvirt/qemu/autostart"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1467221210956" ID="ID_1853212176" MODIFIED="1467221211836" POSITION="right" TEXT="pip">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1467221226740" ID="ID_1833781777" MODIFIED="1467221228408" TEXT="yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1467221228824" ID="ID_1523928294" MODIFIED="1467221234494" TEXT="yum install -y python-pip ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>

@@ -170,6 +170,9 @@
 </node>
 <node COLOR="#111111" CREATED="1455225235577" ID="ID_724960868" MODIFIED="1455225237745" TEXT="ERROR    internal error: libxenlight failed to create new domain &apos;centos-workstation-xen&apos;"/>
 </node>
+<node COLOR="#111111" CREATED="1466965563882" ID="ID_568444465" MODIFIED="1466965566462" TEXT="auto start">
+<node COLOR="#111111" CREATED="1466965579414" ID="ID_1955488647" MODIFIED="1466965581176" TEXT="/etc/xen/auto"/>
+</node>
 </node>
 <node COLOR="#990000" CREATED="1440504140480" ID="ID_423703538" MODIFIED="1455721373013" TEXT="Docker">
 <edge STYLE="bezier" WIDTH="thin"/>
