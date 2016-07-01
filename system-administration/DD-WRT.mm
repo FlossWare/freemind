@@ -59,6 +59,18 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1467366654373" ID="ID_1200080093" MODIFIED="1467366658910" POSITION="right" TEXT="default creds">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1467366659881" ID="ID_1318605632" MODIFIED="1467366660877" TEXT="root">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1467366661081" ID="ID_1155434369" MODIFIED="1467366662185" TEXT="admin">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1387899637196" ID="ID_951477651" MODIFIED="1387899643697" POSITION="left" TEXT="Building toolchain">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

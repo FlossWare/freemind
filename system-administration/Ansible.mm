@@ -199,6 +199,38 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1467388966486" ID="ID_927190780" MODIFIED="1467388978338" TEXT="Include a role from another role">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1467389346911" ID="ID_71839492" MODIFIED="1467389382762" TEXT="[role]/meta/main.yml">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1467388979886" ID="ID_1620070670" MODIFIED="1467389365649">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ---
+    </p>
+    <p>
+      dependencies:
+    </p>
+    <p>
+      &#160;&#160;- { role: common, some_parameter: 3 }
+    </p>
+    <p>
+      &#160;&#160;- { role: apache, appache_port: 80 }
+    </p>
+    <p>
+      &#160;&#160;- { role: postgres, dbname: blarg, other_parameter: 12 }
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1430495276653" ID="ID_1976840954" MODIFIED="1430495288020" POSITION="right" TEXT="Without SSH added">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -471,6 +503,29 @@
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1467249045769" ID="ID_355483576" MODIFIED="1467249045770" TEXT="ansible all -m setup">
 <font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1467386673403" ID="ID_1196782062" MODIFIED="1467386696485" TEXT="Local playbooks">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1467386743269" ID="ID_735847303" MODIFIED="1467386747256" TEXT="Define in playbook">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1467386700757" ID="ID_1219755954" MODIFIED="1467386749352">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      - hosts: 127.0.0.1
+    </p>
+    <p>
+      &#160;&#160;connection: local
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1426001830617" ID="ID_1240157877" MODIFIED="1426001848809" TEXT="ansible -m [module name] [attributes/values]">
