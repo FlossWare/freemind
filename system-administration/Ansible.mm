@@ -587,10 +587,86 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1467562864386" ID="ID_1978072218" MODIFIED="1467562866349" POSITION="left" TEXT="Roles">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1467562867397" ID="ID_1395557772" MODIFIED="1467562930448">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Courier 10 Pitch" size="4">site.yml </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">webservers.yml </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">fooservers.yml </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">roles/ </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;common/ </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;files/ </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;templates/ </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;tasks/ </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;handlers/ </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;vars/ </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;defaults/ </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;meta/ </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;webservers/ </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;files/ </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;templates/ </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;tasks/ </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;handlers/ </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;vars/ </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;defaults/ </font>
+    </p>
+    <p>
+      <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;meta/</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1426007798191" ID="ID_448424956" MODIFIED="1426007800003" POSITION="left" TEXT="Playbook">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1426009714537" ID="ID_1352442263" MODIFIED="1426343826365">
+<node COLOR="#00b439" CREATED="1426009714537" ID="ID_1352442263" MODIFIED="1467562827149">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -657,13 +733,13 @@
       <font face="Monospaced" size="3">&#160;&#160;roles: </font>
     </p>
     <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;- role: [role name] [, when &quot;condition&quot; ] </font>
+      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;- { role: [role name] [, when &quot;condition&quot; ] }</font>
     </p>
     <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;- role: [role name] [ var1: value1, ..., varN: valueN ] </font>
+      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;- { role: [role name] [ var1: value1, ..., varN: valueN ] }</font>
     </p>
     <p>
-      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;- role: [role name] [, tags: [&quot;tag1&quot;, ..., &quot;tagN&quot;]</font>
+      <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;- { role: [role name] [, tags: [&quot;tag1&quot;, ..., &quot;tagN&quot;] }</font>
     </p>
     <p>
       
@@ -693,7 +769,8 @@
       <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;[module]: [param1]=[val1] ... [paramN]=[valN]</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
