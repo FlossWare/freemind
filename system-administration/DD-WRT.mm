@@ -249,5 +249,19 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1468167977662" ID="ID_54990311" MODIFIED="1468167982060" POSITION="right" TEXT="Reboots">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1468167983756" ID="ID_994684652" MODIFIED="1468168019267" TEXT="Admininistration">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1468168009631" ID="ID_341642435" MODIFIED="1468168012359" TEXT="Management">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1468168004507" ID="ID_1536347114" MODIFIED="1468168008987" TEXT="Keep Allive">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 </node>
 </map>

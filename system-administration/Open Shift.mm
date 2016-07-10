@@ -38,5 +38,17 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1467659854573" ID="ID_793657519" MODIFIED="1467659867125" POSITION="right" TEXT="Commands">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1467659867881" ID="ID_348433943" MODIFIED="1467659878804" TEXT="rhc delete-app --app [app name] --confirm">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1467659895132" ID="ID_1791740194" MODIFIED="1467659896904" TEXT="rhc apps">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>
