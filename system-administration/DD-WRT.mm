@@ -263,5 +263,16 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1468268921193" ID="ID_308967628" MODIFIED="1468268923086" POSITION="right" TEXT="Clock speed">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1468268923649" ID="ID_80742482" MODIFIED="1468268926145" TEXT="Administration">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1468268926645" ID="ID_512367928" MODIFIED="1468268929453" TEXT="Management">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 </node>
 </map>

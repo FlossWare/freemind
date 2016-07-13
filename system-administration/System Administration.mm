@@ -66,6 +66,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1468426175588" ID="ID_923754102" LINK="Etcd.mm" MODIFIED="1468426175590" TEXT="Etcd">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 <node COLOR="#00b439" CREATED="1452774627126" ID="ID_504306298" LINK="Kubernetes.mm" MODIFIED="1452774627127" TEXT="Kubernetes">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
