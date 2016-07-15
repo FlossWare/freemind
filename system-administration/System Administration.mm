@@ -98,7 +98,11 @@
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1324994170187" ID="ID_671827509" LINK="Xen.mm" MODIFIED="1416757573460" TEXT="Xen">
+<node COLOR="#00b439" CREATED="1324994170187" ID="ID_671827509" LINK="Xen.mm" MODIFIED="1468574691564" TEXT="Xen">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1458398992553" ID="ID_391250439" MODIFIED="1460628593678" TEXT="virsh console">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
