@@ -359,5 +359,36 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1468931228499" ID="ID_1136415176" MODIFIED="1468931232663" POSITION="right" TEXT="Change dom0 memory">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1468931239731" ID="ID_1523826180" MODIFIED="1468931306222" TEXT="/etc/default/grub">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-1"/>
+<node COLOR="#990000" CREATED="1468931242971" ID="ID_969586840" MODIFIED="1468931296004">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      GRUB_CMDLINE_XEN_DEFAULT=&quot;dom0_mem=<b><i>[min]</i></b>M,max:<b><i>[max]</i></b>M&quot;
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1468931262315" ID="ID_432574290" MODIFIED="1468931268055" TEXT="GRUB_CMDLINE_XEN_DEFAULT=&quot;dom0_mem=512M,max:512M&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1468931307123" ID="ID_1316371121" MODIFIED="1468931314627" TEXT="grub2-mkconfig -o /boot/grub2/grub.cfg">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-2"/>
+</node>
+</node>
 </node>
 </map>

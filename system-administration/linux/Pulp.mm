@@ -1,0 +1,267 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node COLOR="#000000" CREATED="1469035845303" ID="ID_263719165" LINK="Linux.mm" MODIFIED="1469035873167" TEXT="Pulp">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="20"/>
+<hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<node COLOR="#0033ff" CREATED="1469036957827" ID="ID_960358107" MODIFIED="1469036982024" POSITION="right" TEXT="manages repositories of content">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1469036968718" ID="ID_738687292" MODIFIED="1469037001970" TEXT="makes it available for installation">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1469037019566" ID="ID_1864412949" MODIFIED="1469037021165" TEXT="types">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1469037024674" ID="ID_212162820" MODIFIED="1469037026017" TEXT="rpm">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1469037026257" ID="ID_548923386" MODIFIED="1469037027793" TEXT="python">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1469037028081" ID="ID_460146497" MODIFIED="1469037029937" TEXT="puppet">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1469037030294" ID="ID_1985214614" MODIFIED="1469037031441" TEXT="docker">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1469037031825" ID="ID_1624356775" MODIFIED="1469037033065" TEXT="ostree">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1469037102857" ID="ID_1303088330" MODIFIED="1469037118465" TEXT="functionality">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1469037104521" ID="ID_456267141" MODIFIED="1469037123705" TEXT="locally mirror all or part of a repository">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1469037128581" ID="ID_1133021930" MODIFIED="1469037147130" TEXT="host content in a new repository">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1469037142409" ID="ID_1029881547" MODIFIED="1469037144748" TEXT="manage content from multiple sources in one place">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1469037152457" ID="ID_404766045" MODIFIED="1469037156396" TEXT="promote content through different repos in an organized way">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1469037619065" ID="ID_518870673" MODIFIED="1469037622345" POSITION="right" TEXT="components">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1469037623009" ID="ID_275921663" MODIFIED="1469037624449" TEXT="server">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1469037629537" ID="ID_1145228429" MODIFIED="1469037637832" TEXT="main application server that stores data and distributes content">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1469037624669" ID="ID_747949067" MODIFIED="1469037626417" TEXT="agent">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1469037644329" ID="ID_471727905" MODIFIED="1469037646418" TEXT="component runs on consumers and communicates with the server to provide remote content management">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1469037626681" ID="ID_128767114" MODIFIED="1469037627617" TEXT="client">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1469037657372" ID="ID_380412789" MODIFIED="1469037659164" TEXT="command line component">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1469037660197" ID="ID_287779122" MODIFIED="1469037662908" TEXT="admin-client">
+<node COLOR="#111111" CREATED="1469037672052" ID="ID_1543930419" MODIFIED="1469037686483" TEXT="manages the server"/>
+<node COLOR="#111111" CREATED="1469037722096" ID="ID_1383292843" MODIFIED="1469037723994" TEXT="any machine that can access the server&#x2019;s REST API"/>
+</node>
+<node COLOR="#111111" CREATED="1469037663253" ID="ID_245430356" MODIFIED="1469037665740" TEXT="consumer-client">
+<node COLOR="#111111" CREATED="1469037681052" ID="ID_905962335" MODIFIED="1469037739520" TEXT="manages a consumer&#x2019;s relationship to the server"/>
+<node COLOR="#111111" CREATED="1469037734192" ID="ID_798616659" MODIFIED="1469037736373" TEXT="must be run on a consumer"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1469037870107" ID="ID_903757246" MODIFIED="1469037872215" POSITION="right" TEXT="requirements">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1469037872731" ID="ID_1295598268" MODIFIED="1469037874935" TEXT="message broker">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1469037875531" ID="ID_788285338" MODIFIED="1469037876706" TEXT="qpid">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1469037879695" ID="ID_1410113138" MODIFIED="1469037882794" TEXT="the default"/>
+</node>
+<node COLOR="#990000" CREATED="1469037887670" ID="ID_1849456627" MODIFIED="1469037891086" TEXT="RabbitMQ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1469037892130" ID="ID_749613124" MODIFIED="1469037897042" TEXT="can also be used"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1469037910523" ID="ID_756584152" MODIFIED="1469037912094" TEXT="storage">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1469037912966" ID="ID_1317283602" MODIFIED="1469037915342" TEXT="MongoDB">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1469037937058" ID="ID_906903512" MODIFIED="1469037942094" TEXT="Can grow over 10 GB"/>
+<node COLOR="#111111" CREATED="1469037942490" ID="ID_318994055" MODIFIED="1469037952166" TEXT="Ensure plenty of storage">
+<node COLOR="#111111" CREATED="1469037977454" ID="ID_1379034892" MODIFIED="1469037983210" TEXT="/var/lib/mongodb"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1469037985382" ID="ID_1801142562" MODIFIED="1469037987630" TEXT="pulp">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1469037988842" ID="ID_233026901" MODIFIED="1469037992157" TEXT="/var/lib/pulp"/>
+<node COLOR="#111111" CREATED="1469038013841" ID="ID_585731047" MODIFIED="1469038014845" TEXT="2.8">
+<node COLOR="#111111" CREATED="1469038018162" ID="ID_810982637" MODIFIED="1469038025873" TEXT="sym link">
+<node COLOR="#111111" CREATED="1469038026761" ID="ID_1008977557" MODIFIED="1469038032669" TEXT="modify apache"/>
+<node COLOR="#111111" CREATED="1469038033589" ID="ID_1730354969" MODIFIED="1469038039656" TEXT="/etc/httpd/conf.d/pulp_content.conf">
+<node COLOR="#111111" CREATED="1469038044801" ID="ID_1698970512" MODIFIED="1469038047313" TEXT="&lt;Location /pulp/content/&gt;"/>
+<node COLOR="#111111" CREATED="1469038053113" ID="ID_390398851" MODIFIED="1469038218096" TEXT="Add entry for target of sym link"/>
+</node>
+<node COLOR="#111111" CREATED="1469038229772" ID="ID_885653212" MODIFIED="1469038231256" TEXT="Example">
+<node COLOR="#111111" CREATED="1469038236616" ID="ID_1250045960" MODIFIED="1469038248783" TEXT="/var/lib/pulp -&gt; /mnt/pulp"/>
+<node COLOR="#111111" CREATED="1469038273943" ID="ID_459841235" MODIFIED="1469038275203" TEXT="Add">
+<node COLOR="#111111" CREATED="1469038275864" ID="ID_472012565" MODIFIED="1469038285815" TEXT="XSendFilePath entries">
+<node COLOR="#111111" CREATED="1469038286551" ID="ID_1520139605" MODIFIED="1469038302235" TEXT="for each directory Apache serves from"/>
+</node>
+<node COLOR="#111111" CREATED="1469038305607" ID="ID_1304259712" MODIFIED="1469038313283" TEXT="Without it">
+<node COLOR="#111111" CREATED="1469038317279" ID="ID_1872784434" MODIFIED="1469038325923" TEXT="HTTP 403: Forbidden"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1469038418850" ID="ID_578031344" MODIFIED="1469038420602" POSITION="right" TEXT="installation">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1469043272863" ID="ID_705928149" MODIFIED="1469043276171" TEXT="repos">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1469038422358" ID="ID_797664892" MODIFIED="1469043279770" TEXT="epel">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1469038438218" ID="ID_239030869" MODIFIED="1469043279770" TEXT="http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm ">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1469043157624" ID="ID_1588626366" MODIFIED="1469043284190" TEXT="pulp">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1469043166220" ID="ID_279728680" MODIFIED="1469043279771" TEXT="https://repos.fedorapeople.org/repos/pulp/pulp/rhel-pulp.repo">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1469039437478" ID="ID_1849879439" MODIFIED="1469045475605" TEXT="Server">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1469045434389" ID="ID_34089490" MODIFIED="1469045438425" TEXT="mongo">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1469039450098" ID="ID_819055623" MODIFIED="1469045442204" TEXT="yum install mongodb-server ">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1469039731988" ID="ID_844713993" MODIFIED="1469039740636" TEXT="prefer version &gt;= 2.4"/>
+<node COLOR="#111111" CREATED="1469039756488" ID="ID_1107738491" MODIFIED="1469039788571" TEXT="pulp user roles">
+<node COLOR="#111111" CREATED="1469039767383" ID="ID_366446440" MODIFIED="1469039778095" TEXT="readWrite"/>
+<node COLOR="#111111" CREATED="1469039778375" ID="ID_1554198640" MODIFIED="1469039780363" TEXT="dbAdmin"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1469039489194" ID="ID_1195262011" MODIFIED="1469045442205" TEXT="systemctl enable mongod">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1469039495098" ID="ID_935674440" MODIFIED="1469045442205" TEXT="systemctl start mongod">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1469038469934" ID="ID_1965640844" MODIFIED="1469045444681" TEXT="qpid">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1469038472558" ID="ID_1757384336" MODIFIED="1469045444682" TEXT="apache">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1469039827011" ID="ID_1091097154" MODIFIED="1469045444682" TEXT="yum install qpid-cpp-server qpid-cpp-server-linearstore">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1469039974474" ID="ID_1345136793" MODIFIED="1469045444682" TEXT="systemctl enable qpidd">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1469039980430" ID="ID_1597320108" MODIFIED="1469045444682" TEXT="systemctl start qpidd">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1469042934686" ID="ID_959763796" MODIFIED="1469045447649" TEXT="pulp">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1469042945117" ID="ID_496778145" MODIFIED="1469045447649" TEXT="yum groupinstall pulp-server-qpid">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1469043369666" ID="ID_444914726" MODIFIED="1469045450317" TEXT="/etc/pulp/server.conf">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1469043468089" ID="ID_530485701" MODIFIED="1469045452204" TEXT="sudo -u apache pulp-manage-db">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1469043570144" ID="ID_1210464914" MODIFIED="1469045452204" TEXT="initializes Pulp&apos;s DB">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1469043581776" ID="ID_1528593138" MODIFIED="1469045452204" TEXT="If apache/pulp running">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1469043592120" ID="ID_1078271190" MODIFIED="1469043598888" TEXT="pulp-manage-db"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1469043681055" ID="ID_1646896144" MODIFIED="1469045454075" TEXT="apache">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1469043692119" ID="ID_424336573" MODIFIED="1469045454076" TEXT="systemctl enable httpd">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1469043699559" ID="ID_710763442" MODIFIED="1469045454076" TEXT="systemctl start httpd">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1469043741927" ID="ID_1649060064" MODIFIED="1469045456524" TEXT="celery">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1469044798638" ID="ID_1510189389" MODIFIED="1469045456524" TEXT="Workers">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1469043862990" ID="ID_1626016176" MODIFIED="1469044805448" TEXT="/etc/default/pulp_workers">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1469044658627" ID="ID_1287481220" MODIFIED="1469044660875" TEXT="PULP_CONCURRENCY=4"/>
+</node>
+<node COLOR="#111111" CREATED="1469043978289" ID="ID_316786187" MODIFIED="1469044805449" TEXT="systemctl enable pulp_workers">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1469043984521" ID="ID_508403878" MODIFIED="1469044805449" TEXT="systemctl start pulp_workers">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1469044717583" ID="ID_1509899392" MODIFIED="1469044805449" TEXT="Check status">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1469044726511" ID="ID_1668350917" MODIFIED="1469044728887" TEXT="systemctl status"/>
+<node COLOR="#111111" CREATED="1469044729203" ID="ID_1549765453" MODIFIED="1469044741154" TEXT="systemctl status pulp_worker-[number]">
+<node COLOR="#111111" CREATED="1469044742487" ID="ID_1197239204" MODIFIED="1469044744926" TEXT="systemctl status pulp_worker-1"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1469044807110" ID="ID_1649466620" MODIFIED="1469045456524" TEXT="Beat">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1469045242194" ID="ID_999178764" MODIFIED="1469045367594" TEXT="Like cron">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1469044868806" ID="ID_1556250031" MODIFIED="1469044871221" TEXT="/etc/default/pulp_celerybeat"/>
+<node COLOR="#111111" CREATED="1469045324962" ID="ID_47991597" MODIFIED="1469045327454" TEXT="systemctl enable pulp_celerybeat"/>
+<node COLOR="#111111" CREATED="1469045332058" ID="ID_859901511" MODIFIED="1469045334818" TEXT="systemctl start pulp_celerybeat"/>
+</node>
+<node COLOR="#111111" CREATED="1469045346454" ID="ID_210546711" MODIFIED="1469045456524" TEXT="Resource Manager">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1469045362961" ID="ID_485581434" MODIFIED="1469045365049" TEXT="/etc/default/pulp_resource_manager"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1469045475973" ID="ID_1886838922" MODIFIED="1469045478356" TEXT="Admin Client">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+</node>
+</map>
