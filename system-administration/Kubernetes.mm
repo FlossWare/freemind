@@ -877,5 +877,57 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1469206320631" ID="ID_1670987450" MODIFIED="1469206327055" POSITION="right" TEXT="Readiness Probe">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1469206373687" ID="ID_1138821703" MODIFIED="1469206385303" TEXT="Return values">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1469206385947" ID="ID_790000185" MODIFIED="1469206387003" TEXT="0">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1469206388919" ID="ID_230598803" MODIFIED="1469206390511" TEXT="Ready"/>
+</node>
+<node COLOR="#990000" CREATED="1469206391951" ID="ID_578264822" MODIFIED="1469206395115" TEXT="!0">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1469206400431" ID="ID_1629076169" MODIFIED="1469206402762" TEXT="Not ready"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1454969342374" ID="ID_457509238" MODIFIED="1469206359125">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;spec:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;containers:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;- name:&#160;&#160;[name]
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;image: [registry]/${tag}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ReadinessProbe:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;exec:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;command:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;- [the shell command]
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>

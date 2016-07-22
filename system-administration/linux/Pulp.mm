@@ -147,7 +147,8 @@
 <node COLOR="#990000" CREATED="1469043157624" ID="ID_1588626366" MODIFIED="1469043284190" TEXT="pulp">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1469043166220" ID="ID_279728680" MODIFIED="1469043279771" TEXT="https://repos.fedorapeople.org/repos/pulp/pulp/rhel-pulp.repo">
+<node COLOR="#111111" CREATED="1469043166220" ID="ID_279728680" MODIFIED="1469126991492" TEXT="https://repos.fedorapeople.org/repos/pulp/pulp/rhel-pulp.repo">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_279728680" ENDARROW="Default" ENDINCLINATION="623;0;" ID="Arrow_ID_1815914655" SOURCE="ID_1118378055" STARTARROW="None" STARTINCLINATION="623;0;"/>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -261,6 +262,23 @@
 <node COLOR="#00b439" CREATED="1469045475973" ID="ID_1886838922" MODIFIED="1469045478356" TEXT="Admin Client">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1469126947844" ID="ID_1118378055" MODIFIED="1469126991492" TEXT="yum groupinstall pulp-admin">
+<arrowlink DESTINATION="ID_279728680" ENDARROW="Default" ENDINCLINATION="623;0;" ID="Arrow_ID_1815914655" STARTARROW="None" STARTINCLINATION="623;0;"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1469127110082" ID="ID_1125907497" MODIFIED="1469127112842" TEXT="/etc/pulp/admin/admin.conf">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1469127312428" ID="ID_1327029317" MODIFIED="1469127323352" TEXT="Consumer Client and Agent">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1469127471250" ID="ID_1192568105" MODIFIED="1469127473294" TEXT="yum groupinstall pulp-consumer-qpid">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1469127483894" ID="ID_1282524141" MODIFIED="1469127485710" TEXT="/etc/pulp/consumer/consumer.conf">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 </node>
