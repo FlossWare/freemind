@@ -144,6 +144,13 @@
 </node>
 </node>
 </node>
+<node COLOR="#111111" CREATED="1453042290286" ID="ID_772163710" MODIFIED="1469457654447" TEXT="/var/lib/libvirt/images">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1457553520299" ID="ID_1400430680" MODIFIED="1469457654447" TEXT="/etc/libvirt/qemu/autostart">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node COLOR="#990000" CREATED="1455210403008" ID="ID_1408661389" MODIFIED="1455721373011" TEXT="Xen">
 <edge STYLE="bezier" WIDTH="thin"/>

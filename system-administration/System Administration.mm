@@ -70,6 +70,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1469457680853" ID="ID_241707292" LINK="KVM.mm" MODIFIED="1469457680855" TEXT="KVM">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 <node COLOR="#00b439" CREATED="1452774627126" ID="ID_504306298" LINK="Kubernetes.mm" MODIFIED="1452774627127" TEXT="Kubernetes">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

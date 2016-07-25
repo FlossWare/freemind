@@ -227,14 +227,6 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1449955840829" ID="ID_45913672" MODIFIED="1449955842297" POSITION="right" TEXT="Disks">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1449955843293" ID="ID_510954600" MODIFIED="1449955845590" TEXT="/var/lib/xen/images/">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
 <node COLOR="#0033ff" CREATED="1387296666581" ID="ID_1872438747" MODIFIED="1387296670836" POSITION="left" TEXT="CentOS 6.x">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -351,14 +343,6 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1449955862961" ID="ID_85903213" MODIFIED="1449955865253" POSITION="right" TEXT="Configuration">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1449955881110" ID="ID_860435509" MODIFIED="1449955883979" TEXT="/etc/libvirt/libxl">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
 <node COLOR="#0033ff" CREATED="1468931228499" ID="ID_1136415176" MODIFIED="1468931232663" POSITION="right" TEXT="Change dom0 memory">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -376,8 +360,7 @@
       GRUB_CMDLINE_XEN_DEFAULT=&quot;dom0_mem=<b><i>[min]</i></b>M,max:<b><i>[max]</i></b>M&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#990000" CREATED="1468931262315" ID="ID_432574290" MODIFIED="1468931268055" TEXT="GRUB_CMDLINE_XEN_DEFAULT=&quot;dom0_mem=512M,max:512M&quot;">
@@ -388,6 +371,26 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-2"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1453042282830" ID="ID_1391008699" MODIFIED="1469457571690" POSITION="left" TEXT="VM">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1453042299886" ID="ID_420427733" MODIFIED="1469457566619" TEXT="/var/lib/xen/images">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1457553578494" ID="ID_1500844024" MODIFIED="1469457566619" TEXT="/etc/libvirt/libxl/autostart">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1449955862961" ID="ID_85903213" MODIFIED="1469457591725" TEXT="Configuration">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1449955881110" ID="ID_860435509" MODIFIED="1469457591725" TEXT="/etc/libvirt/libxl">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 </node>
