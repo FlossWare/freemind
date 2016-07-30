@@ -4,6 +4,18 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<node COLOR="#0033ff" CREATED="1469887867205" ID="ID_1196461207" MODIFIED="1469888084064" POSITION="right" TEXT="Build">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1295699810391" ID="ID_1871448881" LINK="Ant.mm" MODIFIED="1469888080001" TEXT="Ant">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1299613398843" ID="ID_1948074316" LINK="Maven.mm" MODIFIED="1469888080001" TEXT="Maven">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1390752301974" ID="ID_1317670251" MODIFIED="1390752303348" POSITION="right" TEXT="Language">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -12,6 +24,18 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 <node COLOR="#00b439" CREATED="1446313852609" ID="ID_710948073" LINK="Beanshell.mm" MODIFIED="1446313852612" TEXT="Beanshell">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1469887855689" ID="ID_568701491" MODIFIED="1469888073172" POSITION="right" TEXT="Parsers">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1469888127988" ID="ID_1543393964" LINK="Antlr.mm" MODIFIED="1469888127988" TEXT="Antlr">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1469888140639" ID="ID_1351851913" LINK="JavaCC.mm" MODIFIED="1469888140640" TEXT="JavaCC">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -48,33 +72,42 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1390752271716" ID="ID_463533623" MODIFIED="1390752272671" POSITION="right" TEXT="Tools">
+<node COLOR="#0033ff" CREATED="1469887918164" ID="ID_1715451201" MODIFIED="1469887981441" POSITION="right" TEXT="SCM">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1295699810391" ID="ID_1871448881" LINK="Ant.mm" MODIFIED="1390752289523" TEXT="Ant">
+<node COLOR="#00b439" CREATED="1422021601347" ID="ID_494727166" LINK="Gerrit.mm" MODIFIED="1469887980570" TEXT="Gerrit">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1442857126948" ID="ID_1785753150" MODIFIED="1442857128768" TEXT="Testing">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1391466272643" ID="ID_1269941543" LINK="Arquillian.mm" MODIFIED="1442857132275" TEXT="Arquillian">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1442857171555" ID="ID_279079328" LINK="ContiPerf.mm" MODIFIED="1442857171556" TEXT="ContiPerf">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1413902151857" ID="ID_1231691009" LINK="Cucumber.mm" MODIFIED="1442857132276" TEXT="Cucumber">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1422021601347" ID="ID_494727166" LINK="Gerrit.mm" MODIFIED="1422021601349" TEXT="Gerrit">
+<node COLOR="#00b439" CREATED="1290436617049" ID="ID_136764595" LINK="Git.mm" MODIFIED="1469887980570" TEXT="Git">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1366039915346" ID="ID_1947270866" LINK="Jenkins.mm" MODIFIED="1390752289526" TEXT="Jenkins">
+</node>
+<node COLOR="#0033ff" CREATED="1442857126948" ID="ID_1785753150" MODIFIED="1469887952513" POSITION="right" TEXT="Testing">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1391466272643" ID="ID_1269941543" LINK="Arquillian.mm" MODIFIED="1469887951986" TEXT="Arquillian">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1442857171555" ID="ID_279079328" LINK="ContiPerf.mm" MODIFIED="1469887951986" TEXT="ContiPerf">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1413902151857" ID="ID_1231691009" LINK="Cucumber.mm" MODIFIED="1469887951986" TEXT="Cucumber">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1354046236274" ID="ID_1992164604" LINK="Mockito.mm" MODIFIED="1469888003769" TEXT="Mockito">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1390752271716" ID="ID_463533623" MODIFIED="1469888094947" POSITION="right" TEXT="Utility">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1366039915346" ID="ID_1947270866" LINK="Jenkins.mm" MODIFIED="1469888096544" TEXT="Jenkins">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -82,31 +115,23 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1299613398843" ID="ID_1948074316" LINK="Maven.mm" MODIFIED="1390752289528" TEXT="Maven">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1354046236274" ID="ID_1992164604" LINK="Mockito.mm" MODIFIED="1390752289532" TEXT="Mockito">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1290436617049" ID="ID_136764595" LINK="Git.mm" MODIFIED="1390752342630" TEXT="Git">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1293055220871" ID="ID_249445657" LINK="VIM.mm" MODIFIED="1390752342634" TEXT="VIM">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1390752245771" ID="ID_499215218" MODIFIED="1390752248035" POSITION="left" TEXT="IDE">
+<node COLOR="#0033ff" CREATED="1390752245771" ID="ID_499215218" MODIFIED="1469888045084" POSITION="left" TEXT="IDE">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1292966745156" ID="ID_1485368427" LINK="Eclipse.mm" MODIFIED="1390752255412" TEXT="Eclipse">
+<node COLOR="#00b439" CREATED="1292966745156" ID="ID_1485368427" LINK="Eclipse.mm" MODIFIED="1469888044725" TEXT="Eclipse">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1295700145946" ID="ID_24812944" LINK="Netbeans.mm" MODIFIED="1390752255415" TEXT="Netbeans">
+<node COLOR="#00b439" CREATED="1295700145946" ID="ID_24812944" LINK="Netbeans.mm" MODIFIED="1469888044725" TEXT="Netbeans">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1469888024871" ID="ID_1149183656" MODIFIED="1469888027643" POSITION="left" TEXT="Editor">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1293055220871" ID="ID_249445657" LINK="VIM.mm" MODIFIED="1469888032189" TEXT="VIM">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -127,6 +152,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1363289420757" ID="ID_1931664902" LINK="MySQL.mm" MODIFIED="1390752354872" TEXT="MySQL">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1469887965636" ID="ID_997694660" MODIFIED="1469887969308" TEXT="Postgres">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
