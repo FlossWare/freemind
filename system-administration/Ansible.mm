@@ -8,6 +8,10 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1470514642456" ID="ID_617780888" LINK="DNS-320.mm" MODIFIED="1470514664496" POSITION="right" TEXT="Installing Debian / DNS-320">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1466856840570" ID="ID_1240612232" MODIFIED="1466856844566" POSITION="right" TEXT="Dynamic inventory">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -657,8 +661,7 @@
       <font face="Courier 10 Pitch" size="4">&#160;&#160;&#160;&#160;&#160;meta/</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -769,8 +772,7 @@
       <font face="Monospaced" size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;[module]: [param1]=[val1] ... [paramN]=[valN]</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

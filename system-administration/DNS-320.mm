@@ -936,5 +936,59 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1470514343367" ID="ID_453156173" MODIFIED="1470514344879" POSITION="left" TEXT="ansible">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1470514511121" ID="ID_53703440" MODIFIED="1470514519858" TEXT="Installing">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1470514396726" ID="ID_981572516" MODIFIED="1470514519858" TEXT="apt-get-install">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1470514360831" ID="ID_476070785" MODIFIED="1470514519858" TEXT="python-pip">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1470514370895" ID="ID_1601406824" MODIFIED="1470514519858" TEXT="python">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1470514383598" ID="ID_1247073088" MODIFIED="1470514519859" TEXT="python-dev">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1470514391954" ID="ID_1264419881" MODIFIED="1470514519859" TEXT="libffi-dev">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1470514435566" ID="ID_1193799302" MODIFIED="1470514519859" TEXT="/etc/fstab">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1470514443781" ID="ID_1601967540" MODIFIED="1470514519859" TEXT="tmpfs /dev/shm    tmpfs   defaults,noexec,nosuid     0     0">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1470514456118" ID="ID_118891272" MODIFIED="1470514519860" TEXT="mkdir /dev/shm">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1470514521249" ID="ID_771320091" MODIFIED="1470514522693" TEXT="Issues">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1470514549069" ID="ID_694802225" MODIFIED="1470514566445" TEXT="ansible playbook -m setup">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1470514529405" ID="ID_375449517" MODIFIED="1470514592856" TEXT="http://www.boris.co/2012/02/server-ubuntu-11.html">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1470514559025" ID="ID_1624007575" MODIFIED="1470514588174" TEXT="OSError: [Errno 38] Function not implemented">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </map>
