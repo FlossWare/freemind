@@ -27,6 +27,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1470833371731" ID="ID_1748165565" LINK="YAML.mm" MODIFIED="1470833371733" TEXT="YAML">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1469887855689" ID="ID_568701491" MODIFIED="1469888073172" POSITION="right" TEXT="Parsers">
 <edge STYLE="sharp_bezier" WIDTH="8"/>

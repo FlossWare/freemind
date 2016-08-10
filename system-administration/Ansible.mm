@@ -508,6 +508,9 @@
 <node COLOR="#990000" CREATED="1467249045769" ID="ID_355483576" MODIFIED="1467249045770" TEXT="ansible all -m setup">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+<node COLOR="#990000" CREATED="1470572541732" ID="ID_594784370" MODIFIED="1470572555691" TEXT="ansible -m setup [host | group]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1467386673403" ID="ID_1196782062" MODIFIED="1467386696485" TEXT="Local playbooks">
 <edge STYLE="bezier" WIDTH="thin"/>
