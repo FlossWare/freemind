@@ -877,6 +877,59 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1471009811286" ID="ID_1563849281" MODIFIED="1471009817090" POSITION="right" TEXT="Clean-up">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1471009818410" ID="ID_1685727265" MODIFIED="1471009836346" TEXT="kubectl delete replicationControllers [controller name]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1471009836842" ID="ID_1661857471" MODIFIED="1471009846461" TEXT="kubectl delete services [service name]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1471009971724" ID="ID_189392559" MODIFIED="1471009984832" TEXT="kubectl delete pods [pod name]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1471085321477" ID="ID_33061803" MODIFIED="1471085323976" POSITION="right" TEXT="Replication">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1471085326880" ID="ID_1977994901" MODIFIED="1471085328396" TEXT="Steps">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1471085329280" ID="ID_582596562" MODIFIED="1471085343531" TEXT="Pull/load container image">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1471085344323" ID="ID_347296985" MODIFIED="1471085356315" TEXT="into container registry">
+<node COLOR="#111111" CREATED="1471085356551" ID="ID_155200763" MODIFIED="1471085360975" TEXT="all pods in cluster"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1471085362543" ID="ID_791801777" MODIFIED="1471085368391" TEXT="Deploy service configs">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1471085370527" ID="ID_905982391" MODIFIED="1471085424254" TEXT="for all app services">
+<node COLOR="#111111" CREATED="1471085391579" ID="ID_502021672" MODIFIED="1471085396707" TEXT="on Kubernetes master"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1471085412523" ID="ID_1042539148" MODIFIED="1471085417186" TEXT="Create replication controllers">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1471085418042" ID="ID_1409124880" MODIFIED="1471085421314" TEXT="for all app services">
+<node COLOR="#111111" CREATED="1471085391579" ID="ID_1951964924" MODIFIED="1471085396707" TEXT="on Kubernetes master"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1471085437214" ID="ID_949084134" MODIFIED="1471085446714" TEXT="To scale horizontally">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1471085461386" ID="ID_1631018628" MODIFIED="1471085470897" TEXT="increase replica count in YAML">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1471085482041" ID="ID_42426563" MODIFIED="1471085485461" TEXT="replication controller"/>
+</node>
+<node COLOR="#990000" CREATED="1471085475633" ID="ID_635463276" MODIFIED="1471085498849" TEXT="use kubectl on master to apply">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1469206320631" ID="ID_1670987450" MODIFIED="1469206327055" POSITION="right" TEXT="Readiness Probe">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -923,8 +976,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;- [the shell command]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

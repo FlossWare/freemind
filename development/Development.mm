@@ -120,6 +120,10 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1471002942272" ID="ID_1212949608" LINK="Search.mm" MODIFIED="1471002942273" POSITION="right" TEXT="Search">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1390752245771" ID="ID_499215218" MODIFIED="1469888045084" POSITION="left" TEXT="IDE">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
