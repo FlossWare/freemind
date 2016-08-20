@@ -512,6 +512,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1471353832510" ID="ID_279038545" MODIFIED="1471353836869" TEXT="Poweroff a group">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1471353838173" ID="ID_1364854291" MODIFIED="1471353844021" TEXT="ansible -m shell -a &apos;poweroff&apos; -k [group]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1467386673403" ID="ID_1196782062" MODIFIED="1467386696485" TEXT="Local playbooks">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

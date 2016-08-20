@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1344537770379" ID="ID_196814523" LINK="Development.mm" MODIFIED="1344537787238" TEXT="Java">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -31,6 +31,10 @@
 <node COLOR="#111111" CREATED="1356891371582" ID="ID_1906671897" MODIFIED="1356891378003" TEXT="setOutboundHeaders"/>
 </node>
 </node>
+</node>
+<node COLOR="#0033ff" CREATED="1471617529365" ID="ID_1947194770" LINK="https://access.redhat.com/documentation/en-US/JBoss_Enterprise_Web_Platform/5/html/Installation_Guide/sect-use_alternatives_to_set_default_JDK.html" MODIFIED="1471617706485" POSITION="right" TEXT="Change Java version">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
 </node>
 </node>
 </map>

@@ -302,6 +302,20 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1471693843484" ID="ID_15075620" MODIFIED="1471693845139" TEXT="split">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1471693845691" ID="ID_909245245" MODIFIED="1471693852650" TEXT="break files into mutliple parts">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1471693858166" ID="ID_289137165" MODIFIED="1471693860402" TEXT="https://kb.iu.edu/d/afar"/>
+</node>
+<node COLOR="#990000" CREATED="1471693861410" ID="ID_424220392" MODIFIED="1471693873831" TEXT="split [options] [file name] [prefix]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1471693885338" ID="ID_1900285372" MODIFIED="1471693887422" TEXT="split -l 125000 cases.csv case-split">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1416233634117" ID="ID_98572430" MODIFIED="1444761601102" TEXT="sudo">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

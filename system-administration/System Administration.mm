@@ -70,10 +70,6 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1469457680853" ID="ID_241707292" LINK="KVM.mm" MODIFIED="1469457680855" TEXT="KVM">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1452774627126" ID="ID_504306298" LINK="Kubernetes.mm" MODIFIED="1452774627127" TEXT="Kubernetes">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -100,6 +96,10 @@
 </node>
 <node COLOR="#00b439" CREATED="1270222924342" ID="ID_883797694" LINK="VirtualBox.mm" MODIFIED="1425994662086" TEXT="VirtualBox">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1469457680853" ID="ID_241707292" LINK="KVM.mm" MODIFIED="1471349278047" TEXT="KVM">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 <node COLOR="#00b439" CREATED="1324994170187" ID="ID_671827509" LINK="Xen.mm" MODIFIED="1468574691564" TEXT="Xen">
@@ -145,6 +145,13 @@
 <node COLOR="#00b439" CREATED="1469206812834" ID="ID_1478183056" LINK="Solr.mm" MODIFIED="1469206812834" TEXT="Solr">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1471617862161" ID="ID_196406846" LINK="Graph%20databases.mm" MODIFIED="1471617862162" TEXT="Graph databases">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1471618335653" ID="ID_1989366039" LINK="Neo4j.mm" MODIFIED="1471618335654" TEXT="Neo4j">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1425994550324" ID="ID_1066222231" MODIFIED="1425994558570" POSITION="left" TEXT="Configuration Management">
