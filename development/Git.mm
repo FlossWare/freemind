@@ -274,6 +274,13 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1472404072291" ID="ID_911869754" MODIFIED="1472404870244" TEXT="git submodule add -b [branch] --name [name] -- [url] [path]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1472404880552" ID="ID_1797302318" MODIFIED="1472404882559" TEXT="git submodule add --force -b master --name flossware-scripts -- git@github.com:FlossWare/scripts.git flossware-scripts">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1431364408837" ID="ID_294421263" MODIFIED="1431364419121" TEXT="git submodule update --init">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
