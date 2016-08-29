@@ -580,8 +580,7 @@
       &lt;copyField source=&quot;summary&quot; dest=&quot;text&quot;/&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1472222986167" ID="ID_1808453169" MODIFIED="1472222992638" TEXT="Used for searching"/>
 </node>
@@ -739,6 +738,136 @@
 <node COLOR="#111111" CREATED="1472241013432" ID="ID_1859789092" MODIFIED="1472241015367" TEXT="facet.pivot=cat,inStock"/>
 </node>
 </node>
+<node COLOR="#111111" CREATED="1472488566893" ID="ID_733347962" MODIFIED="1472488568405" TEXT="Grouping">
+<node COLOR="#111111" CREATED="1472488569426" ID="ID_200740767" MODIFIED="1472488589457" TEXT="group=on&amp;group.field=[field]&amp;group.limit=[total limit]">
+<node COLOR="#111111" CREATED="1472488573921" ID="ID_1218988524" MODIFIED="1472488573921" TEXT="group=on&amp;group.field=popularity&amp;group.limit=2"/>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1472488646501" ID="ID_339777455" MODIFIED="1472488651592" TEXT="Sections in schema.xml">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472488785771" ID="ID_1907769595" MODIFIED="1472488791187" TEXT="Contains">
+<node COLOR="#111111" CREATED="1472488652953" ID="ID_1598974658" MODIFIED="1472488654448" TEXT="Types">
+<node COLOR="#111111" CREATED="1472488662476" ID="ID_363189466" MODIFIED="1472488665036" TEXT="All types"/>
+<node COLOR="#111111" CREATED="1472488695120" ID="ID_291388719" MODIFIED="1472488696560" TEXT="Order doesn&apos;t matter"/>
+</node>
+<node COLOR="#111111" CREATED="1472488654716" ID="ID_159946135" MODIFIED="1472488655980" TEXT="Fields">
+<node COLOR="#111111" CREATED="1472488676992" ID="ID_1135715040" MODIFIED="1472488679210" TEXT="All fields (must have a type)"/>
+<node COLOR="#111111" CREATED="1472488695120" ID="ID_1350185777" MODIFIED="1472488696560" TEXT="Order doesn&apos;t matter"/>
+</node>
+<node COLOR="#111111" CREATED="1472488656220" ID="ID_1621371888" MODIFIED="1472488657656" TEXT="Settings"/>
+</node>
+<node COLOR="#111111" CREATED="1472488771263" ID="ID_1077831444" MODIFIED="1472488779032" TEXT="controls how the text for each fieldType is handled"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1472488809447" ID="ID_823088390" MODIFIED="1472491444291" TEXT="Analyzers">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1472488817671" ID="ID_1953613893" MODIFIED="1472491444291" TEXT="processes the text for a field">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1472488824007" ID="ID_1649544304" MODIFIED="1472491444292" TEXT="Each field type has its own analyzer">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1472488845371" ID="ID_1099804714" MODIFIED="1472491444292" TEXT="combination of other classes">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472488852211" ID="ID_1240456412" MODIFIED="1472488853895" TEXT="CharFilter">
+<node COLOR="#111111" CREATED="1472488892450" ID="ID_323759156" MODIFIED="1472488912154" TEXT="&lt;charFilter class=&quot;solr.MappingCharFilterFactory&quot; mapping=&quot;mapping-ISOLatin1Accent.txt&quot;/&gt;">
+<node COLOR="#111111" CREATED="1472488963594" ID="ID_647943341" MODIFIED="1472489005851">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      caf<b><i><font color="#990033" size="5">&#233;</font></i></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1472488973531" ID="ID_486738261" MODIFIED="1472488975743" TEXT="cafe"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1472488855935" ID="ID_909330500" MODIFIED="1472488857758" TEXT="Tokenizer">
+<node COLOR="#111111" CREATED="1472488932962" ID="ID_1140225672" MODIFIED="1472488936758" TEXT="&lt;tokenizer class=&quot;solr.WhitespaceTokenizerFactory&quot;/&gt;">
+<node COLOR="#111111" CREATED="1472489024077" ID="ID_50294088" MODIFIED="1472489026537" TEXT="He went to the cafe.">
+<node COLOR="#111111" CREATED="1472489028253" ID="ID_814852108" MODIFIED="1472489029329" TEXT="He"/>
+<node COLOR="#111111" CREATED="1472489029681" ID="ID_663699708" MODIFIED="1472489031449" TEXT="went"/>
+<node COLOR="#111111" CREATED="1472489031737" ID="ID_1365304677" MODIFIED="1472489032277" TEXT="to"/>
+<node COLOR="#111111" CREATED="1472489034349" ID="ID_1772610163" MODIFIED="1472489035757" TEXT="the"/>
+<node COLOR="#111111" CREATED="1472489036565" ID="ID_1369429296" MODIFIED="1472489039281" TEXT="cafe."/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1472488860159" ID="ID_1269590253" MODIFIED="1472488861984" TEXT="TokenFilter">
+<node COLOR="#111111" CREATED="1472489057097" ID="ID_1970566902" MODIFIED="1472489059781" TEXT="&lt;filter class=&quot;solr.LowerCaseFilterFactory&quot;/&gt;">
+<node COLOR="#111111" CREATED="1472489069257" ID="ID_751840644" MODIFIED="1472489073573" TEXT="He went to the cafe.">
+<node COLOR="#111111" CREATED="1472489074825" ID="ID_488321794" MODIFIED="1472489101062">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i><font color="#990033" size="5">h</font></i></b>e went to the cafe.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1472491445140" ID="ID_208646618" MODIFIED="1472491448188" TEXT="Relevance">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1472495980630" ID="ID_986768114" MODIFIED="1472495982206" TEXT="Types">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472491457460" ID="ID_333800778" MODIFIED="1472495986147" TEXT="Field weighting">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1472491480560" ID="ID_628250328" MODIFIED="1472495986147" TEXT="Phrase queries">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1472491487536" ID="ID_1590684352" MODIFIED="1472495986148" TEXT="Function queries">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1472491492900" ID="ID_306089603" MODIFIED="1472495986148" TEXT="Fuzzier search">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1472491498176" ID="ID_116990185" MODIFIED="1472495986148" TEXT="Sounds-like">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1472495987198" ID="ID_105297770" MODIFIED="1472496010313" TEXT="&amp;qf=[field]^[boost] text^1">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472495992448" ID="ID_1186920556" MODIFIED="1472495992448" TEXT="qf=author^5 text^1"/>
+</node>
+<node COLOR="#990000" CREATED="1472496139624" ID="ID_1259596527" MODIFIED="1472496157308" TEXT="&amp;pf=[field]^[boost]">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472496141465" ID="ID_662005078" MODIFIED="1472496141465" TEXT="&amp;pf=title^3"/>
+</node>
+<node COLOR="#990000" CREATED="1472496275067" ID="ID_331751675" MODIFIED="1472496309071" TEXT="?defType=edismax&amp;q=[search]&amp;wt=csv&amp;rows=[total rows]&amp;fl=[field1],...,[fieldN]">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472496275067" ID="ID_170938334" MODIFIED="1472496282392" TEXT="?defType=edismax&amp;q=Kerouac&amp;wt=csv&amp;rows=99&amp;fl=id,price,numpages,score">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1472496494677" ID="ID_132416496" MODIFIED="1472496497253" TEXT="&amp;bf">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472496498049" ID="ID_443400694" MODIFIED="1472496500893" TEXT="boost function">
+<node COLOR="#111111" CREATED="1472496275067" ID="ID_1090693912" MODIFIED="1472496527597" TEXT="?defType=edismax&amp;q=[search]&amp;wt=csv&amp;rows=[total rows]&amp;fl=[field1],...,[fieldN]&amp;bf=[function]([params])">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1472496275067" ID="ID_1503076688" MODIFIED="1472496547621" TEXT="?defType=edismax&amp;q=Kerouac&amp;wt=csv&amp;rows=99&amp;fl=id,price,numpages,score&amp;bf=div(price,numpages)">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1472496073253" ID="ID_1509455" MODIFIED="1472496083401" TEXT="Shorter the field the better the match is considered">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472496090957" ID="ID_1020523526" MODIFIED="1472496097013" TEXT="omitNorms=&quot;true&quot;"/>
 </node>
 </node>
 </node>
