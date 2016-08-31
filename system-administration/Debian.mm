@@ -97,6 +97,28 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1472647437648" ID="ID_1105187498" MODIFIED="1472647439300" POSITION="right" TEXT="nfs">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1472647464668" ID="ID_1766717352" MODIFIED="1472647468649" TEXT="https://www.howtoforge.com/install_nfs_server_and_client_on_debian_wheezy">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1472647447876" ID="ID_1503610628" MODIFIED="1472647448908" TEXT="server">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1472647451748" ID="ID_565007486" MODIFIED="1472647453424" TEXT="apt-get install nfs-kernel-server nfs-common">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1472647454704" ID="ID_1889171003" MODIFIED="1472647456180" TEXT="client">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1472647460928" ID="ID_1544644425" MODIFIED="1472647462984" TEXT="apt-get install nfs-common">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1466424370139" ID="ID_1638705182" MODIFIED="1466424397451" POSITION="right" TEXT="packages">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -193,6 +215,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1461162205509" ID="ID_827858091" MODIFIED="1461162208021" TEXT="%sudo   ALL=(ALL:ALL) NOPASSWD:ALL">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1460310250234" ID="ID_6847889" MODIFIED="1460310254177" POSITION="right" TEXT="squeeze">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -229,14 +255,6 @@
 <node COLOR="#0033ff" CREATED="1461161870987" ID="ID_703675721" MODIFIED="1461161932743" POSITION="right" TEXT="mount -t cifs -o username=[user name],password=[password],workgroup=[work group] //[server]/[dir] [local dir base]/[sub dir]">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-</node>
-<node COLOR="#0033ff" CREATED="1461162192128" ID="ID_1208574567" MODIFIED="1461162193288" POSITION="right" TEXT="sudo">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1461162205509" ID="ID_827858091" MODIFIED="1461162208021" TEXT="%sudo   ALL=(ALL:ALL) NOPASSWD:ALL">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 </node>
 </node>
 </map>

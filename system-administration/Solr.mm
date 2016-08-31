@@ -870,6 +870,208 @@
 <node COLOR="#111111" CREATED="1472496090957" ID="ID_1020523526" MODIFIED="1472496097013" TEXT="omitNorms=&quot;true&quot;"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1472655982593" ID="ID_1810238589" MODIFIED="1472655989309" TEXT="Fuzzy and wildcard search">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1472655991121" ID="ID_1584165839" MODIFIED="1472655993693" TEXT="starts with">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472655994401" ID="ID_1484474304" MODIFIED="1472655998081" TEXT="pro*"/>
+</node>
+<node COLOR="#990000" CREATED="1472655999245" ID="ID_26923721" MODIFIED="1472656001209" TEXT="ends with">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472656001889" ID="ID_956950389" MODIFIED="1472656004201" TEXT="*tion"/>
+</node>
+<node COLOR="#990000" CREATED="1472656006025" ID="ID_405950119" MODIFIED="1472656014345" TEXT="unsure of a letter">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472656015281" ID="ID_529389710" MODIFIED="1472656017557" TEXT="c?t"/>
+</node>
+<node COLOR="#990000" CREATED="1472656019525" ID="ID_759079393" MODIFIED="1472656022545" TEXT="something like">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472656023461" ID="ID_328637005" MODIFIED="1472656029909" TEXT="steve~"/>
+<node COLOR="#111111" CREATED="1472656030345" ID="ID_1665727889" MODIFIED="1472656036224" TEXT="steve~0.9"/>
+</node>
+<node COLOR="#990000" CREATED="1472656037429" ID="ID_1507950144" MODIFIED="1472656042188" TEXT="regular expression">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472656046752" ID="ID_92746088" MODIFIED="1472656053328" TEXT="/Ap.*e/">
+<node COLOR="#111111" CREATED="1472656053985" ID="ID_805559936" MODIFIED="1472656060124" TEXT="Matches Apache"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1472659324651" ID="ID_263246662" MODIFIED="1472659327307" TEXT="Sounds-like">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1472659334427" ID="ID_196068498" MODIFIED="1472659336271" TEXT="phonetically">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472659340615" ID="ID_1083595522" MODIFIED="1472659343127" TEXT="language specific"/>
+<node COLOR="#111111" CREATED="1472659346823" ID="ID_1537678315" MODIFIED="1472659354139" TEXT="precision/recall"/>
+</node>
+<node COLOR="#990000" CREATED="1472659372175" ID="ID_1442794260" MODIFIED="1472659376969" TEXT="PhoneticFilterFactory">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472659382155" ID="ID_992652485" MODIFIED="1472659384287" TEXT="Usually into a separate field"/>
+</node>
+<node COLOR="#990000" CREATED="1472659399347" ID="ID_1844520570" MODIFIED="1472659401222" TEXT="Several algorithms to choose from">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1472661826349" ID="ID_27204210" MODIFIED="1472661831525" TEXT="More-like-this">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1472661836101" ID="ID_1445063793" MODIFIED="1472661838077" TEXT="Finds similar documents">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472661842689" ID="ID_1316175212" MODIFIED="1472661845813" TEXT="contents of document(s) in the index"/>
+<node COLOR="#111111" CREATED="1472661846405" ID="ID_1900871605" MODIFIED="1472661853665" TEXT="data provided as a parameter"/>
+</node>
+<node COLOR="#990000" CREATED="1472661858561" ID="ID_211582809" MODIFIED="1472661860860" TEXT="Builds &amp; runs a query">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1472663246760" ID="ID_1595312396" MODIFIED="1472663250204" TEXT="Geospacial">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1472663252996" ID="ID_322783915" MODIFIED="1472663257763" TEXT="Limit search to a region">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1472663260976" ID="ID_1542092201" MODIFIED="1472663262400" TEXT="Affect score by distance">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1472663281832" ID="ID_386040197" MODIFIED="1472663287468" TEXT="Multiple values per field">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1472663287876" ID="ID_1058799432" MODIFIED="1472663293426" TEXT="Index shapes other than points">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472663297652" ID="ID_411361521" MODIFIED="1472663299984" TEXT="circles, polygons, etc"/>
+</node>
+<node COLOR="#990000" CREATED="1472663325892" ID="ID_1337064800" MODIFIED="1472663327984" TEXT="Well Known Text (WKT) support via JTS">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1472663328536" ID="ID_1969529408" MODIFIED="1472664112817" TEXT="Indexing">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472663339004" ID="ID_1322438621" MODIFIED="1472663455235">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &quot;geo&quot;:&quot;43.17614,-&#173;&#8208;90.57341&quot;
+    </p>
+    <p>
+      &quot;geo&quot;:&quot;Circle(4.56,1.23 d=0.0710)&quot;
+    </p>
+    <p>
+      &quot;geo&quot;:&quot;POLYGON((-10 30,-40 40,-10 -20, 40 20, 0 0,-10 30))&quot;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1472664105197" ID="ID_125997186" MODIFIED="1472664108129" TEXT="Searching">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472664119561" ID="ID_118576333" MODIFIED="1472664176602">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      fq=geo:&quot;Intersects(-74.9 41.4 -69.4 44.5)&quot;
+    </p>
+    <p>
+      fq=geo:&quot;Intersects(POLYGON((&#8208;10 30,&#8208;40 40,&#8208;10 -20,40 20,0 0,&#8208;10 30)))&quot;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1472665000789" ID="ID_1036415637" MODIFIED="1472665003549" TEXT="Spell Checking">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1472665008753" ID="ID_346298645" MODIFIED="1472665010585" TEXT="Improves findability">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1472665015569" ID="ID_530253797" MODIFIED="1472665017940" TEXT="Can build from index or file">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1472666715537" ID="ID_1034785171" MODIFIED="1472666717585" TEXT="Suggestions">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1472666724561" ID="ID_1418624185" MODIFIED="1472666726485" TEXT="Improves findability">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1472666731825" ID="ID_755293216" MODIFIED="1472666733628" TEXT="Can build from index or file">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1472668032894" ID="ID_218288729" MODIFIED="1472668561209" TEXT="Pseudo-fields">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1472668045346" ID="ID_364173049" MODIFIED="1472668047098" TEXT="Returns other info along with stored fields">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472668050842" ID="ID_283125785" MODIFIED="1472668052354" TEXT="Function queries">
+<node COLOR="#111111" CREATED="1472668056814" ID="ID_1825902936" MODIFIED="1472668058909" TEXT="fl=name,location,geodist(),add(myfield,10)"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1472668064226" ID="ID_1615152118" MODIFIED="1472668068685" TEXT="Fieldname globs">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472668072513" ID="ID_1751660794" MODIFIED="1472668075059" TEXT="fl=id,attr_*"/>
+</node>
+<node COLOR="#990000" CREATED="1472668079593" ID="ID_1508611068" MODIFIED="1472668081189" TEXT="Multiple &quot;fl&quot; (field list) values">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472668086597" ID="ID_462192287" MODIFIED="1472668091549">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &amp;fl=id,attr_*
+    </p>
+    <p>
+      &amp;fl=geodist()
+    </p>
+    <p>
+      &amp;fl=termfreq(text,&#8217;solr&#8217;)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1472668094729" ID="ID_978308450" MODIFIED="1472668096521" TEXT="Aliasing">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1472668101585" ID="ID_798981753" MODIFIED="1472668106790">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      fl=id,location:loc,_dist_:geodist()
+    </p>
+    <p>
+      fl=id,[explain],[shard]
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1472668561625" ID="ID_1452815061" MODIFIED="1472668565545" TEXT="Pseudo-join">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1472668567121" ID="ID_1520128484" MODIFIED="1472668573438" TEXT="fq={!join from=blog_id to=id} body:netflix">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1472671228926" ID="ID_1195151660" MODIFIED="1472671231990" TEXT="No security">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1470858765328" ID="ID_279854326" MODIFIED="1470858767044" POSITION="left" TEXT="4.5">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
