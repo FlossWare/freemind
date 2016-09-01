@@ -125,7 +125,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1469216988629" FOLDED="true" ID="ID_298788925" MODIFIED="1472144258243" TEXT="Concepts">
+<node COLOR="#00b439" CREATED="1469216988629" ID="ID_298788925" MODIFIED="1472741271979" TEXT="Concepts">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1469216943473" ID="ID_1952050283" MODIFIED="1469216993383" TEXT="Information retrieval">
@@ -962,8 +962,7 @@
       &quot;geo&quot;:&quot;POLYGON((-10 30,-40 40,-10 -20, 40 20, 0 0,-10 30))&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1472664105197" ID="ID_125997186" MODIFIED="1472664108129" TEXT="Searching">
@@ -981,8 +980,7 @@
       fq=geo:&quot;Intersects(POLYGON((&#8208;10 30,&#8208;40 40,&#8208;10 -20,40 20,0 0,&#8208;10 30)))&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1037,8 +1035,7 @@
       &amp;fl=termfreq(text,&#8217;solr&#8217;)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1472668094729" ID="ID_978308450" MODIFIED="1472668096521" TEXT="Aliasing">
@@ -1056,8 +1053,7 @@
       fl=id,[explain],[shard]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
