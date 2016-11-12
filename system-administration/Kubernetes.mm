@@ -888,9 +888,14 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1471009971724" ID="ID_189392559" MODIFIED="1471009984832" TEXT="kubectl delete pods [pod name]">
+<node COLOR="#00b439" CREATED="1471009971724" ID="ID_189392559" MODIFIED="1475262864281" TEXT="kubectl delete pods [pod name]">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1475071114550" ID="ID_953644662" MODIFIED="1475263278488" TEXT="--grace-period=0 ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1475071153282" ID="ID_1324390136" MODIFIED="1475071155498" TEXT="http://stackoverflow.com/questions/35453792/pods-stuck-at-terminated-status"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1471085321477" ID="ID_33061803" MODIFIED="1471085323976" POSITION="right" TEXT="Replication">

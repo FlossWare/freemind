@@ -18,7 +18,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1397737562084" ID="ID_1796190096" MODIFIED="1400529374137" TEXT="mvn test -Dtest=TheClass#TheMethod">
+<node COLOR="#990000" CREATED="1397737562084" ID="ID_1796190096" MODIFIED="1474206865380" TEXT="mvn test -Dtest=TheClass#TheMethod">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>

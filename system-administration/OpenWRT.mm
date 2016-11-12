@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1390306956940" ID="ID_1384258166" LINK="System%20Administration.mm" MODIFIED="1390306974648" TEXT="OpenWRT">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -35,6 +35,18 @@
 <node COLOR="#0033ff" CREATED="1390307082256" ID="ID_851840375" MODIFIED="1390307085223" POSITION="right" TEXT="make menuconfig">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1477750743315" ID="ID_251476216" MODIFIED="1477750932681" POSITION="right" TEXT="ipk files">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1477750933341" ID="ID_1688005494" MODIFIED="1477750944717" TEXT="bin/[chipset]/packages/packages">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1477750945529" ID="ID_1839225991" MODIFIED="1477750951004" TEXT="bin/bcm53xx/packages/packages">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 </node>
 </map>

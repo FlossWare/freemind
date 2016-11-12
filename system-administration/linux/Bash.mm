@@ -183,5 +183,34 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1478268195230" ID="ID_900207373" MODIFIED="1478268197641" POSITION="right" TEXT="Keep new lines">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1478268202373" ID="ID_1795163715" MODIFIED="1478268204289" TEXT="http://superuser.com/questions/284187/bash-iterating-over-lines-in-a-variable">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1478268204693" ID="ID_1391488241" MODIFIED="1478268231817">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      some_command | while read line ; do
+    </p>
+    <p>
+      &#160;&#160;&#160;echo === $line ===
+    </p>
+    <p>
+      done
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>
