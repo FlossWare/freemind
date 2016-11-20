@@ -278,7 +278,7 @@
 </node>
 <node COLOR="#990000" CREATED="1379526623846" ID="ID_833090950" MODIFIED="1381861827459" TEXT="JMS">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1379526637000" ID="ID_1456223088" MODIFIED="1379526669327" TEXT="cd /subsystem=messaging/hornetq-server=default/jms-queue/[queue name]"/>
+<node COLOR="#111111" CREATED="1379526637000" ID="ID_1456223088" MODIFIED="1479407746059" TEXT="cd /subsystem=messaging/hornetq-server=default/jms-queue/[queue name]"/>
 <node COLOR="#111111" CREATED="1379526672565" ID="ID_1114112932" MODIFIED="1379526678128" TEXT="Dump contents of queue">
 <node COLOR="#111111" CREATED="1379526680064" ID="ID_1005111846" MODIFIED="1379526689746" TEXT=":list-messages-as-json"/>
 </node>
@@ -326,8 +326,7 @@
       &lt;/system-properties&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>

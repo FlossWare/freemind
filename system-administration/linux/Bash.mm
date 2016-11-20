@@ -206,8 +206,23 @@
       done
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1479580589174" ID="ID_915368128" MODIFIED="1479580599755" POSITION="right" TEXT="Stop history">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1479580610407" ID="ID_86220407" MODIFIED="1479580612828" TEXT="https://linuxconfig.org/how-to-disable-bash-shell-commands-history-on-linux">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1479580624384" ID="ID_540791984" MODIFIED="1479580625557" TEXT="echo &apos;set +o history&apos; &gt;&gt; ~/.bashrc">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1479580641640" ID="ID_846402834" MODIFIED="1479580642684" TEXT="echo &apos;set +o history&apos; &gt;&gt; /etc/profile">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
