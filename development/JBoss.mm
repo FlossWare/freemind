@@ -341,6 +341,14 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1481819759390" ID="ID_1875215219" MODIFIED="1481819761370" TEXT="jcliff">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1481819750010" ID="ID_475059328" MODIFIED="1481819762321" TEXT="/usr/bin/jcliff --cli=/usr/share/jbossas/bin/jboss-cli.sh --controller=10.7.25.116:9999 -v --output=/var/log/jcliff/jbosscfg.log /etc/redhat/eap6/*.conf">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1374079081932" ID="ID_1282432085" MODIFIED="1449067840471" POSITION="left" TEXT="logging">
 <edge STYLE="sharp_bezier" WIDTH="8"/>

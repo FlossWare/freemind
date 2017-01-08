@@ -4,37 +4,17 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1380460663596" ID="ID_531272357" MODIFIED="1380460668512" POSITION="right" TEXT="Update distro">
+<node COLOR="#0033ff" CREATED="1483873475073" ID="ID_869571872" MODIFIED="1483873476909" POSITION="right" TEXT="Ansible">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1380460706304" ID="ID_740099822" MODIFIED="1380460748699" TEXT="Do upgrade">
+<node COLOR="#00b439" CREATED="1483873478301" ID="ID_695198102" MODIFIED="1483873480973" TEXT="Debian">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="full-1"/>
-<node COLOR="#990000" CREATED="1380460670408" ID="ID_972211382" MODIFIED="1466288435792" TEXT="apt-get update --allow-unauthenticated">
-<edge STYLE="bezier" WIDTH="thin"/>
+<node COLOR="#990000" CREATED="1483873487493" ID="ID_1968027866" MODIFIED="1483874411894" TEXT="apt-get install python-pip python-dev build-essential libssl-dev libffi-dev">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
 </node>
-<node COLOR="#990000" CREATED="1380460677344" ID="ID_1575525463" MODIFIED="1460310143392" TEXT="apt-get dist-upgrade">
-<edge STYLE="bezier" WIDTH="thin"/>
+<node COLOR="#990000" CREATED="1483873524057" ID="ID_288657889" MODIFIED="1483873533748" TEXT="pip install ansible">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-2"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1380460715386" ID="ID_901991609" MODIFIED="1380460750869" TEXT="Once upgraded">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="full-2"/>
-<node COLOR="#990000" CREATED="1380460689969" ID="ID_1731444154" MODIFIED="1380460737854" TEXT="apt-get update">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-<node COLOR="#990000" CREATED="1380460697481" ID="ID_1928943906" MODIFIED="1380460744487" TEXT="apt-get upgrade">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-2"/>
 </node>
 </node>
 </node>
@@ -176,6 +156,14 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1483872903793" ID="ID_1141472358" MODIFIED="1483872905769" POSITION="right" TEXT="pip">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1483872913593" ID="ID_719926372" MODIFIED="1483872922188" TEXT="apt-get install python-pip">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1416233634117" ID="ID_98572430" MODIFIED="1466429799680" POSITION="right" TEXT="sudo">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -255,6 +243,48 @@
 <node COLOR="#0033ff" CREATED="1461161870987" ID="ID_703675721" MODIFIED="1461161932743" POSITION="right" TEXT="mount -t cifs -o username=[user name],password=[password],workgroup=[work group] //[server]/[dir] [local dir base]/[sub dir]">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1483624890416" ID="ID_757043426" MODIFIED="1483624897040" POSITION="left" TEXT="Keys on apt-update">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1483624897712" ID="ID_415346414" MODIFIED="1483624902184" TEXT="apt-key adv --keyserver keyserver.ubuntu.com --recv-keys [keys]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1380460663596" ID="ID_531272357" MODIFIED="1380460668512" POSITION="left" TEXT="Update distro">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1380460706304" ID="ID_740099822" MODIFIED="1380460748699" TEXT="Do upgrade">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-1"/>
+<node COLOR="#990000" CREATED="1380460670408" ID="ID_972211382" MODIFIED="1466288435792" TEXT="apt-get update --allow-unauthenticated">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#990000" CREATED="1380460677344" ID="ID_1575525463" MODIFIED="1460310143392" TEXT="apt-get dist-upgrade">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1380460715386" ID="ID_901991609" MODIFIED="1380460750869" TEXT="Once upgraded">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-2"/>
+<node COLOR="#990000" CREATED="1380460689969" ID="ID_1731444154" MODIFIED="1380460737854" TEXT="apt-get update">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#990000" CREATED="1380460697481" ID="ID_1928943906" MODIFIED="1380460744487" TEXT="apt-get upgrade">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+</node>
+</node>
 </node>
 </node>
 </map>
