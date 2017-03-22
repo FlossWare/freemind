@@ -10,11 +10,17 @@
 <node COLOR="#00b439" CREATED="1483873478301" ID="ID_695198102" MODIFIED="1483873480973" TEXT="Debian">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1483873487493" ID="ID_1968027866" MODIFIED="1483874411894" TEXT="apt-get install python-pip python-dev build-essential libssl-dev libffi-dev">
+<node COLOR="#990000" CREATED="1483873487493" ID="ID_1968027866" MODIFIED="1483877757204" TEXT="apt-get install python-pip python-dev build-essential libssl-dev libffi-dev">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
 </node>
-<node COLOR="#990000" CREATED="1483873524057" ID="ID_288657889" MODIFIED="1483873533748" TEXT="pip install ansible">
+<node COLOR="#990000" CREATED="1483873524057" ID="ID_288657889" MODIFIED="1483877758763" TEXT="pip install ansible">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#990000" CREATED="1483877753434" ID="ID_77318510" MODIFIED="1483877765520" TEXT="pip install --upgrade ansible setuptools">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-3"/>
 </node>
 </node>
 </node>

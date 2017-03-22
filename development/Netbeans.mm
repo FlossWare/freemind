@@ -26,6 +26,14 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1490190521839" ID="ID_556344624" MODIFIED="1490190526198" POSITION="right" TEXT="Uninstall">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1490190528874" ID="ID_1060521117" MODIFIED="1490190540750" TEXT="$NETBEANS_HOME/uninstall.sh">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1362669879755" ID="ID_773209108" MODIFIED="1416756766109" POSITION="right" TEXT="Up memory">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

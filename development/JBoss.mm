@@ -349,6 +349,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1489518669671" ID="ID_1482871479" MODIFIED="1489518673171" TEXT="Total threads">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1489518681099" ID="ID_1797146577" MODIFIED="1489518683030" TEXT="/etc/security/limits.conf">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1374079081932" ID="ID_1282432085" MODIFIED="1449067840471" POSITION="left" TEXT="logging">
 <edge STYLE="sharp_bezier" WIDTH="8"/>

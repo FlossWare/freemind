@@ -255,6 +255,18 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1484681899092" ID="ID_768965710" MODIFIED="1484681901340" POSITION="right" TEXT="patch">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1484681906864" ID="ID_104057482" MODIFIED="1484681908856" TEXT="git format-patch HEAD~~ ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1484681916524" ID="ID_1322579165" MODIFIED="1484681923367" TEXT="git format-patch [hash]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1423080939200" ID="ID_852902343" MODIFIED="1423080941464" POSITION="right" TEXT="describe">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
