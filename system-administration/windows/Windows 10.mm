@@ -49,5 +49,28 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1493467199810" ID="ID_447044869" MODIFIED="1493467202274" POSITION="right" TEXT="Outlook">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1493467209784" ID="ID_1125981589" MODIFIED="1493467220169" TEXT="Emails missing locally but @ hotmail">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1493467239922" ID="ID_1999419740" MODIFIED="1493467286463" TEXT="gear icon">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#990000" CREATED="1493467256825" ID="ID_464838191" MODIFIED="1493467288279" TEXT="reading">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#990000" CREATED="1493467269885" ID="ID_443855393" MODIFIED="1493467291277" TEXT="Sort messages into focused other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-3"/>
+<node COLOR="#111111" CREATED="1493467282322" ID="ID_703773585" MODIFIED="1493467297149" TEXT="off">
+<icon BUILTIN="full-4"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </map>

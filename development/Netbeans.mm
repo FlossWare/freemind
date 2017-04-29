@@ -80,6 +80,20 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1491576304108" ID="ID_1729290682" MODIFIED="1491576308811" POSITION="right" TEXT="Editor">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1491576309519" ID="ID_1928098861" MODIFIED="1491576340779" TEXT="Return to last place after going to declaration">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1491576319131" ID="ID_1399554097" MODIFIED="1491576319915" TEXT="http://stackoverflow.com/questions/6403375/netbeans-shortcut-for-returning-to-previous-position-after-invoking-go-to-dec">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1491576320588" ID="ID_962884784" MODIFIED="1491576328787" TEXT="alt + left-arrow">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1416756787334" ID="ID_55458901" MODIFIED="1416756791765" POSITION="right" TEXT="JRebel">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

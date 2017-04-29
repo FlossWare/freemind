@@ -4,19 +4,19 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<node COLOR="#0033ff" CREATED="1449164930024" ID="ID_1595391666" LINK="Windows%2010.mm" MODIFIED="1492348708823" POSITION="right" TEXT="Windows 10">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1388759820088" ID="ID_561429259" LINK="Windows%208.mm" MODIFIED="1388759820097" POSITION="right" TEXT="Windows 8">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
-<node COLOR="#0033ff" CREATED="1449164930024" ID="ID_1595391666" LINK="Windows%2010.mm" MODIFIED="1449164930025" POSITION="right" TEXT="Windows 10">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-</node>
-<node COLOR="#0033ff" CREATED="1269953067286" ID="ID_133343616" LINK="xp/XP.mm" MODIFIED="1288889582545" POSITION="right" TEXT="XP">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-</node>
 <node COLOR="#0033ff" CREATED="1269099168529" ID="ID_909628770" LINK="vista/Vista.mm" MODIFIED="1288889606648" POSITION="right" TEXT="Vista">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1269953067286" ID="ID_133343616" LINK="xp/XP.mm" MODIFIED="1492348706968" POSITION="right" TEXT="XP">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
