@@ -139,7 +139,7 @@
 <node COLOR="#0033ff" CREATED="1471617562951" ID="ID_845648843" LINK="https://access.redhat.com/documentation/en-US/JBoss_Enterprise_Web_Platform/5/html/Installation_Guide/sect-use_alternatives_to_set_default_JDK.html" MODIFIED="1471617670587" POSITION="right" TEXT="Change java version">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1471617567543" ID="ID_1748943131" MODIFIED="1471617569648" TEXT="/usr/sbin/alternatives --config java">
+<node COLOR="#00b439" CREATED="1471617567543" ID="ID_1748943131" MODIFIED="1498847265270" TEXT="/usr/sbin/alternatives --config java">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

@@ -70,6 +70,18 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1495900208446" ID="ID_853121286" MODIFIED="1495900210810" POSITION="right" TEXT="boot types">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1495900184799" ID="ID_1121744764" MODIFIED="1495900213755" TEXT="systemctl set-default multi-user.target">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1495900205722" ID="ID_894946954" MODIFIED="1495900213755" TEXT="systemctl set-default graphical.target">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1411049332566" ID="ID_253525469" MODIFIED="1449156256738" POSITION="right" TEXT="yum">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -160,6 +172,18 @@
 <node COLOR="#990000" CREATED="1454334863705" ID="ID_1638367117" MODIFIED="1454334870605" TEXT="rpm -ql [package name]">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1498919559341" ID="ID_349235874" MODIFIED="1498919560968" POSITION="right" TEXT="entropy">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1498919564573" ID="ID_1728014337" MODIFIED="1498919566801" TEXT="http://randomzucchini.blogspot.com/2014/09/linux-centos-7-increasing-available.html">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1498919575653" ID="ID_1358154530" MODIFIED="1498919578452" TEXT="/proc/sys/kernel/random/entropy_avail">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1421503207892" ID="ID_71621550" LINK="RHEL.mm" MODIFIED="1421503419913" POSITION="left" TEXT="RHEL">

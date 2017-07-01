@@ -62,7 +62,7 @@
 <node COLOR="#0033ff" CREATED="1489238448689" ID="ID_830008068" MODIFIED="1489238467217" POSITION="right" TEXT="Create project">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1489238470260" ID="ID_1992977939" MODIFIED="1489238494682" TEXT="mvn archetype:generate -DgroupId=[group id] -DartifactId=[artifact id] -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false">
+<node COLOR="#00b439" CREATED="1489238470260" ID="ID_1992977939" MODIFIED="1497278006976" TEXT="mvn archetype:generate -DgroupId=[group id] -DartifactId=[artifact id] -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1489238460356" ID="ID_1132907279" MODIFIED="1489238497422" TEXT="mvn archetype:generate -DgroupId=com.redhat -DartifactId=new-easy-sfdc -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false">
