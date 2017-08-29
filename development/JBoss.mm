@@ -4,7 +4,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1374079067843" ID="ID_1288905990" MODIFIED="1374079070085" POSITION="left" TEXT="EAP 4.3">
+<node COLOR="#0033ff" CREATED="1374079067843" FOLDED="true" ID="ID_1288905990" MODIFIED="1500470097782" POSITION="left" TEXT="EAP 4.3">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1333546092010" ID="ID_1498739845" MODIFIED="1374079073911" TEXT="JMX">

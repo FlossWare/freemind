@@ -66,6 +66,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1500141070348" ID="ID_1846303635" LINK="linux/Cobbler.mm" MODIFIED="1500141094681" TEXT="Cobbler">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 <node COLOR="#00b439" CREATED="1420896787693" ID="ID_708939460" LINK="Docker.mm" MODIFIED="1425994667126" TEXT="Docker">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

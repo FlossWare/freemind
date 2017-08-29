@@ -275,6 +275,21 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1503969822828" ID="ID_1317496824" MODIFIED="1503969831192" TEXT="RAM disk">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1503969835829" ID="ID_934827370" MODIFIED="1503969837884" TEXT="https://www.jamescoyle.net/how-to/943-create-a-ram-disk-in-linux">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1503969847344" ID="ID_223696141" MODIFIED="1503969864701" TEXT="mkdir /mnt/ramdisk">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#990000" CREATED="1503969854452" ID="ID_1195746637" MODIFIED="1503969867250" TEXT="mount -t tmpfs -o size=512m tmpfs /mnt/ramdisk">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1380632938152" FOLDED="true" ID="ID_1342641388" MODIFIED="1417366818375" TEXT="rsync">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -322,7 +337,7 @@
 <node COLOR="#990000" CREATED="1416233637048" ID="ID_490201756" MODIFIED="1416757419910" TEXT="visudo">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1416233664904" ID="ID_726467903" MODIFIED="1452777528699">
+<node COLOR="#111111" CREATED="1416233664904" ID="ID_726467903" MODIFIED="1502307319178">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -338,7 +353,7 @@
       
     </p>
     <p>
-      ALL&#160;&#160;&#160;&#160;&#160;ALL=(ALL)&#160;&#160;&#160;&#160;&#160;&#160;&#160;NOPASSWD: ALL
+      ALL&#160;&#160;&#160;&#160;&#160;ALL=(ALL)&#160;&#160;&#160;&#160;&#160;&#160;&#160;NOPASSWD:ALL
     </p>
   </body>
 </html></richcontent>

@@ -519,6 +519,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1500914656618" ID="ID_1218957597" MODIFIED="1500914667634" TEXT="Start fusion for a group">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1500914648386" ID="ID_1657023086" MODIFIED="1500914679070" TEXT="sudo ansible -k -m shell -a &apos;/opt/fusion/bin/fusion start&apos; [group]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1467386673403" ID="ID_1196782062" MODIFIED="1467386696485" TEXT="Local playbooks">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

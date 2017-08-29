@@ -24,6 +24,90 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1369758180382" ID="ID_1666935281" MODIFIED="1503778801619" POSITION="right" TEXT="Cobbler">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1369758206781" ID="ID_502428480" MODIFIED="1369758210999" TEXT="apt-get">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1369758284135" ID="ID_856591578" MODIFIED="1369762047282">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      apache2
+    </p>
+    <p>
+      apache2-utils
+    </p>
+    <p>
+      libapache2-mod-wsgi
+    </p>
+    <p>
+      libapache2-mod-rpaf
+    </p>
+    <p>
+      libapache2-mod-proxy-html
+    </p>
+    <p>
+      libapache2-mod-wsgi-py3
+    </p>
+    <p>
+      libapache2-mod-python
+    </p>
+    <p>
+      python-devel
+    </p>
+    <p>
+      python-setuptools
+    </p>
+    <p>
+      python-cheetah
+    </p>
+    <p>
+      python-dev
+    </p>
+    <p>
+      python-setuptools
+    </p>
+    <p>
+      python-cheetah
+    </p>
+    <p>
+      python-yaml
+    </p>
+    <p>
+      python-netaddr
+    </p>
+    <p>
+      python-simplejson
+    </p>
+    <p>
+      python-simplejson
+    </p>
+    <p>
+      python-urlgrabber
+    </p>
+    <p>
+      python-support
+    </p>
+    <p>
+      lsb-release
+    </p>
+    <p>
+      create-repo
+    </p>
+    <p>
+      yum
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1380463753953" ID="ID_1277401019" MODIFIED="1380463758536" POSITION="right" TEXT="Set Timezone">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

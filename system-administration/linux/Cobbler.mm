@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1295104454850" ID="ID_1224862914" LINK="Linux.mm" MODIFIED="1295104577174" TEXT="Cobbler">
+<node COLOR="#000000" CREATED="1295104454850" ID="ID_1224862914" LINK="../System%20Administration.mm" MODIFIED="1500141116785" TEXT="Cobbler">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
@@ -552,90 +552,6 @@
 <node COLOR="#00b439" CREATED="1433770217470" ID="ID_1762710290" MODIFIED="1433770219444" TEXT="syslinux-tftpboot">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1369758180382" FOLDED="true" ID="ID_1666935281" MODIFIED="1449959253674" POSITION="left" TEXT="Debian">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1369758206781" ID="ID_502428480" MODIFIED="1369758210999" TEXT="apt-get">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1369758284135" ID="ID_856591578" MODIFIED="1369762047282">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      apache2
-    </p>
-    <p>
-      apache2-utils
-    </p>
-    <p>
-      libapache2-mod-wsgi
-    </p>
-    <p>
-      libapache2-mod-rpaf
-    </p>
-    <p>
-      libapache2-mod-proxy-html
-    </p>
-    <p>
-      libapache2-mod-wsgi-py3
-    </p>
-    <p>
-      libapache2-mod-python
-    </p>
-    <p>
-      python-devel
-    </p>
-    <p>
-      python-setuptools
-    </p>
-    <p>
-      python-cheetah
-    </p>
-    <p>
-      python-dev
-    </p>
-    <p>
-      python-setuptools
-    </p>
-    <p>
-      python-cheetah
-    </p>
-    <p>
-      python-yaml
-    </p>
-    <p>
-      python-netaddr
-    </p>
-    <p>
-      python-simplejson
-    </p>
-    <p>
-      python-simplejson
-    </p>
-    <p>
-      python-urlgrabber
-    </p>
-    <p>
-      python-support
-    </p>
-    <p>
-      lsb-release
-    </p>
-    <p>
-      create-repo
-    </p>
-    <p>
-      yum
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 </node>
 </node>
 </node>

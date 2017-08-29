@@ -29,6 +29,26 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+<node COLOR="#990000" CREATED="1500082400800" ID="ID_1347821304" MODIFIED="1500082454320" TEXT="Arbitrary jar">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1500082409476" ID="ID_1104108448" MODIFIED="1500082454321" TEXT="mvn clean install exec:java -Dexec.classpathScope=&quot;compile&quot; -Dexec.mainClass=[FQ_classname]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1499621896651" ID="ID_189857500" MODIFIED="1499621899445" POSITION="right" TEXT="Memory">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1499621900250" ID="ID_1843127375" MODIFIED="1499621918697" TEXT="export MAVEN_OPTS=&quot;-Xmx[memory] -Xms[memory]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1499621900250" ID="ID_44369883" MODIFIED="1499621938193" TEXT="export MAVEN_OPTS=&quot;-Xmx8192m -Xms8192m">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1342033371832" ID="ID_904609159" MODIFIED="1342033374830" POSITION="right" TEXT="Dependency tree">
