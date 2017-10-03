@@ -447,6 +447,14 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1506537397677" ID="ID_1342173941" MODIFIED="1506537402689" POSITION="right" TEXT="List contents of .so">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1506537409857" ID="ID_1911740013" MODIFIED="1506537416593" TEXT="objdump -TC [.so file name]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1416757565899" ID="ID_1717868975" MODIFIED="1416757568363" POSITION="left" TEXT="Detail">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

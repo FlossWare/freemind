@@ -314,6 +314,28 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1505051532367" ID="ID_1811200829" MODIFIED="1505051535618" POSITION="right" TEXT="ssh">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1505051536698" ID="ID_388021955" MODIFIED="1505051548202" TEXT="Enable SSH root login on Debian Linux Server">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1505051549478" ID="ID_1674891140" MODIFIED="1505051554770" TEXT="https://linuxconfig.org/enable-ssh-root-login-on-debian-linux-server">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1505051555695" ID="ID_1540829351" MODIFIED="1505051578496" TEXT="/etc/ssh/sshd_config">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1505051586394" ID="ID_175953843" MODIFIED="1505051620014" TEXT="Change">
+<icon BUILTIN="full-1"/>
+<node COLOR="#111111" CREATED="1505051594610" ID="ID_1500166755" MODIFIED="1505051596962" TEXT="PermitRootLogin without-password"/>
+<node COLOR="#111111" CREATED="1505051597527" ID="ID_382941860" MODIFIED="1505051603515" TEXT="PermitRootLogin yes"/>
+</node>
+<node COLOR="#111111" CREATED="1505051613598" ID="ID_307422362" MODIFIED="1505051621939" TEXT="/etc/init.d/ssh restart">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1460319499954" ID="ID_969260195" MODIFIED="1460319511200" POSITION="right" TEXT="no public keys">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

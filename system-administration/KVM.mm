@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1469457669691" ID="ID_1266535114" LINK="System%20Administration.mm" MODIFIED="1469457684543" TEXT="KVM">
+<node COLOR="#000000" CREATED="1469457669691" ID="ID_1266535114" LINK="System%20Administration.mm" MODIFIED="1505494275379" TEXT="KVM">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
@@ -61,8 +61,7 @@
       rm /var/lib/libvirt/images/vm.qcow2
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
@@ -89,8 +88,7 @@
       virsh start vm
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>

@@ -71,7 +71,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1387899637196" ID="ID_951477651" MODIFIED="1387899643697" POSITION="left" TEXT="Building toolchain">
+<node COLOR="#0033ff" CREATED="1387899637196" FOLDED="true" ID="ID_951477651" MODIFIED="1507036658489" POSITION="left" TEXT="Building toolchain">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1388514407084" ID="ID_1518941294" MODIFIED="1388514408994" TEXT="Misc">
@@ -281,6 +281,10 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+</node>
+<node COLOR="#0033ff" CREATED="1507036690457" ID="ID_59675579" LINK="entware-ng.mm" MODIFIED="1507036690459" POSITION="right" TEXT="entware-ng">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
 </node>
 </node>
 </map>

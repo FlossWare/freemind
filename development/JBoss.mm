@@ -347,6 +347,65 @@
 <node COLOR="#990000" CREATED="1481819750010" ID="ID_475059328" MODIFIED="1481819762321" TEXT="/usr/bin/jcliff --cli=/usr/share/jbossas/bin/jboss-cli.sh --controller=10.7.25.116:9999 -v --output=/var/log/jcliff/jbosscfg.log /etc/redhat/eap6/*.conf">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1506517382135" ID="ID_186383897" MODIFIED="1506517390002" TEXT="jboss cmd line">
+<node COLOR="#111111" CREATED="1506517390957" ID="ID_1637238023" MODIFIED="1506517536951">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cd subsystem=<b><i>ejb3</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1506517407833" ID="ID_1322067046" MODIFIED="1506517484950" TEXT="ls">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1506517437109" ID="ID_68223336" MODIFIED="1506517545522">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>default-resource-adapter-name</i></b>=foo
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1506517489041" ID="ID_1922828115" MODIFIED="1506517557707">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;<b><i>ejb3</i></b>&quot; =&gt; {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;<b><i>default-resource-adapter-name</i></b>&quot; =&gt; &quot;activemq-rar.rar&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1489518669671" ID="ID_1482871479" MODIFIED="1489518673171" TEXT="Total threads">
