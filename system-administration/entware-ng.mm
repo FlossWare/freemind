@@ -31,8 +31,7 @@
       /bin/mount -o bind /opt/var/spool/mail /tmp/var/spool/mail
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -54,6 +53,14 @@
 <node COLOR="#111111" CREATED="1507477639341" ID="ID_1181982514" MODIFIED="1507477644551" TEXT="smtpd -vvvv"/>
 </node>
 </node>
+</node>
+<node COLOR="#00b439" CREATED="1508418912327" ID="ID_581578090" MODIFIED="1508418915092" TEXT="adduser postfix">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1508418915332" ID="ID_48090096" MODIFIED="1508418920684" TEXT="addgroup postdrop">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1507399671605" ID="ID_1150875744" MODIFIED="1507399673713" POSITION="right" TEXT="dovecot">
@@ -172,8 +179,7 @@
       cpan&gt; install XML::Parser
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -190,8 +196,7 @@
       reload cpan
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -244,8 +249,7 @@
       ALL ALL=(ALL) NOPASSWD: ALL
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-2"/>

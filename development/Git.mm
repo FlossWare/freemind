@@ -266,6 +266,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1508240944660" ID="ID_75756288" MODIFIED="1508240960435" TEXT="git am --signoff &lt; [path file name].patch">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1423080939200" ID="ID_852902343" MODIFIED="1423080941464" POSITION="right" TEXT="describe">
 <edge STYLE="sharp_bezier" WIDTH="8"/>

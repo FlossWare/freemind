@@ -455,6 +455,133 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1508420676311" ID="ID_641899531" MODIFIED="1508420687574" POSITION="right" TEXT="Disable auto volume">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1508420688102" ID="ID_1337521446" MODIFIED="1508420690289" TEXT="https://nzeid.net/pulseaudio-disable-auto-volume">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1508420776953" ID="ID_1614516384" MODIFIED="1508420888065" TEXT="Change config using either">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-1"/>
+<node COLOR="#990000" CREATED="1508420814860" ID="ID_1408045759" MODIFIED="1508420878678" TEXT="Perl way">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="yes"/>
+<node COLOR="#111111" CREATED="1508420787185" ID="ID_943394407" MODIFIED="1508420819519">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sudo cp -vR /usr/share/pulseaudio/alsa-mixer/paths /usr/share/pulseaudio/alsa-mixer/paths_backup
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      sudo perl -pi -0 -e 's/(\[[A-Za-z ]*Mic Boost\][A-Za-z._=\s-]+volume *= *)merge/\1zero/g;' /usr/share/pulseaudio/alsa-mixer/paths/*
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      sudo diff -r -C 5 /usr/share/pulseaudio/alsa-mixer/paths_backup /usr/share/pulseaudio/alsa-mixer/paths
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1508420820700" ID="ID_410210147" MODIFIED="1508420825840" TEXT="Manual">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1508420826408" ID="ID_102365429" MODIFIED="1508420847778">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-dock-mic.conf
+    </p>
+    <p>
+      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-front-mic.conf
+    </p>
+    <p>
+      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-headphone-mic.conf
+    </p>
+    <p>
+      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-headset-mic.conf
+    </p>
+    <p>
+      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic-always.conf
+    </p>
+    <p>
+      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic.conf
+    </p>
+    <p>
+      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-mic.conf
+    </p>
+    <p>
+      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-rear-mic.conf
+    </p>
+  </body>
+</html></richcontent>
+<node COLOR="#111111" CREATED="1508420854812" ID="ID_925072957" MODIFIED="1508420858444" TEXT="Under [Element Internal Mic Boost] set volume  to zero. This includes any variations like [Element Dock Mic Boost]. "/>
+<node COLOR="#111111" CREATED="1508420862103" ID="ID_1903463415" MODIFIED="1508420863908" TEXT="Under [Element Int Mic Boost] set volume  to zero."/>
+<node COLOR="#111111" CREATED="1508420868820" ID="ID_492567958" MODIFIED="1508420870951" TEXT="Under [Element Mic Boost] set volume  to zero.  "/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1508420970664" ID="ID_136818934" MODIFIED="1508420976225" TEXT="Restart computer">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#00b439" CREATED="1508420914109" ID="ID_821667380" MODIFIED="1508420983965" TEXT="/etc/pulse/default.pa">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-3"/>
+<node COLOR="#990000" CREATED="1508420930344" ID="ID_1432823557" MODIFIED="1508420935344">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Comment out:
+    </p>
+    <p>
+      # load-module module-device-restore
+    </p>
+    <p>
+      # load-module module-stream-restore
+    </p>
+    <p>
+      # load-module module-card-restore
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1508420941144" ID="ID_521779472" MODIFIED="1508420985660" TEXT="sudo alsamixer">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-4"/>
+<node COLOR="#990000" CREATED="1508420998452" ID="ID_187976413" MODIFIED="1508421000505" TEXT="set all devices to your liking">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1508420944492" ID="ID_510533120" MODIFIED="1508420987280" TEXT="sudo alsactl store">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-5"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1416757565899" ID="ID_1717868975" MODIFIED="1416757568363" POSITION="left" TEXT="Detail">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

@@ -358,8 +358,7 @@
       cd subsystem=<b><i>ejb3</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
 </node>
@@ -376,8 +375,7 @@
       <b><i>default-resource-adapter-name</i></b>=foo
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-3"/>
 </node>
 </node>
@@ -403,8 +401,14 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1507746890633" ID="ID_551433950" MODIFIED="1507746893006" TEXT="To configure">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1507746893587" ID="ID_627650552" MODIFIED="1507746896038" TEXT="/subsystem=resource-adapters:read-resource(recursive=true)">
+<node COLOR="#111111" CREATED="1507746906006" ID="ID_1205611436" MODIFIED="1507746918215" TEXT="take &quot;result&quot; element"/>
+<node COLOR="#111111" CREATED="1507746927787" ID="ID_1199377511" MODIFIED="1507746936591" TEXT="use that on template files"/>
 </node>
 </node>
 </node>

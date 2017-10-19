@@ -244,6 +244,95 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1508420111440" ID="ID_353936176" MODIFIED="1508420119307" POSITION="right" TEXT="Store properties to a property file">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1508420126287" ID="ID_468675304" MODIFIED="1508420128265" TEXT="https://stackoverflow.com/questions/3868310/how-can-i-change-a-properties-file-in-maven-depending-on-my-profile">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1508420129431" ID="ID_1147842334" MODIFIED="1508420286265">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;project&gt;
+    </p>
+    <p>
+      &#160;&#160;...
+    </p>
+    <p>
+      &#160;&#160;&lt;properties&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&lt;foo.bar&gt;This is some property&lt;/foo.bar&gt;
+    </p>
+    <p>
+      &#160;&#160;&lt;/properties&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&lt;build&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;resources&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&lt;resource&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;directory&gt;src/main/resources&lt;/directory&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;filtering&gt;true&lt;/filtering&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&lt;/resource&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;/resources&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;...
+    </p>
+    <p>
+      &#160;&#160;&lt;/build&gt;
+    </p>
+    <p>
+      &lt;/project&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1508420163232" ID="ID_1113875598" MODIFIED="1508420177447" TEXT="/src/main/resources/[some property file].properties">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1508420189928" ID="ID_1271758649" MODIFIED="1508420213386">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      myprop1 = somevalue
+    </p>
+    <p>
+      myprop2 = ${foo.bar}
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1416756874888" ID="ID_339276202" MODIFIED="1416756876740" POSITION="right" TEXT="JRebel">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

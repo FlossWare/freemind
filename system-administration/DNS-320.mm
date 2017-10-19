@@ -943,24 +943,24 @@
 <node COLOR="#00b439" CREATED="1470514511121" ID="ID_53703440" MODIFIED="1470514519858" TEXT="Installing">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1470514396726" ID="ID_981572516" MODIFIED="1470514519858" TEXT="apt-get-install">
+<node COLOR="#990000" CREATED="1507813403602" ID="ID_562959241" MODIFIED="1507813416848" TEXT="manual">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1470514360831" ID="ID_476070785" MODIFIED="1470514519858" TEXT="python-pip">
+<node COLOR="#111111" CREATED="1470514396726" ID="ID_981572516" MODIFIED="1507813412595" TEXT="apt-get-install">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1483873487493" ID="ID_1968027866" MODIFIED="1507813333114" TEXT="apt-get install python-pip python-dev build-essential libssl-dev libffi-dev">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
 </node>
-<node COLOR="#111111" CREATED="1470514370895" ID="ID_1601406824" MODIFIED="1470514519858" TEXT="python">
-<edge STYLE="bezier" WIDTH="thin"/>
+<node COLOR="#111111" CREATED="1483873524057" ID="ID_288657889" MODIFIED="1507813333115" TEXT="pip install ansible">
 <font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-2"/>
 </node>
-<node COLOR="#111111" CREATED="1470514383598" ID="ID_1247073088" MODIFIED="1470514519859" TEXT="python-dev">
-<edge STYLE="bezier" WIDTH="thin"/>
+<node COLOR="#111111" CREATED="1483877753434" ID="ID_77318510" MODIFIED="1507813333115" TEXT="pip install --upgrade ansible setuptools">
 <font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-3"/>
 </node>
-<node COLOR="#111111" CREATED="1470514391954" ID="ID_1264419881" MODIFIED="1470514519859" TEXT="libffi-dev">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1470514435566" ID="ID_1193799302" MODIFIED="1470514519859" TEXT="/etc/fstab">
@@ -988,6 +988,91 @@
 <node COLOR="#111111" CREATED="1470514559025" ID="ID_1624007575" MODIFIED="1470514588174" TEXT="OSError: [Errno 38] Function not implemented">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1369758180382" ID="ID_1666935281" MODIFIED="1503778801619" POSITION="left" TEXT="Cobbler">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1369758206781" ID="ID_502428480" MODIFIED="1369758210999" TEXT="apt-get">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1369758284135" ID="ID_856591578" MODIFIED="1507830075878">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      apache2
+    </p>
+    <p>
+      apache2-utils
+    </p>
+    <p>
+      libapache2-mod-wsgi
+    </p>
+    <p>
+      libapache2-mod-rpaf
+    </p>
+    <p>
+      libapache2-mod-proxy-html
+    </p>
+    <p>
+      libapache2-mod-wsgi-py3
+    </p>
+    <p>
+      libapache2-mod-python
+    </p>
+    <p>
+      python-setuptools
+    </p>
+    <p>
+      python-cheetah
+    </p>
+    <p>
+      python-dev
+    </p>
+    <p>
+      python-setuptools
+    </p>
+    <p>
+      python-cheetah
+    </p>
+    <p>
+      python-yaml
+    </p>
+    <p>
+      python-netaddr
+    </p>
+    <p>
+      python-simplejson
+    </p>
+    <p>
+      python-simplejson
+    </p>
+    <p>
+      python-urlgrabber
+    </p>
+    <p>
+      python-support
+    </p>
+    <p>
+      lsb-release
+    </p>
+    <p>
+      createrepo
+    </p>
+    <p>
+      yum
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1507921132280" ID="ID_1092335963" MODIFIED="1507921144089" TEXT="genisoimage">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>

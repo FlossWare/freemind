@@ -28,7 +28,11 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
-<node COLOR="#0033ff" CREATED="1461322027615" ID="ID_323381121" MODIFIED="1468504576001" POSITION="right" TEXT="FLUSH PRIVILEGES; ">
+<node COLOR="#0033ff" CREATED="1461322027615" ID="ID_323381121" MODIFIED="1507581984959" POSITION="right" TEXT="FLUSH PRIVILEGES; ">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1507583311821" ID="ID_1775996190" MODIFIED="1507583325700" POSITION="right" TEXT="SET PASSWORD FOR &apos;user&apos;@&apos;%&apos; = PASSWORD(&apos;password&apos;)">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
