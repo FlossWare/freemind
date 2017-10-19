@@ -294,5 +294,17 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1503359112652" ID="ID_638666056" MODIFIED="1508421391936" POSITION="left" TEXT="https://askubuntu.com/questions/69363/mount-single-partition-from-image-of-entire-disk-device">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1503359126361" ID="ID_1927262849" MODIFIED="1508421391937" TEXT="fdisk -lu sda.img">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1503359155984" ID="ID_403197778" MODIFIED="1508421391937" TEXT="mount -o offset=31457280 /home/sfloess/Downloads/Fedora-Minimal-armhfp-26-1.5-sda.raw /mnt/raw/">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>

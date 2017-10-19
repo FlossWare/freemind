@@ -54,11 +54,44 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1508418912327" ID="ID_581578090" MODIFIED="1508418915092" TEXT="adduser postfix">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1508418915332" ID="ID_48090096" MODIFIED="1508418920684" TEXT="addgroup postdrop">
+<node COLOR="#00b439" CREATED="1506780992485" ID="ID_698292887" MODIFIED="1508421282408">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      adduser postfix
+    </p>
+    <p>
+      addgroup postdrop
+    </p>
+    <p>
+      chown -R root /opt/var/spool/postfix
+    </p>
+    <p>
+      chown -R postfix /opt/var/lib/postfix
+    </p>
+    <p>
+      chgrp postdrop /opt/sbin/postqueue
+    </p>
+    <p>
+      chgrp postdrop /opt/sbin/postdrop
+    </p>
+    <p>
+      chgrp postdrop /opt/var/spool/postfix/public
+    </p>
+    <p>
+      chgrp postdrop /opt/var/spool/postfix/maildrop
+    </p>
+    <p>
+      chmod 777 /opt/sbin/postqueue
+    </p>
+    <p>
+      chmod 777 /opt/sbin/postdrop
+    </p>
+  </body>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -254,6 +287,10 @@
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-2"/>
 </node>
+</node>
+<node COLOR="#0033ff" CREATED="1506780980413" ID="ID_1838655090" MODIFIED="1508421282407" POSITION="left" TEXT="postfix dd-wrt">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
 </node>
 </node>
 </map>

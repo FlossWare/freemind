@@ -286,5 +286,9 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1508421334102" ID="ID_1166226396" LINK="optware-ng.mm" MODIFIED="1508421334104" POSITION="right" TEXT="optware-ng">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 </node>
 </map>
