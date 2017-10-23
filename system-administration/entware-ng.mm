@@ -54,7 +54,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1506780992485" ID="ID_698292887" MODIFIED="1508421282408">
+<node COLOR="#00b439" CREATED="1506780992485" ID="ID_698292887" MODIFIED="1508423013566">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -67,7 +67,7 @@
       addgroup postdrop
     </p>
     <p>
-      chown -R root /opt/var/spool/postfix
+      chown -R postfix&#160;/opt/var/spool/postfix
     </p>
     <p>
       chown -R postfix /opt/var/lib/postfix
@@ -91,7 +91,8 @@
       chmod 777 /opt/sbin/postdrop
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -163,6 +164,17 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#990000" CREATED="1507489285858" ID="ID_651287663" MODIFIED="1507489290221" TEXT="host all all 192.168.168.0/24 password ">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1508423661306" ID="ID_1409601052" MODIFIED="1508423664282" TEXT="adduser postgres">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1508423686166" ID="ID_20986059" MODIFIED="1508423691678" TEXT="/opt/var/pgsql">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1508423692262" ID="ID_446862889" MODIFIED="1508423787857" TEXT="contains actual db">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
