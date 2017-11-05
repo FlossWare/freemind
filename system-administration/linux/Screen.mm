@@ -42,18 +42,33 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1437226194399" ID="ID_1147651021" MODIFIED="1437226198995" POSITION="right" TEXT="Mouse wheel">
+<node COLOR="#0033ff" CREATED="1509854541044" ID="ID_818665247" MODIFIED="1509854542716" POSITION="right" TEXT="Mouse">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1437226199639" ID="ID_275436374" MODIFIED="1437226206171" TEXT="http://unix.stackexchange.com/questions/18006/can-mouse-wheel-scrolling-work-in-a-usr-bin-screen-session">
+<node COLOR="#00b439" CREATED="1437226194399" ID="ID_1147651021" MODIFIED="1509854550396" TEXT="wheel">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1437226206735" ID="ID_480580701" MODIFIED="1437226214355" TEXT="screenrc">
+<node COLOR="#990000" CREATED="1437226199639" ID="ID_275436374" MODIFIED="1509854545385" TEXT="http://unix.stackexchange.com/questions/18006/can-mouse-wheel-scrolling-work-in-a-usr-bin-screen-session">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1437226215639" ID="ID_1891384943" MODIFIED="1437226217995" TEXT="termcapinfo xterm* ti@:te@ ">
 <font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1437226206735" ID="ID_480580701" MODIFIED="1509854545385" TEXT="screenrc">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1437226215639" ID="ID_1891384943" MODIFIED="1509854545385" TEXT="termcapinfo xterm* ti@:te@ ">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1509854550980" ID="ID_450636864" MODIFIED="1509854555928" TEXT="split screen">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1509854591570" ID="ID_163334424" MODIFIED="1509854593920" TEXT="https://superuser.com/questions/629004/gnu-screen-change-focus-in-split-windows-with-mouse#767428">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1509854558657" ID="ID_677872683" MODIFIED="1509854575388" TEXT="screenrc">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1509854564297" ID="ID_358989156" MODIFIED="1509854566890" TEXT="mousetrack on"/>
 </node>
 </node>
 </node>

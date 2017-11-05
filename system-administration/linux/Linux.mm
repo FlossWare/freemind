@@ -290,12 +290,18 @@
 <icon BUILTIN="full-2"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1380632938152" FOLDED="true" ID="ID_1342641388" MODIFIED="1417366818375" TEXT="rsync">
+<node COLOR="#00b439" CREATED="1380632938152" ID="ID_1342641388" MODIFIED="1509465911025" TEXT="rsync">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1380632941195" ID="ID_1469336021" MODIFIED="1416757415980" TEXT="--chmod=a+rwx,g+rwx,o-wx">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1509465932173" ID="ID_143151275" MODIFIED="1509465937236" TEXT="Use different ssh port">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1509465913574" ID="ID_1573512188" MODIFIED="1509465939407" TEXT="-e &quot;ssh -p [port number]&quot;">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1424282496902" ID="ID_1867054112" MODIFIED="1424282498375" TEXT="selinux">
@@ -447,6 +453,216 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1509823179162" ID="ID_1556079271" MODIFIED="1509823181382" POSITION="right" TEXT="systemd">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1509823769307" ID="ID_651212842" MODIFIED="1509823771751" TEXT="Structure">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1499288718007" ID="ID_638950678" MODIFIED="1509823556568" TEXT="Type">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1499288720548" ID="ID_1316367369" MODIFIED="1499288723619" TEXT="simple"/>
+<node COLOR="#111111" CREATED="1499288723955" ID="ID_1475090222" MODIFIED="1499288725268" TEXT="forking"/>
+</node>
+<node COLOR="#990000" CREATED="1499288732024" ID="ID_1370516781" MODIFIED="1509823556569" TEXT="After">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1499288745267" ID="ID_764485600" MODIFIED="1499288746993" TEXT="network-online.target "/>
+<node COLOR="#111111" CREATED="1499288747919" ID="ID_1058867189" MODIFIED="1499288751891" TEXT="network.target"/>
+</node>
+<node COLOR="#990000" CREATED="1499288773924" ID="ID_1285745326" MODIFIED="1509823556569" TEXT="WantedBy">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1499288784628" ID="ID_1824769045" MODIFIED="1499288786619" TEXT="multi-user.target"/>
+<node COLOR="#111111" CREATED="1499288786940" ID="ID_455997696" MODIFIED="1499288790247" TEXT="default.target"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1509823215219" ID="ID_483293253" MODIFIED="1509823217462" TEXT="/usr/lib/systemd/system">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1509823303727" ID="ID_1010883322" MODIFIED="1509823401349">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [Unit]
+    </p>
+    <p>
+      Description=[service description]
+    </p>
+    <p>
+      After=network.target
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [Service]
+    </p>
+    <p>
+      Type=forking
+    </p>
+    <p>
+      PIDFile=[fully qualified path to pid dir]/[name].pid
+    </p>
+    <p>
+      WorkingDirectory=[working directory]
+    </p>
+    <p>
+      ExecStart=[path to start app] start
+    </p>
+    <p>
+      ExecStop=[path to stop&#160;app] stop
+    </p>
+    <p>
+      Restart=on-abort
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [Install]
+    </p>
+    <p>
+      WantedBy=multi-user.target
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1509823408323" ID="ID_1020364789" MODIFIED="1509823415054">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [Unit]
+    </p>
+    <p>
+      Description=Solr service
+    </p>
+    <p>
+      After=network.target
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [Service]
+    </p>
+    <p>
+      Type=forking
+    </p>
+    <p>
+      PIDFile=/root/fusion/2.4.1/var/solr/solr.pid
+    </p>
+    <p>
+      WorkingDirectory=/root/fusion/2.4.1/bin
+    </p>
+    <p>
+      ExecStart=/root/fusion/2.4.1/bin/fusion start
+    </p>
+    <p>
+      ExecStop=/root/fusion/2.4.1/bin/fusion stop
+    </p>
+    <p>
+      Restart=on-abort
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [Install]
+    </p>
+    <p>
+      WantedBy=multi-user.target
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1499288696876" ID="ID_1171986369" MODIFIED="1509823759488">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [Unit]
+    </p>
+    <p>
+      Description=ActiveMQ service
+    </p>
+    <p>
+      After=network-online.target
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [Service]
+    </p>
+    <p>
+      Type=forking
+    </p>
+    <p>
+      PIDFile=/var/run/activemq.pid
+    </p>
+    <p>
+      WorkingDirectory=/opt/activemq/bin
+    </p>
+    <p>
+      ExecStart=/opt/activemq/bin/activemq start
+    </p>
+    <p>
+      ExecStop=/opt/activemq/bin/activemq stop
+    </p>
+    <p>
+      Restart=on-abort
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [Install]
+    </p>
+    <p>
+      WantedBy=default.target
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1509823219266" ID="ID_1283027734" MODIFIED="1509823285802" TEXT="[name].service">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1283027734" ENDARROW="Default" ENDINCLINATION="368;0;" ID="Arrow_ID_1753414234" SOURCE="ID_228098186" STARTARROW="None" STARTINCLINATION="368;0;"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1509823249115" ID="ID_1419595694" MODIFIED="1509823425111" TEXT="/etc/systemd/system/multi-user.target.wants/">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1509823254199" ID="ID_228098186" MODIFIED="1509823285802" TEXT="ln -s /usr/lib/systemd/system/[name].service">
+<arrowlink DESTINATION="ID_1283027734" ENDARROW="Default" ENDINCLINATION="368;0;" ID="Arrow_ID_1753414234" STARTARROW="None" STARTINCLINATION="368;0;"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1499289869181" ID="ID_259259418" MODIFIED="1509823799970" TEXT="systemctl">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1499289846530" ID="ID_1467302955" MODIFIED="1509823825135" TEXT="systemctl enable [name].service">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1499289846530" ID="ID_1266549377" MODIFIED="1509823827286" TEXT="systemctl enable solr.service">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1499289864757" ID="ID_830270753" MODIFIED="1509823848491" TEXT="systemctl is-enabled [name].service ; echo $? ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1499289864757" ID="ID_218202615" MODIFIED="1509823838260" TEXT="systemctl is-enabled activemq.service ; echo $? ">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1506537397677" ID="ID_1342173941" MODIFIED="1506537402689" POSITION="right" TEXT="List contents of .so">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -563,8 +779,7 @@
       # load-module module-card-restore
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
