@@ -188,8 +188,7 @@
       export PS1=&quot;\n\[\033[0;37m\][\[\033[0;31m\]\u @ \h\[\033[0;37m\]] \`pwd\`&gt; \[\033[0m\]&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
@@ -250,6 +249,8 @@
 <node COLOR="#111111" CREATED="1509862513920" ID="ID_1584466342" MODIFIED="1509862516500" TEXT="git make python-dev python-setuptools python-cheetah openssl"/>
 <node COLOR="#111111" CREATED="1509863658436" ID="ID_1394148823" MODIFIED="1509863660577" TEXT="debmirror"/>
 <node COLOR="#111111" CREATED="1509868222559" ID="ID_1368513773" MODIFIED="1509868224721" TEXT="inetutils-inetd tftpd"/>
+<node COLOR="#111111" CREATED="1509929342014" ID="ID_518160332" MODIFIED="1509929343962" TEXT="isolinux"/>
+<node COLOR="#111111" CREATED="1509930914308" ID="ID_686130767" MODIFIED="1509930916550" TEXT="xorriso"/>
 </node>
 <node COLOR="#990000" CREATED="1509872072358" ID="ID_847187039" MODIFIED="1509872074737" TEXT="building">
 <font NAME="SansSerif" SIZE="14"/>
@@ -298,8 +299,41 @@
 <node COLOR="#111111" CREATED="1509869250000" ID="ID_445654786" MODIFIED="1509872135880" TEXT="cp /usr/lib/syslinux/modules/bios/ldlinux.c32 /usr/lib/syslinux/">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+<node COLOR="#111111" CREATED="1509930756812" ID="ID_212977779" MODIFIED="1509930764642" TEXT="cp /usr/lib/syslinux/modules/bios/chain.c32 /usr/lib/syslinux/"/>
 <node COLOR="#111111" CREATED="1509871684695" ID="ID_1518555890" MODIFIED="1509872135881" TEXT="mkdir /var/log/cobbler/tasks">
 <font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1509913689144" ID="ID_1539598351" MODIFIED="1509913731133" TEXT="ln -s /srv/www/cobbler/ks_mirror /srv/www/cobbler/distro_mirror"/>
+<node COLOR="#111111" CREATED="1509930690845" ID="ID_369427719" MODIFIED="1509930698264" TEXT="ln -s /usr/lib/ISOLINUX/isolinux.bin /usr/lib/syslinux/isolinux.bin">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1509932129324" ID="ID_1032529305" MODIFIED="1509932142670" TEXT="ln -s /usr/bin/genisoimage /usr/bin/mkisofs"/>
+<node COLOR="#111111" CREATED="1509934984064" ID="ID_356150738" MODIFIED="1509935011134" TEXT="/etc/apache2/apache2.conf">
+<node COLOR="#111111" CREATED="1509934986827" ID="ID_1333650027" MODIFIED="1509934997107">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;Directory /srv/&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Options Indexes FollowSymLinks
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;AllowOverride None
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Require all granted
+    </p>
+    <p>
+      &lt;/Directory&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1509872147472" ID="ID_901084368" MODIFIED="1509872165587" TEXT="run">
@@ -363,8 +397,7 @@
       &#160;&#160;&#160;&#160;raise Exception(&quot;field %s default value (%s) is not listed in choices (%s)&quot; % (name, default, str(choices)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
