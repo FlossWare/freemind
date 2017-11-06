@@ -335,6 +335,21 @@
 </richcontent>
 </node>
 </node>
+<node COLOR="#111111" CREATED="1509939004940" ID="ID_151261174" MODIFIED="1509939007543" TEXT="/etc/inetd.conf">
+<node COLOR="#111111" CREATED="1509939025219" ID="ID_1601202133" MODIFIED="1509939037133">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      tftp&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;dgram&#160;&#160;&#160;udp&#160;&#160;&#160;&#160;&#160;wait&#160;&#160;&#160;&#160;nobody&#160;&#160;/usr/sbin/tcpd&#160;&#160;/usr/sbin/in.tftpd <b><i>-s</i></b>&#160;/srv/tftp
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node COLOR="#990000" CREATED="1509872147472" ID="ID_901084368" MODIFIED="1509872165587" TEXT="run">
 <font NAME="SansSerif" SIZE="14"/>
