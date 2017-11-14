@@ -66,6 +66,34 @@
 <icon BUILTIN="yes"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1510088038036" ID="ID_1800929982" MODIFIED="1510088039196" POSITION="right" TEXT="plex">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1510088091900" ID="ID_1604038124" MODIFIED="1510088092756" TEXT="https://www.krenger.ch/blog/ansible-python2-yum-module-is-needed-for-this-module/">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1510088094940" ID="ID_1708765907" MODIFIED="1510088096508" TEXT="install">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1510088054596" ID="ID_1045281198" MODIFIED="1510088100555" TEXT="yum -y install python2-rpm">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1510088062192" ID="ID_1993692382" MODIFIED="1510088100556" TEXT="dnf install yum">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1510088161288" ID="ID_1251004723" MODIFIED="1510088163310" TEXT="service plexmediaserver start">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1510088149504" ID="ID_1799817184" MODIFIED="1510088151649" TEXT="chkconfig plexmediaserver on">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1449686779889" ID="ID_50212624" MODIFIED="1449686781748" POSITION="right" TEXT="FedUp">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

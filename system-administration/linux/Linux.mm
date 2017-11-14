@@ -26,7 +26,7 @@
 <node COLOR="#111111" CREATED="1413640023615" ID="ID_70690353" MODIFIED="1416757450585" TEXT="config file">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1413640039296" ID="ID_1054453541" MODIFIED="1413640100361" TEXT="[dir name]  [mount options]  [nfs server]">
-<node COLOR="#111111" CREATED="1413640585654" ID="ID_1964886547" MODIFIED="1413640605688" TEXT="media -rw,no_root_squash   fileserver:/mnt/HD/HD_a2/medi"/>
+<node COLOR="#111111" CREATED="1413640585654" ID="ID_1964886547" MODIFIED="1510513834761" TEXT="media -rw,no_root_squash   fileserver:/mnt/HD/HD_a2/media"/>
 </node>
 <node COLOR="#111111" CREATED="1413640103245" ID="ID_1076996986" MODIFIED="1413640112073" TEXT="[dir name]  [mount options]  [iso file] ">
 <node COLOR="#111111" CREATED="1413640610157" ID="ID_1684302122" MODIFIED="1413640651021" TEXT="centos-6.5-i386  -fstype=iso9660,ro,loop  :/home/CentOS-6.5-i386-bin-DVD1.iso"/>
@@ -885,7 +885,7 @@
 <node COLOR="#00b439" CREATED="1453122066649" ID="ID_451290113" MODIFIED="1453122068877" TEXT="squashfs">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1453122069813" ID="ID_1309924170" MODIFIED="1453122092157" TEXT="usquashfs -d [location] [squash img]">
+<node COLOR="#990000" CREATED="1453122069813" ID="ID_1309924170" MODIFIED="1510112730099" TEXT="usquashfs -d [location] [squash img]">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1453124698531" ID="ID_1696015521" MODIFIED="1453124765978" TEXT="unsquashfs -d `pwd`/CentOS /CentOS-7.1-Atomic-x86_64/LiveOS/squashfs.img"/>
 </node>
