@@ -306,6 +306,9 @@
 <node COLOR="#111111" CREATED="1449067904122" ID="ID_1898122464" MODIFIED="1449067906010" TEXT="/usr/share/jbossas/bin/jboss-cli.sh --connect --controller=localhost:9999 --command=:reload"/>
 <node COLOR="#111111" CREATED="1449067911566" ID="ID_1431319374" MODIFIED="1449067913834" TEXT="/usr/share/jbossas/bin/jboss-cli.sh --connect --controller=$(hostname):9999 --command=:reload"/>
 </node>
+<node COLOR="#990000" CREATED="1510936060217" ID="ID_1590275586" MODIFIED="1510936082992" TEXT="/subsystem=resource-adapters/resource-adapter=activemq-rar.rar:remove ">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1455375452578" ID="ID_1895657222" MODIFIED="1455375462069" TEXT="App startup timeout">
 <edge STYLE="bezier" WIDTH="thin"/>
