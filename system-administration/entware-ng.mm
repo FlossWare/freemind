@@ -91,8 +91,19 @@
       chmod 777 /opt/sbin/postdrop
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1511445044430" ID="ID_1787526345" MODIFIED="1511445046597" POSITION="right" TEXT="cron">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1511445081100" ID="ID_559067674" MODIFIED="1511445086104" TEXT="opkg install cron">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1511445051973" ID="ID_1213268934" MODIFIED="1511445054200" TEXT="mkdir -p /opt/var/spool/cron/crontabs">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

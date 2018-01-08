@@ -4,45 +4,38 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1380463753953" ID="ID_1277401019" MODIFIED="1380463758536" POSITION="right" TEXT="Set Timezone">
+<node COLOR="#0033ff" CREATED="1511531808409" ID="ID_1879892581" MODIFIED="1511531811093" POSITION="right" TEXT="KDE">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1380463767336" ID="ID_1910244695" MODIFIED="1380463769507" TEXT="dpkg-reconfigure tzdata">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1380463787569" ID="ID_1731773150" MODIFIED="1380463790354" POSITION="right" TEXT="Set Locale">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1380463795256" ID="ID_1003592737" MODIFIED="1380463813232" TEXT="apt-get install locales">
+<node COLOR="#00b439" CREATED="1511531838538" ID="ID_572175215" MODIFIED="1511531843292" TEXT="apt-get install aptitude tasksel">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-1"/>
 </node>
-<node COLOR="#00b439" CREATED="1380463803305" ID="ID_936269704" MODIFIED="1380463815478" TEXT="locale-gen en_US en_US.UTF-8">
+<node COLOR="#00b439" CREATED="1511531811793" ID="ID_1281331619" MODIFIED="1511531848794" TEXT="aptitude install ~t^desktop$ ~t^kde-desktop$">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-2"/>
 </node>
-<node COLOR="#00b439" CREATED="1380463808920" ID="ID_656726486" MODIFIED="1380463817786" TEXT="dpkg-reconfigure locales">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="full-3"/>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1461162124146" ID="ID_1390773543" MODIFIED="1461162126037" POSITION="right" TEXT="Set editor">
+<node COLOR="#0033ff" CREATED="1513721123771" ID="ID_1394032056" MODIFIED="1513721127399" POSITION="right" TEXT="vncserver">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1461162135374" ID="ID_1351152867" MODIFIED="1461162135375" TEXT="update-alternatives --config editor">
+<node COLOR="#00b439" CREATED="1513721144731" ID="ID_216834218" MODIFIED="1513721204410">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      vncserver <b><i>-localhost no</i></b>&#160;-geometry [geom] :[display]
+    </p>
+  </body>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1380463899026" ID="ID_831607622" MODIFIED="1380463902096" POSITION="right" TEXT="Reboot">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1380463903082" ID="ID_1597050899" MODIFIED="1380463904651" TEXT="reboot -f">
+<node COLOR="#00b439" CREATED="1513721206339" ID="ID_293205550" MODIFIED="1513862095828" TEXT="vncserver -localhost no -geometry 1280x1024 :1">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -83,6 +76,11 @@
 <node COLOR="#990000" CREATED="1472647460928" ID="ID_1544644425" MODIFIED="1472647462984" TEXT="apt-get install nfs-common">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+</node>
+<node COLOR="#00b439" CREATED="1514132202683" ID="ID_580213899" MODIFIED="1514135495204" TEXT="aptitude install module-init-tools kmod">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="help"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1466424370139" ID="ID_1638705182" MODIFIED="1466424397451" POSITION="right" TEXT="packages">
@@ -213,6 +211,21 @@
 <node COLOR="#0033ff" CREATED="1505051532367" ID="ID_1811200829" MODIFIED="1505051535618" POSITION="right" TEXT="ssh">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1511536389185" ID="ID_880355468" MODIFIED="1511536393117" TEXT="/dev/null is not a character device!">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1511536400142" ID="ID_748677610" MODIFIED="1511536400738" TEXT="http://linuxhostingsupport.net/blog/unable-to-start-ssh-devnull-is-not-a-character-device">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1511536406239" ID="ID_661235722" MODIFIED="1511536431711" TEXT="rm -f /dev/null">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#990000" CREATED="1511536418978" ID="ID_109604484" MODIFIED="1511536429859" TEXT="mknod /dev/null c 1 3">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1505051536698" ID="ID_388021955" MODIFIED="1505051548202" TEXT="Enable SSH root login on Debian Linux Server">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -248,51 +261,162 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
-<node COLOR="#0033ff" CREATED="1461161870987" ID="ID_703675721" MODIFIED="1461161932743" POSITION="right" TEXT="mount -t cifs -o username=[user name],password=[password],workgroup=[work group] //[server]/[dir] [local dir base]/[sub dir]">
+<node COLOR="#0033ff" CREATED="1380463899026" ID="ID_831607622" MODIFIED="1511531795646" POSITION="left" TEXT="Reboot">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-</node>
-<node COLOR="#0033ff" CREATED="1483624890416" ID="ID_757043426" MODIFIED="1483624897040" POSITION="left" TEXT="Keys on apt-update">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1483624897712" ID="ID_415346414" MODIFIED="1483624902184" TEXT="apt-key adv --keyserver keyserver.ubuntu.com --recv-keys [keys]">
+<node COLOR="#00b439" CREATED="1380463903082" ID="ID_1597050899" MODIFIED="1380463904651" TEXT="reboot -f">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1380460663596" ID="ID_531272357" MODIFIED="1380460668512" POSITION="left" TEXT="Update distro">
+<node COLOR="#0033ff" CREATED="1514137907369" ID="ID_1594613518" MODIFIED="1514137909879" POSITION="left" TEXT="apt">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1380460706304" ID="ID_740099822" MODIFIED="1380460748699" TEXT="Do upgrade">
+<node COLOR="#00b439" CREATED="1483624890416" ID="ID_757043426" MODIFIED="1514137911966" TEXT="Keys on apt-update">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="full-1"/>
-<node COLOR="#990000" CREATED="1380460670408" ID="ID_972211382" MODIFIED="1466288435792" TEXT="apt-get update --allow-unauthenticated">
+<node COLOR="#990000" CREATED="1483624897712" ID="ID_415346414" MODIFIED="1514137911966" TEXT="apt-key adv --keyserver keyserver.ubuntu.com --recv-keys [keys]">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-<node COLOR="#990000" CREATED="1380460677344" ID="ID_1575525463" MODIFIED="1460310143392" TEXT="apt-get dist-upgrade">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-2"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1380460715386" ID="ID_901991609" MODIFIED="1380460750869" TEXT="Once upgraded">
+<node COLOR="#00b439" CREATED="1380460663596" ID="ID_531272357" MODIFIED="1514137913767" TEXT="Update distro">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1380460706304" ID="ID_740099822" MODIFIED="1514137913767" TEXT="Do upgrade">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+<node COLOR="#111111" CREATED="1380460670408" ID="ID_972211382" MODIFIED="1514137913768" TEXT="apt-get update --allow-unauthenticated">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1380460677344" ID="ID_1575525463" MODIFIED="1514137913768" TEXT="apt-get dist-upgrade">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
-<node COLOR="#990000" CREATED="1380460689969" ID="ID_1731444154" MODIFIED="1380460737854" TEXT="apt-get update">
+</node>
+</node>
+<node COLOR="#990000" CREATED="1380460715386" ID="ID_901991609" MODIFIED="1514137913768" TEXT="Once upgraded">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+<node COLOR="#111111" CREATED="1380460689969" ID="ID_1731444154" MODIFIED="1514137913769" TEXT="apt-get update">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1380460697481" ID="ID_1928943906" MODIFIED="1514137913769" TEXT="apt-get upgrade">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1514137917822" ID="ID_486118764" MODIFIED="1514991070069" TEXT="/etc/apt/sources.list">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1514137927925" ID="ID_1211964641" MODIFIED="1514137936226">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      deb http://ftp.us.debian.org/debian jessie&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;main contrib non-free
+    </p>
+    <p>
+      deb http://ftp.us.debian.org/debian jessie-backports&#160;&#160;main contrib non-free
+    </p>
+    <p>
+      deb http://ftp.us.debian.org/debian jessie-updates&#160;&#160;&#160;&#160;main contrib non-free
+    </p>
+    <p>
+      deb http://security.debian.org/&#160;&#160;&#160;&#160;&#160;jessie/updates&#160;&#160;&#160;&#160;main contrib non-free
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      deb http://ftp.us.debian.org/debian stretch&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;main contrib non-free
+    </p>
+    <p>
+      deb http://ftp.us.debian.org/debian stretch-backports main contrib non-free
+    </p>
+    <p>
+      deb http://ftp.us.debian.org/debian stretch-updates&#160;&#160;&#160;main contrib non-free
+    </p>
+    <p>
+      deb http://security.debian.org/&#160;&#160;&#160;&#160;&#160;stretch/updates&#160;&#160;&#160;main contrib non-free
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      deb https://pkg.jenkins.io/debian&#160;&#160;&#160;binary/
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      deb http://packages.linuxmint.com&#160;&#160;&#160;debian&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;import
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1515006639528" ID="ID_1087941170" MODIFIED="1515006657548" TEXT="Couldn&apos;t create temporary file /tmp/[name] for passing config to apt-key">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1515006658985" ID="ID_866769028" MODIFIED="1515006661724" TEXT="chmod 777 /tmp">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1511531761267" ID="ID_953426580" MODIFIED="1511531781072" POSITION="left" TEXT="Set">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1380463753953" ID="ID_1277401019" MODIFIED="1511531769609" TEXT="Timezone">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1380463767336" ID="ID_1910244695" MODIFIED="1511531766733" TEXT="dpkg-reconfigure tzdata">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1380463787569" ID="ID_1731773150" MODIFIED="1511531771657" TEXT="Local">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1380463795256" ID="ID_1003592737" MODIFIED="1511531766736" TEXT="apt-get install locales">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
-<node COLOR="#990000" CREATED="1380460697481" ID="ID_1928943906" MODIFIED="1380460744487" TEXT="apt-get upgrade">
+<node COLOR="#990000" CREATED="1380463803305" ID="ID_936269704" MODIFIED="1511531766736" TEXT="locale-gen en_US en_US.UTF-8">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-2"/>
 </node>
+<node COLOR="#990000" CREATED="1380463808920" ID="ID_656726486" MODIFIED="1511623046388" TEXT="dpkg-reconfigure locales">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-3"/>
 </node>
+</node>
+<node COLOR="#00b439" CREATED="1461162124146" ID="ID_1390773543" MODIFIED="1511531777693" TEXT="Editor">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1461162135374" ID="ID_1351152867" MODIFIED="1511531766740" TEXT="update-alternatives --config editor">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1461161870987" ID="ID_703675721" MODIFIED="1511531826403" POSITION="left" TEXT="mount -t cifs -o username=[user name],password=[password],workgroup=[work group] //[server]/[dir] [local dir base]/[sub dir]">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
 </node>
 <node COLOR="#0033ff" CREATED="1503359112652" ID="ID_638666056" MODIFIED="1508421391936" POSITION="left" TEXT="https://askubuntu.com/questions/69363/mount-single-partition-from-image-of-entire-disk-device">
 <edge STYLE="sharp_bezier" WIDTH="8"/>

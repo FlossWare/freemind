@@ -91,8 +91,7 @@
       curl -k -X POST http[s]://[username]:[api token]@[host]/jenkins/job/[job name]/buildWithParameters?[param1]=[val1]&amp;[param2]=[val2]&amp;...&amp;[paramN]=[valN]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
@@ -109,8 +108,39 @@
       curl -k -X POST http[s]://[username]:[api token]@[host]/jenkins/job/[job name]/buildWithParameters
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1512917063156" ID="ID_1852259640" MODIFIED="1512917065067" POSITION="right" TEXT="Jobs">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1512917080263" ID="ID_1654832533" MODIFIED="1512917081670" TEXT="https://www.sghill.net/how-do-i-backup-jenkins-jobs.html">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1512917054444" ID="ID_589957040" MODIFIED="1512917072330" TEXT="export">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1512917095167" ID="ID_738384771" MODIFIED="1512917103790" TEXT="http://localhost:8080/job/[job name]/config.xml">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512917068407" ID="ID_1520849234" MODIFIED="1512917072331" TEXT="import">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1512917115368" ID="ID_1280006828" MODIFIED="1512917126818" TEXT="POST to http://localhost:8080/job/[job name]/config.xml">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512927727581" ID="ID_434255507" MODIFIED="1512927729312" TEXT="Upload">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1512927750565" ID="ID_385785893" MODIFIED="1512927752049" TEXT="https://stackoverflow.com/questions/3007253/send-post-xml-file-using-curl-command-line">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512927742390" ID="ID_1962911297" MODIFIED="1512927799373" TEXT="curl -v -k -u &apos;[user]:[password]&apos; -X POST -H &apos;Content-Type: application/xml&apos; --data @[filename].xml &apos;[host]/createItem?name=[job name]&apos; ">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>

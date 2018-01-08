@@ -94,6 +94,17 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1514833187752" ID="ID_1061852911" MODIFIED="1514833192428" POSITION="right" TEXT="27">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1514833193097" ID="ID_235199082" MODIFIED="1514833194641" TEXT="KDE">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1514833210940" ID="ID_539128571" MODIFIED="1514833270396" TEXT="dnf groupinstall -y &apos;Basic Desktop&apos; &apos;KDE Plasma Workspaces&apos;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1449686779889" ID="ID_50212624" MODIFIED="1449686781748" POSITION="right" TEXT="FedUp">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

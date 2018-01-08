@@ -219,7 +219,7 @@
 <node COLOR="#990000" CREATED="1459777750261" ID="ID_1216660049" MODIFIED="1466348654727" TEXT="Commands">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1459777623387" ID="ID_857074963" MODIFIED="1466348654727" TEXT="lvextend -l +100%FREE  /dev/rhel/root">
+<node COLOR="#111111" CREATED="1459777623387" ID="ID_857074963" MODIFIED="1514670781321" TEXT="lvextend -l +100%FREE  /dev/rhel/root -r">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="12"/>
 </node>

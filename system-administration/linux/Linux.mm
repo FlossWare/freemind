@@ -6,7 +6,7 @@
 <node COLOR="#0033ff" CREATED="1416757402529" ID="ID_744161246" MODIFIED="1416757487128" POSITION="right" TEXT="Apps">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1397132234309" ID="ID_680823589" MODIFIED="1417700099687" TEXT="autofs">
+<node COLOR="#00b439" CREATED="1397132234309" FOLDED="true" ID="ID_680823589" MODIFIED="1512843344639" TEXT="autofs">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1397304252377" ID="ID_952784219" MODIFIED="1416757450584" TEXT="yum">
@@ -34,7 +34,15 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1416941608850" ID="ID_474739998" MODIFIED="1417700096844" TEXT="curl">
+<node COLOR="#00b439" CREATED="1511447567243" ID="ID_1576985779" MODIFIED="1511447569179" TEXT="cron">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1511447569910" ID="ID_186225612" MODIFIED="1511447574826" TEXT="contab [file]">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1511447576543" ID="ID_376987361" MODIFIED="1511447583374" TEXT="Store file as crontab"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1416941608850" FOLDED="true" ID="ID_474739998" MODIFIED="1512843346120" TEXT="curl">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1416941654710" ID="ID_1465815932" MODIFIED="1416941708146">
@@ -95,7 +103,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1417273376905" ID="ID_1264126532" MODIFIED="1460213272917" TEXT="Handbrake">
+<node COLOR="#00b439" CREATED="1417273376905" FOLDED="true" ID="ID_1264126532" MODIFIED="1512843341350" TEXT="Handbrake">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1417273406665" ID="ID_1840031309" MODIFIED="1417354059104" TEXT="https://handbrake.fr/downloads.php">
@@ -275,6 +283,29 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1512854732417" ID="ID_1888374883" MODIFIED="1512854738568" TEXT="Print process who called script">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1512854745148" ID="ID_947057799" MODIFIED="1512854745932" TEXT="https://stackoverflow.com/questions/12285387/is-there-a-way-to-print-the-pid-of-the-process-that-called-my-c-binary">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512854746764" ID="ID_860587567" MODIFIED="1512854766313">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CALLER=$(ps ax | grep &quot;^ *$PPID&quot; | awk '{print $NF}')
+    </p>
+    <p>
+      echo $CALLER
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1503969822828" ID="ID_1317496824" MODIFIED="1503969831192" TEXT="RAM disk">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -318,7 +349,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1503359155984" ID="ID_403197778" MODIFIED="1511309526912" TEXT="mount -o offset=31457280 /home/sfloess/Downloads/Fedora-Minimal-armhfp-26-1.5-sda.raw /mnt/raw/">
+<node COLOR="#111111" CREATED="1503359155984" ID="ID_403197778" MODIFIED="1511478777515" STYLE="fork" TEXT="mount -o offset=31457280 /home/sfloess/Downloads/Fedora-Minimal-armhfp-26-1.5-sda.raw /mnt/raw/">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
@@ -417,6 +448,30 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1511965331036" ID="ID_1088390602" MODIFIED="1511965332176" TEXT="USB">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1511965356665" ID="ID_1200944151" MODIFIED="1511965360220" TEXT="Links">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1511965337313" ID="ID_1557942437" MODIFIED="1511965366484" TEXT="https://ksearch.wordpress.com/2010/09/29/format-usb-in-linux/">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1511965353956" ID="ID_514622886" MODIFIED="1511965366485" TEXT="http://www.tldp.org/HOWTO/Flash-Memory-HOWTO/ext2.html">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1511965367872" ID="ID_121358515" MODIFIED="1511965390296" TEXT="fdisk /dev/sdb">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1511965393841" ID="ID_1163917361" MODIFIED="1511965394788" TEXT="d"/>
+<node COLOR="#111111" CREATED="1511965395584" ID="ID_1406326298" MODIFIED="1511965401876" TEXT="p">
+<node COLOR="#111111" CREATED="1511965403384" ID="ID_1194271210" MODIFIED="1511965412352" TEXT="enter on all"/>
+</node>
+<node COLOR="#111111" CREATED="1511965414732" ID="ID_1138370621" MODIFIED="1511965415496" TEXT="w"/>
+</node>
+<node COLOR="#990000" CREATED="1511965417280" ID="ID_709686611" MODIFIED="1511965431284" TEXT="mke2fs /dev/sdb1">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1415378699256" FOLDED="true" ID="ID_1498338552" MODIFIED="1417366812126" TEXT="virsh">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -437,7 +492,198 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1357680246827" ID="ID_212578750" MODIFIED="1437479735777" TEXT="xchat">
+<node COLOR="#00b439" CREATED="1512223122047" FOLDED="true" ID="ID_1850955579" MODIFIED="1512843333681" TEXT="vsftp">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1512235886401" ID="ID_1290857213" MODIFIED="1512843302911" TEXT="http://howto.gumph.org/content/setup-virtual-users-and-directories-in-vsftpd/">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512238082782" ID="ID_1875241002" MODIFIED="1512843302912" TEXT="https://it.megocollector.com/scripts/vsftpd-ftp-server-with-virtual-users-centos-7/">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512237899101" ID="ID_1657944824" MODIFIED="1512843302912" TEXT="Install">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512237909217" ID="ID_1186235828" MODIFIED="1512843302912" TEXT="yum repo">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1512235985524" ID="ID_651878639" MODIFIED="1512237905246" TEXT="enable">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1512235987768" ID="ID_277135541" MODIFIED="1512235990340" TEXT="name=CentOS-$releasever - Plus"/>
+<node COLOR="#111111" CREATED="1512235991648" ID="ID_1968981387" MODIFIED="1512235993576" TEXT="yum"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1512236714749" ID="ID_443748151" MODIFIED="1512843302912" TEXT="yum provides \*bin/htpasswd">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1512234185024" ID="ID_1076849362" MODIFIED="1512843302913" TEXT="yum install epel-release vsftpd vsftpd-sysvinit httpd-tools">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1512237889153" ID="ID_1581793306" MODIFIED="1512843302913" TEXT="Service">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512232839373" ID="ID_725582531" MODIFIED="1512843302914" TEXT="/usr/lib/systemd/system/vsftpd.service">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1512235085344" ID="ID_1329905602" MODIFIED="1512235092894">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [Unit]
+    </p>
+    <p>
+      Description=VSFTP Instance
+    </p>
+    <p>
+      After=network.target
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [Service]
+    </p>
+    <p>
+      User=root
+    </p>
+    <p>
+      Type=forking
+    </p>
+    <p>
+      ExecStart=/etc/init.d/vsftpd start
+    </p>
+    <p>
+      ExecStop=/etc/init.d/vsftpd start
+    </p>
+    <p>
+      TimeoutSec=300
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [Install]
+    </p>
+    <p>
+      WantedBy=multi-user.target
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1512233103918" ID="ID_803623026" MODIFIED="1512843302914" TEXT="systemctl daemon-reload ">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1512234796044" ID="ID_1263607799" MODIFIED="1512843302914" TEXT="systemctl status vsftpd.service">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1512238281614" ID="ID_1985010898" MODIFIED="1512843302915" TEXT="Config">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512238285310" ID="ID_1501915862" MODIFIED="1512843302915" TEXT="/etc/vsftpd/vsftpd.conf">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1512238289518" ID="ID_645426976" MODIFIED="1512238298569">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      listen=YES
+    </p>
+    <p>
+      anonymous_enable=NO
+    </p>
+    <p>
+      local_enable=YES
+    </p>
+    <p>
+      virtual_use_local_privs=YES
+    </p>
+    <p>
+      write_enable=YES
+    </p>
+    <p>
+      connect_from_port_20=YES
+    </p>
+    <p>
+      secure_chroot_dir=/var/run/vsftpd
+    </p>
+    <p>
+      pam_service_name=vsftpd
+    </p>
+    <p>
+      guest_enable=YES
+    </p>
+    <p>
+      user_sub_token=$USER
+    </p>
+    <p>
+      local_root=/var/vsftp
+    </p>
+    <p>
+      chroot_local_user=YES
+    </p>
+    <p>
+      hide_ids=YES
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1512238355126" ID="ID_1297818943" MODIFIED="1512843302915" TEXT="mkdir /var/vsftp /var/run/vsftpd ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512238128290" ID="ID_851231490" MODIFIED="1512843302915" TEXT="logins">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512237925897" ID="ID_1927129967" MODIFIED="1512843302916" TEXT="/etc/pam.d/vsftpd">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1512238001250" ID="ID_1849100690" MODIFIED="1512238022607">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #%PAM-1.0
+    </p>
+    <p>
+      auth required pam_userdb.so db=/etc/vsftpd/password crypt=crypt
+    </p>
+    <p>
+      account required pam_userdb.so db=/etc/vsftpd/password crypt=crypt
+    </p>
+    <p>
+      session required pam_loginuid.so
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1512238133974" ID="ID_474566165" MODIFIED="1512843302916" TEXT="passwords">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1512238147366" ID="ID_1349286196" MODIFIED="1512241943560" TEXT="echo &quot;jware&quot; &gt; /etc/vsftpd/password"/>
+<node COLOR="#111111" CREATED="1512238174086" ID="ID_1330006427" MODIFIED="1512238199642" TEXT="echo $(openssl passwd -crypt JW@r3) &gt;&gt; /etc/vsftpd/password"/>
+<node COLOR="#111111" CREATED="1512238206538" ID="ID_818647586" MODIFIED="1512238209208" TEXT="db_load -T -t hash -f /etc/vsftpd/password /etc/vsftpd/password.db"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1512237921373" ID="ID_1525661788" MODIFIED="1512843302916" TEXT="logs">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512234171284" ID="ID_449161780" MODIFIED="1512843302917" TEXT="/var/log/secure">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1357680246827" FOLDED="true" ID="ID_212578750" MODIFIED="1512843361007" TEXT="xchat">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1357680251769" ID="ID_833606588" MODIFIED="1416757493406" TEXT="Menu disappears">
@@ -927,7 +1173,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1453124698531" ID="ID_1696015521" MODIFIED="1453124765978" TEXT="unsquashfs -d `pwd`/CentOS /CentOS-7.1-Atomic-x86_64/LiveOS/squashfs.img"/>
 </node>
-<node COLOR="#990000" CREATED="1453124646523" ID="ID_1300094097" MODIFIED="1453124664255" TEXT="mount -r -o loop [image file] [mnt pt]">
+<node COLOR="#990000" CREATED="1453124646523" ID="ID_1300094097" MODIFIED="1514685201639" TEXT="mount -r -o loop [image file] [mnt pt]">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1453124670611" ID="ID_1561077450" MODIFIED="1453124672658" TEXT="mount -r -o loop file.img /mnt  "/>
 </node>
