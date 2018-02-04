@@ -69,7 +69,7 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-1"/>
-<node COLOR="#990000" CREATED="1479293517655" ID="ID_542673986" MODIFIED="1479293523523">
+<node COLOR="#990000" CREATED="1479293517655" ID="ID_542673986" MODIFIED="1517514081660">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -79,7 +79,7 @@
       virsh define /tmp/vm.xml
     </p>
     <p>
-      Domain vm defined from /tmp/vm.xml
+      <i>Domain vm defined from /tmp/vm.xml</i>
     </p>
     <p>
       
@@ -88,7 +88,8 @@
       virsh start vm
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>

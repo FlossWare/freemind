@@ -16,5 +16,13 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1516894805948" ID="ID_744216498" MODIFIED="1516894808067" POSITION="right" TEXT="libflashplayer.so">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1516894811856" ID="ID_1092409938" MODIFIED="1516894821720" TEXT="~/.mozilla/plugins">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>

@@ -381,7 +381,7 @@
 <node COLOR="#00b439" CREATED="1380463753953" ID="ID_1277401019" MODIFIED="1511531769609" TEXT="Timezone">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1380463767336" ID="ID_1910244695" MODIFIED="1511531766733" TEXT="dpkg-reconfigure tzdata">
+<node COLOR="#990000" CREATED="1380463767336" ID="ID_1910244695" MODIFIED="1515975489156" TEXT="dpkg-reconfigure tzdata">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
