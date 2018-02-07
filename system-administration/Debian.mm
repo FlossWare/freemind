@@ -192,6 +192,102 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1517782962819" ID="ID_528587990" MODIFIED="1517782965498" POSITION="right" TEXT="add-apt-repository">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1517782925268" ID="ID_195823034" MODIFIED="1517782967370" TEXT="apt-get install software-properties-common">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1517782979925" ID="ID_15133688" MODIFIED="1517782985257" POSITION="right" TEXT="install cobbler">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1517783015203" ID="ID_454512123" MODIFIED="1517783017796" TEXT="https://raw.githubusercontent.com/luisbolson/cobbler/master/cobbler_install-ubuntu_14.04.sh">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1518021312169" ID="ID_598050789" MODIFIED="1518022881613">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      apt-get install -y make git apache2 python-yaml python-cheetah python-netaddr python-simplejson python-urlgrabber libapache2-mod-wsgi python-django atftpd yum-utils lsb
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1518021519436" ID="ID_1088528622" MODIFIED="1518021552712" TEXT="make install devinstall webtest">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1518022016881" ID="ID_339301763" MODIFIED="1518022027940" TEXT="a2enmod proxy">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1518022028608" ID="ID_1419918730" MODIFIED="1518022034468" TEXT="a2enmod proxy_http">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1518022034884" ID="ID_1140522470" MODIFIED="1518022040920" TEXT="a2enmod rewrite">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1518022114880" ID="ID_824311908" MODIFIED="1518028461127" TEXT="ln -s /etc/apache2/conf-available/cobbler.conf /etc/apache2/conf-enabled/">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1518028455643" ID="ID_965819858" MODIFIED="1518028457604" TEXT="ln -s /etc/apache2/conf-available/cobbler_web.conf /etc/apache2/conf-enabled">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1518022171208" ID="ID_692644746" MODIFIED="1518022173456" TEXT="ln -s /usr/local/lib/python2.6/dist-packages/cobbler /usr/lib/python2.6/dist-packages/">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1518022176880" ID="ID_391509978" MODIFIED="1518022178895" TEXT="ln -s /usr/local/lib/python2.7/dist-packages/cobbler /usr/lib/python2.7/dist-packages/ ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1518022187120" ID="ID_1413162097" MODIFIED="1518022189168" TEXT="chown www-data /var/lib/cobbler/webui_sessions">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1518022468648" ID="ID_313877769" MODIFIED="1518022470544" TEXT="/etc/cobbler/settings">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1518022474760" ID="ID_170049739" MODIFIED="1518022478908" TEXT="server: 192.168.168.31">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1518022599824" ID="ID_1462129670" MODIFIED="1518022602680" TEXT="htdigest /etc/cobbler/users.digest &quot;Cobbler&quot; cobbler">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1518028563512" ID="ID_934564322" MODIFIED="1518028570361">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SECRET_KEY=$(python -c 'import re;from random import choice; import sys; sys.stdout.write(re.escape(&quot;&quot;.join([choice(&quot;abcdefghijklmnopqrstuvwxyz0123456789^&amp;*(-_=+)&quot;) for i in range(100)])))')
+    </p>
+    <p>
+      sed -i &quot;s/^SECRET_KEY = .*/SECRET_KEY = '${SECRET_KEY}'/&quot; /usr/local/share/cobbler/web/settings.py
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1460310250234" ID="ID_6847889" MODIFIED="1460310254177" POSITION="right" TEXT="squeeze">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -404,13 +500,18 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-3"/>
 </node>
+<node COLOR="#990000" CREATED="1518020513133" ID="ID_729732561" MODIFIED="1518020519240" TEXT="apt-getinstall vim">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-4"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1461162124146" ID="ID_1390773543" MODIFIED="1511531777693" TEXT="Editor">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1461162135374" ID="ID_1351152867" MODIFIED="1511531766740" TEXT="update-alternatives --config editor">
+<node COLOR="#990000" CREATED="1461162135374" ID="ID_1351152867" MODIFIED="1518020523293" TEXT="update-alternatives --config editor">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-5"/>
 </node>
 </node>
 </node>
