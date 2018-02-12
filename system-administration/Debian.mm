@@ -200,7 +200,15 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1517782979925" ID="ID_15133688" MODIFIED="1517782985257" POSITION="right" TEXT="install cobbler">
+<node COLOR="#0033ff" CREATED="1518287436634" ID="ID_1033317411" MODIFIED="1518287444834" POSITION="right" TEXT="pip install ansible">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1518287452662" ID="ID_1741447797" MODIFIED="1518287454942" TEXT="apt-get install libffi-dev">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1517782979925" ID="ID_15133688" MODIFIED="1518287434879" POSITION="right" TEXT="install cobbler">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1517783015203" ID="ID_454512123" MODIFIED="1517783017796" TEXT="https://raw.githubusercontent.com/luisbolson/cobbler/master/cobbler_install-ubuntu_14.04.sh">
@@ -217,8 +225,7 @@
       apt-get install -y make git apache2 python-yaml python-cheetah python-netaddr python-simplejson python-urlgrabber libapache2-mod-wsgi python-django atftpd yum-utils lsb
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -282,8 +289,7 @@
       sed -i &quot;s/^SECRET_KEY = .*/SECRET_KEY = '${SECRET_KEY}'/&quot; /usr/local/share/cobbler/web/settings.py
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
