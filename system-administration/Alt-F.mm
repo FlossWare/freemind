@@ -332,6 +332,97 @@
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+<node COLOR="#990000" CREATED="1518729831581" ID="ID_1779400216" MODIFIED="1518729850520" TEXT="/usr/local/lib/python2.7/dist-packages/cobbler/item_repo.py">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1518729851741" ID="ID_1290792148" MODIFIED="1518729891617">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      FIELDS = [
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# non-editable in UI (internal)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;ctime&quot;, 0, 0, &quot;&quot;, False, &quot;&quot;, 0, &quot;float&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;depth&quot;, 2, 0, &quot;&quot;, False, &quot;&quot;, 0, &quot;float&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;mtime&quot;, 0, 0, &quot;&quot;, False, &quot;&quot;, 0, &quot;float&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;parent&quot;, None, 0, &quot;&quot;, False, &quot;&quot;, 0, &quot;str&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;uid&quot;, None, 0, &quot;&quot;, False, &quot;&quot;, 0, &quot;str&quot;],
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# editable in UI
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;apt_components&quot;, &quot;&quot;, 0, &quot;Apt Components (apt only)&quot;, True, &quot;ex: main restricted universe&quot;, [], &quot;list&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;apt_dists&quot;, &quot;&quot;, 0, &quot;Apt Dist Names (apt only)&quot;, True, &quot;ex: precise precise-updates&quot;, [], &quot;list&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;arch&quot;, &quot;x86_64&quot;, 0, &quot;Arch&quot;, True, &quot;ex: i386, x86_64&quot;, ['i386', 'x86_64', 'ppc', 'ppc64', 'ppc64le', 'ppc64el', &quot;arm&quot;, 'noarch', 'src'], &quot;str&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;breed&quot;, &quot;yum&quot;, 0, &quot;Breed&quot;, True, &quot;&quot;, validate.REPO_BREEDS, &quot;str&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;comment&quot;, &quot;&quot;, 0, &quot;Comment&quot;, True, &quot;Free form text description&quot;, 0, &quot;str&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;createrepo_flags&quot;, '&lt;&lt;inherit&gt;&gt;', 0, &quot;Createrepo Flags&quot;, True, &quot;Flags to use with createrepo&quot;, 0, &quot;dict&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;environment&quot;, {}, 0, &quot;Environment Variables&quot;, True, &quot;Use these environment variables during commands (key=value, space delimited)&quot;, 0, &quot;dict&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;keep_updated&quot;, True, 0, &quot;Keep Updated&quot;, True, &quot;Update this repo on next 'cobbler reposync'?&quot;, 0, &quot;bool&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;mirror&quot;, None, 0, &quot;Mirror&quot;, True, &quot;Address of yum or rsync repo to mirror&quot;, 0, &quot;str&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;mirror_locally&quot;, True, 0, &quot;Mirror locally&quot;, True, &quot;Copy files or just reference the repo externally?&quot;, 0, &quot;bool&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;name&quot;, &quot;&quot;, 0, &quot;Name&quot;, True, &quot;Ex: f10-i386-updates&quot;, 0, &quot;str&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;owners&quot;, &quot;SETTINGS:default_ownership&quot;, 0, &quot;Owners&quot;, True, &quot;Owners list for authz_ownership (space delimited)&quot;, [], &quot;list&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;priority&quot;, 99, 0, &quot;Priority&quot;, True, &quot;Value for yum priorities plugin, if installed&quot;, 0, &quot;int&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;proxy&quot;, &quot;&lt;&lt;inherit&gt;&gt;&quot;, 0, &quot;Proxy information&quot;, True, &quot;http://example.com:8080, or &lt;&lt;inherit&gt;&gt; to use proxy_url_ext from settings, blank or &lt;&lt;None&gt;&gt; for no proxy&quot;, [], &quot;str&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;rpm_list&quot;, [], 0, &quot;RPM List&quot;, True, &quot;Mirror just these RPMs (yum only)&quot;, 0, &quot;list&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[&quot;yumopts&quot;, {}, 0, &quot;Yum Options&quot;, True, &quot;Options to write to yum config file&quot;, 0, &quot;dict&quot;],
+    </p>
+    <p>
+      ]
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1509824957456" ID="ID_846400679" MODIFIED="1509824961552" POSITION="left" TEXT="Menu">
