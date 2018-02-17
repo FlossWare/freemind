@@ -283,140 +283,79 @@
 <node COLOR="#111111" CREATED="1510695588991" ID="ID_1668367574" MODIFIED="1510695629256" TEXT="ln -s /bin/sed /usr/bin/sed"/>
 <node COLOR="#111111" CREATED="1510695645827" ID="ID_1533490088" MODIFIED="1510695648011" TEXT="make install"/>
 </node>
-<node COLOR="#990000" CREATED="1509874017606" ID="ID_665603690" MODIFIED="1509874024822">
+<node COLOR="#990000" CREATED="1518900397227" ID="ID_1975428630" MODIFIED="1518900416218" TEXT="/etc/apache2/apache2.conf">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1518900427658" ID="ID_549472176" MODIFIED="1518900464862">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      Traceback (most recent call last):
+      &lt;Directory /&gt;
     </p>
     <p>
-      &#160;&#160;File &quot;/usr/local/bin/cobbler&quot;, line 36, in &lt;module&gt;
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Options FollowSymLinks
     </p>
     <p>
-      &#160;&#160;&#160;&#160;sys.exit(app.main())
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;AllowOverride None
     </p>
     <p>
-      &#160;&#160;File &quot;/usr/local/lib/python2.7/dist-packages/cobbler/cli.py&quot;, line 739, in main
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Require all denied
     </p>
     <p>
-      &#160;&#160;&#160;&#160;rc = cli.run(sys.argv)
-    </p>
-    <p>
-      &#160;&#160;File &quot;/usr/local/lib/python2.7/dist-packages/cobbler/cli.py&quot;, line 354, in run
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;self.object_command(object_type, object_action)
-    </p>
-    <p>
-      &#160;&#160;File &quot;/usr/local/lib/python2.7/dist-packages/cobbler/cli.py&quot;, line 424, in object_command
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;network_interface_fields, settings, object_action)
-    </p>
-    <p>
-      &#160;&#160;File &quot;/usr/local/lib/python2.7/dist-packages/cobbler/cli.py&quot;, line 234, in add_options_from_fields
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;_add_parser_option_from_field(parser, field, settings)
-    </p>
-    <p>
-      &#160;&#160;File &quot;/usr/local/lib/python2.7/dist-packages/cobbler/cli.py&quot;, line 205, in _add_parser_option_from_field
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;raise Exception(&quot;field %s default value (%s) is not listed in choices (%s)&quot; % (name, default, str(choices)))
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1518729831581" ID="ID_1779400216" MODIFIED="1518729850520" TEXT="/usr/local/lib/python2.7/dist-packages/cobbler/item_repo.py">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1518729851741" ID="ID_1290792148" MODIFIED="1518729891617">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      FIELDS = [
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;# non-editable in UI (internal)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;[&quot;ctime&quot;, 0, 0, &quot;&quot;, False, &quot;&quot;, 0, &quot;float&quot;],
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;[&quot;depth&quot;, 2, 0, &quot;&quot;, False, &quot;&quot;, 0, &quot;float&quot;],
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;[&quot;mtime&quot;, 0, 0, &quot;&quot;, False, &quot;&quot;, 0, &quot;float&quot;],
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;[&quot;parent&quot;, None, 0, &quot;&quot;, False, &quot;&quot;, 0, &quot;str&quot;],
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;[&quot;uid&quot;, None, 0, &quot;&quot;, False, &quot;&quot;, 0, &quot;str&quot;],
+      &lt;/Directory&gt;
     </p>
     <p>
       
     </p>
     <p>
-      &#160;&#160;&#160;&#160;# editable in UI
+      &lt;Directory /usr/share&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;[&quot;apt_components&quot;, &quot;&quot;, 0, &quot;Apt Components (apt only)&quot;, True, &quot;ex: main restricted universe&quot;, [], &quot;list&quot;],
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;AllowOverride None
     </p>
     <p>
-      &#160;&#160;&#160;&#160;[&quot;apt_dists&quot;, &quot;&quot;, 0, &quot;Apt Dist Names (apt only)&quot;, True, &quot;ex: precise precise-updates&quot;, [], &quot;list&quot;],
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Require all granted
     </p>
     <p>
-      &#160;&#160;&#160;&#160;[&quot;arch&quot;, &quot;x86_64&quot;, 0, &quot;Arch&quot;, True, &quot;ex: i386, x86_64&quot;, ['i386', 'x86_64', 'ppc', 'ppc64', 'ppc64le', 'ppc64el', &quot;arm&quot;, 'noarch', 'src'], &quot;str&quot;],
+      &lt;/Directory&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;[&quot;breed&quot;, &quot;yum&quot;, 0, &quot;Breed&quot;, True, &quot;&quot;, validate.REPO_BREEDS, &quot;str&quot;],
+      
     </p>
     <p>
-      &#160;&#160;&#160;&#160;[&quot;comment&quot;, &quot;&quot;, 0, &quot;Comment&quot;, True, &quot;Free form text description&quot;, 0, &quot;str&quot;],
+      &lt;Directory /var/www/&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;[&quot;createrepo_flags&quot;, '&lt;&lt;inherit&gt;&gt;', 0, &quot;Createrepo Flags&quot;, True, &quot;Flags to use with createrepo&quot;, 0, &quot;dict&quot;],
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Options Indexes FollowSymLinks
     </p>
     <p>
-      &#160;&#160;&#160;&#160;[&quot;environment&quot;, {}, 0, &quot;Environment Variables&quot;, True, &quot;Use these environment variables during commands (key=value, space delimited)&quot;, 0, &quot;dict&quot;],
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;AllowOverride None
     </p>
     <p>
-      &#160;&#160;&#160;&#160;[&quot;keep_updated&quot;, True, 0, &quot;Keep Updated&quot;, True, &quot;Update this repo on next 'cobbler reposync'?&quot;, 0, &quot;bool&quot;],
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Require all granted
     </p>
     <p>
-      &#160;&#160;&#160;&#160;[&quot;mirror&quot;, None, 0, &quot;Mirror&quot;, True, &quot;Address of yum or rsync repo to mirror&quot;, 0, &quot;str&quot;],
+      &lt;/Directory&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;[&quot;mirror_locally&quot;, True, 0, &quot;Mirror locally&quot;, True, &quot;Copy files or just reference the repo externally?&quot;, 0, &quot;bool&quot;],
+      
     </p>
     <p>
-      &#160;&#160;&#160;&#160;[&quot;name&quot;, &quot;&quot;, 0, &quot;Name&quot;, True, &quot;Ex: f10-i386-updates&quot;, 0, &quot;str&quot;],
+      <b><i>&lt;Directory /srv/&gt; </i></b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;[&quot;owners&quot;, &quot;SETTINGS:default_ownership&quot;, 0, &quot;Owners&quot;, True, &quot;Owners list for authz_ownership (space delimited)&quot;, [], &quot;list&quot;],
+      <b><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Options Indexes FollowSymLinks </i></b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;[&quot;priority&quot;, 99, 0, &quot;Priority&quot;, True, &quot;Value for yum priorities plugin, if installed&quot;, 0, &quot;int&quot;],
+      <b><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;AllowOverride None </i></b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;[&quot;proxy&quot;, &quot;&lt;&lt;inherit&gt;&gt;&quot;, 0, &quot;Proxy information&quot;, True, &quot;http://example.com:8080, or &lt;&lt;inherit&gt;&gt; to use proxy_url_ext from settings, blank or &lt;&lt;None&gt;&gt; for no proxy&quot;, [], &quot;str&quot;],
+      <b><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Require all granted </i></b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;[&quot;rpm_list&quot;, [], 0, &quot;RPM List&quot;, True, &quot;Mirror just these RPMs (yum only)&quot;, 0, &quot;list&quot;],
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;[&quot;yumopts&quot;, {}, 0, &quot;Yum Options&quot;, True, &quot;Options to write to yum config file&quot;, 0, &quot;dict&quot;],
-    </p>
-    <p>
-      ]
+      <b><i>&lt;/Directory&gt;</i></b>
     </p>
   </body>
 </html>

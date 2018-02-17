@@ -262,10 +262,132 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1458984507567" ID="ID_1936304132" MODIFIED="1458984521340" TEXT="/usr/share/virt-manager/virtinst/urlfetcher.py">
+<node COLOR="#00b439" CREATED="1445481422313" ID="ID_1434336122" MODIFIED="1468573404559" TEXT="cobbler">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1458984535042" ID="ID_1208736234" MODIFIED="1458984546914">
+<node COLOR="#990000" CREATED="1449752170505" ID="ID_77431057" MODIFIED="1468573404559" TEXT="/usr/lib/python2.7/site-packages/koan">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1445481530374" ID="ID_1269279521" MODIFIED="1453809029886" TEXT="utils.py ">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1445481537707" ID="ID_1071159605" MODIFIED="1445513042956">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      def check_version_greater_or_equal(version1, version2):
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;#ass = version1.split(&quot;.&quot;) </i></b>
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;#bss = version2.split(&quot;.&quot;) </i></b>
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;#if len(ass) != len(bss): </i></b>
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;#&#160;&#160;&#160;&#160;raise Exception(&quot;expected version format differs&quot;) </i></b>
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;#for i, a in enumerate(ass): </i></b>
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;#&#160;&#160;&#160;&#160;a = int(a) </i></b>
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;#&#160;&#160;&#160;&#160;b = int(bss[i]) </i></b>
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;#&#160;&#160;&#160;&#160;if a &lt; b: </i></b>
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;#&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return False</i></b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;return True
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1445481426298" ID="ID_1510802972" MODIFIED="1453809029886" TEXT="virtinstall.py">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1445481467515" ID="ID_1730857345" MODIFIED="1445513035243">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;if breed and breed != &quot;other&quot;:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if os_version and os_version != &quot;other&quot;:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if breed == &quot;suse&quot;:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;suse_version_re = re.compile(&quot;^(opensuse[0-9]+)\.([0-9]+)$&quot;)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if suse_version_re.match(os_version):
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;os_version = suse_version_re.match(os_version).groups()[0]
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# make sure virt-install knows about our os_version,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# otherwise default it to virtio26 or generic26
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;found = False
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if os_version not in supported_variants:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if &quot;virtio26&quot; in supported_variants:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;os_version = &quot;virtio26&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;else:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<b><i>#os_version = &quot;generic26&quot; </i></b>
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;os_version = &quot;rhel7.0&quot;</i></b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;print(&quot;- warning: virt-install doesn't know this os_version, &quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;defaulting to %s&quot; % os_version)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cmd += &quot;--os-variant %s &quot; % os_version
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1457269653653" ID="ID_1459850970" MODIFIED="1468573404559" TEXT="xen">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1458984507567" ID="ID_1936304132" MODIFIED="1518900683010" TEXT="/usr/share/virt-manager/virtinst">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1518900652427" ID="ID_1654305268" MODIFIED="1518900664472" TEXT="urlfetcher.py">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1458984535042" ID="ID_1208736234" MODIFIED="1518900642133">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -339,7 +461,65 @@
     </p>
   </body>
 </html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1449752170505" ID="ID_1865533764" MODIFIED="1518897540348" TEXT="/usr/lib/python2.7/site-packages/koan">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1449751164509" ID="ID_297540647" MODIFIED="1453809029886" TEXT="app.py">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1449751199353" ID="ID_1120059142" MODIFIED="1449751230108">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if self.virt_type in [ &quot;xenpv&quot;, &quot;xenfv&quot; ]:
+    </p>
+    <p>
+      cmd = sub_process.Popen(&quot;uname -r&quot;, stdout=sub_process.PIPE, shell=True)
+    </p>
+    <p>
+      uname_str = cmd.communicate()[0]
+    </p>
+    <p>
+      # correct kernel on dom0?
+    </p>
+    <p>
+      #if uname_str &lt; &quot;2.6.37&quot; and uname_str.find(&quot;xen&quot;) == -1:
+    </p>
+    <p>
+      #&#160;&#160;&#160;raise InfoException(&quot;kernel &gt;= 2.6.37 or kernel-xen needs to be in use&quot;)
+    </p>
+    <p>
+      # xend installed?
+    </p>
+    <p>
+      #if not os.path.exists(&quot;/usr/sbin/xend&quot;):
+    </p>
+    <p>
+      #&#160;&#160;&#160;raise InfoException(&quot;xen package needs to be installed&quot;)
+    </p>
+    <p>
+      # xend running?
+    </p>
+    <p>
+      #rc = sub_process.call(&quot;/usr/sbin/xend status&quot;, stderr=None, #stdout=None, shell=True)
+    </p>
+    <p>
+      #if rc != 0:
+    </p>
+    <p>
+      #&#160;&#160;&#160;raise InfoException(&quot;xend needs to be started&quot;)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
