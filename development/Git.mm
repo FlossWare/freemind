@@ -91,6 +91,7 @@
 <node COLOR="#990000" CREATED="1292960115561" ID="ID_1024466186" MODIFIED="1292960117751" TEXT="Disable">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1292960141081" ID="ID_1595371417" MODIFIED="1359726824974" TEXT="add --no-ext-diff to your git-diff command"/>
+<node COLOR="#111111" CREATED="1519755381980" ID="ID_1936464023" MODIFIED="1519755383668" TEXT="https://stackoverflow.com/questions/19936187/git-diff-overriding-gitconfig-external-tool#19936510"/>
 </node>
 <node COLOR="#990000" CREATED="1292960180793" ID="ID_1782644547" MODIFIED="1292960183308" TEXT="Reference">
 <font NAME="SansSerif" SIZE="14"/>

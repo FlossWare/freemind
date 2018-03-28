@@ -244,6 +244,16 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1518918226050" ID="ID_71861853" MODIFIED="1518918229357" TEXT="grub">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1518918254074" ID="ID_1245714227" MODIFIED="1518918254805" TEXT="https://www.systutorials.com/3826/setting-default-entry-in-grub2-and-grub/">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1518918262926" ID="ID_1813793183" MODIFIED="1518918264469" TEXT="wget https://www.systutorials.com/go/grub2-select.bash/ -O grub2-select.bash &amp;&amp; \ bash grub2-select.bash">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1419008708891" ID="ID_1793127488" MODIFIED="1419008710969" TEXT="ifconfig">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -1153,6 +1163,10 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 <node COLOR="#00b439" CREATED="1315654233231" ID="ID_585100924" LINK="KDE.mm" MODIFIED="1416757573449" TEXT="KDE">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1522261872120" ID="ID_115645085" LINK="LXDE.mm" MODIFIED="1522261872123" TEXT="LXDE">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

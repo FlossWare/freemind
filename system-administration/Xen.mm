@@ -227,47 +227,50 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1387296666581" ID="ID_1872438747" MODIFIED="1387296670836" POSITION="left" TEXT="CentOS 6.x">
+<node COLOR="#0033ff" CREATED="1518903404616" ID="ID_1507863533" MODIFIED="1521403646101" POSITION="left" TEXT="CentOS">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1387296672564" ID="ID_279233932" MODIFIED="1387296678401" TEXT="grub-bootxen.sh">
+<node COLOR="#00b439" CREATED="1387296666581" FOLDED="true" ID="ID_1872438747" MODIFIED="1521397162855" TEXT="6.x">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1387296682351" ID="ID_1155533640" MODIFIED="1387296691918" TEXT="Ensures kernel is loaded with correct Xen work.">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1389120680184" ID="ID_1201227542" MODIFIED="1389120681147" TEXT="Cobbler">
+<node COLOR="#990000" CREATED="1387296672564" ID="ID_279233932" MODIFIED="1518903412795" TEXT="grub-bootxen.sh">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1389120682889" ID="ID_567569836" MODIFIED="1389120689893" TEXT="Disable reboot for VMs">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1387296682351" ID="ID_1155533640" MODIFIED="1518903412795" TEXT="Ensures kernel is loaded with correct Xen work.">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#990000" CREATED="1389120691609" ID="ID_1846247604" MODIFIED="1389120699183" TEXT="xl delete [vm name]">
+</node>
+<node COLOR="#990000" CREATED="1389120680184" ID="ID_1201227542" MODIFIED="1518903412795" TEXT="Cobbler">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1389120682889" ID="ID_567569836" MODIFIED="1518903412796" TEXT="Disable reboot for VMs">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1389120691609" ID="ID_1846247604" MODIFIED="1518903412796" TEXT="xl delete [vm name]">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1389120718075" ID="ID_450224368" MODIFIED="1389120733405" TEXT="Note:  not &quot;xm&quot; but &quot;xl&quot;"/>
 </node>
-<node COLOR="#990000" CREATED="1389120699704" ID="ID_1055488358" MODIFIED="1389120702699" TEXT="Create config file">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1389120699704" ID="ID_1055488358" MODIFIED="1518903412796" TEXT="Create config file">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#990000" CREATED="1389120703825" ID="ID_1818198942" MODIFIED="1447773482608" TEXT="xl create [vm name]">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1389120703825" ID="ID_1818198942" MODIFIED="1518903412796" TEXT="xl create [vm name]">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1458646897274" ID="ID_894637008" MODIFIED="1458646900606" POSITION="left" TEXT="CentOS 7.x">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1458646904966" ID="ID_228196213" MODIFIED="1458646914022" TEXT="/etc/libvirt/libxl/autostart">
+<node COLOR="#00b439" CREATED="1458646897274" ID="ID_894637008" MODIFIED="1518911312987" TEXT="7.x">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1445481422313" ID="ID_1434336122" MODIFIED="1468573404559" TEXT="cobbler">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1449752170505" ID="ID_77431057" MODIFIED="1468573404559" TEXT="/usr/lib/python2.7/site-packages/koan">
+<node COLOR="#990000" CREATED="1458646904966" ID="ID_228196213" MODIFIED="1518903420045" TEXT="/etc/libvirt/libxl/autostart">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1445481422313" ID="ID_1434336122" MODIFIED="1518903420045" TEXT="cobbler">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1449752170505" ID="ID_77431057" MODIFIED="1518903420046" TEXT="/usr/lib/python2.7/site-packages/koan">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1445481530374" ID="ID_1269279521" MODIFIED="1453809029886" TEXT="utils.py ">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1445481537707" ID="ID_1071159605" MODIFIED="1445513042956">
@@ -380,8 +383,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1457269653653" ID="ID_1459850970" MODIFIED="1468573404559" TEXT="xen">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1457269653653" ID="ID_1459850970" MODIFIED="1518903420046" TEXT="xen">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1458984507567" ID="ID_1936304132" MODIFIED="1518900683010" TEXT="/usr/share/virt-manager/virtinst">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="12"/>
@@ -523,6 +526,7 @@
 </node>
 </node>
 </node>
+</node>
 <node COLOR="#0033ff" CREATED="1468931228499" ID="ID_1136415176" MODIFIED="1468931232663" POSITION="right" TEXT="Change dom0 memory">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -551,6 +555,257 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-2"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1449748131669" ID="ID_351082137" MODIFIED="1521380127134" POSITION="left" TEXT="Fedora">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1449748705850" ID="ID_1097244103" MODIFIED="1449748708585" TEXT="http://wiki.xen.org/wiki/Fedora_Host_Installation">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1447438872022" ID="ID_428323614" MODIFIED="1449748430909" TEXT="Bridge">
+<edge STYLE="bezier" WIDTH="thin"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_428323614" ENDARROW="Default" ENDINCLINATION="177;0;" ID="Arrow_ID_1714996596" SOURCE="ID_1659210935" STARTARROW="None" STARTINCLINATION="177;0;"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1449748602879" ID="ID_589836410" MODIFIED="1449748605320" TEXT="/etc/sysconfig/network-scripts/">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1447438875386" ID="ID_128191216" MODIFIED="1449748608799" TEXT="ifcfg-e[val]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1447438909998" ID="ID_1885408722" MODIFIED="1449748133656">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # Generated by dracut initrd
+    </p>
+    <p>
+      NAME=&quot;enp3s14&quot;
+    </p>
+    <p>
+      DEVICE=&quot;enp3s14&quot;
+    </p>
+    <p>
+      ONBOOT=yes
+    </p>
+    <p>
+      NETBOOT=yes
+    </p>
+    <p>
+      UUID=&quot;3e381a96-d3c2-4f0e-aea2-c64cb2ee0d8a&quot;
+    </p>
+    <p>
+      IPV6INIT=yes
+    </p>
+    <p>
+      TYPE=Ethernet
+    </p>
+    <p>
+      BRIDGE=bridge0
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1447438919126" ID="ID_14490101" MODIFIED="1449748608802" TEXT="ifcfg-bridge0">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1447438936610" ID="ID_191926875" MODIFIED="1449748133657">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DEVICE=&quot;bridge0&quot;
+    </p>
+    <p>
+      ONBOOT=&quot;yes&quot;
+    </p>
+    <p>
+      BOOTPROTO=dhcp
+    </p>
+    <p>
+      TYPE=Bridge
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1449748502565" ID="ID_392116260" MODIFIED="1449748509492" TEXT="Install">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1449748331107" ID="ID_405563446" MODIFIED="1449748514378" TEXT="yum">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1449748335455" ID="ID_941858397" MODIFIED="1449748514378" TEXT="update -y">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1449748338263" ID="ID_1097101642" MODIFIED="1521394441185" TEXT="install -y">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1521394444334" ID="ID_1508225140" MODIFIED="1521394496167" TEXT="xen"/>
+<node COLOR="#111111" CREATED="1521475801135" ID="ID_1955633410" MODIFIED="1521475802477" TEXT="yum"/>
+<node COLOR="#111111" CREATED="1449748531148" ID="ID_1297234225" MODIFIED="1521402355139" TEXT="libvirt-daemon-driver-xen libvirt-daemon-config-network libvirt-daemon-driver-network virt-manager virt-viewer libvirt-daemon-driver-libxl libvirt-daemon-xen koan"/>
+<node COLOR="#111111" CREATED="1449752146489" ID="ID_1882132519" MODIFIED="1449752149893" TEXT="@virtualization"/>
+<node COLOR="#111111" CREATED="1449748540052" ID="ID_296512047" MODIFIED="1521424458299" TEXT="tigervnc libcurl-devel gcc redhat-rpm-config python2-devel openssl-devel "/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1521402476832" ID="ID_716293309" MODIFIED="1521426435377" TEXT="pip install urlgrabber pycurl">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1521403409777" ID="ID_1805219029" MODIFIED="1521403411458" TEXT="export PYCURL_SSL_LIBRARY=openssl"/>
+</node>
+<node COLOR="#990000" CREATED="1449748360799" ID="ID_425341711" MODIFIED="1449748514379" TEXT="sudo grub2-set-default &quot;Fedora, with Xen hypervisor&quot; ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1449950431006" ID="ID_1309560607" MODIFIED="1449950456100" TEXT="systemctl">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1449950435113" ID="ID_346095927" MODIFIED="1449950439933" TEXT="enable network"/>
+<node COLOR="#111111" CREATED="1449950440365" ID="ID_369831721" MODIFIED="1449950449968" TEXT="disable NetworkManager"/>
+</node>
+<node COLOR="#990000" CREATED="1449748383138" ID="ID_1659210935" MODIFIED="1449748514380" TEXT="Configure bridge">
+<edge STYLE="bezier" WIDTH="thin"/>
+<arrowlink DESTINATION="ID_428323614" ENDARROW="Default" ENDINCLINATION="177;0;" ID="Arrow_ID_1714996596" STARTARROW="None" STARTINCLINATION="177;0;"/>
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1449748450257" ID="ID_1649494166" MODIFIED="1449748514381" TEXT="systemctl">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1449748454181" ID="ID_127026873" MODIFIED="1449748514381" TEXT="enable xenstored">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1449748460505" ID="ID_1951898640" MODIFIED="1449748514381" TEXT="start xenstored">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1449748450257" ID="ID_8680509" MODIFIED="1449753304743" TEXT="systemctl">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1449748454181" ID="ID_1619283329" MODIFIED="1449753312766" TEXT="enable libvirtd">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1449748460505" ID="ID_1650730306" MODIFIED="1449753315994" TEXT="start libvirtd">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1449748443489" ID="ID_630029231" MODIFIED="1449751497330" TEXT="reboot">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1449755604372" ID="ID_633367307" MODIFIED="1449755607180" TEXT="Configuration">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1449755617228" ID="ID_518253166" MODIFIED="1449755621408" TEXT="/etc/libvirt/libxl">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1521401286837" ID="ID_1884014049" MODIFIED="1521401287768" TEXT="27">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1521401290780" ID="ID_1913683799" MODIFIED="1521401294113" TEXT="/etc/grub.d/20_linux_xen">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1521401295300" ID="ID_1204905259" MODIFIED="1521401302777" TEXT="#!/bin/bash -e">
+<node COLOR="#111111" CREATED="1521401304149" ID="ID_623489811" MODIFIED="1521401309736" TEXT="to see why script failing"/>
+</node>
+<node COLOR="#111111" CREATED="1521401310981" ID="ID_1623282062" MODIFIED="1521402277846">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # Extra indentation to add to menu entries in a submenu. We're not in a submenu
+    </p>
+    <p>
+      # yet, so it's empty. In a submenu it will be equal to '\t' (one tab).
+    </p>
+    <p>
+      submenu_indentation=&quot;&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      is_top_level=true
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      while [ &quot;x${xen_list}&quot; != &quot;x&quot; ] ; do
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;list=&quot;${linux_list}&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;current_xen=`version_find_latest $xen_list`
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;xen_basename=`basename ${current_xen}`
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;xen_dirname=`dirname ${current_xen}`
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;rel_xen_dirname=`make_system_path_relative_to_its_root $xen_dirname`
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;xen_version=`echo $xen_basename | sed -e &quot;s,.gz$,,g;s,^xen-,,g&quot;`
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if [ -z &quot;$boot_device_id&quot; ]; then
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;boot_device_id=&quot;$(grub_get_device_id &quot;${GRUB_DEVICE}&quot;)&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;fi
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if [ &quot;x$is_top_level&quot; != xtrue ]; then
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo &quot;&#160;&#160;submenu '$(gettext_printf &quot;Xen hypervisor, version %s&quot; &quot;${xen_version}&quot; | grub_quote)' \$menuentry_id_option 'xen-hypervisor-$xen_version-$boot_device_id' {&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;fi
+    </p>
+    <p>
+      <b><i>#&#160;&#160;&#160;&#160;$grub_file --is-arm64-efi $current_xen </i></b>
+    </p>
+    <p>
+      <b><i>#&#160;&#160;&#160;&#160;if [ $? -ne 0 ]; then </i></b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;xen_loader=&quot;multiboot&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;module_loader=&quot;module&quot;
+    </p>
+    <p>
+      <b><i>#&#160;&#160;&#160;&#160;else</i></b>
+    </p>
+    <p>
+      <b><i>#&#160;&#160;&#160;&#160;&#160;&#160;&#160;xen_loader=&quot;xen_hypervisor&quot; </i></b>
+    </p>
+    <p>
+      <b><i>#&#160;&#160;&#160;&#160;&#160;&#160;&#160;module_loader=&quot;xen_module&quot;</i></b>
+    </p>
+    <p>
+      <b><i>#&#160;&#160;&#160;&#160;fi</i></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1453042282830" ID="ID_1391008699" MODIFIED="1469457571690" POSITION="left" TEXT="VM">

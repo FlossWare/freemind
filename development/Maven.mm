@@ -4,6 +4,30 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<node COLOR="#0033ff" CREATED="1489238448689" ID="ID_830008068" MODIFIED="1520388817266" POSITION="right" TEXT="Create project">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1489238470260" ID="ID_1992977939" MODIFIED="1497278006976" TEXT="mvn archetype:generate -DgroupId=[group id] -DartifactId=[artifact id] -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1489238460356" ID="ID_1132907279" MODIFIED="1489238497422" TEXT="mvn archetype:generate -DgroupId=com.redhat -DartifactId=new-easy-sfdc -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1499621896651" ID="ID_189857500" MODIFIED="1521041221890" POSITION="right" TEXT="Memory">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1499621900250" ID="ID_1843127375" MODIFIED="1499621918697" TEXT="export MAVEN_OPTS=&quot;-Xmx[memory] -Xms[memory]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1499621900250" ID="ID_44369883" MODIFIED="1499621938193" TEXT="export MAVEN_OPTS=&quot;-Xmx8192m -Xms8192m">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1397737516822" ID="ID_66488616" MODIFIED="1397737518078" POSITION="right" TEXT="Run">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -39,18 +63,6 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1499621896651" ID="ID_189857500" MODIFIED="1499621899445" POSITION="right" TEXT="Memory">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1499621900250" ID="ID_1843127375" MODIFIED="1499621918697" TEXT="export MAVEN_OPTS=&quot;-Xmx[memory] -Xms[memory]">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1499621900250" ID="ID_44369883" MODIFIED="1499621938193" TEXT="export MAVEN_OPTS=&quot;-Xmx8192m -Xms8192m">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
 <node COLOR="#0033ff" CREATED="1342033371832" ID="ID_904609159" MODIFIED="1342033374830" POSITION="right" TEXT="Dependency tree">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -74,18 +86,6 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1361561753271" ID="ID_840932696" MODIFIED="1361561773601" TEXT="-Dcheckstyle.skip=true">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1489238448689" ID="ID_830008068" MODIFIED="1489238467217" POSITION="right" TEXT="Create project">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1489238470260" ID="ID_1992977939" MODIFIED="1497278006976" TEXT="mvn archetype:generate -DgroupId=[group id] -DartifactId=[artifact id] -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1489238460356" ID="ID_1132907279" MODIFIED="1489238497422" TEXT="mvn archetype:generate -DgroupId=com.redhat -DartifactId=new-easy-sfdc -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
@@ -166,6 +166,102 @@
     </p>
     <p>
       &#xa0;&#xa0;&#xa0;&#xa0;&lt;/dependency&gt;
+    </p>
+    <p>
+      &lt;/dependencies&gt;
+    </p>
+  </body>
+</html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1519828980103" ID="ID_918630423" MODIFIED="1519828986938" POSITION="right" TEXT="Include own jars for build">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1519828988707" ID="ID_1362254964" MODIFIED="1519829656767">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;build&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;plugins&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;plugin&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;artifactId&gt;maven-surefire-plugin&lt;/artifactId&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;version&gt;2.20&lt;/version&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;configuration&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;additionalClasspathElements&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;additionalClasspathElement&gt;${project.basedir}/lib/jgap-3.6.3.jar&lt;/additionalClasspathElement&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;additionalClasspathElement&gt;${project.basedir}/lib&lt;/additionalClasspathElement&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;additionalClasspathElement&gt;${basedir}/lib&lt;/additionalClasspathElement&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;additionalClasspathElement&gt;${basedir}/lib/jgap-3.6.3.jar&lt;/additionalClasspathElement&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/additionalClasspathElements&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/configuration&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/plugin&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;/plugins&gt;
+    </p>
+    <p>
+      &lt;/build&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;dependencies&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;dependency&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;groupId&gt;net.sf.jgap&lt;/groupId&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;artifactId&gt;jgap&lt;/artifactId&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;version&gt;3.6.3&lt;/version&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;scope&gt;system&lt;/scope&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;systemPath&gt;${project.basedir}/lib/jgap-3.6.3.jar&lt;/systemPath&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;/dependency&gt;
     </p>
     <p>
       &lt;/dependencies&gt;
@@ -306,8 +402,7 @@
       &lt;/project&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -327,8 +422,7 @@
       myprop2 = ${foo.bar}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
