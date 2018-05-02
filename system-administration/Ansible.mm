@@ -236,18 +236,31 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1430495276653" ID="ID_1976840954" MODIFIED="1430495288020" POSITION="right" TEXT="Without SSH added">
+<node COLOR="#0033ff" CREATED="1524772966211" ID="ID_287244671" MODIFIED="1524772968003" POSITION="right" TEXT="SSH">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1430495317500" ID="ID_1369515691" MODIFIED="1430495323276" TEXT="Disable Host Key Checking">
+<node COLOR="#00b439" CREATED="1524772972823" ID="ID_1432564133" MODIFIED="1524772978051" TEXT="Different port">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1430495324564" ID="ID_1574220558" MODIFIED="1430495330127" TEXT="http://docs.ansible.com/intro_getting_started.html">
+<node COLOR="#990000" CREATED="1524773024651" ID="ID_1280691685" MODIFIED="1524773025939" TEXT="https://serverfault.com/questions/545978/how-to-handle-ssh-port-changes-with-ansible">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1430495290256" ID="ID_1074702034" MODIFIED="1430495331642" TEXT="/etc/ansible/ansible.cfg">
+<node COLOR="#990000" CREATED="1524772978855" ID="ID_562838870" MODIFIED="1524773002023" TEXT="ansible-playbook [playbook].yml -e &apos;ansible_ssh_port=[new port]&apos;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1430495276653" ID="ID_1976840954" MODIFIED="1524772970376" TEXT="Without SSH added">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1430495317500" ID="ID_1369515691" MODIFIED="1524772970377" TEXT="Disable Host Key Checking">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1430495324564" ID="ID_1574220558" MODIFIED="1524772970377" TEXT="http://docs.ansible.com/intro_getting_started.html">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1430495290256" ID="ID_1074702034" MODIFIED="1524772970378" TEXT="/etc/ansible/ansible.cfg">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1430495343040" ID="ID_1944888082" MODIFIED="1430495354286">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -265,9 +278,10 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1430577070941" ID="ID_974076470" MODIFIED="1430577074965" TEXT="yum install sshpass">
+<node COLOR="#990000" CREATED="1430577070941" ID="ID_974076470" MODIFIED="1524772970378" TEXT="yum install sshpass">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1426037717286" ID="ID_673900833" MODIFIED="1426037721877" POSITION="right" TEXT="Directory Layout">

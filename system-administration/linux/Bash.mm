@@ -227,5 +227,13 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1517618655049" ID="ID_213997619" MODIFIED="1523819855557" POSITION="right" TEXT="git branch in prompt">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1517618666593" ID="ID_220485966" MODIFIED="1523819855558" TEXT=" export PS1=&quot;[\u@\h \W\$(git branch 2&gt; /dev/null | grep -e &apos;\* &apos; | sed &apos;s/^..\(.*\)/{\1}/&apos;)]\$ &quot;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>

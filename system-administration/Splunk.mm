@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1387480255094" ID="ID_519434819" LINK="System%20Administration.mm" MODIFIED="1387480276048" TEXT="Splunk">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -26,6 +26,18 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1522684203714" ID="ID_1564786663" MODIFIED="1522684224923" POSITION="right" TEXT="Break into separate strings">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1522684233816" ID="ID_1761682598" MODIFIED="1522684261154" TEXT="eval [var]=split([string], &quot;[delimiter]&quot;)">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1522684262231" ID="ID_317216226" MODIFIED="1522684272253" TEXT="eval individual_params=split(raw_params, &quot;&amp;&quot;)">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1387480356395" ID="ID_1102032210" LINK="http://docs.splunk.com/Documentation/Splunk/6.0/SearchReference/WhatsInThisManual" MODIFIED="1387480408891" POSITION="left" TEXT="Manual">

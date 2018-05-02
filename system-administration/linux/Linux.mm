@@ -416,6 +416,15 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1524841382089" ID="ID_1759769738" MODIFIED="1524841383922" TEXT="sshfs">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1524841385332" ID="ID_43687258" MODIFIED="1524841388032" TEXT="different port">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1524841392824" ID="ID_1901148440" MODIFIED="1524841393492" TEXT="https://www.linuxquestions.org/questions/linux-software-2/combining-port-knocking-with-sshfs-and-autofs-4175604156/"/>
+<node COLOR="#111111" CREATED="1524841408589" ID="ID_53492044" MODIFIED="1524841432425" TEXT="-fstype=fuse,...,port=PORT,..."/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1416233634117" ID="ID_98572430" MODIFIED="1444761601102" TEXT="sudo">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -500,7 +509,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1415378699256" FOLDED="true" ID="ID_1498338552" MODIFIED="1417366812126" TEXT="virsh">
+<node COLOR="#00b439" CREATED="1415378699256" FOLDED="true" ID="ID_1498338552" MODIFIED="1523274017069" TEXT="virsh">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1415378667673" ID="ID_1776307560" MODIFIED="1416757406904" TEXT="virsh -c qemu:///system list --all">
@@ -1138,13 +1147,21 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1295104571579" ID="ID_822169857" LINK="Cobbler.mm" MODIFIED="1416757573445" TEXT="Cobbler">
+<node COLOR="#00b439" CREATED="1522330488676" ID="ID_1883145587" MODIFIED="1522330490731" TEXT="Database">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1291902249893" ID="ID_1257249063" LINK="MySQL.mm" MODIFIED="1522330494719" TEXT="MySQL">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1449951659833" ID="ID_1909114489" LINK="Cheetah.mm" MODIFIED="1449951659835" TEXT="Cheetah">
+</node>
+<node COLOR="#00b439" CREATED="1522330472160" ID="ID_963818352" MODIFIED="1522330474879" TEXT="Development">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1363430764140" ID="ID_1173407211" LINK="Jenkins.mm" MODIFIED="1522330478068" TEXT="Jenkins">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1311180264890" ID="ID_1368899136" LINK="DHCP.mm" MODIFIED="1416757573445" TEXT="DHCP">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -1154,25 +1171,38 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1269099851500" ID="ID_341618243" LINK="FVWM.mm" MODIFIED="1416757573447" TEXT="FVWM">
+<node COLOR="#00b439" CREATED="1522330370292" ID="ID_1022600191" MODIFIED="1522330443989" TEXT="GUI">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1269099851500" ID="ID_341618243" LINK="FVWM.mm" MODIFIED="1522330379442" TEXT="FVWM">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1363430764140" ID="ID_1173407211" LINK="Jenkins.mm" MODIFIED="1416757573448" TEXT="Jenkins">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1525266948197" ID="ID_1526523987" LINK="LXDM.mm" MODIFIED="1525266948201" TEXT="LXDM">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1315654233231" ID="ID_585100924" LINK="KDE.mm" MODIFIED="1416757573449" TEXT="KDE">
+<node COLOR="#990000" CREATED="1522261872120" ID="ID_115645085" LINK="LXDE.mm" MODIFIED="1522330386803" TEXT="LXDE">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1522261872120" ID="ID_115645085" LINK="LXDE.mm" MODIFIED="1522261872123" TEXT="LXDE">
+<node COLOR="#990000" CREATED="1315654233231" ID="ID_585100924" LINK="KDE.mm" MODIFIED="1522330391209" TEXT="KDE">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1291902249893" ID="ID_1257249063" LINK="MySQL.mm" MODIFIED="1416757573450" TEXT="MySQL">
+<node COLOR="#990000" CREATED="1525267086793" ID="ID_1766026161" LINK="XFS.mm" MODIFIED="1525267086795" TEXT="XFS">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1301231910072" ID="ID_1120113763" LINK="X.mm" MODIFIED="1525267047081" TEXT="X">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1523621525070" ID="ID_700278952" MODIFIED="1525267053518" TEXT="Configure">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1523621521378" ID="ID_757039389" MODIFIED="1523621532462" TEXT="https://superuser.com/questions/117239/how-can-i-get-multiple-video-cards-to-work-on-linux"/>
+<node COLOR="#111111" CREATED="1523621513029" ID="ID_1744852396" MODIFIED="1523621529783" TEXT="Xorg :0 -configure">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1305636456492" ID="ID_728782428" LINK="NX.mm" MODIFIED="1416757573451" TEXT="NX">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -1226,9 +1256,61 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1301231910072" ID="ID_1120113763" LINK="X.mm" MODIFIED="1416757573459" TEXT="X">
+</node>
+<node COLOR="#0033ff" CREATED="1524148887636" ID="ID_899907671" MODIFIED="1524148898460" POSITION="left" TEXT="Compute uid/pid">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1524148906000" ID="ID_242225394" MODIFIED="1524148950080" TEXT=" id -u [username]">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1524148926996" ID="ID_202463319" MODIFIED="1524148944984" TEXT="id -g [username]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1524148933732" ID="ID_233265934" MODIFIED="1524148938808" TEXT="id [username]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1466348647825" ID="ID_1544044603" MODIFIED="1466348650718" POSITION="left" TEXT="File Systems">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1459777649391" ID="ID_655191944" MODIFIED="1466348654726" TEXT="LVM">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1459777748486" ID="ID_1187640201" MODIFIED="1466348654727" TEXT="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html-single/Logical_Volume_Manager_Administration/index.html#LV">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1459777750261" ID="ID_1216660049" MODIFIED="1466348654727" TEXT="Commands">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1459777623387" ID="ID_857074963" MODIFIED="1514670781321" TEXT="lvextend -l +100%FREE  /dev/rhel/root -r">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1459777625879" ID="ID_1967733184" MODIFIED="1466348654727" TEXT="lvremove /dev/rhel/home">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1459777642623" ID="ID_75752490" MODIFIED="1466348654729" TEXT="XFS">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1459777640359" ID="ID_898831323" MODIFIED="1466348654729" TEXT="https://ma.ttias.be/increase-expand-xfs-filesystem-in-red-hat-rhel-7-cento7/">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1459777760269" ID="ID_1419793821" MODIFIED="1466348654730" TEXT="Commands">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1459777601555" ID="ID_1142447327" MODIFIED="1466348654730" TEXT="xfs_growfs /dev/mapper/rhel-root">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 </node>
 </node>

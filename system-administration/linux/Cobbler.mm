@@ -87,7 +87,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-2"/>
 </node>
-<node COLOR="#00b439" CREATED="1342439915016" ID="ID_1112165446" MODIFIED="1342439940234" TEXT="htdigest /etc/cobbler/users.digest &quot;Cobbler&quot; cobbler ">
+<node COLOR="#00b439" CREATED="1342439915016" ID="ID_1112165446" MODIFIED="1523638813386" TEXT="htdigest /etc/cobbler/users.digest &quot;Cobbler&quot; cobbler ">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-3"/>
@@ -123,7 +123,7 @@
 <node COLOR="#0033ff" CREATED="1352292107311" ID="ID_1977854821" MODIFIED="1352292108774" POSITION="right" TEXT="menu32">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1352292114087" ID="ID_65547208" MODIFIED="1352292223905">
+<node COLOR="#00b439" CREATED="1352292114087" ID="ID_65547208" MODIFIED="1522932428483">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -136,7 +136,10 @@
       then
     </p>
     <p>
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;ln -s /usr/share/syslinux/menu.c32 /var/lib/cobbler/loaders/menu.c32
+      &#160;&#160;ln -s /usr/share/syslinux/menu.c32 /var/lib/cobbler/loaders/menu.c32
+    </p>
+    <p>
+      &#160;&#160;ln -s /usr/share/syslinux/ldlinux.c32 /var/lib/cobbler/loaders/ldlinux.c32
     </p>
     <p>
       elif [ -e /usr/lib/syslinux/menu.c32 ]
@@ -145,7 +148,10 @@
       then
     </p>
     <p>
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;ln -s /usr/lib/syslinux/menu.c32 /var/lib/cobbler/loaders/menu.c32
+      &#160;&#160;ln -s /usr/lib/syslinux/menu.c32 /var/lib/cobbler/loaders/menu.c32
+    </p>
+    <p>
+      &#160;&#160;ln -s /usr/lib/syslinux/ldlinux.c32 /var/lib/cobbler/loaders/ldlinux.c32
     </p>
     <p>
       fi

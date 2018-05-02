@@ -56,14 +56,96 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1522262185373" ID="ID_1624052894" MODIFIED="1522262187137" POSITION="right" TEXT="Menus">
+<node COLOR="#0033ff" CREATED="1522332986951" ID="ID_1830525190" MODIFIED="1522332988370" POSITION="right" TEXT="Structure">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1522262217924" ID="ID_1498516400" MODIFIED="1522262219772" TEXT="datadir">
+<node COLOR="#00b439" CREATED="1522333069329" ID="ID_314433964" MODIFIED="1522333074948" TEXT="~/.config/menus">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1522262192669" ID="ID_1806934881" MODIFIED="1522262238503" TEXT="applications">
+<node COLOR="#990000" CREATED="1522333079804" ID="ID_1633991274" MODIFIED="1522333083493" TEXT="lxde-applications.menu">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1522333099214" ID="ID_1203369199" MODIFIED="1522333175229">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;!DOCTYPE Menu PUBLIC &quot;-//freedesktop//DTD Menu 1.0//EN&quot; &quot;http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd&quot;&gt;
+    </p>
+    <p>
+      &lt;Menu&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;Name&gt;Applications&lt;/Name&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;MergeFile type=&quot;parent&quot;&gt;/etc/xdg/menus/lxde-applications.menu&lt;/MergeFile&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;Menu&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;Name&gt;Some Name&lt;/Name&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;Directory&gt;some.directory&lt;/Directory&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;Menu&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;Name&gt;Some Subname&lt;/Name&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;Directory&gt;some-dir.directory&lt;/Directory&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;Include&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;Filename&gt;some-desktop.desktop&lt;/Filename&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/Include&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/Menu&gt;
+    </p>
+    <p>
+      &lt;/Menu&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1522844101381" ID="ID_1615500707" MODIFIED="1522844123212" TEXT="~/.config/lxpanel/LXDE/panels">
 <edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1522844486150" ID="ID_365613596" MODIFIED="1522844489261" TEXT="left">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1522844489621" ID="ID_1690458284" MODIFIED="1522844491120" TEXT="right">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1522844491560" ID="ID_1179269852" MODIFIED="1522844493264" TEXT="top">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1522844493484" ID="ID_457596673" MODIFIED="1522844494887" TEXT="bottom">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1522844504954" ID="ID_828780226" MODIFIED="1522844509229" TEXT="panel">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1522333031065" ID="ID_1061548361" MODIFIED="1522844099895" TEXT="~/.local/share">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1522333037091" ID="ID_123394810" MODIFIED="1522333039215" TEXT="applications">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1522262285826" ID="ID_175305321" MODIFIED="1522262293803" TEXT="[filename].desktop"/>
 <node COLOR="#111111" CREATED="1522262338785" ID="ID_1340036741" MODIFIED="1522262345579" TEXT="datadir/applications/shinythings-webmirror.desktop">
@@ -101,13 +183,11 @@
       Name[nl]=WebSpiegel
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1522262202451" ID="ID_262444048" MODIFIED="1522262234676" TEXT="desktop-directories">
-<edge STYLE="bezier" WIDTH="thin"/>
+<node COLOR="#990000" CREATED="1522333039463" ID="ID_981139692" MODIFIED="1522333049029" TEXT="desktop-directories">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1522262305487" ID="ID_31196899" MODIFIED="1522262315264" TEXT="[filename].directory"/>
 <node COLOR="#111111" CREATED="1522262396596" ID="ID_570034949" MODIFIED="1522262481087" TEXT="datadir/applications/shinythings-webmirror-admin.desktop">
@@ -142,70 +222,29 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1522262213081" ID="ID_1420322208" MODIFIED="1522262267189">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      sysconfdir
-    </p>
-  </body>
-</html>
-</richcontent>
+</node>
+<node COLOR="#0033ff" CREATED="1524654272374" ID="ID_338599100" MODIFIED="1524654278779" POSITION="right" TEXT="Reload Config">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1524654279757" ID="ID_1919583690" MODIFIED="1524654282102" TEXT="lxpanelctl restart">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1522262213081" ID="ID_1101989460" MODIFIED="1522262276462" TEXT="menus/application-merged">
+</node>
+<node COLOR="#00b439" CREATED="1524654287385" ID="ID_1922311684" MODIFIED="1524654288057" TEXT="https://forum.lxde.org/viewtopic.php?f=8&amp;t=31164">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1522262317035" ID="ID_469535730" MODIFIED="1522262324646" TEXT="[filename].menu"/>
-<node COLOR="#111111" CREATED="1522262472759" ID="ID_1960287846" MODIFIED="1522262475018" TEXT="sysconfdir/menus/application-merged/shinythings-webmirror.menu">
-<node COLOR="#111111" CREATED="1522262539064" ID="ID_585737393" MODIFIED="1522262578546">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &lt;!DOCTYPE Menu PUBLIC &quot;-//freedesktop//DTD Menu 1.0//EN&quot; &quot;http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd&quot;&gt;
-    </p>
-    <p>
-      &lt;Menu&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;Name&gt;Applications&lt;/Name&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;Menu&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;Name&gt;WebMirror&lt;/Name&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;Directory&gt;shinythings-webmirror.directory&lt;/Directory&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;Include&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;Filename&gt;shinythings-webmirror.desktop&lt;/Filename&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/Include&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;/Menu&gt;
-    </p>
-    <p>
-      &lt;/Menu&gt;
-    </p>
-  </body>
-</html>
-</richcontent>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1522237200615" ID="ID_350307554" MODIFIED="1522324779944" POSITION="left" TEXT="Sound">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1523236522780" ID="ID_1438413641" MODIFIED="1523236523765" TEXT="https://askubuntu.com/questions/80384/where-are-the-lxde-sound-preferences">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1523236513552" ID="ID_610638847" MODIFIED="1523236518252" TEXT="dnf install pulseaudio pavucontrol">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>

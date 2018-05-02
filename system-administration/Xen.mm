@@ -468,10 +468,20 @@
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1449752170505" ID="ID_1865533764" MODIFIED="1518897540348" TEXT="/usr/lib/python2.7/site-packages/koan">
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1523807984447" ID="ID_1938693071" MODIFIED="1523807987827" POSITION="left" TEXT="Errors">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1449752170505" ID="ID_1865533764" MODIFIED="1523808865158" TEXT="/usr/lib/python2.7/site-packages/koan">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1449751164509" ID="ID_297540647" MODIFIED="1453809029886" TEXT="app.py">
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1523807957910" ID="ID_701748200" MODIFIED="1523808868791" TEXT="xen package needs to be installed">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1449751164509" ID="ID_297540647" MODIFIED="1523808878057" TEXT="app.py">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1449751199353" ID="ID_1120059142" MODIFIED="1449751230108">
 <richcontent TYPE="NODE"><html>
@@ -522,6 +532,23 @@
 </html></richcontent>
 </node>
 </node>
+</node>
+<node COLOR="#990000" CREATED="1523808846729" ID="ID_915419677" MODIFIED="1523808881282" TEXT="internal error: unsupported input bus usb">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1523808888016" ID="ID_611818274" MODIFIED="1523808890636" TEXT="virtinstall.py">
+<node COLOR="#111111" CREATED="1523808897892" ID="ID_933000740" MODIFIED="1523808912379">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cmd = &quot;virt-install <b><i><u>--input keyboard</u></i></b>&#160;&quot;&#160;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
