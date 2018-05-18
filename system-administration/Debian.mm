@@ -4,6 +4,174 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<node COLOR="#0033ff" CREATED="1525443780266" ID="ID_301869249" MODIFIED="1525443782370" POSITION="right" TEXT="rootfs">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1525443800348" ID="ID_835146825" MODIFIED="1525443801070" TEXT="https://olimex.wordpress.com/2014/07/21/how-to-create-bare-minimum-debian-wheezy-rootfs-from-scratch/">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1525443852070" ID="ID_1083252400" MODIFIED="1525443855031" TEXT="To create">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1525443805510" ID="ID_156355171" MODIFIED="1525444853925" TEXT="apt-get install qemu-user-static debootstrap binfmt-support qemu-system-arm">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1525443829748" ID="ID_742672828" MODIFIED="1525452462812">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      targetdir=rootfs
+    </p>
+    <p>
+      distro=stretch
+    </p>
+  </body>
+</html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1525443842508" ID="ID_1318395168" MODIFIED="1525443877992">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mkdir $targetdir
+    </p>
+    <p>
+      debootstrap --arch=armhf --foreign $distro $targetdir
+    </p>
+  </body>
+</html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1525443865714" ID="ID_1887422763" MODIFIED="1525443887125">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cp /usr/bin/qemu-arm-static $targetdir/usr/bin/
+    </p>
+    <p>
+      cp /etc/resolv.conf $targetdir/etc
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1525443892631" ID="ID_1870134531" MODIFIED="1525443897430" TEXT="chroot $targetdir">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1525443904003" ID="ID_1099887261" MODIFIED="1525443921028">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      distro=wheezy
+    </p>
+    <p>
+      export LANG=C
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1525443928199" ID="ID_67024809" MODIFIED="1525443930075" TEXT="/debootstrap/debootstrap --second-stage"/>
+<node COLOR="#111111" CREATED="1525443935159" ID="ID_731763282" MODIFIED="1525452434025">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cat &lt;&lt;EOT &gt; /etc/apt/sources.list
+    </p>
+    <p>
+      deb http://ftp.debian.org/debian $distro main contrib non-free
+    </p>
+    <p>
+      deb-src http://ftp.debian.org/debian $distro main contrib non-free
+    </p>
+    <p>
+      deb http://ftp.debian.org/debian $distro-updates main contrib non-free
+    </p>
+    <p>
+      deb-src http://ftp.debian.org/debian $distro-updates main contrib non-free
+    </p>
+    <p>
+      deb http://security.debian.org/debian-security $distro/updates main contrib non-free
+    </p>
+    <p>
+      deb-src http://security.debian.org/debian-security $distro/updates main contrib non-free
+    </p>
+    <p>
+      EOT
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1525443946171" ID="ID_205409691" MODIFIED="1525443948072" TEXT="apt-get update"/>
+<node COLOR="#111111" CREATED="1525443951547" ID="ID_453769862" MODIFIED="1525443956010">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      apt-get install locales dialog
+    </p>
+    <p>
+      dpkg-reconfigure locales
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1525443961639" ID="ID_1646190357" MODIFIED="1525443963724" TEXT="apt-get install openssh-server ntpdate"/>
+<node COLOR="#111111" CREATED="1525443979899" ID="ID_1383932169" MODIFIED="1525443981937" TEXT="passwd"/>
+<node COLOR="#111111" CREATED="1525443986119" ID="ID_1281826069" MODIFIED="1525443998539">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      echo &lt;&lt;EOT &gt;&gt; /etc/network/interfaces
+    </p>
+    <p>
+      allow-hotplug eth0
+    </p>
+    <p>
+      iface eth0 inet static
+    </p>
+    <p>
+      address 192.168.1.254
+    </p>
+    <p>
+      netmask 255.255.255.248
+    </p>
+    <p>
+      gateway 192.168.1.1
+    </p>
+    <p>
+      EOT
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="help"/>
+</node>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1511531808409" ID="ID_1879892581" MODIFIED="1511531811093" POSITION="right" TEXT="KDE">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -506,7 +674,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-3"/>
 </node>
-<node COLOR="#990000" CREATED="1518020513133" ID="ID_729732561" MODIFIED="1518020519240" TEXT="apt-getinstall vim">
+<node COLOR="#990000" CREATED="1518020513133" ID="ID_729732561" MODIFIED="1525787432991" TEXT="apt-get install vim">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-4"/>
 </node>

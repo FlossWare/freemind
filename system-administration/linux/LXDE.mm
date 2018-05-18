@@ -123,6 +123,10 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1525268544396" ID="ID_1195340731" MODIFIED="1525268555896" TEXT="~/.local/share/desktop-directories">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 <node COLOR="#00b439" CREATED="1522844101381" ID="ID_1615500707" MODIFIED="1522844123212" TEXT="~/.config/lxpanel/LXDE/panels">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

@@ -425,9 +425,24 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <node COLOR="#111111" CREATED="1524841408589" ID="ID_53492044" MODIFIED="1524841432425" TEXT="-fstype=fuse,...,port=PORT,..."/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1525787071785" ID="ID_1818473672" MODIFIED="1525787073030" TEXT="su">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1525787081349" ID="ID_1148487311" MODIFIED="1525787082136" TEXT="setgid: Operation not permitted ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1525787094602" ID="ID_1642166768" MODIFIED="1525787095533" TEXT="https://www.linuxquestions.org/questions/linux-newbie-8/setgid-operation-not-permitted-639559/"/>
+<node COLOR="#111111" CREATED="1525787100882" ID="ID_1370380428" MODIFIED="1525787114677" TEXT="chmod +s /bin/su"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1416233634117" ID="ID_98572430" MODIFIED="1444761601102" TEXT="sudo">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1525787622031" ID="ID_1268344841" MODIFIED="1525787624299" TEXT="chmod +s /usr/bin/sudo">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1525787643053" ID="ID_1648113856" MODIFIED="1525787670321" TEXT="sudo: /usr/bin/sudo must be owned by uid 0 and have the setuid bit set">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 <node COLOR="#990000" CREATED="1416233637048" ID="ID_490201756" MODIFIED="1416757419910" TEXT="visudo">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>

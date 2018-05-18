@@ -4,6 +4,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<node COLOR="#0033ff" CREATED="1526662710789" ID="ID_113420498" MODIFIED="1526662723220" POSITION="right" TEXT="mysql -u [user] -p [password]">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1459278645834" ID="ID_1984546143" MODIFIED="1459278648991" POSITION="right" TEXT="SELECT TABLE_NAME FROM information_schema.TABLES; ">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
