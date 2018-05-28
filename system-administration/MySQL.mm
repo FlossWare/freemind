@@ -4,7 +4,7 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1526662710789" ID="ID_113420498" MODIFIED="1526662723220" POSITION="right" TEXT="mysql -u [user] -p [password]">
+<node COLOR="#0033ff" CREATED="1526662710789" ID="ID_113420498" MODIFIED="1527528550710" POSITION="right" TEXT="mysql -h [host] -u [user] -p [password] [db]">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
@@ -19,6 +19,14 @@
 <node COLOR="#0033ff" CREATED="1461329119409" ID="ID_812423857" MODIFIED="1468504592979" POSITION="right" TEXT="describe [schema].[table name];">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1527528202170" ID="ID_430235105" MODIFIED="1527528211688" POSITION="right" TEXT="/etc/mysql/mariadb.conf.d/50-server.cnf">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1527528212648" ID="ID_632078973" MODIFIED="1527528217192" TEXT="bind-address">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1508433405575" ID="ID_753869116" MODIFIED="1508433407391" POSITION="right" TEXT="user">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
