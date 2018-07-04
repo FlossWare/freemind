@@ -150,40 +150,6 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
-<node COLOR="#0033ff" CREATED="1459278378257" ID="ID_1165444376" MODIFIED="1459278380129" POSITION="right" TEXT="DB">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1527528702007" ID="ID_1508563352" MODIFIED="1527528706343" TEXT="RDBMS">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1459278621351" ID="ID_581251424" LINK="MySQL.mm" MODIFIED="1527528711115" TEXT="MySQL">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1527525839971" ID="ID_1471128589" LINK="Postgresql.mm" MODIFIED="1527528711117" TEXT="Postgresql">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1527528694489" ID="ID_1496590302" MODIFIED="1527528697669" TEXT="Document">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1527528729449" ID="ID_1452771460" LINK="Mongo.mm" MODIFIED="1527528729451" TEXT="Mongo">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1469206812834" ID="ID_1478183056" LINK="Solr.mm" MODIFIED="1527528700114" TEXT="Solr">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1471617862161" ID="ID_196406846" LINK="Graph%20databases.mm" MODIFIED="1471617862162" TEXT="Graph databases">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1471618335653" ID="ID_1989366039" LINK="Neo4j.mm" MODIFIED="1471618335654" TEXT="Neo4j">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-</node>
 <node COLOR="#0033ff" CREATED="1425994550324" ID="ID_1066222231" MODIFIED="1425994558570" POSITION="left" TEXT="Configuration Management">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

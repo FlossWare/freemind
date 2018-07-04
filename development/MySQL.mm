@@ -4,34 +4,62 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1363289440422" ID="ID_1041265772" MODIFIED="1363289443378" POSITION="right" TEXT=" show tables;">
+<node COLOR="#0033ff" CREATED="1530725018211" ID="ID_785380968" MODIFIED="1530725025278" POSITION="right" TEXT="select">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1459278645834" ID="ID_1984546143" MODIFIED="1530725028014" TEXT="SELECT TABLE_NAME FROM information_schema.TABLES; ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#0033ff" CREATED="1363289444701" ID="ID_214579477" MODIFIED="1363289448684" POSITION="right" TEXT="desc [table];">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1459795769190" ID="ID_574603753" MODIFIED="1530725030211" TEXT="select table_schema, table_name, engine, table_rows, data_length from information_schema.tables where table_schema like &apos;[schema]%&apos;;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#0033ff" CREATED="1526662710789" ID="ID_113420498" MODIFIED="1526662723220" POSITION="left" TEXT="mysql -u [user] -p [password]">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
 </node>
-<node COLOR="#0033ff" CREATED="1459278645834" ID="ID_1984546143" MODIFIED="1459278648991" POSITION="left" TEXT="SELECT TABLE_NAME FROM information_schema.TABLES; ">
+<node COLOR="#0033ff" CREATED="1530724993071" ID="ID_635342936" MODIFIED="1530724994219" POSITION="right" TEXT="connect">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1526662710789" ID="ID_113420498" MODIFIED="1530724996904" TEXT="mysql -h [host] -u [user] -p [password] [db]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#0033ff" CREATED="1461321877605" ID="ID_453428742" MODIFIED="1468504588079" POSITION="left" TEXT="show databases;">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
 </node>
-<node COLOR="#0033ff" CREATED="1461329119409" ID="ID_812423857" MODIFIED="1468504592979" POSITION="left" TEXT="describe [schema].[table name];">
+<node COLOR="#0033ff" CREATED="1530724962277" ID="ID_511743163" MODIFIED="1530724963832" POSITION="right" TEXT="show">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1363289440422" ID="ID_1041265772" MODIFIED="1530725039135" TEXT="show tables;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1461321877605" ID="ID_453428742" MODIFIED="1530724967957" TEXT="show databases;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1530724971020" ID="ID_1503851898" MODIFIED="1530724974515" POSITION="right" TEXT="describe">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1461329119409" ID="ID_812423857" MODIFIED="1530724977010" TEXT="describe [schema].[table name];">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1363289444701" ID="ID_214579477" MODIFIED="1530724978585" TEXT="desc [table];">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1527528202170" ID="ID_430235105" MODIFIED="1527528211688" POSITION="left" TEXT="/etc/mysql/mariadb.conf.d/50-server.cnf">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1527528212648" ID="ID_632078973" MODIFIED="1527528217192" TEXT="bind-address">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1508433405575" ID="ID_753869116" MODIFIED="1508433407391" POSITION="left" TEXT="user">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1508433413111" ID="ID_369846564" MODIFIED="1508433414383" TEXT="create">
+<node COLOR="#00b439" CREATED="1508433413111" ID="ID_369846564" MODIFIED="1530725006489" TEXT="create">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1461319420435" ID="ID_869673486" MODIFIED="1508433417099" TEXT="CREATE USER &apos;newuser&apos;@&apos;localhost&apos; IDENTIFIED BY &apos;password&apos;;">
@@ -75,10 +103,6 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1459795769190" ID="ID_574603753" MODIFIED="1468504675348" POSITION="left" TEXT="select table_schema, table_name, engine, table_rows, data_length from information_schema.tables where table_schema like &apos;[schema]%&apos;;">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
 </node>
 </node>
 </map>
