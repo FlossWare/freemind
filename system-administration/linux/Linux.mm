@@ -103,7 +103,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1417273376905" FOLDED="true" ID="ID_1264126532" MODIFIED="1512843341350" TEXT="Handbrake">
+<node COLOR="#00b439" CREATED="1417273376905" ID="ID_1264126532" MODIFIED="1527981566852" TEXT="Handbrake">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1417273406665" ID="ID_1840031309" MODIFIED="1417354059104" TEXT="https://handbrake.fr/downloads.php">
@@ -446,6 +446,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <node COLOR="#990000" CREATED="1416233637048" ID="ID_490201756" MODIFIED="1416757419910" TEXT="visudo">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1527009381174" ID="ID_1619762595" MODIFIED="1527009383142" TEXT="Everyone">
 <node COLOR="#111111" CREATED="1416233664904" ID="ID_726467903" MODIFIED="1502307319178">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -467,6 +468,27 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1527009385975" ID="ID_1010263003" MODIFIED="1527009388619" TEXT="Select users">
+<node COLOR="#111111" CREATED="1527009364736" ID="ID_1410833716" MODIFIED="1527009378018">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      root&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ALL=(ALL:ALL) ALL
+    </p>
+    <p>
+      flossware&#160;&#160;&#160;&#160;&#160;&#160;&#160;ALL=(ALL:ALL) NOPASSWD:ALL
+    </p>
+    <p>
+      sfloess&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ALL=(ALL:ALL) NOPASSWD:ALL
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1416233708715" ID="ID_1811662791" MODIFIED="1416757419911" TEXT="https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file-on-ubuntu-and-centos">

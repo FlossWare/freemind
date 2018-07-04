@@ -444,7 +444,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1518028563512" ID="ID_934564322" MODIFIED="1518028570361">
+<node COLOR="#00b439" CREATED="1529749454828" ID="ID_557637660" MODIFIED="1529749457433" TEXT="Maybe?">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1518028563512" ID="ID_934564322" MODIFIED="1529749459304">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -459,7 +462,48 @@
   </body>
 </html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1529749463883" ID="ID_1342001055" MODIFIED="1529749469691" TEXT="apt-get install aptitude -y">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1529749475974" ID="ID_1958952366" MODIFIED="1529749478104" TEXT="aptitude install python-django=1.7.11-1+deb8u2 python-django-common=1.7.11-1+deb8u2">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1529749503832" ID="ID_1592857498" MODIFIED="1529749509826" TEXT="/usr/local/share/cobbler/web/settings.py ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1529749511008" ID="ID_1325952838" MODIFIED="1529749541038" TEXT="Set any old value for SECRET_KEY">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1529749541579" ID="ID_335466741" MODIFIED="1529749551367" TEXT="SECRET_KEY = &apos;cobblerisawesome&apos;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1529687524649" ID="ID_1156322600" MODIFIED="1529687526703" POSITION="right" TEXT="package">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1527257724420" ID="ID_685094436" MODIFIED="1529687530700" TEXT="reinstall">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1527257729121" ID="ID_1653016466" MODIFIED="1529687528119" TEXT="apt-get install --reinstall [package]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1529687531117" ID="ID_1586257244" MODIFIED="1529687532377" TEXT="version">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1529687533140" ID="ID_1798505654" MODIFIED="1529687544064" TEXT="dpkg -s [package] | grep ersion">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1529687548809" ID="ID_1411534209" MODIFIED="1529687566741" TEXT="dpkg -s python-django | grep ersion">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1460310250234" ID="ID_6847889" MODIFIED="1460310254177" POSITION="right" TEXT="squeeze">

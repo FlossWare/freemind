@@ -32,6 +32,25 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1528200227519" ID="ID_1966663290" MODIFIED="1528200236239" POSITION="right" TEXT="Out of space">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1528200237521" ID="ID_143260922" MODIFIED="1528200269092" TEXT="reboot into a non-Xen kernel">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#00b439" CREATED="1528200250569" ID="ID_1202985466" MODIFIED="1528200270762" TEXT="rm -rf /var/lib/xenstored/tdb*">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#00b439" CREATED="1528200259574" ID="ID_518604940" MODIFIED="1528200272467" TEXT="reboot into a Xen kernel">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-3"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1447438872022" ID="ID_620470296" MODIFIED="1447773221682" POSITION="right" TEXT="Bridge">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -268,7 +287,7 @@
 <node COLOR="#990000" CREATED="1445481422313" ID="ID_1434336122" MODIFIED="1518903420045" TEXT="cobbler">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1449752170505" ID="ID_77431057" MODIFIED="1518903420046" TEXT="/usr/lib/python2.7/site-packages/koan">
+<node COLOR="#111111" CREATED="1449752170505" ID="ID_77431057" MODIFIED="1530133400958" TEXT="/usr/lib/python2.7/site-packages/koan">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1445481530374" ID="ID_1269279521" MODIFIED="1453809029886" TEXT="utils.py ">
@@ -547,8 +566,7 @@
       cmd = &quot;virt-install <b><i><u>--input keyboard</u></i></b>&#160;&quot;&#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -557,6 +575,10 @@
 <node COLOR="#0033ff" CREATED="1468931228499" ID="ID_1136415176" MODIFIED="1468931232663" POSITION="right" TEXT="Change dom0 memory">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1527184533606" ID="ID_1303222942" MODIFIED="1527184543369" TEXT="https://wiki.centos.org/HowTos/Grub2">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 <node COLOR="#00b439" CREATED="1468931239731" ID="ID_1523826180" MODIFIED="1468931306222" TEXT="/etc/default/grub">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -582,6 +604,16 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#00b439" CREATED="1527183199579" ID="ID_1626295235" MODIFIED="1527183203747" TEXT="grep &quot;^menuentry&quot; /boot/grub2/grub.cfg | cut -d &quot;&apos;&quot; -f2">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#00b439" CREATED="1527183219588" ID="ID_521672350" MODIFIED="1527183225585" TEXT="grub2-set-default &apos;CentOS Linux, with Xen hypervisor&apos;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-4"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1449748131669" ID="ID_351082137" MODIFIED="1521380127134" POSITION="left" TEXT="Fedora">

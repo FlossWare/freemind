@@ -171,6 +171,21 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1469206812834" ID="ID_1478183056" LINK="Solr.mm" MODIFIED="1530724172019" TEXT="Solr">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1530630864803" ID="ID_553682239" LINK="Fusion.mm" MODIFIED="1530724203517" TEXT="Fusion">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1471617862161" ID="ID_196406846" LINK="Graph%20databases.mm" MODIFIED="1530724228316" TEXT="Graph">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1471618335653" ID="ID_1989366039" LINK="Neo4j.mm" MODIFIED="1530724254007" TEXT="Neo4j">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 </node>
 </map>

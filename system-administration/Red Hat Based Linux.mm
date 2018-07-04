@@ -173,6 +173,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1530200059518" ID="ID_337508881" MODIFIED="1530200062021" TEXT="Find version">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1530200063935" ID="ID_1846465711" MODIFIED="1530200075062" TEXT="rpm -qa [package name]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1498919559341" ID="ID_349235874" MODIFIED="1498919560968" POSITION="right" TEXT="entropy">
 <edge STYLE="sharp_bezier" WIDTH="8"/>

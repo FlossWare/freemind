@@ -91,7 +91,7 @@
 <node COLOR="#990000" CREATED="1292960115561" ID="ID_1024466186" MODIFIED="1292960117751" TEXT="Disable">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1292960141081" ID="ID_1595371417" MODIFIED="1359726824974" TEXT="add --no-ext-diff to your git-diff command"/>
-<node COLOR="#111111" CREATED="1519755381980" ID="ID_1936464023" MODIFIED="1519755383668" TEXT="https://stackoverflow.com/questions/19936187/git-diff-overriding-gitconfig-external-tool#19936510"/>
+<node COLOR="#111111" CREATED="1519755381980" ID="ID_1936464023" MODIFIED="1530199071840" TEXT="https://stackoverflow.com/questions/19936187/git-diff-overriding-gitconfig-external-tool#19936510"/>
 </node>
 <node COLOR="#990000" CREATED="1292960180793" ID="ID_1782644547" MODIFIED="1292960183308" TEXT="Reference">
 <font NAME="SansSerif" SIZE="14"/>
@@ -126,7 +126,7 @@
 <node COLOR="#00b439" CREATED="1369316253326" ID="ID_1436075855" MODIFIED="1369316254581" TEXT="Rename">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1369316265686" ID="ID_466608291" MODIFIED="1369316278742" TEXT="git branch -m [old_branch_name] [new_branch_name]">
+<node COLOR="#990000" CREATED="1369316265686" ID="ID_466608291" MODIFIED="1530199071839" TEXT="git branch -m [old_branch_name] [new_branch_name]">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>

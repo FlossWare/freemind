@@ -1,10 +1,10 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1368032584570" ID="ID_1730073714" LINK="REST.mm" MODIFIED="1368032601186" TEXT="Representational State Transfer">
+<node COLOR="#000000" CREATED="1368032584570" ID="ID_1730073714" LINK="REST.mm" MODIFIED="1530199658203" TEXT="Representational State Transfer">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1364490885915" ID="ID_146694044" MODIFIED="1368032675043" POSITION="right" TEXT="hybrid style derived from several of the network-based architectural styles andcombined with additional constraints that define a uniform connector interface.  ">
+<node COLOR="#0033ff" CREATED="1364490885915" ID="ID_146694044" MODIFIED="1530199679498" POSITION="right" TEXT="hybrid style derived from several of the network-based architectural styles andcombined with additional constraints that define a uniform connector interface.  ">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
