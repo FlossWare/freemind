@@ -57,6 +57,32 @@
 <node COLOR="#0033ff" CREATED="1526668217339" ID="ID_1002977450" MODIFIED="1526668219615" POSITION="right" TEXT="3.x">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1531508350715" ID="ID_1534269764" MODIFIED="1531508352155" TEXT="Commands">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1531508361515" ID="ID_612916664" MODIFIED="1531508363819" TEXT="oc login --insecure-skip-tls-verify">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1531508364427" ID="ID_356193915" MODIFIED="1531508370912" TEXT="oc create --insecure-skip-tls-verify  -f $IMAGESTREAMDIR/image-streams-centos7.json -n openshift">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1531488856461" ID="ID_970841286" MODIFIED="1531488858185" TEXT="Setup">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1531488859960" ID="ID_816969169" MODIFIED="1531488863119" TEXT="Local">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1531494662694" ID="ID_1319728227" MODIFIED="1531494674002" TEXT="systemctl start docker">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1531488863739" ID="ID_317075503" MODIFIED="1531494677455" TEXT="https://docs.openshift.org/latest/getting_started/administrators.html#downloading-the-binary">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1531488872552" ID="ID_792392621" MODIFIED="1531494681171" TEXT="https://docs.openshift.org/latest/install_config/imagestreams_templates.html#install-config-imagestreams-templates">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1526668224415" ID="ID_1143882048" MODIFIED="1526668372633" TEXT="ports">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -97,8 +123,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;targetPort: [exposed port from pod]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1526668474209" ID="ID_1638392316" MODIFIED="1526668480194">
 <richcontent TYPE="NODE"><html>
@@ -128,8 +153,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;targetPort: 5000
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

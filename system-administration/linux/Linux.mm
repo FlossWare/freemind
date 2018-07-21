@@ -279,6 +279,14 @@
 <node COLOR="#111111" CREATED="1417366764287" ID="ID_262644827" MODIFIED="1417366766575" TEXT="prints it"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1532184861071" ID="ID_539046323" MODIFIED="1532184861858" TEXT="ls">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1532184862559" ID="ID_26939158" MODIFIED="1532184865715" TEXT="sort by name">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1532184867483" ID="ID_1059814808" MODIFIED="1532184876961" TEXT="ls -latr [dir] | sort -k9,9"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1460827077067" ID="ID_814413066" MODIFIED="1468574801875" TEXT="mount -t iso9660 /dev/cdrom /media/">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -1205,6 +1213,10 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 <node COLOR="#00b439" CREATED="1354890513222" ID="ID_1488782830" LINK="DVD.mm" MODIFIED="1416757573446" TEXT="DVD">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1531082383371" ID="ID_128660782" LINK="Fuse.mm" MODIFIED="1531082383373" TEXT="Fuse">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

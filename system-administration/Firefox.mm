@@ -24,5 +24,13 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1532009857371" ID="ID_769415363" MODIFIED="1532009861425" POSITION="right" TEXT="download helper">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1532009865543" ID="ID_1397302031" MODIFIED="1532009890059" TEXT="net.downloadhelper.coapp-linux-64 install [--system | --user]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>

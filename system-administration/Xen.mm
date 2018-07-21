@@ -122,78 +122,82 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1326646097429" ID="ID_779496107" MODIFIED="1326646101499" POSITION="right" TEXT="List guest disk">
+<node COLOR="#0033ff" CREATED="1530796145650" ID="ID_1045093944" MODIFIED="1530796149723" POSITION="right" TEXT="Guest disk">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1326646270300" ID="ID_1056154076" MODIFIED="1326646292675" TEXT="commands">
+<node COLOR="#00b439" CREATED="1326646097429" ID="ID_779496107" MODIFIED="1530796161988" TEXT="List">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1326646104281" ID="ID_1651877953" MODIFIED="1326646275065" TEXT="kpartx -l [path to vm]">
+<node COLOR="#990000" CREATED="1326646270300" ID="ID_1056154076" MODIFIED="1530796154277" TEXT="commands">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1326646276369" ID="ID_1347573493" MODIFIED="1326646278007" TEXT="examples">
+<node COLOR="#111111" CREATED="1326646104281" ID="ID_1651877953" MODIFIED="1530796154278" TEXT="kpartx -l [path to vm]">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1326646124948" ID="ID_1966368659" MODIFIED="1326646279023" TEXT="kpartx -l /virt/xen/i386/fedora-workstation-disk0">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1326646073650" ID="ID_770538721" MODIFIED="1326646088510" POSITION="right" TEXT="Mount guest disk">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1326646280527" ID="ID_1250415172" MODIFIED="1326646282738" TEXT="commands">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1326646142588" ID="ID_1199924539" MODIFIED="1326646283570" TEXT="kpartx -a [full path to vm]">
+<node COLOR="#990000" CREATED="1326646276369" ID="ID_1347573493" MODIFIED="1530796154279" TEXT="examples">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1326646190916" ID="ID_1362804861" MODIFIED="1326646299240" TEXT="mount /dev/mapper/[loop device] [local mount point] -t [file system type]">
+<node COLOR="#111111" CREATED="1326646124948" ID="ID_1966368659" MODIFIED="1530796154279" TEXT="kpartx -l /virt/xen/i386/fedora-workstation-disk0">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1326646286251" ID="ID_350293835" MODIFIED="1326646287620" TEXT="examples">
+</node>
+<node COLOR="#00b439" CREATED="1326646073650" ID="ID_770538721" MODIFIED="1530796164940" TEXT="Mount">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1326646320446" ID="ID_1351666150" MODIFIED="1326646322870" TEXT="kpartx -a /virt/xen/i386/fedora-workstation-disk0">
+<node COLOR="#990000" CREATED="1326646280527" ID="ID_1250415172" MODIFIED="1530796154283" TEXT="commands">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1326646142588" ID="ID_1199924539" MODIFIED="1530796154283" TEXT="kpartx -a [full path to vm]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#990000" CREATED="1326646342282" ID="ID_977062734" MODIFIED="1326646348889" TEXT="mkdir -p /mnt/tmp">
+<node COLOR="#111111" CREATED="1326646190916" ID="ID_1362804861" MODIFIED="1530796154284" TEXT="mount /dev/mapper/[loop device] [local mount point] -t [file system type]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1326646286251" ID="ID_350293835" MODIFIED="1530796154285" TEXT="examples">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1326646320446" ID="ID_1351666150" MODIFIED="1530796154285" TEXT="kpartx -a /virt/xen/i386/fedora-workstation-disk0">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#990000" CREATED="1326646331094" ID="ID_1358932894" MODIFIED="1326646333455" TEXT="mount /dev/mapper/loop2p3 /mnt/tmp/ -t ext3">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1326646342282" ID="ID_977062734" MODIFIED="1530796154286" TEXT="mkdir -p /mnt/tmp">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1326646331094" ID="ID_1358932894" MODIFIED="1530796154286" TEXT="mount /dev/mapper/loop2p3 /mnt/tmp/ -t ext3">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1326646161833" ID="ID_1551072644" MODIFIED="1326646166539" POSITION="right" TEXT="Unmount guest disk">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1326646302786" ID="ID_1909646948" MODIFIED="1326646304362" TEXT="commands">
+<node COLOR="#00b439" CREATED="1326646161833" ID="ID_1551072644" MODIFIED="1530796167926" TEXT="Unmount">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1326646190916" ID="ID_199813141" MODIFIED="1326646305861" TEXT="umount [local mount point]">
+<node COLOR="#990000" CREATED="1326646302786" ID="ID_1909646948" MODIFIED="1530796154290" TEXT="commands">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1326646190916" ID="ID_199813141" MODIFIED="1530796154291" TEXT="umount [local mount point]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#990000" CREATED="1326646142588" ID="ID_318016545" MODIFIED="1326646305864" TEXT="kpartx -d [full path to vm]">
+<node COLOR="#111111" CREATED="1326646142588" ID="ID_318016545" MODIFIED="1530796154291" TEXT="kpartx -d [full path to vm]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1326646307051" ID="ID_1256761687" MODIFIED="1530796154292" TEXT="examples">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1326646361104" ID="ID_1666637680" MODIFIED="1530796154293" TEXT="umount /mnt/tmp/">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
+<node COLOR="#111111" CREATED="1326646364113" ID="ID_292567219" MODIFIED="1530796154293" TEXT="kpartx -d /virt/xen/i386/fedora-workstation-disk0">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#00b439" CREATED="1326646307051" ID="ID_1256761687" MODIFIED="1326646308420" TEXT="examples">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1326646361104" ID="ID_1666637680" MODIFIED="1326646363507" TEXT="umount /mnt/tmp/">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1326646364113" ID="ID_292567219" MODIFIED="1326646372156" TEXT="kpartx -d /virt/xen/i386/fedora-workstation-disk0">
-<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>
@@ -246,7 +250,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1518903404616" ID="ID_1507863533" MODIFIED="1521403646101" POSITION="left" TEXT="CentOS">
+<node COLOR="#0033ff" CREATED="1518903404616" FOLDED="true" ID="ID_1507863533" MODIFIED="1530848209824" POSITION="left" TEXT="CentOS">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1387296666581" FOLDED="true" ID="ID_1872438747" MODIFIED="1521397162855" TEXT="6.x">
@@ -713,7 +717,7 @@
 <node COLOR="#111111" CREATED="1521475801135" ID="ID_1955633410" MODIFIED="1521475802477" TEXT="yum"/>
 <node COLOR="#111111" CREATED="1449748531148" ID="ID_1297234225" MODIFIED="1521402355139" TEXT="libvirt-daemon-driver-xen libvirt-daemon-config-network libvirt-daemon-driver-network virt-manager virt-viewer libvirt-daemon-driver-libxl libvirt-daemon-xen koan"/>
 <node COLOR="#111111" CREATED="1449752146489" ID="ID_1882132519" MODIFIED="1449752149893" TEXT="@virtualization"/>
-<node COLOR="#111111" CREATED="1449748540052" ID="ID_296512047" MODIFIED="1521424458299" TEXT="tigervnc libcurl-devel gcc redhat-rpm-config python2-devel openssl-devel "/>
+<node COLOR="#111111" CREATED="1449748540052" ID="ID_296512047" MODIFIED="1530847788510" TEXT="tigervnc libcurl-devel gcc redhat-rpm-config python2-devel openssl-devel "/>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1521402476832" ID="ID_716293309" MODIFIED="1521426435377" TEXT="pip install urlgrabber pycurl">
@@ -864,6 +868,8 @@
   </body>
 </html></richcontent>
 </node>
+<node COLOR="#111111" CREATED="1530849307657" ID="ID_936314169" MODIFIED="1530849330884" TEXT="i386-pc/module2.mod not found"/>
+<node COLOR="#111111" CREATED="1530849592677" ID="ID_1018479360" MODIFIED="1530849600791" TEXT="/grub2/i386-pc"/>
 </node>
 </node>
 </node>

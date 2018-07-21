@@ -469,7 +469,14 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1529749475974" ID="ID_1958952366" MODIFIED="1529749478104" TEXT="aptitude install python-django=1.7.11-1+deb8u2 python-django-common=1.7.11-1+deb8u2">
+<node COLOR="#00b439" CREATED="1531186330759" ID="ID_1345529220" MODIFIED="1531186351006" TEXT="apt-cache showpkg python-django">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1531186367178" ID="ID_1107269222" MODIFIED="1531186367986" TEXT="https://askubuntu.com/questions/138284/how-to-downgrade-a-package-via-apt-get#138327">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1529749475974" ID="ID_1958952366" MODIFIED="1531186329287" TEXT="aptitude install python-django=1.7.11-1+deb8u3 python-django-common=1.7.11-1+deb8u3">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

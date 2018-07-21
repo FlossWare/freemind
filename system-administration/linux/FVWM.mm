@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1269088464921" ID="ID_1928601631" LINK="Linux.mm" MODIFIED="1288889496033" TEXT="FVWM">
 <font NAME="SansSerif" SIZE="20"/>
@@ -6,9 +6,13 @@
 <node COLOR="#0033ff" CREATED="1295705484518" ID="ID_574019254" MODIFIED="1295705706387" POSITION="right" TEXT="Building">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1295705473992" ID="ID_1117611842" MODIFIED="1295705488814" TEXT="yum -y install gtk+-devel libXt-devel libXpm-devel libXrender-devel librsvg2-devel">
+<node COLOR="#00b439" CREATED="1532097520350" ID="ID_832184315" MODIFIED="1532097522154" TEXT="install">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1295705473992" ID="ID_1117611842" MODIFIED="1532097530153" TEXT="gtk+-devel libXt-devel libXpm-devel libXrender-devel librsvg2-devel libreadline-devel librplay-devel">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1270213487757" ID="ID_1992963501" MODIFIED="1295699934249" POSITION="right" TEXT="fvwmtabs">

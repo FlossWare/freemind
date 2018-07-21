@@ -160,6 +160,14 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1530894600686" ID="ID_287533189" MODIFIED="1531942616217" POSITION="left" TEXT="Messaging">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1530894621652" ID="ID_1194790227" LINK="ActiveMQ.mm" MODIFIED="1530894621654" TEXT="ActiveMQ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1390752350973" ID="ID_263591765" MODIFIED="1390752358712" POSITION="left" TEXT="Database">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
