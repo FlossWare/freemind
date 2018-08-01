@@ -9,7 +9,7 @@
 <node COLOR="#00b439" CREATED="1532097520350" ID="ID_832184315" MODIFIED="1532097522154" TEXT="install">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1295705473992" ID="ID_1117611842" MODIFIED="1532097530153" TEXT="gtk+-devel libXt-devel libXpm-devel libXrender-devel librsvg2-devel libreadline-devel librplay-devel">
+<node COLOR="#990000" CREATED="1295705473992" ID="ID_1117611842" MODIFIED="1532355310203" TEXT="gcc gtk+-devel libXt-devel libXpm-devel libXrender-devel librsvg2-devel readline-devel libstroke-devel libXcursor-devel libXinerama-devel libXft-devel imlib-devel">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>

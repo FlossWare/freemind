@@ -476,9 +476,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1529749475974" ID="ID_1958952366" MODIFIED="1531186329287" TEXT="aptitude install python-django=1.7.11-1+deb8u3 python-django-common=1.7.11-1+deb8u3">
+<node COLOR="#00b439" CREATED="1532351361556" ID="ID_498008015" MODIFIED="1532351367764" TEXT="Downgrade django">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1529749475974" ID="ID_1958952366" MODIFIED="1532351369994" TEXT="aptitude install python-django=1.7.11-1+deb8u3 python-django-common=1.7.11-1+deb8u3">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1529749503832" ID="ID_1592857498" MODIFIED="1529749509826" TEXT="/usr/local/share/cobbler/web/settings.py ">
 <edge STYLE="bezier" WIDTH="thin"/>

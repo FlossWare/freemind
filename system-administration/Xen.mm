@@ -620,6 +620,224 @@
 <icon BUILTIN="full-4"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1532520916772" ID="ID_1659359593" MODIFIED="1532521107660" POSITION="right" TEXT="Install VM w/ virsh">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1532521110842" ID="ID_932237133" MODIFIED="1532521117174" TEXT="Fedora 28">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1532520945072" ID="ID_737211005" MODIFIED="1532521119370">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      virt-install \
+    </p>
+    <p>
+      --connect xen:/// \
+    </p>
+    <p>
+      --paravirt \
+    </p>
+    <p>
+      --name fedora-28-xen \
+    </p>
+    <p>
+      --ram 2048 \
+    </p>
+    <p>
+      --disk size=20 \
+    </p>
+    <p>
+      --vcpus 2 \
+    </p>
+    <p>
+      --os-type linux \
+    </p>
+    <p>
+      --os-variant virtio26 \
+    </p>
+    <p>
+      --network bridge=bridge0 \
+    </p>
+    <p>
+      --graphics none \
+    </p>
+    <p>
+      --location 'http://192.168.168.31/cblr/links/Fedora-28-x86_64/' \
+    </p>
+    <p>
+      --extra-args 'text console=ttyS0 utf8 console=hvc0'
+    </p>
+  </body>
+</html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1532521161742" ID="ID_290883090" MODIFIED="1532521168236">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      virt-install \
+    </p>
+    <p>
+      --connect xen:/// \
+    </p>
+    <p>
+      --paravirt \
+    </p>
+    <p>
+      --name workstation \
+    </p>
+    <p>
+      --ram 3192 \
+    </p>
+    <p>
+      --disk size=25 \
+    </p>
+    <p>
+      --vcpus 2 \
+    </p>
+    <p>
+      --os-type linux \
+    </p>
+    <p>
+      --os-variant virtio26 \
+    </p>
+    <p>
+      --network bridge=bridge0 \
+    </p>
+    <p>
+      --graphics vga \
+    </p>
+    <p>
+      --location 'http://192.168.168.31/cblr/links/Fedora-28-x86_64/' \
+    </p>
+    <p>
+      --extra-args 'ks=http://192.168.168.31/kickstart/workstation.ks text console=ttyS0 utf8 console=hvc0'
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1532521121578" ID="ID_153645207" MODIFIED="1532521123358" TEXT="Atomic">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1532521125202" ID="ID_1574468395" MODIFIED="1532521126934" TEXT="CentOS">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1532521038462" ID="ID_788390219" MODIFIED="1532521130830">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      virt-install \
+    </p>
+    <p>
+      --connect xen:/// \
+    </p>
+    <p>
+      --paravirt \
+    </p>
+    <p>
+      --name centos-7-xen \
+    </p>
+    <p>
+      --ram 2048 \
+    </p>
+    <p>
+      --disk size=20 \
+    </p>
+    <p>
+      --vcpus 2 \
+    </p>
+    <p>
+      --os-type linux \
+    </p>
+    <p>
+      --os-variant virtio26 \
+    </p>
+    <p>
+      --network bridge=bridge0 \
+    </p>
+    <p>
+      --graphics vga \
+    </p>
+    <p>
+      --location 'http://192.168.168.31/cblr/links/CentOS-7-Atomic-x86_64/' \
+    </p>
+    <p>
+      --extra-args 'ks=http://192.168.168.31/kickstart/centos-7-atomic.ks text console=ttyS0 utf8 console=hvc0'
+    </p>
+  </body>
+</html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1532521127314" ID="ID_715338360" MODIFIED="1532521128530" TEXT="RHEL">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1532521086062" ID="ID_1945523968" MODIFIED="1532521133225">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      virt-install \
+    </p>
+    <p>
+      --connect xen:/// \
+    </p>
+    <p>
+      --paravirt \
+    </p>
+    <p>
+      --name rhel-7-atomic-xen \
+    </p>
+    <p>
+      --ram 2048 \
+    </p>
+    <p>
+      --disk size=20 \
+    </p>
+    <p>
+      --vcpus 2 \
+    </p>
+    <p>
+      --os-type linux \
+    </p>
+    <p>
+      --os-variant virtio26 \
+    </p>
+    <p>
+      --network bridge=bridge0 \
+    </p>
+    <p>
+      --graphics vga \
+    </p>
+    <p>
+      --location 'http://192.168.168.31/cblr/links/RHEL-7-Atomic-x86_64/' \
+    </p>
+    <p>
+      --extra-args 'ks=http://192.168.168.31/kickstart/centos-7-atomic.ks text console=ttyS0 utf8 console=hvc0'
+    </p>
+  </body>
+</html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1449748131669" ID="ID_351082137" MODIFIED="1521380127134" POSITION="left" TEXT="Fedora">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

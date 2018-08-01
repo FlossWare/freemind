@@ -1339,6 +1339,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+<node COLOR="#111111" CREATED="1532350748816" ID="ID_902197522" MODIFIED="1532350751239" TEXT="lvextend -l +100%FREE /dev/mapper/fedora_laptop-root -r"/>
 <node COLOR="#111111" CREATED="1459777625879" ID="ID_1967733184" MODIFIED="1466348654727" TEXT="lvremove /dev/rhel/home">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="12"/>
@@ -1359,6 +1360,36 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1533155918999" ID="ID_647150267" MODIFIED="1533155920890" POSITION="left" TEXT="Grubby">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1533155962814" ID="ID_184456914" MODIFIED="1533155965651" TEXT="https://docs-old.fedoraproject.org/en-US/Fedora/23/html/System_Administrators_Guide/sec-Configuring_GRUB_2_Using_the_grubby_Tool.html">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1533155867643" ID="ID_113145429" MODIFIED="1533155922809" TEXT="Console blanking">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1533155882554" ID="ID_1088271830" MODIFIED="1533155922809" TEXT="grubby --update-kernel=ALL --args=consoleblank=[seconds]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1533155915462" ID="ID_850098913" MODIFIED="1533155922809" TEXT="grubby --update-kernel=ALL --args=consoleblank=20">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1533155925810" ID="ID_1272122482" MODIFIED="1533155926814" TEXT="info">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1533155927886" ID="ID_124676504" MODIFIED="1533155943241" TEXT="grubby --info /boot/vmlinuz-[release]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1533155948754" ID="ID_791131340" MODIFIED="1533155950643" TEXT="grubby --info /boot/vmlinuz-4.17.9-200.fc28.x86_64">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>
