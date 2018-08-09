@@ -72,5 +72,13 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1533563071583" ID="ID_1977005033" MODIFIED="1533563072774" POSITION="right" TEXT="Bash">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1533563080139" ID="ID_1905456902" MODIFIED="1533563082294" TEXT="http://www.windowscentral.com/how-install-bash-shell-command-line-windows-10">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>

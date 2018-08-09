@@ -180,6 +180,16 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1533562865115" ID="ID_1114740029" MODIFIED="1533562871689" TEXT="Location">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1533562878236" ID="ID_133830137" MODIFIED="1533562887255" TEXT="rpm -q --filesbypkg file [package name]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1533562878236" ID="ID_659163263" MODIFIED="1533563017381" TEXT="rpm -q --filesbypkg [package name]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1498919559341" ID="ID_349235874" MODIFIED="1498919560968" POSITION="right" TEXT="entropy">
 <edge STYLE="sharp_bezier" WIDTH="8"/>

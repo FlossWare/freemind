@@ -140,6 +140,25 @@
 <node COLOR="#00b439" CREATED="1430479572609" ID="ID_827804454" LINK="Firefox.mm" MODIFIED="1430479572612" TEXT="Firefox">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1533317831777" ID="ID_1499223164" MODIFIED="1533317871093" TEXT="Video DownloadHelper Companion App">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1533334140830" ID="ID_378376618" MODIFIED="1533334142521" TEXT="net.downloadhelper.coapp-linux-64">
+<node COLOR="#111111" CREATED="1533317845769" ID="ID_1429425234" MODIFIED="1533334152538" TEXT="install --user"/>
+<node COLOR="#111111" CREATED="1533317852509" ID="ID_521526259" MODIFIED="1533334162404">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      install --system
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1459457428459" ID="ID_1873442315" LINK="Pulp.mm" MODIFIED="1459457428460" POSITION="right" TEXT="Pulp">

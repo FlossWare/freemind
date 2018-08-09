@@ -34,6 +34,13 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1533563125327" ID="ID_562267341" MODIFIED="1533563127070" TEXT="Banners">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1533563133464" ID="ID_954094319" MODIFIED="1533563135430" TEXT="Figlet">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1511447567243" ID="ID_1576985779" MODIFIED="1511447569179" TEXT="cron">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

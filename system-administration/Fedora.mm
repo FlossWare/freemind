@@ -105,6 +105,28 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1533748520751" ID="ID_463019677" MODIFIED="1533748523935" POSITION="right" TEXT="Handbrake">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1533748561235" ID="ID_1835973812" MODIFIED="1533748564395" TEXT="dnf install">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1533748535652" ID="ID_922224825" MODIFIED="1533748596560" TEXT="https://download0.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download0.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#990000" CREATED="1533748550743" ID="ID_1250042189" MODIFIED="1533748598341" TEXT="handbrake">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#990000" CREATED="1533748591654" ID="ID_232312202" MODIFIED="1533748599867" TEXT="handbrake-gui">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1449686779889" ID="ID_50212624" MODIFIED="1449686781748" POSITION="right" TEXT="FedUp">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -130,7 +152,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1449686864212" ID="ID_379077197" MODIFIED="1449693336036" TEXT="dnf system-upgrade reboot">
+<node COLOR="#00b439" CREATED="1449686864212" ID="ID_379077197" MODIFIED="1533753630374" TEXT="dnf system-upgrade reboot">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
