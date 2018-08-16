@@ -104,6 +104,43 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1534353068995" ID="ID_1860970788" MODIFIED="1534353074500" TEXT="Insecure registry">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1534353053809" ID="ID_884729454" MODIFIED="1534353076424" TEXT="/usr/lib/systemd/system/docker.service">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1534353131071" ID="ID_1328879831" MODIFIED="1534353140363">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ExecStart=/usr/bin/dockerd <b><i>--insecure-registry registry.gsslab.rdu2.redhat.com:5000</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1534353088474" ID="ID_1684178373" MODIFIED="1534353090338" TEXT="/etc/sysconfig/docker">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1534353104711" ID="ID_1086925255" MODIFIED="1534353120281">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      OPTIONS='--selinux-enabled --log-driver=journald --live-restore --insecure-registry=172.30.0.0/16 <b><i>--insecure-registry=registry.gsslab.rdu2.redhat.com:5000</i></b>'
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1428348244112" ID="ID_502829791" MODIFIED="1428348247140" POSITION="left" TEXT=" /var/lib/docker">
 <edge STYLE="sharp_bezier" WIDTH="8"/>

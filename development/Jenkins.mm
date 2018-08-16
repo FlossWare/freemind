@@ -145,6 +145,18 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1534360397044" ID="ID_952188551" MODIFIED="1534360409074" POSITION="right" TEXT="Getting stuck on [EnvInject] - Loading node environment variables&quot;">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1534360414819" ID="ID_735956275" MODIFIED="1534360415632" TEXT="https://stackoverflow.com/questions/27600709/jenkins-job-stuck-loading-node-environment-variables#37465701">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1534360416196" ID="ID_155337370" MODIFIED="1534360418991" TEXT="Rename project">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1387906977369" ID="ID_808669744" MODIFIED="1388168804740" POSITION="left" TEXT="Adjust memory">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
