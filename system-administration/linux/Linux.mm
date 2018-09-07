@@ -1332,6 +1332,13 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <node COLOR="#0033ff" CREATED="1466348647825" ID="ID_1544044603" MODIFIED="1466348650718" POSITION="left" TEXT="File Systems">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1536242595120" ID="ID_991824602" MODIFIED="1536242602235" TEXT="Determine file system type">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1536242603066" ID="ID_322130895" MODIFIED="1536242607281" TEXT="df -T">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1459777649391" ID="ID_655191944" MODIFIED="1466348654726" TEXT="LVM">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -1347,6 +1354,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#111111" CREATED="1532350748816" ID="ID_902197522" MODIFIED="1532350751239" TEXT="lvextend -l +100%FREE /dev/mapper/fedora_laptop-root -r"/>
+<node COLOR="#111111" CREATED="1536249157168" ID="ID_73700733" MODIFIED="1536249159646" TEXT="lvextend -l +100%FREE /dev/mapper/rhel_laptop-root -r"/>
 <node COLOR="#111111" CREATED="1459777625879" ID="ID_1967733184" MODIFIED="1466348654727" TEXT="lvremove /dev/rhel/home">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="12"/>
@@ -1367,6 +1375,23 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1535373466595" ID="ID_1375937039" MODIFIED="1535373471767" TEXT="mhddfs">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1535373472870" ID="ID_602635574" MODIFIED="1535373479218" TEXT="https://romanrm.net/mhddfs">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1535373495878" ID="ID_771891869" MODIFIED="1535373498642" TEXT="mhddfs /mnt/dropbox /mnt/google /mnt/microsoft /mnt/pcloud /mnt/cloud">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1535373500743" ID="ID_267784564" MODIFIED="1535373502654" TEXT="rclone">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1535373512795" ID="ID_1584354733" MODIFIED="1535373513689" TEXT="https://rclone.org/">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>
