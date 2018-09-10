@@ -24,6 +24,18 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1291902354911" ID="ID_1531588312" MODIFIED="1536603027014" POSITION="right" TEXT="database">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1291767259494" ID="ID_490404018" MODIFIED="1536603021084" TEXT="create database [database name];">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1291902364171" ID="ID_1737536261" MODIFIED="1536603021087" TEXT="drop database [database name];">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1530724962277" ID="ID_511743163" MODIFIED="1530724963832" POSITION="right" TEXT="show">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -48,17 +60,33 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1527528202170" ID="ID_430235105" MODIFIED="1527528211688" POSITION="left" TEXT="/etc/mysql/mariadb.conf.d/50-server.cnf">
+<node COLOR="#0033ff" CREATED="1536602899387" ID="ID_1120051098" MODIFIED="1536602900950" POSITION="left" TEXT="admin">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1527528212648" ID="ID_632078973" MODIFIED="1527528217192" TEXT="bind-address">
+<node COLOR="#00b439" CREATED="1527528202170" ID="ID_430235105" MODIFIED="1536602904330" TEXT="/etc/mysql/mariadb.conf.d/50-server.cnf">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1527528212648" ID="ID_632078973" MODIFIED="1536602904330" TEXT="bind-address">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1291766063906" ID="ID_490031919" MODIFIED="1536602904334" TEXT="root">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1291765949698" ID="ID_1151941235" MODIFIED="1536602904334" TEXT="http://dev.mysql.com/doc/refman/5.1/en/default-privileges.html">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1508433405575" ID="ID_753869116" MODIFIED="1508433407391" POSITION="left" TEXT="user">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1291765980178" ID="ID_854199029" MODIFIED="1536602945153" TEXT="http://dev.mysql.com/doc/refman/5.1/en/adding-users.html">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 <node COLOR="#00b439" CREATED="1508433413111" ID="ID_369846564" MODIFIED="1530725006489" TEXT="create">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -66,8 +94,7 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1461319420435" ID="ID_1820419390" MODIFIED="1508433417100" TEXT="CREATE USER &apos;newuser&apos;@&apos;%&apos; IDENTIFIED BY &apos;password&apos;;">
-<edge STYLE="bezier" WIDTH="thin"/>
+<node COLOR="#990000" CREATED="1291766216722" ID="ID_1545584247" MODIFIED="1536602997214" TEXT="CREATE USER &apos;[user]&apos;@&apos;%&apos; IDENTIFIED BY &apos;[password]&apos;;">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
@@ -82,6 +109,9 @@
 <node COLOR="#00b439" CREATED="1508433426504" ID="ID_695241437" MODIFIED="1508433427987" TEXT="privs">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1291766123026" ID="ID_820961407" MODIFIED="1536602974013" TEXT="GRANT ALL PRIVILEGES ON *.* TO &apos;[user]&apos;@&apos;localhost&apos; WITH GRANT OPTION;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 <node COLOR="#990000" CREATED="1461319360780" ID="ID_941522401" MODIFIED="1508433431191" TEXT="GRANT ALL PRIVILEGES ON * . * TO &apos;[user]&apos;@&apos;[host]&apos;;">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="14"/>
