@@ -1207,22 +1207,6 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1522330488676" ID="ID_1883145587" MODIFIED="1522330490731" TEXT="Database">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1291902249893" ID="ID_1257249063" LINK="MySQL.mm" MODIFIED="1522330494719" TEXT="MySQL">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1522330472160" ID="ID_963818352" MODIFIED="1522330474879" TEXT="Development">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1363430764140" ID="ID_1173407211" LINK="Jenkins.mm" MODIFIED="1522330478068" TEXT="Jenkins">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
 <node COLOR="#00b439" CREATED="1311180264890" ID="ID_1368899136" LINK="DHCP.mm" MODIFIED="1416757573445" TEXT="DHCP">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

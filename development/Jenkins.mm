@@ -157,39 +157,58 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1387906977369" ID="ID_808669744" MODIFIED="1388168804740" POSITION="left" TEXT="Adjust memory">
+<node COLOR="#0033ff" CREATED="1363430781075" ID="ID_466457132" MODIFIED="1363430786904" POSITION="left" TEXT="Memory">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1387907005221" ID="ID_1464650096" MODIFIED="1388168804740" TEXT="Configuration">
+<node COLOR="#00b439" CREATED="1387906977369" ID="ID_808669744" MODIFIED="1536603421158" TEXT="Adjust">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1387907005221" ID="ID_1464650096" MODIFIED="1536603403663" TEXT="Configuration">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
-<node COLOR="#00b439" CREATED="1387906989283" ID="ID_1215629246" MODIFIED="1388168804741" TEXT="Manage Jenkins">
+<node COLOR="#990000" CREATED="1387906989283" ID="ID_1215629246" MODIFIED="1536603403664" TEXT="Manage Jenkins">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-2"/>
 </node>
-<node COLOR="#00b439" CREATED="1387906995454" ID="ID_890539461" MODIFIED="1388168804742" TEXT="Global Properties">
+<node COLOR="#990000" CREATED="1387906995454" ID="ID_890539461" MODIFIED="1536603403665" TEXT="Global Properties">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-3"/>
-<node COLOR="#990000" CREATED="1387907096473" ID="ID_1157408525" MODIFIED="1388168804743" TEXT="Click Environment variables">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1387907096473" ID="ID_1157408525" MODIFIED="1536603403665" TEXT="Click Environment variables">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1387907112024" ID="ID_1527695419" MODIFIED="1388168804744" TEXT="List of key-value pairs">
+<node COLOR="#990000" CREATED="1387907112024" ID="ID_1527695419" MODIFIED="1536603403666" TEXT="List of key-value pairs">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="full-4"/>
-<node COLOR="#990000" CREATED="1387907130612" ID="ID_473344163" MODIFIED="1388168804745" TEXT="name">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-4"/>
+<node COLOR="#111111" CREATED="1387907130612" ID="ID_473344163" MODIFIED="1536603403666" TEXT="name">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1387907135281" ID="ID_735261825" MODIFIED="1387907139284" TEXT="MAVEN_OPTS"/>
 </node>
-<node COLOR="#990000" CREATED="1387907142912" ID="ID_750160117" MODIFIED="1388168804745" TEXT="value">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1387907142912" ID="ID_750160117" MODIFIED="1536603403667" TEXT="value">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1387907146673" ID="ID_439755444" MODIFIED="1387907152175" TEXT="-Xmx512m -XX:MaxPermSize=512m"/>
 </node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1363430795956" ID="ID_1455975257" MODIFIED="1363430797951" TEXT="/etc/sysconfig/jenkins">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1363430807580" ID="ID_335144785" MODIFIED="1363430870197" TEXT="JENKINS_JAVA_OPTIONS=&quot;-Djava.awt.headless=true -Xmx[RAM SIZE]m -XX:MaxPermSize=[SIZE]m&quot;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1363430840684" ID="ID_378754211" MODIFIED="1363430874225" TEXT="JENKINS_JAVA_OPTIONS=&quot;-Djava.awt.headless=true -Xmx2048m -XX:MaxPermSize=512m&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1363430860980" ID="ID_1742946194" MODIFIED="1363430862925" TEXT="http://stackoverflow.com/questions/5936519/how-to-give-jenkins-more-heap-space-when-its-started-as-a-service-under-windows">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>
