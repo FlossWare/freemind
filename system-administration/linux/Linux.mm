@@ -79,6 +79,20 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1537973298642" ID="ID_952231687" MODIFIED="1537973302275" TEXT="du">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1537973304234" ID="ID_618430375" MODIFIED="1537973308233" TEXT="-x">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1537973319114" ID="ID_377672305" MODIFIED="1537973324323" TEXT="skip external file systems"/>
+</node>
+<node COLOR="#990000" CREATED="1537973308682" ID="ID_1276727363" MODIFIED="1537973314034" TEXT="-max-depth">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1537973326706" ID="ID_300492561" MODIFIED="1537973328186" TEXT="-h">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1417371386347" ID="ID_1466525756" MODIFIED="1417371387934" TEXT="echo">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -242,6 +256,11 @@
 <node COLOR="#990000" CREATED="1364241263771" ID="ID_617637091" MODIFIED="1416757468502" TEXT="dd if=/dev/dvdrw of=/path/to/dvdrw.iso">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1537548683039" ID="ID_1604454541" MODIFIED="1537548702253" TEXT="mount -t iso9660 -o loop [iso] [mount pt]">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1537548704821" ID="ID_1923051215" MODIFIED="1537548729024" TEXT="https://www.tecmint.com/how-to-mount-and-unmount-an-iso-image-in-linux/"/>
+<node COLOR="#111111" CREATED="1537548718243" ID="ID_1666687163" MODIFIED="1537548720178" TEXT="mount -t iso9660 -o loop /home/tecmint/Fedora-18-i386-DVD.iso /mnt/iso/"/>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1434294449459" ID="ID_506672336" MODIFIED="1434294460882" TEXT="genisoimage">
@@ -770,6 +789,15 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <node COLOR="#111111" CREATED="1512234171284" ID="ID_449161780" MODIFIED="1512843302917" TEXT="/var/log/secure">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1537549765649" ID="ID_1640676514" MODIFIED="1537549767292" TEXT="Wine">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1537549773789" ID="ID_1176764146" MODIFIED="1537549780448" TEXT="mount ISO as cdrom">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1537549788065" ID="ID_351205005" MODIFIED="1537549808632" TEXT="mount -o loop -t iso9660 [iso] [mount pt]"/>
+<node COLOR="#111111" CREATED="1537549810864" ID="ID_117888853" MODIFIED="1537549833204" TEXT="ln -s [mount pt] $HOME/.wine/dosdevices/f:"/>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1357680246827" FOLDED="true" ID="ID_212578750" MODIFIED="1512843361007" TEXT="xchat">

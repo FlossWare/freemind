@@ -422,6 +422,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1537820815879" ID="ID_746090238" MODIFIED="1537820830283" TEXT="Print version">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1537820818874" ID="ID_103605286" MODIFIED="1537820821399" TEXT="standalone.sh --version">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1374079081932" ID="ID_1282432085" MODIFIED="1449067840471" POSITION="left" TEXT="logging">
 <edge STYLE="sharp_bezier" WIDTH="8"/>

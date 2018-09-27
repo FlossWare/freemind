@@ -4,6 +4,21 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<node COLOR="#0033ff" CREATED="1536937378438" ID="ID_1763637251" MODIFIED="1536937380709" POSITION="right" TEXT="motd">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1536937381510" ID="ID_1837103653" MODIFIED="1536937382649" TEXT="ssh">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1536937388062" ID="ID_329557718" MODIFIED="1536937388913" TEXT="http://ithelpblog.com/os/linux/redhat/centos-redhat/login-banner-ssh-banner-or-motd-banner-on-centos-6/">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1536937404846" ID="ID_715930216" MODIFIED="1536937406661" TEXT="etc/ssh/sshd_config">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1536937407449" ID="ID_1074294157" MODIFIED="1536937416880" TEXT="Banner [full path to motd]"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1373289852957" ID="ID_1088105537" MODIFIED="1421503374696" POSITION="right" TEXT="Release">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

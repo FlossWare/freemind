@@ -88,6 +88,25 @@
       virsh start vm
     </p>
   </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1537801367350" ID="ID_1537141367" MODIFIED="1537801384458">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for afile in *xml<br />do
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;virsh define $afile
+    </p>
+    <p>
+      done
+    </p>
+  </body>
 </html>
 </richcontent>
 <font NAME="SansSerif" SIZE="14"/>
