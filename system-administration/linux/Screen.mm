@@ -72,6 +72,128 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1539180868940" ID="ID_100093519" MODIFIED="1539180881224" POSITION="right" TEXT="Common settings">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1539180896152" ID="ID_1652080588" MODIFIED="1539180934808">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      source [full path to screen rc settings]
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1539180935855" ID="ID_598451753" MODIFIED="1539180952928" TEXT="source $HOME/.screenrc">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1539181030580" ID="ID_1231731512" MODIFIED="1539181032552" POSITION="right" TEXT="Swap">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1539181033440" ID="ID_1797410948" MODIFIED="1539181774070" TEXT="ctrl-a">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#00b439" CREATED="1539181039859" ID="ID_789228069" MODIFIED="1539181776920" TEXT=":number [session number]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1539181765399" ID="ID_508321910" MODIFIED="1539181766832" POSITION="right" TEXT="Move">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1539181845441" ID="ID_44406020" MODIFIED="1539181846872" TEXT="https://serverfault.com/questions/244294/how-to-re-order-windows-change-the-scroll-shortcut-and-modify-the-status-bar-c">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1539181767640" ID="ID_1260689958" MODIFIED="1539181785393" TEXT="ctrl-a">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#00b439" CREATED="1539181786280" ID="ID_233280044" MODIFIED="1539181792707" TEXT=":windowslist">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="full-2"/>
+<node COLOR="#990000" CREATED="1539181795304" ID="ID_1817737722" MODIFIED="1539181797796" TEXT=".">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1539181800552" ID="ID_47923641" MODIFIED="1539181808664" TEXT="move down"/>
+</node>
+<node COLOR="#990000" CREATED="1539181809976" ID="ID_1078951157" MODIFIED="1539181811032" TEXT=",">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1539181811737" ID="ID_1696267594" MODIFIED="1539181814856" TEXT="move up"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1539180784560" ID="ID_1631971212" MODIFIED="1539180786140" POSITION="right" TEXT="Reorder">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1539180793836" ID="ID_816469604" MODIFIED="1539180794440" TEXT="https://superuser.com/questions/185387/how-can-i-change-the-order-of-gnu-screen-screens/197206#197206">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1539180806076" ID="ID_1705993490" MODIFIED="1539180838514">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # to use this:
+    </p>
+    <p>
+      # screen -c $HOME/.screenrc.ror
+    </p>
+    <p>
+      # read normal .screenrc
+    </p>
+    <p>
+      source $HOME/.screenrc
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      screen -t shell
+    </p>
+    <p>
+      screen -t shell2
+    </p>
+    <p>
+      screen -t console
+    </p>
+    <p>
+      screen -t mongrel
+    </p>
+    <p>
+      screen -t log tail -f -n200 log/development_vm.log
+    </p>
+    <p>
+      screen -t mysql mysql -u www-rw -pwww-rw-pass
+    </p>
+    <p>
+      # start with main 'shell' window showing
+    </p>
+    <p>
+      <b><i>select 0</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1393347780949" ID="ID_1483299695" MODIFIED="1393347782794" POSITION="right" TEXT="Fedora">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

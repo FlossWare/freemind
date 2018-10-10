@@ -6,6 +6,10 @@
 <node COLOR="#0033ff" CREATED="1416757402529" ID="ID_744161246" MODIFIED="1416757487128" POSITION="right" TEXT="Apps">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1539182626437" ID="ID_192546327" LINK="Alpine.mm" MODIFIED="1539182626440" TEXT="alpine">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 <node COLOR="#00b439" CREATED="1397132234309" FOLDED="true" ID="ID_680823589" MODIFIED="1512843344639" TEXT="autofs">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -77,6 +81,69 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1538146547925" ID="ID_1955319774" MODIFIED="1538146549881" TEXT="dnsmasq">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1538146551697" ID="ID_630843464" MODIFIED="1538146554477" TEXT="rm -rf /var/lib/misc/dnsmasq.leases">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1538146894262" ID="ID_134534781" MODIFIED="1538146898985" TEXT="configuration">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1538146645402" ID="ID_510532420" MODIFIED="1538146904770" TEXT="ip ranges">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1538146696481" ID="ID_377549321" MODIFIED="1538146727653" TEXT="dhcp-range=[lower up],[upper ip],[netmask],[refresh time]"/>
+<node COLOR="#111111" CREATED="1538146736289" ID="ID_1755104108" MODIFIED="1538146738104" TEXT="dhcp-range=192.168.168.150,192.168.168.253,255.255.255.0,3600s"/>
+</node>
+<node COLOR="#111111" CREATED="1538146652985" ID="ID_1049511581" MODIFIED="1538146904772" TEXT="domain">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1538146747097" ID="ID_1447905267" MODIFIED="1538146753577" TEXT="dhcp-option=40,[domain name]"/>
+<node COLOR="#111111" CREATED="1538146744229" ID="ID_251091821" MODIFIED="1538146746541" TEXT="dhcp-option=40,flossware.com"/>
+</node>
+<node COLOR="#111111" CREATED="1538146660173" ID="ID_161335909" MODIFIED="1538146904773" TEXT="gateway">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1538146767889" ID="ID_514853952" MODIFIED="1538146776005" TEXT="dhcp-option=3,[gateway ip]"/>
+<node COLOR="#111111" CREATED="1538146763821" ID="ID_1916069983" MODIFIED="1538146766937" TEXT="dhcp-option=3,192.168.168.1"/>
+</node>
+<node COLOR="#111111" CREATED="1538146677205" ID="ID_1400246440" MODIFIED="1538146904774" TEXT="ntp">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1538146789037" ID="ID_939233081" MODIFIED="1538146883268" TEXT="dhcp-option=42,[ntp server ip]"/>
+<node COLOR="#111111" CREATED="1538146785726" ID="ID_1182540544" MODIFIED="1538146788545" TEXT="dhcp-option=42,192.168.168.2"/>
+</node>
+<node COLOR="#111111" CREATED="1538146679273" ID="ID_1395797472" MODIFIED="1538146904775" TEXT="tftp">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1538146808685" ID="ID_1818827711" MODIFIED="1538146877285">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dhcp-option=66,[tftp server ip]
+    </p>
+    <p>
+      dhcp-boot=pxelinux.0,[boot server name],[boot server ip]
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1538146808685" ID="ID_957161370" MODIFIED="1538146825689">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dhcp-option=66,192.168.168.31
+    </p>
+    <p>
+      dhcp-boot=pxelinux.0,cloud-server,192.168.168.31
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1537973298642" ID="ID_952231687" MODIFIED="1537973302275" TEXT="du">
@@ -316,6 +383,20 @@
 <node COLOR="#00b439" CREATED="1460827077067" ID="ID_814413066" MODIFIED="1468574801875" TEXT="mount -t iso9660 /dev/cdrom /media/">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1538579942466" ID="ID_216966" MODIFIED="1538579944521" TEXT="netstat">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1538579991633" ID="ID_691774026" MODIFIED="1538580003834" TEXT="Determine what proc is listening on a port">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1538579946838" ID="ID_710890758" MODIFIED="1538580007174" TEXT="https://www.cyberciti.biz/faq/what-process-has-open-linux-port/">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1538579951870" ID="ID_292239245" MODIFIED="1538580007176" TEXT="netstat -tulpn">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1538579973050" ID="ID_440399066" MODIFIED="1538579981293" TEXT="ls -l /proc/[pid]/exe"/>
+</node>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1451585862890" ID="ID_1070232595" MODIFIED="1451585866704" TEXT="List network cards">
 <edge STYLE="bezier" WIDTH="thin"/>

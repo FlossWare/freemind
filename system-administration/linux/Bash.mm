@@ -235,5 +235,27 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1539180655245" ID="ID_894728831" MODIFIED="1539180666400" POSITION="right" TEXT="Iterate over associative arrays">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1539180670752" ID="ID_1753219707" MODIFIED="1539180671424" TEXT="https://stackoverflow.com/questions/3112687/how-to-iterate-over-associative-arrays-in-bash">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1539180672325" ID="ID_1075361454" MODIFIED="1539180692520" TEXT="keys">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1539180693288" ID="ID_1072766741" MODIFIED="1539180694648" TEXT="&quot;${!array[@]}&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1539180749780" ID="ID_1862270832" MODIFIED="1539180751324" TEXT="values">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1539180756456" ID="ID_1895362482" MODIFIED="1539180758604" TEXT="&quot;${array[@]}&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 </node>
 </map>

@@ -620,6 +620,23 @@
 <icon BUILTIN="full-4"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1538576733313" ID="ID_555422988" MODIFIED="1538576735340" POSITION="right" TEXT="Logging">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1538576739976" ID="ID_776239538" MODIFIED="1538576742012" TEXT="CentOS">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1538576736772" ID="ID_143198580" MODIFIED="1538576902503" TEXT="/var/log/libvirt/libxl/libxl-driver.log">
+<edge STYLE="bezier" WIDTH="thin"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_143198580" ENDARROW="Default" ENDINCLINATION="299;0;" ID="Arrow_ID_322333847" SOURCE="ID_1217164145" STARTARROW="None" STARTINCLINATION="299;0;"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1538576869304" ID="ID_1217164145" MODIFIED="1538576902503" TEXT="ERROR    internal error: libxenlight failed to create new domain &apos;[VM name]&apos; ">
+<arrowlink DESTINATION="ID_143198580" ENDARROW="Default" ENDINCLINATION="299;0;" ID="Arrow_ID_322333847" STARTARROW="None" STARTINCLINATION="299;0;"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1532520916772" ID="ID_1659359593" MODIFIED="1532521107660" POSITION="right" TEXT="Install VM w/ virsh">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -722,8 +739,7 @@
       --extra-args 'ks=http://192.168.168.31/kickstart/workstation.ks text console=ttyS0 utf8 console=hvc0'
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>

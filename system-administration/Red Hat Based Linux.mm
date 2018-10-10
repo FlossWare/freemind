@@ -161,6 +161,19 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1538501717430" ID="ID_1755862780" MODIFIED="1538501719415" TEXT="enable repo">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1538501720194" ID="ID_996527070" MODIFIED="1538501728015" TEXT="https://www.2daygeek.com/how-to-add-enable-disable-a-repository-dnf-yum-config-manager-on-linux/">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1538501740222" ID="ID_84791275" MODIFIED="1538501747390" TEXT="yum-config-manager --enable [repo id]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1538501738046" ID="ID_1996854400" MODIFIED="1538501738782" TEXT="yum-config-manager --enable epel-testing">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1472394063814" ID="ID_782474519" MODIFIED="1472394085120" TEXT="clean">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

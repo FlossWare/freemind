@@ -71,8 +71,19 @@
       | table _time, &quot;Affected Host&quot;, Duration, Collection, Shard
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1538582020066" ID="ID_1234571287" MODIFIED="1538582022982" POSITION="right" TEXT="Join">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1538583661323" ID="ID_1451151154" MODIFIED="1538583697986" TEXT="[search criteria] | join [field] [search [other search criteria]]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1538583698551" ID="ID_1107559393" MODIFIED="1538583727171" TEXT="host=alpha* | join reqId [search host=alpha* &quot;could not obtain lock within 5000MILLISECONDS&quot; &quot;failed on component&quot;] | sort _time ASC">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
