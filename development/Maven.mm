@@ -121,6 +121,64 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1539187133479" ID="ID_1156681775" MODIFIED="1539187136403" POSITION="right" TEXT="Parse version">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1539187140687" ID="ID_702117389" MODIFIED="1539187141427" TEXT="http://www.mojohaus.org/build-helper-maven-plugin/parse-version-mojo.html">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1539187196039" ID="ID_1512283918" MODIFIED="1539187199563" TEXT="Increment major">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1539187175815" ID="ID_1894679668" MODIFIED="1539187201317">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;mvn build-helper:parse-version versions:set \
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;-DnewVersion=\${parsedVersion.nextMajorVersion}.0.0 \
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;versions:commit
+    </p>
+  </body>
+</html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1539187202455" ID="ID_497787736" MODIFIED="1539187205567" TEXT="Increment minor">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1539187219611" ID="ID_66165508" MODIFIED="1539187229497">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="color: #990000; font-size: 116%; font-family: SansSerif, sans-serif"><font color="#990000" size="116%" face="SansSerif, sans-serif">mvn build-helper:parse-version versions:set \ &#160;&#160;&#160;&#160;&#160;-DnewVersion=\${parsedVersion.majorVersion}.\${parsedVersion.nextMinorVersion}.0 \ &#160;&#160;&#160;&#160;&#160;versions:commit</font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1539187389331" ID="ID_848294984" MODIFIED="1539187400235" POSITION="right" TEXT="Automate project versioning and release">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1539187405591" ID="ID_359138137" MODIFIED="1539187407663" TEXT="http://www.vineetmanohar.com/2009/10/how-to-automate-project-versioning-and-release-with-maven/">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1435614517676" ID="ID_1127490666" MODIFIED="1435614523813" POSITION="right" TEXT="Update properties">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

@@ -628,6 +628,29 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <node COLOR="#990000" CREATED="1517575238144" ID="ID_552139637" MODIFIED="1517575251477" TEXT="To run need dbus-x11">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+<node COLOR="#990000" CREATED="1539449829324" ID="ID_149530109" MODIFIED="1539449838169" TEXT="Disable red titlebar">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1539449838931" ID="ID_165397753" MODIFIED="1539449844758" TEXT="https://www.linuxquestions.org/questions/linux-software-2/terminator-on-start-title-bar-how-to-disable-4175473921/"/>
+<node COLOR="#111111" CREATED="1539449854512" ID="ID_72762442" MODIFIED="1539449890212">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [profiles]
+    </p>
+    <p>
+      &#160;&#160;[[default]]
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;<b><i>show_titlebar = false</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1344603055439" ID="ID_1807790648" MODIFIED="1416757471878" TEXT="tidy">
 <edge STYLE="bezier" WIDTH="thin"/>

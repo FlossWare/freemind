@@ -4,21 +4,21 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1525443780266" ID="ID_301869249" MODIFIED="1525443782370" POSITION="right" TEXT="rootfs">
+<node COLOR="#0033ff" CREATED="1525443780266" ID="ID_301869249" MODIFIED="1539537597071" POSITION="right" TEXT="rootfs">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1525443800348" ID="ID_835146825" MODIFIED="1525443801070" TEXT="https://olimex.wordpress.com/2014/07/21/how-to-create-bare-minimum-debian-wheezy-rootfs-from-scratch/">
+<node COLOR="#00b439" CREATED="1525443800348" ID="ID_835146825" MODIFIED="1539537597072" TEXT="https://olimex.wordpress.com/2014/07/21/how-to-create-bare-minimum-debian-wheezy-rootfs-from-scratch/">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1525443852070" ID="ID_1083252400" MODIFIED="1525443855031" TEXT="To create">
+<node COLOR="#00b439" CREATED="1525443852070" ID="ID_1083252400" MODIFIED="1539537597072" TEXT="To create">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1525443805510" ID="ID_156355171" MODIFIED="1525444853925" TEXT="apt-get install qemu-user-static debootstrap binfmt-support qemu-system-arm">
+<node COLOR="#990000" CREATED="1525443805510" ID="ID_156355171" MODIFIED="1539537597072" TEXT="apt-get install qemu-user-static debootstrap binfmt-support qemu-system-arm">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1525443829748" ID="ID_742672828" MODIFIED="1525452462812">
+<node COLOR="#990000" CREATED="1525443829748" ID="ID_742672828" MODIFIED="1539537597073">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -35,7 +35,7 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1525443842508" ID="ID_1318395168" MODIFIED="1525443877992">
+<node COLOR="#990000" CREATED="1525443842508" ID="ID_1318395168" MODIFIED="1539537597073">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -52,7 +52,7 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1525443865714" ID="ID_1887422763" MODIFIED="1525443887125">
+<node COLOR="#990000" CREATED="1525443865714" ID="ID_1887422763" MODIFIED="1539537597074">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -68,7 +68,7 @@
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1525443892631" ID="ID_1870134531" MODIFIED="1525443897430" TEXT="chroot $targetdir">
+<node COLOR="#990000" CREATED="1525443892631" ID="ID_1870134531" MODIFIED="1539537597074" TEXT="chroot $targetdir">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1525443904003" ID="ID_1099887261" MODIFIED="1525443921028">
 <richcontent TYPE="NODE"><html>
@@ -753,6 +753,16 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-5"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1539186842071" ID="ID_303318817" MODIFIED="1539186845214" TEXT="Java">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1539186873202" ID="ID_1344781813" MODIFIED="1539186874954" TEXT="https://www.mkyong.com/linux/debian-change-default-java-version/">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1539186851294" ID="ID_1067292615" MODIFIED="1539186854170" TEXT="update-alternatives --config java">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>
