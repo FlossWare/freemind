@@ -127,34 +127,64 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1449686779889" ID="ID_50212624" MODIFIED="1449686781748" POSITION="right" TEXT="FedUp">
+<node COLOR="#0033ff" CREATED="1540924338190" ID="ID_804417128" MODIFIED="1540924340294" POSITION="right" TEXT="Upgrade">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1449686807008" ID="ID_1143948262" MODIFIED="1449686809252" TEXT="Install">
+<node COLOR="#00b439" CREATED="1540924345203" ID="ID_962325158" MODIFIED="1540924352812" TEXT="system-upgrade">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1449691522422" ID="ID_1103427746" MODIFIED="1449691526078" TEXT="yum install fedup">
+<node COLOR="#990000" CREATED="1540924595026" ID="ID_1102796344" MODIFIED="1540924597142" TEXT="https://tecadmin.net/upgrade-fedora/">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1449686790576" ID="ID_240334153" MODIFIED="1449686812954" TEXT="yum update fedup fedora-release">
-<edge STYLE="bezier" WIDTH="thin"/>
+<node COLOR="#990000" CREATED="1540924597654" ID="ID_1296852683" MODIFIED="1540924599914" TEXT="Commands">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1540924538906" ID="ID_1232290061" MODIFIED="1540924602977" TEXT="dnf upgrade --refresh ">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
 </node>
-<node COLOR="#990000" CREATED="1449686794508" ID="ID_669329583" MODIFIED="1449686812955" TEXT="dnf upgrade fedup fedora-release   ">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1540924546494" ID="ID_1772714190" MODIFIED="1540924602978" TEXT="dnf install dnf-plugin-system-upgrade">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1540924557254" ID="ID_641943752" MODIFIED="1540924602980" TEXT="dnf system-upgrade download --refresh --releasever=[version]">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#111111" CREATED="1540924575491" ID="ID_359422794" MODIFIED="1540924602981" TEXT="dnf system-upgrade reboot">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-4"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1449686813840" ID="ID_710581151" MODIFIED="1449686829480" TEXT="fedup --network [Fedora Version]">
+</node>
+<node COLOR="#00b439" CREATED="1449686779889" FOLDED="true" ID="ID_50212624" MODIFIED="1540924344122" TEXT="FedUp">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1449686830660" ID="ID_1899458385" MODIFIED="1449686838236" TEXT="fedup --network 23">
+<node COLOR="#990000" CREATED="1449686807008" ID="ID_1143948262" MODIFIED="1540924342333" TEXT="Install">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1449691522422" ID="ID_1103427746" MODIFIED="1540924342333" TEXT="yum install fedup">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1449686790576" ID="ID_240334153" MODIFIED="1540924342334" TEXT="yum update fedup fedora-release">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1449686794508" ID="ID_669329583" MODIFIED="1540924342335" TEXT="dnf upgrade fedup fedora-release   ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1449686813840" ID="ID_710581151" MODIFIED="1540924342335" TEXT="fedup --network [Fedora Version]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1449686830660" ID="ID_1899458385" MODIFIED="1540924342335" TEXT="fedup --network 23">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1449686864212" ID="ID_379077197" MODIFIED="1540924342336" TEXT="dnf system-upgrade reboot">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-</node>
-<node COLOR="#00b439" CREATED="1449686864212" ID="ID_379077197" MODIFIED="1533753630374" TEXT="dnf system-upgrade reboot">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>

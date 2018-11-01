@@ -88,6 +88,37 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1541100225153" ID="ID_1619426491" MODIFIED="1541100227538" POSITION="right" TEXT="Cron">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1541100232641" ID="ID_884367807" MODIFIED="1541100240228">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Minute: 0-59
+    </p>
+    <p>
+      Hour: 0-23
+    </p>
+    <p>
+      Day of the month: 1-31
+    </p>
+    <p>
+      Month: 1-12
+    </p>
+    <p>
+      Day of the week: 0-6 (where 0 = Sunday)
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1387480356395" ID="ID_1102032210" LINK="http://docs.splunk.com/Documentation/Splunk/6.0/SearchReference/WhatsInThisManual" MODIFIED="1387480408891" POSITION="left" TEXT="Manual">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
