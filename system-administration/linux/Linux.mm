@@ -10,6 +10,16 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1541339660374" ID="ID_778314964" MODIFIED="1541339664296" TEXT="arandar">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1541339698272" ID="ID_256949666" MODIFIED="1541339699662" TEXT="https://help.ubuntu.com/community/Lubuntu/MultiDisplay">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1541339665408" ID="ID_154941317" MODIFIED="1541339687338" TEXT="provides convenient way to fix multi-monitor setup">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1397132234309" FOLDED="true" ID="ID_680823589" MODIFIED="1512843344639" TEXT="autofs">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -614,11 +624,19 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <node COLOR="#00b439" CREATED="1517766941327" ID="ID_747528722" MODIFIED="1517766943459" TEXT="systemctl">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1517766926249" ID="ID_1755806479" MODIFIED="1517766945619" TEXT="systemctl show [name].service">
+<node COLOR="#990000" CREATED="1517766926249" ID="ID_1755806479" MODIFIED="1541706732134" TEXT="show [name].service">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1517770452611" ID="ID_1208406634" MODIFIED="1517770459667" TEXT="systemctl daemon-reload">
+<node COLOR="#990000" CREATED="1540229278143" ID="ID_1986806459" MODIFIED="1541706725309" TEXT="enable [service name]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1517770452611" ID="ID_1208406634" MODIFIED="1541718004599" TEXT="daemon-reload">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1540239323760" ID="ID_571994876" MODIFIED="1541706717825" TEXT="cp [service] /etc/systemd/system">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
@@ -647,8 +665,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
       &#160;&#160;&#160;&#160;<b><i>show_titlebar = false</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

@@ -165,8 +165,7 @@
       <span style="color: #990000; font-size: 116%; font-family: SansSerif, sans-serif"><font color="#990000" size="116%" face="SansSerif, sans-serif">mvn build-helper:parse-version versions:set \ &#160;&#160;&#160;&#160;&#160;-DnewVersion=\${parsedVersion.majorVersion}.\${parsedVersion.nextMinorVersion}.0 \ &#160;&#160;&#160;&#160;&#160;versions:commit</font></span>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
@@ -394,6 +393,14 @@
     </p>
   </body>
 </html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1541536577119" ID="ID_1680702383" MODIFIED="1541536581599" POSITION="right" TEXT="Skip javadocs">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1541536582247" ID="ID_168698135" MODIFIED="1541536584562" TEXT="-Dmaven.javadoc.skip=true">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
