@@ -157,6 +157,75 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1541958327631" ID="ID_1576465648" MODIFIED="1541958332038" POSITION="right" TEXT="Integration">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1541960663477" ID="ID_172254222" MODIFIED="1541960666605" TEXT="github">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1541960731298" ID="ID_107158614" MODIFIED="1541960732194" TEXT="https://jenkins.io/solutions/github/">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1541962666497" ID="ID_1005056824" MODIFIED="1541962669173" TEXT="https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1541958332786" ID="ID_148201545" MODIFIED="1541960506325" TEXT="gitlab">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1541960003586" ID="ID_900616213" MODIFIED="1541960005626" TEXT="https://github.com/jenkinsci/gitlab-plugin#jenkins-job-configuration">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1541960171834" ID="ID_1841588661" MODIFIED="1541960182802" TEXT="To Jenkins">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1541960354941" ID="ID_743928003" MODIFIED="1541960395995" TEXT="Create a user in Jenkins which has, at a minimum, Job/Build permissions">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1541960362617" ID="ID_444581413" MODIFIED="1541960397554" TEXT="Log in as that user (this is required even if you are a Jenkins admin user), then click on the user&apos;s name in the top right corner of the page">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1541960368345" ID="ID_886492946" MODIFIED="1541960399110" TEXT="Click &apos;Configure,&apos; then &apos;Show API Token...&apos;, and note/copy the User ID and API Token">
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#111111" CREATED="1541960380729" ID="ID_742278820" MODIFIED="1541960405318" TEXT="In GitLab, when you create webhooks to trigger Jenkins jobs, use this format for the URL and do not enter anything for &apos;Secret Token&apos;: http://USERID:APITOKEN@JENKINS_URL/project/YOUR_JOB">
+<icon BUILTIN="full-4"/>
+</node>
+<node COLOR="#111111" CREATED="1541960386037" ID="ID_60683525" MODIFIED="1541960407598" TEXT="After you add the webhook, click the &apos;Test&apos; button, and it should succeed">
+<icon BUILTIN="full-5"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1541960183334" ID="ID_920424812" MODIFIED="1541960186054" TEXT="From Jenkins">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1541960493682" ID="ID_1208172966" MODIFIED="1541960551158" TEXT="Create a new user in GitLab">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1541960500330" ID="ID_1062658887" MODIFIED="1541960552763" TEXT="Give this user &apos;Developer&apos; permissions on each repo you want Jenkins to send build status to">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1541960512157" ID="ID_1304561468" MODIFIED="1541960556295" TEXT="Log in or &apos;Impersonate&apos; that user in GitLab, click the user&apos;s icon/avatar and choose Settings">
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#111111" CREATED="1541960516759" ID="ID_122923433" MODIFIED="1541960557854" TEXT="Click on &apos;Access Tokens&apos;">
+<icon BUILTIN="full-4"/>
+</node>
+<node COLOR="#111111" CREATED="1541960524461" ID="ID_952224413" MODIFIED="1541960559535" TEXT="Create a token named e.g. &apos;jenkins&apos; with &apos;api&apos; scope; expiration is optional">
+<icon BUILTIN="full-5"/>
+</node>
+<node COLOR="#111111" CREATED="1541960529973" ID="ID_583386252" MODIFIED="1541960561866" TEXT="Copy the token immediately, it cannot be accessed after you leave this page">
+<icon BUILTIN="full-6"/>
+</node>
+<node COLOR="#111111" CREATED="1541960535630" ID="ID_455515999" MODIFIED="1541960564000" TEXT="On the Global Configuration page in Jenkins, in the GitLab configuration section, supply the GitLab host URL, e.g. http://your.gitlab.server">
+<icon BUILTIN="full-7"/>
+</node>
+<node COLOR="#111111" CREATED="1541960541181" ID="ID_1693312474" MODIFIED="1541960565976" TEXT="Click the &apos;Add&apos; button to add a credential, choose &apos;GitLab API token&apos; as the kind of credential, and paste your GitLab user&apos;s API key into the &apos;API token&apos; field">
+<icon BUILTIN="full-8"/>
+</node>
+<node COLOR="#111111" CREATED="1541960546809" ID="ID_406242360" MODIFIED="1541960567811" TEXT="Click the &apos;Test Connection&apos; button; it should succeed ">
+<icon BUILTIN="full-9"/>
+</node>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1363430781075" ID="ID_466457132" MODIFIED="1363430786904" POSITION="left" TEXT="Memory">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

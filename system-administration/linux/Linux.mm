@@ -10,6 +10,40 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1507391867695" ID="ID_1715111292" MODIFIED="1541957988024" TEXT="aspell">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1507391882013" ID="ID_1468129096" MODIFIED="1541957984041" TEXT="add dictionaries">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1507391889817" ID="ID_1577956055" MODIFIED="1541957984042" TEXT="download ">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1507391934568" ID="ID_1592033474" MODIFIED="1507391935588" TEXT="ftp://ftp.gnu.org/gnu/aspell/dict/0index.html"/>
+</node>
+<node COLOR="#111111" CREATED="1507391938640" ID="ID_1902578071" MODIFIED="1541957984042" TEXT="un tar downlod">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1507391946478" ID="ID_1036647767" MODIFIED="1541957984043" TEXT="cd untar&apos;d dir">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1507391951025" ID="ID_173821819" MODIFIED="1541957984044" TEXT="./configure">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1507391953573" ID="ID_1892200267" MODIFIED="1541957984044" TEXT="make ; make install">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1536602494175" ID="ID_1684980784" MODIFIED="1541957984046" TEXT="Slow spell check">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1536602498815" ID="ID_325661737" MODIFIED="1541957984047" TEXT="Do not use NFS for the dictionary">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1536602512163" ID="ID_1316255720" MODIFIED="1536602515470" TEXT="Make it local"/>
+<node COLOR="#111111" CREATED="1536602530707" ID="ID_1588873871" MODIFIED="1536602532566" TEXT=".aspell.en.prepl -&gt; /local/sfloess/.aspell.en.prepl "/>
+<node COLOR="#111111" CREATED="1536602538147" ID="ID_459740008" MODIFIED="1536602540451" TEXT=".aspell.en.pws -&gt; /local/sfloess/.aspell.en.pws"/>
+</node>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1541339660374" ID="ID_778314964" MODIFIED="1541339664296" TEXT="arandar">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -20,7 +54,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1397132234309" FOLDED="true" ID="ID_680823589" MODIFIED="1512843344639" TEXT="autofs">
+<node COLOR="#00b439" CREATED="1397132234309" ID="ID_680823589" MODIFIED="1541957839314" TEXT="autofs">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1397304252377" ID="ID_952784219" MODIFIED="1416757450584" TEXT="yum">
@@ -44,6 +78,14 @@
 </node>
 <node COLOR="#111111" CREATED="1413640103245" ID="ID_1076996986" MODIFIED="1413640112073" TEXT="[dir name]  [mount options]  [iso file] ">
 <node COLOR="#111111" CREATED="1413640610157" ID="ID_1684302122" MODIFIED="1413640651021" TEXT="centos-6.5-i386  -fstype=iso9660,ro,loop  :/home/CentOS-6.5-i386-bin-DVD1.iso"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1541957843838" ID="ID_1358675289" MODIFIED="1541957846283" TEXT="usb">
+<node COLOR="#111111" CREATED="1541957852411" ID="ID_1735292847" MODIFIED="1541957858794" TEXT="/etc/auto.[name]">
+<node COLOR="#111111" CREATED="1541957868263" ID="ID_611353682" MODIFIED="1541957898142" TEXT="[mount pt] -fstype=[file system type] :/dev/[usb device]"/>
+</node>
+<node COLOR="#111111" CREATED="1541957914698" ID="ID_1870044275" MODIFIED="1541957921162" TEXT="/etc/auto.localhost">
+<node COLOR="#111111" CREATED="1541957906294" ID="ID_1701281424" MODIFIED="1541957932817" TEXT="usb -fstype=ext2 :/dev/sdb"/>
 </node>
 </node>
 </node>
@@ -357,6 +399,32 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1541957075455" ID="ID_1513629000" MODIFIED="1541957077170" TEXT="id">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1541957082566" ID="ID_219927310" MODIFIED="1541957083314" TEXT="https://linoxide.com/linux-command/linux-id-command/">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1541957103598" ID="ID_919723018" MODIFIED="1541957599520" TEXT="id -a">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1541957105822" ID="ID_174465239" MODIFIED="1541957599523" TEXT="id -G">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1541957131054" ID="ID_1893914341" MODIFIED="1541957142930" TEXT="list user&apos;s groups"/>
+</node>
+<node COLOR="#990000" CREATED="1524148906000" ID="ID_242225394" MODIFIED="1541958030140" TEXT=" id -u [username]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1524148926996" ID="ID_202463319" MODIFIED="1541958030141" TEXT="id -g [username]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1524148933732" ID="ID_233265934" MODIFIED="1541958030142" TEXT="id [username]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1419008708891" ID="ID_1793127488" MODIFIED="1419008710969" TEXT="ifconfig">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -390,6 +458,28 @@
 <node COLOR="#111111" CREATED="1532184867483" ID="ID_1059814808" MODIFIED="1532184876961" TEXT="ls -latr [dir] | sort -k9,9"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1541958247182" ID="ID_416575634" MODIFIED="1541958250518" TEXT="mail">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1541958268586" ID="ID_1136572183" MODIFIED="1541958270940" TEXT="https://tecadmin.net/bash-mail-command-not-found/">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1541958259214" ID="ID_451711803" MODIFIED="1541958261332" TEXT="echo &quot;Message Body&quot; | mail -s &quot;Message Subject&quot; receiver@example.com">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1541958383399" ID="ID_669296682" MODIFIED="1541958385066" TEXT="motd">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1541958385702" ID="ID_1680679569" MODIFIED="1541958390089" TEXT="Prints double">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1541958395598" ID="ID_558841660" MODIFIED="1541958396226" TEXT="https://stackoverflow.com/questions/190912/etc-motd-printing-twice-on-gentoo-linux"/>
+<node COLOR="#111111" CREATED="1541958396498" ID="ID_1850148985" MODIFIED="1541958404958" TEXT="sshd_config">
+<node COLOR="#111111" CREATED="1541958405714" ID="ID_1402177217" MODIFIED="1541958414790" TEXT="Banner /etc/motd"/>
+<node COLOR="#111111" CREATED="1541958516002" ID="ID_161674440" MODIFIED="1541958518182" TEXT="Remove it"/>
+</node>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1460827077067" ID="ID_814413066" MODIFIED="1468574801875" TEXT="mount -t iso9660 /dev/cdrom /media/">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -415,29 +505,6 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#990000" CREATED="1451585961631" ID="ID_1175144540" MODIFIED="1451585962247" TEXT="http://www.cyberciti.biz/faq/linux-list-network-cards-command/">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1512854732417" ID="ID_1888374883" MODIFIED="1512854738568" TEXT="Print process who called script">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1512854745148" ID="ID_947057799" MODIFIED="1512854745932" TEXT="https://stackoverflow.com/questions/12285387/is-there-a-way-to-print-the-pid-of-the-process-that-called-my-c-binary">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1512854746764" ID="ID_860587567" MODIFIED="1512854766313">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      CALLER=$(ps ax | grep &quot;^ *$PPID&quot; | awk '{print $NF}')
-    </p>
-    <p>
-      echo $CALLER
-    </p>
-  </body>
-</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
@@ -548,6 +615,22 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1524841392824" ID="ID_1901148440" MODIFIED="1524841393492" TEXT="https://www.linuxquestions.org/questions/linux-software-2/combining-port-knocking-with-sshfs-and-autofs-4175604156/"/>
 <node COLOR="#111111" CREATED="1524841408589" ID="ID_53492044" MODIFIED="1524841432425" TEXT="-fstype=fuse,...,port=PORT,..."/>
+</node>
+<node COLOR="#990000" CREATED="1541956521559" ID="ID_384226201" MODIFIED="1541956524118" TEXT="reconnect">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1541956529275" ID="ID_1715806234" MODIFIED="1541956531658" TEXT="https://unix.stackexchange.com/questions/220372/force-reconnect-on-sshfs-drive-mounted-via-fstab#220864"/>
+<node COLOR="#111111" CREATED="1541956989750" ID="ID_846434093" MODIFIED="1541957045455">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sshfs -o allow_other,default_permissions,<b><i>reconnect </i></b>[user]@[host]:[remote dir] [local dir]
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1525787071785" ID="ID_1818473672" MODIFIED="1525787073030" TEXT="su">
@@ -1330,28 +1413,6 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1507391867695" ID="ID_1715111292" MODIFIED="1507391873404" TEXT="aspell">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1507391882013" ID="ID_1468129096" MODIFIED="1507391888756" TEXT="add dictionaries">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1507391889817" ID="ID_1577956055" MODIFIED="1507391891941" TEXT="download ">
-<node COLOR="#111111" CREATED="1507391934568" ID="ID_1592033474" MODIFIED="1507391935588" TEXT="ftp://ftp.gnu.org/gnu/aspell/dict/0index.html"/>
-</node>
-<node COLOR="#111111" CREATED="1507391938640" ID="ID_1902578071" MODIFIED="1507391946165" TEXT="un tar downlod"/>
-<node COLOR="#111111" CREATED="1507391946478" ID="ID_1036647767" MODIFIED="1507391950368" TEXT="cd untar&apos;d dir"/>
-<node COLOR="#111111" CREATED="1507391951025" ID="ID_173821819" MODIFIED="1507391953208" TEXT="./configure"/>
-<node COLOR="#111111" CREATED="1507391953573" ID="ID_1892200267" MODIFIED="1507391958332" TEXT="make ; make install"/>
-</node>
-<node COLOR="#990000" CREATED="1536602494175" ID="ID_1684980784" MODIFIED="1536602498115" TEXT="Slow spell check">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1536602498815" ID="ID_325661737" MODIFIED="1536602509003" TEXT="Do not use NFS for the dictionary">
-<node COLOR="#111111" CREATED="1536602512163" ID="ID_1316255720" MODIFIED="1536602515470" TEXT="Make it local"/>
-<node COLOR="#111111" CREATED="1536602530707" ID="ID_1588873871" MODIFIED="1536602532566" TEXT=".aspell.en.prepl -&gt; /local/sfloess/.aspell.en.prepl "/>
-<node COLOR="#111111" CREATED="1536602538147" ID="ID_459740008" MODIFIED="1536602540451" TEXT=".aspell.en.pws -&gt; /local/sfloess/.aspell.en.pws"/>
-</node>
-</node>
-</node>
 <node COLOR="#00b439" CREATED="1295364429237" ID="ID_1443470952" LINK="Bash.mm" MODIFIED="1416757573444" TEXT="Bash">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -1405,6 +1466,10 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1541958101851" ID="ID_1436569776" LINK="Plex.mm" MODIFIED="1541958101853" TEXT="Plex">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 <node COLOR="#00b439" CREATED="1354751851875" ID="ID_256312895" LINK="Postfix.mm" MODIFIED="1416757573451" TEXT="Postfix">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -1450,22 +1515,6 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 <node COLOR="#00b439" CREATED="1364216287092" ID="ID_1294782699" LINK="WOL.mm" MODIFIED="1416757573458" TEXT="WOL">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1524148887636" ID="ID_899907671" MODIFIED="1524148898460" POSITION="left" TEXT="Compute uid/pid">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1524148906000" ID="ID_242225394" MODIFIED="1524148950080" TEXT=" id -u [username]">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1524148926996" ID="ID_202463319" MODIFIED="1524148944984" TEXT="id -g [username]">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1524148933732" ID="ID_233265934" MODIFIED="1524148938808" TEXT="id [username]">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -1564,6 +1613,31 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <node COLOR="#990000" CREATED="1533155948754" ID="ID_791131340" MODIFIED="1533155950643" TEXT="grubby --info /boot/vmlinuz-4.17.9-200.fc28.x86_64">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1512854732417" ID="ID_1888374883" MODIFIED="1541958062663" POSITION="right" TEXT="Print process who called script">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1512854745148" ID="ID_947057799" MODIFIED="1541958062664" TEXT="https://stackoverflow.com/questions/12285387/is-there-a-way-to-print-the-pid-of-the-process-that-called-my-c-binary">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1512854746764" ID="ID_860587567" MODIFIED="1541958062664">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CALLER=$(ps ax | grep &quot;^ *$PPID&quot; | awk '{print $NF}')
+    </p>
+    <p>
+      echo $CALLER
+    </p>
+  </body>
+</html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>

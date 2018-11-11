@@ -249,6 +249,41 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1541957712235" ID="ID_110859744" MODIFIED="1541957717454" TEXT="Nonstandard port">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1541957721990" ID="ID_1665417316" MODIFIED="1541957722998" TEXT="https://medium.com/@perwagnernielsen/ansible-tutorial-part-1-inventory-files-vagrant-and-remote-hosts-33a15b0185c0">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1541957726466" ID="ID_782832898" MODIFIED="1541957728606" TEXT="Inventory">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1541957734386" ID="ID_1673625998" MODIFIED="1541957808027">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [web]
+    </p>
+    <p>
+      machine
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [machine:vars]
+    </p>
+    <p>
+      &#160;<b><i>ansible_port</i></b>=<b><i>non-standard-port</i></b>&#160;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1430495276653" ID="ID_1976840954" MODIFIED="1524772970376" TEXT="Without SSH added">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
