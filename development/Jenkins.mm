@@ -170,7 +170,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1541958332786" ID="ID_148201545" MODIFIED="1541960506325" TEXT="gitlab">
+<node COLOR="#00b439" CREATED="1541958332786" ID="ID_148201545" MODIFIED="1542025168259" TEXT="gitlab">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1541960003586" ID="ID_900616213" MODIFIED="1541960005626" TEXT="https://github.com/jenkinsci/gitlab-plugin#jenkins-job-configuration">

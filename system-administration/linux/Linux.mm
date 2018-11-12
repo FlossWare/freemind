@@ -1443,6 +1443,9 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+<node COLOR="#990000" CREATED="1541978023602" ID="ID_922850211" LINK="Mate.mm" MODIFIED="1541978023604" TEXT="Mate">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 <node COLOR="#990000" CREATED="1315654233231" ID="ID_585100924" LINK="KDE.mm" MODIFIED="1522330391209" TEXT="KDE">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
@@ -1529,14 +1532,14 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1459777649391" ID="ID_655191944" MODIFIED="1466348654726" TEXT="LVM">
+<node COLOR="#00b439" CREATED="1459777649391" ID="ID_655191944" MODIFIED="1542024900668" TEXT="LVM">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1459777748486" ID="ID_1187640201" MODIFIED="1466348654727" TEXT="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html-single/Logical_Volume_Manager_Administration/index.html#LV">
+<node COLOR="#990000" CREATED="1459777748486" ID="ID_1187640201" MODIFIED="1542024899837" TEXT="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html-single/Logical_Volume_Manager_Administration/index.html#LV">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1459777750261" ID="ID_1216660049" MODIFIED="1536541395118" TEXT="Commands">
+<node COLOR="#990000" CREATED="1459777750261" ID="ID_1216660049" MODIFIED="1542024899837" TEXT="Commands">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1459777623387" ID="ID_857074963" MODIFIED="1514670781321" TEXT="lvextend -l +100%FREE  /dev/rhel/root -r">
