@@ -83,13 +83,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1526668224415" ID="ID_1143882048" MODIFIED="1526668372633" TEXT="ports">
+<node COLOR="#00b439" CREATED="1526668224415" ID="ID_1143882048" LINK="https://docs.openshift.com/container-platform/3.7/architecture/core_concepts/pods_and_services.html#services" MODIFIED="1542308004916" TEXT="ports">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1526668220264" ID="ID_964056092" MODIFIED="1526668227914" TEXT="https://docs.openshift.com/container-platform/3.7/architecture/core_concepts/pods_and_services.html#services">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 <node COLOR="#990000" CREATED="1526668386940" ID="ID_1802972877" MODIFIED="1526668391900" TEXT="Applications">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1526668392492" ID="ID_1050932204" MODIFIED="1526668394180" TEXT="Services">

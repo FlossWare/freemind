@@ -51,13 +51,15 @@
 <node COLOR="#0033ff" CREATED="1416178474512" ID="ID_160973257" MODIFIED="1416178480760" POSITION="right" TEXT="Boxes">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1416178481880" ID="ID_687451556" MODIFIED="1416178484313" TEXT="https://download.gluster.org/pub/gluster/purpleidea/vagrant/centos-7.0-docker/centos-7.0-docker.box">
+<node COLOR="#00b439" CREATED="1542307908224" ID="ID_778678883" MODIFIED="1542307917284" TEXT="CentOS">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1542307918620" ID="ID_258006023" LINK="https://download.gluster.org/pub/gluster/purpleidea/vagrant/centos-7.0-docker/centos-7.0-docker.box" MODIFIED="1542307939319" TEXT="Docker">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1416178492868" ID="ID_1112776634" MODIFIED="1416178493816" TEXT="https://download.gluster.org/pub/gluster/purpleidea/vagrant/centos-7.0/centos-7.0.box">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1542307920489" ID="ID_1080772919" LINK="https://download.gluster.org/pub/gluster/purpleidea/vagrant/centos-7.0/centos-7.0.box" MODIFIED="1542307953679" TEXT="OS">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1416182723218" ID="ID_880157080" MODIFIED="1416182728346" POSITION="right" TEXT="export VAGRANT_DEFAULT_PROVIDER=libvirt">

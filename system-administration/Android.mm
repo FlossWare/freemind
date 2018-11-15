@@ -4,13 +4,9 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1539537375834" ID="ID_232858518" MODIFIED="1539537381414" POSITION="right" TEXT="chroot debian">
+<node COLOR="#0033ff" CREATED="1539537375834" ID="ID_232858518" LINK="https://unix.stackexchange.com/questions/321491/android-chroot-networking-issues" MODIFIED="1542308301183" POSITION="right" TEXT="chroot debian">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1539537388858" ID="ID_737795169" MODIFIED="1539537390933" TEXT="https://unix.stackexchange.com/questions/321491/android-chroot-networking-issues">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1539537437373" ID="ID_265613285" MODIFIED="1539537471347" TEXT="installing">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -54,8 +50,7 @@
       gpasswd -a root aid_inet_admin
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>

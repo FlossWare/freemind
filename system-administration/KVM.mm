@@ -16,7 +16,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1479293465424" ID="ID_1952158774" MODIFIED="1479293467664" POSITION="right" TEXT="Migrate VM">
+<node COLOR="#0033ff" CREATED="1479293465424" ID="ID_1952158774" LINK="http://ostolc.org/kvm-move-guest-to-another-host.html" MODIFIED="1542307879893" POSITION="right" TEXT="Migrate VM">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1479293472288" ID="ID_851443700" MODIFIED="1479293472884" TEXT="http://ostolc.org/kvm-move-guest-to-another-host.html">
@@ -107,8 +107,7 @@
       done
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>

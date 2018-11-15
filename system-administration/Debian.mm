@@ -4,13 +4,9 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1525443780266" ID="ID_301869249" MODIFIED="1539537597071" POSITION="right" TEXT="rootfs">
+<node COLOR="#0033ff" CREATED="1525443780266" ID="ID_301869249" LINK="https://olimex.wordpress.com/2014/07/21/how-to-create-bare-minimum-debian-wheezy-rootfs-from-scratch/" MODIFIED="1542309427556" POSITION="right" TEXT="rootfs">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1525443800348" ID="ID_835146825" MODIFIED="1539537597072" TEXT="https://olimex.wordpress.com/2014/07/21/how-to-create-bare-minimum-debian-wheezy-rootfs-from-scratch/">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1525443852070" ID="ID_1083252400" MODIFIED="1539537597072" TEXT="To create">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -224,13 +220,9 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1472647437648" ID="ID_1105187498" MODIFIED="1472647439300" POSITION="right" TEXT="nfs">
+<node COLOR="#0033ff" CREATED="1472647437648" ID="ID_1105187498" LINK="https://www.howtoforge.com/install_nfs_server_and_client_on_debian_wheezy" MODIFIED="1542309444050" POSITION="right" TEXT="nfs">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1472647464668" ID="ID_1766717352" MODIFIED="1472647468649" TEXT="https://www.howtoforge.com/install_nfs_server_and_client_on_debian_wheezy">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1472647447876" ID="ID_1503610628" MODIFIED="1472647448908" TEXT="server">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -316,7 +308,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1416233634117" ID="ID_98572430" MODIFIED="1466429799680" POSITION="right" TEXT="sudo">
+<node COLOR="#0033ff" CREATED="1416233634117" ID="ID_98572430" LINK="http://askubuntu.com/questions/192050/how-to-run-sudo-command-with-no-password/443071#443071" MODIFIED="1542309404028" POSITION="right" TEXT="sudo">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1416233637048" ID="ID_490201756" MODIFIED="1466429799680" TEXT="visudo">
@@ -351,10 +343,6 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1466429807640" ID="ID_482477968" MODIFIED="1466429808344" TEXT="http://askubuntu.com/questions/192050/how-to-run-sudo-command-with-no-password/443071#443071">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1461162205509" ID="ID_827858091" MODIFIED="1461162208021" TEXT="%sudo   ALL=(ALL:ALL) NOPASSWD:ALL">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -376,13 +364,9 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1517782979925" ID="ID_15133688" MODIFIED="1518287434879" POSITION="right" TEXT="install cobbler">
+<node COLOR="#0033ff" CREATED="1517782979925" ID="ID_15133688" LINK="https://raw.githubusercontent.com/luisbolson/cobbler/master/cobbler_install-ubuntu_14.04.sh" MODIFIED="1542309464445" POSITION="right" TEXT="install cobbler">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1517783015203" ID="ID_454512123" MODIFIED="1517783017796" TEXT="https://raw.githubusercontent.com/luisbolson/cobbler/master/cobbler_install-ubuntu_14.04.sh">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1518021312169" ID="ID_598050789" MODIFIED="1518022881613">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -469,12 +453,9 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1531186330759" ID="ID_1345529220" MODIFIED="1531186351006" TEXT="apt-cache showpkg python-django">
+<node COLOR="#00b439" CREATED="1531186330759" ID="ID_1345529220" LINK="https://askubuntu.com/questions/138284/how-to-downgrade-a-package-via-apt-get#138327" MODIFIED="1542309483335" TEXT="apt-cache showpkg python-django">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1531186367178" ID="ID_1107269222" MODIFIED="1531186367986" TEXT="https://askubuntu.com/questions/138284/how-to-downgrade-a-package-via-apt-get#138327">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 </node>
 <node COLOR="#00b439" CREATED="1532351361556" ID="ID_498008015" MODIFIED="1532351367764" TEXT="Downgrade django">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -533,31 +514,24 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1460310250234" ID="ID_6847889" MODIFIED="1460310254177" POSITION="right" TEXT="squeeze">
+<node COLOR="#0033ff" CREATED="1460310250234" ID="ID_6847889" LINK="https://code.google.com/archive/p/funplug-dns320-dns325/downloads" MODIFIED="1542309504965" POSITION="right" TEXT="squeeze">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1460310172813" ID="ID_668646387" MODIFIED="1460310258889" TEXT="https://code.google.com/archive/p/funplug-dns320-dns325/downloads">
+<node COLOR="#00b439" CREATED="1460310175230" ID="ID_1479410973" MODIFIED="1542309511436" TEXT="root">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1460310175230" ID="ID_1479410973" MODIFIED="1460310258889" TEXT="root">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1460310176650" ID="ID_54048935" MODIFIED="1460310258889" TEXT="dlink">
+<node COLOR="#00b439" CREATED="1460310176650" ID="ID_54048935" MODIFIED="1542309511436" TEXT="dlink">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1505051532367" ID="ID_1811200829" MODIFIED="1505051535618" POSITION="right" TEXT="ssh">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1511536389185" ID="ID_880355468" MODIFIED="1511536393117" TEXT="/dev/null is not a character device!">
+<node COLOR="#00b439" CREATED="1511536389185" ID="ID_880355468" LINK="http://linuxhostingsupport.net/blog/unable-to-start-ssh-devnull-is-not-a-character-device" MODIFIED="1542309522039" TEXT="/dev/null is not a character device!">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1511536400142" ID="ID_748677610" MODIFIED="1511536400738" TEXT="http://linuxhostingsupport.net/blog/unable-to-start-ssh-devnull-is-not-a-character-device">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 <node COLOR="#990000" CREATED="1511536406239" ID="ID_661235722" MODIFIED="1511536431711" TEXT="rm -f /dev/null">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
@@ -567,12 +541,9 @@
 <icon BUILTIN="full-2"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1505051536698" ID="ID_388021955" MODIFIED="1505051548202" TEXT="Enable SSH root login on Debian Linux Server">
+<node COLOR="#00b439" CREATED="1505051536698" ID="ID_388021955" LINK="https://linuxconfig.org/enable-ssh-root-login-on-debian-linux-server" MODIFIED="1542309534215" TEXT="Enable SSH root login on Debian Linux Server">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1505051549478" ID="ID_1674891140" MODIFIED="1505051554770" TEXT="https://linuxconfig.org/enable-ssh-root-login-on-debian-linux-server">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 <node COLOR="#990000" CREATED="1505051555695" ID="ID_1540829351" MODIFIED="1505051578496" TEXT="/etc/ssh/sshd_config">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1505051586394" ID="ID_175953843" MODIFIED="1505051620014" TEXT="Change">
@@ -774,7 +745,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
-<node COLOR="#0033ff" CREATED="1503359112652" ID="ID_638666056" MODIFIED="1508421391936" POSITION="left" TEXT="https://askubuntu.com/questions/69363/mount-single-partition-from-image-of-entire-disk-device">
+<node COLOR="#0033ff" CREATED="1542309567380" ID="ID_643204176" LINK="https://askubuntu.com/questions/69363/mount-single-partition-from-image-of-entire-disk-device" MODIFIED="1542309586386" POSITION="left" TEXT="Mount image">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1503359126361" ID="ID_1927262849" MODIFIED="1508421391937" TEXT="fdisk -lu sda.img">

@@ -576,13 +576,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1468931228499" ID="ID_1136415176" MODIFIED="1468931232663" POSITION="right" TEXT="Change dom0 memory">
+<node COLOR="#0033ff" CREATED="1468931228499" ID="ID_1136415176" LINK="https://wiki.centos.org/HowTos/Grub2" MODIFIED="1542306350763" POSITION="right" TEXT="Change dom0 memory">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1527184533606" ID="ID_1303222942" MODIFIED="1527184543369" TEXT="https://wiki.centos.org/HowTos/Grub2">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1468931239731" ID="ID_1523826180" MODIFIED="1468931306222" TEXT="/etc/default/grub">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

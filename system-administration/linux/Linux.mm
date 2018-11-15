@@ -10,15 +10,14 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1507391867695" ID="ID_1715111292" MODIFIED="1541957988024" TEXT="aspell">
+<node COLOR="#00b439" CREATED="1507391867695" FOLDED="true" ID="ID_1715111292" MODIFIED="1542309110269" TEXT="aspell">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1507391882013" ID="ID_1468129096" MODIFIED="1541957984041" TEXT="add dictionaries">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1507391889817" ID="ID_1577956055" MODIFIED="1541957984042" TEXT="download ">
+<node COLOR="#111111" CREATED="1507391889817" ID="ID_1577956055" LINK="ftp://ftp.gnu.org/gnu/aspell/dict/0index.html" MODIFIED="1542308437430" TEXT="download ">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1507391934568" ID="ID_1592033474" MODIFIED="1507391935588" TEXT="ftp://ftp.gnu.org/gnu/aspell/dict/0index.html"/>
 </node>
 <node COLOR="#111111" CREATED="1507391938640" ID="ID_1902578071" MODIFIED="1541957984042" TEXT="un tar downlod">
 <font NAME="SansSerif" SIZE="12"/>
@@ -44,17 +43,14 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1541339660374" ID="ID_778314964" MODIFIED="1541339664296" TEXT="arandar">
+<node COLOR="#00b439" CREATED="1541339660374" FOLDED="true" ID="ID_778314964" LINK="https://help.ubuntu.com/community/Lubuntu/MultiDisplay" MODIFIED="1542309108537" TEXT="arandar">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1541339698272" ID="ID_256949666" MODIFIED="1541339699662" TEXT="https://help.ubuntu.com/community/Lubuntu/MultiDisplay">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 <node COLOR="#990000" CREATED="1541339665408" ID="ID_154941317" MODIFIED="1541339687338" TEXT="provides convenient way to fix multi-monitor setup">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1397132234309" ID="ID_680823589" MODIFIED="1541957839314" TEXT="autofs">
+<node COLOR="#00b439" CREATED="1397132234309" FOLDED="true" ID="ID_680823589" MODIFIED="1542309107253" TEXT="autofs">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1397304252377" ID="ID_952784219" MODIFIED="1416757450584" TEXT="yum">
@@ -135,7 +131,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1538146547925" ID="ID_1955319774" MODIFIED="1538146549881" TEXT="dnsmasq">
+<node COLOR="#00b439" CREATED="1538146547925" FOLDED="true" ID="ID_1955319774" MODIFIED="1542309104128" TEXT="dnsmasq">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1538146551697" ID="ID_630843464" MODIFIED="1538146554477" TEXT="rm -rf /var/lib/misc/dnsmasq.leases">
@@ -243,7 +239,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1417273376905" ID="ID_1264126532" MODIFIED="1527981566852" TEXT="Handbrake">
+<node COLOR="#00b439" CREATED="1417273376905" FOLDED="true" ID="ID_1264126532" MODIFIED="1542309102004" TEXT="Handbrake">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1417273406665" ID="ID_1840031309" MODIFIED="1417354059104" TEXT="https://handbrake.fr/downloads.php">
@@ -361,7 +357,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1364241250475" ID="ID_1442613364" MODIFIED="1468574783531" TEXT="ISO">
+<node COLOR="#00b439" CREATED="1364241250475" FOLDED="true" ID="ID_1442613364" MODIFIED="1542309100341" TEXT="ISO">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1364241258692" ID="ID_94313769" MODIFIED="1416757468502" TEXT="dd if=/dev/cdrom of=/path/to/cdcopy.iso">
@@ -376,9 +372,8 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1537548683039" ID="ID_1604454541" MODIFIED="1537548702253" TEXT="mount -t iso9660 -o loop [iso] [mount pt]">
+<node COLOR="#990000" CREATED="1537548683039" ID="ID_1604454541" LINK="https://www.tecmint.com/how-to-mount-and-unmount-an-iso-image-in-linux/" MODIFIED="1542308482212" TEXT="mount -t iso9660 -o loop [iso] [mount pt]">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1537548704821" ID="ID_1923051215" MODIFIED="1537548729024" TEXT="https://www.tecmint.com/how-to-mount-and-unmount-an-iso-image-in-linux/"/>
 <node COLOR="#111111" CREATED="1537548718243" ID="ID_1666687163" MODIFIED="1537548720178" TEXT="mount -t iso9660 -o loop /home/tecmint/Fedora-18-i386-DVD.iso /mnt/iso/"/>
 </node>
 </node>
@@ -389,22 +384,16 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1518918226050" ID="ID_71861853" MODIFIED="1518918229357" TEXT="grub">
+<node COLOR="#00b439" CREATED="1518918226050" ID="ID_71861853" LINK="https://www.systutorials.com/3826/setting-default-entry-in-grub2-and-grub/" MODIFIED="1542308509011" TEXT="grub">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1518918254074" ID="ID_1245714227" MODIFIED="1518918254805" TEXT="https://www.systutorials.com/3826/setting-default-entry-in-grub2-and-grub/">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 <node COLOR="#990000" CREATED="1518918262926" ID="ID_1813793183" MODIFIED="1518918264469" TEXT="wget https://www.systutorials.com/go/grub2-select.bash/ -O grub2-select.bash &amp;&amp; \ bash grub2-select.bash">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1541957075455" ID="ID_1513629000" MODIFIED="1541957077170" TEXT="id">
+<node COLOR="#00b439" CREATED="1541957075455" FOLDED="true" ID="ID_1513629000" LINK="https://linoxide.com/linux-command/linux-id-command/" MODIFIED="1542309096436" TEXT="id">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1541957082566" ID="ID_219927310" MODIFIED="1541957083314" TEXT="https://linoxide.com/linux-command/linux-id-command/">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 <node COLOR="#990000" CREATED="1541957103598" ID="ID_919723018" MODIFIED="1541957599520" TEXT="id -a">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
@@ -439,7 +428,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1417366743936" FOLDED="true" ID="ID_1796342552" MODIFIED="1417366820249" TEXT="mktemp">
+<node COLOR="#00b439" CREATED="1417366743936" ID="ID_1796342552" MODIFIED="1542308533144" TEXT="mktemp">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1417366753003" ID="ID_1932271816" MODIFIED="1417366757025" TEXT="Creates a temp file">
@@ -453,17 +442,14 @@
 <node COLOR="#00b439" CREATED="1532184861071" ID="ID_539046323" MODIFIED="1532184861858" TEXT="ls">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1532184862559" ID="ID_26939158" MODIFIED="1532184865715" TEXT="sort by name">
+<node COLOR="#990000" CREATED="1532184862559" ID="ID_26939158" MODIFIED="1542308531945" TEXT="sort by name">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1532184867483" ID="ID_1059814808" MODIFIED="1532184876961" TEXT="ls -latr [dir] | sort -k9,9"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1541958247182" ID="ID_416575634" MODIFIED="1541958250518" TEXT="mail">
+<node COLOR="#00b439" CREATED="1541958247182" ID="ID_416575634" LINK="https://tecadmin.net/bash-mail-command-not-found/" MODIFIED="1542308544066" TEXT="mail">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1541958268586" ID="ID_1136572183" MODIFIED="1541958270940" TEXT="https://tecadmin.net/bash-mail-command-not-found/">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 <node COLOR="#990000" CREATED="1541958259214" ID="ID_451711803" MODIFIED="1541958261332" TEXT="echo &quot;Message Body&quot; | mail -s &quot;Message Subject&quot; receiver@example.com">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
@@ -471,9 +457,8 @@
 <node COLOR="#00b439" CREATED="1541958383399" ID="ID_669296682" MODIFIED="1541958385066" TEXT="motd">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1541958385702" ID="ID_1680679569" MODIFIED="1541958390089" TEXT="Prints double">
+<node COLOR="#990000" CREATED="1541958385702" ID="ID_1680679569" LINK="https://stackoverflow.com/questions/190912/etc-motd-printing-twice-on-gentoo-linux" MODIFIED="1542308557940" TEXT="Prints double">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1541958395598" ID="ID_558841660" MODIFIED="1541958396226" TEXT="https://stackoverflow.com/questions/190912/etc-motd-printing-twice-on-gentoo-linux"/>
 <node COLOR="#111111" CREATED="1541958396498" ID="ID_1850148985" MODIFIED="1541958404958" TEXT="sshd_config">
 <node COLOR="#111111" CREATED="1541958405714" ID="ID_1402177217" MODIFIED="1541958414790" TEXT="Banner /etc/motd"/>
 <node COLOR="#111111" CREATED="1541958516002" ID="ID_161674440" MODIFIED="1541958518182" TEXT="Remove it"/>
@@ -487,11 +472,8 @@
 <node COLOR="#00b439" CREATED="1538579942466" ID="ID_216966" MODIFIED="1538579944521" TEXT="netstat">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1538579991633" ID="ID_691774026" MODIFIED="1538580003834" TEXT="Determine what proc is listening on a port">
+<node COLOR="#990000" CREATED="1538579991633" ID="ID_691774026" LINK="https://www.cyberciti.biz/faq/what-process-has-open-linux-port/" MODIFIED="1542308570946" TEXT="Determine what proc is listening on a port">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1538579946838" ID="ID_710890758" MODIFIED="1538580007174" TEXT="https://www.cyberciti.biz/faq/what-process-has-open-linux-port/">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
 <node COLOR="#111111" CREATED="1538579951870" ID="ID_292239245" MODIFIED="1538580007176" TEXT="netstat -tulpn">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1538579973050" ID="ID_440399066" MODIFIED="1538579981293" TEXT="ls -l /proc/[pid]/exe"/>
@@ -508,7 +490,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1503969822828" ID="ID_1317496824" MODIFIED="1503969831192" TEXT="RAM disk">
+<node COLOR="#00b439" CREATED="1503969822828" FOLDED="true" ID="ID_1317496824" LINK="https://www.jamescoyle.net/how-to/943-create-a-ram-disk-in-linux" MODIFIED="1542309092917" TEXT="RAM disk">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1503969835829" ID="ID_934827370" MODIFIED="1503969837884" TEXT="https://www.jamescoyle.net/how-to/943-create-a-ram-disk-in-linux">
@@ -523,15 +505,12 @@
 <icon BUILTIN="full-2"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1511309520904" ID="ID_516227479" MODIFIED="1511309536820" TEXT="raw files">
+<node COLOR="#00b439" CREATED="1511309520904" FOLDED="true" ID="ID_516227479" LINK="https://askubuntu.com/questions/69363/mount-single-partition-from-image-of-entire-disk-device" MODIFIED="1542309091297" TEXT="raw files">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1503359112652" ID="ID_638666056" MODIFIED="1511309526911" TEXT="https://askubuntu.com/questions/69363/mount-single-partition-from-image-of-entire-disk-device">
+<node COLOR="#990000" CREATED="1503359126361" ID="ID_1927262849" MODIFIED="1542308608884" TEXT="fdisk -lu sda.img">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1503359126361" ID="ID_1927262849" MODIFIED="1511309526911" TEXT="fdisk -lu sda.img">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1511307950549" ID="ID_1335708141" MODIFIED="1511309508465">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -551,17 +530,16 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1503359155984" ID="ID_403197778" MODIFIED="1511478777515" STYLE="fork" TEXT="mount -o offset=31457280 /home/sfloess/Downloads/Fedora-Minimal-armhfp-26-1.5-sda.raw /mnt/raw/">
+<node COLOR="#990000" CREATED="1503359155984" ID="ID_403197778" MODIFIED="1542308608889" STYLE="fork" TEXT="mount -o offset=31457280 /home/sfloess/Downloads/Fedora-Minimal-armhfp-26-1.5-sda.raw /mnt/raw/">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#111111" CREATED="1511307917943" ID="ID_1381703040" MODIFIED="1511309526912" TEXT="[sector size] * offset">
+<node COLOR="#990000" CREATED="1511307917943" ID="ID_1381703040" MODIFIED="1542308608890" TEXT="[sector size] * offset">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-</node>
-<node COLOR="#00b439" CREATED="1380632938152" ID="ID_1342641388" MODIFIED="1509465911025" TEXT="rsync">
+<node COLOR="#00b439" CREATED="1380632938152" FOLDED="true" ID="ID_1342641388" MODIFIED="1542309089217" TEXT="rsync">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1380632941195" ID="ID_1469336021" MODIFIED="1416757415980" TEXT="--chmod=a+rwx,g+rwx,o-wx">
@@ -575,7 +553,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1424282496902" ID="ID_1867054112" MODIFIED="1424282498375" TEXT="selinux">
+<node COLOR="#00b439" CREATED="1424282496902" FOLDED="true" ID="ID_1867054112" MODIFIED="1542309087967" TEXT="selinux">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1424282544543" ID="ID_195890632" MODIFIED="1424282545615" TEXT="setenforce 0">
@@ -594,7 +572,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1471693843484" ID="ID_15075620" MODIFIED="1471693845139" TEXT="split">
+<node COLOR="#00b439" CREATED="1471693843484" FOLDED="true" ID="ID_15075620" MODIFIED="1542309085045" TEXT="split">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1471693845691" ID="ID_909245245" MODIFIED="1471693852650" TEXT="break files into mutliple parts">
@@ -608,17 +586,15 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1524841382089" ID="ID_1759769738" MODIFIED="1524841383922" TEXT="sshfs">
+<node COLOR="#00b439" CREATED="1524841382089" FOLDED="true" ID="ID_1759769738" MODIFIED="1542309086549" TEXT="sshfs">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1524841385332" ID="ID_43687258" MODIFIED="1524841388032" TEXT="different port">
+<node COLOR="#990000" CREATED="1524841385332" ID="ID_43687258" LINK="https://www.linuxquestions.org/questions/linux-software-2/combining-port-knocking-with-sshfs-and-autofs-4175604156/" MODIFIED="1542308625102" TEXT="different port">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1524841392824" ID="ID_1901148440" MODIFIED="1524841393492" TEXT="https://www.linuxquestions.org/questions/linux-software-2/combining-port-knocking-with-sshfs-and-autofs-4175604156/"/>
 <node COLOR="#111111" CREATED="1524841408589" ID="ID_53492044" MODIFIED="1524841432425" TEXT="-fstype=fuse,...,port=PORT,..."/>
 </node>
-<node COLOR="#990000" CREATED="1541956521559" ID="ID_384226201" MODIFIED="1541956524118" TEXT="reconnect">
+<node COLOR="#990000" CREATED="1541956521559" ID="ID_384226201" LINK="https://unix.stackexchange.com/questions/220372/force-reconnect-on-sshfs-drive-mounted-via-fstab#220864" MODIFIED="1542308639508" TEXT="reconnect">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1541956529275" ID="ID_1715806234" MODIFIED="1541956531658" TEXT="https://unix.stackexchange.com/questions/220372/force-reconnect-on-sshfs-drive-mounted-via-fstab#220864"/>
 <node COLOR="#111111" CREATED="1541956989750" ID="ID_846434093" MODIFIED="1541957045455">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -633,16 +609,15 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1525787071785" ID="ID_1818473672" MODIFIED="1525787073030" TEXT="su">
+<node COLOR="#00b439" CREATED="1525787071785" ID="ID_1818473672" MODIFIED="1542309082533" TEXT="su">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1525787081349" ID="ID_1148487311" MODIFIED="1525787082136" TEXT="setgid: Operation not permitted ">
+<node COLOR="#990000" CREATED="1525787081349" ID="ID_1148487311" LINK="https://www.linuxquestions.org/questions/linux-newbie-8/setgid-operation-not-permitted-639559/" MODIFIED="1542308657227" TEXT="setgid: Operation not permitted ">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1525787094602" ID="ID_1642166768" MODIFIED="1525787095533" TEXT="https://www.linuxquestions.org/questions/linux-newbie-8/setgid-operation-not-permitted-639559/"/>
 <node COLOR="#111111" CREATED="1525787100882" ID="ID_1370380428" MODIFIED="1525787114677" TEXT="chmod +s /bin/su"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1416233634117" ID="ID_98572430" MODIFIED="1444761601102" TEXT="sudo">
+<node COLOR="#00b439" CREATED="1416233634117" ID="ID_98572430" LINK="https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file-on-ubuntu-and-centos" MODIFIED="1542308674200" TEXT="sudo">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1525787622031" ID="ID_1268344841" MODIFIED="1525787624299" TEXT="chmod +s /usr/bin/sudo">
@@ -699,12 +674,8 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1416233708715" ID="ID_1811662791" MODIFIED="1416757419911" TEXT="https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file-on-ubuntu-and-centos">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
 </node>
-</node>
-<node COLOR="#00b439" CREATED="1517766941327" ID="ID_747528722" MODIFIED="1517766943459" TEXT="systemctl">
+<node COLOR="#00b439" CREATED="1517766941327" FOLDED="true" ID="ID_747528722" MODIFIED="1542309077913" TEXT="systemctl">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1517766926249" ID="ID_1755806479" MODIFIED="1541706732134" TEXT="show [name].service">
@@ -723,15 +694,14 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1517575230286" ID="ID_1138121868" MODIFIED="1517575232347" TEXT="terminator">
+<node COLOR="#00b439" CREATED="1517575230286" FOLDED="true" ID="ID_1138121868" MODIFIED="1542309076803" TEXT="terminator">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1517575238144" ID="ID_552139637" MODIFIED="1517575251477" TEXT="To run need dbus-x11">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1539449829324" ID="ID_149530109" MODIFIED="1539449838169" TEXT="Disable red titlebar">
+<node COLOR="#990000" CREATED="1539449829324" ID="ID_149530109" LINK="https://www.linuxquestions.org/questions/linux-software-2/terminator-on-start-title-bar-how-to-disable-4175473921/" MODIFIED="1542308696337" TEXT="Disable red titlebar">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1539449838931" ID="ID_165397753" MODIFIED="1539449844758" TEXT="https://www.linuxquestions.org/questions/linux-software-2/terminator-on-start-title-bar-how-to-disable-4175473921/"/>
 <node COLOR="#111111" CREATED="1539449854512" ID="ID_72762442" MODIFIED="1539449890212">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -760,17 +730,14 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1511965331036" ID="ID_1088390602" MODIFIED="1511965332176" TEXT="USB">
+<node COLOR="#00b439" CREATED="1511965331036" FOLDED="true" ID="ID_1088390602" MODIFIED="1542309075589" TEXT="USB">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1511965356665" ID="ID_1200944151" MODIFIED="1511965360220" TEXT="Links">
+<node COLOR="#990000" CREATED="1542308714017" ID="ID_1438451308" LINK="https://ksearch.wordpress.com/2010/09/29/format-usb-in-linux/" MODIFIED="1542308736177" TEXT="formatting">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1511965337313" ID="ID_1557942437" MODIFIED="1511965366484" TEXT="https://ksearch.wordpress.com/2010/09/29/format-usb-in-linux/">
-<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#111111" CREATED="1511965353956" ID="ID_514622886" MODIFIED="1511965366485" TEXT="http://www.tldp.org/HOWTO/Flash-Memory-HOWTO/ext2.html">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
+<node COLOR="#990000" CREATED="1542308794853" ID="ID_570515611" LINK="http://www.tldp.org/HOWTO/Flash-Memory-HOWTO/ext2.html" MODIFIED="1542308809134" TEXT="Setup file system">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#990000" CREATED="1511965367872" ID="ID_121358515" MODIFIED="1511965390296" TEXT="fdisk /dev/sdb">
 <font NAME="SansSerif" SIZE="14"/>
@@ -784,7 +751,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1415378699256" FOLDED="true" ID="ID_1498338552" MODIFIED="1523274017069" TEXT="virsh">
+<node COLOR="#00b439" CREATED="1415378699256" FOLDED="true" ID="ID_1498338552" MODIFIED="1542309071875" TEXT="virsh">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1415378667673" ID="ID_1776307560" MODIFIED="1416757406904" TEXT="virsh -c qemu:///system list --all">
@@ -804,16 +771,41 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1512223122047" FOLDED="true" ID="ID_1850955579" MODIFIED="1512843333681" TEXT="vsftp">
+<node COLOR="#00b439" CREATED="1512223122047" FOLDED="true" ID="ID_1850955579" MODIFIED="1542309069742">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      vsftp
+    </p>
+  </body>
+</html>
+</richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1512235886401" ID="ID_1290857213" MODIFIED="1512843302911" TEXT="http://howto.gumph.org/content/setup-virtual-users-and-directories-in-vsftpd/">
-<edge STYLE="bezier" WIDTH="thin"/>
+<node COLOR="#990000" CREATED="1542309009920" ID="ID_1515511367" MODIFIED="1542309016667">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Very Secure FTP Daemon
+    </p>
+  </body>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1512238082782" ID="ID_1875241002" MODIFIED="1512843302912" TEXT="https://it.megocollector.com/scripts/vsftpd-ftp-server-with-virtual-users-centos-7/">
-<edge STYLE="bezier" WIDTH="thin"/>
+<node COLOR="#990000" CREATED="1542308908877" ID="ID_905627775" MODIFIED="1542309023711" TEXT="Setup">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1542308865632" ID="ID_1703156614" LINK="http://howto.gumph.org/content/setup-virtual-users-and-directories-in-vsftpd/" MODIFIED="1542308920404" TEXT="Users/Directories">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1542308892092" ID="ID_1648781881" LINK="https://it.megocollector.com/scripts/vsftpd-ftp-server-with-virtual-users-centos-7/" MODIFIED="1542308939598" TEXT="Server with Virtual Users">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node COLOR="#990000" CREATED="1512237899101" ID="ID_1657944824" MODIFIED="1512843302912" TEXT="Install">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -995,7 +987,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1537549765649" ID="ID_1640676514" MODIFIED="1537549767292" TEXT="Wine">
+<node COLOR="#00b439" CREATED="1537549765649" FOLDED="true" ID="ID_1640676514" MODIFIED="1542309074543" TEXT="Wine">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1537549773789" ID="ID_1176764146" MODIFIED="1537549780448" TEXT="mount ISO as cdrom">
@@ -1004,7 +996,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <node COLOR="#111111" CREATED="1537549810864" ID="ID_117888853" MODIFIED="1537549833204" TEXT="ln -s [mount pt] $HOME/.wine/dosdevices/f:"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1357680246827" FOLDED="true" ID="ID_212578750" MODIFIED="1512843361007" TEXT="xchat">
+<node COLOR="#00b439" CREATED="1357680246827" FOLDED="true" ID="ID_212578750" MODIFIED="1542308835987" TEXT="xchat">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1357680251769" ID="ID_833606588" MODIFIED="1416757493406" TEXT="Menu disappears">
@@ -1044,7 +1036,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1377862391032" FOLDED="true" ID="ID_1564617092" MODIFIED="1417366814764" TEXT="Xmms">
+<node COLOR="#00b439" CREATED="1377862391032" FOLDED="true" ID="ID_1564617092" MODIFIED="1542308837585" TEXT="Xmms">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1377862405083" ID="ID_670310610" MODIFIED="1416757496633" TEXT="Building">
@@ -1058,7 +1050,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1509823179162" ID="ID_1556079271" MODIFIED="1509823181382" POSITION="right" TEXT="systemd">
+<node COLOR="#0033ff" CREATED="1509823179162" FOLDED="true" ID="ID_1556079271" MODIFIED="1542309061539" POSITION="right" TEXT="systemd">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1509823769307" ID="ID_651212842" MODIFIED="1509823771751" TEXT="Structure">
@@ -1276,13 +1268,9 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1508420676311" ID="ID_641899531" MODIFIED="1508420687574" POSITION="right" TEXT="Disable auto volume">
+<node COLOR="#0033ff" CREATED="1508420676311" FOLDED="true" ID="ID_641899531" LINK="https://nzeid.net/pulseaudio-disable-auto-volume" MODIFIED="1542309064963" POSITION="right" TEXT="Disable auto volume">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1508420688102" ID="ID_1337521446" MODIFIED="1508420690289" TEXT="https://nzeid.net/pulseaudio-disable-auto-volume">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1508420776953" ID="ID_1614516384" MODIFIED="1508420888065" TEXT="Change config using either">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -1522,7 +1510,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1466348647825" ID="ID_1544044603" MODIFIED="1466348650718" POSITION="left" TEXT="File Systems">
+<node COLOR="#0033ff" CREATED="1466348647825" FOLDED="true" ID="ID_1544044603" MODIFIED="1542309120621" POSITION="left" TEXT="File Systems">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1536242595120" ID="ID_991824602" MODIFIED="1536242602235" TEXT="Determine file system type">
@@ -1532,13 +1520,9 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1459777649391" ID="ID_655191944" MODIFIED="1542024900668" TEXT="LVM">
+<node COLOR="#00b439" CREATED="1459777649391" ID="ID_655191944" LINK="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html-single/Logical_Volume_Manager_Administration/index.html#LV" MODIFIED="1542308353917" TEXT="LVM">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1459777748486" ID="ID_1187640201" MODIFIED="1542024899837" TEXT="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html-single/Logical_Volume_Manager_Administration/index.html#LV">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 <node COLOR="#990000" CREATED="1459777750261" ID="ID_1216660049" MODIFIED="1542024899837" TEXT="Commands">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
@@ -1554,13 +1538,9 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1459777642623" ID="ID_75752490" MODIFIED="1466348654729" TEXT="XFS">
+<node COLOR="#00b439" CREATED="1459777642623" ID="ID_75752490" LINK="https://ma.ttias.be/increase-expand-xfs-filesystem-in-red-hat-rhel-7-cento7/" MODIFIED="1542308378679" TEXT="XFS">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1459777640359" ID="ID_898831323" MODIFIED="1466348654729" TEXT="https://ma.ttias.be/increase-expand-xfs-filesystem-in-red-hat-rhel-7-cento7/">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 <node COLOR="#990000" CREATED="1459777760269" ID="ID_1419793821" MODIFIED="1466348654730" TEXT="Commands">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
@@ -1588,13 +1568,9 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1533155918999" ID="ID_647150267" MODIFIED="1533155920890" POSITION="left" TEXT="Grubby">
+<node COLOR="#0033ff" CREATED="1533155918999" FOLDED="true" ID="ID_647150267" LINK="https://docs-old.fedoraproject.org/en-US/Fedora/23/html/System_Administrators_Guide/sec-Configuring_GRUB_2_Using_the_grubby_Tool.html" MODIFIED="1542309118401" POSITION="left" TEXT="Grubby">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1533155962814" ID="ID_184456914" MODIFIED="1533155965651" TEXT="https://docs-old.fedoraproject.org/en-US/Fedora/23/html/System_Administrators_Guide/sec-Configuring_GRUB_2_Using_the_grubby_Tool.html">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1533155867643" ID="ID_113145429" MODIFIED="1533155922809" TEXT="Console blanking">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -1618,13 +1594,9 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1512854732417" ID="ID_1888374883" MODIFIED="1541958062663" POSITION="right" TEXT="Print process who called script">
+<node COLOR="#0033ff" CREATED="1512854732417" ID="ID_1888374883" LINK="https://stackoverflow.com/questions/12285387/is-there-a-way-to-print-the-pid-of-the-process-that-called-my-c-binary" MODIFIED="1542309054495" POSITION="right" TEXT="Print process who called script">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1512854745148" ID="ID_947057799" MODIFIED="1541958062664" TEXT="https://stackoverflow.com/questions/12285387/is-there-a-way-to-print-the-pid-of-the-process-that-called-my-c-binary">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1512854746764" ID="ID_860587567" MODIFIED="1541958062664">
 <richcontent TYPE="NODE"><html>
   <head>
