@@ -7,12 +7,9 @@
 <node COLOR="#0033ff" CREATED="1536937378438" ID="ID_1763637251" MODIFIED="1536937380709" POSITION="right" TEXT="motd">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1536937381510" ID="ID_1837103653" MODIFIED="1536937382649" TEXT="ssh">
+<node COLOR="#00b439" CREATED="1536937381510" ID="ID_1837103653" LINK="http://ithelpblog.com/os/linux/redhat/centos-redhat/login-banner-ssh-banner-or-motd-banner-on-centos-6/" MODIFIED="1542313969100" TEXT="ssh">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1536937388062" ID="ID_329557718" MODIFIED="1536937388913" TEXT="http://ithelpblog.com/os/linux/redhat/centos-redhat/login-banner-ssh-banner-or-motd-banner-on-centos-6/">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 <node COLOR="#990000" CREATED="1536937404846" ID="ID_715930216" MODIFIED="1536937406661" TEXT="etc/ssh/sshd_config">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1536937407449" ID="ID_1074294157" MODIFIED="1536937416880" TEXT="Banner [full path to motd]"/>
@@ -161,12 +158,9 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1538501717430" ID="ID_1755862780" MODIFIED="1538501719415" TEXT="enable repo">
+<node COLOR="#00b439" CREATED="1538501717430" ID="ID_1755862780" LINK="https://www.2daygeek.com/how-to-add-enable-disable-a-repository-dnf-yum-config-manager-on-linux/" MODIFIED="1542313985857" TEXT="enable repo">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1538501720194" ID="ID_996527070" MODIFIED="1538501728015" TEXT="https://www.2daygeek.com/how-to-add-enable-disable-a-repository-dnf-yum-config-manager-on-linux/">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 <node COLOR="#990000" CREATED="1538501740222" ID="ID_84791275" MODIFIED="1538501747390" TEXT="yum-config-manager --enable [repo id]">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
@@ -219,13 +213,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1498919559341" ID="ID_349235874" MODIFIED="1498919560968" POSITION="right" TEXT="entropy">
+<node COLOR="#0033ff" CREATED="1498919559341" ID="ID_349235874" LINK="http://randomzucchini.blogspot.com/2014/09/linux-centos-7-increasing-available.html" MODIFIED="1542314005659" POSITION="right" TEXT="entropy">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1498919564573" ID="ID_1728014337" MODIFIED="1498919566801" TEXT="http://randomzucchini.blogspot.com/2014/09/linux-centos-7-increasing-available.html">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1498919575653" ID="ID_1358154530" MODIFIED="1498919578452" TEXT="/proc/sys/kernel/random/entropy_avail">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -245,11 +235,8 @@
 <node COLOR="#00b439" CREATED="1511899558762" ID="ID_510854464" MODIFIED="1511899563290" TEXT="7.x">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1511899585930" ID="ID_963962964" MODIFIED="1511899589109" TEXT="nslookup">
+<node COLOR="#990000" CREATED="1511899585930" ID="ID_963962964" LINK="https://unix.stackexchange.com/questions/164210/nslookup-command-not-found-error-on-rhel-centos-7" MODIFIED="1542313944794" TEXT="nslookup">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1511899583466" ID="ID_49300823" MODIFIED="1511899591992" TEXT="https://unix.stackexchange.com/questions/164210/nslookup-command-not-found-error-on-rhel-centos-7">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
 <node COLOR="#111111" CREATED="1511899564705" ID="ID_1071405467" MODIFIED="1511899604213" TEXT="yum install bind-utils">
 <font NAME="SansSerif" SIZE="12"/>
 </node>

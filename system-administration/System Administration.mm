@@ -36,12 +36,12 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1421503362033" ID="ID_1128093225" LINK="Red%20Hat%20Based%20Linux.mm" MODIFIED="1542309615449" TEXT="Red Hat Based">
+<node COLOR="#990000" CREATED="1421503362033" ID="ID_1128093225" LINK="Red%20Hat%20Based%20Linux.mm" MODIFIED="1542314198526" TEXT="Red Hat Based">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1357485379270" ID="ID_532264394" LINK="mac/Mac.mm" MODIFIED="1425994635524" TEXT="Mac">
+<node COLOR="#00b439" CREATED="1357485379270" ID="ID_532264394" LINK="mac/Mac.mm" MODIFIED="1542385608309" TEXT="Mac">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

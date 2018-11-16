@@ -108,13 +108,9 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1541956438470" ID="ID_1536295617" MODIFIED="1541956444771" POSITION="right" TEXT="Change host name">
+<node COLOR="#0033ff" CREATED="1541956438470" ID="ID_1536295617" LINK="https://electrosome.com/changing-hostname-openwrt/" MODIFIED="1542385690649" POSITION="right" TEXT="Change host name">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1541956448647" ID="ID_818373497" MODIFIED="1541956450429" TEXT="https://electrosome.com/changing-hostname-openwrt/">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1541956463207" ID="ID_1006630642" MODIFIED="1541956489077">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -131,8 +127,7 @@
       /etc/init.d/system reload
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

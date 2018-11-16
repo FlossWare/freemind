@@ -134,48 +134,40 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1512927727581" ID="ID_434255507" MODIFIED="1512927729312" TEXT="Upload">
+<node COLOR="#00b439" CREATED="1512927727581" ID="ID_434255507" LINK="https://stackoverflow.com/questions/3007253/send-post-xml-file-using-curl-command-line" MODIFIED="1542386526206" TEXT="Upload">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1512927750565" ID="ID_385785893" MODIFIED="1512927752049" TEXT="https://stackoverflow.com/questions/3007253/send-post-xml-file-using-curl-command-line">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 <node COLOR="#990000" CREATED="1512927742390" ID="ID_1962911297" MODIFIED="1512927799373" TEXT="curl -v -k -u &apos;[user]:[password]&apos; -X POST -H &apos;Content-Type: application/xml&apos; --data @[filename].xml &apos;[host]/createItem?name=[job name]&apos; ">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1534360397044" ID="ID_952188551" MODIFIED="1534360409074" POSITION="right" TEXT="Getting stuck on [EnvInject] - Loading node environment variables&quot;">
+<node COLOR="#0033ff" CREATED="1542386443182" ID="ID_36260262" MODIFIED="1542386444602" POSITION="right" TEXT="Errors">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1534360414819" ID="ID_735956275" MODIFIED="1534360415632" TEXT="https://stackoverflow.com/questions/27600709/jenkins-job-stuck-loading-node-environment-variables#37465701">
+<node COLOR="#00b439" CREATED="1534360397044" ID="ID_952188551" LINK="https://stackoverflow.com/questions/27600709/jenkins-job-stuck-loading-node-environment-variables#37465701" MODIFIED="1542386446405" TEXT="Getting stuck on [EnvInject] - Loading node environment variables&quot;">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1534360416196" ID="ID_155337370" MODIFIED="1542386446405" TEXT="Rename project">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1534360416196" ID="ID_155337370" MODIFIED="1534360418991" TEXT="Rename project">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1541958327631" ID="ID_1576465648" MODIFIED="1541958332038" POSITION="right" TEXT="Integration">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1541960663477" ID="ID_172254222" MODIFIED="1541960666605" TEXT="github">
+<node COLOR="#00b439" CREATED="1541960663477" ID="ID_172254222" LINK="https://jenkins.io/solutions/github/" MODIFIED="1542386487879" TEXT="github">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1541960731298" ID="ID_107158614" MODIFIED="1541960732194" TEXT="https://jenkins.io/solutions/github/">
+<node COLOR="#990000" CREATED="1542386464934" ID="ID_238013093" LINK="https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin" MODIFIED="1542386498618" TEXT="plugin">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1541962666497" ID="ID_1005056824" MODIFIED="1541962669173" TEXT="https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin">
-<font NAME="SansSerif" SIZE="14"/>
 </node>
-</node>
-<node COLOR="#00b439" CREATED="1541958332786" ID="ID_148201545" MODIFIED="1542025168259" TEXT="gitlab">
+<node COLOR="#00b439" CREATED="1541958332786" ID="ID_148201545" LINK="https://github.com/jenkinsci/gitlab-plugin#jenkins-job-configuration" MODIFIED="1542386510140" TEXT="gitlab">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1541960003586" ID="ID_900616213" MODIFIED="1541960005626" TEXT="https://github.com/jenkinsci/gitlab-plugin#jenkins-job-configuration">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 <node COLOR="#990000" CREATED="1541960171834" ID="ID_1841588661" MODIFIED="1541960182802" TEXT="To Jenkins">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1541960354941" ID="ID_743928003" MODIFIED="1541960395995" TEXT="Create a user in Jenkins which has, at a minimum, Job/Build permissions">
@@ -226,7 +218,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1363430781075" ID="ID_466457132" MODIFIED="1363430786904" POSITION="left" TEXT="Memory">
+<node COLOR="#0033ff" CREATED="1363430781075" ID="ID_466457132" LINK="http://stackoverflow.com/questions/5936519/how-to-give-jenkins-more-heap-space-when-its-started-as-a-service-under-windows" MODIFIED="1542386545783" POSITION="left" TEXT="Memory">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1387906977369" ID="ID_808669744" MODIFIED="1536603421158" TEXT="Adjust">
@@ -274,10 +266,6 @@
 <node COLOR="#990000" CREATED="1363430840684" ID="ID_378754211" MODIFIED="1363430874225" TEXT="JENKINS_JAVA_OPTIONS=&quot;-Djava.awt.headless=true -Xmx2048m -XX:MaxPermSize=512m&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-</node>
-<node COLOR="#00b439" CREATED="1363430860980" ID="ID_1742946194" MODIFIED="1363430862925" TEXT="http://stackoverflow.com/questions/5936519/how-to-give-jenkins-more-heap-space-when-its-started-as-a-service-under-windows">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>

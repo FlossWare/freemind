@@ -80,13 +80,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1508433405575" ID="ID_753869116" MODIFIED="1508433407391" POSITION="left" TEXT="user">
+<node COLOR="#0033ff" CREATED="1508433405575" ID="ID_753869116" LINK="http://dev.mysql.com/doc/refman/5.1/en/adding-users.html" MODIFIED="1542386034102" POSITION="left" TEXT="user">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1291765980178" ID="ID_854199029" MODIFIED="1536602945153" TEXT="http://dev.mysql.com/doc/refman/5.1/en/adding-users.html">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1508433413111" ID="ID_369846564" MODIFIED="1530725006489" TEXT="create">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

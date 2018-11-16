@@ -10,12 +10,9 @@
 <node COLOR="#00b439" CREATED="1455721358841" ID="ID_1837839639" MODIFIED="1455721365200" TEXT="Virtualization">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1440935783891" ID="ID_1073361687" MODIFIED="1455721373002" TEXT="KVM">
+<node COLOR="#990000" CREATED="1440935783891" ID="ID_1073361687" LINK="https://wiki.centos.org/HowTos/KVM" MODIFIED="1542314086665" TEXT="KVM">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1440935790658" ID="ID_1733881171" LINK="https://wiki.centos.org/HowTos/KVM" MODIFIED="1455721373003" TEXT="https://wiki.centos.org/HowTos/KVM">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
 <node COLOR="#111111" CREATED="1440935801911" ID="ID_1584462684" MODIFIED="1455721373003" TEXT="yum -y install @virt* dejavu-lgc-* xorg-x11-xauth tigervnc libguestfs-tools policycoreutils-python bridge-utils">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
@@ -184,11 +181,8 @@
 <node COLOR="#990000" CREATED="1440504140480" ID="ID_423703538" MODIFIED="1455721373013" TEXT="Docker">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1440504201607" ID="ID_1758153499" MODIFIED="1455721373014" TEXT="Install">
+<node COLOR="#111111" CREATED="1440504201607" ID="ID_1758153499" LINK="http://www.liquidweb.com/kb/how-to-install-docker-on-centos-7/" MODIFIED="1542314148180" TEXT="Install">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1440504147391" ID="ID_965538581" MODIFIED="1440504208854" TEXT="http://www.liquidweb.com/kb/how-to-install-docker-on-centos-7/">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
 <node COLOR="#111111" CREATED="1440504148588" ID="ID_812096522" MODIFIED="1440504214436" TEXT="yum -y install docker docker-registry">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
@@ -208,7 +202,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1455721376896" ID="ID_1664993921" MODIFIED="1455721378520" TEXT="chrome">
+<node COLOR="#00b439" CREATED="1455721376896" ID="ID_1664993921" MODIFIED="1542314128199" TEXT="chrome">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1455721410480" ID="ID_1896776134" MODIFIED="1455721424314" TEXT="yum install https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm -y">
@@ -220,13 +214,9 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1435149640460" ID="ID_875080470" MODIFIED="1455210394924" POSITION="left" TEXT="multimedia">
+<node COLOR="#0033ff" CREATED="1435149640460" ID="ID_875080470" LINK="http://wiki.centos.org/TipsAndTricks/MultimediaOnCentOS7" MODIFIED="1542314057927" POSITION="left" TEXT="multimedia">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1435149737866" ID="ID_476856699" MODIFIED="1455210394925" TEXT="http://wiki.centos.org/TipsAndTricks/MultimediaOnCentOS7">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1435149562817" ID="ID_1996954012" MODIFIED="1455210394925" TEXT="yum">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

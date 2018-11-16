@@ -7,7 +7,7 @@
 <node COLOR="#0033ff" CREATED="1469215772144" ID="ID_1711936063" MODIFIED="1469215776836" POSITION="right" TEXT="Search">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1469208163299" FOLDED="true" ID="ID_1895329248" MODIFIED="1472143598543" TEXT="Managing text-centric data">
+<node COLOR="#00b439" CREATED="1469208163299" FOLDED="true" ID="ID_1895329248" MODIFIED="1542386184056" TEXT="Managing text-centric data">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1469206844819" ID="ID_203907773" MODIFIED="1469215782170" TEXT="Text centric">
@@ -54,7 +54,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1469208993620" FOLDED="true" ID="ID_102406071" MODIFIED="1472143597287" TEXT="Use cases">
+<node COLOR="#00b439" CREATED="1469208993620" FOLDED="true" ID="ID_102406071" MODIFIED="1542386188883" TEXT="Use cases">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1469208996328" ID="ID_698976418" MODIFIED="1469215782175" TEXT="Basic keyword search">
@@ -301,19 +301,15 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1537828828378" ID="ID_9400884" MODIFIED="1537828835302" POSITION="right" TEXT="Cleaning up locks">
+<node COLOR="#0033ff" CREATED="1537828828378" ID="ID_9400884" LINK="https://stackoverflow.com/questions/16943134/how-do-i-get-solr-back-up-when-indexes-are-locked-and-unlockonstartuptrue-does#21947891" MODIFIED="1542386204574" POSITION="right" TEXT="Cleaning up locks">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1537828995006" ID="ID_1295540889" MODIFIED="1537828996246" TEXT="https://stackoverflow.com/questions/16943134/how-do-i-get-solr-back-up-when-indexes-are-locked-and-unlockonstartuptrue-does#21947891">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1537828852178" ID="ID_761143480" MODIFIED="1537828852974" TEXT="find data/solr -name \*ock | xargs rm -rf">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1472144268418" FOLDED="true" ID="ID_1785894165" MODIFIED="1537828824976" POSITION="right" TEXT="Solr Unleashed">
+<node COLOR="#0033ff" CREATED="1472144268418" FOLDED="true" ID="ID_1785894165" MODIFIED="1542386227188" POSITION="right" TEXT="Solr Unleashed">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1472150598592" ID="ID_456208300" MODIFIED="1472150600324" TEXT="Queries">

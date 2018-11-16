@@ -3,7 +3,7 @@
 <node COLOR="#000000" CREATED="1442857148776" ID="ID_626272850" LINK="Development.mm" MODIFIED="1442857176668" TEXT="ContiPerf">
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1442857202200" ID="ID_664891104" MODIFIED="1442857203899" POSITION="right" TEXT="http://databene.org/contiperf">
+<node COLOR="#0033ff" CREATED="1542386725938" ID="ID_1704200525" LINK="http://databene.org/contiperf" MODIFIED="1542386742724" POSITION="right" TEXT="Site">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>

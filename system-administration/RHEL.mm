@@ -124,13 +124,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1517598861692" ID="ID_731760533" MODIFIED="1517598862972" POSITION="right" TEXT="KDE">
+<node COLOR="#0033ff" CREATED="1517598861692" ID="ID_731760533" LINK="https://linuxconfig.org/installation-of-kde-desktop-manager-on-rhel-7-linux-server" MODIFIED="1542314027945" POSITION="right" TEXT="KDE">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1517598869128" ID="ID_617806829" MODIFIED="1517598870224" TEXT="https://linuxconfig.org/installation-of-kde-desktop-manager-on-rhel-7-linux-server">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1517598871512" ID="ID_159112841" MODIFIED="1517598876982" TEXT="yum groupinstall &apos;X Window System&apos; &apos;KDE&apos;">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
