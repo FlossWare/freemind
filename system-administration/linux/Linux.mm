@@ -480,6 +480,16 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1542401881770" FOLDED="true" ID="ID_877789845" MODIFIED="1542401915993" TEXT="Network Manager">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1542401889486" ID="ID_1769946217" MODIFIED="1542401893414" TEXT="nmtui">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1542401904842" ID="ID_1021934289" MODIFIED="1542401910210" TEXT="nmcli --ask connection up [vpn name]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1451585862890" ID="ID_1070232595" MODIFIED="1451585866704" TEXT="List network cards">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -781,8 +791,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
       vsftp
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1542309009920" ID="ID_1515511367" MODIFIED="1542309016667">
