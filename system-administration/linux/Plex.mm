@@ -4,13 +4,9 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1541958132126" ID="ID_101332266" MODIFIED="1541958133787" POSITION="right" TEXT="Debian">
+<node COLOR="#0033ff" CREATED="1541958132126" ID="ID_101332266" LINK="https://forums.plex.tv/t/read-me-first-about-server-armhf-arm64-debian-ubuntu-raspberry-pi/226567" MODIFIED="1542460309684" POSITION="right" TEXT="Debian">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1541958129211" ID="ID_223922328" MODIFIED="1541958135653" TEXT="https://forums.plex.tv/t/read-me-first-about-server-armhf-arm64-debian-ubuntu-raspberry-pi/226567">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1541958138170" ID="ID_1971296912" MODIFIED="1541958146900">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -69,8 +65,7 @@
       apt-get install plexmediaserver-installer
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

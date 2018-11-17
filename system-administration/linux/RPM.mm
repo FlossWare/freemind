@@ -82,6 +82,14 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1542460389652" ID="ID_541932564" MODIFIED="1542460398799" POSITION="right" TEXT="List installed version">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1542460399496" ID="ID_1846792245" MODIFIED="1542460410512" TEXT="rpm -qa redhat\*">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1412872730291" ID="ID_1079629069" MODIFIED="1412872737086" POSITION="right" TEXT="Print version of an rpm">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

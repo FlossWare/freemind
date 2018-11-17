@@ -251,5 +251,13 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1542472702994" ID="ID_1640433928" LINK="https://wiki.centos.org/SpecialInterestGroup/AltArch" MODIFIED="1542472779910" POSITION="left" TEXT="AltArch">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1542472731826" ID="ID_812210732" LINK="https://wiki.centos.org/SpecialInterestGroup/AltArch/armhfp?action=show&amp;redirect=SpecialInterestGroup%2FAltArch%2FArm32" MODIFIED="1542472749982" TEXT="armhfp">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>

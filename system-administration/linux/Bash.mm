@@ -183,13 +183,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1478268195230" ID="ID_900207373" MODIFIED="1478268197641" POSITION="right" TEXT="Keep new lines">
+<node COLOR="#0033ff" CREATED="1478268195230" ID="ID_900207373" LINK="http://superuser.com/questions/284187/bash-iterating-over-lines-in-a-variable" MODIFIED="1542460034275" POSITION="right" TEXT="Keep new lines">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1478268202373" ID="ID_1795163715" MODIFIED="1478268204289" TEXT="http://superuser.com/questions/284187/bash-iterating-over-lines-in-a-variable">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1478268204693" ID="ID_1391488241" MODIFIED="1478268231817">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -211,13 +207,9 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1479580589174" ID="ID_915368128" MODIFIED="1479580599755" POSITION="right" TEXT="Stop history">
+<node COLOR="#0033ff" CREATED="1479580589174" ID="ID_915368128" LINK="https://linuxconfig.org/how-to-disable-bash-shell-commands-history-on-linux" MODIFIED="1542460054417" POSITION="right" TEXT="Stop history">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1479580610407" ID="ID_86220407" MODIFIED="1479580612828" TEXT="https://linuxconfig.org/how-to-disable-bash-shell-commands-history-on-linux">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1479580624384" ID="ID_540791984" MODIFIED="1479580625557" TEXT="echo &apos;set +o history&apos; &gt;&gt; ~/.bashrc">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -235,13 +227,9 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1539180655245" ID="ID_894728831" MODIFIED="1539180666400" POSITION="right" TEXT="Iterate over associative arrays">
+<node COLOR="#0033ff" CREATED="1539180655245" ID="ID_894728831" LINK="https://stackoverflow.com/questions/3112687/how-to-iterate-over-associative-arrays-in-bash" MODIFIED="1542460071269" POSITION="right" TEXT="Iterate over associative arrays">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1539180670752" ID="ID_1753219707" MODIFIED="1539180671424" TEXT="https://stackoverflow.com/questions/3112687/how-to-iterate-over-associative-arrays-in-bash">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1539180672325" ID="ID_1075361454" MODIFIED="1539180692520" TEXT="keys">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

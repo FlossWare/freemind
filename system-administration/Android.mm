@@ -63,6 +63,14 @@
 <icon BUILTIN="full-3"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1542470251763" ID="ID_558869591" MODIFIED="1542470254519" TEXT="Lenovo">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1542470244415" ID="ID_1222280678" MODIFIED="1542470270022" TEXT="/data/media/0">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1539537418202" ID="ID_43070414" MODIFIED="1539537556156">
 <richcontent TYPE="NODE"><html>
   <head>

@@ -27,5 +27,13 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1542470350259" ID="ID_6563155" LINK="https://www.krenger.ch/blog/openshift-list-all-pods-in-cluster/" MODIFIED="1542470364449" POSITION="right" TEXT="List all pods in a cluster">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1542470373179" ID="ID_1293722840" MODIFIED="1542470375380" TEXT="oc get pod --all-namespaces -o wide">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>

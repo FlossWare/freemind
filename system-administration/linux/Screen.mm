@@ -45,13 +45,9 @@
 <node COLOR="#0033ff" CREATED="1509854541044" ID="ID_818665247" MODIFIED="1509854542716" POSITION="right" TEXT="Mouse">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1437226194399" ID="ID_1147651021" MODIFIED="1509854550396" TEXT="wheel">
+<node COLOR="#00b439" CREATED="1437226194399" ID="ID_1147651021" LINK="http://unix.stackexchange.com/questions/18006/can-mouse-wheel-scrolling-work-in-a-usr-bin-screen-session" MODIFIED="1542460433938" TEXT="wheel">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1437226199639" ID="ID_275436374" MODIFIED="1509854545385" TEXT="http://unix.stackexchange.com/questions/18006/can-mouse-wheel-scrolling-work-in-a-usr-bin-screen-session">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 <node COLOR="#990000" CREATED="1437226206735" ID="ID_480580701" MODIFIED="1509854545385" TEXT="screenrc">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
@@ -60,12 +56,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1509854550980" ID="ID_450636864" MODIFIED="1509854555928" TEXT="split screen">
+<node COLOR="#00b439" CREATED="1509854550980" ID="ID_450636864" LINK="https://superuser.com/questions/629004/gnu-screen-change-focus-in-split-windows-with-mouse#767428" MODIFIED="1542460447069" TEXT="split screen">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1509854591570" ID="ID_163334424" MODIFIED="1509854593920" TEXT="https://superuser.com/questions/629004/gnu-screen-change-focus-in-split-windows-with-mouse#767428">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 <node COLOR="#990000" CREATED="1509854558657" ID="ID_677872683" MODIFIED="1509854575388" TEXT="screenrc">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1509854564297" ID="ID_358989156" MODIFIED="1509854566890" TEXT="mousetrack on"/>
@@ -85,8 +78,7 @@
       source [full path to screen rc settings]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -109,13 +101,9 @@
 <icon BUILTIN="full-2"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1539181765399" ID="ID_508321910" MODIFIED="1539181766832" POSITION="right" TEXT="Move">
+<node COLOR="#0033ff" CREATED="1539181765399" ID="ID_508321910" LINK="https://serverfault.com/questions/244294/how-to-re-order-windows-change-the-scroll-shortcut-and-modify-the-status-bar-c" MODIFIED="1542460469860" POSITION="right" TEXT="Move">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1539181845441" ID="ID_44406020" MODIFIED="1539181846872" TEXT="https://serverfault.com/questions/244294/how-to-re-order-windows-change-the-scroll-shortcut-and-modify-the-status-bar-c">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1539181767640" ID="ID_1260689958" MODIFIED="1539181785393" TEXT="ctrl-a">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -135,13 +123,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1539180784560" ID="ID_1631971212" MODIFIED="1539180786140" POSITION="right" TEXT="Reorder">
+<node COLOR="#0033ff" CREATED="1539180784560" ID="ID_1631971212" LINK="https://superuser.com/questions/185387/how-can-i-change-the-order-of-gnu-screen-screens/197206#197206" MODIFIED="1542460493081" POSITION="right" TEXT="Reorder">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1539180793836" ID="ID_816469604" MODIFIED="1539180794440" TEXT="https://superuser.com/questions/185387/how-can-i-change-the-order-of-gnu-screen-screens/197206#197206">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1539180806076" ID="ID_1705993490" MODIFIED="1539180838514">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -188,8 +172,7 @@
       <b><i>select 0</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

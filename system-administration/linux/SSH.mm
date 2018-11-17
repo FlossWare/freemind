@@ -55,12 +55,9 @@
 <node COLOR="#0033ff" CREATED="1534117374438" ID="ID_1211892694" MODIFIED="1534117376472" POSITION="right" TEXT="ssh -t">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1534117407626" ID="ID_1369145896" MODIFIED="1534117409928" TEXT="Must be connected to a terminal">
+<node COLOR="#00b439" CREATED="1534117407626" ID="ID_1369145896" LINK="https://joehalliwell.wordpress.com/2008/11/13/must-be-connected-to-a-terminal/" MODIFIED="1542460525111" TEXT="Must be connected to a terminal">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1534117582661" ID="ID_645573125" MODIFIED="1534117585028" TEXT="https://joehalliwell.wordpress.com/2008/11/13/must-be-connected-to-a-terminal/">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 </node>
 <node COLOR="#00b439" CREATED="1534117379692" ID="ID_660384452" MODIFIED="1534117384735" TEXT="pseudo termal">
 <edge STYLE="bezier" WIDTH="thin"/>

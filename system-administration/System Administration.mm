@@ -17,7 +17,7 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1511900787083" ID="ID_1037414770" LINK="F5.mm" MODIFIED="1511900787084" TEXT="F5">
+<node COLOR="#00b439" CREATED="1542472563645" ID="ID_6769944" LINK="Raspberry%20PI.mm" MODIFIED="1542472563646" TEXT="Raspberry PI">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -35,10 +35,31 @@
 <node COLOR="#990000" CREATED="1380459961076" ID="ID_801737412" LINK="Debian.mm" MODIFIED="1542309597601" TEXT="Debian">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1542472386570" ID="ID_486489240" LINK="https://www.debian.org/CD/" MODIFIED="1542472402918" TEXT="Downloads"/>
+<node COLOR="#111111" CREATED="1542472329894" ID="ID_1385199229" LINK="https://www.debian.org/CD/http-ftp/" MODIFIED="1542472492486" TEXT="Releases"/>
+<node COLOR="#111111" CREATED="1542472183934" ID="ID_557720506" MODIFIED="1542472186502" TEXT="Ubuntu">
+<node COLOR="#111111" CREATED="1542472300099" ID="ID_120528959" LINK="http://cdimage.ubuntu.com/releases/" MODIFIED="1542472312069" TEXT="Releases"/>
+</node>
 </node>
 <node COLOR="#990000" CREATED="1421503362033" ID="ID_1128093225" LINK="Red%20Hat%20Based%20Linux.mm" MODIFIED="1542314198526" TEXT="Red Hat Based">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1511899550510" ID="ID_1076529556" MODIFIED="1542472210621" TEXT="Enterprise">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1421503207892" ID="ID_71621550" LINK="RHEL.mm" MODIFIED="1542472210621" TEXT="RHEL">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1421503220698" ID="ID_1913004925" LINK="CentOS.mm" MODIFIED="1542472210622" TEXT="CentOS">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1421503233956" ID="ID_209733636" LINK="Fedora.mm" MODIFIED="1542472210625" TEXT="Fedora">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1357485379270" ID="ID_532264394" LINK="mac/Mac.mm" MODIFIED="1542385608309" TEXT="Mac">
@@ -129,10 +150,6 @@
 <node COLOR="#0033ff" CREATED="1430479548597" ID="ID_510441919" MODIFIED="1430479549693" POSITION="right" TEXT="Apps">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1387480268937" ID="ID_410891512" LINK="Splunk.mm" MODIFIED="1430479553287" TEXT="Splunk">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1380628333452" ID="ID_832247259" LINK="Chrome.mm" MODIFIED="1430479553288" TEXT="Chrome">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -141,14 +158,26 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1358084813422" ID="ID_1970389043" LINK="free-node/Free%20Node.mm" MODIFIED="1542472660128" TEXT="Free Node">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#0033ff" CREATED="1459457428459" ID="ID_1873442315" LINK="Pulp.mm" MODIFIED="1459457428460" POSITION="right" TEXT="Pulp">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1511900787083" ID="ID_1037414770" LINK="F5.mm" MODIFIED="1511900787084" TEXT="F5">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#0033ff" CREATED="1470847859590" ID="ID_759225139" LINK="Lightblue.mm" MODIFIED="1470847859591" POSITION="right" TEXT="Lightblue">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1470847859590" ID="ID_759225139" LINK="Lightblue.mm" MODIFIED="1542472679007" TEXT="Lightblue">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1459457428459" ID="ID_1873442315" LINK="Pulp.mm" MODIFIED="1542472673367" TEXT="Pulp">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1387480268937" ID="ID_410891512" LINK="Splunk.mm" MODIFIED="1542472651416" TEXT="Splunk">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1425994550324" ID="ID_1066222231" MODIFIED="1425994558570" POSITION="left" TEXT="Configuration Management">
 <edge STYLE="sharp_bezier" WIDTH="8"/>

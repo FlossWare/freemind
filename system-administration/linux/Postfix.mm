@@ -16,13 +16,9 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1466516286121" ID="ID_1252423884" MODIFIED="1466516298813" POSITION="right" TEXT="fetchmail: SMTP error: 451 4.3.0 &lt;flossware@localhost&gt;: Temporary lookup failure ">
+<node COLOR="#0033ff" CREATED="1466516286121" ID="ID_1252423884" LINK="http://serverfault.com/questions/506347/postfix-temporary-lookup-failure" MODIFIED="1542460341724" POSITION="right" TEXT="fetchmail: SMTP error: 451 4.3.0 &lt;flossware@localhost&gt;: Temporary lookup failure ">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1466516306509" ID="ID_707713501" MODIFIED="1466516309337" TEXT="http://serverfault.com/questions/506347/postfix-temporary-lookup-failure">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1466516336453" ID="ID_1535030947" MODIFIED="1466516337944" TEXT="To fix">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

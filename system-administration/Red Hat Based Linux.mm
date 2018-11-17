@@ -221,31 +221,16 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1511899550510" ID="ID_1076529556" MODIFIED="1511899552750" POSITION="left" TEXT="Enterprise">
+<node COLOR="#0033ff" CREATED="1511899558762" ID="ID_510854464" MODIFIED="1542472219453" POSITION="left" TEXT="7.x">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1421503207892" ID="ID_71621550" LINK="RHEL.mm" MODIFIED="1511899555148" TEXT="RHEL">
+<node COLOR="#00b439" CREATED="1511899585930" ID="ID_963962964" LINK="https://unix.stackexchange.com/questions/164210/nslookup-command-not-found-error-on-rhel-centos-7" MODIFIED="1542472219453" TEXT="nslookup">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1421503220698" ID="ID_1913004925" LINK="CentOS.mm" MODIFIED="1511899555149" TEXT="CentOS">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1511899558762" ID="ID_510854464" MODIFIED="1511899563290" TEXT="7.x">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1511899585930" ID="ID_963962964" LINK="https://unix.stackexchange.com/questions/164210/nslookup-command-not-found-error-on-rhel-centos-7" MODIFIED="1542313944794" TEXT="nslookup">
+<node COLOR="#990000" CREATED="1511899564705" ID="ID_1071405467" MODIFIED="1542472219453" TEXT="yum install bind-utils">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1511899564705" ID="ID_1071405467" MODIFIED="1511899604213" TEXT="yum install bind-utils">
-<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1421503233956" ID="ID_209733636" LINK="Fedora.mm" MODIFIED="1516652464970" POSITION="left" TEXT="Fedora">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
 </node>
 </node>
 </map>

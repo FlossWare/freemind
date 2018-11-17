@@ -3,7 +3,189 @@
 <node COLOR="#000000" CREATED="1270310396325" ID="ID_251328639" LINK="../System%20Administration.mm" MODIFIED="1288889529768" TEXT="Linux">
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1416757402529" ID="ID_744161246" MODIFIED="1416757487128" POSITION="right" TEXT="Apps">
+<node COLOR="#0033ff" CREATED="1542471334451" ID="ID_1414082584" MODIFIED="1542471336534" POSITION="right" TEXT="How to">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1542471243082" ID="ID_34125738" LINK="https://www.cyberciti.biz/faq/shell-how-to-determine-the-exit-status-of-linux-and-unix-command/" MODIFIED="1542471284404" TEXT="Determine the exit status of Linux and Unix commands">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1542471340811" ID="ID_1967456206" LINK="https://www.maketecheasier.com/use-emojis-in-linux/" MODIFIED="1542471350916" TEXT="Emojis">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1508420676311" FOLDED="true" ID="ID_641899531" LINK="https://nzeid.net/pulseaudio-disable-auto-volume" MODIFIED="1542471372614" TEXT="Disable auto volume">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1508420776953" ID="ID_1614516384" MODIFIED="1542471372614" TEXT="Change config using either">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+<node COLOR="#111111" CREATED="1508420814860" ID="ID_1408045759" MODIFIED="1542471372615" TEXT="Perl way">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="yes"/>
+<node COLOR="#111111" CREATED="1508420787185" ID="ID_943394407" MODIFIED="1508420819519">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sudo cp -vR /usr/share/pulseaudio/alsa-mixer/paths /usr/share/pulseaudio/alsa-mixer/paths_backup
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      sudo perl -pi -0 -e 's/(\[[A-Za-z ]*Mic Boost\][A-Za-z._=\s-]+volume *= *)merge/\1zero/g;' /usr/share/pulseaudio/alsa-mixer/paths/*
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      sudo diff -r -C 5 /usr/share/pulseaudio/alsa-mixer/paths_backup /usr/share/pulseaudio/alsa-mixer/paths
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1508420820700" ID="ID_410210147" MODIFIED="1542471372615" TEXT="Manual">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1508420826408" ID="ID_102365429" MODIFIED="1508420847778">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-dock-mic.conf
+    </p>
+    <p>
+      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-front-mic.conf
+    </p>
+    <p>
+      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-headphone-mic.conf
+    </p>
+    <p>
+      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-headset-mic.conf
+    </p>
+    <p>
+      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic-always.conf
+    </p>
+    <p>
+      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic.conf
+    </p>
+    <p>
+      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-mic.conf
+    </p>
+    <p>
+      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-rear-mic.conf
+    </p>
+  </body>
+</html></richcontent>
+<node COLOR="#111111" CREATED="1508420854812" ID="ID_925072957" MODIFIED="1508420858444" TEXT="Under [Element Internal Mic Boost] set volume  to zero. This includes any variations like [Element Dock Mic Boost]. "/>
+<node COLOR="#111111" CREATED="1508420862103" ID="ID_1903463415" MODIFIED="1508420863908" TEXT="Under [Element Int Mic Boost] set volume  to zero."/>
+<node COLOR="#111111" CREATED="1508420868820" ID="ID_492567958" MODIFIED="1508420870951" TEXT="Under [Element Mic Boost] set volume  to zero.  "/>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1508420970664" ID="ID_136818934" MODIFIED="1542471372615" TEXT="Restart computer">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#990000" CREATED="1508420914109" ID="ID_821667380" MODIFIED="1542471372616" TEXT="/etc/pulse/default.pa">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-3"/>
+<node COLOR="#111111" CREATED="1508420930344" ID="ID_1432823557" MODIFIED="1542471372616">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Comment out:
+    </p>
+    <p>
+      # load-module module-device-restore
+    </p>
+    <p>
+      # load-module module-stream-restore
+    </p>
+    <p>
+      # load-module module-card-restore
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1508420941144" ID="ID_521779472" MODIFIED="1542471372616" TEXT="sudo alsamixer">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-4"/>
+<node COLOR="#111111" CREATED="1508420998452" ID="ID_187976413" MODIFIED="1542471372616" TEXT="set all devices to your liking">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1508420944492" ID="ID_510533120" MODIFIED="1542471372617" TEXT="sudo alsactl store">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-5"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512854732417" ID="ID_1888374883" LINK="https://stackoverflow.com/questions/12285387/is-there-a-way-to-print-the-pid-of-the-process-that-called-my-c-binary" MODIFIED="1542471372618" TEXT="Print process who called script">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1512854746764" ID="ID_860587567" MODIFIED="1542471372618">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CALLER=$(ps ax | grep &quot;^ *$PPID&quot; | awk '{print $NF}')
+    </p>
+    <p>
+      echo $CALLER
+    </p>
+  </body>
+</html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1506537397677" ID="ID_1342173941" MODIFIED="1542471372620" TEXT="List contents of .so">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1506537409857" ID="ID_1911740013" MODIFIED="1542471372620" TEXT="objdump -TC [.so file name]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1451585862890" ID="ID_1070232595" MODIFIED="1542471394625" TEXT="List network cards">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1451585872528" ID="ID_1466291337" MODIFIED="1542471394626" TEXT="lspci | egrep -i --color &apos;network|ethernet&apos;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1451585961631" ID="ID_1175144540" MODIFIED="1542471394626" TEXT="http://www.cyberciti.biz/faq/linux-list-network-cards-command/">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1542471431106" ID="ID_1679206004" LINK="https://www.linuxquestions.org/questions/linux-newbie-8/convert-mkv-to-mp4-in-terminal-how-4175560215/" MODIFIED="1542471473732" TEXT="Convert MKV to MP4">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1542471446603" ID="ID_1119284102" MODIFIED="1542471448718" TEXT="ffmpeg -i foobar.mkv -vcodec copy -acodec copy foobar.mp4">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1416757402529" FOLDED="true" ID="ID_744161246" MODIFIED="1542471407904" POSITION="right" TEXT="Apps">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1539182626437" ID="ID_192546327" LINK="Alpine.mm" MODIFIED="1539182626440" TEXT="alpine">
@@ -490,16 +672,6 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1451585862890" ID="ID_1070232595" MODIFIED="1451585866704" TEXT="List network cards">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1451585872528" ID="ID_1466291337" MODIFIED="1451585875129" TEXT="lspci | egrep -i --color &apos;network|ethernet&apos;">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1451585961631" ID="ID_1175144540" MODIFIED="1451585962247" TEXT="http://www.cyberciti.biz/faq/linux-list-network-cards-command/">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
 <node COLOR="#00b439" CREATED="1503969822828" FOLDED="true" ID="ID_1317496824" LINK="https://www.jamescoyle.net/how-to/943-create-a-ram-disk-in-linux" MODIFIED="1542309092917" TEXT="RAM disk">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -683,6 +855,22 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </html></richcontent>
 </node>
 </node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1540229266544" ID="ID_49843471" MODIFIED="1542468538895" TEXT="systemctl">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1540239323760" ID="ID_329661956" MODIFIED="1542468527974" TEXT="cp [service] /etc/systemd/system">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1540229278143" ID="ID_1298123890" MODIFIED="1542468527975" TEXT="enable [service name]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1540229286440" ID="ID_1806764778" MODIFIED="1542468527975" TEXT="daemon-reload">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1517766941327" FOLDED="true" ID="ID_747528722" MODIFIED="1542309077913" TEXT="systemctl">
@@ -1059,7 +1247,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1509823179162" FOLDED="true" ID="ID_1556079271" MODIFIED="1542309061539" POSITION="right" TEXT="systemd">
+<node COLOR="#0033ff" CREATED="1509823179162" FOLDED="true" ID="ID_1556079271" MODIFIED="1542471382381" POSITION="right" TEXT="systemd">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1509823769307" ID="ID_651212842" MODIFIED="1509823771751" TEXT="Structure">
@@ -1269,137 +1457,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1506537397677" ID="ID_1342173941" MODIFIED="1506537402689" POSITION="right" TEXT="List contents of .so">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1506537409857" ID="ID_1911740013" MODIFIED="1506537416593" TEXT="objdump -TC [.so file name]">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1508420676311" FOLDED="true" ID="ID_641899531" LINK="https://nzeid.net/pulseaudio-disable-auto-volume" MODIFIED="1542309064963" POSITION="right" TEXT="Disable auto volume">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1508420776953" ID="ID_1614516384" MODIFIED="1508420888065" TEXT="Change config using either">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="full-1"/>
-<node COLOR="#990000" CREATED="1508420814860" ID="ID_1408045759" MODIFIED="1508420878678" TEXT="Perl way">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="yes"/>
-<node COLOR="#111111" CREATED="1508420787185" ID="ID_943394407" MODIFIED="1508420819519">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      sudo cp -vR /usr/share/pulseaudio/alsa-mixer/paths /usr/share/pulseaudio/alsa-mixer/paths_backup
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      sudo perl -pi -0 -e 's/(\[[A-Za-z ]*Mic Boost\][A-Za-z._=\s-]+volume *= *)merge/\1zero/g;' /usr/share/pulseaudio/alsa-mixer/paths/*
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      sudo diff -r -C 5 /usr/share/pulseaudio/alsa-mixer/paths_backup /usr/share/pulseaudio/alsa-mixer/paths
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#990000" CREATED="1508420820700" ID="ID_410210147" MODIFIED="1508420825840" TEXT="Manual">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1508420826408" ID="ID_102365429" MODIFIED="1508420847778">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-dock-mic.conf
-    </p>
-    <p>
-      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-front-mic.conf
-    </p>
-    <p>
-      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-headphone-mic.conf
-    </p>
-    <p>
-      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-headset-mic.conf
-    </p>
-    <p>
-      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic-always.conf
-    </p>
-    <p>
-      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic.conf
-    </p>
-    <p>
-      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-mic.conf
-    </p>
-    <p>
-      sudo emacs -nw /usr/share/pulseaudio/alsa-mixer/paths/analog-input-rear-mic.conf
-    </p>
-  </body>
-</html></richcontent>
-<node COLOR="#111111" CREATED="1508420854812" ID="ID_925072957" MODIFIED="1508420858444" TEXT="Under [Element Internal Mic Boost] set volume  to zero. This includes any variations like [Element Dock Mic Boost]. "/>
-<node COLOR="#111111" CREATED="1508420862103" ID="ID_1903463415" MODIFIED="1508420863908" TEXT="Under [Element Int Mic Boost] set volume  to zero."/>
-<node COLOR="#111111" CREATED="1508420868820" ID="ID_492567958" MODIFIED="1508420870951" TEXT="Under [Element Mic Boost] set volume  to zero.  "/>
-</node>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1508420970664" ID="ID_136818934" MODIFIED="1508420976225" TEXT="Restart computer">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="full-2"/>
-</node>
-<node COLOR="#00b439" CREATED="1508420914109" ID="ID_821667380" MODIFIED="1508420983965" TEXT="/etc/pulse/default.pa">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="full-3"/>
-<node COLOR="#990000" CREATED="1508420930344" ID="ID_1432823557" MODIFIED="1508420935344">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Comment out:
-    </p>
-    <p>
-      # load-module module-device-restore
-    </p>
-    <p>
-      # load-module module-stream-restore
-    </p>
-    <p>
-      # load-module module-card-restore
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1508420941144" ID="ID_521779472" MODIFIED="1508420985660" TEXT="sudo alsamixer">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="full-4"/>
-<node COLOR="#990000" CREATED="1508420998452" ID="ID_187976413" MODIFIED="1508421000505" TEXT="set all devices to your liking">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1508420944492" ID="ID_510533120" MODIFIED="1508420987280" TEXT="sudo alsactl store">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="full-5"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1416757565899" ID="ID_1717868975" MODIFIED="1416757568363" POSITION="left" TEXT="Detail">
+<node COLOR="#0033ff" CREATED="1416757565899" FOLDED="true" ID="ID_1717868975" MODIFIED="1542471409342" POSITION="left" TEXT="Detail">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1291901984982" ID="ID_1209787263" LINK="Apache.mm" MODIFIED="1416757573442" TEXT="Apache">
@@ -1450,7 +1508,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <node COLOR="#990000" CREATED="1525267086793" ID="ID_1766026161" LINK="XFS.mm" MODIFIED="1525267086795" TEXT="XFS">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1301231910072" ID="ID_1120113763" LINK="X.mm" MODIFIED="1525267047081" TEXT="X">
+<node COLOR="#990000" CREATED="1301231910072" ID="ID_1120113763" LINK="X.mm" MODIFIED="1542460230659" TEXT="X">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1523621525070" ID="ID_700278952" MODIFIED="1525267053518" TEXT="Configure">
@@ -1519,7 +1577,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1466348647825" FOLDED="true" ID="ID_1544044603" MODIFIED="1542309120621" POSITION="left" TEXT="File Systems">
+<node COLOR="#0033ff" CREATED="1466348647825" FOLDED="true" ID="ID_1544044603" MODIFIED="1542460552063" POSITION="left" TEXT="File Systems">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1536242595120" ID="ID_991824602" MODIFIED="1536242602235" TEXT="Determine file system type">
@@ -1577,7 +1635,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1533155918999" FOLDED="true" ID="ID_647150267" LINK="https://docs-old.fedoraproject.org/en-US/Fedora/23/html/System_Administrators_Guide/sec-Configuring_GRUB_2_Using_the_grubby_Tool.html" MODIFIED="1542309118401" POSITION="left" TEXT="Grubby">
+<node COLOR="#0033ff" CREATED="1533155918999" ID="ID_647150267" LINK="https://docs-old.fedoraproject.org/en-US/Fedora/23/html/System_Administrators_Guide/sec-Configuring_GRUB_2_Using_the_grubby_Tool.html" MODIFIED="1542460553914" POSITION="left" TEXT="Grubby">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1533155867643" ID="ID_113145429" MODIFIED="1533155922809" TEXT="Console blanking">
@@ -1601,27 +1659,6 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <node COLOR="#990000" CREATED="1533155948754" ID="ID_791131340" MODIFIED="1533155950643" TEXT="grubby --info /boot/vmlinuz-4.17.9-200.fc28.x86_64">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1512854732417" ID="ID_1888374883" LINK="https://stackoverflow.com/questions/12285387/is-there-a-way-to-print-the-pid-of-the-process-that-called-my-c-binary" MODIFIED="1542309054495" POSITION="right" TEXT="Print process who called script">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1512854746764" ID="ID_860587567" MODIFIED="1541958062664">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      CALLER=$(ps ax | grep &quot;^ *$PPID&quot; | awk '{print $NF}')
-    </p>
-    <p>
-      echo $CALLER
-    </p>
-  </body>
-</html></richcontent>
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>

@@ -4,63 +4,6 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1522262111890" ID="ID_1471589432" MODIFIED="1522262119399" POSITION="right" TEXT="Install Locations">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1522261906997" ID="ID_1010552784" MODIFIED="1522262128954" TEXT="datadir">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1522261920504" ID="ID_1998431356" MODIFIED="1522262128955" TEXT="/usr/share">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1522261955535" ID="ID_1261177928" MODIFIED="1522262128955" TEXT="user">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1522262061003" ID="ID_863299167" MODIFIED="1522262128955" TEXT="Defined">
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1522261969449" ID="ID_334729109" MODIFIED="1522262066880" TEXT="$XDG_DATA_HOME">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#111111" CREATED="1522262069317" ID="ID_203043097" MODIFIED="1522262128955" TEXT="Undefined">
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1522262025160" ID="ID_974768424" MODIFIED="1522262074152" TEXT="$HOME/.local/share">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1522261902164" ID="ID_813861783" MODIFIED="1522262128957" TEXT="sysconfdir">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1522261933315" ID="ID_763269923" MODIFIED="1522262128957" TEXT="/etc/xdg">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1541896513185" ID="ID_661783226" MODIFIED="1541896542179" TEXT="/etc/xdg/autostart">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1541896770163" ID="ID_54738568" MODIFIED="1541945706428" TEXT="https://forum.lxde.org/viewtopic.php?t=111"/>
-<node COLOR="#111111" CREATED="1541896516079" ID="ID_282373718" MODIFIED="1541896521499" TEXT="System level autostarts"/>
-</node>
-<node COLOR="#990000" CREATED="1522261961746" ID="ID_1066951062" MODIFIED="1522262128957" TEXT="user">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1522262077423" ID="ID_734023619" MODIFIED="1522262128957" TEXT="Defined">
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1522261981619" ID="ID_1307259243" MODIFIED="1522262084581" TEXT="$XDG_CONFIG_HOME">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#111111" CREATED="1522262080195" ID="ID_917002827" MODIFIED="1522262128957" TEXT="Undefined">
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1522262048264" ID="ID_1921540879" MODIFIED="1522262082809" TEXT="$HOME/.config">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-</node>
-</node>
-</node>
 <node COLOR="#0033ff" CREATED="1522332986951" ID="ID_1830525190" MODIFIED="1522332988370" POSITION="right" TEXT="Structure">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -232,26 +175,74 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1524654272374" ID="ID_338599100" MODIFIED="1524654278779" POSITION="right" TEXT="Reload Config">
+<node COLOR="#0033ff" CREATED="1522237200615" ID="ID_350307554" LINK="https://askubuntu.com/questions/80384/where-are-the-lxde-sound-preferences" MODIFIED="1542459966806" POSITION="left" TEXT="Sound">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1523236513552" ID="ID_610638847" MODIFIED="1523236518252" TEXT="dnf install pulseaudio pavucontrol">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1522262111890" ID="ID_1471589432" MODIFIED="1522262119399" POSITION="left" TEXT="Install Locations">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1522261906997" ID="ID_1010552784" MODIFIED="1522262128954" TEXT="datadir">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1522261920504" ID="ID_1998431356" MODIFIED="1522262128955" TEXT="/usr/share">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1522261955535" ID="ID_1261177928" MODIFIED="1522262128955" TEXT="user">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1522262061003" ID="ID_863299167" MODIFIED="1522262128955" TEXT="Defined">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1522261969449" ID="ID_334729109" MODIFIED="1522262066880" TEXT="$XDG_DATA_HOME">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1522262069317" ID="ID_203043097" MODIFIED="1522262128955" TEXT="Undefined">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1522262025160" ID="ID_974768424" MODIFIED="1522262074152" TEXT="$HOME/.local/share">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1522261902164" ID="ID_813861783" MODIFIED="1522262128957" TEXT="sysconfdir">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1522261933315" ID="ID_763269923" MODIFIED="1522262128957" TEXT="/etc/xdg">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1541896513185" ID="ID_661783226" LINK="https://forum.lxde.org/viewtopic.php?t=111" MODIFIED="1542460800909" TEXT="/etc/xdg/autostart">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1541896516079" ID="ID_282373718" MODIFIED="1541896521499" TEXT="System level autostarts"/>
+</node>
+<node COLOR="#990000" CREATED="1522261961746" ID="ID_1066951062" MODIFIED="1522262128957" TEXT="user">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1522262077423" ID="ID_734023619" MODIFIED="1522262128957" TEXT="Defined">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1522261981619" ID="ID_1307259243" MODIFIED="1522262084581" TEXT="$XDG_CONFIG_HOME">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1522262080195" ID="ID_917002827" MODIFIED="1522262128957" TEXT="Undefined">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1522262048264" ID="ID_1921540879" MODIFIED="1522262082809" TEXT="$HOME/.config">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1524654272374" ID="ID_338599100" LINK="https://forum.lxde.org/viewtopic.php?f=8&amp;t=31164" MODIFIED="1542459941295" POSITION="left" TEXT="Reload Config">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1524654279757" ID="ID_1919583690" MODIFIED="1524654282102" TEXT="lxpanelctl restart">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1524654287385" ID="ID_1922311684" MODIFIED="1524654288057" TEXT="https://forum.lxde.org/viewtopic.php?f=8&amp;t=31164">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1522237200615" ID="ID_350307554" MODIFIED="1522324779944" POSITION="left" TEXT="Sound">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1523236522780" ID="ID_1438413641" MODIFIED="1523236523765" TEXT="https://askubuntu.com/questions/80384/where-are-the-lxde-sound-preferences">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1523236513552" ID="ID_610638847" MODIFIED="1523236518252" TEXT="dnf install pulseaudio pavucontrol">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

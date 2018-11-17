@@ -4,13 +4,9 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1531082434186" ID="ID_718320622" MODIFIED="1531082437925" POSITION="right" TEXT="sshfs">
+<node COLOR="#0033ff" CREATED="1531082434186" ID="ID_718320622" LINK="https://unix.stackexchange.com/questions/222944/mount-with-sshfs-and-write-file-permissions#223106" MODIFIED="1542460168391" POSITION="right" TEXT="sshfs">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1531082419338" ID="ID_1041907339" MODIFIED="1531082442121" TEXT="https://unix.stackexchange.com/questions/222944/mount-with-sshfs-and-write-file-permissions#223106">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 <node COLOR="#00b439" CREATED="1531082486490" ID="ID_838087053" MODIFIED="1531082499885" TEXT="-o allow_other,default_permissions">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -24,8 +20,7 @@
       sshfs <b><i>-o allow_other,default_permissions</i></b>&#160; sfloess@admin-ap:/home/sfloess /mnt/admin-ap/home/sfloess
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>

@@ -1,53 +1,15 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1354890503014" ID="ID_1065884683" LINK="Linux.mm" MODIFIED="1354890531986" TEXT="DVD">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1354890541726" ID="ID_995730793" MODIFIED="1354890547763" POSITION="right" TEXT="mplayer">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1354890550663" ID="ID_354136969" MODIFIED="1354890559732" TEXT="Multi movies/disk">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1354890561255" ID="ID_1549604656" MODIFIED="1354898031816" TEXT="mplayer dvd://[movie number] -nosub -v -dumpstream -dumpfile [name].vob">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1354890616335" ID="ID_1738759255" MODIFIED="1354898038448" TEXT="mplayer dvd://1 -nosub -v -dumpstream -dumpfile Movie1.vob ">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1354896169782" ID="ID_1070052541" MODIFIED="1354896172690" POSITION="right" TEXT="mencoder">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1354896197766" ID="ID_1844470305" MODIFIED="1354896200867" TEXT="AVI">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1354896174342" ID="ID_1372418759" MODIFIED="1354898991765" TEXT="mencoder [name].vob  -nosub -o [name].avi  -of  avi -oac  copy lavc -lavcopts vcodec=mpeg4 -ovc lavc ">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1354913389701" ID="ID_290695912" MODIFIED="1354913391081" TEXT="MPG">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1354896174342" ID="ID_668567183" MODIFIED="1354913428820" TEXT="mencoder [name].vob  -nosub -o [name].mpg  -of  avi -oac  copy lavc -lavcopts vcodec=mpeg4 -ovc lavc ">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-</node>
 <node COLOR="#0033ff" CREATED="1380640825356" ID="ID_770717166" MODIFIED="1380640829402" POSITION="right" TEXT="Fedora 19">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1380827752845" ID="ID_1089925079" MODIFIED="1380827757000" TEXT="Investigation">
+<node COLOR="#00b439" CREATED="1380827752845" ID="ID_1089925079" LINK="http://avidemux.org/admWiki/doku.php?id=tutorial:dvd_to_avi" MODIFIED="1542460108080" TEXT="Investigation">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1380641070342" ID="ID_911579211" MODIFIED="1380827761381" TEXT="http://avidemux.org/admWiki/doku.php?id=tutorial:dvd_to_avi">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 <node COLOR="#990000" CREATED="1380641079462" ID="ID_1488370092" MODIFIED="1380827761386" TEXT="Install">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
@@ -72,7 +34,7 @@
       cd /dev
     </p>
     <p>
-      ln -s sr0 dvd&#160;
+      ln -s sr0 dvd&#xa0;
     </p>
   </body>
 </html></richcontent>
@@ -117,11 +79,8 @@
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1380812818376" ID="ID_1108042060" MODIFIED="1380812826751" TEXT="yum install http://dl.atrpms.net/all/dvdrip-0.98.11-8.fc19.x86_64.rpm"/>
 </node>
-<node COLOR="#990000" CREATED="1380827821545" ID="ID_1698024300" MODIFIED="1380827826480" TEXT="avidemux">
+<node COLOR="#990000" CREATED="1380827821545" ID="ID_1698024300" LINK="http://avidemux.org/admWiki/doku.php?id=tutorial:dvd_to_avi " MODIFIED="1542460128703" TEXT="avidemux">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1380827814006" ID="ID_1926134614" MODIFIED="1380827828659" TEXT="http://avidemux.org/admWiki/doku.php?id=tutorial:dvd_to_avi ">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1380718405731" ID="ID_1393092084" MODIFIED="1380827859860">
@@ -134,7 +93,7 @@
       cd /dev
     </p>
     <p>
-      ln -s sr0 dvd&#160;
+      ln -s sr0 dvd&#xa0;
     </p>
   </body>
 </html></richcontent>
@@ -204,7 +163,41 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1381498440419" ID="ID_1726897025" MODIFIED="1381498442044" POSITION="right" TEXT="RHEL">
+<node COLOR="#0033ff" CREATED="1354890541726" ID="ID_995730793" MODIFIED="1354890547763" POSITION="left" TEXT="mplayer">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1354890550663" ID="ID_354136969" MODIFIED="1354890559732" TEXT="Multi movies/disk">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1354890561255" ID="ID_1549604656" MODIFIED="1354898031816" TEXT="mplayer dvd://[movie number] -nosub -v -dumpstream -dumpfile [name].vob">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1354890616335" ID="ID_1738759255" MODIFIED="1354898038448" TEXT="mplayer dvd://1 -nosub -v -dumpstream -dumpfile Movie1.vob ">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1354896169782" ID="ID_1070052541" MODIFIED="1354896172690" POSITION="left" TEXT="mencoder">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1354896197766" ID="ID_1844470305" MODIFIED="1354896200867" TEXT="AVI">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1354896174342" ID="ID_1372418759" MODIFIED="1354898991765" TEXT="mencoder [name].vob  -nosub -o [name].avi  -of  avi -oac  copy lavc -lavcopts vcodec=mpeg4 -ovc lavc ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1354913389701" ID="ID_290695912" MODIFIED="1354913391081" TEXT="MPG">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1354896174342" ID="ID_668567183" MODIFIED="1354913428820" TEXT="mencoder [name].vob  -nosub -o [name].mpg  -of  avi -oac  copy lavc -lavcopts vcodec=mpeg4 -ovc lavc ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1381498440419" ID="ID_1726897025" MODIFIED="1381498442044" POSITION="left" TEXT="RHEL">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1381498445059" ID="ID_1516418719" MODIFIED="1381498448132" TEXT="DVD::Rip">
@@ -223,8 +216,7 @@
       ln -s /usr/lib/perl5/vendor_perl/5.8.8/Video
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>

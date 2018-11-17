@@ -3,7 +3,7 @@
 <node COLOR="#000000" CREATED="1525267064667" ID="ID_1506447279" LINK="Linux.mm" MODIFIED="1525267092248" TEXT="XFS">
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1525267071547" ID="ID_765723525" MODIFIED="1525267092248" POSITION="right" TEXT="http://linuxreviews.org/howtos/xfree/xfs/">
+<node COLOR="#0033ff" CREATED="1542460212023" ID="ID_55881782" LINK="http://linuxreviews.org/howtos/xfree/xfs/" MODIFIED="1542460222104" POSITION="right" TEXT="How-to">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
