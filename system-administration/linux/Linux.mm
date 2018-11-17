@@ -184,6 +184,63 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1542486085788" ID="ID_1460486651" LINK="https://ubuntuforums.org/showthread.php?t=1873477" MODIFIED="1542486115657" TEXT="Allow any user to enable VPN">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1542486118765" ID="ID_1436682932" MODIFIED="1542486128698" TEXT="/usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1542486141512" ID="ID_1664408206" MODIFIED="1542488277860">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;action id=&quot;org.freedesktop.NetworkManager.network-control&quot;&gt;
+    </p>
+    <p>
+      ...
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;defaults&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;allow_any&gt;<b><i>yes</i></b>&lt;/allow_any&gt;
+    </p>
+    <p>
+      ...
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1542486141512" ID="ID_639864174" MODIFIED="1542488253569">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;action id=&quot;org.freedesktop.NetworkManager.settings.modify.system&quot;&gt;
+    </p>
+    <p>
+      ...
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;defaults&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;allow_any&gt;<b><i>yes</i></b>&lt;/allow_any&gt;
+    </p>
+    <p>
+      ...
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1416757402529" FOLDED="true" ID="ID_744161246" MODIFIED="1542471407904" POSITION="right" TEXT="Apps">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
