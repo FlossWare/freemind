@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1437223285213" ID="ID_1994767732" LINK="System%20Administration.mm" MODIFIED="1437223316741" TEXT="Lenovo T540p">
+<node COLOR="#000000" CREATED="1437223285213" ID="ID_1994767732" LINK="System%20Administration.mm" MODIFIED="1542639180541" TEXT="T540p">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>

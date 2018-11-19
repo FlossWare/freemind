@@ -3,6 +3,10 @@
 <node COLOR="#000000" CREATED="1270310396325" ID="ID_251328639" LINK="../System%20Administration.mm" MODIFIED="1288889529768" TEXT="Linux">
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<node COLOR="#0033ff" CREATED="1542638057589" ID="ID_328296426" LINK="https://www.linux-arm.info/index.php" MODIFIED="1542638096200" POSITION="right" TEXT="Arm">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1542471334451" ID="ID_1414082584" MODIFIED="1542471336534" POSITION="right" TEXT="How to">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -211,8 +215,7 @@
       ...
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1542486141512" ID="ID_639864174" MODIFIED="1542488253569">
 <richcontent TYPE="NODE"><html>
@@ -236,13 +239,12 @@
       ...
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1416757402529" FOLDED="true" ID="ID_744161246" MODIFIED="1542471407904" POSITION="right" TEXT="Apps">
+<node COLOR="#0033ff" CREATED="1416757402529" FOLDED="true" ID="ID_744161246" MODIFIED="1542639285303" POSITION="right" TEXT="Apps">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1539182626437" ID="ID_192546327" LINK="Alpine.mm" MODIFIED="1539182626440" TEXT="alpine">
@@ -476,6 +478,15 @@
 <node COLOR="#990000" CREATED="1429989862194" ID="ID_536958422" MODIFIED="1430508256876" TEXT="ffmpeg -i input.flv -codec copy output.mp4">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1542631780930" ID="ID_1824595943" MODIFIED="1542631783121" TEXT="cron">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1542631783969" ID="ID_1807864156" LINK="https://www.cyberciti.biz/faq/linux-unix-crontab-change-mailto-settings/" MODIFIED="1542631805333" TEXT="mail to user when run">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1542632848562" ID="ID_1923887910" MODIFIED="1542632853934" TEXT="contab -e"/>
+<node COLOR="#111111" CREATED="1542632854282" ID="ID_1230179070" MODIFIED="1542632862498" TEXT="MAILTO=[user@host]"/>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1417273376905" FOLDED="true" ID="ID_1264126532" MODIFIED="1542309102004" TEXT="Handbrake">
@@ -1290,6 +1301,14 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1542631560882" ID="ID_791526872" MODIFIED="1542631564026" TEXT="xz">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1542631566017" ID="ID_1026182323" LINK="https://www.linuxquestions.org/questions/linux-software-2/uncompress-a-xz-file-884664/ " MODIFIED="1542631618895" TEXT="uncompress">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1542631573047" ID="ID_1937848437" MODIFIED="1542631603826" TEXT="xz -d [file.xz]"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1377862391032" FOLDED="true" ID="ID_1564617092" MODIFIED="1542308837585" TEXT="Xmms">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -1514,7 +1533,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1416757565899" FOLDED="true" ID="ID_1717868975" MODIFIED="1542471409342" POSITION="left" TEXT="Detail">
+<node COLOR="#0033ff" CREATED="1416757565899" FOLDED="true" ID="ID_1717868975" MODIFIED="1542639328866" POSITION="left" TEXT="Detail">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1291901984982" ID="ID_1209787263" LINK="Apache.mm" MODIFIED="1416757573442" TEXT="Apache">
@@ -1574,6 +1593,10 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <node COLOR="#111111" CREATED="1523621513029" ID="ID_1744852396" MODIFIED="1523621529783" TEXT="Xorg :0 -configure">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+</node>
+<node COLOR="#111111" CREATED="1542631446478" ID="ID_1095951577" LINK="https://forums.anandtech.com/threads/what-port-does-x11-traffic-use.618859/" MODIFIED="1542639278820" TEXT="Ports">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1542631452334" ID="ID_1415642750" MODIFIED="1542631455912" TEXT="6900-6963"/>
 </node>
 </node>
 </node>

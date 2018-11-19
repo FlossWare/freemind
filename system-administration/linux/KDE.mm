@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1315654213958" ID="ID_1000275085" LINK="Linux.mm" MODIFIED="1315654238917" TEXT="KDE">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -146,25 +146,25 @@
   </head>
   <body>
     <p>
-      if [ &quot;`ps -fu root | grep synergy | grep -v grep`&quot; = &quot;&quot; ]
+      if [ "`ps -fu root | grep synergy | grep -v grep`" = "" ]
     </p>
     <p>
       then
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;synergys --daemon -c /home/sfloess/Config/work_synergy.conf
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;synergys --daemon -c /home/sfloess/Config/work_synergy.conf
     </p>
     <p>
       else
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/usr/bin/killall synergyc
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/usr/bin/killall synergyc
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sleep 1
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;sleep 1
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/usr/bin/synergyc --name sfloess-laptop-x sfloess-laptop
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/usr/bin/synergyc --name sfloess-laptop-x sfloess-laptop
     </p>
     <p>
       fi
@@ -195,6 +195,21 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1542637964445" ID="ID_1657177596" MODIFIED="1542637967048" POSITION="right" TEXT="Active Plasma">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1542638009010" ID="ID_247296470" LINK="https://images.plasma-mobile.org/iso/" MODIFIED="1542638019841" TEXT="ISOs">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1542637969677" ID="ID_1252932929" LINK="https://community.kde.org/Plasma/Active/VirtualBox" MODIFIED="1542637980785" TEXT="VM">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1542639233616" ID="ID_261560451" MODIFIED="1542639239204" TEXT="Always boot from ISO">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>

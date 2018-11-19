@@ -12,5 +12,13 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1542638771801" ID="ID_1734633199" MODIFIED="1542638783113" POSITION="right" TEXT="Raspberry PI Desktop">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1542638784021" ID="ID_1704900362" LINK="http://www.penguintutor.com/raspberrypi/rpi-desktop-virtualbox" MODIFIED="1542638798674" TEXT="VM">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>

@@ -13,9 +13,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1437223310863" ID="ID_564729937" LINK="Lenovo%20T540p.mm" MODIFIED="1437223310865" TEXT="Lenovo T540p">
+<node COLOR="#00b439" CREATED="1542639159736" ID="ID_1648030327" MODIFIED="1542639161784" TEXT="Lenovo">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1437223310863" ID="ID_564729937" LINK="Lenovo%20T540p.mm" MODIFIED="1542639169165" TEXT="T540p">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1542472563645" ID="ID_6769944" LINK="Raspberry%20PI.mm" MODIFIED="1542472563646" TEXT="Raspberry PI">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -82,10 +86,6 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1478954015807" ID="ID_660531774" LINK="Dropbear.mm" MODIFIED="1478954015809" TEXT="Dropbear">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 </node>
 <node COLOR="#0033ff" CREATED="1420896763643" ID="ID_1784596895" MODIFIED="1420896766878" POSITION="left" TEXT="Virtualization">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -150,11 +150,19 @@
 <node COLOR="#0033ff" CREATED="1430479548597" ID="ID_510441919" MODIFIED="1430479549693" POSITION="right" TEXT="Apps">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1380628333452" ID="ID_832247259" LINK="Chrome.mm" MODIFIED="1430479553288" TEXT="Chrome">
+<node COLOR="#00b439" CREATED="1542639907848" ID="ID_243956517" MODIFIED="1542639910555" TEXT="Browsers">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1380628333452" ID="ID_832247259" LINK="Chrome.mm" MODIFIED="1542639914392" TEXT="Chrome">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1430479572609" ID="ID_827804454" LINK="Firefox.mm" MODIFIED="1430479572612" TEXT="Firefox">
+<node COLOR="#990000" CREATED="1430479572609" ID="ID_827804454" LINK="Firefox.mm" MODIFIED="1542639914394" TEXT="Firefox">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1478954015807" ID="ID_660531774" LINK="Dropbear.mm" MODIFIED="1542639906703" TEXT="Dropbear">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
