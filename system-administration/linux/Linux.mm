@@ -10,11 +10,76 @@
 <node COLOR="#0033ff" CREATED="1542471334451" ID="ID_1414082584" MODIFIED="1542471336534" POSITION="right" TEXT="How to">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1542471243082" ID="ID_34125738" LINK="https://www.cyberciti.biz/faq/shell-how-to-determine-the-exit-status-of-linux-and-unix-command/" MODIFIED="1542471284404" TEXT="Determine the exit status of Linux and Unix commands">
+<node COLOR="#00b439" CREATED="1542486085788" ID="ID_1460486651" LINK="https://ubuntuforums.org/showthread.php?t=1873477" MODIFIED="1542798504882" TEXT="Allow any user to enable VPN">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1542486118765" ID="ID_1436682932" MODIFIED="1542486128698" TEXT="/usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1542486141512" ID="ID_1664408206" MODIFIED="1542488277860">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;action id=&quot;org.freedesktop.NetworkManager.network-control&quot;&gt;
+    </p>
+    <p>
+      ...
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;defaults&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;allow_any&gt;<b><i>yes</i></b>&lt;/allow_any&gt;
+    </p>
+    <p>
+      ...
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node COLOR="#00b439" CREATED="1542471340811" ID="ID_1967456206" LINK="https://www.maketecheasier.com/use-emojis-in-linux/" MODIFIED="1542471350916" TEXT="Emojis">
+<node COLOR="#111111" CREATED="1542486141512" ID="ID_639864174" MODIFIED="1542488253569">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;action id=&quot;org.freedesktop.NetworkManager.settings.modify.system&quot;&gt;
+    </p>
+    <p>
+      ...
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;defaults&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;allow_any&gt;<b><i>yes</i></b>&lt;/allow_any&gt;
+    </p>
+    <p>
+      ...
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1542798516290" ID="ID_1147377625" LINK="https://www.cyberciti.biz/faq/check-ram-speed-linux/" MODIFIED="1542798531904" TEXT="Check RAM speed">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1542798600434" ID="ID_581089828" MODIFIED="1542798603247" TEXT="dmidecode --type 17">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1542471431106" ID="ID_1679206004" LINK="https://www.linuxquestions.org/questions/linux-newbie-8/convert-mkv-to-mp4-in-terminal-how-4175560215/" MODIFIED="1542798492872" TEXT="Convert MKV to MP4">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1542471446603" ID="ID_1119284102" MODIFIED="1542471448718" TEXT="ffmpeg -i foobar.mkv -vcodec copy -acodec copy foobar.mp4">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1542471243082" ID="ID_34125738" LINK="https://www.cyberciti.biz/faq/shell-how-to-determine-the-exit-status-of-linux-and-unix-command/" MODIFIED="1542798495739" TEXT="Determine the exit status of Linux and Unix commands">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -140,26 +205,9 @@
 <icon BUILTIN="full-5"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1512854732417" ID="ID_1888374883" LINK="https://stackoverflow.com/questions/12285387/is-there-a-way-to-print-the-pid-of-the-process-that-called-my-c-binary" MODIFIED="1542471372618" TEXT="Print process who called script">
+<node COLOR="#00b439" CREATED="1542471340811" ID="ID_1967456206" LINK="https://www.maketecheasier.com/use-emojis-in-linux/" MODIFIED="1542798498427" TEXT="Emojis">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1512854746764" ID="ID_860587567" MODIFIED="1542471372618">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      CALLER=$(ps ax | grep &quot;^ *$PPID&quot; | awk '{print $NF}')
-    </p>
-    <p>
-      echo $CALLER
-    </p>
-  </body>
-</html></richcontent>
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 </node>
 <node COLOR="#00b439" CREATED="1506537397677" ID="ID_1342173941" MODIFIED="1542471372620" TEXT="List contents of .so">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -181,66 +229,25 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1542471431106" ID="ID_1679206004" LINK="https://www.linuxquestions.org/questions/linux-newbie-8/convert-mkv-to-mp4-in-terminal-how-4175560215/" MODIFIED="1542471473732" TEXT="Convert MKV to MP4">
+<node COLOR="#00b439" CREATED="1512854732417" ID="ID_1888374883" LINK="https://stackoverflow.com/questions/12285387/is-there-a-way-to-print-the-pid-of-the-process-that-called-my-c-binary" MODIFIED="1542798500929" TEXT="Print process who called script">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1542471446603" ID="ID_1119284102" MODIFIED="1542471448718" TEXT="ffmpeg -i foobar.mkv -vcodec copy -acodec copy foobar.mp4">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1542486085788" ID="ID_1460486651" LINK="https://ubuntuforums.org/showthread.php?t=1873477" MODIFIED="1542486115657" TEXT="Allow any user to enable VPN">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1542486118765" ID="ID_1436682932" MODIFIED="1542486128698" TEXT="/usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1542486141512" ID="ID_1664408206" MODIFIED="1542488277860">
+<node COLOR="#990000" CREATED="1512854746764" ID="ID_860587567" MODIFIED="1542471372618">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &lt;action id=&quot;org.freedesktop.NetworkManager.network-control&quot;&gt;
+      CALLER=$(ps ax | grep &quot;^ *$PPID&quot; | awk '{print $NF}')
     </p>
     <p>
-      ...
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;defaults&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;allow_any&gt;<b><i>yes</i></b>&lt;/allow_any&gt;
-    </p>
-    <p>
-      ...
+      echo $CALLER
     </p>
   </body>
 </html></richcontent>
-</node>
-<node COLOR="#111111" CREATED="1542486141512" ID="ID_639864174" MODIFIED="1542488253569">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &lt;action id=&quot;org.freedesktop.NetworkManager.settings.modify.system&quot;&gt;
-    </p>
-    <p>
-      ...
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;defaults&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;allow_any&gt;<b><i>yes</i></b>&lt;/allow_any&gt;
-    </p>
-    <p>
-      ...
-    </p>
-  </body>
-</html></richcontent>
-</node>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>
