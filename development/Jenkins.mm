@@ -160,8 +160,11 @@
 <node COLOR="#00b439" CREATED="1541960663477" ID="ID_172254222" LINK="https://jenkins.io/solutions/github/" MODIFIED="1542386487879" TEXT="github">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1542386464934" ID="ID_238013093" LINK="https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin" MODIFIED="1542386498618" TEXT="plugin">
+<node COLOR="#990000" CREATED="1542386464934" ID="ID_238013093" LINK="https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin" MODIFIED="1543195535081" TEXT="jenkins plugin">
 <edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1543195497597" ID="ID_792031249" LINK="https://developer.github.com/webhooks/#service-hooks" MODIFIED="1543195541530" TEXT="github web hooks">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>

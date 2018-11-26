@@ -20,5 +20,13 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1543189303320" ID="ID_1093534396" MODIFIED="1543189305587" POSITION="right" TEXT="Model B">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1543189260799" ID="ID_1646944057" LINK="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/" MODIFIED="1543189313999" TEXT="Specs">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>

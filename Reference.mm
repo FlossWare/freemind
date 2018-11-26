@@ -11,16 +11,13 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1543187616492" ID="ID_728576410" LINK="Social.mm" MODIFIED="1543187616496" POSITION="right" TEXT="Social">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1542471118926" ID="ID_1292807881" MODIFIED="1542471133534" POSITION="left" TEXT="Library">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1542471184595" ID="ID_977441417" MODIFIED="1542471187627" TEXT="Emojis">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1542471192094" ID="ID_1412193262" LINK="https://emojipedia.org/" MODIFIED="1542471213346" TEXT="Emojipedia">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
 <node COLOR="#00b439" CREATED="1310252955216" ID="ID_402592737" LINK="kcs/KCS.mm" MODIFIED="1542471125742" TEXT="KCS">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

@@ -13,7 +13,7 @@
 <node COLOR="#00b439" CREATED="1542486085788" ID="ID_1460486651" LINK="https://ubuntuforums.org/showthread.php?t=1873477" MODIFIED="1542798504882" TEXT="Allow any user to enable VPN">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1542486118765" ID="ID_1436682932" MODIFIED="1542486128698" TEXT="/usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy">
+<node COLOR="#990000" CREATED="1542486118765" ID="ID_1436682932" MODIFIED="1543189027990" TEXT="/usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1542486141512" ID="ID_1664408206" MODIFIED="1542488277860">
 <richcontent TYPE="NODE"><html>
@@ -62,6 +62,38 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1543189077611" ID="ID_534954252" MODIFIED="1543189147713" TEXT="Authentication is required to access the PC/SC daemon">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1543189029234" ID="ID_221207809" MODIFIED="1543189047655" TEXT="/usr/share/polkit-1/actions/rg.debian.pcsc-lite.policy">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1543189090043" ID="ID_1659506072" MODIFIED="1543189141049">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;action id=&quot;org.debian.pcsc-lite.access_pcsc&quot;&gt;
+    </p>
+    <p>
+      ...
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;defaults&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&lt;allow_any&gt;<b><i>yes</i></b>&lt;/allow_any&gt;
+    </p>
+    <p>
+      ...
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -250,8 +282,15 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1542914636824" ID="ID_973212331" LINK="https://rwmj.wordpress.com/2010/10/26/tip-find-the-ip-address-of-a-virtual-machine/" MODIFIED="1542930725210" TEXT="Find the IP of a VM">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1542914705681" ID="ID_372561170" MODIFIED="1542930723411" TEXT="arp -an">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#0033ff" CREATED="1416757402529" FOLDED="true" ID="ID_744161246" MODIFIED="1542639285303" POSITION="right" TEXT="Apps">
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1416757402529" FOLDED="true" ID="ID_744161246" MODIFIED="1542930759319" POSITION="right" TEXT="Apps">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1539182626437" ID="ID_192546327" LINK="Alpine.mm" MODIFIED="1539182626440" TEXT="alpine">
@@ -1024,7 +1063,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1415378699256" FOLDED="true" ID="ID_1498338552" MODIFIED="1542309071875" TEXT="virsh">
+<node COLOR="#00b439" CREATED="1415378699256" ID="ID_1498338552" MODIFIED="1542930743998" TEXT="virsh">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1415378667673" ID="ID_1776307560" MODIFIED="1416757406904" TEXT="virsh -c qemu:///system list --all">
@@ -1041,6 +1080,9 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 <node COLOR="#990000" CREATED="1415379239713" ID="ID_113702633" MODIFIED="1416757406905" TEXT="virsh -c qemu:///system undefine [name]">
 <edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1542930747088" ID="ID_1500016525" MODIFIED="1542930749492" TEXT="virsh console">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
@@ -1540,7 +1582,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1416757565899" FOLDED="true" ID="ID_1717868975" MODIFIED="1542639328866" POSITION="left" TEXT="Detail">
+<node COLOR="#0033ff" CREATED="1416757565899" ID="ID_1717868975" MODIFIED="1543188289209" POSITION="left" TEXT="Detail">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1291901984982" ID="ID_1209787263" LINK="Apache.mm" MODIFIED="1416757573442" TEXT="Apache">

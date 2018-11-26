@@ -175,12 +175,32 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1522237200615" ID="ID_350307554" LINK="https://askubuntu.com/questions/80384/where-are-the-lxde-sound-preferences" MODIFIED="1542459966806" POSITION="left" TEXT="Sound">
+<node COLOR="#0033ff" CREATED="1543188304856" ID="ID_933306836" MODIFIED="1543188309123" POSITION="right" TEXT="How to">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1523236513552" ID="ID_610638847" MODIFIED="1523236518252" TEXT="dnf install pulseaudio pavucontrol">
+<node COLOR="#00b439" CREATED="1543188342504" ID="ID_387369561" MODIFIED="1543188358496" TEXT="Disable notification app in system tray on Personal To Do">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1543188312162" ID="ID_467619256" MODIFIED="1543188370323" TEXT="rm /etc/xdg/autostart/lxqt-notifications.desktop">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1524654272374" ID="ID_338599100" LINK="https://forum.lxde.org/viewtopic.php?f=8&amp;t=31164" MODIFIED="1543188357098" TEXT="Reload Config">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1524654279757" ID="ID_1919583690" MODIFIED="1543188353379" TEXT="lxpanelctl restart">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1522237200615" ID="ID_350307554" LINK="https://askubuntu.com/questions/80384/where-are-the-lxde-sound-preferences" MODIFIED="1543188325668" TEXT="Sound">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1523236513552" ID="ID_610638847" MODIFIED="1543188322782" TEXT="dnf install pulseaudio pavucontrol">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1522262111890" ID="ID_1471589432" MODIFIED="1522262119399" POSITION="left" TEXT="Install Locations">
@@ -237,14 +257,6 @@
 </node>
 </node>
 </node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1524654272374" ID="ID_338599100" LINK="https://forum.lxde.org/viewtopic.php?f=8&amp;t=31164" MODIFIED="1542459941295" POSITION="left" TEXT="Reload Config">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1524654279757" ID="ID_1919583690" MODIFIED="1524654282102" TEXT="lxpanelctl restart">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>
