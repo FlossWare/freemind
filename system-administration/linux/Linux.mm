@@ -92,8 +92,7 @@
       ...
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -258,6 +257,27 @@
 </node>
 <node COLOR="#990000" CREATED="1451585961631" ID="ID_1175144540" MODIFIED="1542471394626" TEXT="http://www.cyberciti.biz/faq/linux-list-network-cards-command/">
 <edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1543241518034" ID="ID_182976986" LINK="https://debian-administration.org/article/178/An_introduction_to_port_scanning_with_nmap" MODIFIED="1543241536606" TEXT="Port Scan">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1543241543486" ID="ID_359430801" MODIFIED="1543241555226" TEXT="nmap [ip address | host name]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1543241543486" ID="ID_1399159443" MODIFIED="1543241579105">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      nmap <b><i>-sV</i></b>&#160;[ip address | host name]
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>

@@ -36,5 +36,17 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1543241804022" ID="ID_1962123790" MODIFIED="1543241808390" POSITION="right" TEXT="JDK 8">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1543241809002" ID="ID_1298733122" LINK="https://www.journaldev.com/2763/java-8-functional-interfaces" MODIFIED="1543241825833" TEXT="Functional Interfaces">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1543241856074" ID="ID_496743880" LINK="https://www.journaldev.com/2774/java-8-stream" MODIFIED="1543241872115" TEXT="Stream API">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>
