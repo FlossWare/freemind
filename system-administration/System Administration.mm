@@ -198,5 +198,13 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1543328366565" ID="ID_1121902980" MODIFIED="1543329307863" POSITION="left" TEXT="Platform">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1543328429257" ID="ID_1782843963" LINK="Amazon.mm" MODIFIED="1543328429261" TEXT="Amazon">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>
