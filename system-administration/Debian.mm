@@ -182,6 +182,14 @@
 <icon BUILTIN="full-2"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1543607888139" ID="ID_1406474796" LINK="https://unix.stackexchange.com/questions/318824/vim-cutpaste-not-working-in-stretch-debian-9#318825" MODIFIED="1543607903082" POSITION="right" TEXT="Disable mouse in vim">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1543607913651" ID="ID_248732076" MODIFIED="1543607920331" TEXT=":se mouse=r">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1513721123771" ID="ID_1394032056" MODIFIED="1513721127399" POSITION="right" TEXT="vncserver">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

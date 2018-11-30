@@ -16,18 +16,17 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1479293465424" ID="ID_1952158774" LINK="http://ostolc.org/kvm-move-guest-to-another-host.html" MODIFIED="1542307879893" POSITION="right" TEXT="Migrate VM">
+<node COLOR="#0033ff" CREATED="1543595395393" ID="ID_472315906" MODIFIED="1543595397756" POSITION="right" TEXT="How To">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1479293472288" ID="ID_851443700" MODIFIED="1479293472884" TEXT="http://ostolc.org/kvm-move-guest-to-another-host.html">
+<node COLOR="#00b439" CREATED="1479293465424" ID="ID_1952158774" LINK="http://ostolc.org/kvm-move-guest-to-another-host.html" MODIFIED="1543595401412" TEXT="Migrate VM">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1479293475308" ID="ID_597191226" MODIFIED="1479293525824" TEXT="host-1">
+<node COLOR="#990000" CREATED="1479293475308" ID="ID_597191226" MODIFIED="1543595401414" TEXT="host-1">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
-<node COLOR="#990000" CREATED="1479293484052" ID="ID_904077885" MODIFIED="1479293504865">
+<node COLOR="#111111" CREATED="1479293484052" ID="ID_904077885" MODIFIED="1543595401415">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -62,14 +61,14 @@
     </p>
   </body>
 </html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1479293506936" ID="ID_670563654" MODIFIED="1479293527592" TEXT="host-2">
+<node COLOR="#990000" CREATED="1479293506936" ID="ID_670563654" MODIFIED="1543595401415" TEXT="host-2">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
-<node COLOR="#990000" CREATED="1479293517655" ID="ID_542673986" MODIFIED="1517514081660">
+<node COLOR="#111111" CREATED="1479293517655" ID="ID_542673986" MODIFIED="1543595401416">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -89,9 +88,9 @@
     </p>
   </body>
 </html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#990000" CREATED="1537801367350" ID="ID_1537141367" MODIFIED="1537801384458">
+<node COLOR="#111111" CREATED="1537801367350" ID="ID_1537141367" MODIFIED="1543595401417">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -108,7 +107,8 @@
     </p>
   </body>
 </html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 </node>
