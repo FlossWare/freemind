@@ -236,6 +236,108 @@
 <icon BUILTIN="full-5"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1543503147897" ID="ID_75592833" MODIFIED="1543503151102" TEXT="Disk Images">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1543503152130" ID="ID_1735900790" LINK="https://www.hutsky.cz/blog/2014/06/mount-a-disk-image-containing-lvm/" MODIFIED="1543586847693" TEXT="Mount LVM partition">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1543586671845" ID="ID_402800700" MODIFIED="1543586673416" TEXT="Commands">
+<node COLOR="#111111" CREATED="1543586429924" ID="ID_411934876" MODIFIED="1543586583544" TEXT="losetup /dev/[loop device] [disk image]">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1543586452552" ID="ID_31107942" MODIFIED="1543586590856" TEXT="kpartx -a /dev/[loop device]">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1543586466513" ID="ID_1912101966" MODIFIED="1543586561047" TEXT="vgscan">
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#111111" CREATED="1543586475985" ID="ID_657317850" MODIFIED="1543586563166" TEXT="vgchange -ay [volume from disk image]">
+<icon BUILTIN="full-4"/>
+</node>
+<node COLOR="#111111" CREATED="1543586485892" ID="ID_53349585" MODIFIED="1543586565193" TEXT="mount -t [file system type] /dev/mapper/[volume from disk image] [mount pt]">
+<icon BUILTIN="full-5"/>
+</node>
+<node COLOR="#111111" CREATED="1543586592684" ID="ID_1881594802" MODIFIED="1543586594541" TEXT="When done">
+<node COLOR="#111111" CREATED="1543586595208" ID="ID_1784215199" MODIFIED="1543586616825" TEXT="losetup -d [loop device]">
+<icon BUILTIN="full-6"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1543586637825" ID="ID_173779249" MODIFIED="1543586640061" TEXT="Example">
+<node COLOR="#111111" CREATED="1543586640837" ID="ID_1388345411" MODIFIED="1543586659657">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      losetup /dev/loop0 lvmdisk.raw
+    </p>
+    <p>
+      kpartx -a /dev/loop0
+    </p>
+    <p>
+      vgscan
+    </p>
+    <p>
+      vgchange -ay VolGroup00
+    </p>
+    <p>
+      mount -t ext4 /dev/mapper/VolGroup00-LogVol00 /mnt
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1543586709184" ID="ID_1619970152" MODIFIED="1543586847692" TEXT="Repairing XFS on LVM partition">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1543586786669" ID="ID_1299100145" MODIFIED="1543586788388" TEXT="Commands">
+<node COLOR="#111111" CREATED="1543586429924" ID="ID_400612981" MODIFIED="1543586583544" TEXT="losetup /dev/[loop device] [disk image]">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1543586452552" ID="ID_577247827" MODIFIED="1543586590856" TEXT="kpartx -a /dev/[loop device]">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1543586466513" ID="ID_1831951402" MODIFIED="1543586561047" TEXT="vgscan">
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#111111" CREATED="1543586475985" ID="ID_1419771786" MODIFIED="1543586563166" TEXT="vgchange -ay [volume from disk image]">
+<icon BUILTIN="full-4"/>
+</node>
+<node COLOR="#111111" CREATED="1543586763761" ID="ID_871809534" MODIFIED="1543586782093" TEXT="xfs_repair [volume for disk image]">
+<icon BUILTIN="full-5"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1543586792692" ID="ID_1284359787" MODIFIED="1543586794293" TEXT="Example">
+<node COLOR="#111111" CREATED="1543586640837" ID="ID_1710590347" MODIFIED="1543586826457">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      losetup /dev/loop0 lvmdisk.raw
+    </p>
+    <p>
+      kpartx -a /dev/loop0
+    </p>
+    <p>
+      vgscan
+    </p>
+    <p>
+      vgchange -ay VolGroup00
+    </p>
+    <p>
+      xfs_repair /dev/mapper/VolGroup00
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1542471340811" ID="ID_1967456206" LINK="https://www.maketecheasier.com/use-emojis-in-linux/" MODIFIED="1542798498427" TEXT="Emojis">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -276,8 +378,7 @@
       nmap <b><i>-sV</i></b>&#160;[ip address | host name]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
@@ -310,7 +411,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1416757402529" FOLDED="true" ID="ID_744161246" MODIFIED="1542930759319" POSITION="right" TEXT="Apps">
+<node COLOR="#0033ff" CREATED="1416757402529" FOLDED="true" ID="ID_744161246" MODIFIED="1543503139470" POSITION="right" TEXT="Apps">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1539182626437" ID="ID_192546327" LINK="Alpine.mm" MODIFIED="1539182626440" TEXT="alpine">
@@ -821,7 +922,7 @@
 <icon BUILTIN="full-2"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1511309520904" FOLDED="true" ID="ID_516227479" LINK="https://askubuntu.com/questions/69363/mount-single-partition-from-image-of-entire-disk-device" MODIFIED="1542309091297" TEXT="raw files">
+<node COLOR="#00b439" CREATED="1511309520904" ID="ID_516227479" LINK="https://askubuntu.com/questions/69363/mount-single-partition-from-image-of-entire-disk-device" MODIFIED="1543501811093" TEXT="raw files">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1503359126361" ID="ID_1927262849" MODIFIED="1542308608884" TEXT="fdisk -lu sda.img">
