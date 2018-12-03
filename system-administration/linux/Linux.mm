@@ -13,7 +13,7 @@
 <node COLOR="#00b439" CREATED="1542486085788" ID="ID_1460486651" LINK="https://ubuntuforums.org/showthread.php?t=1873477" MODIFIED="1542798504882" TEXT="Allow any user to enable VPN">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1542486118765" ID="ID_1436682932" MODIFIED="1543189027990" TEXT="/usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy">
+<node COLOR="#990000" CREATED="1542486118765" ID="ID_1436682932" MODIFIED="1543865081870" TEXT="/usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1542486141512" ID="ID_1664408206" MODIFIED="1542488277860">
 <richcontent TYPE="NODE"><html>
@@ -286,8 +286,7 @@
       mount -t ext4 /dev/mapper/VolGroup00-LogVol00 /mnt
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

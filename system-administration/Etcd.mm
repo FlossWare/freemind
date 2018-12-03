@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1468426165824" ID="ID_935900933" LINK="System%20Administration.mm" MODIFIED="1468426181070" TEXT="Etcd">
+<node COLOR="#000000" CREATED="1468426165824" ID="ID_935900933" LINK="Virtualization.mm" MODIFIED="1543855155014" TEXT="Etcd">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
@@ -39,8 +39,7 @@
       ETCD_INITIAL_ADVERTISE_PEER_URLS=&quot;http://[ip address]:2380&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

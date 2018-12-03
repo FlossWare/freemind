@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1420896777242" ID="ID_953734564" LINK="System%20Administration.mm" MODIFIED="1503052546413" TEXT="Docker">
+<node COLOR="#000000" CREATED="1420896777242" ID="ID_953734564" LINK="Virtualization.mm" MODIFIED="1543855137268" TEXT="Docker">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
@@ -120,8 +120,7 @@
       ExecStart=/usr/bin/dockerd <b><i>--insecure-registry registry.gsslab.rdu2.redhat.com:5000</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1534353088474" ID="ID_1684178373" MODIFIED="1534353090338" TEXT="/etc/sysconfig/docker">
@@ -136,8 +135,7 @@
       OPTIONS='--selinux-enabled --log-driver=journald --live-restore --insecure-registry=172.30.0.0/16 <b><i>--insecure-registry=registry.gsslab.rdu2.redhat.com:5000</i></b>'
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1420656882598" ID="ID_301271328" LINK="System%20Administration.mm" MODIFIED="1420658893379" TEXT="Open Stack">
+<node COLOR="#000000" CREATED="1420656882598" ID="ID_301271328" LINK="Virtualization.mm" MODIFIED="1543855250358" TEXT="Open Stack">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>

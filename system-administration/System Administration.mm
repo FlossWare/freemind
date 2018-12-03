@@ -3,145 +3,22 @@
 <node COLOR="#000000" CREATED="1270310396325" ID="ID_251328639" LINK="../Reference.mm" MODIFIED="1288889636984" TEXT="System Administration">
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1437223275435" ID="ID_1238905325" MODIFIED="1437223277609" POSITION="right" TEXT="Hardware">
+<node COLOR="#0033ff" CREATED="1543855030895" ID="ID_755162637" LINK="Hardware.mm" MODIFIED="1543855030896" POSITION="right" TEXT="Hardware">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1327003827279" ID="ID_1749573106" LINK="DNS-320.mm" MODIFIED="1518397788366" TEXT="DNS-320">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1509824794869" ID="ID_112995990" LINK="Alt-F.mm" MODIFIED="1509824794870" TEXT="Alt-F">
-<font NAME="SansSerif" SIZE="14"/>
 </node>
-</node>
-<node COLOR="#00b439" CREATED="1542639159736" ID="ID_1648030327" MODIFIED="1542639161784" TEXT="Lenovo">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1437223310863" ID="ID_564729937" LINK="Lenovo%20T540p.mm" MODIFIED="1542639169165" TEXT="T540p">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1543190030701" ID="ID_1400988487" LINK="https://www.lenovo.com/us/en/laptops/thinkpad/thinkpad-t-series/ThinkPad-T460p/p/22TP2TT460P" MODIFIED="1543190319836" TEXT="T460p">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1542472563645" ID="ID_6769944" LINK="Raspberry%20PI.mm" MODIFIED="1542472563646" TEXT="Raspberry PI">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1425994622044" ID="ID_1365297053" MODIFIED="1425994625836" POSITION="right" TEXT="Operating Systems">
+<node COLOR="#0033ff" CREATED="1543855046636" ID="ID_1936726864" LINK="Operating%20Systems.mm" MODIFIED="1543855046637" POSITION="right" TEXT="Operating Systems">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1352747948168" ID="ID_1559015291" LINK="Android.mm" MODIFIED="1425994632526" TEXT="Android">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1270222854170" ID="ID_219128712" LINK="linux/Linux.mm" MODIFIED="1541719075296" TEXT="Linux">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1380459961076" ID="ID_801737412" LINK="Debian.mm" MODIFIED="1542309597601" TEXT="Debian">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1542472386570" ID="ID_486489240" LINK="https://www.debian.org/CD/" MODIFIED="1542472402918" TEXT="Downloads"/>
-<node COLOR="#111111" CREATED="1542472329894" ID="ID_1385199229" LINK="https://www.debian.org/CD/http-ftp/" MODIFIED="1542472492486" TEXT="Releases"/>
-<node COLOR="#111111" CREATED="1542472183934" ID="ID_557720506" MODIFIED="1542472186502" TEXT="Ubuntu">
-<node COLOR="#111111" CREATED="1542472300099" ID="ID_120528959" LINK="http://cdimage.ubuntu.com/releases/" MODIFIED="1542472312069" TEXT="Releases"/>
-</node>
-</node>
-<node COLOR="#990000" CREATED="1421503362033" ID="ID_1128093225" LINK="Red%20Hat%20Based%20Linux.mm" MODIFIED="1542314198526" TEXT="Red Hat Based">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1511899550510" ID="ID_1076529556" MODIFIED="1542472210621" TEXT="Enterprise">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1421503207892" ID="ID_71621550" LINK="RHEL.mm" MODIFIED="1542472210621" TEXT="RHEL">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#111111" CREATED="1421503220698" ID="ID_1913004925" LINK="CentOS.mm" MODIFIED="1542472210622" TEXT="CentOS">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#111111" CREATED="1421503233956" ID="ID_209733636" LINK="Fedora.mm" MODIFIED="1542472210625" TEXT="Fedora">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1357485379270" ID="ID_532264394" LINK="mac/Mac.mm" MODIFIED="1542385608309" TEXT="Mac">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1269099162834" ID="ID_48147952" LINK="windows/Windows.mm" MODIFIED="1425994638680" TEXT="Windows">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1425994609444" ID="ID_333680386" MODIFIED="1478953986270" TEXT="Wireless">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1366916168604" ID="ID_402415725" LINK="DD-WRT.mm" MODIFIED="1478953986271" TEXT="DD-WRT">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1390306968365" ID="ID_211249819" LINK="OpenWRT.mm" MODIFIED="1478953986271" TEXT="OpenWRT">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1420896763643" ID="ID_1784596895" MODIFIED="1420896766878" POSITION="left" TEXT="Virtualization">
+<node COLOR="#0033ff" CREATED="1543855065186" ID="ID_1037635816" LINK="Virtualization.mm" MODIFIED="1543855065187" POSITION="left" TEXT="Virtualization">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1437575749515" ID="ID_1589048783" LINK="Atomic.mm" MODIFIED="1437575951375" TEXT="Atomic">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1500141070348" ID="ID_1846303635" LINK="linux/Cobbler.mm" MODIFIED="1500141094681" TEXT="Cobbler">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1420896787693" ID="ID_708939460" LINK="Docker.mm" MODIFIED="1425994667126" TEXT="Docker">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1468426175588" ID="ID_923754102" LINK="Etcd.mm" MODIFIED="1468426175590" TEXT="Etcd">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1452774627126" ID="ID_504306298" LINK="Kubernetes.mm" MODIFIED="1452774627127" TEXT="Kubernetes">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1410107118554" ID="ID_1062665547" LINK="Open%20Shift.mm" MODIFIED="1420896771110" TEXT="Open Shift">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1420656895525" ID="ID_29302563" LINK="Open%20Stack.mm" MODIFIED="1420896771112" TEXT="Open Stack">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1420663732062" ID="ID_191731771" LINK="RHEV.mm" MODIFIED="1425994665346" TEXT="RHEV">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1416178190171" ID="ID_631344911" LINK="Vagrant.mm" MODIFIED="1425994497028" TEXT="Vagrant">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1416179781813" ID="ID_1223441388" LINK="Oh%20My%20Vagrant.mm" MODIFIED="1425994497028" TEXT="Oh My Vagrant">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1270222924342" ID="ID_883797694" LINK="VirtualBox.mm" MODIFIED="1425994662086" TEXT="VirtualBox">
-<edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1469457680853" ID="ID_241707292" LINK="KVM.mm" MODIFIED="1471349278047" TEXT="KVM">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1324994170187" ID="ID_671827509" LINK="Xen.mm" MODIFIED="1468574691564" TEXT="Xen">
+<node COLOR="#0033ff" CREATED="1543855091226" ID="ID_523076852" MODIFIED="1543855093362" POSITION="left" TEXT="Provision">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1500141070348" ID="ID_41776047" LINK="linux/Cobbler.mm" MODIFIED="1543855103273" TEXT="Cobbler">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

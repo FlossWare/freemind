@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1324994152442" ID="ID_615331716" LINK="System%20Administration.mm" MODIFIED="1447773426706" TEXT="Xen">
+<node COLOR="#000000" CREATED="1324994152442" ID="ID_615331716" LINK="Virtualization.mm" MODIFIED="1543855384274" TEXT="Xen">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
@@ -250,7 +250,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1518903404616" FOLDED="true" ID="ID_1507863533" MODIFIED="1530848209824" POSITION="left" TEXT="CentOS">
+<node COLOR="#0033ff" CREATED="1518903404616" FOLDED="true" ID="ID_1507863533" MODIFIED="1543855577289" POSITION="left" TEXT="CentOS">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1387296666581" FOLDED="true" ID="ID_1872438747" MODIFIED="1521397162855" TEXT="6.x">

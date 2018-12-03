@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1437484560487" ID="ID_1173897794" LINK="System%20Administration.mm" MODIFIED="1437575961262" TEXT="Atomic">
+<node COLOR="#000000" CREATED="1437484560487" ID="ID_1173897794" LINK="Operating%20Systems.mm" MODIFIED="1543855783752" TEXT="Atomic">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>

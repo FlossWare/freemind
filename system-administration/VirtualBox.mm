@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1270222910309" ID="ID_1751838518" LINK="System%20Administration.mm" MODIFIED="1421502010264" TEXT="VirtualBox">
+<node COLOR="#000000" CREATED="1270222910309" ID="ID_1751838518" LINK="Virtualization.mm" MODIFIED="1543855351621" TEXT="VirtualBox">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
@@ -21,8 +21,7 @@
       VBoxManage startvm <b><i>admincloud</i></b>&#160;--type headless
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
