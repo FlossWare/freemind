@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1469206802095" ID="ID_1710657653" LINK="Development.mm" MODIFIED="1530724187609" TEXT="Solr">
+<node COLOR="#000000" CREATED="1469206802095" ID="ID_1710657653" LINK="Development.mm" MODIFIED="1544376092177" TEXT="Solr">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
@@ -313,7 +313,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1472144268418" FOLDED="true" ID="ID_1785894165" MODIFIED="1544046784957" POSITION="right" TEXT="Solr Unleashed">
+<node COLOR="#0033ff" CREATED="1472144268418" ID="ID_1785894165" MODIFIED="1544376049586" POSITION="right" TEXT="Solr Unleashed">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1472150598592" ID="ID_456208300" MODIFIED="1472150600324" TEXT="Queries">
