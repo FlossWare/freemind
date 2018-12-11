@@ -4,6 +4,84 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<node COLOR="#0033ff" CREATED="1544464089741" ID="ID_373876053" MODIFIED="1544464093446" POSITION="right" TEXT="How To">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1544464094423" ID="ID_1353120179" LINK="https://www.tecmint.com/disable-lock-blacklist-package-updates-ubuntu-debian-apt/" MODIFIED="1544464128152" TEXT="Disable/Blacklist Package Updates for apt">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1544464142693" ID="ID_1105724520" MODIFIED="1544464144829" TEXT="Disable/Lock Package Using &#x2018;apt-mark&#x2019; with hold/unhold Option">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1544464150525" ID="ID_1065236459" MODIFIED="1544464157330" TEXT="apt-mark hold [package]"/>
+<node COLOR="#111111" CREATED="1544464161198" ID="ID_1254286068" MODIFIED="1544464166170" TEXT="apt-mark unhold [package]"/>
+</node>
+<node COLOR="#990000" CREATED="1544464173354" ID="ID_1868020567" MODIFIED="1544464175503" TEXT="Blocking Package Updates Using APT Preferences File">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1544464183361" ID="ID_1583031365" MODIFIED="1544464186662" TEXT="/etc/apt/preferences">
+<node COLOR="#111111" CREATED="1544464194166" ID="ID_653639497" MODIFIED="1544464215963">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Package: &lt;package-name&gt; (Here, '*' means all packages)
+    </p>
+    <p>
+      Pin: release *
+    </p>
+    <p>
+      Pin-Priority: &lt;less than 0&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1544464355613" ID="ID_4948884" MODIFIED="1544464357408" TEXT="Pin: release o=Debian,a=Experimental"/>
+<node COLOR="#111111" CREATED="1544464312943" ID="ID_1705210436" MODIFIED="1544464316982" TEXT="Pin Priority">
+<node COLOR="#111111" CREATED="1544464319341" ID="ID_249294479" MODIFIED="1544464324025" TEXT="a -&gt; Archive"/>
+<node COLOR="#111111" CREATED="1544464328573" ID="ID_984237150" MODIFIED="1544464330350" TEXT="c -&gt; Component"/>
+<node COLOR="#111111" CREATED="1544464334010" ID="ID_1591276788" MODIFIED="1544464336146" TEXT="o -&gt; Origin"/>
+<node COLOR="#111111" CREATED="1544464340126" ID="ID_1464416117" MODIFIED="1544464342072" TEXT="l -&gt; Label"/>
+<node COLOR="#111111" CREATED="1544464345174" ID="ID_245480386" MODIFIED="1544464347245" TEXT="n -&gt; Architecture"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1544464240661" ID="ID_1820846468" MODIFIED="1544464274807">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Package: apache2
+    </p>
+    <p>
+      Pin: release o=Ubuntu
+    </p>
+    <p>
+      Pin-Priority: 1
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1380463899026" ID="ID_831607622" MODIFIED="1544531967130" TEXT="Reboot">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1380463903082" ID="ID_1597050899" MODIFIED="1544531967131" TEXT="reboot -f">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1543607888139" ID="ID_1406474796" LINK="https://unix.stackexchange.com/questions/318824/vim-cutpaste-not-working-in-stretch-debian-9#318825" MODIFIED="1544531976529" TEXT="Disable mouse in vim">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1543607913651" ID="ID_248732076" MODIFIED="1544531976529" TEXT=":se mouse=r">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1525443780266" ID="ID_301869249" LINK="https://olimex.wordpress.com/2014/07/21/how-to-create-bare-minimum-debian-wheezy-rootfs-from-scratch/" MODIFIED="1542309427556" POSITION="right" TEXT="rootfs">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -168,6 +246,46 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1544469473308" ID="ID_41935540" MODIFIED="1544469475496" POSITION="right" TEXT="arm">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1544469477237" ID="ID_1027297085" MODIFIED="1544469489164" TEXT="install">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1544469489964" ID="ID_1920307160" MODIFIED="1544469494565" TEXT="lsb-release">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1544469566972" ID="ID_1401394888" MODIFIED="1544469568844" TEXT="vim">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1544470074628" ID="ID_1055028202" MODIFIED="1544470077056" TEXT="rsync">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1544470077936" ID="ID_1629098468" MODIFIED="1544470083072" TEXT="sshfs">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1544470428049" ID="ID_283806005" MODIFIED="1544470430049" TEXT="locales">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1544470430337" ID="ID_639612401" MODIFIED="1544470431272" TEXT="nis">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1544470435452" ID="ID_1078742139" MODIFIED="1544470437072" TEXT="ntp">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1544470450136" ID="ID_1021942446" MODIFIED="1544470451559" TEXT="ntpdate">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1544470279696" ID="ID_227923913" MODIFIED="1544470283492" TEXT="mkdir /home/sfloess">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1544470286104" ID="ID_632207517" MODIFIED="1544470296988" TEXT="ln -s /home/sfloess /mnt/admin-ap/home/sfloess">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1511531808409" ID="ID_1879892581" MODIFIED="1511531811093" POSITION="right" TEXT="KDE">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -180,14 +298,6 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-2"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1543607888139" ID="ID_1406474796" LINK="https://unix.stackexchange.com/questions/318824/vim-cutpaste-not-working-in-stretch-debian-9#318825" MODIFIED="1543607903082" POSITION="right" TEXT="Disable mouse in vim">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1543607913651" ID="ID_248732076" MODIFIED="1543607920331" TEXT=":se mouse=r">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1513721123771" ID="ID_1394032056" MODIFIED="1513721127399" POSITION="right" TEXT="vncserver">
@@ -580,14 +690,6 @@
 <node COLOR="#0033ff" CREATED="1460385424694" ID="ID_106730277" MODIFIED="1460385435785" POSITION="right" TEXT="adduser [user] tty ">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-</node>
-<node COLOR="#0033ff" CREATED="1380463899026" ID="ID_831607622" MODIFIED="1511531795646" POSITION="left" TEXT="Reboot">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1380463903082" ID="ID_1597050899" MODIFIED="1380463904651" TEXT="reboot -f">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 </node>
 <node COLOR="#0033ff" CREATED="1514137907369" ID="ID_1594613518" MODIFIED="1514137909879" POSITION="left" TEXT="apt">
 <edge STYLE="sharp_bezier" WIDTH="8"/>

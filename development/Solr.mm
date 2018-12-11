@@ -313,7 +313,27 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1472144268418" ID="ID_1785894165" MODIFIED="1544376049586" POSITION="right" TEXT="Solr Unleashed">
+<node COLOR="#0033ff" CREATED="1470858765328" ID="ID_279854326" MODIFIED="1470858767044" POSITION="left" TEXT="4.5">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1470858768188" ID="ID_1421512744" MODIFIED="1470858778072" TEXT="java -jar start.jar">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1469208424770" ID="ID_1633498833" MODIFIED="1469208428046" POSITION="left" TEXT="Fields">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1469208431998" ID="ID_1197253350" MODIFIED="1469208433678" TEXT="can have multiple values">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1469208438282" ID="ID_879247106" MODIFIED="1469208443630" TEXT="don&#x2019;t contain subfields">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1472144268418" FOLDED="true" ID="ID_1785894165" MODIFIED="1544464609403" POSITION="right" TEXT="Solr Unleashed">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1472150598592" ID="ID_456208300" MODIFIED="1472150600324" TEXT="Queries">
@@ -1077,26 +1097,6 @@
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1472671228926" ID="ID_1195151660" MODIFIED="1472671231990" TEXT="No security">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1470858765328" ID="ID_279854326" MODIFIED="1470858767044" POSITION="left" TEXT="4.5">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1470858768188" ID="ID_1421512744" MODIFIED="1470858778072" TEXT="java -jar start.jar">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1469208424770" ID="ID_1633498833" MODIFIED="1469208428046" POSITION="left" TEXT="Fields">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1469208431998" ID="ID_1197253350" MODIFIED="1469208433678" TEXT="can have multiple values">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1469208438282" ID="ID_879247106" MODIFIED="1469208443630" TEXT="don&#x2019;t contain subfields">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

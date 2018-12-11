@@ -48,5 +48,17 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1544534363038" ID="ID_77583539" LINK="http://www.java2s.com/" MODIFIED="1544534378699" POSITION="right" TEXT="Java To Source">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1544534394675" ID="ID_1369621314" LINK="http://www.java2s.com/example/jar/jar.html" MODIFIED="1544534410634" TEXT="Jar File / POM / Source">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1544550502521" ID="ID_194403939" LINK="http://sourcetricks.com/p/java-tutorials.html#.XA_3inVKjRZ" MODIFIED="1544550518708" POSITION="right" TEXT="Java Tutorials">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 </node>
 </map>
