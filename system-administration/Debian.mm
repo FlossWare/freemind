@@ -81,6 +81,15 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1544585243912" ID="ID_1345487183" MODIFIED="1544585246976" TEXT="tftpd">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1544585250378" ID="ID_1527786787" MODIFIED="1544585254596" TEXT="install">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1544585255877" ID="ID_1284198165" MODIFIED="1544585271395" TEXT="tftpd"/>
+<node COLOR="#111111" CREATED="1544585255877" ID="ID_1239794454" MODIFIED="1544585277340" TEXT="xinetd"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1525443780266" ID="ID_301869249" LINK="https://olimex.wordpress.com/2014/07/21/how-to-create-bare-minimum-debian-wheezy-rootfs-from-scratch/" MODIFIED="1542309427556" POSITION="right" TEXT="rootfs">
 <edge STYLE="sharp_bezier" WIDTH="8"/>

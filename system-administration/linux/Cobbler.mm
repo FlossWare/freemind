@@ -59,7 +59,7 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-1"/>
-<node COLOR="#990000" CREATED="1342439902144" ID="ID_1488980123" MODIFIED="1342439907467">
+<node COLOR="#990000" CREATED="1342439902144" ID="ID_1488980123" MODIFIED="1544625786435">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -69,7 +69,10 @@
       [authentication]
     </p>
     <p>
-      module = authn_configfile&#xa0;&#xa0;
+      module = authn_configfile
+    </p>
+    <p>
+      &#160;
     </p>
     <p>
       [authorization]
@@ -78,7 +81,8 @@
       module = authz_allowall
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
