@@ -4,46 +4,25 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1387480396775" ID="ID_31029489" MODIFIED="1387480399359" POSITION="right" TEXT="Searching">
+<node COLOR="#0033ff" CREATED="1387480356395" ID="ID_1102032210" LINK="http://docs.splunk.com/Documentation/Splunk/6.0/SearchReference/WhatsInThisManual" MODIFIED="1387480408891" POSITION="right" TEXT="Manual">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1387480286995" ID="ID_940197793" MODIFIED="1387480403547" TEXT="index=">
+<node COLOR="#00b439" CREATED="1538582020066" ID="ID_1234571287" LINK="http://docs.splunk.com/Documentation/Splunk/7.2.1/SearchReference/Join" MODIFIED="1544810871192" TEXT="join">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1387480290195" ID="ID_632951686" MODIFIED="1387480403550" TEXT="sourcetype=access_combined">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1387480301455" ID="ID_158486195" MODIFIED="1387480403553" TEXT="time">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1387480308015" ID="ID_782334704" MODIFIED="1387480429212" TEXT="earliest=&quot;MM/DD/YYYY:HH:mm:ss&quot;">
+<node COLOR="#990000" CREATED="1538583661323" ID="ID_1451151154" MODIFIED="1544810822467" TEXT="[search criteria] | join [field] [search [other search criteria]]">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1387480308015" ID="ID_1655507975" MODIFIED="1387480423752" TEXT="latest=&quot;MM/DD/YYYY:HH:mm:ss&quot;">
+<node COLOR="#990000" CREATED="1538583698551" ID="ID_1107559393" MODIFIED="1544810822468" TEXT="host=alpha* | join reqId [search host=alpha* &quot;could not obtain lock within 5000MILLISECONDS&quot; &quot;failed on component&quot;] | sort _time ASC">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1522684203714" ID="ID_1564786663" MODIFIED="1522684224923" POSITION="right" TEXT="Break into separate strings">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1522684233816" ID="ID_1761682598" MODIFIED="1522684261154" TEXT="eval [var]=split([string], &quot;[delimiter]&quot;)">
+<node COLOR="#00b439" CREATED="1529580702014" ID="ID_625594383" LINK="http://docs.splunk.com/Documentation/Splunk/7.2.1/SearchReference/Transaction" MODIFIED="1544810851086" TEXT="transaction">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1522684262231" ID="ID_317216226" MODIFIED="1522684272253" TEXT="eval individual_params=split(raw_params, &quot;&amp;&quot;)">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1529580702014" ID="ID_625594383" MODIFIED="1529580705535" POSITION="right" TEXT="Transaction">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1529580726497" ID="ID_1877406306" MODIFIED="1529580734512">
+<node COLOR="#990000" CREATED="1529580726497" ID="ID_1877406306" MODIFIED="1544810825814">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -73,22 +52,35 @@
   </body>
 </html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1544809189280" ID="ID_73328299" LINK="http://docs.splunk.com/Documentation/Splunk/7.2.1/SearchReference/Strcat" MODIFIED="1544810828447" TEXT="strcat">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1544810808919" ID="ID_880291591" MODIFIED="1544810822472" TEXT="strcat [allrequired=&lt;bool&gt;] &lt;source-fields&gt; &lt;dest-field&gt;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1538582020066" ID="ID_1234571287" MODIFIED="1538582022982" POSITION="right" TEXT="Join">
+</node>
+<node COLOR="#0033ff" CREATED="1544810896612" ID="ID_692216564" MODIFIED="1544810902561" POSITION="right" TEXT="How To">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1538583661323" ID="ID_1451151154" MODIFIED="1538583697986" TEXT="[search criteria] | join [field] [search [other search criteria]]">
+<node COLOR="#00b439" CREATED="1522684203714" ID="ID_1564786663" MODIFIED="1544810901447" TEXT="Break into separate strings">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1538583698551" ID="ID_1107559393" MODIFIED="1538583727171" TEXT="host=alpha* | join reqId [search host=alpha* &quot;could not obtain lock within 5000MILLISECONDS&quot; &quot;failed on component&quot;] | sort _time ASC">
+<node COLOR="#990000" CREATED="1522684233816" ID="ID_1761682598" MODIFIED="1544810901447" TEXT="eval [var]=split([string], &quot;[delimiter]&quot;)">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1522684262231" ID="ID_317216226" MODIFIED="1544810901447" TEXT="eval individual_params=split(raw_params, &quot;&amp;&quot;)">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1541100225153" ID="ID_1619426491" MODIFIED="1541100227538" POSITION="right" TEXT="Cron">
+</node>
+<node COLOR="#0033ff" CREATED="1541100225153" ID="ID_1619426491" MODIFIED="1541100227538" POSITION="left" TEXT="Cron">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1541100232641" ID="ID_884367807" MODIFIED="1541100240228">
@@ -113,15 +105,34 @@
       Day of the week: 0-6 (where 0 = Sunday)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1387480356395" ID="ID_1102032210" LINK="http://docs.splunk.com/Documentation/Splunk/6.0/SearchReference/WhatsInThisManual" MODIFIED="1387480408891" POSITION="left" TEXT="Manual">
+<node COLOR="#0033ff" CREATED="1387480396775" ID="ID_31029489" MODIFIED="1387480399359" POSITION="left" TEXT="Searching">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1387480286995" ID="ID_940197793" MODIFIED="1387480403547" TEXT="index=">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1387480290195" ID="ID_632951686" MODIFIED="1387480403550" TEXT="sourcetype=access_combined">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1387480301455" ID="ID_158486195" MODIFIED="1387480403553" TEXT="time">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1387480308015" ID="ID_782334704" MODIFIED="1387480429212" TEXT="earliest=&quot;MM/DD/YYYY:HH:mm:ss&quot;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1387480308015" ID="ID_1655507975" MODIFIED="1387480423752" TEXT="latest=&quot;MM/DD/YYYY:HH:mm:ss&quot;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 </node>
 </map>

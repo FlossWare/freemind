@@ -689,7 +689,7 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1532521161742" ID="ID_290883090" MODIFIED="1532521168236">
+<node COLOR="#990000" CREATED="1532521161742" ID="ID_290883090" MODIFIED="1544837591458">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -729,13 +729,14 @@
       --graphics vga \
     </p>
     <p>
-      --location 'http://192.168.168.31/cblr/links/Fedora-28-x86_64/' \
+      --location 'http://192.168.168.32/cblr/links/Fedora-28-x86_64/' \
     </p>
     <p>
-      --extra-args 'ks=http://192.168.168.31/kickstart/workstation.ks text console=ttyS0 utf8 console=hvc0'
+      --extra-args 'ks=http://192.168.168.32/kickstart/workstation.ks text console=ttyS0 utf8 console=hvc0'
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
@@ -744,7 +745,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1532521125202" ID="ID_1574468395" MODIFIED="1532521126934" TEXT="CentOS">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1532521038462" ID="ID_788390219" MODIFIED="1532521130830">
+<node COLOR="#111111" CREATED="1532521038462" ID="ID_788390219" MODIFIED="1544837579659">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -787,17 +788,18 @@
       --location 'http://192.168.168.31/cblr/links/CentOS-7-Atomic-x86_64/' \
     </p>
     <p>
-      --extra-args 'ks=http://192.168.168.31/kickstart/centos-7-atomic.ks text console=ttyS0 utf8 console=hvc0'
+      --extra-args 'ks=http://192.168.168.32/kickstart/centos-7-atomic.ks text console=ttyS0 utf8 console=hvc0'
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1532521127314" ID="ID_715338360" MODIFIED="1532521128530" TEXT="RHEL">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1532521086062" ID="ID_1945523968" MODIFIED="1532521133225">
+<node COLOR="#111111" CREATED="1532521086062" ID="ID_1945523968" MODIFIED="1544837601667">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -837,13 +839,14 @@
       --graphics vga \
     </p>
     <p>
-      --location 'http://192.168.168.31/cblr/links/RHEL-7-Atomic-x86_64/' \
+      --location 'http://192.168.168.32/cblr/links/RHEL-7-Atomic-x86_64/' \
     </p>
     <p>
-      --extra-args 'ks=http://192.168.168.31/kickstart/centos-7-atomic.ks text console=ttyS0 utf8 console=hvc0'
+      --extra-args 'ks=http://192.168.168.32/kickstart/centos-7-atomic.ks text console=ttyS0 utf8 console=hvc0'
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="12"/>
 </node>

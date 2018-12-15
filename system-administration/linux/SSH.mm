@@ -68,6 +68,44 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1544839967323" ID="ID_1124396111" MODIFIED="1544839969679" POSITION="right" TEXT="Remove a key">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1544839970435" ID="ID_1351630933" MODIFIED="1544839981315" TEXT="ssh-keygen -f &quot;/root/.ssh/known_hosts&quot; -R [ip or hostname]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1544839970435" ID="ID_99547197" MODIFIED="1544840048203">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ssh-keygen -f &quot;/root/.ssh/known_hosts&quot; -R <b><i>192.168.168.35</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1544839970435" ID="ID_1505145807" MODIFIED="1544840040786">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ssh-keygen -f &quot;/root/.ssh/known_hosts&quot; -R <b><i>cloud-host-03</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1413200014013" ID="ID_667785668" MODIFIED="1413200015648" POSITION="right" TEXT="Errors">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
