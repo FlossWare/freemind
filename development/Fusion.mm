@@ -45,5 +45,17 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1545246861260" ID="ID_1816430555" MODIFIED="1545246866553" POSITION="right" TEXT="How To">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1545246867301" ID="ID_749406337" LINK="https://support.lucidworks.com/s/question/0D58000003LS8JNCA1/how-to-change-the-timeout-for-agent-while-starting-up-services?t=1545246630488" MODIFIED="1545246887144" TEXT="Change agent timeout">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1545246901788" ID="ID_990300419" MODIFIED="1545246904104" TEXT="conf/fusion.properties">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1545246914892" ID="ID_760312472" MODIFIED="1545246917581" TEXT="default.startSecs"/>
+</node>
+</node>
+</node>
 </node>
 </map>
