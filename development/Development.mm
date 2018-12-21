@@ -30,6 +30,10 @@
 <node COLOR="#00b439" CREATED="1344537782240" ID="ID_1117792955" LINK="Java.mm" MODIFIED="1390752306240" TEXT="Java">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1545425549860" ID="ID_1573485293" MODIFIED="1545425553320" TEXT="Apache">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1545425554296" ID="ID_1212708770" LINK="http://hc.apache.org/httpcomponents-client-4.4.x/httpclient/apidocs/index.html?overview-summary.html" MODIFIED="1545425588784" TEXT="HttpClient 4.4.1"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1490008273456" ID="ID_365627824" LINK="Javascript.mm" MODIFIED="1490008273458" TEXT="Javascript">
 <edge STYLE="bezier" WIDTH="thin"/>
