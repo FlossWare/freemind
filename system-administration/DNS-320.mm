@@ -4,7 +4,166 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1379529063576" ID="ID_521036948" MODIFIED="1379529065734" POSITION="right" TEXT="OS">
+<node COLOR="#0033ff" CREATED="1470514343367" ID="ID_453156173" MODIFIED="1470514344879" POSITION="right" TEXT="ansible">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1470514511121" ID="ID_53703440" MODIFIED="1470514519858" TEXT="Installing">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1507813403602" ID="ID_562959241" MODIFIED="1507813416848" TEXT="manual">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1470514396726" ID="ID_981572516" MODIFIED="1507813412595" TEXT="apt-get-install">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1483873487493" ID="ID_1968027866" MODIFIED="1507813333114" TEXT="apt-get install python-pip python-dev build-essential libssl-dev libffi-dev">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1483873524057" ID="ID_288657889" MODIFIED="1507813333115" TEXT="pip install ansible">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1483877753434" ID="ID_77318510" MODIFIED="1507813333115" TEXT="pip install --upgrade ansible setuptools">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1470514435566" ID="ID_1193799302" MODIFIED="1470514519859" TEXT="/etc/fstab">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1470514443781" ID="ID_1601967540" MODIFIED="1470514519859" TEXT="tmpfs /dev/shm    tmpfs   defaults,noexec,nosuid     0     0">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1470514456118" ID="ID_118891272" MODIFIED="1470514519860" TEXT="mkdir /dev/shm">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1470514521249" ID="ID_771320091" MODIFIED="1470514522693" TEXT="Issues">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1470514549069" ID="ID_694802225" MODIFIED="1470514566445" TEXT="ansible playbook -m setup">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1470514529405" ID="ID_375449517" MODIFIED="1470514592856" TEXT="http://www.boris.co/2012/02/server-ubuntu-11.html">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1470514559025" ID="ID_1624007575" MODIFIED="1470514588174" TEXT="OSError: [Errno 38] Function not implemented">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1369758180382" ID="ID_1666935281" MODIFIED="1503778801619" POSITION="right" TEXT="Cobbler">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1369758206781" ID="ID_502428480" MODIFIED="1369758210999" TEXT="apt-get">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1369758284135" ID="ID_856591578" MODIFIED="1507830075878">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      apache2
+    </p>
+    <p>
+      apache2-utils
+    </p>
+    <p>
+      libapache2-mod-wsgi
+    </p>
+    <p>
+      libapache2-mod-rpaf
+    </p>
+    <p>
+      libapache2-mod-proxy-html
+    </p>
+    <p>
+      libapache2-mod-wsgi-py3
+    </p>
+    <p>
+      libapache2-mod-python
+    </p>
+    <p>
+      python-setuptools
+    </p>
+    <p>
+      python-cheetah
+    </p>
+    <p>
+      python-dev
+    </p>
+    <p>
+      python-setuptools
+    </p>
+    <p>
+      python-cheetah
+    </p>
+    <p>
+      python-yaml
+    </p>
+    <p>
+      python-netaddr
+    </p>
+    <p>
+      python-simplejson
+    </p>
+    <p>
+      python-simplejson
+    </p>
+    <p>
+      python-urlgrabber
+    </p>
+    <p>
+      python-support
+    </p>
+    <p>
+      lsb-release
+    </p>
+    <p>
+      createrepo
+    </p>
+    <p>
+      yum
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1507921132280" ID="ID_1092335963" MODIFIED="1507921144089" TEXT="genisoimage">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1327003839756" ID="ID_1686228061" MODIFIED="1545491565665" POSITION="left" TEXT="Debian">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1327003877836" ID="ID_583330794" MODIFIED="1327003879495" TEXT="ftp://ftp.dlink.pl/dns/dns-320/driver_software/DNS-320%26325_linuxDebian_revA_Squeeze_all_en_20110111.zip">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1327003844436" ID="ID_1261049849" MODIFIED="1327003855381" TEXT="apt-get update --fix-missing">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1327004024852" ID="ID_1893168950" MODIFIED="1327004035676" TEXT="apt-get install bind9">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1327004036598" ID="ID_283854828" MODIFIED="1327004046956" TEXT="apt-get install dhcp3-server">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1379529063576" FOLDED="true" ID="ID_521036948" MODIFIED="1545491577914" POSITION="left" TEXT="OS">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1379529077662" ID="ID_1192188537" MODIFIED="1380462803592" TEXT="/mnt/HD/HD_a2/fun_plug">
@@ -914,165 +1073,6 @@
 <node COLOR="#990000" CREATED="1450961658973" ID="ID_1645013663" MODIFIED="1450961718761" TEXT="Device">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-2"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1327003839756" ID="ID_1686228061" MODIFIED="1327003842789" POSITION="left" TEXT="Debian">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1327003877836" ID="ID_583330794" MODIFIED="1327003879495" TEXT="ftp://ftp.dlink.pl/dns/dns-320/driver_software/DNS-320%26325_linuxDebian_revA_Squeeze_all_en_20110111.zip">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1327003844436" ID="ID_1261049849" MODIFIED="1327003855381" TEXT="apt-get update --fix-missing">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1327004024852" ID="ID_1893168950" MODIFIED="1327004035676" TEXT="apt-get install bind9">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1327004036598" ID="ID_283854828" MODIFIED="1327004046956" TEXT="apt-get install dhcp3-server">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1470514343367" ID="ID_453156173" MODIFIED="1470514344879" POSITION="left" TEXT="ansible">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1470514511121" ID="ID_53703440" MODIFIED="1470514519858" TEXT="Installing">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1507813403602" ID="ID_562959241" MODIFIED="1507813416848" TEXT="manual">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1470514396726" ID="ID_981572516" MODIFIED="1507813412595" TEXT="apt-get-install">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1483873487493" ID="ID_1968027866" MODIFIED="1507813333114" TEXT="apt-get install python-pip python-dev build-essential libssl-dev libffi-dev">
-<font NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="full-1"/>
-</node>
-<node COLOR="#111111" CREATED="1483873524057" ID="ID_288657889" MODIFIED="1507813333115" TEXT="pip install ansible">
-<font NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="full-2"/>
-</node>
-<node COLOR="#111111" CREATED="1483877753434" ID="ID_77318510" MODIFIED="1507813333115" TEXT="pip install --upgrade ansible setuptools">
-<font NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="full-3"/>
-</node>
-</node>
-</node>
-<node COLOR="#990000" CREATED="1470514435566" ID="ID_1193799302" MODIFIED="1470514519859" TEXT="/etc/fstab">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1470514443781" ID="ID_1601967540" MODIFIED="1470514519859" TEXT="tmpfs /dev/shm    tmpfs   defaults,noexec,nosuid     0     0">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#990000" CREATED="1470514456118" ID="ID_118891272" MODIFIED="1470514519860" TEXT="mkdir /dev/shm">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1470514521249" ID="ID_771320091" MODIFIED="1470514522693" TEXT="Issues">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1470514549069" ID="ID_694802225" MODIFIED="1470514566445" TEXT="ansible playbook -m setup">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1470514529405" ID="ID_375449517" MODIFIED="1470514592856" TEXT="http://www.boris.co/2012/02/server-ubuntu-11.html">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#111111" CREATED="1470514559025" ID="ID_1624007575" MODIFIED="1470514588174" TEXT="OSError: [Errno 38] Function not implemented">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1369758180382" ID="ID_1666935281" MODIFIED="1503778801619" POSITION="left" TEXT="Cobbler">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1369758206781" ID="ID_502428480" MODIFIED="1369758210999" TEXT="apt-get">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1369758284135" ID="ID_856591578" MODIFIED="1507830075878">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      apache2
-    </p>
-    <p>
-      apache2-utils
-    </p>
-    <p>
-      libapache2-mod-wsgi
-    </p>
-    <p>
-      libapache2-mod-rpaf
-    </p>
-    <p>
-      libapache2-mod-proxy-html
-    </p>
-    <p>
-      libapache2-mod-wsgi-py3
-    </p>
-    <p>
-      libapache2-mod-python
-    </p>
-    <p>
-      python-setuptools
-    </p>
-    <p>
-      python-cheetah
-    </p>
-    <p>
-      python-dev
-    </p>
-    <p>
-      python-setuptools
-    </p>
-    <p>
-      python-cheetah
-    </p>
-    <p>
-      python-yaml
-    </p>
-    <p>
-      python-netaddr
-    </p>
-    <p>
-      python-simplejson
-    </p>
-    <p>
-      python-simplejson
-    </p>
-    <p>
-      python-urlgrabber
-    </p>
-    <p>
-      python-support
-    </p>
-    <p>
-      lsb-release
-    </p>
-    <p>
-      createrepo
-    </p>
-    <p>
-      yum
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1507921132280" ID="ID_1092335963" MODIFIED="1507921144089" TEXT="genisoimage">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>

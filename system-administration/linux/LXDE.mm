@@ -259,5 +259,13 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1545491191377" ID="ID_1041774493" MODIFIED="1545491192867" POSITION="left" TEXT="Misc">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1545491193485" ID="ID_697337799" LINK="https://www.maketecheasier.com/9-great-lxde-themes/" MODIFIED="1545491218975" TEXT="10 great themes">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>

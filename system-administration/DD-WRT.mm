@@ -27,50 +27,6 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1383573841828" ID="ID_1268725849" MODIFIED="1383573843178" POSITION="right" TEXT="nvram">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1383573915195" ID="ID_1697302710" MODIFIED="1383573925360" TEXT="retrieve">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1383573851642" ID="ID_1708507116" MODIFIED="1383573922078" TEXT="nvram show">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1383573863287" ID="ID_76620883" MODIFIED="1383573922081" TEXT="nvram get &lt;variable_name&gt;">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1383573926177" ID="ID_66734189" MODIFIED="1383573930006" TEXT="modify">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1383573874251" ID="ID_1000892379" MODIFIED="1383573934604" TEXT="nvram set &lt;variable_name&gt;=&quot;&lt;value&gt;&quot;">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1383573886995" ID="ID_617497104" MODIFIED="1383573934609" TEXT="nvram unset &lt;variable_name&gt;">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1383573896366" ID="ID_964777355" MODIFIED="1383573934611" TEXT="nvram commit">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1467366654373" ID="ID_1200080093" MODIFIED="1467366658910" POSITION="right" TEXT="default creds">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1467366659881" ID="ID_1318605632" MODIFIED="1467366660877" TEXT="root">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1467366661081" ID="ID_1155434369" MODIFIED="1467366662185" TEXT="admin">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
 <node COLOR="#0033ff" CREATED="1387899637196" FOLDED="true" ID="ID_951477651" MODIFIED="1542385656522" POSITION="left" TEXT="Building toolchain">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -282,13 +238,129 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1507036690457" ID="ID_59675579" LINK="entware-ng.mm" MODIFIED="1507036690459" POSITION="right" TEXT="entware-ng">
+<node COLOR="#0033ff" CREATED="1545491694703" ID="ID_1721222495" LINK="https://forum.dd-wrt.com/phpBB2/viewtopic.php?p=764090" MODIFIED="1545491712924" POSITION="right" TEXT="Hotspot Bridge">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1545491919151" ID="ID_20451125" MODIFIED="1545491919715" TEXT="1">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1545491730920" ID="ID_354848485" MODIFIED="1545491928750" TEXT="set wan connection = dhcp">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1545491752407" ID="ID_289516302" MODIFIED="1545491928750" TEXT="Setup-&gt;Basic Setup-&gt;WAN Connection Type-&gt;Automatic Configuration-DHCP">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1508421334102" ID="ID_1166226396" LINK="optware-ng.mm" MODIFIED="1508421334104" POSITION="right" TEXT="optware-ng">
+</node>
+<node COLOR="#990000" CREATED="1545491811880" ID="ID_1080171230" MODIFIED="1545491928752" TEXT="IP">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1545491823648" ID="ID_384796804" MODIFIED="1545491928753" TEXT="192.168.167.1">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1545491840604" ID="ID_495963112" MODIFIED="1545491842603" TEXT="Setup-&gt;Basic Setup-&gt;Network Setup-&gt;Router IP-&gt;192.168.42.1, Subnet Mask-&gt;255.255.255.0"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1545491846370" ID="ID_1365360606" MODIFIED="1545491928755" TEXT="Save">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1545491930471" ID="ID_355643521" MODIFIED="1545491930995" TEXT="2">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1545491857372" ID="ID_1077633596" MODIFIED="1545491938048" TEXT="Repeater Mode">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1545491847719" ID="ID_232320935" MODIFIED="1545491938048" TEXT="Wireless-&gt;Basic Settings-&gt;Wireless Mode-&gt;Repeater">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1545491895027" ID="ID_529035185" MODIFIED="1545491938050" TEXT="Wireless Network Name (SSID) to match the SSID of the network you&apos;re attempting connect to">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1545491909039" ID="ID_354744287" MODIFIED="1545491938050" TEXT="Wireless-&gt;Basic Settings-&gt;Wireless Network Name (SSID)">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1545491914556" ID="ID_1579976948" MODIFIED="1545491938054" TEXT="Save">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1545491939387" ID="ID_1888911485" MODIFIED="1545491951211" TEXT="3">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1545491951779" ID="ID_1113800625" MODIFIED="1545491953583" TEXT="Add a virtual interface">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1545491965307" ID="ID_694184208" MODIFIED="1545491975171" TEXT="Wireless-&gt;Basic Settings-&gt;Virtual Interfaces-&gt;Wireless Network Name (SSID)"/>
+</node>
+<node COLOR="#990000" CREATED="1545491981411" ID="ID_1804608747" MODIFIED="1545491982876" TEXT="Save">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1545491983935" ID="ID_1597208382" MODIFIED="1545491984479" TEXT="4">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1545492007511" ID="ID_931583810" MODIFIED="1545492009003" TEXT="Set the security on the connections">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1545492016831" ID="ID_110515900" MODIFIED="1545492018980" TEXT="Wireless-&gt;Wireless Security"/>
+</node>
+<node COLOR="#990000" CREATED="1545492021879" ID="ID_579177475" MODIFIED="1545492023034" TEXT="Save">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1545492024119" ID="ID_278277669" MODIFIED="1545492024779" TEXT="5">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1545492025611" ID="ID_955238623" MODIFIED="1545492027223" TEXT="Reboot">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1545492036935" ID="ID_904967603" MODIFIED="1545492038751" TEXT="Administration-&gt;Management-&gt;Reboot Router"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1467366654373" ID="ID_1200080093" MODIFIED="1467366658910" POSITION="left" TEXT="default creds">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1467366659881" ID="ID_1318605632" MODIFIED="1467366660877" TEXT="root">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1467366661081" ID="ID_1155434369" MODIFIED="1467366662185" TEXT="admin">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1383573841828" ID="ID_1268725849" MODIFIED="1383573843178" POSITION="left" TEXT="nvram">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1383573915195" ID="ID_1697302710" MODIFIED="1383573925360" TEXT="retrieve">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1383573851642" ID="ID_1708507116" MODIFIED="1383573922078" TEXT="nvram show">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1383573863287" ID="ID_76620883" MODIFIED="1383573922081" TEXT="nvram get &lt;variable_name&gt;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1383573926177" ID="ID_66734189" MODIFIED="1383573930006" TEXT="modify">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1383573874251" ID="ID_1000892379" MODIFIED="1383573934604" TEXT="nvram set &lt;variable_name&gt;=&quot;&lt;value&gt;&quot;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1383573886995" ID="ID_617497104" MODIFIED="1383573934609" TEXT="nvram unset &lt;variable_name&gt;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1383573896366" ID="ID_964777355" MODIFIED="1383573934611" TEXT="nvram commit">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 </node>
 </map>

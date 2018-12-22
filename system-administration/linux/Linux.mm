@@ -3,10 +3,6 @@
 <node COLOR="#000000" CREATED="1270310396325" ID="ID_251328639" LINK="../System%20Administration.mm" MODIFIED="1288889529768" TEXT="Linux">
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1542638057589" ID="ID_328296426" LINK="https://www.linux-arm.info/index.php" MODIFIED="1542638096200" POSITION="right" TEXT="Arm">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-</node>
 <node COLOR="#0033ff" CREATED="1542471334451" ID="ID_1414082584" MODIFIED="1542471336534" POSITION="right" TEXT="How to">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -103,11 +99,32 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1542471431106" ID="ID_1679206004" LINK="https://www.linuxquestions.org/questions/linux-newbie-8/convert-mkv-to-mp4-in-terminal-how-4175560215/" MODIFIED="1542798492872" TEXT="Convert MKV to MP4">
+<node COLOR="#00b439" CREATED="1545490799181" FOLDED="true" ID="ID_699748433" MODIFIED="1545490836675" TEXT="Convert">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1542471446603" ID="ID_1119284102" MODIFIED="1542471448718" TEXT="ffmpeg -i foobar.mkv -vcodec copy -acodec copy foobar.mp4">
+<node COLOR="#990000" CREATED="1429989854463" ID="ID_423033672" MODIFIED="1545490826149" TEXT="flv to mp4">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1429989862194" ID="ID_536958422" MODIFIED="1545490805861" TEXT="ffmpeg -i input.flv -codec copy output.mp4">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1542471431106" ID="ID_1679206004" LINK="https://www.linuxquestions.org/questions/linux-newbie-8/convert-mkv-to-mp4-in-terminal-how-4175560215/" MODIFIED="1545490814713" TEXT="MKV to MP4">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1542471446603" ID="ID_1119284102" MODIFIED="1545490805864" TEXT="ffmpeg -i foobar.mkv -vcodec copy -acodec copy foobar.mp4">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1542631780930" ID="ID_1824595943" MODIFIED="1545490787673" TEXT="cron">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1542631783969" ID="ID_1807864156" LINK="https://www.cyberciti.biz/faq/linux-unix-crontab-change-mailto-settings/" MODIFIED="1542631805333" TEXT="mail to user when run">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1542632848562" ID="ID_1923887910" MODIFIED="1542632853934" TEXT="contab -e"/>
+<node COLOR="#111111" CREATED="1542632854282" ID="ID_1230179070" MODIFIED="1542632862498" TEXT="MAILTO=[user@host]"/>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1542471243082" ID="ID_34125738" LINK="https://www.cyberciti.biz/faq/shell-how-to-determine-the-exit-status-of-linux-and-unix-command/" MODIFIED="1542798495739" TEXT="Determine the exit status of Linux and Unix commands">
@@ -337,9 +354,39 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1417371386347" ID="ID_1466525756" MODIFIED="1545490758592" TEXT="echo">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1417371389566" ID="ID_775879895" MODIFIED="1417371392470" TEXT="-e">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1417371393598" ID="ID_587659670" MODIFIED="1417371397170" TEXT="Keeps newlines"/>
+<node COLOR="#111111" CREATED="1417371400126" ID="ID_1862559099" MODIFIED="1417371405162" TEXT="Keeps escaped chars"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1542471340811" ID="ID_1967456206" LINK="https://www.maketecheasier.com/use-emojis-in-linux/" MODIFIED="1542798498427" TEXT="Emojis">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1542914636824" ID="ID_973212331" LINK="https://rwmj.wordpress.com/2010/10/26/tip-find-the-ip-address-of-a-virtual-machine/" MODIFIED="1545490764865" TEXT="Find the IP of a VM">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1542914705681" ID="ID_372561170" MODIFIED="1542930723411" TEXT="arp -an">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1412694946657" ID="ID_161101779" MODIFIED="1545490773069" TEXT="Image to pdf">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1412694951454" ID="ID_936559847" MODIFIED="1416757436310" TEXT="convert [image] [file].pdf">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1412694964681" ID="ID_1922259712" MODIFIED="1416757436310" TEXT="convert foo.jpg bar.pdf">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1437999475666" ID="ID_414640922" MODIFIED="1437999483010" TEXT="yum install ImageMagick">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1506537397677" ID="ID_1342173941" MODIFIED="1542471372620" TEXT="List contents of .so">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -402,15 +449,19 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1542914636824" ID="ID_973212331" LINK="https://rwmj.wordpress.com/2010/10/26/tip-find-the-ip-address-of-a-virtual-machine/" MODIFIED="1542930725210" TEXT="Find the IP of a VM">
+<node COLOR="#00b439" CREATED="1545492236515" ID="ID_57702405" LINK="https://www.linuxquestions.org/questions/linux-newbie-8/run-screen-session-in-a-screen-session-4175429702/" MODIFIED="1545492248927" TEXT="Screen session in a screen session">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1542914705681" ID="ID_372561170" MODIFIED="1542930723411" TEXT="arp -an">
+<node COLOR="#990000" CREATED="1545492256015" ID="ID_1696058937" MODIFIED="1545492258040" TEXT="ctrl-a-a">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1545492993066" ID="ID_1327894045" LINK="https://superuser.com/questions/1266479/wi-fi-bridging-in-qemu-kvm-works-but-not-with-virt-manager" MODIFIED="1545493004222" TEXT="Wifi bridging">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#0033ff" CREATED="1416757402529" FOLDED="true" ID="ID_744161246" MODIFIED="1544710652821" POSITION="right" TEXT="Apps">
+</node>
+<node COLOR="#0033ff" CREATED="1416757402529" FOLDED="true" ID="ID_744161246" MODIFIED="1545491251321" POSITION="right" TEXT="Apps">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1539182626437" ID="ID_192546327" LINK="Alpine.mm" MODIFIED="1539182626440" TEXT="alpine">
@@ -538,7 +589,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1538146547925" FOLDED="true" ID="ID_1955319774" MODIFIED="1542309104128" TEXT="dnsmasq">
+<node COLOR="#00b439" CREATED="1538146547925" FOLDED="true" ID="ID_1955319774" MODIFIED="1545490731663" TEXT="dnsmasq">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1538146551697" ID="ID_630843464" MODIFIED="1538146554477" TEXT="rm -rf /var/lib/misc/dnsmasq.leases">
@@ -613,46 +664,6 @@
 </node>
 <node COLOR="#990000" CREATED="1537973326706" ID="ID_300492561" MODIFIED="1537973328186" TEXT="-h">
 <font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1417371386347" ID="ID_1466525756" MODIFIED="1417371387934" TEXT="echo">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1417371389566" ID="ID_775879895" MODIFIED="1417371392470" TEXT="-e">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1417371393598" ID="ID_587659670" MODIFIED="1417371397170" TEXT="Keeps newlines"/>
-<node COLOR="#111111" CREATED="1417371400126" ID="ID_1862559099" MODIFIED="1417371405162" TEXT="Keeps escaped chars"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1412694946657" ID="ID_161101779" MODIFIED="1419171281778" TEXT="Image to pdf">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1412694951454" ID="ID_936559847" MODIFIED="1416757436310" TEXT="convert [image] [file].pdf">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1412694964681" ID="ID_1922259712" MODIFIED="1416757436310" TEXT="convert foo.jpg bar.pdf">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#990000" CREATED="1437999475666" ID="ID_414640922" MODIFIED="1437999483010" TEXT="yum install ImageMagick">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1429989854463" ID="ID_423033672" MODIFIED="1437999454548" TEXT="Convert flv to mp4">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1429989862194" ID="ID_536958422" MODIFIED="1430508256876" TEXT="ffmpeg -i input.flv -codec copy output.mp4">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1542631780930" ID="ID_1824595943" MODIFIED="1542631783121" TEXT="cron">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1542631783969" ID="ID_1807864156" LINK="https://www.cyberciti.biz/faq/linux-unix-crontab-change-mailto-settings/" MODIFIED="1542631805333" TEXT="mail to user when run">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1542632848562" ID="ID_1923887910" MODIFIED="1542632853934" TEXT="contab -e"/>
-<node COLOR="#111111" CREATED="1542632854282" ID="ID_1230179070" MODIFIED="1542632862498" TEXT="MAILTO=[user@host]"/>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1417273376905" FOLDED="true" ID="ID_1264126532" MODIFIED="1542309102004" TEXT="Handbrake">
@@ -1702,7 +1713,11 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1416757565899" ID="ID_1717868975" MODIFIED="1543188289209" POSITION="left" TEXT="Detail">
+<node COLOR="#0033ff" CREATED="1542638057589" ID="ID_328296426" LINK="https://www.linux-arm.info/index.php" MODIFIED="1545491261456" POSITION="left" TEXT="Arm">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1416757565899" FOLDED="true" ID="ID_1717868975" MODIFIED="1545492396079" POSITION="left" TEXT="Detail">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1291901984982" ID="ID_1209787263" LINK="Apache.mm" MODIFIED="1416757573442" TEXT="Apache">
@@ -1826,7 +1841,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1466348647825" FOLDED="true" ID="ID_1544044603" MODIFIED="1544706726496" POSITION="left" TEXT="File Systems">
+<node COLOR="#0033ff" CREATED="1466348647825" FOLDED="true" ID="ID_1544044603" MODIFIED="1545491098360" POSITION="left" TEXT="File Systems">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1536242595120" ID="ID_991824602" MODIFIED="1536242602235" TEXT="Determine file system type">

@@ -58,16 +58,32 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
-<node COLOR="#0033ff" CREATED="1425994609444" ID="ID_290416222" MODIFIED="1543855051174" POSITION="right" TEXT="Wireless">
+<node COLOR="#0033ff" CREATED="1545491280275" ID="ID_1941941934" MODIFIED="1545491281871" POSITION="right" TEXT="Embedded">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1366916168604" ID="ID_791168105" LINK="DD-WRT.mm" MODIFIED="1543855051174" TEXT="DD-WRT">
+<node COLOR="#00b439" CREATED="1509824794869" ID="ID_758600074" LINK="Alt-F.mm" MODIFIED="1545491522629" TEXT="Alt-F">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1390306968365" ID="ID_1143375025" LINK="OpenWRT.mm" MODIFIED="1543855051175" TEXT="OpenWRT">
+<node COLOR="#00b439" CREATED="1425994609444" ID="ID_290416222" MODIFIED="1545491284720" TEXT="Wireless">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1366916168604" ID="ID_791168105" LINK="DD-WRT.mm" MODIFIED="1545491284720" TEXT="DD-WRT">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1507036690457" ID="ID_59675579" LINK="entware-ng.mm" MODIFIED="1545491664325" TEXT="entware-ng">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1508421334102" ID="ID_1166226396" LINK="optware-ng.mm" MODIFIED="1545491664327" TEXT="optware-ng">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1390306968365" ID="ID_1143375025" LINK="OpenWRT.mm" MODIFIED="1545491284721" TEXT="OpenWRT">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 </node>
