@@ -50,14 +50,6 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1357485379270" ID="ID_860807073" LINK="mac/Mac.mm" MODIFIED="1543855051173" POSITION="right" TEXT="Mac">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-</node>
-<node COLOR="#0033ff" CREATED="1269099162834" ID="ID_1315482742" LINK="windows/Windows.mm" MODIFIED="1543855051173" POSITION="right" TEXT="Windows">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-</node>
 <node COLOR="#0033ff" CREATED="1545491280275" ID="ID_1941941934" MODIFIED="1545491281871" POSITION="right" TEXT="Embedded">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -85,6 +77,14 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+</node>
+<node COLOR="#0033ff" CREATED="1357485379270" ID="ID_860807073" LINK="mac/Mac.mm" MODIFIED="1543855051173" POSITION="left" TEXT="Mac">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1269099162834" ID="ID_1315482742" LINK="windows/Windows.mm" MODIFIED="1543855051173" POSITION="left" TEXT="Windows">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
 </node>
 </node>
 </map>

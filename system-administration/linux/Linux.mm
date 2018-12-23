@@ -92,6 +92,27 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1545598131358" ID="ID_295305282" LINK="https://www.ostechnix.com/change-mac-address-linux/" MODIFIED="1545598499540" TEXT="Change MAC address">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1545598538325" ID="ID_1207028653" MODIFIED="1545598548530" TEXT="macchange -r [interface]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1545598152137" ID="ID_247340299" MODIFIED="1545598608505">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      macchange -r <i><b>wlp3s0</b></i>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1542798516290" ID="ID_1147377625" LINK="https://www.cyberciti.biz/faq/check-ram-speed-linux/" MODIFIED="1542798531904" TEXT="Check RAM speed">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
