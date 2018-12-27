@@ -88,6 +88,24 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1545683185173" ID="ID_1662465793" MODIFIED="1545683187430" POSITION="right" TEXT="Samsung">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1373370717257" ID="ID_238604231" MODIFIED="1545683205764" TEXT="ssh">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1373370719708" ID="ID_1621703102" MODIFIED="1545683205288" TEXT="images">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1373370810040" ID="ID_901971772" MODIFIED="1373370813613" TEXT="Port">
+<node COLOR="#111111" CREATED="1373370816509" ID="ID_1266647333" MODIFIED="1373370818563" TEXT="2222"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1373370712646" ID="ID_1218199126" MODIFIED="1545683199508" TEXT="Galaxy J7">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1542639159736" ID="ID_471738460" MODIFIED="1544839484194" POSITION="left" TEXT="Lenovo">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -102,7 +120,7 @@
 <node COLOR="#00b439" CREATED="1543854323369" ID="ID_1096925805" MODIFIED="1543855036081" TEXT="B8000-F">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1543854332249" FOLDED="true" ID="ID_1445383276" LINK="https://forums.lenovo.com/t5/Android-Yoga-Series-Tablets/b8000-f-USB-Debugging-Mode/td-p/1764967" MODIFIED="1543855036081" TEXT="Enable USB Debugging Mode">
+<node COLOR="#990000" CREATED="1543854332249" FOLDED="true" ID="ID_1445383276" LINK="https://forums.lenovo.com/t5/Android-Yoga-Series-Tablets/b8000-f-USB-Debugging-Mode/td-p/1764967" MODIFIED="1545672360646" TEXT="Enable USB Debugging Mode">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1543854368342" ID="ID_298176997" MODIFIED="1543854383207" TEXT="Settings">
 <icon BUILTIN="full-1"/>
@@ -113,6 +131,18 @@
 <node COLOR="#111111" CREATED="1543854375705" ID="ID_616239934" MODIFIED="1543854386244" TEXT="Tap on &quot;Build&quot; 7 times">
 <icon BUILTIN="full-3"/>
 </node>
+</node>
+<node COLOR="#990000" CREATED="1545627782697" ID="ID_1562358096" LINK="https://firmwarefile.com/lenovo-yoga-tablet-10-b8000" MODIFIED="1545627841672" TEXT="Firmware Download">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1545681642893" ID="ID_1228725979" LINK="https://pcsupport.lenovo.com/us/en/products/tablets/yoga-series/yoga-tablet-10-b8000/downloads" MODIFIED="1545681728006" TEXT="Official Drivers &amp; Software">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1545682474933" ID="ID_978296623" LINK="https://stockromfiles.com/?s=lenovo+yoga+tablet+b8000f" MODIFIED="1545682890548" TEXT="Stock ROM Files">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1545682681060" ID="ID_967080136" LINK="https://firmwarehost.com/lenovo-yoga-tablet-10-b8000f-firmware-stock-rom-4-2-2" MODIFIED="1545682701258" TEXT="Firmware Host">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>

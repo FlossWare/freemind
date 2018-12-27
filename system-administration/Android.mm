@@ -4,6 +4,18 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<node COLOR="#0033ff" CREATED="1545877381502" ID="ID_1698793682" LINK="https://www.gizmoadvices.com/list-sp-flash-tool-error-codes-solution-fix" MODIFIED="1545878221541" POSITION="right" TEXT="SP Flash Tool Errors">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1545859908413" ID="ID_629251378" MODIFIED="1545930671572" TEXT="./flash_tool.sh -c download -s [full path to scatter file]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1545859908413" ID="ID_283315287" MODIFIED="1545878224616" TEXT="./flash_tool.sh -c download -s /home/sfloess/Install/Lenovo_Yoga_Tablet_10_B8000F_A422_000_085_140402_MT6589/Firmware/MT6589_Android_scatter_emmc.txt ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1539537375834" ID="ID_232858518" LINK="https://unix.stackexchange.com/questions/321491/android-chroot-networking-issues" MODIFIED="1542308301183" POSITION="right" TEXT="chroot debian">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -104,6 +116,30 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1545683159708" ID="ID_656888739" MODIFIED="1545683161614" POSITION="right" TEXT="Sites">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1545675514390" ID="ID_911986100" LINK="https://androidmtk.com/smart-phone-flash-tool" MODIFIED="1545683167050" TEXT="SP Flash tool">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1545675594713" ID="ID_1506242644" MODIFIED="1545683167051" TEXT="install libpng12">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1545682505018" ID="ID_285838213" LINK="https://stockromfiles.com" MODIFIED="1545683167053" TEXT="Stock ROM Files">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1545682277464" ID="ID_1674990831" LINK="https://firmwarehost.com" MODIFIED="1545683167055" TEXT="Firmware Host">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1545682158361" ID="ID_1094309945" LINK="https://forum.hovatek.com" MODIFIED="1545683167056" TEXT="Hovatek Forum">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1352747955856" ID="ID_1364718079" MODIFIED="1352747962063" POSITION="left" TEXT="Automatic Software Updates">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -116,20 +152,6 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-2"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1373370712646" ID="ID_1218199126" MODIFIED="1373370715263" POSITION="left" TEXT="Samsung">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1373370717257" ID="ID_238604231" MODIFIED="1373370718613" TEXT="ssh">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1373370719708" ID="ID_1621703102" MODIFIED="1373370722169" TEXT="images">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1373370810040" ID="ID_901971772" MODIFIED="1373370813613" TEXT="Port">
-<node COLOR="#111111" CREATED="1373370816509" ID="ID_1266647333" MODIFIED="1373370818563" TEXT="2222"/>
-</node>
-</node>
 </node>
 </node>
 </node>

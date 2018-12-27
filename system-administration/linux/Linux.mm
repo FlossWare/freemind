@@ -108,8 +108,7 @@
       macchange -r <i><b>wlp3s0</b></i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
@@ -151,6 +150,13 @@
 <node COLOR="#00b439" CREATED="1542471243082" ID="ID_34125738" LINK="https://www.cyberciti.biz/faq/shell-how-to-determine-the-exit-status-of-linux-and-unix-command/" MODIFIED="1542798495739" TEXT="Determine the exit status of Linux and Unix commands">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1545937171583" ID="ID_1827699404" LINK="https://unix.stackexchange.com/questions/136407/is-my-linux-arm-32-or-64-bit" MODIFIED="1545937205003" TEXT="Determine processor bits">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1545937184801" ID="ID_797253951" MODIFIED="1545937190800" TEXT="lshw">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1508420676311" FOLDED="true" ID="ID_641899531" LINK="https://nzeid.net/pulseaudio-disable-auto-volume" MODIFIED="1542471372614" TEXT="Disable auto volume">
 <edge STYLE="bezier" WIDTH="thin"/>
