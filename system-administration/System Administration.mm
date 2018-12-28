@@ -23,6 +23,14 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1546028715815" ID="ID_139649094" MODIFIED="1546028718825" POSITION="left" TEXT="Orchestration">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1452774627126" ID="ID_479468681" LINK="Kubernetes.mm" MODIFIED="1546028730242" TEXT="Kubernetes">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1430479548597" ID="ID_510441919" MODIFIED="1430479549693" POSITION="right" TEXT="Apps">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -59,16 +67,24 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1425994550324" ID="ID_1066222231" MODIFIED="1425994558570" POSITION="left" TEXT="Configuration Management">
+<node COLOR="#0033ff" CREATED="1546028951815" ID="ID_583290861" MODIFIED="1546028954895" POSITION="left" TEXT="Configuration">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1425997513929" ID="ID_704759652" LINK="Ansible.mm" MODIFIED="1425997513931" TEXT="Ansible">
+<node COLOR="#00b439" CREATED="1468426175588" ID="ID_76851891" LINK="Etcd.mm" MODIFIED="1546028958561" TEXT="Etcd">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1269099335760" ID="ID_1455357393" LINK="Puppet.mm" MODIFIED="1416757573452" TEXT="Puppet">
+<node COLOR="#00b439" CREATED="1425994550324" ID="ID_1066222231" MODIFIED="1546028965325" TEXT="Management">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1425997513929" ID="ID_704759652" LINK="Ansible.mm" MODIFIED="1546028960001" TEXT="Ansible">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1269099335760" ID="ID_1455357393" LINK="Puppet.mm" MODIFIED="1546028960001" TEXT="Puppet">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1543328366565" ID="ID_1121902980" MODIFIED="1543329307863" POSITION="left" TEXT="Platform">

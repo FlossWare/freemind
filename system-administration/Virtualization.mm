@@ -48,13 +48,5 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
-<node COLOR="#0033ff" CREATED="1468426175588" ID="ID_76851891" LINK="Etcd.mm" MODIFIED="1543855071389" POSITION="left" TEXT="Etcd">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-</node>
-<node COLOR="#0033ff" CREATED="1452774627126" ID="ID_479468681" LINK="Kubernetes.mm" MODIFIED="1543855071390" POSITION="left" TEXT="Kubernetes">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-</node>
 </node>
 </map>

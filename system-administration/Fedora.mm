@@ -237,7 +237,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1449748131669" FOLDED="true" ID="ID_351082137" MODIFIED="1545600545539" POSITION="left" TEXT="Xen">
+<node COLOR="#0033ff" CREATED="1449748131669" ID="ID_351082137" MODIFIED="1546026341421" POSITION="left" TEXT="Xen">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1449748705850" ID="ID_1097244103" MODIFIED="1545599008447" TEXT="http://wiki.xen.org/wiki/Fedora_Host_Installation">
