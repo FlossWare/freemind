@@ -441,6 +441,9 @@
 <node COLOR="#990000" CREATED="1543241543486" ID="ID_359430801" MODIFIED="1543241555226" TEXT="nmap [ip address | host name]">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+<node COLOR="#990000" CREATED="1546049722077" ID="ID_1959762463" MODIFIED="1546049733510" TEXT="nmap -Pn -p- -vvv [ip address | host name]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 <node COLOR="#990000" CREATED="1543241543486" ID="ID_1399159443" MODIFIED="1543241579105">
 <richcontent TYPE="NODE"><html>
   <head>
