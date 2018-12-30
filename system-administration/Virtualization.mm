@@ -48,5 +48,9 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1546196205665" ID="ID_71204033" LINK="virsh.mm" MODIFIED="1546196205667" POSITION="left" TEXT="virsh">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 </node>
 </map>

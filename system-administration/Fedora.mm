@@ -236,6 +236,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1546195647701" ID="ID_758682543" LINK="https://fedoraproject.org/wiki/Architectures/ARM" MODIFIED="1546195697663" TEXT="architectures">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1449748131669" ID="ID_351082137" MODIFIED="1546026341421" POSITION="left" TEXT="Xen">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
