@@ -1747,7 +1747,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
-<node COLOR="#0033ff" CREATED="1416757565899" FOLDED="true" ID="ID_1717868975" MODIFIED="1546146232193" POSITION="left" TEXT="Detail">
+<node COLOR="#0033ff" CREATED="1416757565899" ID="ID_1717868975" MODIFIED="1546373226202" POSITION="left" TEXT="Detail">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1291901984982" ID="ID_1209787263" LINK="Apache.mm" MODIFIED="1416757573442" TEXT="Apache">
@@ -1758,9 +1758,16 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1295364429237" ID="ID_1443470952" LINK="Bash.mm" MODIFIED="1416757573444" TEXT="Bash">
+<node COLOR="#00b439" CREATED="1546373230972" ID="ID_812277835" MODIFIED="1546373232973" TEXT="Shell">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1295364429237" ID="ID_1443470952" LINK="Bash.mm" MODIFIED="1546373237237" TEXT="Bash">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1546373250022" ID="ID_1741250516" LINK="Korn%20Shell.mm" MODIFIED="1546373250024" TEXT="Korn Shell">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1311180264890" ID="ID_1368899136" LINK="DHCP.mm" MODIFIED="1416757573445" TEXT="DHCP">
 <edge STYLE="bezier" WIDTH="thin"/>

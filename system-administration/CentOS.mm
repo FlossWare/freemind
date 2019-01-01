@@ -10,7 +10,7 @@
 <node COLOR="#00b439" CREATED="1455721358841" ID="ID_1837839639" MODIFIED="1455721365200" TEXT="Virtualization">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1440935783891" FOLDED="true" ID="ID_1073361687" LINK="https://wiki.centos.org/HowTos/KVM" MODIFIED="1545599031049" TEXT="KVM">
+<node COLOR="#990000" CREATED="1440935783891" FOLDED="true" ID="ID_1073361687" LINK="https://wiki.centos.org/HowTos/KVM" MODIFIED="1546199718456" TEXT="KVM">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1440935801911" ID="ID_1584462684" MODIFIED="1455721373003" TEXT="yum -y install @virt* dejavu-lgc-* xorg-x11-xauth tigervnc libguestfs-tools policycoreutils-python bridge-utils">
@@ -172,7 +172,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1455210403008" FOLDED="true" ID="ID_1408661389" MODIFIED="1545599532274" TEXT="Xen">
+<node COLOR="#990000" CREATED="1455210403008" ID="ID_1408661389" MODIFIED="1546199712271" TEXT="Xen">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1455222440581" ID="ID_1905169088" MODIFIED="1455721373011" TEXT="Installation">

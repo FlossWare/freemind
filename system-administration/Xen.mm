@@ -4,53 +4,6 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1324994187314" ID="ID_18904243" MODIFIED="1324994196901" POSITION="left" TEXT="Multiple Network Cards">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1324994198596" ID="ID_434431264" MODIFIED="1324994203128" TEXT="Continue using eth0">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1324994234235" ID="ID_497792100" MODIFIED="1324994236712" TEXT="/etc/xen/xend-config.sxp">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1324994245746" ID="ID_332272340" MODIFIED="1324994247976" TEXT="(network-script &apos;network-bridge netdev=eth0 bridge=xenbr0&apos;)"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1458986419220" ID="ID_342396211" MODIFIED="1458986421272" POSITION="right" TEXT="Version">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1458986422788" ID="ID_76159418" MODIFIED="1458986425344" TEXT="xl info">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1447437331620" ID="ID_24361325" MODIFIED="1447773226388" POSITION="right" TEXT="tail -f /var/log/libvirt/libxl/libxl-driver.log">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-</node>
-<node COLOR="#0033ff" CREATED="1454436268038" ID="ID_770583857" MODIFIED="1454436272482" POSITION="right" TEXT="tail -f /var/log/xen/xend.log">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-</node>
-<node COLOR="#0033ff" CREATED="1528200227519" ID="ID_1966663290" MODIFIED="1528200236239" POSITION="right" TEXT="Out of space">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1528200237521" ID="ID_143260922" MODIFIED="1528200269092" TEXT="reboot into a non-Xen kernel">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="full-1"/>
-</node>
-<node COLOR="#00b439" CREATED="1528200250569" ID="ID_1202985466" MODIFIED="1528200270762" TEXT="rm -rf /var/lib/xenstored/tdb*">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="full-2"/>
-</node>
-<node COLOR="#00b439" CREATED="1528200259574" ID="ID_518604940" MODIFIED="1528200272467" TEXT="reboot into a Xen kernel">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="full-3"/>
-</node>
-</node>
 <node COLOR="#0033ff" CREATED="1447438872022" ID="ID_620470296" MODIFIED="1447773221682" POSITION="right" TEXT="Bridge">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -212,52 +165,69 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1364070346382" ID="ID_1681105795" MODIFIED="1364070358951" POSITION="right" TEXT="WOL">
+<node COLOR="#0033ff" CREATED="1546371299865" ID="ID_1260880794" MODIFIED="1546371413377" POSITION="right" TEXT="koan">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1364070376119" ID="ID_1021222975" MODIFIED="1364070379919" TEXT="/etc/rc.d/init.d/xend">
+<node COLOR="#00b439" CREATED="1546371113725" ID="ID_1281399271" MODIFIED="1546371303246" TEXT="Fixing boot params">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1364070397115" ID="ID_441387877" MODIFIED="1364070427861">
+<node COLOR="#990000" CREATED="1546371131197" ID="ID_1181188391" MODIFIED="1546371303246" TEXT="/usr/lib/python2.7/site-packages/koan/virtinstall.py">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1546371161314" ID="ID_1501300380" MODIFIED="1546371303247">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      Add the following line:
+      # Set flags for CLI arguments based on the virtinst_version
     </p>
     <p>
-      /etc/xen/scripts/network-bridge stop
+      # tuple above. Older versions of python-virtinst don't have
     </p>
     <p>
-      before the line:
+      # a version easily accessible, so it will be None and we can
     </p>
     <p>
-      /usr/sbin/xend stop
+      # easily disable features based on that (RHEL5 and older usually)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      disable_autostart = False
+    </p>
+    <p>
+      disable_virt_type = False
+    </p>
+    <p>
+      <b><i>#disable_boot_opt = False&#160;&#160;&#160;&lt;--- Changed from </i></b>
+    </p>
+    <p>
+      <b><i>disable_boot_opt = True&#160;&#160;&#160;&#160;&#160;&lt;--- Change to</i></b>
+    </p>
+    <p>
+      disable_driver_type = False
     </p>
   </body>
 </html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1364070614983" ID="ID_1249789845" MODIFIED="1364216426082" TEXT=" /etc/sysconfig/network-scripts/ifcfg-eth0">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1364070621012" ID="ID_1771011197" MODIFIED="1364216426082" TEXT="ETHTOOL_OPTS=&quot;wol g&quot;">
-<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1468931228499" ID="ID_1136415176" LINK="https://wiki.centos.org/HowTos/Grub2" MODIFIED="1542306350763" POSITION="right" TEXT="Change dom0 memory">
+<node COLOR="#0033ff" CREATED="1546371391721" ID="ID_538950079" MODIFIED="1546371393193" POSITION="right" TEXT="How To">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1468931239731" ID="ID_1523826180" MODIFIED="1468931306222" TEXT="/etc/default/grub">
+<node COLOR="#00b439" CREATED="1468931228499" ID="ID_1136415176" LINK="https://wiki.centos.org/HowTos/Grub2" MODIFIED="1546371396732" TEXT="Change dom0 memory">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1468931239731" ID="ID_1523826180" MODIFIED="1546371396732" TEXT="/etc/default/grub">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
-<node COLOR="#990000" CREATED="1468931242971" ID="ID_969586840" MODIFIED="1468931296004">
+<node COLOR="#111111" CREATED="1468931242971" ID="ID_969586840" MODIFIED="1546371396733">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -268,242 +238,65 @@
     </p>
   </body>
 </html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#990000" CREATED="1468931262315" ID="ID_432574290" MODIFIED="1468931268055" TEXT="GRUB_CMDLINE_XEN_DEFAULT=&quot;dom0_mem=512M,max:512M&quot;">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1468931262315" ID="ID_432574290" MODIFIED="1546371396734" TEXT="GRUB_CMDLINE_XEN_DEFAULT=&quot;dom0_mem=512M,max:512M&quot;">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1468931307123" ID="ID_1316371121" MODIFIED="1468931314627" TEXT="grub2-mkconfig -o /boot/grub2/grub.cfg">
+<node COLOR="#990000" CREATED="1468931307123" ID="ID_1316371121" MODIFIED="1546371396735" TEXT="grub2-mkconfig -o /boot/grub2/grub.cfg">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-2"/>
 </node>
-<node COLOR="#00b439" CREATED="1527183199579" ID="ID_1626295235" MODIFIED="1527183203747" TEXT="grep &quot;^menuentry&quot; /boot/grub2/grub.cfg | cut -d &quot;&apos;&quot; -f2">
+<node COLOR="#990000" CREATED="1527183199579" ID="ID_1626295235" MODIFIED="1546371396736" TEXT="grep &quot;^menuentry&quot; /boot/grub2/grub.cfg | cut -d &quot;&apos;&quot; -f2">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-3"/>
 </node>
-<node COLOR="#00b439" CREATED="1527183219588" ID="ID_521672350" MODIFIED="1527183225585" TEXT="grub2-set-default &apos;CentOS Linux, with Xen hypervisor&apos;">
+<node COLOR="#990000" CREATED="1527183219588" ID="ID_521672350" MODIFIED="1546371396737" TEXT="grub2-set-default &apos;CentOS Linux, with Xen hypervisor&apos;">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-4"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1532520916772" ID="ID_1659359593" MODIFIED="1546026291498" POSITION="right" TEXT="Install VM w/ virsh">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1532521110842" ID="ID_932237133" MODIFIED="1532521117174" TEXT="Fedora 28">
+<node COLOR="#00b439" CREATED="1324994187314" ID="ID_18904243" MODIFIED="1546371433516" TEXT="Multiple Network Cards">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1532520945072" ID="ID_737211005" MODIFIED="1532521119370">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      virt-install \
-    </p>
-    <p>
-      --connect xen:/// \
-    </p>
-    <p>
-      --paravirt \
-    </p>
-    <p>
-      --name fedora-28-xen \
-    </p>
-    <p>
-      --ram 2048 \
-    </p>
-    <p>
-      --disk size=20 \
-    </p>
-    <p>
-      --vcpus 2 \
-    </p>
-    <p>
-      --os-type linux \
-    </p>
-    <p>
-      --os-variant virtio26 \
-    </p>
-    <p>
-      --network bridge=bridge0 \
-    </p>
-    <p>
-      --graphics none \
-    </p>
-    <p>
-      --location 'http://192.168.168.31/cblr/links/Fedora-28-x86_64/' \
-    </p>
-    <p>
-      --extra-args 'text console=ttyS0 utf8 console=hvc0'
-    </p>
-  </body>
-</html></richcontent>
+<node COLOR="#990000" CREATED="1324994198596" ID="ID_434431264" MODIFIED="1546371431498" TEXT="Continue using eth0">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1324994234235" ID="ID_497792100" MODIFIED="1546371431499" TEXT="/etc/xen/xend-config.sxp">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1324994245746" ID="ID_332272340" MODIFIED="1324994247976" TEXT="(network-script &apos;network-bridge netdev=eth0 bridge=xenbr0&apos;)"/>
 </node>
-<node COLOR="#990000" CREATED="1532521161742" ID="ID_290883090" MODIFIED="1544837591458">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      virt-install \
-    </p>
-    <p>
-      --connect xen:/// \
-    </p>
-    <p>
-      --paravirt \
-    </p>
-    <p>
-      --name workstation \
-    </p>
-    <p>
-      --ram 3192 \
-    </p>
-    <p>
-      --disk size=25 \
-    </p>
-    <p>
-      --vcpus 2 \
-    </p>
-    <p>
-      --os-type linux \
-    </p>
-    <p>
-      --os-variant virtio26 \
-    </p>
-    <p>
-      --network bridge=bridge0 \
-    </p>
-    <p>
-      --graphics vga \
-    </p>
-    <p>
-      --location 'http://192.168.168.32/cblr/links/Fedora-28-x86_64/' \
-    </p>
-    <p>
-      --extra-args 'ks=http://192.168.168.32/kickstart/workstation.ks text console=ttyS0 utf8 console=hvc0'
-    </p>
-  </body>
-</html></richcontent>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1528200227519" ID="ID_1966663290" MODIFIED="1546371399669" TEXT="Out of space">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1528200237521" ID="ID_143260922" MODIFIED="1546371399669" TEXT="reboot into a non-Xen kernel">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#990000" CREATED="1528200250569" ID="ID_1202985466" MODIFIED="1546371399670" TEXT="rm -rf /var/lib/xenstored/tdb*">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#990000" CREATED="1528200259574" ID="ID_518604940" MODIFIED="1546371399670" TEXT="reboot into a Xen kernel">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-3"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1532521121578" ID="ID_153645207" MODIFIED="1532521123358" TEXT="Atomic">
+<node COLOR="#00b439" CREATED="1458986419220" ID="ID_342396211" MODIFIED="1546371403219" TEXT="Version">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1532521125202" ID="ID_1574468395" MODIFIED="1532521126934" TEXT="CentOS">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1532521038462" ID="ID_788390219" MODIFIED="1544837579659">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      virt-install \
-    </p>
-    <p>
-      --connect xen:/// \
-    </p>
-    <p>
-      --paravirt \
-    </p>
-    <p>
-      --name centos-7-xen \
-    </p>
-    <p>
-      --ram 2048 \
-    </p>
-    <p>
-      --disk size=20 \
-    </p>
-    <p>
-      --vcpus 2 \
-    </p>
-    <p>
-      --os-type linux \
-    </p>
-    <p>
-      --os-variant virtio26 \
-    </p>
-    <p>
-      --network bridge=bridge0 \
-    </p>
-    <p>
-      --graphics vga \
-    </p>
-    <p>
-      --location 'http://192.168.168.31/cblr/links/CentOS-7-Atomic-x86_64/' \
-    </p>
-    <p>
-      --extra-args 'ks=http://192.168.168.32/kickstart/centos-7-atomic.ks text console=ttyS0 utf8 console=hvc0'
-    </p>
-  </body>
-</html></richcontent>
+<node COLOR="#990000" CREATED="1458986422788" ID="ID_76159418" MODIFIED="1546371403220" TEXT="xl info">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#990000" CREATED="1532521127314" ID="ID_715338360" MODIFIED="1532521128530" TEXT="RHEL">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1532521086062" ID="ID_1945523968" MODIFIED="1544837601667">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      virt-install \
-    </p>
-    <p>
-      --connect xen:/// \
-    </p>
-    <p>
-      --paravirt \
-    </p>
-    <p>
-      --name rhel-7-atomic-xen \
-    </p>
-    <p>
-      --ram 2048 \
-    </p>
-    <p>
-      --disk size=20 \
-    </p>
-    <p>
-      --vcpus 2 \
-    </p>
-    <p>
-      --os-type linux \
-    </p>
-    <p>
-      --os-variant virtio26 \
-    </p>
-    <p>
-      --network bridge=bridge0 \
-    </p>
-    <p>
-      --graphics vga \
-    </p>
-    <p>
-      --location 'http://192.168.168.32/cblr/links/RHEL-7-Atomic-x86_64/' \
-    </p>
-    <p>
-      --extra-args 'ks=http://192.168.168.32/kickstart/centos-7-atomic.ks text console=ttyS0 utf8 console=hvc0'
-    </p>
-  </body>
-</html></richcontent>
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
 </node>
 </node>
 </node>
@@ -550,6 +343,56 @@
 <node COLOR="#0033ff" CREATED="1458646904966" ID="ID_228196213" MODIFIED="1545598980293" POSITION="left" TEXT="/etc/libvirt/libxl/autostart">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1364070346382" ID="ID_1681105795" MODIFIED="1364070358951" POSITION="left" TEXT="WOL">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1364070376119" ID="ID_1021222975" MODIFIED="1364070379919" TEXT="/etc/rc.d/init.d/xend">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1364070397115" ID="ID_441387877" MODIFIED="1364070427861">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Add the following line:
+    </p>
+    <p>
+      /etc/xen/scripts/network-bridge stop
+    </p>
+    <p>
+      before the line:
+    </p>
+    <p>
+      /usr/sbin/xend stop
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1364070614983" ID="ID_1249789845" MODIFIED="1364216426082" TEXT=" /etc/sysconfig/network-scripts/ifcfg-eth0">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1364070621012" ID="ID_1771011197" MODIFIED="1364216426082" TEXT="ETHTOOL_OPTS=&quot;wol g&quot;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1546371345737" ID="ID_1756643065" MODIFIED="1546371348249" POSITION="left" TEXT="Log files">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1447437331620" ID="ID_24361325" MODIFIED="1546371358324" TEXT="/var/log/libvirt/libxl/libxl-driver.log">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1454436268038" ID="ID_770583857" MODIFIED="1546371361215" TEXT="/var/log/xen/xend.log">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 </node>
 </map>
