@@ -4,18 +4,6 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1352747948168" ID="ID_921488644" LINK="Android.mm" MODIFIED="1543855051169" POSITION="right" TEXT="Android">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-</node>
-<node COLOR="#0033ff" CREATED="1545605488043" ID="ID_186923592" MODIFIED="1545605489444" POSITION="right" TEXT="Arm">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1545605493384" ID="ID_769831616" LINK="http://www.armhf.com/download/" MODIFIED="1545605505391" TEXT="Downloads">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
 <node COLOR="#0033ff" CREATED="1270222854170" ID="ID_1277942523" LINK="linux/Linux.mm" MODIFIED="1546146241612" POSITION="right" TEXT="Linux">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -61,6 +49,10 @@
 <node COLOR="#0033ff" CREATED="1545491280275" ID="ID_1941941934" MODIFIED="1545491281871" POSITION="right" TEXT="Embedded">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1352747948168" ID="ID_921488644" LINK="Android.mm" MODIFIED="1546449078926" TEXT="Android">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 <node COLOR="#00b439" CREATED="1509824794869" ID="ID_758600074" LINK="Alt-F.mm" MODIFIED="1545491522629" TEXT="Alt-F">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

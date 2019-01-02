@@ -269,6 +269,23 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1546448940729" ID="ID_1274093708" MODIFIED="1546448943900" POSITION="right" TEXT="chroot Debian">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1546448946504" ID="ID_1125766771" MODIFIED="1546448952728" TEXT="Errors">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1546448954124" ID="ID_891535934" LINK="https://forums.fedoraforum.org/showthread.php?309254-ping-not-permitted-for-user&amp;p=1756966#post1756966" MODIFIED="1546448998498" TEXT="ping: socket: Address family not supported by protocol">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1546449014144" ID="ID_1255356467" MODIFIED="1546449046157" TEXT="apt-get remove -y inetutils-ping">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1546449034239" ID="ID_863736674" MODIFIED="1546449047711" TEXT="apt-get install -y inetutils-ping">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1467366654373" ID="ID_1200080093" MODIFIED="1467366658910" POSITION="left" TEXT="default creds">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

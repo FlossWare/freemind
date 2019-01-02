@@ -97,10 +97,32 @@
       chroot ${DEB_DIR} /bin/sh - root
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1546448476288" ID="ID_1257085954" MODIFIED="1546448567021" TEXT="Issues">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1546448567893" ID="ID_39915807" LINK="https://serverfault.com/questions/252261/network-access-issues-after-upgrading-to-squeeze" MODIFIED="1546448667641" TEXT="Network Trouble">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1546448573117" ID="ID_747361717" MODIFIED="1546448576041" TEXT="Errors">
+<node COLOR="#111111" CREATED="1546448579112" ID="ID_194359806" MODIFIED="1546448611952" TEXT="ping [host]">
+<node COLOR="#111111" CREATED="1546448588280" ID="ID_1741562712" MODIFIED="1546448597391" TEXT="ping: [host]: Temporary failure in name resolution"/>
+</node>
+<node COLOR="#111111" CREATED="1546448602224" ID="ID_1406741634" MODIFIED="1546448615648" TEXT="nslookup [host]">
+<node COLOR="#111111" CREATED="1546448623689" ID="ID_1378590592" MODIFIED="1546448638557" TEXT="../../../../lib/isc/unix/net.c:151: socket() failed: Permission denied&#xa;../../../../lib/isc/unix/net.c:151: socket() failed: Permission denied&#xa;(null): can&apos;t find either v4 or v6 networking"/>
+</node>
+<node COLOR="#111111" CREATED="1546448759428" ID="ID_502576391" MODIFIED="1546448761409" TEXT="ypcat passwd">
+<node COLOR="#111111" CREATED="1546448766340" ID="ID_979611975" MODIFIED="1546448769011" TEXT="No such map passwd.byname. Reason: Can&apos;t bind to server which serves this domain"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1546448718312" ID="ID_1254993090" MODIFIED="1546448719696" TEXT="Fix">
+<node COLOR="#111111" CREATED="1546448502724" ID="ID_698630012" MODIFIED="1546448717337" TEXT="usermod -G aid_inet [user id]">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 </node>
 </node>

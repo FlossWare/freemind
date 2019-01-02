@@ -4,6 +4,14 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<node COLOR="#0033ff" CREATED="1545605488043" ID="ID_186923592" MODIFIED="1546449101380" POSITION="right" TEXT="Arm">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1545605493384" ID="ID_769831616" LINK="http://www.armhf.com/download/" MODIFIED="1545605505391" TEXT="Downloads">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1509824381608" ID="ID_444956781" LINK="https://www.dell.com/support/home/us/en/04" MODIFIED="1544729693472" POSITION="right" TEXT="Dell">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
