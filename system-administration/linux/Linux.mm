@@ -401,6 +401,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1546454656152" ID="ID_714575369" MODIFIED="1546454659672" TEXT="Format JSON">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1546454667468" ID="ID_1628818885" MODIFIED="1546454678844" TEXT="[command] | python -mjson.tool">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1412694946657" ID="ID_161101779" MODIFIED="1545490773069" TEXT="Image to pdf">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
