@@ -65,6 +65,21 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1543607888139" ID="ID_1406474796" LINK="https://unix.stackexchange.com/questions/318824/vim-cutpaste-not-working-in-stretch-debian-9#318825" MODIFIED="1546974898853" TEXT="Disable mouse in vim">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1543607913651" ID="ID_248732076" MODIFIED="1544531976529" TEXT=":se mouse=r">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1546974902558" ID="ID_760523011" LINK="https://superuser.com/questions/82923/how-to-list-files-of-a-debian-package-without-install" MODIFIED="1546974946974" TEXT="List contents of a deb file">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1546974911954" ID="ID_1669955213" MODIFIED="1546974927586" TEXT="dpkg -c [full path to deb file]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1380463899026" ID="ID_831607622" MODIFIED="1544531967130" TEXT="Reboot">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -73,10 +88,10 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1543607888139" ID="ID_1406474796" LINK="https://unix.stackexchange.com/questions/318824/vim-cutpaste-not-working-in-stretch-debian-9#318825" MODIFIED="1544531976529" TEXT="Disable mouse in vim">
+<node COLOR="#00b439" CREATED="1429890288588" ID="ID_849867569" MODIFIED="1546979086418" TEXT="Set Default JDK">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1543607913651" ID="ID_248732076" MODIFIED="1544531976529" TEXT=":se mouse=r">
+<node COLOR="#990000" CREATED="1429890301950" ID="ID_1807064061" MODIFIED="1546979094416" TEXT="updatealternatives --config java">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>

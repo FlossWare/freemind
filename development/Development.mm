@@ -83,6 +83,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1546976357073" ID="ID_37311201" LINK="ELK.mm" MODIFIED="1546976357074" TEXT="ELK">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1390752363251" ID="ID_63764495" MODIFIED="1390752365482" POSITION="right" TEXT="Protocol">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
