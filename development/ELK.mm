@@ -198,7 +198,7 @@
 </node>
 <node COLOR="#990000" CREATED="1547239795260" ID="ID_673993406" MODIFIED="1547239797295" TEXT="/etc/rsyslog.d/50-default.conf ">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1547239807400" ID="ID_1561170661" MODIFIED="1547239823676" TEXT="local7.*  /var/log/anm.log"/>
+<node COLOR="#111111" CREATED="1547239807400" ID="ID_1561170661" MODIFIED="1547476911666" TEXT="local7.*  /var/log/anm.log"/>
 </node>
 </node>
 </node>
