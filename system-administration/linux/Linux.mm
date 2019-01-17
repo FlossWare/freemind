@@ -64,7 +64,7 @@
 <node COLOR="#00b439" CREATED="1543189077611" ID="ID_534954252" MODIFIED="1543189147713" TEXT="Authentication is required to access the PC/SC daemon">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1543189029234" ID="ID_221207809" MODIFIED="1543189047655" TEXT="/usr/share/polkit-1/actions/rg.debian.pcsc-lite.policy">
+<node COLOR="#990000" CREATED="1543189029234" ID="ID_221207809" MODIFIED="1547756587091" TEXT="/usr/share/polkit-1/actions/org.debian.pcsc-lite.policy">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1543189090043" ID="ID_1659506072" MODIFIED="1543189141049">
 <richcontent TYPE="NODE"><html>
