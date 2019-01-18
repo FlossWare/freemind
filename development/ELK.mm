@@ -134,8 +134,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1547149677493" ID="ID_1928964299" MODIFIED="1547149736319" TEXT="run">
+<node COLOR="#990000" CREATED="1547841071439" ID="ID_1407203222" LINK="https://discuss.elastic.co/t/logstash-permission-problem/110175" MODIFIED="1547841093550" TEXT="FORBIDDEN/12/index read-only / allow delete (api)">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1547841111164" ID="ID_1811305317" MODIFIED="1547841127747" TEXT="Check diskspace on elasticsearch server and clean up"/>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1546976385861" ID="ID_1436277447" MODIFIED="1547148193962" TEXT="kibana">
