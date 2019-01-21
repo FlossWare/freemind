@@ -52,6 +52,17 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1548086379262" ID="ID_1371736947" MODIFIED="1548086381841" POSITION="right" TEXT="Libraries">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1548086391310" ID="ID_825601069" MODIFIED="1548086395577" TEXT="Apache">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1548086397332" ID="ID_1391050275" LINK="http://archive.apache.org/" MODIFIED="1548086406856" TEXT="Archives">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1469887855689" ID="ID_568701491" MODIFIED="1469888073172" POSITION="right" TEXT="Parsers">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -67,6 +78,14 @@
 <node COLOR="#0033ff" CREATED="1390751793153" ID="ID_1173335635" MODIFIED="1390752379233" POSITION="right" TEXT="Platform">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1546976357073" ID="ID_37311201" LINK="ELK.mm" MODIFIED="1548082669618" TEXT="ELK">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1548082588003" ID="ID_452310289" LINK="New%20Relic.mm" MODIFIED="1548082588007" TEXT="New Relic">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 <node COLOR="#00b439" CREATED="1364908138303" ID="ID_388302992" LINK="Open%20Shift.mm" MODIFIED="1390751807587" TEXT="Open Shift">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -80,10 +99,6 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 <node COLOR="#00b439" CREATED="1387480268937" ID="ID_410891512" LINK="Splunk.mm" MODIFIED="1542472651416" TEXT="Splunk">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1546976357073" ID="ID_37311201" LINK="ELK.mm" MODIFIED="1546976357074" TEXT="ELK">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
