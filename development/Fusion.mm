@@ -57,5 +57,29 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1548251273924" ID="ID_1284226289" MODIFIED="1548251276671" POSITION="left" TEXT="Lucidworks">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1548251554772" ID="ID_152292355" LINK="https://support.lucidworks.com/s/login/" MODIFIED="1548251567746" TEXT="Login">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1548251317341" ID="ID_831928723" LINK="https://support.lucidworks.com/s/answers" MODIFIED="1548251493684" TEXT="Answers">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1548251331009" ID="ID_561321199" LINK="https://support.lucidworks.com/s/topiccatalog" MODIFIED="1548251473066" TEXT="Knowledge Base">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1548251353722" ID="ID_1203947234" LINK="https://support.lucidworks.com/s/case/Case/Recent" MODIFIED="1548251450320" TEXT="Support Cases">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1548251378549" ID="ID_44775654" LINK="https://support.lucidworks.com/s/downloads" MODIFIED="1548251420874" TEXT="Downloads">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>

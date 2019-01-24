@@ -31,41 +31,9 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1430479548597" ID="ID_510441919" MODIFIED="1430479549693" POSITION="right" TEXT="Apps">
+<node COLOR="#0033ff" CREATED="1548248851658" ID="ID_1656327785" LINK="Apps.mm" MODIFIED="1548248851660" POSITION="right" TEXT="Apps">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1542639907848" ID="ID_243956517" MODIFIED="1542639910555" TEXT="Browsers">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1380628333452" ID="ID_832247259" LINK="Chrome.mm" MODIFIED="1542639914392" TEXT="Chrome">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1430479572609" ID="ID_827804454" LINK="Firefox.mm" MODIFIED="1542639914394" TEXT="Firefox">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1478954015807" ID="ID_660531774" LINK="Dropbear.mm" MODIFIED="1542639906703" TEXT="Dropbear">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1358084813422" ID="ID_1970389043" LINK="free-node/Free%20Node.mm" MODIFIED="1542472660128" TEXT="Free Node">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1511900787083" ID="ID_1037414770" LINK="F5.mm" MODIFIED="1511900787084" TEXT="F5">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1470847859590" ID="ID_759225139" LINK="Lightblue.mm" MODIFIED="1542472679007" TEXT="Lightblue">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1459457428459" ID="ID_1873442315" LINK="Pulp.mm" MODIFIED="1542472673367" TEXT="Pulp">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
 </node>
 <node COLOR="#0033ff" CREATED="1546028951815" ID="ID_583290861" MODIFIED="1546028954895" POSITION="left" TEXT="Configuration">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
