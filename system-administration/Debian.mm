@@ -310,6 +310,42 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1548441465116" ID="ID_591051115" MODIFIED="1548441969206" POSITION="right" TEXT="dpkg">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1548443340703" ID="ID_204715851" LINK="https://unix.stackexchange.com/questions/187221/how-to-get-information-about-deb-package-archive" MODIFIED="1548443364104" TEXT="contents">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1548441614459" ID="ID_1384576907" MODIFIED="1548443354676" TEXT="dpkg -c [package name]">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1548441681777" ID="ID_517874389" MODIFIED="1548441683902" TEXT=" dpkg -i tcl8.4_8.4.19-2_amd64.deb"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1548441453877" ID="ID_230213757" MODIFIED="1548441964687" TEXT="install">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1548441614459" ID="ID_447199891" MODIFIED="1548441964688" TEXT="dpkg -i [package name]">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1548441681777" ID="ID_708152466" MODIFIED="1548441683902" TEXT=" dpkg -i tcl8.4_8.4.19-2_amd64.deb"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1548443226749" ID="ID_1880501930" LINK="https://unix.stackexchange.com/questions/187221/how-to-get-information-about-deb-package-archive" MODIFIED="1548443369876" TEXT="info">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1548441614459" ID="ID_695348212" MODIFIED="1548443321027" TEXT="dpkg -I [package name]">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1548441681777" ID="ID_1169392398" MODIFIED="1548443327843" TEXT=" dpkg -I tcl8.4_8.4.19-2_amd64.deb"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1548441461099" ID="ID_1434407730" MODIFIED="1548441964688" TEXT="remove">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1548441614459" ID="ID_100505374" MODIFIED="1548441964688" TEXT="dpkg -r [package name]">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1548441681777" ID="ID_1442001417" MODIFIED="1548441706090" TEXT=" dpkg -r tcl8.4_8.4.19-2_amd64.deb"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1511531808409" ID="ID_1879892581" MODIFIED="1511531811093" POSITION="right" TEXT="KDE">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
