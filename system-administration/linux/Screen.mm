@@ -10,14 +10,16 @@
 <node COLOR="#00b439" CREATED="1539181765399" ID="ID_508321910" LINK="https://serverfault.com/questions/244294/how-to-re-order-windows-change-the-scroll-shortcut-and-modify-the-status-bar-c" MODIFIED="1544464524314" TEXT="Move">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1539181767640" ID="ID_1260689958" MODIFIED="1544464508592" TEXT="ctrl-a">
-<edge STYLE="bezier" WIDTH="thin"/>
+<node COLOR="#990000" CREATED="1548604203470" ID="ID_756584842" MODIFIED="1548604205575" TEXT="windowlist">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1539181767640" ID="ID_1260689958" MODIFIED="1548604208510" TEXT="ctrl-a">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
 </node>
-<node COLOR="#990000" CREATED="1539181786280" ID="ID_233280044" MODIFIED="1544464508592" TEXT=":windowslist">
+<node COLOR="#111111" CREATED="1539181786280" ID="ID_233280044" MODIFIED="1548604208511" TEXT=":windowslist">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
+<font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
 <node COLOR="#111111" CREATED="1539181795304" ID="ID_1817737722" MODIFIED="1544464508592" TEXT=".">
 <font NAME="SansSerif" SIZE="12"/>
@@ -26,6 +28,16 @@
 <node COLOR="#111111" CREATED="1539181809976" ID="ID_1078951157" MODIFIED="1544464508593" TEXT=",">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1539181811737" ID="ID_1696267594" MODIFIED="1539181814856" TEXT="move up"/>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1548604210390" ID="ID_227768662" MODIFIED="1548604221101" TEXT="quicker">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1548604223431" ID="ID_1621416425" MODIFIED="1548604238929" TEXT="ctrl-a">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1548604230282" ID="ID_1455523353" MODIFIED="1548604240342" TEXT=":number [position]">
+<icon BUILTIN="full-2"/>
 </node>
 </node>
 </node>
@@ -50,8 +62,7 @@
       source&#160;file
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 </node>
 </node>

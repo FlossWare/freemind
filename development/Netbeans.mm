@@ -26,57 +26,61 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1490190521839" ID="ID_556344624" MODIFIED="1490190526198" POSITION="right" TEXT="Uninstall">
+<node COLOR="#0033ff" CREATED="1548863486002" ID="ID_1201439221" MODIFIED="1548863488236" POSITION="right" TEXT="How To">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1490190528874" ID="ID_1060521117" MODIFIED="1490190540750" TEXT="$NETBEANS_HOME/uninstall.sh">
+<node COLOR="#00b439" CREATED="1490190521839" ID="ID_556344624" MODIFIED="1548863498798" TEXT="Uninstall">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1362669879755" ID="ID_773209108" MODIFIED="1416756766109" POSITION="right" TEXT="Up memory">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1362669890590" ID="ID_402512" MODIFIED="1416756766109" TEXT="$NETBEANS_HOME/etc/netbeans.conf">
+<node COLOR="#990000" CREATED="1490190528874" ID="ID_1060521117" MODIFIED="1548863498798" TEXT="$NETBEANS_HOME/uninstall.sh">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1362669907014" ID="ID_1531974699" MODIFIED="1416756766109" TEXT="netbeans_default_options=&quot;-J-Xms384m -J-Xmx512m -J-XX:PermSize=32m -J-XX:MaxPermSize=96m -J-Xverify:none&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1371841684566" ID="ID_1218540361" MODIFIED="1416756766110" POSITION="right" TEXT="Change JDK">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1371841689148" ID="ID_1993492573" MODIFIED="1416756766110" TEXT="$NETBEANS_HOME/bin/netbeans --jdkhome $JAVA_HOME">
+<node COLOR="#00b439" CREATED="1362669879755" ID="ID_773209108" MODIFIED="1548863498800" TEXT="Up memory">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1397653492908" ID="ID_1395851928" MODIFIED="1416756766111" POSITION="right" TEXT="Things showing up broken but aren&apos;t">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1397653509516" ID="ID_1244796148" MODIFIED="1416756766111" TEXT="close Netbeans">
+<node COLOR="#990000" CREATED="1362669890590" ID="ID_402512" MODIFIED="1548863498800" TEXT="$NETBEANS_HOME/etc/netbeans.conf">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1397653515468" ID="ID_50981652" MODIFIED="1416756766111" TEXT="rm -rf ~/.cache/netbeans/8.0/index/*">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1397653556054" ID="ID_317412473" MODIFIED="1416756766111" TEXT="restart Netbeans">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1418494855473" ID="ID_1674291855" MODIFIED="1418494868064" POSITION="right" TEXT="Display branch names next to project">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1418494872811" ID="ID_1624304982" MODIFIED="1418494874422" TEXT="View">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1418494875712" ID="ID_1925471297" MODIFIED="1418494884222" TEXT="Select &quot;Show Version Labels&quot;">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1362669907014" ID="ID_1531974699" MODIFIED="1548863498800" TEXT="netbeans_default_options=&quot;-J-Xms384m -J-Xmx512m -J-XX:PermSize=32m -J-XX:MaxPermSize=96m -J-Xverify:none&quot;">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1371841684566" ID="ID_1218540361" MODIFIED="1548863498804" TEXT="Change JDK">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1371841689148" ID="ID_1993492573" MODIFIED="1548863498804" TEXT="$NETBEANS_HOME/bin/netbeans --jdkhome $JAVA_HOME">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1397653492908" ID="ID_1395851928" MODIFIED="1548863498806" TEXT="Things showing up broken but aren&apos;t">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1397653509516" ID="ID_1244796148" MODIFIED="1548863498806" TEXT="close Netbeans">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1397653515468" ID="ID_50981652" MODIFIED="1548863498806" TEXT="rm -rf ~/.cache/netbeans/8.0/index/*">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1397653556054" ID="ID_317412473" MODIFIED="1548863498807" TEXT="restart Netbeans">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1418494855473" ID="ID_1674291855" MODIFIED="1548863498809" TEXT="Display branch names next to project">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1418494872811" ID="ID_1624304982" MODIFIED="1548863498809" TEXT="View">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1418494875712" ID="ID_1925471297" MODIFIED="1548863498809" TEXT="Select &quot;Show Version Labels&quot;">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 </node>
@@ -91,7 +95,15 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1416756787334" ID="ID_55458901" MODIFIED="1416756791765" POSITION="right" TEXT="JRebel">
+<node COLOR="#0033ff" CREATED="1548863472292" ID="ID_1184727873" LINK="https://netbeans.apache.org/" MODIFIED="1548863510526" POSITION="right" TEXT="Home Page">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1548863521836" ID="ID_1515547940" LINK="https://netbeans.apache.org/download/nb100/nb100.html" MODIFIED="1548863543770" TEXT="Downloads">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1416756787334" ID="ID_55458901" MODIFIED="1416756791765" POSITION="left" TEXT="JRebel">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1416756807133" ID="ID_1470178948" MODIFIED="1416756808944" TEXT="http://manuals.zeroturnaround.com/jrebel/ide/netbeans.html ">
