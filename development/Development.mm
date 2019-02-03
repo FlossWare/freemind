@@ -177,6 +177,9 @@
 <node COLOR="#00b439" CREATED="1413902151857" ID="ID_1231691009" LINK="Cucumber.mm" MODIFIED="1469887951986" TEXT="Cucumber">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1549223469898" ID="ID_1370850219" LINK="Karate.mm" MODIFIED="1549223469901" TEXT="Karate">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1354046236274" ID="ID_1992164604" LINK="Mockito.mm" MODIFIED="1469888003769" TEXT="Mockito">
 <edge STYLE="bezier" WIDTH="thin"/>
