@@ -3,7 +3,7 @@
 <node COLOR="#000000" CREATED="1270310396325" ID="ID_251328639" LINK="../System%20Administration.mm" MODIFIED="1288889529768" TEXT="Linux">
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1542471334451" ID="ID_1414082584" MODIFIED="1542471336534" POSITION="right" TEXT="How to">
+<node COLOR="#0033ff" CREATED="1542471334451" FOLDED="true" ID="ID_1414082584" MODIFIED="1549304752203" POSITION="right" TEXT="How to">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1542486085788" ID="ID_1460486651" LINK="https://ubuntuforums.org/showthread.php?t=1873477" MODIFIED="1542798504882" TEXT="Allow any user to enable VPN">
@@ -498,7 +498,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1416757402529" ID="ID_744161246" MODIFIED="1548248887325" POSITION="right" TEXT="Apps">
+<node COLOR="#0033ff" CREATED="1416757402529" FOLDED="true" ID="ID_744161246" MODIFIED="1549304749558" POSITION="right" TEXT="Apps">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1539182626437" ID="ID_192546327" LINK="Alpine.mm" MODIFIED="1539182626440" TEXT="alpine">
@@ -1050,15 +1050,18 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1524841382089" FOLDED="true" ID="ID_1759769738" MODIFIED="1542309086549" TEXT="sshfs">
+<node COLOR="#00b439" CREATED="1549304639738" ID="ID_1292485773" MODIFIED="1549304642436" TEXT="fuse">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1524841385332" ID="ID_43687258" LINK="https://www.linuxquestions.org/questions/linux-software-2/combining-port-knocking-with-sshfs-and-autofs-4175604156/" MODIFIED="1542308625102" TEXT="different port">
+<node COLOR="#990000" CREATED="1524841382089" ID="ID_1759769738" MODIFIED="1549304644313" TEXT="sshfs">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1524841385332" ID="ID_43687258" LINK="https://www.linuxquestions.org/questions/linux-software-2/combining-port-knocking-with-sshfs-and-autofs-4175604156/" MODIFIED="1549304644313" TEXT="different port">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1524841408589" ID="ID_53492044" MODIFIED="1524841432425" TEXT="-fstype=fuse,...,port=PORT,..."/>
 </node>
-<node COLOR="#990000" CREATED="1541956521559" ID="ID_384226201" LINK="https://unix.stackexchange.com/questions/220372/force-reconnect-on-sshfs-drive-mounted-via-fstab#220864" MODIFIED="1542308639508" TEXT="reconnect">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1541956521559" ID="ID_384226201" LINK="https://unix.stackexchange.com/questions/220372/force-reconnect-on-sshfs-drive-mounted-via-fstab#220864" MODIFIED="1549304644314" TEXT="reconnect">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1541956989750" ID="ID_846434093" MODIFIED="1541957045455">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1071,6 +1074,11 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1549304649814" ID="ID_1701581629" LINK="https://github.com/pcarrier/afuse" MODIFIED="1549304713155" TEXT="afuse">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1549304724146" ID="ID_609423658" MODIFIED="1549304733919" TEXT="Automounting FUSE"/>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1525787071785" ID="ID_1818473672" MODIFIED="1542309082533" TEXT="su">
