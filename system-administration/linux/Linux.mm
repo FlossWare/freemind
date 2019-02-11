@@ -3,7 +3,7 @@
 <node COLOR="#000000" CREATED="1270310396325" ID="ID_251328639" LINK="../System%20Administration.mm" MODIFIED="1288889529768" TEXT="Linux">
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1542471334451" FOLDED="true" ID="ID_1414082584" MODIFIED="1549304752203" POSITION="right" TEXT="How to">
+<node COLOR="#0033ff" CREATED="1542471334451" ID="ID_1414082584" MODIFIED="1549894181406" POSITION="right" TEXT="How to">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1542486085788" ID="ID_1460486651" LINK="https://ubuntuforums.org/showthread.php?t=1873477" MODIFIED="1542798504882" TEXT="Allow any user to enable VPN">
@@ -280,10 +280,10 @@
 <icon BUILTIN="full-5"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1543503147897" ID="ID_75592833" MODIFIED="1543503151102" TEXT="Disk Images">
+<node COLOR="#00b439" CREATED="1549894231414" ID="ID_52742340" MODIFIED="1549894233297" TEXT="Disk">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1543503152130" ID="ID_1735900790" LINK="https://www.hutsky.cz/blog/2014/06/mount-a-disk-image-containing-lvm/" MODIFIED="1543586847693" TEXT="Mount LVM partition">
+<node COLOR="#990000" CREATED="1543503152130" ID="ID_1735900790" LINK="https://www.hutsky.cz/blog/2014/06/mount-a-disk-image-containing-lvm/" MODIFIED="1549894263081" TEXT="Mount LVM partition">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1543586671845" ID="ID_402800700" MODIFIED="1543586673416" TEXT="Commands">
 <node COLOR="#111111" CREATED="1543586429924" ID="ID_411934876" MODIFIED="1543586583544" TEXT="losetup /dev/[loop device] [disk image]">
@@ -334,7 +334,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1543586709184" ID="ID_1619970152" MODIFIED="1543586847692" TEXT="Repairing XFS on LVM partition">
+<node COLOR="#990000" CREATED="1543586709184" ID="ID_1619970152" MODIFIED="1549894263087" TEXT="Repairing XFS on LVM partition">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1543586786669" ID="ID_1299100145" MODIFIED="1543586788388" TEXT="Commands">
 <node COLOR="#111111" CREATED="1543586429924" ID="ID_400612981" MODIFIED="1543586583544" TEXT="losetup /dev/[loop device] [disk image]">
@@ -377,6 +377,50 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1549894242780" ID="ID_1514416004" MODIFIED="1549894244771" TEXT="fdisk">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1549894291435" ID="ID_1586923765" LINK="https://linuxtechlab.com/create-swap-using-fdisk-fallocate/" MODIFIED="1549894823198" TEXT="Create swap partition">
+<node COLOR="#111111" CREATED="1549894309896" ID="ID_550720758" MODIFIED="1549894437152" TEXT="create partition">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1549894401506" ID="ID_360654166" MODIFIED="1549894439041" TEXT="change partition&apos;s system id">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1549894431611" ID="ID_589330980" MODIFIED="1549894444407" TEXT="82">
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#111111" CREATED="1549894698562" ID="ID_587865566" MODIFIED="1549894724264" TEXT="mkswap [partition]">
+<icon BUILTIN="full-4"/>
+<node COLOR="#111111" CREATED="1549894726455" ID="ID_918271071" MODIFIED="1549894731820" TEXT="mkswap /dev/sdc2"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1549894454447" ID="ID_1335990778" MODIFIED="1549894459354" TEXT="Create partition">
+<node COLOR="#111111" CREATED="1549894461769" ID="ID_1335584736" MODIFIED="1549894498407">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      +[size]<b><i>GB</i></b>
+    </p>
+  </body>
+</html></richcontent>
+<node COLOR="#111111" CREATED="1549894473326" ID="ID_1311972382" MODIFIED="1549894485276">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      +749<b><i>GB</i></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 </node>

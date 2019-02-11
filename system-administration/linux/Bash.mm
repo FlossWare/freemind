@@ -4,6 +4,14 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<node COLOR="#0033ff" CREATED="1549918250896" ID="ID_1311583002" MODIFIED="1549918252718" POSITION="right" TEXT="How To">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1549918241412" ID="ID_407176187" LINK="https://opensource.com/article/18/3/creating-bash-completion-script" MODIFIED="1549918269826" TEXT="Bash completion script">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1295364459402" ID="ID_1264207499" MODIFIED="1295364464255" POSITION="right" TEXT="Redirect">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -99,15 +107,69 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1415023702483" ID="ID_648588496" LINK="http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in" MODIFIED="1415023751631" POSITION="right" TEXT="Script&apos;s actual dir">
+<node COLOR="#0033ff" CREATED="1478268195230" ID="ID_900207373" LINK="http://superuser.com/questions/284187/bash-iterating-over-lines-in-a-variable" MODIFIED="1542460034275" POSITION="right" TEXT="Keep new lines">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1415023709463" ID="ID_1618738054" MODIFIED="1415023725628" TEXT="dirname &quot;${BASH_SOURCE[0]}&quot;">
+<node COLOR="#00b439" CREATED="1478268204693" ID="ID_1391488241" MODIFIED="1478268231817">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      some_command | while read line ; do
+    </p>
+    <p>
+      &#160;&#160;&#160;echo === $line ===
+    </p>
+    <p>
+      done
+    </p>
+  </body>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1418581334458" ID="ID_1288165653" MODIFIED="1418581422958" POSITION="right" TEXT="Fully qualified path">
+<node COLOR="#0033ff" CREATED="1479580589174" ID="ID_915368128" LINK="https://linuxconfig.org/how-to-disable-bash-shell-commands-history-on-linux" MODIFIED="1542460054417" POSITION="right" TEXT="Stop history">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1479580624384" ID="ID_540791984" MODIFIED="1479580625557" TEXT="echo &apos;set +o history&apos; &gt;&gt; ~/.bashrc">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1479580641640" ID="ID_846402834" MODIFIED="1479580642684" TEXT="echo &apos;set +o history&apos; &gt;&gt; /etc/profile">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1517618655049" ID="ID_213997619" MODIFIED="1523819855557" POSITION="right" TEXT="git branch in prompt">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1517618666593" ID="ID_220485966" MODIFIED="1523819855558" TEXT=" export PS1=&quot;[\u@\h \W\$(git branch 2&gt; /dev/null | grep -e &apos;\* &apos; | sed &apos;s/^..\(.*\)/{\1}/&apos;)]\$ &quot;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1539180655245" ID="ID_894728831" LINK="https://stackoverflow.com/questions/3112687/how-to-iterate-over-associative-arrays-in-bash" MODIFIED="1542460071269" POSITION="right" TEXT="Iterate over associative arrays">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1539180672325" ID="ID_1075361454" MODIFIED="1539180692520" TEXT="keys">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1539180693288" ID="ID_1072766741" MODIFIED="1539180694648" TEXT="&quot;${!array[@]}&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1539180749780" ID="ID_1862270832" MODIFIED="1539180751324" TEXT="values">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1539180756456" ID="ID_1895362482" MODIFIED="1539180758604" TEXT="&quot;${array[@]}&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1418581334458" ID="ID_1288165653" MODIFIED="1549918230141" POSITION="left" TEXT="Fully qualified path">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1418581344476" ID="ID_160493785" MODIFIED="1418581352187" TEXT="realpath [file name]">
@@ -119,7 +181,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1419690198737" ID="ID_1648654049" LINK="http://misc.flogisoft.com/bash/tip_colors_and_formatting" MODIFIED="1419690227925" POSITION="right" TEXT="Log in color">
+<node COLOR="#0033ff" CREATED="1419690198737" ID="ID_1648654049" LINK="http://misc.flogisoft.com/bash/tip_colors_and_formatting" MODIFIED="1549918232337" POSITION="left" TEXT="Log in color">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1419690231251" ID="ID_142952237" LINK="http://unix.stackexchange.com/questions/9957/how-to-check-if-bash-can-print-colors" MODIFIED="1419690273819" TEXT="Enabled">
@@ -183,66 +245,12 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1478268195230" ID="ID_900207373" LINK="http://superuser.com/questions/284187/bash-iterating-over-lines-in-a-variable" MODIFIED="1542460034275" POSITION="right" TEXT="Keep new lines">
+<node COLOR="#0033ff" CREATED="1415023702483" ID="ID_648588496" LINK="http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in" MODIFIED="1415023751631" POSITION="left" TEXT="Script&apos;s actual dir">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1478268204693" ID="ID_1391488241" MODIFIED="1478268231817">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      some_command | while read line ; do
-    </p>
-    <p>
-      &#160;&#160;&#160;echo === $line ===
-    </p>
-    <p>
-      done
-    </p>
-  </body>
-</html></richcontent>
+<node COLOR="#00b439" CREATED="1415023709463" ID="ID_1618738054" MODIFIED="1415023725628" TEXT="dirname &quot;${BASH_SOURCE[0]}&quot;">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1479580589174" ID="ID_915368128" LINK="https://linuxconfig.org/how-to-disable-bash-shell-commands-history-on-linux" MODIFIED="1542460054417" POSITION="right" TEXT="Stop history">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1479580624384" ID="ID_540791984" MODIFIED="1479580625557" TEXT="echo &apos;set +o history&apos; &gt;&gt; ~/.bashrc">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1479580641640" ID="ID_846402834" MODIFIED="1479580642684" TEXT="echo &apos;set +o history&apos; &gt;&gt; /etc/profile">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1517618655049" ID="ID_213997619" MODIFIED="1523819855557" POSITION="right" TEXT="git branch in prompt">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1517618666593" ID="ID_220485966" MODIFIED="1523819855558" TEXT=" export PS1=&quot;[\u@\h \W\$(git branch 2&gt; /dev/null | grep -e &apos;\* &apos; | sed &apos;s/^..\(.*\)/{\1}/&apos;)]\$ &quot;">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1539180655245" ID="ID_894728831" LINK="https://stackoverflow.com/questions/3112687/how-to-iterate-over-associative-arrays-in-bash" MODIFIED="1542460071269" POSITION="right" TEXT="Iterate over associative arrays">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1539180672325" ID="ID_1075361454" MODIFIED="1539180692520" TEXT="keys">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1539180693288" ID="ID_1072766741" MODIFIED="1539180694648" TEXT="&quot;${!array[@]}&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1539180749780" ID="ID_1862270832" MODIFIED="1539180751324" TEXT="values">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1539180756456" ID="ID_1895362482" MODIFIED="1539180758604" TEXT="&quot;${array[@]}&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 </node>
 </node>
 </node>

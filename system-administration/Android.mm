@@ -151,18 +151,35 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1352747955856" ID="ID_1364718079" MODIFIED="1352747962063" POSITION="left" TEXT="Automatic Software Updates">
+<node COLOR="#0033ff" CREATED="1549914590062" ID="ID_1302730154" MODIFIED="1549914592133" POSITION="right" TEXT="How To">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1352747963156" ID="ID_53219904" MODIFIED="1352747973159" TEXT="Playstore">
+<node COLOR="#00b439" CREATED="1352747955856" ID="ID_1364718079" MODIFIED="1549914594535" TEXT="Automatic Software Updates">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1352747963156" ID="ID_53219904" MODIFIED="1549914594536" TEXT="Playstore">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
-<node COLOR="#00b439" CREATED="1352747967811" ID="ID_1921327621" MODIFIED="1352747974799" TEXT="Settings">
+<node COLOR="#990000" CREATED="1352747967811" ID="ID_1921327621" MODIFIED="1549914594537" TEXT="Settings">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1549914576324" ID="ID_1796203729" LINK="https://www.technewscentral.com/how-to-enable-usb-debugging-and-developer-options-in-android-4-2-and-higher-android-4-2android-4-3android-4-4/id_7250" MODIFIED="1549914652282" TEXT="Enable USB Debugging">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="full-2"/>
+<node COLOR="#990000" CREATED="1549914604742" ID="ID_54254429" MODIFIED="1549914624601" TEXT="Settings">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1549914618595" ID="ID_1943358246" MODIFIED="1549914620448" TEXT="About">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1549914626019" ID="ID_1783543442" MODIFIED="1549914634523" TEXT="Tap &quot;Build Number&quot; 7 times">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1545683159708" ID="ID_656888739" MODIFIED="1545683161614" POSITION="left" TEXT="Sites">
