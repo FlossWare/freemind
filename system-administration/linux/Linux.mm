@@ -537,6 +537,26 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1550242235950" ID="ID_294256133" LINK="https://www.howtoforge.com/tutorial/linux-swappiness/" MODIFIED="1550242245587" TEXT="Change swappiness">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1550242287919" ID="ID_1393079657" MODIFIED="1550242292763" TEXT="Temporary">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1550242262303" ID="ID_1894905127" MODIFIED="1550242294466" TEXT="sysctl vm.swappiness=[number between 0 - 100]">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1550242277878" ID="ID_1881793362" MODIFIED="1550242281347" TEXT="sysctl vm.swappiness=10"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1550242295647" ID="ID_398755950" MODIFIED="1550242297218" TEXT="Permanent">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1550242308943" ID="ID_306352004" MODIFIED="1550242311664" TEXT="/etc/sysctl.conf">
+<node COLOR="#111111" CREATED="1550242262303" ID="ID_253329082" MODIFIED="1550242335476" TEXT="vm.swappiness=[number between 0 - 100]">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1550242277878" ID="ID_1991300784" MODIFIED="1550242341729" TEXT="vm.swappiness=10"/>
+</node>
+</node>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1545492993066" ID="ID_1327894045" LINK="https://superuser.com/questions/1266479/wi-fi-bridging-in-qemu-kvm-works-but-not-with-virt-manager" MODIFIED="1545493004222" TEXT="Wifi bridging">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
