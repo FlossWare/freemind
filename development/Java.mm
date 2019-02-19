@@ -60,5 +60,18 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1550602172022" ID="ID_1122259719" MODIFIED="1550602173146" POSITION="right" TEXT="JMS">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1550602184781" ID="ID_843180418" MODIFIED="1550602196209" TEXT="Annotations">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1550602199438" ID="ID_350710444" MODIFIED="1550602204121" TEXT="@MessageDriven">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1550602206759" ID="ID_103805538" MODIFIED="1550602223195" TEXT="All of the activationConfig parts and the annotation have to be on a class"/>
+<node COLOR="#111111" CREATED="1550602223558" ID="ID_861110342" MODIFIED="1550602231051" TEXT="Cannot have parts on a base class"/>
+</node>
+</node>
+</node>
 </node>
 </map>
