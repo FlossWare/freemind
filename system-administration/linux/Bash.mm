@@ -4,10 +4,18 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1549918250896" ID="ID_1311583002" MODIFIED="1549918252718" POSITION="right" TEXT="How To">
+<node COLOR="#0033ff" CREATED="1549918250896" ID="ID_1311583002" MODIFIED="1550448331546" POSITION="right" TEXT="How To">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1549918241412" ID="ID_407176187" LINK="https://opensource.com/article/18/3/creating-bash-completion-script" MODIFIED="1549918269826" TEXT="Bash completion script">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1550448333418" ID="ID_1699869818" LINK="https://superuser.com/questions/65460/create-a-logoff-script-task-for-linux" MODIFIED="1550448382865" POSITION="right" TEXT="Logoff script">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1550448415608" ID="ID_963319905" MODIFIED="1550448418436" TEXT="~/.bash_logout">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

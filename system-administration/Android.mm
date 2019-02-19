@@ -168,7 +168,7 @@
 <icon BUILTIN="full-2"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1549914576324" ID="ID_1796203729" LINK="https://www.technewscentral.com/how-to-enable-usb-debugging-and-developer-options-in-android-4-2-and-higher-android-4-2android-4-3android-4-4/id_7250" MODIFIED="1549914652282" TEXT="Enable USB Debugging">
+<node COLOR="#00b439" CREATED="1549914576324" ID="ID_1796203729" LINK="https://www.technewscentral.com/how-to-enable-usb-debugging-and-developer-options-in-android-4-2-and-higher-android-4-2android-4-3android-4-4/id_7250" MODIFIED="1550449140616" TEXT="Enable USB Debugging">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1549914604742" ID="ID_54254429" MODIFIED="1549914624601" TEXT="Settings">
@@ -180,6 +180,10 @@
 <node COLOR="#990000" CREATED="1549914626019" ID="ID_1783543442" MODIFIED="1549914634523" TEXT="Tap &quot;Build Number&quot; 7 times">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+</node>
+<node COLOR="#00b439" CREATED="1550449142740" ID="ID_1357369296" LINK="https://forum.xda-developers.com/showthread.php?t=2070139&amp;page=3" MODIFIED="1550449211214" TEXT="Install Linux instead of Android">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1545683159708" ID="ID_656888739" MODIFIED="1545683161614" POSITION="left" TEXT="Sites">

@@ -542,7 +542,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1550242287919" ID="ID_1393079657" MODIFIED="1550242292763" TEXT="Temporary">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1550242262303" ID="ID_1894905127" MODIFIED="1550242294466" TEXT="sysctl vm.swappiness=[number between 0 - 100]">
+<node COLOR="#111111" CREATED="1550242262303" ID="ID_1894905127" MODIFIED="1550351063168" TEXT="sysctl vm.swappiness=[number between 0 - 100]">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1550242277878" ID="ID_1881793362" MODIFIED="1550242281347" TEXT="sysctl vm.swappiness=10"/>
 </node>
@@ -555,6 +555,10 @@
 <node COLOR="#111111" CREATED="1550242277878" ID="ID_1991300784" MODIFIED="1550242341729" TEXT="vm.swappiness=10"/>
 </node>
 </node>
+</node>
+<node COLOR="#990000" CREATED="1550334312921" ID="ID_1319011399" MODIFIED="1550334314171" TEXT="View">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1550334316999" ID="ID_1448243500" MODIFIED="1550334318759" TEXT="cat /proc/sys/vm/swappiness"/>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1545492993066" ID="ID_1327894045" LINK="https://superuser.com/questions/1266479/wi-fi-bridging-in-qemu-kvm-works-but-not-with-virt-manager" MODIFIED="1545493004222" TEXT="Wifi bridging">
