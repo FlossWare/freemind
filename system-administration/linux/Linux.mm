@@ -424,6 +424,32 @@
 </node>
 </node>
 </node>
+<node COLOR="#990000" CREATED="1550608935556" ID="ID_1582569521" LINK="https://askubuntu.com/questions/178712/how-to-increase-swap-space" MODIFIED="1550608961168" TEXT="Increase swap space">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1550608969859" ID="ID_1156650358" MODIFIED="1550609094472" TEXT="dd if=/dev/zero of=[full path to swapfile]/[swapfile name] bs=1024 count=[total GBs]M">
+<icon BUILTIN="full-1"/>
+<node COLOR="#111111" CREATED="1550609045628" ID="ID_1131089039" MODIFIED="1550609046448" TEXT="dd if=/dev/zero of=/media/fasthdd/swapfile.img bs=1024 count=1M"/>
+<node COLOR="#111111" CREATED="1550609059044" ID="ID_1546927556" MODIFIED="1550609127707" TEXT="2GB -&gt; 2M">
+<icon BUILTIN="yes"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1550609095188" ID="ID_804313779" MODIFIED="1550609110834" TEXT="mkswap [full path to swapfile]/[swapfile name]">
+<icon BUILTIN="full-2"/>
+<node COLOR="#111111" CREATED="1550609118868" ID="ID_904391937" MODIFIED="1550609121166" TEXT="mkswap /media/fasthdd/swapfile.img"/>
+</node>
+<node COLOR="#111111" CREATED="1550609135636" ID="ID_1181542090" MODIFIED="1550609145165" TEXT="Add to /etc/fstab">
+<icon BUILTIN="full-3"/>
+<node COLOR="#111111" CREATED="1550609155396" ID="ID_396315942" MODIFIED="1550609763540" TEXT="[full path to swapfile]/[swapfile name] swap swap sw 0 0">
+<node COLOR="#111111" CREATED="1550609155396" ID="ID_1524727367" MODIFIED="1550609157449" TEXT="/media/fasthdd/swapfile.img swap swap sw 0 0"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1550609685660" ID="ID_1538495082" MODIFIED="1550609691211" TEXT="Activate">
+<icon BUILTIN="full-4"/>
+<node COLOR="#111111" CREATED="1550609700443" ID="ID_1995374675" MODIFIED="1550609733801" TEXT="swapon [full path to swapfile]/[swapfile name]">
+<node COLOR="#111111" CREATED="1550609704364" ID="ID_415121902" MODIFIED="1550609706644" TEXT="swapon /media/fasthdd/swapfile.img"/>
+</node>
+</node>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1417371386347" ID="ID_1466525756" MODIFIED="1545490758592" TEXT="echo">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -537,18 +563,21 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1550242235950" ID="ID_294256133" LINK="https://www.howtoforge.com/tutorial/linux-swappiness/" MODIFIED="1550242245587" TEXT="Change swappiness">
+<node COLOR="#00b439" CREATED="1550614150935" ID="ID_1666492739" MODIFIED="1550614155229" TEXT="Swap">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1550242287919" ID="ID_1393079657" MODIFIED="1550242292763" TEXT="Temporary">
+<node COLOR="#990000" CREATED="1550242235950" ID="ID_294256133" LINK="https://www.howtoforge.com/tutorial/linux-swappiness/" MODIFIED="1550614156669" TEXT="Change swappiness">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1550242287919" ID="ID_1393079657" MODIFIED="1550614156670" TEXT="Temporary">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1550242262303" ID="ID_1894905127" MODIFIED="1550351063168" TEXT="sysctl vm.swappiness=[number between 0 - 100]">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1550242277878" ID="ID_1881793362" MODIFIED="1550242281347" TEXT="sysctl vm.swappiness=10"/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1550242295647" ID="ID_398755950" MODIFIED="1550242297218" TEXT="Permanent">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1550242295647" ID="ID_398755950" MODIFIED="1550614156670" TEXT="Permanent">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1550242308943" ID="ID_306352004" MODIFIED="1550242311664" TEXT="/etc/sysctl.conf">
 <node COLOR="#111111" CREATED="1550242262303" ID="ID_253329082" MODIFIED="1550242335476" TEXT="vm.swappiness=[number between 0 - 100]">
 <font NAME="SansSerif" SIZE="12"/>
@@ -556,9 +585,14 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1550334312921" ID="ID_1319011399" MODIFIED="1550334314171" TEXT="View">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1550334312921" ID="ID_1319011399" MODIFIED="1550614156671" TEXT="View">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1550334316999" ID="ID_1448243500" MODIFIED="1550334318759" TEXT="cat /proc/sys/vm/swappiness"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1550614158695" ID="ID_729980026" LINK="https://www.cyberciti.biz/faq/linux-which-process-is-using-swap/" MODIFIED="1550614186971" TEXT="Processes using swap">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1550614199286" ID="ID_1665846919" MODIFIED="1550614201400" TEXT="smem -t -p"/>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1545492993066" ID="ID_1327894045" LINK="https://superuser.com/questions/1266479/wi-fi-bridging-in-qemu-kvm-works-but-not-with-virt-manager" MODIFIED="1545493004222" TEXT="Wifi bridging">
