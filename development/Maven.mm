@@ -606,7 +606,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1391534085330" FOLDED="true" ID="ID_1998987545" MODIFIED="1542386392116" POSITION="left" TEXT="Repository">
+<node COLOR="#0033ff" CREATED="1391534085330" FOLDED="true" ID="ID_1998987545" MODIFIED="1550868824751" POSITION="left" TEXT="Repository">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1391534089238" ID="ID_1620183318" MODIFIED="1391534091312" TEXT="pom.xml">
@@ -693,6 +693,25 @@
 <node COLOR="#00b439" CREATED="1392211600987" ID="ID_470769598" MODIFIED="1392211602913" TEXT="-U">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1550868818538" ID="ID_1997382875" MODIFIED="1550868828516" POSITION="left" TEXT="Links">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1550867915297" ID="ID_210966042" LINK="https://mvnrepository.com/" MODIFIED="1550868822447" TEXT="MVNRepository">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1550868836690" ID="ID_1498783515" MODIFIED="1550868841422" POSITION="left" TEXT="Plugins">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1550868845202" ID="ID_1300120038" MODIFIED="1550868850054" TEXT="build-helper">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1550868854050" ID="ID_1129149544" LINK="http://www.mojohaus.org/build-helper-maven-plugin/parse-version-mojo.html" MODIFIED="1550868872009" TEXT="parse-version">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 </node>

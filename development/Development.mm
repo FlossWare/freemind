@@ -69,6 +69,28 @@
 <node COLOR="#990000" CREATED="1548086397332" ID="ID_1391050275" LINK="http://archive.apache.org/" MODIFIED="1548086406856" TEXT="Archives">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+<node COLOR="#990000" CREATED="1550868134690" ID="ID_1075381233" LINK="https://beam.apache.org/get-started/beam-overview/" MODIFIED="1550868144897" TEXT="Beam">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1550868046785" ID="ID_375771549" LINK="http://camel.apache.org/" MODIFIED="1550868060053" TEXT="Camel">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1550868223986" ID="ID_1683485716" LINK="http://commons.apache.org/sandbox/commons-pipeline/index.html" MODIFIED="1550868239998" TEXT="Commons Pipeline">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1550868071378" ID="ID_854162289" LINK="https://kafka.apache.org/" MODIFIED="1550868081844" TEXT="Kafka">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1550868089018" ID="ID_1912249512" LINK="https://sling.apache.org/" MODIFIED="1550868099669" TEXT="Sling">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1550868007074" ID="ID_1383921704" LINK="http://zookeeper.apache.org/" MODIFIED="1550868064083" TEXT="Zookeeper">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1550868113602" ID="ID_538867313" LINK="https://vertx.io/" MODIFIED="1550868125377" TEXT="Vert.X">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 <node COLOR="#00b439" CREATED="1371647847468" ID="ID_55664161" LINK="Log4J.mm" MODIFIED="1390752329374" TEXT="Log4J">
 <edge STYLE="bezier" WIDTH="thin"/>
