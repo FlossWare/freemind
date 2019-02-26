@@ -430,6 +430,17 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1551214298269" ID="ID_1402292554" LINK="https://docs.jboss.org/author/display/AS7/Documentation" MODIFIED="1551214390049" POSITION="right" TEXT="AS 7">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1551214303581" ID="ID_422751599" LINK="https://docs.jboss.org/author/display/AS7/Class+Loading+in+AS7" MODIFIED="1551214317025" TEXT="Class Loading">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1551216661566" ID="ID_1562214888" LINK="https://access.redhat.com/solutions/359323" MODIFIED="1551216672952" TEXT="Exclude classes/packages">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1374079081932" ID="ID_1282432085" MODIFIED="1449067840471" POSITION="left" TEXT="logging">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
