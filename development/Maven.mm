@@ -713,6 +713,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1551284221708" ID="ID_662455897" LINK="https://maven.apache.org/plugins/maven-ear-plugin/" MODIFIED="1551284279805" TEXT="EAR">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1551284227988" ID="ID_977237529" LINK="https://maven.apache.org/plugins/maven-ear-plugin/modules.html" MODIFIED="1551284251322" TEXT="Module">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 </node>
 </map>
