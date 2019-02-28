@@ -15,6 +15,14 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1551367468930" ID="ID_1534791343" MODIFIED="1551367475487" POSITION="right" TEXT="Manuals">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1551367480147" ID="ID_1933891756" LINK="https://www.manualslib.com/" MODIFIED="1551367498031" TEXT="manualslib">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1542471118926" ID="ID_1292807881" MODIFIED="1542471133534" POSITION="left" TEXT="Library">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

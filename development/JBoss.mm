@@ -439,6 +439,12 @@
 <node COLOR="#990000" CREATED="1551216661566" ID="ID_1562214888" LINK="https://access.redhat.com/solutions/359323" MODIFIED="1551216672952" TEXT="Exclude classes/packages">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+<node COLOR="#990000" CREATED="1551379734398" ID="ID_326422990" LINK="http://middlewaremagic.com/jboss/?p=1933" MODIFIED="1551379768698" TEXT="How to create custom modules in JBossAS7 to load different slots of the jars">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1551380752830" ID="ID_1701214792" LINK="https://kb.novaordis.com/index.php/Jboss-deployment-structure.xml" MODIFIED="1551380770425" TEXT="jboss-deployment-structure.xml">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1374079081932" ID="ID_1282432085" MODIFIED="1449067840471" POSITION="left" TEXT="logging">
