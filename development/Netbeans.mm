@@ -83,6 +83,14 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1551735573455" ID="ID_1328056975" LINK="http://wiki.netbeans.org/FaqFontRendering" MODIFIED="1551735614963" TEXT="Fix bad looking fonts">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1551735646473" ID="ID_1069966959" MODIFIED="1551735663477" TEXT="${NETBEANS_HOME}/etc/netbeans.conf">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1551735674887" ID="ID_1509412006" MODIFIED="1551735676973" TEXT="-J-Dawt.useSystemAAFontSettings=lcd"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1491576304108" ID="ID_1729290682" MODIFIED="1491576308811" POSITION="right" TEXT="Editor">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
