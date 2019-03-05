@@ -70,11 +70,23 @@
 <node COLOR="#00b439" CREATED="1522684203714" ID="ID_1564786663" MODIFIED="1544810901447" TEXT="Break into separate strings">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1522684233816" ID="ID_1761682598" MODIFIED="1544810901447" TEXT="eval [var]=split([string], &quot;[delimiter]&quot;)">
+<node COLOR="#990000" CREATED="1522684233816" ID="ID_1761682598" MODIFIED="1551823502835" TEXT="eval [var]=split([string], &quot;[delimiter]&quot;)">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#990000" CREATED="1522684262231" ID="ID_317216226" MODIFIED="1544810901447" TEXT="eval individual_params=split(raw_params, &quot;&amp;&quot;)">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1522684203714" ID="ID_1032152558" MODIFIED="1551823524052" TEXT="Grab an item from a split string">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1522684233816" ID="ID_1414413968" MODIFIED="1551823444904" TEXT="eval [var]=split([string], &quot;[delimiter]&quot;) | eval [item]=mvindex([var], [index])">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1522684262231" ID="ID_1235018766" MODIFIED="1551823550904" TEXT="eval individual_params=split(raw_params, &quot;&amp;&quot;) | eval the_value=mvindex(individual_params, 4)">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>

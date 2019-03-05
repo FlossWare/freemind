@@ -12,5 +12,9 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1551818520350" ID="ID_179240192" LINK="https://jdbc.postgresql.org/download.html" MODIFIED="1551818535320" POSITION="right" TEXT="JDBC Jars">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 </node>
 </map>
