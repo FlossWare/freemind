@@ -73,5 +73,17 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1551794780125" ID="ID_1094272530" LINK="https://stackoverflow.com/questions/179955/how-do-you-enable-anti-aliasing-in-arbitrary-java-apps" MODIFIED="1551794828940" POSITION="right" TEXT="Bad Rendering">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1551735674887" ID="ID_1509412006" MODIFIED="1551794807452" TEXT="-Dawt.useSystemAAFontSettings=lcd">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1551794726559" ID="ID_166928673" MODIFIED="1551794807454" TEXT="-Dswing.aatext=true">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>
