@@ -64,6 +64,10 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1551896808768" ID="ID_1102331197" LINK="https://docs.splunk.com/Documentation/Splunk/6.0/SearchReference/SplunkEnterpriseQuickReferenceGuide" MODIFIED="1551896821194" POSITION="right" TEXT="Quick Reference Guide">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1544810896612" ID="ID_692216564" MODIFIED="1544810902561" POSITION="right" TEXT="How To">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
