@@ -535,6 +535,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1552054159211" ID="ID_1347184907" LINK="https://ask.fedoraproject.org/en/question/27808/preventing-lid-close-suspension/" MODIFIED="1552054188445" TEXT="Lid settings">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1552054864000" ID="ID_1742695913" LINK="https://askubuntu.com/questions/47311/how-do-i-disable-my-system-from-going-to-sleep" MODIFIED="1552054877235" TEXT="sudo systemctl mask suspend.target">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1512854732417" ID="ID_1888374883" LINK="https://stackoverflow.com/questions/12285387/is-there-a-way-to-print-the-pid-of-the-process-that-called-my-c-binary" MODIFIED="1542798500929" TEXT="Print process who called script">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
