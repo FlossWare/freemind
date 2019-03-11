@@ -42,6 +42,10 @@
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1545425554296" ID="ID_1212708770" LINK="http://hc.apache.org/httpcomponents-client-4.4.x/httpclient/apidocs/index.html?overview-summary.html" MODIFIED="1545425588784" TEXT="HttpClient 4.4.1"/>
 </node>
+<node COLOR="#990000" CREATED="1552314923998" ID="ID_407916288" MODIFIED="1552314925313" TEXT="JSON">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1552314928180" ID="ID_1028730645" LINK="http://www.jsonschema2pojo.org/" MODIFIED="1552314948092" TEXT="jsonschema2pojo"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1490008273456" ID="ID_365627824" LINK="Javascript.mm" MODIFIED="1490008273458" TEXT="Javascript">
 <edge STYLE="bezier" WIDTH="thin"/>
