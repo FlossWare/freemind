@@ -144,6 +144,21 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1552913547308" ID="ID_1456411924" MODIFIED="1552913555709" TEXT="SCM">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1552913561580" ID="ID_1486680465" LINK="https://bitbucket.org" MODIFIED="1552913571738" TEXT="Bitbucket">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1552913466084" ID="ID_1320861775" LINK="https://github.com/" MODIFIED="1552913719765" TEXT="GitHub">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1552913413488" ID="ID_1611530086" LINK="https://gitlab.com/" MODIFIED="1552913559341" TEXT="GitLab">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1387480268937" ID="ID_410891512" LINK="Splunk.mm" MODIFIED="1542472651416" TEXT="Splunk">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

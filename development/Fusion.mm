@@ -4,14 +4,6 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1530630913493" ID="ID_768572756" MODIFIED="1530630923308" POSITION="right" TEXT="Up start time">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1530630924189" ID="ID_1498657634" MODIFIED="1530630934536" TEXT="$FUSION_HOME/">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
 <node COLOR="#0033ff" CREATED="1542305566080" ID="ID_733445490" MODIFIED="1542305569084" POSITION="right" TEXT="Documentation">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
