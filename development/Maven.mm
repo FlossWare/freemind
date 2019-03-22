@@ -606,7 +606,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1391534085330" FOLDED="true" ID="ID_1998987545" MODIFIED="1550868824751" POSITION="left" TEXT="Repository">
+<node COLOR="#0033ff" CREATED="1391534085330" FOLDED="true" ID="ID_1998987545" MODIFIED="1553265297888" POSITION="left" TEXT="Repository">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1391534089238" ID="ID_1620183318" MODIFIED="1391534091312" TEXT="pom.xml">
@@ -699,6 +699,14 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1550867915297" ID="ID_210966042" LINK="https://mvnrepository.com/" MODIFIED="1550868822447" TEXT="MVNRepository">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1553265458693" ID="ID_1326914565" LINK="https://search.maven.org/" MODIFIED="1553265471040" TEXT="Sonatype">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1553266405973" ID="ID_375453988" LINK="https://findjar.com/" MODIFIED="1553266415543" TEXT="Jar Finder">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

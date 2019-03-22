@@ -10,7 +10,7 @@
 <node COLOR="#00b439" CREATED="1542305569744" ID="ID_1147066018" LINK="https://doc.lucidworks.com/fusion/3.0/index.html" MODIFIED="1542305603439" TEXT="3.0">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1542305398376" ID="ID_1841153914" LINK="https://doc.lucidworks.com/fusion/3.0/REST-API-Reference.html" MODIFIED="1542305630247" TEXT="REST API">
+<node COLOR="#990000" CREATED="1542305398376" ID="ID_1841153914" LINK="https://doc.lucidworks.com/fusion/3.0/REST-API-Reference.html" MODIFIED="1553282013506" TEXT="REST API">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1542305193072" ID="ID_480535202" LINK="https://doc.lucidworks.com/fusion/3.0/REST_API_Reference/Collections-API.html" MODIFIED="1542305644649" TEXT="Collections">
@@ -34,6 +34,7 @@
 </node>
 </node>
 </node>
+<node COLOR="#111111" CREATED="1553282059856" ID="ID_1402381461" LINK="https://doc.lucidworks.com/fusion/3.0/REST_API_Reference/Authentication_and_Authorization_APIs/User-API.html" MODIFIED="1553282071407" TEXT="User"/>
 </node>
 </node>
 </node>
