@@ -37,6 +37,16 @@
 <node COLOR="#111111" CREATED="1553282059856" ID="ID_1402381461" LINK="https://doc.lucidworks.com/fusion/3.0/REST_API_Reference/Authentication_and_Authorization_APIs/User-API.html" MODIFIED="1553282071407" TEXT="User"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1553867521328" ID="ID_912598730" MODIFIED="1553869127600" TEXT="4.2.0">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1553867502672" ID="ID_930715179" LINK="https://doc.lucidworks.com/release-notes/fusion-ai/4.2.0-release-notes.html" MODIFIED="1553869127600" TEXT="AI Release Notes">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1553867546576" ID="ID_12664999" LINK="https://doc.lucidworks.com/release-notes/fusion-server/4.2.0-release-notes.html" MODIFIED="1553869127601" TEXT="Server Release Notes">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1545246861260" ID="ID_1816430555" MODIFIED="1545246866553" POSITION="right" TEXT="How To">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -72,6 +82,10 @@
 <node COLOR="#00b439" CREATED="1548251378549" ID="ID_44775654" LINK="https://support.lucidworks.com/s/downloads" MODIFIED="1548251420874" TEXT="Downloads">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1553872537393" ID="ID_871185815" LINK="https://download.lucidworks.com/fusion_connectors_table.html" MODIFIED="1553872550895" TEXT="Connectors">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 </node>
