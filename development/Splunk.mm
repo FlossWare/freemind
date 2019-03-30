@@ -68,6 +68,14 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1553962404614" ID="ID_790563274" LINK="https://docs.splunk.com/Documentation/Splunk/5.0/RESTAPI/RESTintro" MODIFIED="1553962417683" POSITION="right" TEXT="REST API">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1553963074147" ID="ID_1536240366" LINK="https://docs.splunk.com/Documentation/Splunk/5.0/RESTAPI/RESTsearches" MODIFIED="1553963087529" TEXT="Execute searches">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1544810896612" ID="ID_692216564" MODIFIED="1544810902561" POSITION="right" TEXT="How To">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
