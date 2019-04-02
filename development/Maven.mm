@@ -4,14 +4,14 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1499621896651" FOLDED="true" ID="ID_189857500" MODIFIED="1542386304614" POSITION="right" TEXT="Memory">
+<node COLOR="#0033ff" CREATED="1499621896651" ID="ID_189857500" MODIFIED="1554054466475" POSITION="right" TEXT="Memory">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1499621900250" ID="ID_1843127375" MODIFIED="1499621918697" TEXT="export MAVEN_OPTS=&quot;-Xmx[memory] -Xms[memory]">
+<node COLOR="#00b439" CREATED="1499621900250" ID="ID_1843127375" MODIFIED="1554054483319" TEXT="export MAVEN_OPTS=&quot;-Xmx[memory] -Xms[memory]&quot;">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1499621900250" ID="ID_44369883" MODIFIED="1499621938193" TEXT="export MAVEN_OPTS=&quot;-Xmx8192m -Xms8192m">
+<node COLOR="#00b439" CREATED="1499621900250" ID="ID_44369883" MODIFIED="1554054487100" TEXT="export MAVEN_OPTS=&quot;-Xmx8192m -Xms8192m&quot;">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

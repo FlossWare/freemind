@@ -40,23 +40,24 @@
 <node COLOR="#00b439" CREATED="1553867521328" ID="ID_912598730" MODIFIED="1553869127600" TEXT="4.2.0">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1553867502672" ID="ID_930715179" LINK="https://doc.lucidworks.com/release-notes/fusion-ai/4.2.0-release-notes.html" MODIFIED="1553869127600" TEXT="AI Release Notes">
+<node COLOR="#990000" CREATED="1554209516811" ID="ID_322000577" MODIFIED="1554209518422" TEXT="Documents">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1553867502672" ID="ID_930715179" LINK="https://doc.lucidworks.com/release-notes/fusion-ai/4.2.0-release-notes.html" MODIFIED="1554209522278" TEXT="AI Release Notes">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#990000" CREATED="1553867546576" ID="ID_12664999" LINK="https://doc.lucidworks.com/release-notes/fusion-server/4.2.0-release-notes.html" MODIFIED="1553869127601" TEXT="Server Release Notes">
+<node COLOR="#111111" CREATED="1554209397582" ID="ID_448755109" LINK="https://doc.lucidworks.com/fusion-server/latest/getting-started/tutorials/get-started/index.html" MODIFIED="1554209522280" TEXT="Getting Started">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1553867546576" ID="ID_12664999" LINK="https://doc.lucidworks.com/release-notes/fusion-server/4.2.0-release-notes.html" MODIFIED="1554209522281" TEXT="Server Release Notes">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1554209523947" ID="ID_810508893" MODIFIED="1554209525511" TEXT="Concepts">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1554209539859" ID="ID_97116930" MODIFIED="1554209541566" TEXT="App">
+<node COLOR="#111111" CREATED="1554209550979" ID="ID_86652705" MODIFIED="1554209553290" TEXT="groups together collections that hold data, pipelines, jobs, and other Fusion objects"/>
 </node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1545246861260" ID="ID_1816430555" MODIFIED="1545246866553" POSITION="right" TEXT="How To">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1545246867301" ID="ID_749406337" LINK="https://support.lucidworks.com/s/question/0D58000003LS8JNCA1/how-to-change-the-timeout-for-agent-while-starting-up-services?t=1545246630488" MODIFIED="1545246887144" TEXT="Change agent timeout">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1545246901788" ID="ID_990300419" MODIFIED="1545246904104" TEXT="conf/fusion.properties">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1545246914892" ID="ID_760312472" MODIFIED="1545246917581" TEXT="default.startSecs"/>
+<node COLOR="#111111" CREATED="1554209752035" ID="ID_358547764" MODIFIED="1554209754823" TEXT="App Studio"/>
 </node>
 </node>
 </node>
@@ -85,6 +86,18 @@
 <node COLOR="#990000" CREATED="1553872537393" ID="ID_871185815" LINK="https://download.lucidworks.com/fusion_connectors_table.html" MODIFIED="1553872550895" TEXT="Connectors">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1545246861260" ID="ID_1816430555" MODIFIED="1545246866553" POSITION="left" TEXT="How To">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1545246867301" ID="ID_749406337" LINK="https://support.lucidworks.com/s/question/0D58000003LS8JNCA1/how-to-change-the-timeout-for-agent-while-starting-up-services?t=1545246630488" MODIFIED="1545246887144" TEXT="Change agent timeout">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1545246901788" ID="ID_990300419" MODIFIED="1545246904104" TEXT="conf/fusion.properties">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1545246914892" ID="ID_760312472" MODIFIED="1545246917581" TEXT="default.startSecs"/>
 </node>
 </node>
 </node>
