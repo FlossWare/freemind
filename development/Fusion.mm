@@ -40,6 +40,9 @@
 <node COLOR="#00b439" CREATED="1553867521328" ID="ID_912598730" MODIFIED="1553869127600" TEXT="4.2.0">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1554307942530" ID="ID_33771260" LINK="https://doc.lucidworks.com/fusion-server/4.2/reference-guides/api/index.html" MODIFIED="1554307953061" TEXT="REST API">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 <node COLOR="#990000" CREATED="1554209516811" ID="ID_322000577" MODIFIED="1554209518422" TEXT="Documents">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1553867502672" ID="ID_930715179" LINK="https://doc.lucidworks.com/release-notes/fusion-ai/4.2.0-release-notes.html" MODIFIED="1554209522278" TEXT="AI Release Notes">
@@ -64,15 +67,27 @@
 <node COLOR="#0033ff" CREATED="1548251273924" ID="ID_1284226289" MODIFIED="1548251276671" POSITION="left" TEXT="Lucidworks">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1548251554772" ID="ID_152292355" LINK="https://support.lucidworks.com/s/login/" MODIFIED="1548251567746" TEXT="Login">
+<node COLOR="#00b439" CREATED="1548251317341" ID="ID_831928723" LINK="https://support.lucidworks.com/s/answers" MODIFIED="1554232456280" TEXT="Answers">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1548251317341" ID="ID_831928723" LINK="https://support.lucidworks.com/s/answers" MODIFIED="1548251493684" TEXT="Answers">
+<node COLOR="#00b439" CREATED="1554232457286" ID="ID_589827034" LINK="https://lucidworks.com/blog/" MODIFIED="1554232468827" TEXT="Blog">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1548251378549" ID="ID_44775654" LINK="https://support.lucidworks.com/s/downloads" MODIFIED="1554232488488" TEXT="Downloads">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1553872537393" ID="ID_871185815" LINK="https://download.lucidworks.com/fusion_connectors_table.html" MODIFIED="1553872550895" TEXT="Connectors">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1548251331009" ID="ID_561321199" LINK="https://support.lucidworks.com/s/topiccatalog" MODIFIED="1548251473066" TEXT="Knowledge Base">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1548251554772" ID="ID_152292355" LINK="https://support.lucidworks.com/s/login/" MODIFIED="1554233062068" TEXT="Login">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -80,13 +95,9 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1548251378549" ID="ID_44775654" LINK="https://support.lucidworks.com/s/downloads" MODIFIED="1548251420874" TEXT="Downloads">
+<node COLOR="#00b439" CREATED="1554232479063" ID="ID_1994043420" LINK="https://lucidworks.com/resources/videos/" MODIFIED="1554232501005" TEXT="Videos &amp; Webinars">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1553872537393" ID="ID_871185815" LINK="https://download.lucidworks.com/fusion_connectors_table.html" MODIFIED="1553872550895" TEXT="Connectors">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1545246861260" ID="ID_1816430555" MODIFIED="1545246866553" POSITION="left" TEXT="How To">
@@ -97,7 +108,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1545246901788" ID="ID_990300419" MODIFIED="1545246904104" TEXT="conf/fusion.properties">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1545246914892" ID="ID_760312472" MODIFIED="1545246917581" TEXT="default.startSecs"/>
+<node COLOR="#111111" CREATED="1545246914892" ID="ID_760312472" MODIFIED="1554214292470" TEXT="9"/>
 </node>
 </node>
 </node>
