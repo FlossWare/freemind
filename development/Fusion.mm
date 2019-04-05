@@ -67,7 +67,7 @@
 <node COLOR="#0033ff" CREATED="1548251273924" ID="ID_1284226289" MODIFIED="1548251276671" POSITION="left" TEXT="Lucidworks">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1548251317341" ID="ID_831928723" LINK="https://support.lucidworks.com/s/answers" MODIFIED="1554232456280" TEXT="Answers">
+<node COLOR="#00b439" CREATED="1548251317341" ID="ID_831928723" LINK="https://support.lucidworks.com/s/answers" MODIFIED="1554466780422" TEXT="Answers">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
