@@ -278,7 +278,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1433878046918" FOLDED="true" ID="ID_1523390593" LINK="http://stackoverflow.com/questions/15767132/how-do-i-skip-a-maven-plugin-execution-if-dskiptests-or-dmaven-test-skip-tr" MODIFIED="1542386256464" POSITION="right" TEXT="Skip plugin execution">
+<node COLOR="#0033ff" CREATED="1433878046918" FOLDED="true" ID="ID_1523390593" LINK="http://stackoverflow.com/questions/15767132/how-do-i-skip-a-maven-plugin-execution-if-dskiptests-or-dmaven-test-skip-tr" MODIFIED="1554734682515" POSITION="right" TEXT="Skip plugin execution">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1433878065333" ID="ID_178362328" MODIFIED="1433878138381">
