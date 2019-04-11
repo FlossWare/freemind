@@ -54,6 +54,7 @@
 <node COLOR="#111111" CREATED="1553867546576" ID="ID_12664999" LINK="https://doc.lucidworks.com/release-notes/fusion-server/4.2.0-release-notes.html" MODIFIED="1554209522281" TEXT="Server Release Notes">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+<node COLOR="#111111" CREATED="1554945917534" ID="ID_1377839018" LINK="https://doc.lucidworks.com/fusion-server/4.2/search-development/getting-data-out/query-pipeline-configuration/custom-javascript-query-stages.html#javascript-query-stage-global-variables" MODIFIED="1554945987505" TEXT="Custom Javascript Query Stage Global Variables"/>
 </node>
 <node COLOR="#990000" CREATED="1554209523947" ID="ID_810508893" MODIFIED="1554209525511" TEXT="Concepts">
 <font NAME="SansSerif" SIZE="14"/>
