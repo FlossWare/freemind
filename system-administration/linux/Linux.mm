@@ -1932,6 +1932,10 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
+<node COLOR="#990000" CREATED="1555111100979" ID="ID_242534354" MODIFIED="1555111105318" TEXT="lxrandr">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1555111107622" ID="ID_281858346" MODIFIED="1555111125843" TEXT="Forget to change display "/>
+</node>
 <node COLOR="#990000" CREATED="1552915022100" ID="ID_1422142517" LINK="https://github.com/ssokolow/quicktile" MODIFIED="1552915032355" TEXT="Quicktile">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1552915165780" ID="ID_291183441" MODIFIED="1552915176008" TEXT="/home/${USER}/.config/quicktile.cf">

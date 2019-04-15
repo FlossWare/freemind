@@ -109,7 +109,16 @@
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1545246901788" ID="ID_990300419" MODIFIED="1545246904104" TEXT="conf/fusion.properties">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1545246914892" ID="ID_760312472" MODIFIED="1554214292470" TEXT="9"/>
+<node COLOR="#111111" CREATED="1555334673486" ID="ID_369335502" MODIFIED="1555334681074" TEXT="default.startSecs">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1555333021759" ID="ID_971387234" MODIFIED="1555333026937" TEXT="Add your own jars/classes">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1555333029759" ID="ID_234952871" MODIFIED="1555333031606" TEXT="$FUSION_HOME/apps/jetty/api/webapps/api/WEB-INF/lib/">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>
