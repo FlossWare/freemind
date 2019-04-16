@@ -100,6 +100,13 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1555354041950" ID="ID_26211870" MODIFIED="1555354058618" TEXT="$FUSION_HOME/apps/libs">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1555354063766" ID="ID_1184743281" MODIFIED="1555354067730" TEXT="Contains all jars">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1545246861260" ID="ID_1816430555" MODIFIED="1545246866553" POSITION="left" TEXT="How To">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
