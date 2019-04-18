@@ -312,5 +312,46 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1555592174550" ID="ID_444227719" MODIFIED="1555592176331" POSITION="left" TEXT="Search">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1473774431232" ID="ID_515886145" MODIFIED="1473774432360" TEXT="CTR">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1473774433252" ID="ID_1379878136" MODIFIED="1473774436092" TEXT="Click Through Rate">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1498134464392" ID="ID_636467789" MODIFIED="1555592265161" TEXT="MVP">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1498134468391" ID="ID_1531433752" MODIFIED="1542474561047" TEXT="Minimum Viable Plan">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1555591338462" ID="ID_1770669222" MODIFIED="1555592268088" TEXT="MRR">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1555591343797" ID="ID_1268465932" MODIFIED="1555591352153" TEXT="Mean Reciprocal Rank">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1473774437740" ID="ID_927137545" MODIFIED="1473774438552" TEXT="PV">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1473774439084" ID="ID_35638687" MODIFIED="1473774441136" TEXT="Page Views">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1490033379296" ID="ID_936364644" MODIFIED="1542474769465" TEXT="SEO">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1490033387534" ID="ID_1455216538" MODIFIED="1542474769465" TEXT="search engine optimization">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 </node>
 </map>
