@@ -205,6 +205,7 @@
 <node COLOR="#111111" CREATED="1540924538906" ID="ID_1232290061" MODIFIED="1540924602977" TEXT="dnf upgrade --refresh ">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
+<node COLOR="#111111" CREATED="1556643343684" ID="ID_1712043075" MODIFIED="1556643345830" TEXT="--allowerasing"/>
 </node>
 <node COLOR="#111111" CREATED="1540924546494" ID="ID_1772714190" MODIFIED="1540924602978" TEXT="dnf install dnf-plugin-system-upgrade">
 <font NAME="SansSerif" SIZE="12"/>

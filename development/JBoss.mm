@@ -445,6 +445,9 @@
 <node COLOR="#990000" CREATED="1551380752830" ID="ID_1701214792" LINK="https://kb.novaordis.com/index.php/Jboss-deployment-structure.xml" MODIFIED="1551380770425" TEXT="jboss-deployment-structure.xml">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+<node COLOR="#990000" CREATED="1556641913644" ID="ID_874389679" LINK="https://docs.jboss.org/author/display/AS72/Implicit+module+dependencies+for+deployments" MODIFIED="1556641926927" TEXT="Implicit class loading">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1374079081932" ID="ID_1282432085" MODIFIED="1449067840471" POSITION="left" TEXT="logging">

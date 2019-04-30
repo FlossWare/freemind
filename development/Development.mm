@@ -352,6 +352,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1556632676740" ID="ID_1850127175" MODIFIED="1556641700537" TEXT="SERP">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1556632743459" ID="ID_1257962235" MODIFIED="1556641700537" TEXT="Search Engine Results Pages">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 </node>
 </map>

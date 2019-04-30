@@ -75,5 +75,22 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1556625477768" ID="ID_1122003640" MODIFIED="1556625480659" POSITION="right" TEXT="How To">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1556625487088" ID="ID_877648742" LINK="https://support.mozilla.org/en-US/questions/1038988" MODIFIED="1556625498897" TEXT="How do I make all new tabs open on the far right?">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1556625507008" ID="ID_811433539" MODIFIED="1556625524222" TEXT="about:config">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#990000" CREATED="1556625515590" ID="ID_1622375946" MODIFIED="1556625525749" TEXT="browser.tabs.insertRelatedAfterCurrent">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+<node COLOR="#111111" CREATED="1556625518984" ID="ID_1184581781" MODIFIED="1556625520531" TEXT="false"/>
+</node>
+</node>
+</node>
 </node>
 </map>
