@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1295104454850" ID="ID_1224862914" LINK="../System%20Administration.mm" MODIFIED="1500141116785" TEXT="Cobbler">
+<node COLOR="#000000" CREATED="1295104454850" ID="ID_1224862914" LINK="../System%20Administration.mm" MODIFIED="1557256135124" TEXT="/us">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
@@ -81,8 +81,7 @@
       module = authz_allowall
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
@@ -215,7 +214,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1446925263598" FOLDED="true" ID="ID_1359674463" MODIFIED="1531185774036" POSITION="right" TEXT="2.6.9">
+<node COLOR="#0033ff" CREATED="1446925263598" FOLDED="true" ID="ID_1359674463" MODIFIED="1557256353315" POSITION="right" TEXT="2.6.9">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1446925266878" ID="ID_1048199664" MODIFIED="1446925268650" TEXT="issues">
@@ -492,7 +491,77 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1445822961312" ID="ID_1717005750" MODIFIED="1445822965357" TEXT="Manually">
+<node COLOR="#00b439" CREATED="1557256751578" ID="ID_275790170" LINK="http://www.sohailriaz.com/update-cobbler-signature-file/" MODIFIED="1557256930329" TEXT="Manually">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1557256743196" ID="ID_1011958513" MODIFIED="1557256766601" TEXT="/var/lib/cobbler/distro_signatures.json">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1557258451426" ID="ID_292601801" MODIFIED="1557258456031" TEXT="rhel8">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1557258463170" ID="ID_1107079025" MODIFIED="1557258499831">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&quot;rhel8&quot;: {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;signatures&quot;:[&quot;BaseOS/Packages&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160; &quot;version_file&quot;:&quot;(redhat|sl|slf|centos|oraclelinux|vzlinux)-release-(?!notes)([\\w]*-)*8(Server)*[\\.-]+(.*)\\.rpm&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;version_file_regex&quot;:null,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;kernel_arch&quot;:&quot;kernel-(.*).rpm&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;kernel_arch_regex&quot;:null,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;supported_arches&quot;:[&quot;i386&quot;,&quot;x86_64&quot;,&quot;ppc&quot;,&quot;ppc64&quot;,&quot;ppc64le&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;supported_repo_breeds&quot;:[&quot;rsync&quot;, &quot;rhn&quot;, &quot;yum&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;kernel_file&quot;:&quot;vmlinuz(.*)&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;initrd_file&quot;:&quot;initrd(.*)\\.img&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;isolinux_ok&quot;:false,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;default_kickstart&quot;:&quot;/var/lib/cobbler/kickstarts/sample_end.ks&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;kernel_options&quot;:&quot;&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;kernel_options_post&quot;:&quot;&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;boot_files&quot;:[]
+    </p>
+    <p>
+      &#160;&#160;&#160;},
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1445822961312" FOLDED="true" ID="ID_1717005750" MODIFIED="1557256920178" TEXT="Manually">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1387456258275" ID="ID_1022376173" MODIFIED="1445822967124" TEXT="Old">
