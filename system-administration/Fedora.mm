@@ -259,6 +259,10 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1557503652268" ID="ID_480563785" LINK="https://admin.fedoraproject.org/mirrormanager/mirrors/Fedora" MODIFIED="1557503665089" POSITION="right" TEXT="Mirror Sites">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1545600701868" ID="ID_445055354" MODIFIED="1545600703657" POSITION="left" TEXT="Arm">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
