@@ -42,6 +42,9 @@
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1554307942530" ID="ID_33771260" LINK="https://doc.lucidworks.com/fusion-server/4.2/reference-guides/api/index.html" MODIFIED="1554307953061" TEXT="REST API">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1557933339542" ID="ID_5836861" LINK="https://doc.lucidworks.com/fusion-server/4.2/reference-guides/api/query-pipelines-api.html" MODIFIED="1557933355987" TEXT="Query Pipelines">
+<node COLOR="#111111" CREATED="1557933377621" ID="ID_706865091" MODIFIED="1557933415850" TEXT="curl -u $USER:$PASSWORD http://localhost:8764/api/query-pipelines/[id]"/>
+</node>
 </node>
 <node COLOR="#990000" CREATED="1554209516811" ID="ID_322000577" MODIFIED="1554209518422" TEXT="Documents">
 <font NAME="SansSerif" SIZE="14"/>

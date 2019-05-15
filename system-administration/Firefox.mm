@@ -35,11 +35,7 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1530899638707" ID="ID_1364875223" MODIFIED="1536262429205" TEXT="Nimbus Screen Capture: Screenshots, Annotate">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1533317831777" ID="ID_1499223164" MODIFIED="1536262433969" TEXT="Video DownloadHelper Companion App">
+<node COLOR="#00b439" CREATED="1533317831777" ID="ID_1499223164" MODIFIED="1557933084608" TEXT="Video DownloadHelper Companion App">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1533334140830" ID="ID_378376618" MODIFIED="1536262433970" TEXT="net.downloadhelper.coapp-linux-64">
@@ -62,6 +58,10 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
+</node>
+<node COLOR="#00b439" CREATED="1530899638707" ID="ID_1364875223" MODIFIED="1536262429205" TEXT="Nimbus Screen Capture: Screenshots, Annotate">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1535129016598" ID="ID_1587217002" MODIFIED="1535129020837" POSITION="right" TEXT="Enable flash">
