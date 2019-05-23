@@ -4,149 +4,40 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1499621896651" ID="ID_189857500" MODIFIED="1554054466475" POSITION="right" TEXT="Memory">
+<node COLOR="#0033ff" CREATED="1558619863538" ID="ID_300064803" MODIFIED="1558619866868" POSITION="right" TEXT="How To">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1499621900250" ID="ID_1843127375" MODIFIED="1554054483319" TEXT="export MAVEN_OPTS=&quot;-Xmx[memory] -Xms[memory]&quot;">
+<node COLOR="#00b439" CREATED="1392211583611" FOLDED="true" ID="ID_865892207" MODIFIED="1558620291813" TEXT="Always download artifacts">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1499621900250" ID="ID_44369883" MODIFIED="1554054487100" TEXT="export MAVEN_OPTS=&quot;-Xmx8192m -Xms8192m&quot;">
+<node COLOR="#990000" CREATED="1392211591211" ID="ID_985561507" MODIFIED="1558619953704" TEXT="mvn -U [options]">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1342033371832" ID="ID_904609159" MODIFIED="1342033374830" POSITION="right" TEXT="Dependency tree">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1342033376020" ID="ID_1604554629" MODIFIED="1342033378203" TEXT="mvn dependency:tree">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1350403335807" ID="ID_1584292821" MODIFIED="1350403338138" POSITION="right" TEXT="Checkstyle">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1361561763871" ID="ID_523725178" MODIFIED="1361561766869" TEXT="Check it">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1350403342851" ID="ID_1889058920" MODIFIED="1361561767983" TEXT="mvn checkstyle:checkstyle">
+<node COLOR="#990000" CREATED="1392211600987" ID="ID_470769598" MODIFIED="1558619953704" TEXT="-U">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1361561770487" ID="ID_554369674" MODIFIED="1361561772077" TEXT="Skip it">
+<node COLOR="#00b439" CREATED="1539187389331" ID="ID_848294984" LINK="http://www.vineetmanohar.com/2009/10/how-to-automate-project-versioning-and-release-with-maven/" MODIFIED="1558620222306" TEXT="Automate project versioning and release">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1361561753271" ID="ID_840932696" MODIFIED="1361561773601" TEXT="-Dcheckstyle.skip=true">
+</node>
+<node COLOR="#00b439" CREATED="1342033371832" ID="ID_904609159" MODIFIED="1558619884076" TEXT="Dependency tree">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1342033376020" ID="ID_1604554629" MODIFIED="1558619884077" TEXT="mvn dependency:tree">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1392326034284" ID="ID_647891340" MODIFIED="1392326039821" POSITION="right" TEXT="Offline (use no remote repos)">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1392326041261" ID="ID_1825754538" MODIFIED="1392326054708" TEXT="mvn -o">
+<node COLOR="#00b439" CREATED="1558620052509" FOLDED="true" ID="ID_1202643120" MODIFIED="1558620284783" TEXT="Include">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1355674961836" ID="ID_1112239377" LINK="http://maven.apache.org/guides/introduction/introduction-to-profiles.html" MODIFIED="1355675009540" POSITION="right" TEXT="Profiles">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1355675034404" ID="ID_1381067281" MODIFIED="1355675035644" TEXT="disable">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1355674966013" ID="ID_1187845626" MODIFIED="1355675037034" TEXT="mvn groupId:artifactId:goal -P !profile-1,!profile-2">
+<node COLOR="#990000" CREATED="1357677400097" FOLDED="true" ID="ID_1808226012" MODIFIED="1558620061665" TEXT="test jars">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1391291551924" ID="ID_1719603" MODIFIED="1391291553461" TEXT="list">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1391291556278" ID="ID_1432170678" MODIFIED="1391291563070" TEXT="mvn help:active-profiles">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1391291563780" ID="ID_1573204271" MODIFIED="1391291570132" TEXT="mvn help:all-profiles">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1539187133479" FOLDED="true" ID="ID_1156681775" LINK="http://www.mojohaus.org/build-helper-maven-plugin/parse-version-mojo.html" MODIFIED="1542386400345" POSITION="right" TEXT="Parse version">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1539187196039" ID="ID_1512283918" MODIFIED="1539187199563" TEXT="Increment major">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1539187175815" ID="ID_1894679668" MODIFIED="1539187201317">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#160;&#160;mvn build-helper:parse-version versions:set \
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;-DnewVersion=\${parsedVersion.nextMajorVersion}.0.0 \
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;versions:commit
-    </p>
-  </body>
-</html></richcontent>
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1539187202455" ID="ID_497787736" MODIFIED="1539187205567" TEXT="Increment minor">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1539187219611" ID="ID_66165508" MODIFIED="1539187229497">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <span style="color: #990000; font-size: 116%; font-family: SansSerif, sans-serif"><font color="#990000" size="116%" face="SansSerif, sans-serif">mvn build-helper:parse-version versions:set \ &#160;&#160;&#160;&#160;&#160;-DnewVersion=\${parsedVersion.majorVersion}.\${parsedVersion.nextMinorVersion}.0 \ &#160;&#160;&#160;&#160;&#160;versions:commit</font></span>
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1539187389331" ID="ID_848294984" MODIFIED="1539187400235" POSITION="right" TEXT="Automate project versioning and release">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1539187405591" ID="ID_359138137" MODIFIED="1539187407663" TEXT="http://www.vineetmanohar.com/2009/10/how-to-automate-project-versioning-and-release-with-maven/">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1435614517676" ID="ID_1127490666" MODIFIED="1435614523813" POSITION="right" TEXT="Update properties">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1435614540206" ID="ID_94636217" MODIFIED="1464038014820" TEXT="mvn -U versions:update-properties -DexcludeProperties=&quot;prop1, ..., propN&quot; -DincludeProperties=&quot;prop1, ..., propN&quot;">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1409749280629" ID="ID_688497459" MODIFIED="1542386395786" POSITION="right" TEXT="Sub-project building">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1409749294124" ID="ID_127003641" MODIFIED="1409749326351" TEXT="mvn -am --projects [proj]/.../[sub-proj N]">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1357677400097" FOLDED="true" ID="ID_1808226012" MODIFIED="1542386397242" POSITION="right" TEXT="Include test jars">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1357677406807" ID="ID_473804995" MODIFIED="1357677487321">
+<node COLOR="#111111" CREATED="1357677406807" ID="ID_473804995" MODIFIED="1558620055935">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -179,13 +70,13 @@
   </body>
 </html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1519828980103" FOLDED="true" ID="ID_918630423" MODIFIED="1542386252716" POSITION="right" TEXT="Include own jars for build">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1519828988707" ID="ID_1362254964" MODIFIED="1519829656767">
+<node COLOR="#990000" CREATED="1519828980103" FOLDED="true" ID="ID_918630423" MODIFIED="1558620070209" TEXT="own jars for build">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1519828988707" ID="ID_1362254964" MODIFIED="1558620057494">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -275,179 +166,105 @@
   </body>
 </html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1433878046918" FOLDED="true" ID="ID_1523390593" LINK="http://stackoverflow.com/questions/15767132/how-do-i-skip-a-maven-plugin-execution-if-dskiptests-or-dmaven-test-skip-tr" MODIFIED="1554734682515" POSITION="right" TEXT="Skip plugin execution">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1433878065333" ID="ID_178362328" MODIFIED="1433878138381">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &lt;build&gt;
-    </p>
-    <p>
-      &#160;&#160;&lt;plugins&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;plugin&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;executions&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;execution&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;configuration&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;skip&gt;${maven.test.skip}&lt;/skip&gt;
-    </p>
-  </body>
-</html></richcontent>
+</node>
+<node COLOR="#00b439" CREATED="1499621896651" FOLDED="true" ID="ID_189857500" MODIFIED="1558620285780" TEXT="Memory">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1433878065333" ID="ID_1627927272" MODIFIED="1433878151430">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &lt;build&gt;
-    </p>
-    <p>
-      &#160;&#160;&lt;plugins&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;plugin&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;executions&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;execution&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;configuration&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;skip&gt;${skipTests}&lt;/skip&gt;
-    </p>
-  </body>
-</html></richcontent>
+<node COLOR="#990000" CREATED="1499621900250" ID="ID_1843127375" MODIFIED="1558619884072" TEXT="export MAVEN_OPTS=&quot;-Xmx[memory] -Xms[memory]&quot;">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1541536577119" ID="ID_1680702383" MODIFIED="1541536581599" POSITION="right" TEXT="Skip javadocs">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1541536582247" ID="ID_168698135" MODIFIED="1541536584562" TEXT="-Dmaven.javadoc.skip=true">
+<node COLOR="#990000" CREATED="1499621900250" ID="ID_44369883" MODIFIED="1558619884073" TEXT="export MAVEN_OPTS=&quot;-Xmx8192m -Xms8192m&quot;">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1508420111440" FOLDED="true" ID="ID_353936176" MODIFIED="1542386259488" POSITION="right" TEXT="Store properties to a property file">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1508420126287" ID="ID_468675304" MODIFIED="1508420128265" TEXT="https://stackoverflow.com/questions/3868310/how-can-i-change-a-properties-file-in-maven-depending-on-my-profile">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1508420129431" ID="ID_1147842334" MODIFIED="1508420286265">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &lt;project&gt;
-    </p>
-    <p>
-      &#160;&#160;...
-    </p>
-    <p>
-      &#160;&#160;&lt;properties&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;foo.bar&gt;This is some property&lt;/foo.bar&gt;
-    </p>
-    <p>
-      &#160;&#160;&lt;/properties&gt;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&lt;build&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;resources&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;resource&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;directory&gt;src/main/resources&lt;/directory&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;filtering&gt;true&lt;/filtering&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;/resource&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;/resources&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;...
-    </p>
-    <p>
-      &#160;&#160;&lt;/build&gt;
-    </p>
-    <p>
-      &lt;/project&gt;
-    </p>
-  </body>
-</html></richcontent>
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1508420163232" ID="ID_1113875598" MODIFIED="1508420177447" TEXT="/src/main/resources/[some property file].properties">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1508420189928" ID="ID_1271758649" MODIFIED="1508420213386">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      myprop1 = somevalue
-    </p>
-    <p>
-      myprop2 = ${foo.bar}
-    </p>
-  </body>
-</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1416756874888" FOLDED="true" ID="ID_339276202" LINK="http://manuals.zeroturnaround.com/jrebel/standalone/config.html#maven " MODIFIED="1542386300506" POSITION="right" TEXT="JRebel">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1416497087769" ID="ID_1674778909" MODIFIED="1416756894483" TEXT="Edit pom.xml&apos;s">
+<node COLOR="#00b439" CREATED="1392326034284" ID="ID_647891340" MODIFIED="1558619884196" TEXT="Offline (use no remote repos)">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1416497096361" ID="ID_608509937" MODIFIED="1416756894484">
+<node COLOR="#990000" CREATED="1392326041261" ID="ID_1825754538" MODIFIED="1558619884197" TEXT="mvn -o">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1539187133479" FOLDED="true" ID="ID_1156681775" LINK="http://www.mojohaus.org/build-helper-maven-plugin/parse-version-mojo.html" MODIFIED="1558620249646" TEXT="Parse version">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1539187196039" ID="ID_1512283918" MODIFIED="1558619894786" TEXT="Increment major">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1539187175815" ID="ID_1894679668" MODIFIED="1558619894788">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;mvn build-helper:parse-version versions:set \
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;-DnewVersion=\${parsedVersion.nextMajorVersion}.0.0 \
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;versions:commit
+    </p>
+  </body>
+</html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1539187202455" ID="ID_497787736" MODIFIED="1558619894789" TEXT="Increment minor">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1539187219611" ID="ID_66165508" MODIFIED="1558619894791">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="color: #990000; font-size: 116%; font-family: SansSerif, sans-serif"><font color="#990000" size="116%" face="SansSerif, sans-serif">mvn build-helper:parse-version versions:set \ &#160;&#160;&#160;&#160;&#160;-DnewVersion=\${parsedVersion.majorVersion}.\${parsedVersion.nextMinorVersion}.0 \ &#160;&#160;&#160;&#160;&#160;versions:commit</font></span>
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1558620274411" FOLDED="true" ID="ID_310015860" MODIFIED="1558620287382" TEXT="Plugins">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1350403335807" FOLDED="true" ID="ID_1584292821" MODIFIED="1558620279945" TEXT="Checkstyle">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1361561763871" ID="ID_523725178" MODIFIED="1558620279946" TEXT="Check it">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1350403342851" ID="ID_1889058920" MODIFIED="1558619884080" TEXT="mvn checkstyle:checkstyle">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1361561770487" ID="ID_554369674" MODIFIED="1558620279947" TEXT="Skip it">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1361561753271" ID="ID_840932696" MODIFIED="1558619884081" TEXT="-Dcheckstyle.skip=true">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1416756874888" FOLDED="true" ID="ID_339276202" LINK="http://manuals.zeroturnaround.com/jrebel/standalone/config.html#maven " MODIFIED="1558620279949" TEXT="JRebel">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1416497087769" ID="ID_1674778909" MODIFIED="1558620279950" TEXT="Edit pom.xml&apos;s">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1416497096361" ID="ID_608509937" MODIFIED="1558619884227">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -509,22 +326,60 @@
     </p>
   </body>
 </html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1416497133366" ID="ID_1790857893" MODIFIED="1558620279951" TEXT="mvn jrebel:generate">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1355674961836" FOLDED="true" ID="ID_1112239377" LINK="http://maven.apache.org/guides/introduction/introduction-to-profiles.html" MODIFIED="1558620255151" TEXT="Profiles">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1355675034404" ID="ID_1381067281" MODIFIED="1558619884199" TEXT="disable">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1355674966013" ID="ID_1187845626" MODIFIED="1558619884200" TEXT="mvn groupId:artifactId:goal -P !profile-1,!profile-2">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1416497133366" ID="ID_1790857893" MODIFIED="1416756894491" TEXT="mvn jrebel:generate">
+<node COLOR="#990000" CREATED="1391291551924" ID="ID_1719603" MODIFIED="1558619884200" TEXT="list">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1391291556278" ID="ID_1432170678" MODIFIED="1558619884200" TEXT="mvn help:active-profiles">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1391291563780" ID="ID_1573204271" MODIFIED="1558619884201" TEXT="mvn help:all-profiles">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1558620147653" FOLDED="true" ID="ID_421387062" MODIFIED="1558620168528" TEXT="Projects">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1299613535915" FOLDED="true" ID="ID_1318727193" LINK="http://maven.apache.org/guides/getting-started/" MODIFIED="1542386330718" POSITION="left" TEXT="Generate a project">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1299613545496" ID="ID_122935549" MODIFIED="1299613554050" TEXT="mvn archetype:generate">
+<node COLOR="#990000" CREATED="1489238448689" ID="ID_830008068" MODIFIED="1558620164338" TEXT="Create">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1489238470260" ID="ID_1992977939" MODIFIED="1558620160207" TEXT="mvn archetype:generate -DgroupId=[group id] -DartifactId=[artifact id] -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1489238460356" ID="ID_1132907279" MODIFIED="1558619974807" TEXT="mvn archetype:generate -DgroupId=com.redhat -DartifactId=new-easy-sfdc -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#00b439" CREATED="1417096223648" ID="ID_1279328063" MODIFIED="1417096232555">
+</node>
+</node>
+<node COLOR="#990000" CREATED="1299613535915" ID="ID_1318727193" LINK="http://maven.apache.org/guides/getting-started/" MODIFIED="1558620167127" TEXT="Generate">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1299613545496" ID="ID_122935549" MODIFIED="1558620160210" TEXT="mvn archetype:generate">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1417096223648" ID="ID_1279328063" MODIFIED="1558620160211">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -545,74 +400,131 @@
   </body>
 </html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1489238448689" ID="ID_830008068" MODIFIED="1542386340643" POSITION="left" TEXT="Create project">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1489238470260" ID="ID_1992977939" MODIFIED="1497278006976" TEXT="mvn archetype:generate -DgroupId=[group id] -DartifactId=[artifact id] -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1489238460356" ID="ID_1132907279" MODIFIED="1489238497422" TEXT="mvn archetype:generate -DgroupId=com.redhat -DartifactId=new-easy-sfdc -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1397737516822" ID="ID_66488616" MODIFIED="1544533439630" POSITION="left" TEXT="Run">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1328277908252" ID="ID_1428229623" MODIFIED="1397737534472" TEXT="test">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1542386377306" ID="ID_69859465" MODIFIED="1542386382098" TEXT="Given one">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1328277914064" ID="ID_1149157040" MODIFIED="1543457986751" TEXT="mvn test -Dtest=TheClass">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1328277922955" ID="ID_861043761" MODIFIED="1397737520861" TEXT="TheClass minus package">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#111111" CREATED="1397737562084" ID="ID_1796190096" MODIFIED="1542386384936" TEXT="mvn test -Dtest=TheClass#TheMethod">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#990000" CREATED="1542386363594" ID="ID_1202798211" MODIFIED="1542386367415" TEXT="skip">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1326382026152" ID="ID_272321278" MODIFIED="1542386370101" TEXT="mvn install -DskipTests">
-<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1387903806072" ID="ID_1095477044" MODIFIED="1397737544756" TEXT="class">
+<node COLOR="#00b439" CREATED="1558620086556" ID="ID_142065715" MODIFIED="1558635740429" TEXT="Properties">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1387903817106" ID="ID_869198855" MODIFIED="1488122656207" TEXT="mvn exec:java -Dexec.mainClass=[package].TheClass -Dexec.args=&quot;[Command line params]&quot;">
+<node COLOR="#990000" CREATED="1508420111440" FOLDED="true" ID="ID_353936176" MODIFIED="1558620120047" TEXT="Store to a property file">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1508420126287" ID="ID_468675304" MODIFIED="1558620093049" TEXT="https://stackoverflow.com/questions/3868310/how-can-i-change-a-properties-file-in-maven-depending-on-my-profile">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#990000" CREATED="1500082400800" ID="ID_1347821304" MODIFIED="1500082454320" TEXT="Arbitrary jar">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1500082409476" ID="ID_1104108448" MODIFIED="1500082454321" TEXT="mvn clean install exec:java -Dexec.classpathScope=&quot;compile&quot; -Dexec.mainClass=[FQ_classname]">
+<node COLOR="#111111" CREATED="1508420129431" ID="ID_1147842334" MODIFIED="1558620093050">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;project&gt;
+    </p>
+    <p>
+      &#160;&#160;...
+    </p>
+    <p>
+      &#160;&#160;&lt;properties&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&lt;foo.bar&gt;This is some property&lt;/foo.bar&gt;
+    </p>
+    <p>
+      &#160;&#160;&lt;/properties&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&lt;build&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;resources&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&lt;resource&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;directory&gt;src/main/resources&lt;/directory&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;filtering&gt;true&lt;/filtering&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&lt;/resource&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;/resources&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;...
+    </p>
+    <p>
+      &#160;&#160;&lt;/build&gt;
+    </p>
+    <p>
+      &lt;/project&gt;
+    </p>
+  </body>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1508420163232" ID="ID_1113875598" MODIFIED="1558620093051" TEXT="/src/main/resources/[some property file].properties">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1508420189928" ID="ID_1271758649" MODIFIED="1558619884224">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      myprop1 = somevalue
+    </p>
+    <p>
+      myprop2 = ${foo.bar}
+    </p>
+  </body>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
+<node COLOR="#990000" CREATED="1435614517676" ID="ID_1127490666" MODIFIED="1558620123425" TEXT="Update">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1435614540206" ID="ID_94636217" MODIFIED="1558620093055" TEXT="mvn -U versions:update-properties -DexcludeProperties=&quot;prop1, ..., propN&quot; -DincludeProperties=&quot;prop1, ..., propN&quot;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1391534085330" FOLDED="true" ID="ID_1998987545" MODIFIED="1553265297888" POSITION="left" TEXT="Repository">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1391534089238" ID="ID_1620183318" MODIFIED="1391534091312" TEXT="pom.xml">
+</node>
+<node COLOR="#990000" CREATED="1558635744511" ID="ID_1141591322" LINK="https://maven.apache.org/plugins/maven-help-plugin/evaluate-mojo.html" MODIFIED="1558635831283" TEXT="Print a property">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1558635847630" ID="ID_1567269402" MODIFIED="1558639204612">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8">RESULT=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)
+echo $RESULT</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1391534085330" FOLDED="true" ID="ID_1998987545" MODIFIED="1558620191623" TEXT="Repository">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1391534092248" ID="ID_635184147" MODIFIED="1391534129473">
+<node COLOR="#990000" CREATED="1391534089238" ID="ID_1620183318" MODIFIED="1558620189067" TEXT="pom.xml">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1391534092248" ID="ID_635184147" MODIFIED="1558620189067">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -641,7 +553,7 @@
     </p>
   </body>
 </html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1391534131831" ID="ID_311716285" MODIFIED="1391534149769">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -675,24 +587,143 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1429361607931" ID="ID_1516105034" MODIFIED="1429361613347" TEXT="Choose a different one">
+<node COLOR="#990000" CREATED="1429361607931" ID="ID_1516105034" MODIFIED="1558620189068" TEXT="Choose a different one">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1429361614971" ID="ID_1600175886" MODIFIED="1558620189069" TEXT="-Dmaven.repo.local=/path/to/repository">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1397737516822" FOLDED="true" ID="ID_66488616" MODIFIED="1558620304687" TEXT="Run">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1429361614971" ID="ID_1600175886" MODIFIED="1429361617943" TEXT="-Dmaven.repo.local=/path/to/repository">
+<node COLOR="#990000" CREATED="1328277908252" ID="ID_1428229623" MODIFIED="1558619986963" TEXT="test">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1542386377306" ID="ID_69859465" MODIFIED="1558619986964" TEXT="Given one">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1328277914064" ID="ID_1149157040" MODIFIED="1543457986751" TEXT="mvn test -Dtest=TheClass">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1328277922955" ID="ID_861043761" MODIFIED="1397737520861" TEXT="TheClass minus package">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1397737562084" ID="ID_1796190096" MODIFIED="1542386384936" TEXT="mvn test -Dtest=TheClass#TheMethod">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1542386363594" ID="ID_1202798211" MODIFIED="1558619986965" TEXT="skip">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1326382026152" ID="ID_272321278" MODIFIED="1542386370101" TEXT="mvn install -DskipTests">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1387903806072" ID="ID_1095477044" MODIFIED="1558619986966" TEXT="class">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1387903817106" ID="ID_869198855" MODIFIED="1558619986967" TEXT="mvn exec:java -Dexec.mainClass=[package].TheClass -Dexec.args=&quot;[Command line params]&quot;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1500082400800" ID="ID_1347821304" MODIFIED="1558619986968" TEXT="Arbitrary jar">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1500082409476" ID="ID_1104108448" MODIFIED="1500082454321" TEXT="mvn clean install exec:java -Dexec.classpathScope=&quot;compile&quot; -Dexec.mainClass=[FQ_classname]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1409749280629" ID="ID_688497459" MODIFIED="1558619912695" TEXT="Sub-project building">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1409749294124" ID="ID_127003641" MODIFIED="1558619884212" TEXT="mvn -am --projects [proj]/.../[sub-proj N]">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1392211583611" FOLDED="true" ID="ID_865892207" MODIFIED="1542386334064" POSITION="left" TEXT="Always download artifacts">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1392211591211" ID="ID_985561507" MODIFIED="1392211599855" TEXT="mvn -U [options]">
+<node COLOR="#00b439" CREATED="1433878046918" FOLDED="true" ID="ID_1523390593" LINK="http://stackoverflow.com/questions/15767132/how-do-i-skip-a-maven-plugin-execution-if-dskiptests-or-dmaven-test-skip-tr" MODIFIED="1558619884217" TEXT="Skip plugin execution">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1433878065333" ID="ID_178362328" MODIFIED="1558619884218">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;build&gt;
+    </p>
+    <p>
+      &#160;&#160;&lt;plugins&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;plugin&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&lt;executions&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;execution&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;configuration&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;skip&gt;${maven.test.skip}&lt;/skip&gt;
+    </p>
+  </body>
+</html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1392211600987" ID="ID_470769598" MODIFIED="1392211602913" TEXT="-U">
+<node COLOR="#990000" CREATED="1433878065333" ID="ID_1627927272" MODIFIED="1558619884218">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;build&gt;
+    </p>
+    <p>
+      &#160;&#160;&lt;plugins&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;plugin&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&lt;executions&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;execution&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;configuration&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;skip&gt;${skipTests}&lt;/skip&gt;
+    </p>
+  </body>
+</html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1541536577119" ID="ID_1680702383" MODIFIED="1558619884220" TEXT="Skip javadocs">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1541536582247" ID="ID_168698135" MODIFIED="1558619884220" TEXT="-Dmaven.javadoc.skip=true">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1550868818538" ID="ID_1997382875" MODIFIED="1550868828516" POSITION="left" TEXT="Links">
@@ -728,6 +759,10 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+</node>
+<node COLOR="#0033ff" CREATED="1558619999596" ID="ID_996191348" LINK="https://github.com/cko/predefined_maven_properties/blob/master/README.md" MODIFIED="1558620017428" POSITION="left" TEXT="Builtin Properties">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
 </node>
 </node>
 </map>
