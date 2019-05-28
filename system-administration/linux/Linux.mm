@@ -570,6 +570,31 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1559067803930" ID="ID_1657371006" MODIFIED="1559067836573" TEXT="Setting kernel to boot">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1559067811524" ID="ID_318643706" MODIFIED="1559067832985">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      grub2-mkconfig -o /boot/grub2/grub.cfg
+    </p>
+    <p>
+      grep &quot;^menuentry&quot; /boot/grub2/grub.cfg | cut -d &quot;'&quot; -f2
+    </p>
+    <p>
+      grub2-set-default '<b><i>some kernel'</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1559067926339" ID="ID_85488264" MODIFIED="1559067928898" TEXT="grub2-set-default &apos;Red Hat Enterprise Linux Server (3.10.0-957.12.2.el7.x86_64) 7.6 (Maipo)&apos;"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1550614150935" ID="ID_1666492739" MODIFIED="1550614155229" TEXT="Swap">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -1256,23 +1281,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1540229266544" ID="ID_49843471" MODIFIED="1542468538895" TEXT="systemctl">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1540239323760" ID="ID_329661956" MODIFIED="1542468527974" TEXT="cp [service] /etc/systemd/system">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1540229278143" ID="ID_1298123890" MODIFIED="1542468527975" TEXT="enable [service name]">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1540229286440" ID="ID_1806764778" MODIFIED="1542468527975" TEXT="daemon-reload">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1517766941327" FOLDED="true" ID="ID_747528722" MODIFIED="1542309077913" TEXT="systemctl">
+<node COLOR="#00b439" CREATED="1517766941327" ID="ID_747528722" MODIFIED="1558787034402" TEXT="systemctl">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1517766926249" ID="ID_1755806479" MODIFIED="1541706732134" TEXT="show [name].service">
