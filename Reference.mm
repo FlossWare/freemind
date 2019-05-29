@@ -23,6 +23,18 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1559152494945" ID="ID_312875900" MODIFIED="1559152498241" POSITION="right" TEXT="Hardware">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1559152502507" ID="ID_1236957389" LINK="http://fritzing.org/home/" MODIFIED="1559152512500" TEXT="Frtizing">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1559152660658" ID="ID_872534754" LINK="https://www.servermonkey.com/" MODIFIED="1559152694480" TEXT="Server Monkey">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1542471118926" ID="ID_1292807881" MODIFIED="1542471133534" POSITION="left" TEXT="Library">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
