@@ -513,8 +513,7 @@
     <pre http-equiv="content-type" content="text/html; charset=utf-8">RESULT=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)
 echo $RESULT</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -595,7 +594,7 @@ echo $RESULT</pre>
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1397737516822" FOLDED="true" ID="ID_66488616" MODIFIED="1558620304687" TEXT="Run">
+<node COLOR="#00b439" CREATED="1397737516822" ID="ID_66488616" MODIFIED="1559241798543" TEXT="Run">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1328277908252" ID="ID_1428229623" MODIFIED="1558619986963" TEXT="test">
