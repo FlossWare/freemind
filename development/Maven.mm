@@ -170,6 +170,13 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1559395411140" ID="ID_9816414" MODIFIED="1559395426889" TEXT="Examine how super pom affects your pom">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1559395432981" ID="ID_712113826" MODIFIED="1559395435635" TEXT="mvn help:effective-pom">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1499621896651" FOLDED="true" ID="ID_189857500" MODIFIED="1558620285780" TEXT="Memory">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -759,9 +766,25 @@ echo $RESULT</pre>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1558619999596" ID="ID_996191348" LINK="https://github.com/cko/predefined_maven_properties/blob/master/README.md" MODIFIED="1558620017428" POSITION="left" TEXT="Builtin Properties">
+<node COLOR="#0033ff" CREATED="1559395500430" ID="ID_787574938" MODIFIED="1559395503084" POSITION="left" TEXT="Properties">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1558619999596" ID="ID_996191348" LINK="https://github.com/cko/predefined_maven_properties/blob/master/README.md" MODIFIED="1559395508611" TEXT="Builtin">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1559395514789" ID="ID_1393340435" MODIFIED="1559395517058" TEXT="env.x">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1559395518871" ID="ID_1403662029" MODIFIED="1559395521506" TEXT="project.x">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1559395521918" ID="ID_561047594" MODIFIED="1559395523954" TEXT="settings.x">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 </node>
 </map>
