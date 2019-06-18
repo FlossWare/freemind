@@ -751,6 +751,17 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1560884866705" ID="ID_1517871647" MODIFIED="1560884873347" POSITION="right" TEXT="DD-WRT">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1560884876631" ID="ID_914651843" MODIFIED="1560884879098" TEXT="smbshare">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1560884885671" ID="ID_1279852085" MODIFIED="1560884888739" TEXT="chown -R _apt /var/lib/apt/lists/partial">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1514137907369" ID="ID_1594613518" MODIFIED="1514137909879" POSITION="left" TEXT="apt">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
