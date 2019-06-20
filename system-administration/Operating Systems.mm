@@ -66,6 +66,9 @@
 <node COLOR="#111111" CREATED="1507036690457" ID="ID_59675579" LINK="entware-ng.mm" MODIFIED="1545491664325" TEXT="entware-ng">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1561048911757" ID="ID_745476983" MODIFIED="1561048913969" TEXT="Packages">
+<node COLOR="#111111" CREATED="1561048924731" ID="ID_740065558" LINK="http://bin.entware.net/armv7sf-k3.2/Packages.html" MODIFIED="1561048937718" TEXT="armv7"/>
+</node>
 </node>
 <node COLOR="#111111" CREATED="1508421334102" ID="ID_1166226396" LINK="optware-ng.mm" MODIFIED="1545491664327" TEXT="optware-ng">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
