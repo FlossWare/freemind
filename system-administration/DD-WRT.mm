@@ -286,6 +286,24 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1561139950229" ID="ID_1195339995" MODIFIED="1561139955328" POSITION="right" TEXT="CIFS Automount">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1561139967325" ID="ID_1390299378" LINK="https://wiki.dd-wrt.com/wiki/index.php/Samba" MODIFIED="1561139985780" POSITION="right" TEXT="Samba Client">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1561140002709" ID="ID_725854281" MODIFIED="1561140006750" TEXT="Startup Script">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1561140014684" ID="ID_919673204" MODIFIED="1561140023537" TEXT="\\lanserver\myshare\startup.sh">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1561140024500" ID="ID_240180703" MODIFIED="1561140031211" TEXT="/tmp/smbshare/startup.sh">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1467366654373" ID="ID_1200080093" MODIFIED="1467366658910" POSITION="left" TEXT="default creds">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
