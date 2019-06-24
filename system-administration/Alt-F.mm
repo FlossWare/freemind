@@ -53,6 +53,9 @@
 <node COLOR="#111111" CREATED="1509858426093" ID="ID_852098723" MODIFIED="1509865865595" TEXT="tftpd xinetd"/>
 <node COLOR="#111111" CREATED="1509860986591" ID="ID_1852964178" MODIFIED="1509860988714" TEXT="bash-completion"/>
 <node COLOR="#111111" CREATED="1510107379291" ID="ID_1264625252" MODIFIED="1510107382606" TEXT="python-pip"/>
+<node COLOR="#111111" CREATED="1561380092952" ID="ID_506797884" MODIFIED="1561380109740" TEXT="aptitude">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node COLOR="#990000" CREATED="1510107385952" ID="ID_174352465" MODIFIED="1510107391109" TEXT="pip-install">
 <font NAME="SansSerif" SIZE="14"/>
@@ -162,6 +165,10 @@
 <node COLOR="#111111" CREATED="1509868222559" ID="ID_1368513773" MODIFIED="1509868224721" TEXT="inetutils-inetd tftpd"/>
 <node COLOR="#111111" CREATED="1509929342014" ID="ID_518160332" MODIFIED="1509929343962" TEXT="isolinux"/>
 <node COLOR="#111111" CREATED="1509930914308" ID="ID_686130767" MODIFIED="1509930916550" TEXT="xorriso"/>
+<node COLOR="#111111" CREATED="1561378085990" ID="ID_1114063264" LINK="https://stackoverflow.com/questions/23937933/could-not-run-curl-config-errno-2-no-such-file-or-directory-when-installing#24051044" MODIFIED="1561378151194" TEXT="libcurl4-openssl-dev">
+<node COLOR="#111111" CREATED="1561378125968" ID="ID_592432642" MODIFIED="1561378127569" TEXT="Could not run curl-config: [Errno 2] No such file or directory: &apos;curl-config&apos; "/>
+</node>
+<node COLOR="#111111" CREATED="1561378998600" ID="ID_29499079" MODIFIED="1561379000669" TEXT="pycurl"/>
 </node>
 <node COLOR="#990000" CREATED="1509872072358" ID="ID_847187039" MODIFIED="1509872074737" TEXT="building">
 <font NAME="SansSerif" SIZE="14"/>
@@ -358,8 +365,7 @@
       <b><i>&lt;/Directory&gt;</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
