@@ -450,7 +450,7 @@
 </node>
 <node COLOR="#990000" CREATED="1561054237806" ID="ID_1110496424" LINK="https://kb.novaordis.com/index.php/WildFly_Modules" MODIFIED="1561055651822" TEXT="Modules">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1561055689678" ID="ID_1943862252" LINK="https://kb.novaordis.com/index.php/Module.xml" MODIFIED="1561055702912" TEXT="module.xml"/>
+<node COLOR="#111111" CREATED="1561055689678" ID="ID_1943862252" LINK="https://kb.novaordis.com/index.php/Module.xml" MODIFIED="1561476321026" TEXT="module.xml"/>
 <node COLOR="#111111" CREATED="1561054243527" ID="ID_1594460691" LINK="https://jboss-modules.github.io/jboss-modules/manual/" MODIFIED="1561054252249" TEXT="1.x"/>
 </node>
 </node>
