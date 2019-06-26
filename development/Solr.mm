@@ -304,7 +304,15 @@
 <node COLOR="#0033ff" CREATED="1544046737160" ID="ID_1564329383" MODIFIED="1544046741267" POSITION="right" TEXT="How To">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1537828828378" ID="ID_9400884" LINK="https://stackoverflow.com/questions/16943134/how-do-i-get-solr-back-up-when-indexes-are-locked-and-unlockonstartuptrue-does#21947891" MODIFIED="1544046743350" TEXT="Cleaning up locks">
+<node COLOR="#00b439" CREATED="1561570048975" ID="ID_1859004361" LINK="https://gist.github.com/manisnesan/1747f6a7954c1c17d310d93492204f26" MODIFIED="1561575062435" TEXT="Backups">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1561575006820" ID="ID_808197772" LINK="https://gist.github.com/manisnesan/f97de0f35b779c34c2938df37e38c2c8" MODIFIED="1561575068965" TEXT="Active/Passive (or Two Collection) Pattern">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1537828828378" ID="ID_9400884" LINK="https://stackoverflow.com/questions/16943134/how-do-i-get-solr-back-up-when-indexes-are-locked-and-unlockonstartuptrue-does#21947891" MODIFIED="1561575070006" TEXT="Cleaning up locks">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1537828852178" ID="ID_761143480" MODIFIED="1544046743350" TEXT="find data/solr -name \*ock | xargs rm -rf">
@@ -333,7 +341,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1472144268418" FOLDED="true" ID="ID_1785894165" MODIFIED="1544464609403" POSITION="right" TEXT="Solr Unleashed">
+<node COLOR="#0033ff" CREATED="1472144268418" FOLDED="true" ID="ID_1785894165" MODIFIED="1544464609403" POSITION="left" TEXT="Solr Unleashed">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1472150598592" ID="ID_456208300" MODIFIED="1472150600324" TEXT="Queries">
