@@ -285,7 +285,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1510695562473" ID="ID_440402913" MODIFIED="1510695586056" TEXT="https://github.com/livecd-tools/livecd-tools.git ">
+<node COLOR="#990000" CREATED="1510695562473" ID="ID_440402913" MODIFIED="1561590247298" TEXT="https://github.com/livecd-tools/livecd-tools.git ">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1510695588991" ID="ID_1668367574" MODIFIED="1510695629256" TEXT="ln -s /bin/sed /usr/bin/sed"/>
 <node COLOR="#111111" CREATED="1510695645827" ID="ID_1533490088" MODIFIED="1510695648011" TEXT="make install"/>

@@ -501,62 +501,60 @@
 <node COLOR="#990000" CREATED="1557258451426" ID="ID_292601801" MODIFIED="1557258456031" TEXT="rhel8">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1557258463170" ID="ID_1107079025" MODIFIED="1557258499831">
+<node COLOR="#111111" CREATED="1557258463170" ID="ID_1107079025" MODIFIED="1561588787511">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &#160;&#160;&#160;&quot;rhel8&quot;: {
+      &quot;rhel8&quot;: {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;signatures&quot;:[&quot;BaseOS/Packages&quot;],
+      &quot;signatures&quot;:[&quot;BaseOS/Packages&quot;],&#160; &quot;version_file&quot;:&quot;(redhat|sl|slf|centos|oraclelinux|vzlinux)-release-(?!notes)([\\w]*-)*8(Server)*[\\.-]+(.*)\\.rpm&quot;,
     </p>
     <p>
-      &#160;&#160;&#160; &quot;version_file&quot;:&quot;(redhat|sl|slf|centos|oraclelinux|vzlinux)-release-(?!notes)([\\w]*-)*8(Server)*[\\.-]+(.*)\\.rpm&quot;,
+      &quot;version_file_regex&quot;:null,
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;version_file_regex&quot;:null,
+      &quot;kernel_arch&quot;:&quot;kernel-(.*).rpm&quot;,
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;kernel_arch&quot;:&quot;kernel-(.*).rpm&quot;,
+      &quot;kernel_arch_regex&quot;:null,
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;kernel_arch_regex&quot;:null,
+      &quot;supported_arches&quot;:[&quot;i386&quot;,&quot;x86_64&quot;,&quot;ppc&quot;,&quot;ppc64&quot;,&quot;ppc64le&quot;],
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;supported_arches&quot;:[&quot;i386&quot;,&quot;x86_64&quot;,&quot;ppc&quot;,&quot;ppc64&quot;,&quot;ppc64le&quot;],
+      &quot;supported_repo_breeds&quot;:[&quot;rsync&quot;, &quot;rhn&quot;, &quot;yum&quot;],
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;supported_repo_breeds&quot;:[&quot;rsync&quot;, &quot;rhn&quot;, &quot;yum&quot;],
+      &quot;kernel_file&quot;:&quot;vmlinuz(.*)&quot;,
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;kernel_file&quot;:&quot;vmlinuz(.*)&quot;,
+      &quot;initrd_file&quot;:&quot;initrd(.*)\\.img&quot;,
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;initrd_file&quot;:&quot;initrd(.*)\\.img&quot;,
+      &quot;isolinux_ok&quot;:false,
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;isolinux_ok&quot;:false,
+      &quot;default_kickstart&quot;:&quot;/var/lib/cobbler/kickstarts/sample_end.ks&quot;,
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;default_kickstart&quot;:&quot;/var/lib/cobbler/kickstarts/sample_end.ks&quot;,
+      &quot;kernel_options&quot;:&quot;&quot;,
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;kernel_options&quot;:&quot;&quot;,
+      &quot;kernel_options_post&quot;:&quot;&quot;,
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;kernel_options_post&quot;:&quot;&quot;,
+      &quot;boot_files&quot;:[]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;boot_files&quot;:[]
-    </p>
-    <p>
-      &#160;&#160;&#160;},
+      },
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
