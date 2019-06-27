@@ -392,7 +392,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1481819759390" FOLDED="true" ID="ID_1875215219" MODIFIED="1561570949018" POSITION="right" TEXT="jcliff">
+<node COLOR="#0033ff" CREATED="1481819759390" FOLDED="true" ID="ID_1875215219" MODIFIED="1561665226850" POSITION="right" TEXT="jcliff">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1481819750010" ID="ID_475059328" MODIFIED="1561570946494" TEXT="/usr/bin/jcliff --cli=/usr/share/jbossas/bin/jboss-cli.sh --controller=10.7.25.116:9999 -v --output=/var/log/jcliff/jbosscfg.log /etc/redhat/eap6/*.conf">
@@ -473,6 +473,34 @@
 <node COLOR="#00b439" CREATED="1561570896973" ID="ID_1262236718" LINK="https://docs.jboss.org/resteasy/docs/3.6.2.Final/userguide/html_single/index.html" MODIFIED="1561570911414" TEXT="3.6.2.Final">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1561665231156" ID="ID_502040851" MODIFIED="1561665234628" POSITION="right" TEXT="How To">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1561665236880" ID="ID_1062473325" LINK="https://stackoverflow.com/questions/35462401/wildfly-management-list-detect-rest-endpoints-deployed-in-wildfly#answer-42161443" MODIFIED="1561665372359" TEXT="List all REST end points">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1561665266000" ID="ID_814805702" MODIFIED="1561665268453" TEXT="web.xml">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1561665280681" ID="ID_470548575" MODIFIED="1561665314367">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="default prettyprint prettyprinted"><code>&lt;context-param&gt;
+&#160;&#160;&#160; &lt;param-name&gt;resteasy.resources&lt;/param-name&gt;
+&#160;&#160;&#160; &lt;param-value&gt;org.jboss.resteasy.plugins.stats.RegistryStatsResource&lt;/param-value&gt;
+&lt;/context-param</code></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1561665354264" ID="ID_742136813" MODIFIED="1561665355228" TEXT="http://[hostname]:[port]/[context]/[api-path]/resteasy/registry">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1374079081932" ID="ID_1282432085" MODIFIED="1449067840471" POSITION="left" TEXT="logging">
