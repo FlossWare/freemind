@@ -512,6 +512,14 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1561745075115" ID="ID_494086491" MODIFIED="1561745076535" TEXT="NFS">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1561745080673" ID="ID_133527596" LINK="https://www.cyberciti.biz/faq/howto-see-shares-on-nfs-server-exported-filesystems/" MODIFIED="1561745142358" TEXT="Show shares">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1561745087634" ID="ID_1055697712" MODIFIED="1561745096942" TEXT="showmount [options] [host | ip]"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1543241518034" ID="ID_182976986" LINK="https://debian-administration.org/article/178/An_introduction_to_port_scanning_with_nmap" MODIFIED="1543241536606" TEXT="Port Scan">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -589,8 +597,7 @@
       grub2-set-default '<b><i>some kernel'</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1559067926339" ID="ID_85488264" MODIFIED="1559067928898" TEXT="grub2-set-default &apos;Red Hat Enterprise Linux Server (3.10.0-957.12.2.el7.x86_64) 7.6 (Maipo)&apos;"/>
 </node>
