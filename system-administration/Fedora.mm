@@ -194,7 +194,24 @@
 <node COLOR="#0033ff" CREATED="1540924338190" ID="ID_804417128" MODIFIED="1540924340294" POSITION="right" TEXT="Upgrade">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1540924345203" ID="ID_962325158" MODIFIED="1540924352812" TEXT="system-upgrade">
+<node COLOR="#00b439" CREATED="1562245074003" ID="ID_1590691" LINK="https://fedoramagazine.org/upgrading-fedora-29-to-fedora-30/" MODIFIED="1562245093308" TEXT="29 to 30">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1562245110456" ID="ID_1636213577" MODIFIED="1562245133276" TEXT="dnf upgrade --refresh">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1556643343684" ID="ID_284752530" MODIFIED="1556643345830" TEXT="--allowerasing"/>
+</node>
+<node COLOR="#990000" CREATED="1562245116072" ID="ID_110291475" MODIFIED="1562245129938" TEXT="dnf install dnf-plugin-system-upgrade">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1562245122785" ID="ID_461912441" MODIFIED="1562245124447" TEXT="dnf system-upgrade download --releasever=30">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1562245140000" ID="ID_1453423890" MODIFIED="1562245141600" TEXT="dnf system-upgrade reboot">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1540924345203" FOLDED="true" ID="ID_962325158" LINK="https://tecadmin.net/upgrade-fedora/" MODIFIED="1562245160763" TEXT="system-upgrade">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1540924595026" ID="ID_1102796344" MODIFIED="1540924597142" TEXT="https://tecadmin.net/upgrade-fedora/">
@@ -221,7 +238,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1449686779889" ID="ID_50212624" MODIFIED="1545600571884" TEXT="FedUp">
+<node COLOR="#00b439" CREATED="1449686779889" FOLDED="true" ID="ID_50212624" MODIFIED="1562245065773" TEXT="FedUp">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1449686807008" ID="ID_1143948262" MODIFIED="1540924342333" TEXT="Install">
