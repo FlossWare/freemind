@@ -286,6 +286,14 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1562359381110" ID="ID_1456389101" LINK="https://www.puppetcookbook.com/" MODIFIED="1562359390169" POSITION="right" TEXT="Cookbook">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1562359414158" ID="ID_995176258" LINK="https://www.puppetcookbook.com/posts/creating-a-directory-tree.html" MODIFIED="1562359427197" TEXT="Create a directory tree">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1352291821651" ID="ID_395338285" MODIFIED="1352291828840" POSITION="left" TEXT="Certificates">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -489,10 +497,14 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1278347162656" ID="ID_1283431338" LINK="https://www.tutorialspoint.com/puppet/puppet_template.htm" MODIFIED="1562359366600" TEXT="Templates">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1562359031965" ID="ID_1890580128" MODIFIED="1562359366602" TEXT="$foo = template(&apos;/path/to/template1&apos;,&apos;/path/to/template2&apos;)">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#0033ff" CREATED="1278347162656" ID="ID_1283431338" MODIFIED="1278347165280" POSITION="left" TEXT="Templates">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
+</node>
 </node>
 </node>
 </map>
