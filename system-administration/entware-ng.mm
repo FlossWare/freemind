@@ -314,6 +314,10 @@
 <icon BUILTIN="full-2"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1562430030108" ID="ID_72428930" LINK="https://wiki.dd-wrt.com/wiki/index.php/Installing_Entware" MODIFIED="1562430042277" TEXT="DD-WRT Install">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1561048911757" ID="ID_745476983" MODIFIED="1562429759531" POSITION="left" TEXT="Packages">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
