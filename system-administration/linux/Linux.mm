@@ -571,11 +571,22 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1545492236515" ID="ID_57702405" LINK="https://www.linuxquestions.org/questions/linux-newbie-8/run-screen-session-in-a-screen-session-4175429702/" MODIFIED="1545492248927" TEXT="Screen session in a screen session">
+<node COLOR="#00b439" CREATED="1562605460524" ID="ID_358190372" MODIFIED="1562605462440" TEXT="Screen">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1545492256015" ID="ID_1696058937" MODIFIED="1545492258040" TEXT="ctrl-a-a">
+<node COLOR="#990000" CREATED="1545492236515" ID="ID_57702405" LINK="https://www.linuxquestions.org/questions/linux-newbie-8/run-screen-session-in-a-screen-session-4175429702/" MODIFIED="1562605464434" TEXT="Screen session in a screen session">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1545492256015" ID="ID_1696058937" MODIFIED="1562605464436" TEXT="ctrl-a-a">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1562605466413" ID="ID_1550930900" LINK="https://serverfault.com/questions/244294/how-to-re-order-windows-change-the-scroll-shortcut-and-modify-the-status-bar-c" MODIFIED="1562605480780" TEXT="Move to new position">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1562605511364" ID="ID_467429669" MODIFIED="1562605533088" TEXT="ctrl-a [: number X]"/>
+<node COLOR="#111111" CREATED="1562605534948" ID="ID_1789343125" MODIFIED="1562605544304" TEXT="ctrl-a :0 X">
+<node COLOR="#111111" CREATED="1562605547660" ID="ID_138776808" MODIFIED="1562605557944" TEXT="Moves current session to the 0th one"/>
+</node>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1559067803930" ID="ID_1657371006" MODIFIED="1559067836573" TEXT="Setting kernel to boot">
@@ -2116,6 +2127,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 <node COLOR="#990000" CREATED="1533155948754" ID="ID_791131340" MODIFIED="1533155950643" TEXT="grubby --info /boot/vmlinuz-4.17.9-200.fc28.x86_64">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1562605489725" ID="ID_1996589342" MODIFIED="1562605489726" TEXT=""/>
 </node>
 </node>
 </node>
