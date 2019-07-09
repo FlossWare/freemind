@@ -106,6 +106,49 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1562699297935" ID="ID_755003992" MODIFIED="1562699307125" TEXT="Transaction">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1562699277879" ID="ID_1921985639" MODIFIED="1562699313835" TEXT="Parse values from different lines">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1562699257896" ID="ID_1052368137" MODIFIED="1562699305113">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      index=rh_jboss host=gss-diag*.web.prod*
+    </p>
+    <p>
+      | transaction host startswith=&quot;Starting processing of documentation message...&quot; endswith=&quot;interrupted due to&quot;
+    </p>
+    <p>
+      | rex field=_raw &quot;.+Started processing documentation with id \[(?&lt;doc&gt;[^\]]+)\]&quot;
+    </p>
+    <p>
+      | rex field=_raw &quot;.+in current environment \[(?&lt;locale&gt;[^\]]+)\]&quot;
+    </p>
+    <p>
+      | rex field=_raw &quot;.+Trying to (?&lt;action&gt;[^\[]+)\[(?&lt;url&gt;[^\]]+)\]&quot;
+    </p>
+    <p>
+      | rex field=_raw &quot;.+Received \[(?&lt;http_status&gt;[^\]]+)\].+with message \[(?&lt;failure&gt;[^\]]+)\]&quot;
+    </p>
+    <p>
+      | rex field=_raw &quot;.+Message processing of \[(?&lt;msg&gt;[^\]]+)\]&quot;
+    </p>
+    <p>
+      | table doc, locale, url, http_status, failure, action, msg
+    </p>
+  </body>
+</html></richcontent>
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1545080182273" ID="ID_1748386967" LINK="https://answers.splunk.com/answers/154184/how-to-get-distinct-values-of-one-field-by-another-field.html" MODIFIED="1545080229636" TEXT="Unique values on field(s)">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -114,7 +157,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1545070223387" ID="ID_735776813" MODIFIED="1545070228584" POSITION="right" TEXT="Change default app">
+<node COLOR="#0033ff" CREATED="1545070223387" FOLDED="true" ID="ID_735776813" MODIFIED="1562701676951" POSITION="right" TEXT="Change default app">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1545070322859" ID="ID_703715876" MODIFIED="1545070394289" TEXT="User name">
