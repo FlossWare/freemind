@@ -758,6 +758,16 @@ echo $RESULT</pre>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1563058751404" ID="ID_1425441691" LINK="http://www.mojohaus.org/rpm-maven-plugin/" MODIFIED="1563063389516" TEXT="RPM">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1563058804396" ID="ID_772331945" LINK="http://www.mojohaus.org/rpm-maven-plugin/usage.html" MODIFIED="1563058812519" TEXT="Usage">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1563058762396" ID="ID_230260782" LINK="http://www.mojohaus.org/rpm-maven-plugin/map-params.html" MODIFIED="1563058778767" TEXT="Mapping Parameters">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1551284221708" ID="ID_662455897" LINK="https://maven.apache.org/plugins/maven-ear-plugin/" MODIFIED="1551284279805" TEXT="EAR">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

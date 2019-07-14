@@ -112,11 +112,11 @@
 <node COLOR="#00b439" CREATED="1525443852070" ID="ID_1083252400" MODIFIED="1539537597072" TEXT="To create">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1525443805510" ID="ID_156355171" MODIFIED="1539537597072" TEXT="apt-get install qemu-user-static debootstrap binfmt-support qemu-system-arm">
+<node COLOR="#990000" CREATED="1525443805510" ID="ID_156355171" MODIFIED="1563069405037" TEXT="apt-get install -y qemu-user-static debootstrap binfmt-support qemu-system-arm">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1525443829748" ID="ID_742672828" MODIFIED="1539537597073">
+<node COLOR="#990000" CREATED="1525443829748" ID="ID_742672828" MODIFIED="1563069506199">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -126,10 +126,11 @@
       targetdir=rootfs
     </p>
     <p>
-      distro=stretch
+      distro=buster
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
@@ -168,20 +169,21 @@
 </node>
 <node COLOR="#990000" CREATED="1525443892631" ID="ID_1870134531" MODIFIED="1539537597074" TEXT="chroot $targetdir">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1525443904003" ID="ID_1099887261" MODIFIED="1525443921028">
+<node COLOR="#111111" CREATED="1525443904003" ID="ID_1099887261" MODIFIED="1563069488049">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      distro=wheezy
+      distro=buster
     </p>
     <p>
       export LANG=C
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#111111" CREATED="1525443928199" ID="ID_67024809" MODIFIED="1525443930075" TEXT="/debootstrap/debootstrap --second-stage"/>
@@ -219,22 +221,25 @@
 </html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1525443946171" ID="ID_205409691" MODIFIED="1525443948072" TEXT="apt-get update"/>
-<node COLOR="#111111" CREATED="1525443951547" ID="ID_453769862" MODIFIED="1525443956010">
+<node COLOR="#111111" CREATED="1525443951547" ID="ID_453769862" MODIFIED="1563072159505">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      apt-get install locales dialog
+      apt-get install -y dialog locales lsb-release nis ntp ntpdate openssh-server rsync sshfs vim
+    </p>
+    <p>
+      
     </p>
     <p>
       dpkg-reconfigure locales
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node COLOR="#111111" CREATED="1525443961639" ID="ID_1646190357" MODIFIED="1525443963724" TEXT="apt-get install openssh-server ntpdate"/>
 <node COLOR="#111111" CREATED="1525443979899" ID="ID_1383932169" MODIFIED="1525443981937" TEXT="passwd"/>
 <node COLOR="#111111" CREATED="1525443986119" ID="ID_1281826069" MODIFIED="1525443998539">
 <richcontent TYPE="NODE"><html>
@@ -268,46 +273,6 @@
 <icon BUILTIN="help"/>
 </node>
 </node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1544469473308" ID="ID_41935540" MODIFIED="1544469475496" POSITION="right" TEXT="arm">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1544469477237" ID="ID_1027297085" MODIFIED="1544469489164" TEXT="install">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1544469489964" ID="ID_1920307160" MODIFIED="1544469494565" TEXT="lsb-release">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1544469566972" ID="ID_1401394888" MODIFIED="1544469568844" TEXT="vim">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1544470074628" ID="ID_1055028202" MODIFIED="1544470077056" TEXT="rsync">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1544470077936" ID="ID_1629098468" MODIFIED="1544470083072" TEXT="sshfs">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1544470428049" ID="ID_283806005" MODIFIED="1544470430049" TEXT="locales">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1544470430337" ID="ID_639612401" MODIFIED="1544470431272" TEXT="nis">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1544470435452" ID="ID_1078742139" MODIFIED="1544470437072" TEXT="ntp">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1544470450136" ID="ID_1021942446" MODIFIED="1544470451559" TEXT="ntpdate">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1544470279696" ID="ID_227923913" MODIFIED="1544470283492" TEXT="mkdir /home/sfloess">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1544470286104" ID="ID_632207517" MODIFIED="1544470296988" TEXT="ln -s /home/sfloess /mnt/admin-ap/home/sfloess">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1548441465116" ID="ID_591051115" MODIFIED="1548441969206" POSITION="right" TEXT="dpkg">
