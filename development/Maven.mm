@@ -242,107 +242,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1558620274411" FOLDED="true" ID="ID_310015860" MODIFIED="1558620287382" TEXT="Plugins">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1350403335807" FOLDED="true" ID="ID_1584292821" MODIFIED="1558620279945" TEXT="Checkstyle">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1361561763871" ID="ID_523725178" MODIFIED="1558620279946" TEXT="Check it">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1350403342851" ID="ID_1889058920" MODIFIED="1558619884080" TEXT="mvn checkstyle:checkstyle">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#111111" CREATED="1361561770487" ID="ID_554369674" MODIFIED="1558620279947" TEXT="Skip it">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1361561753271" ID="ID_840932696" MODIFIED="1558619884081" TEXT="-Dcheckstyle.skip=true">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-</node>
-<node COLOR="#990000" CREATED="1416756874888" FOLDED="true" ID="ID_339276202" LINK="http://manuals.zeroturnaround.com/jrebel/standalone/config.html#maven " MODIFIED="1558620279949" TEXT="JRebel">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1416497087769" ID="ID_1674778909" MODIFIED="1558620279950" TEXT="Edit pom.xml&apos;s">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1416497096361" ID="ID_608509937" MODIFIED="1558619884227">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &lt;build&gt;&#160;
-    </p>
-    <p>
-      &#160;&#160;&#160;&lt;plugins&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;plugin&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;groupId&gt;org.zeroturnaround&lt;/groupId&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;artifactId&gt;jrebel-maven-plugin&lt;/artifactId&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;version&gt;1.1.5&lt;/version&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;executions&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;execution&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;id&gt;generate-rebel-xml&lt;/id&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;phase&gt;process-resources&lt;/phase&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;goals&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;goal&gt;generate&lt;/goal&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/goals&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/execution&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/executions&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/plugin&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;/plugins&gt;
-    </p>
-    <p>
-      &lt;/build&gt;
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#111111" CREATED="1416497133366" ID="ID_1790857893" MODIFIED="1558620279951" TEXT="mvn jrebel:generate">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1355674961836" FOLDED="true" ID="ID_1112239377" LINK="http://maven.apache.org/guides/introduction/introduction-to-profiles.html" MODIFIED="1558620255151" TEXT="Profiles">
+<node COLOR="#00b439" CREATED="1355674961836" ID="ID_1112239377" LINK="http://maven.apache.org/guides/introduction/introduction-to-profiles.html" MODIFIED="1563196133027" TEXT="Profiles">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1355675034404" ID="ID_1381067281" MODIFIED="1558619884199" TEXT="disable">
@@ -748,30 +648,126 @@ echo $RESULT</pre>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1550868836690" ID="ID_1498783515" MODIFIED="1550868841422" POSITION="left" TEXT="Plugins">
+<node COLOR="#0033ff" CREATED="1558620274411" ID="ID_310015860" MODIFIED="1563196144461" POSITION="left" TEXT="Plugins">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1550868845202" ID="ID_1300120038" MODIFIED="1550868850054" TEXT="build-helper">
+<node COLOR="#00b439" CREATED="1350403335807" ID="ID_1584292821" MODIFIED="1563196142845" TEXT="Checkstyle">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1550868854050" ID="ID_1129149544" LINK="http://www.mojohaus.org/build-helper-maven-plugin/parse-version-mojo.html" MODIFIED="1550868872009" TEXT="parse-version">
+<node COLOR="#990000" CREATED="1361561763871" ID="ID_523725178" MODIFIED="1563196142846" TEXT="Check it">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1350403342851" ID="ID_1889058920" MODIFIED="1558619884080" TEXT="mvn checkstyle:checkstyle">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1361561770487" ID="ID_554369674" MODIFIED="1563196142846" TEXT="Skip it">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1361561753271" ID="ID_840932696" MODIFIED="1558619884081" TEXT="-Dcheckstyle.skip=true">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1416756874888" FOLDED="true" ID="ID_339276202" LINK="http://manuals.zeroturnaround.com/jrebel/standalone/config.html#maven " MODIFIED="1563196142847" TEXT="JRebel">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1416497087769" ID="ID_1674778909" MODIFIED="1563196142847" TEXT="Edit pom.xml&apos;s">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1416497096361" ID="ID_608509937" MODIFIED="1558619884227">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;build&gt;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&lt;plugins&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;plugin&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;groupId&gt;org.zeroturnaround&lt;/groupId&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;artifactId&gt;jrebel-maven-plugin&lt;/artifactId&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;version&gt;1.1.5&lt;/version&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;executions&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;execution&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;id&gt;generate-rebel-xml&lt;/id&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;phase&gt;process-resources&lt;/phase&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;goals&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;goal&gt;generate&lt;/goal&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/goals&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/execution&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/executions&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/plugin&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;/plugins&gt;
+    </p>
+    <p>
+      &lt;/build&gt;
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1416497133366" ID="ID_1790857893" MODIFIED="1563196142848" TEXT="mvn jrebel:generate">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1563058751404" ID="ID_1425441691" LINK="http://www.mojohaus.org/rpm-maven-plugin/" MODIFIED="1563063389516" TEXT="RPM">
+<node COLOR="#00b439" CREATED="1550868845202" ID="ID_1300120038" MODIFIED="1563196142848" TEXT="build-helper">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1563058804396" ID="ID_772331945" LINK="http://www.mojohaus.org/rpm-maven-plugin/usage.html" MODIFIED="1563058812519" TEXT="Usage">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1563058762396" ID="ID_230260782" LINK="http://www.mojohaus.org/rpm-maven-plugin/map-params.html" MODIFIED="1563058778767" TEXT="Mapping Parameters">
+<node COLOR="#990000" CREATED="1550868854050" ID="ID_1129149544" LINK="http://www.mojohaus.org/build-helper-maven-plugin/parse-version-mojo.html" MODIFIED="1563196142849" TEXT="parse-version">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1551284221708" ID="ID_662455897" LINK="https://maven.apache.org/plugins/maven-ear-plugin/" MODIFIED="1551284279805" TEXT="EAR">
+<node COLOR="#00b439" CREATED="1563058751404" ID="ID_1425441691" LINK="http://www.mojohaus.org/rpm-maven-plugin/" MODIFIED="1563196142849" TEXT="RPM">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1551284227988" ID="ID_977237529" LINK="https://maven.apache.org/plugins/maven-ear-plugin/modules.html" MODIFIED="1551284251322" TEXT="Module">
+<node COLOR="#990000" CREATED="1563058804396" ID="ID_772331945" LINK="http://www.mojohaus.org/rpm-maven-plugin/usage.html" MODIFIED="1563196142849" TEXT="Usage">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1563058762396" ID="ID_230260782" LINK="http://www.mojohaus.org/rpm-maven-plugin/map-params.html" MODIFIED="1563196142850" TEXT="Mapping Parameters">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1551284221708" ID="ID_662455897" LINK="https://maven.apache.org/plugins/maven-ear-plugin/" MODIFIED="1563196142850" TEXT="EAR">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1551284227988" ID="ID_977237529" LINK="https://maven.apache.org/plugins/maven-ear-plugin/modules.html" MODIFIED="1563196142851" TEXT="Module">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
