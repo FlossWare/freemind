@@ -152,6 +152,23 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1563481094167" ID="ID_399294768" MODIFIED="1563481094855" POSITION="right" TEXT="8">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1563481102777" ID="ID_1160504558" MODIFIED="1563481103989" TEXT="repos">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1563481111465" ID="ID_1606123099" MODIFIED="1563481114680" TEXT="rhel-8-for-x86_64-appstream-rpms">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1563481116385" ID="ID_204299245" MODIFIED="1563481121304" TEXT="rhel-8-for-x86_64-baseos-rpms">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1563481105210" ID="ID_109938047" MODIFIED="1563481107365" TEXT="rhel-8-for-x86_64-supplementary-rpms">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1418754302458" ID="ID_51564136" MODIFIED="1421503251608" POSITION="left" TEXT="subscription-manager">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
