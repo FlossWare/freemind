@@ -1106,6 +1106,14 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1563809198083" ID="ID_696483386" MODIFIED="1563809200169" TEXT="NIS">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1563809203004" ID="ID_400208334" LINK="https://techmount.wordpress.com/2018/01/03/ypbind-nis-fails-due-to-dhclient-script-overwrites-etc-yp-conf/" MODIFIED="1563809223095" TEXT="dhclient overwrites /etc/yp.conf">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1563809247597" ID="ID_1515562515" MODIFIED="1563809250434" TEXT="move or remove &quot;/etc/dhcp/dhclient.d/nis.sh&quot; file"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1503969822828" FOLDED="true" ID="ID_1317496824" LINK="https://www.jamescoyle.net/how-to/943-create-a-ram-disk-in-linux" MODIFIED="1542309092917" TEXT="RAM disk">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
