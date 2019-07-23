@@ -366,7 +366,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1551214298269" FOLDED="true" ID="ID_1402292554" LINK="https://docs.jboss.org/author/display/AS7/Documentation" MODIFIED="1561570978923" TEXT="AS 7">
+<node COLOR="#00b439" CREATED="1551214298269" ID="ID_1402292554" LINK="https://docs.jboss.org/author/display/AS7/Documentation" MODIFIED="1563912356764" TEXT="AS 7">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1551214303581" ID="ID_422751599" LINK="https://docs.jboss.org/author/display/AS7/Class+Loading+in+AS7" MODIFIED="1561570843643" TEXT="Class Loading">
@@ -494,8 +494,7 @@
 &#160;&#160;&#160; &lt;param-value&gt;org.jboss.resteasy.plugins.stats.RegistryStatsResource&lt;/param-value&gt;
 &lt;/context-param</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1561665354264" ID="ID_742136813" MODIFIED="1561665355228" TEXT="http://[hostname]:[port]/[context]/[api-path]/resteasy/registry">
