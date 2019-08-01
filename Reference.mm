@@ -34,6 +34,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1564669859140" ID="ID_1147613082" LINK="https://wikidevi.com/wiki/Main_Page" MODIFIED="1564669871636" TEXT="WikiDevi">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1542471118926" ID="ID_1292807881" MODIFIED="1542471133534" POSITION="left" TEXT="Library">
 <edge STYLE="sharp_bezier" WIDTH="8"/>

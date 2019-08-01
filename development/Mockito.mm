@@ -58,10 +58,42 @@
       Soap port;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1564683093669" ID="ID_1477440581" MODIFIED="1564683095849" POSITION="right" TEXT="Annotations">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1564683083836" ID="ID_1348800910" MODIFIED="1564683097682" TEXT="@RunWith(MockitoJUnitRunner.class)">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1564683106204" ID="ID_908438894" MODIFIED="1564683118200" TEXT="Annotation for Test class (above class name)">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1564683099307" ID="ID_497828398" MODIFIED="1564683101120" TEXT="@Mock">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1564683121852" ID="ID_1145312768" MODIFIED="1564683137656" TEXT="Annotation for unit test instance variables">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1564683170380" ID="ID_360229405" MODIFIED="1564683177656" TEXT="Provides automagic instantiation"/>
+</node>
+<node COLOR="#990000" CREATED="1564683141619" ID="ID_951938173" MODIFIED="1564683162063">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Used in conjunction with <b><i>@RunWith(MockitoJUnitRunner.class)</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 </node>
