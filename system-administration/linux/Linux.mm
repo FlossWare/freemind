@@ -1988,9 +1988,8 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <node COLOR="#990000" CREATED="1301231910072" ID="ID_1120113763" LINK="X.mm" MODIFIED="1542460230659" TEXT="X">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1523621525070" ID="ID_700278952" MODIFIED="1525267053518" TEXT="Configure">
+<node COLOR="#111111" CREATED="1523621525070" ID="ID_700278952" LINK="https://superuser.com/questions/117239/how-can-i-get-multiple-video-cards-to-work-on-linux" MODIFIED="1564945144042" TEXT="Configure">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1523621521378" ID="ID_757039389" MODIFIED="1523621532462" TEXT="https://superuser.com/questions/117239/how-can-i-get-multiple-video-cards-to-work-on-linux"/>
 <node COLOR="#111111" CREATED="1523621513029" ID="ID_1744852396" MODIFIED="1523621529783" TEXT="Xorg :0 -configure">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
@@ -2000,6 +1999,9 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <node COLOR="#111111" CREATED="1542631452334" ID="ID_1415642750" MODIFIED="1542631455912" TEXT="6900-6963"/>
 </node>
 <node COLOR="#111111" CREATED="1551791572400" ID="ID_1470999766" LINK="https://en.m.wikipedia.org/wiki/X11_color_names" MODIFIED="1551791639805" TEXT="Colors"/>
+</node>
+<node COLOR="#990000" CREATED="1564945552234" ID="ID_1077209518" LINK="XDM.mm" MODIFIED="1564945552235" TEXT="XDM">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1305636456492" ID="ID_728782428" LINK="NX.mm" MODIFIED="1416757573451" TEXT="NX">
