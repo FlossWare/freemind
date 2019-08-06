@@ -606,6 +606,10 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1565099650320" ID="ID_303637020" LINK="https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/6/html/administration_and_configuration_guide/chap-the_logging_subsystem#Log_Formatter_Syntax1" MODIFIED="1565099682088" TEXT="Log formatter syntax">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 </node>
 </map>
