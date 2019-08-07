@@ -320,6 +320,19 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1565197603246" ID="ID_1007577561" LINK="https://lucene.apache.org/solr/guide/6_6/faceting.html" MODIFIED="1565197638035" TEXT="Pivot">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1565197667513" ID="ID_1607392848" MODIFIED="1565197669077" TEXT="Params">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1565197648721" ID="ID_773602592" MODIFIED="1565197672078" TEXT="facet=true">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1565197654553" ID="ID_915816474" MODIFIED="1565197672080" TEXT="facet.pivot=[field]">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1470858765328" ID="ID_279854326" MODIFIED="1470858767044" POSITION="left" TEXT="4.5">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
