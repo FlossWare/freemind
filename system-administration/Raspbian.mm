@@ -55,8 +55,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node COLOR="#111111" CREATED="1564855238816" ID="ID_716327434" MODIFIED="1564855873428">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -94,8 +93,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#111111" CREATED="1564855767346" ID="ID_1970635780" MODIFIED="1564855824207">
@@ -168,8 +166,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node COLOR="#111111" CREATED="1564855238816" ID="ID_1904699127" MODIFIED="1564855269200">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -303,6 +300,10 @@
 <icon BUILTIN="full-3"/>
 </node>
 </node>
+</node>
+<node COLOR="#0033ff" CREATED="1565282742972" ID="ID_1737141114" LINK="https://github.com/arpitjindal97/raspbian-recipes" MODIFIED="1565282752201" POSITION="left" TEXT="Recipes">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
 </node>
 </node>
 </map>
