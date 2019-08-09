@@ -57,7 +57,11 @@
 <node COLOR="#111111" CREATED="1553867546576" ID="ID_12664999" LINK="https://doc.lucidworks.com/release-notes/fusion-server/4.2.0-release-notes.html" MODIFIED="1554209522281" TEXT="Server Release Notes">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#111111" CREATED="1554945917534" ID="ID_1377839018" LINK="https://doc.lucidworks.com/fusion-server/4.2/search-development/getting-data-out/query-pipeline-configuration/custom-javascript-query-stages.html#javascript-query-stage-global-variables" MODIFIED="1554945987505" TEXT="Custom Javascript Query Stage Global Variables"/>
+<node COLOR="#111111" CREATED="1565368664494" ID="ID_1669941983" LINK="https://doc.lucidworks.com/fusion-server/4.2/search-development/getting-data-in/collection-management/index.html" MODIFIED="1565368696732" TEXT="Creating Collections"/>
+<node COLOR="#111111" CREATED="1565368725584" ID="ID_1431530023" MODIFIED="1565368773003" TEXT="Custom Javascript Query Stage">
+<node COLOR="#111111" CREATED="1554945917534" ID="ID_1377839018" LINK="https://doc.lucidworks.com/fusion-server/4.2/search-development/getting-data-out/query-pipeline-configuration/custom-javascript-query-stages.html#javascript-query-stage-global-variables" MODIFIED="1565368778987" TEXT="Global Variables"/>
+<node COLOR="#111111" CREATED="1565368738920" ID="ID_669151265" LINK="https://doc.lucidworks.com/fusion-server/4.2/search-development/getting-data-out/query-pipeline-configuration/custom-javascript-query-stages.html" MODIFIED="1565368797794" TEXT="Pipelines"/>
+</node>
 </node>
 <node COLOR="#990000" CREATED="1554209523947" ID="ID_810508893" MODIFIED="1554209525511" TEXT="Concepts">
 <font NAME="SansSerif" SIZE="14"/>

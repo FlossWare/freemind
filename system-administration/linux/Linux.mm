@@ -752,6 +752,10 @@
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1511447576543" ID="ID_376987361" MODIFIED="1511447583374" TEXT="Store file as crontab"/>
 </node>
+<node COLOR="#990000" CREATED="1565368251790" ID="ID_1068130376" MODIFIED="1565368257818" TEXT="Days of week">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1565368264654" ID="ID_1986782735" LINK="https://stackoverflow.com/questions/16717930/how-to-run-crontab-job-every-week-on-sunday#16717986" MODIFIED="1565368279642" TEXT="0 or 7 = Sunday"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1416941608850" FOLDED="true" ID="ID_474739998" MODIFIED="1512843346120" TEXT="curl">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -858,6 +862,39 @@
 </node>
 <node COLOR="#990000" CREATED="1537973326706" ID="ID_300492561" MODIFIED="1537973328186" TEXT="-h">
 <font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1565368331935" ID="ID_144266977" MODIFIED="1565368358655" TEXT="fail2ban">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1565368362831" ID="ID_654790488" LINK="https://unix.stackexchange.com/questions/286119/delete-all-fail2ban-bans-in-ubuntu-linux" MODIFIED="1565368426803" TEXT="Remove bans">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1565368395047" ID="ID_1417053731" MODIFIED="1565368448281">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      fail2ban-client&#160;<b><i>unban --all</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1565368433719" ID="ID_1306759001" MODIFIED="1565368460424">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      fail2ban-client&#160;<b><i>unban &lt;IP&gt; ... &lt;IP&gt;</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1417273376905" FOLDED="true" ID="ID_1264126532" MODIFIED="1542309102004" TEXT="Handbrake">
