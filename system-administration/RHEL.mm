@@ -215,20 +215,40 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1457398444585" ID="ID_271587838" MODIFIED="1457398446937" POSITION="left" TEXT="autofs">
+<node COLOR="#0033ff" CREATED="1565630273507" ID="ID_744470058" MODIFIED="1565630275647" POSITION="left" TEXT="How To">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1457398452809" ID="ID_916776983" MODIFIED="1457398457633" TEXT="yum install nfs-utils">
+<node COLOR="#00b439" CREATED="1565630278243" ID="ID_1289711325" MODIFIED="1565630279991" TEXT="install">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1457894264951" ID="ID_1450865393" MODIFIED="1457894266659" POSITION="left" TEXT="nfs">
+<node COLOR="#990000" CREATED="1457398444585" ID="ID_271587838" MODIFIED="1565630281937" TEXT="autofs">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1457894272299" ID="ID_1343669612" MODIFIED="1457894274027" TEXT="systemctl enable nfs-server.service">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1457398452809" ID="ID_916776983" MODIFIED="1565630281937" TEXT="yum install nfs-utils">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1565630287131" ID="ID_250744922" LINK="https://www.tecmint.com/how-to-enable-epel-repository-for-rhel-centos-6-5/" MODIFIED="1565630772892" TEXT="epel">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1565630805020" ID="ID_1461979220" MODIFIED="1565630817372" TEXT="7">
+<node COLOR="#111111" CREATED="1565630294019" ID="ID_1222338055" MODIFIED="1565630298687" TEXT="http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1565630821820" ID="ID_1745694110" LINK="https://access.redhat.com/articles/3664871" MODIFIED="1565630852986" TEXT="Upgrade">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1565630826356" ID="ID_338775200" LINK="https://www.tecmint.com/upgrade-from-rhel-7-to-rhel-8/" MODIFIED="1565630839403" TEXT="7 to 8">
+<node COLOR="#111111" CREATED="1565630862500" ID="ID_339688032" LINK="https://access.redhat.com/articles/3664871" MODIFIED="1565630870410" TEXT="Leapp"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1457894264951" ID="ID_1450865393" MODIFIED="1565630283752" TEXT="nfs">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1457894272299" ID="ID_1343669612" MODIFIED="1565630283753" TEXT="systemctl enable nfs-server.service">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 </node>
