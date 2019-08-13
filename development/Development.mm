@@ -157,6 +157,7 @@
 <node COLOR="#990000" CREATED="1552913413488" ID="ID_1611530086" LINK="https://gitlab.com/" MODIFIED="1552913559341" TEXT="GitLab">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1565726028612" ID="ID_843845023" LINK="https://about.gitlab.com/handbook/product/technical-writing/markdown-guide/" MODIFIED="1565726037204" TEXT="Formatting"/>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1387480268937" ID="ID_410891512" LINK="Splunk.mm" MODIFIED="1542472651416" TEXT="Splunk">
