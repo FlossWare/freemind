@@ -168,6 +168,42 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1565813471426" ID="ID_1892422542" MODIFIED="1565814030120" TEXT="KOAN">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1565814010908" ID="ID_1185041037" MODIFIED="1565814019061" TEXT="/usr/lib/python3.6/site-packages/koan/virtinstall.py">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1565814021324" ID="ID_248841842" MODIFIED="1565814023953" TEXT="Line 122"/>
+<node COLOR="#111111" CREATED="1565814031021" ID="ID_1690611526" MODIFIED="1565814057513">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for iname in interfaces:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;counter = counter + 1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;intf = nics[iname]
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;#if (intf[&quot;bonding&quot;] == &quot;master&quot; or vlanpattern.match(iname) or iname.find(&quot;:&quot;) != -1): </i></b>
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;#&#160;&#160;&#160;&#160;continue</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1418754302458" ID="ID_51564136" MODIFIED="1421503251608" POSITION="left" TEXT="subscription-manager">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
