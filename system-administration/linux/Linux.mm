@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1270310396325" ID="ID_251328639" LINK="../System%20Administration.mm" MODIFIED="1288889529768" TEXT="Linux">
+<node COLOR="#000000" CREATED="1270310396325" ID="ID_251328639" LINK="../System%20Administration.mm" MODIFIED="1565980695496" TEXT="Linux">
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
 <node COLOR="#0033ff" CREATED="1542471334451" ID="ID_1414082584" MODIFIED="1549894181406" POSITION="right" TEXT="How to">
@@ -787,7 +787,42 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1538146547925" FOLDED="true" ID="ID_1955319774" MODIFIED="1545490731663" TEXT="dnsmasq">
+<node COLOR="#00b439" CREATED="1565973921688" ID="ID_143886278" MODIFIED="1565973922688" TEXT="date">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1565974156916" ID="ID_1933492456" MODIFIED="1565974159120" TEXT="Format">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1565973926077" ID="ID_1809321534" MODIFIED="1565974164091" TEXT="%Y">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1565973946012" ID="ID_1961833434" MODIFIED="1565973947136" TEXT="year"/>
+</node>
+<node COLOR="#111111" CREATED="1565973933011" ID="ID_1824113343" MODIFIED="1565974164094" TEXT="%m">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1565973949300" ID="ID_16381094" MODIFIED="1565973951152" TEXT="month"/>
+</node>
+<node COLOR="#111111" CREATED="1565973967820" ID="ID_801037744" MODIFIED="1565974164096" TEXT="%e">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1565973971092" ID="ID_468340885" MODIFIED="1565973978336" TEXT="day of the month"/>
+</node>
+<node COLOR="#111111" CREATED="1565974007212" ID="ID_1116159975" MODIFIED="1565974164098" TEXT="%H">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1565974011716" ID="ID_258395496" MODIFIED="1565974059800" TEXT="hour (military)"/>
+</node>
+<node COLOR="#111111" CREATED="1565974022764" ID="ID_781562786" MODIFIED="1565974164099" TEXT="%M">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1565974026764" ID="ID_150156772" MODIFIED="1565974031048" TEXT="minute"/>
+</node>
+<node COLOR="#111111" CREATED="1565974037428" ID="ID_329276945" MODIFIED="1565974164100" TEXT="%S">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1565974041613" ID="ID_236141280" MODIFIED="1565974043431" TEXT="seconds"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1565974165508" ID="ID_894399168" MODIFIED="1565974172480" TEXT="date +&apos;%Y-%m-%e_%H-%M-%S&apos;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1565974173868" ID="ID_1421807886" MODIFIED="1565974179212" TEXT="2019-08-16_12-49-07"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1538146547925" FOLDED="true" ID="ID_1955319774" MODIFIED="1565974187220" TEXT="dnsmasq">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1538146551697" ID="ID_630843464" MODIFIED="1538146554477" TEXT="rm -rf /var/lib/misc/dnsmasq.leases">
@@ -879,8 +914,7 @@
       fail2ban-client&#160;<b><i>unban --all</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1565368433719" ID="ID_1306759001" MODIFIED="1565368460424">
 <richcontent TYPE="NODE"><html>
@@ -892,8 +926,7 @@
       fail2ban-client&#160;<b><i>unban &lt;IP&gt; ... &lt;IP&gt;</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
