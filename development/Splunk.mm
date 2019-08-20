@@ -78,6 +78,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1566323122997" ID="ID_901688963" LINK="http://dev.splunk.com/view/SP-CAAADQ5" MODIFIED="1566323134798" TEXT="Managing Objects Tutorial">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1544810896612" ID="ID_692216564" MODIFIED="1544810902561" POSITION="right" TEXT="How To">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -225,6 +229,18 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#990000" CREATED="1387480308015" ID="ID_1655507975" MODIFIED="1387480423752" TEXT="latest=&quot;MM/DD/YYYY:HH:mm:ss&quot;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1566323059597" ID="ID_715244932" LINK="http://dev.splunk.com/sdks" MODIFIED="1566323074692" POSITION="left" TEXT="SDKs">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1566322858085" ID="ID_1761146664" LINK="https://github.com/splunk" MODIFIED="1566323064347" TEXT="Github">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1566322892869" ID="ID_805104362" LINK="https://github.com/splunk/splunk-sdk-java" MODIFIED="1566323064348" TEXT="SDK Java">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
