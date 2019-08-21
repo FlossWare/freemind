@@ -50,6 +50,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1566420628418" ID="ID_312113593" LINK="https://www.blazemeter.com/blog/comprehensive-guide-using-jmeter-timers/" MODIFIED="1566420643237" TEXT="Pause between loops">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1566420645586" ID="ID_417408675" MODIFIED="1566420648270" TEXT="Constant Timer">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 </node>
 </map>

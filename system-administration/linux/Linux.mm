@@ -2144,6 +2144,30 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <node COLOR="#00b439" CREATED="1459777649391" ID="ID_655191944" LINK="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html-single/Logical_Volume_Manager_Administration/index.html#LV" MODIFIED="1542308353917" TEXT="LVM">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1566401908086" ID="ID_1029524260" LINK="https://bencane.com/2011/12/19/creating-a-new-filesystem-with-fdisk-lvm-and-mkfs/" MODIFIED="1566402178352" TEXT="Add a new disk">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1566401916135" ID="ID_334473106" MODIFIED="1566402048627" TEXT="fdisk /dev/[disk]">
+<icon BUILTIN="full-1"/>
+<node COLOR="#111111" CREATED="1566401929825" ID="ID_187364067" MODIFIED="1566401939354" TEXT="n">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1566401935336" ID="ID_1514858069" MODIFIED="1566401943662" TEXT="p">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1566401947960" ID="ID_922343969" MODIFIED="1566401950710" TEXT="w">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1566401961544" ID="ID_1952586663" MODIFIED="1566402050467" TEXT="pvcreate /dev/[disk partition]">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1566401983152" ID="ID_1950841875" MODIFIED="1566402052051" TEXT="vgextend [LVM name] [disk partition]">
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#111111" CREATED="1566402034128" ID="ID_1045685633" MODIFIED="1566402055123" TEXT="lvextend -l +100%FREE /dev/mapper/[LVM name] -r">
+<icon BUILTIN="full-4"/>
+</node>
+</node>
 <node COLOR="#990000" CREATED="1459777750261" ID="ID_1216660049" MODIFIED="1542024899837" TEXT="Commands">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
