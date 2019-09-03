@@ -152,15 +152,33 @@
 <node COLOR="#111111" CREATED="1542632854282" ID="ID_1230179070" MODIFIED="1542632862498" TEXT="MAILTO=[user@host]"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1542471243082" ID="ID_34125738" LINK="https://www.cyberciti.biz/faq/shell-how-to-determine-the-exit-status-of-linux-and-unix-command/" MODIFIED="1542798495739" TEXT="Determine the exit status of Linux and Unix commands">
+<node COLOR="#00b439" CREATED="1567521584800" ID="ID_432249469" MODIFIED="1567522518693" TEXT="DHCP">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1545937171583" ID="ID_1827699404" LINK="https://unix.stackexchange.com/questions/136407/is-my-linux-arm-32-or-64-bit" MODIFIED="1545937205003" TEXT="Determine processor bits">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1545937184801" ID="ID_797253951" MODIFIED="1545937190800" TEXT="lshw">
+<node COLOR="#990000" CREATED="1567522482673" ID="ID_1207845030" MODIFIED="1567522565333" TEXT="If IP isn&apos;t correct (think dnsmasq and defining IP)">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1567521594785" ID="ID_1745753970" MODIFIED="1567522522307" TEXT="/etc/sysconfig/network-scripts/ifcfg-[nic]">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1567521613303" ID="ID_459572258" MODIFIED="1567522477538" TEXT="DHCP_CLIENT_ID=[machine name]"/>
+</node>
+<node COLOR="#111111" CREATED="1567522528289" ID="ID_1508660646" MODIFIED="1567522530151" TEXT="/etc/sysconfig/network-scripts/ifcfg-enp1s0">
+<node COLOR="#111111" CREATED="1567522536713" ID="ID_1641032920" MODIFIED="1567522539565" TEXT="DHCP_CLIENT_ID=laptop-01"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1567520290614" ID="ID_1527546027" MODIFIED="1567520294052" TEXT="Determine">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1542471243082" ID="ID_34125738" LINK="https://www.cyberciti.biz/faq/shell-how-to-determine-the-exit-status-of-linux-and-unix-command/" MODIFIED="1567520304978" TEXT="Exit status of Linux and Unix commands">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1545937171583" ID="ID_1827699404" LINK="https://unix.stackexchange.com/questions/136407/is-my-linux-arm-32-or-64-bit" MODIFIED="1567520307963" TEXT="Processor bits">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1545937184801" ID="ID_797253951" MODIFIED="1567520298520" TEXT="lshw">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1508420676311" FOLDED="true" ID="ID_641899531" LINK="https://nzeid.net/pulseaudio-disable-auto-volume" MODIFIED="1542471372614" TEXT="Disable auto volume">
