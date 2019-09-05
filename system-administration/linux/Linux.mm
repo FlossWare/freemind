@@ -181,7 +181,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1508420676311" FOLDED="true" ID="ID_641899531" LINK="https://nzeid.net/pulseaudio-disable-auto-volume" MODIFIED="1542471372614" TEXT="Disable auto volume">
+<node COLOR="#00b439" CREATED="1508420676311" ID="ID_641899531" LINK="https://nzeid.net/pulseaudio-disable-auto-volume" MODIFIED="1567688971958" TEXT="Disable auto volume">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1508420776953" ID="ID_1614516384" MODIFIED="1542471372614" TEXT="Change config using either">
