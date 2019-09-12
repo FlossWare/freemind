@@ -43,6 +43,13 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1568313823037" ID="ID_1435491576" LINK="https://www.mkyong.com/java/how-to-loop-a-map-in-java/?utm_source=mkyong.com&amp;utm_medium=clicks&amp;utm_campaign=afterpost-related&amp;utm_content=link#5" MODIFIED="1568313844498" TEXT="Loop a Map">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1568313857645" ID="ID_1951702195" MODIFIED="1568313860755" TEXT="map.forEach((k,v)-&gt;System.out.println(&quot;Key : &quot; + k + &quot; Value : &quot; + v));">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1543241856074" ID="ID_496743880" LINK="https://www.journaldev.com/2774/java-8-stream" MODIFIED="1543241872115" TEXT="Stream API">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
