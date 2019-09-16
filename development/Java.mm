@@ -50,6 +50,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1568635851801" ID="ID_1959108026" MODIFIED="1568635861055" TEXT="List all supported scripts">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1568635875843" ID="ID_1455071066" MODIFIED="1568635878026" TEXT="new ScriptEngineManager().getEngineFactories().forEach(cnsmr -&gt; System.out.println(cnsmr.getNames()));">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1543241856074" ID="ID_496743880" LINK="https://www.journaldev.com/2774/java-8-stream" MODIFIED="1543241872115" TEXT="Stream API">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

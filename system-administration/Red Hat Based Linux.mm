@@ -120,6 +120,10 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1568652537822" ID="ID_564616749" LINK="https://rpm-packaging-guide.github.io/" MODIFIED="1568652556550" POSITION="right" TEXT="Writing Spec Files">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 <node COLOR="#0033ff" CREATED="1411049332566" ID="ID_253525469" MODIFIED="1449156256738" POSITION="right" TEXT="yum">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

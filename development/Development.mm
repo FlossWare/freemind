@@ -87,9 +87,6 @@
 <node COLOR="#990000" CREATED="1550868046785" ID="ID_375771549" LINK="http://camel.apache.org/" MODIFIED="1550868060053" TEXT="Camel">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1550868223986" ID="ID_1683485716" LINK="http://commons.apache.org/sandbox/commons-pipeline/index.html" MODIFIED="1550868239998" TEXT="Commons Pipeline">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 <node COLOR="#990000" CREATED="1550868071378" ID="ID_854162289" LINK="https://kafka.apache.org/" MODIFIED="1550868081844" TEXT="Kafka">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
@@ -98,6 +95,12 @@
 </node>
 <node COLOR="#990000" CREATED="1550868007074" ID="ID_1383921704" LINK="http://zookeeper.apache.org/" MODIFIED="1550868064083" TEXT="Zookeeper">
 <font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1568663504429" ID="ID_1260693480" LINK="http://commons.apache.org/components.html" MODIFIED="1568663514796" TEXT="Components">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1550868223986" ID="ID_1683485716" LINK="http://commons.apache.org/sandbox/commons-pipeline/index.html" MODIFIED="1568663526407" TEXT="Commons Pipeline">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1550868113602" ID="ID_538867313" LINK="https://vertx.io/" MODIFIED="1550868125377" TEXT="Vert.X">
@@ -127,6 +130,20 @@
 <node COLOR="#00b439" CREATED="1546976357073" ID="ID_37311201" LINK="ELK.mm" MODIFIED="1548082669618" TEXT="ELK">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1568653978911" ID="ID_696059506" LINK="https://grafana.com/" MODIFIED="1568653987966" TEXT="Graphana">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1568654014125" ID="ID_1670530778" LINK="http://graphiteapp.org/" MODIFIED="1568654024248" TEXT="Graphite">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1568654085614" ID="ID_1421639597" LINK="https://graphite.readthedocs.io/en/latest/index.html" MODIFIED="1568654092224" TEXT="Docs">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1568654050767" ID="ID_1037004180" LINK="https://graphite.readthedocs.io/en/latest/feeding-carbon.html" MODIFIED="1568654073455" TEXT="Feeding In Your Data">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1548082588003" ID="ID_452310289" LINK="New%20Relic.mm" MODIFIED="1548082588007" TEXT="New Relic">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -287,29 +304,7 @@
 <node COLOR="#0033ff" CREATED="1390752350973" ID="ID_263591765" MODIFIED="1390752358712" POSITION="left" TEXT="Database">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1527528702007" ID="ID_1508563352" MODIFIED="1530724853856" TEXT="RDBMS">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1551818580179" ID="ID_1611654867" LINK="Maria%20DB.mm" MODIFIED="1551818580181" TEXT="Maria DB">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1363289420757" ID="ID_1931664902" LINK="MySQL.mm" MODIFIED="1530724860033" TEXT="MySQL">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1527525839971" ID="ID_1471128589" LINK="Postgresql.mm" MODIFIED="1530724928431" TEXT="Postgresql">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1471617862161" ID="ID_196406846" LINK="Graph%20databases.mm" MODIFIED="1530724228316" TEXT="Graph">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1471618335653" ID="ID_1989366039" LINK="Neo4j.mm" MODIFIED="1530724254007" TEXT="Neo4j">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1527528694489" ID="ID_1496590302" MODIFIED="1527528697669" TEXT="Document">
+<node COLOR="#00b439" CREATED="1527528694489" ID="ID_1496590302" MODIFIED="1568654118336" TEXT="Document">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1527528729449" ID="ID_1452771460" LINK="Mongo.mm" MODIFIED="1530724897269" TEXT="Mongo">
@@ -328,51 +323,91 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1471617862161" ID="ID_196406846" LINK="Graph%20databases.mm" MODIFIED="1568654116396" TEXT="Graph">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1471618335653" ID="ID_1989366039" LINK="Neo4j.mm" MODIFIED="1530724254007" TEXT="Neo4j">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1527528702007" ID="ID_1508563352" MODIFIED="1530724853856" TEXT="RDBMS">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1551818580179" ID="ID_1611654867" LINK="Maria%20DB.mm" MODIFIED="1551818580181" TEXT="Maria DB">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1363289420757" ID="ID_1931664902" LINK="MySQL.mm" MODIFIED="1530724860033" TEXT="MySQL">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1527525839971" ID="ID_1471128589" LINK="Postgresql.mm" MODIFIED="1530724928431" TEXT="Postgresql">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1568654121134" ID="ID_205997813" MODIFIED="1568654122946" TEXT="Timeseries">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1568654125726" ID="ID_1878338319" LINK="https://www.influxdata.com/" MODIFIED="1568654142348" TEXT="InfluxDB">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1555592174550" ID="ID_444227719" MODIFIED="1555592176331" POSITION="left" TEXT="Search">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1473774431232" ID="ID_515886145" MODIFIED="1473774432360" TEXT="CTR">
+<node COLOR="#00b439" CREATED="1568657711648" ID="ID_1240910546" MODIFIED="1568657714750" TEXT="Acronyms">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1473774433252" ID="ID_1379878136" MODIFIED="1473774436092" TEXT="Click Through Rate">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1498134464392" ID="ID_636467789" MODIFIED="1555592265161" TEXT="MVP">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1498134468391" ID="ID_1531433752" MODIFIED="1542474561047" TEXT="Minimum Viable Plan">
+<node COLOR="#990000" CREATED="1473774431232" ID="ID_515886145" MODIFIED="1568657718715" TEXT="CTR">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1473774433252" ID="ID_1379878136" MODIFIED="1568657718715" TEXT="Click Through Rate">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1555591338462" ID="ID_1770669222" MODIFIED="1555592268088" TEXT="MRR">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1555591343797" ID="ID_1268465932" MODIFIED="1555591352153" TEXT="Mean Reciprocal Rank">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1473774437740" ID="ID_927137545" MODIFIED="1473774438552" TEXT="PV">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1473774439084" ID="ID_35638687" MODIFIED="1473774441136" TEXT="Page Views">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1490033379296" ID="ID_936364644" MODIFIED="1542474769465" TEXT="SEO">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1490033387534" ID="ID_1455216538" MODIFIED="1542474769465" TEXT="search engine optimization">
+<node COLOR="#990000" CREATED="1498134464392" ID="ID_636467789" MODIFIED="1568657718716" TEXT="MVP">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1498134468391" ID="ID_1531433752" MODIFIED="1568657718717" TEXT="Minimum Viable Plan">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1556632676740" ID="ID_1850127175" MODIFIED="1556641700537" TEXT="SERP">
+<node COLOR="#990000" CREATED="1555591338462" ID="ID_1770669222" MODIFIED="1568657718717" TEXT="MRR">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1555591343797" ID="ID_1268465932" MODIFIED="1568657718718" TEXT="Mean Reciprocal Rank">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1473774437740" ID="ID_927137545" MODIFIED="1568657718718" TEXT="PV">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1473774439084" ID="ID_35638687" MODIFIED="1568657718719" TEXT="Page Views">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1490033379296" ID="ID_936364644" MODIFIED="1568657718720" TEXT="SEO">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1490033387534" ID="ID_1455216538" MODIFIED="1568657718720" TEXT="search engine optimization">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1556632676740" ID="ID_1850127175" MODIFIED="1568657718721" TEXT="SERP">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1556632743459" ID="ID_1257962235" MODIFIED="1568657718721" TEXT="Search Engine Results Pages">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1568657720032" ID="ID_1999980417" MODIFIED="1568657721718" TEXT="Articles">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1556632743459" ID="ID_1257962235" MODIFIED="1556641700537" TEXT="Search Engine Results Pages">
+<node COLOR="#990000" CREATED="1568657675580" ID="ID_469079950" LINK="https://opensourceconnections.com/blog/2019/08/13/hello-ltr-sandbox-for-learning-to-rank/" MODIFIED="1568657724083" TEXT="How You Can Use Hello LTR - The Learning to Rank Sandbox">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
