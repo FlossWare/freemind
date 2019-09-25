@@ -125,6 +125,9 @@
 <node COLOR="#111111" CREATED="1550868223986" ID="ID_1683485716" LINK="http://commons.apache.org/sandbox/commons-pipeline/index.html" MODIFIED="1568663526407" TEXT="Commons Pipeline">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+<node COLOR="#111111" CREATED="1569422455074" ID="ID_1671885811" LINK="https://commons.apache.org/proper/commons-lang/javadocs/api-3.4/index.html?overview-summary.html" MODIFIED="1569422491238" TEXT="Apache Commons Lang 3.4 API">
+<node COLOR="#111111" CREATED="1569422501754" ID="ID_702535413" LINK="https://commons.apache.org/proper/commons-lang/javadocs/api-3.4/org/apache/commons/lang3/text/StrSubstitutor.html" MODIFIED="1569422513809" TEXT="StrSubstitutor"/>
+</node>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1550868113602" ID="ID_538867313" LINK="https://vertx.io/" MODIFIED="1550868125377" TEXT="Vert.X">
