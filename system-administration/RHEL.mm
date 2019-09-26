@@ -168,6 +168,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1569519159591" ID="ID_1360742470" LINK="https://www.tecmint.com/install-epel-repo-on-rhel-8/" MODIFIED="1569519187289" TEXT="epel">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1569519175655" ID="ID_239950348" MODIFIED="1569519178244" TEXT="dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1565813471426" ID="ID_1892422542" MODIFIED="1565814030120" TEXT="KOAN">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -199,8 +206,7 @@
       <b><i>&#160;&#160;&#160;&#160;#&#160;&#160;&#160;&#160;continue</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
