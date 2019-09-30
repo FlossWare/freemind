@@ -244,6 +244,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1569863778961" ID="ID_895857974" LINK="https://www.osgi.org/" MODIFIED="1569863905698" TEXT="OSGi">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1469887918164" ID="ID_1715451201" MODIFIED="1469887981441" POSITION="right" TEXT="SCM">
 <edge STYLE="sharp_bezier" WIDTH="8"/>

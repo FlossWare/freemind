@@ -185,6 +185,23 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1569861286540" ID="ID_1690853123" LINK="http://novalauncher.com/" MODIFIED="1569861360712" TEXT="Nova Launcher">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1569861304020" ID="ID_439540304" MODIFIED="1569861310169" TEXT="Disable Swipe Indicator">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1569861312124" ID="ID_659362877" MODIFIED="1569861346294" TEXT="Nova Settings">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1569861321254" ID="ID_727078687" MODIFIED="1569861348361" TEXT="App &amp; widget drawers">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1569861327476" ID="ID_1058039909" MODIFIED="1569861349931" TEXT="Disable">
+<icon BUILTIN="full-3"/>
+<node COLOR="#111111" CREATED="1569861339549" ID="ID_1501973223" MODIFIED="1569861343256" TEXT="Swipe Indicator"/>
+</node>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1545683159708" ID="ID_656888739" MODIFIED="1545683161614" POSITION="left" TEXT="Sites">
 <edge STYLE="sharp_bezier" WIDTH="8"/>

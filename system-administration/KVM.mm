@@ -111,6 +111,13 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1569847150659" ID="ID_25702822" LINK="https://www.cyberciti.biz/faq/how-to-rename-kvm-virtual-machine-vm-domain-with-virsh-command/" MODIFIED="1569847163534" TEXT="Rename VM">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1569847175257" ID="ID_978400846" MODIFIED="1569847204408" TEXT="virsh domrename [old name] [new name]">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 </node>
 </map>
