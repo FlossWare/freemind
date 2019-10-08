@@ -566,6 +566,10 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1570560416342" ID="ID_858650044" LINK="https://www.tecmint.com/powertop-monitors-linux-laptop-battery-usage/" MODIFIED="1570560427043" TEXT="Powertop">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 <node COLOR="#00b439" CREATED="1552054159211" ID="ID_1347184907" LINK="https://ask.fedoraproject.org/en/question/27808/preventing-lid-close-suspension/" MODIFIED="1552054188445" TEXT="Lid settings">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -666,6 +670,66 @@
 <node COLOR="#990000" CREATED="1550614158695" ID="ID_729980026" LINK="https://www.cyberciti.biz/faq/linux-which-process-is-using-swap/" MODIFIED="1550614186971" TEXT="Processes using swap">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1550614199286" ID="ID_1665846919" MODIFIED="1550614201400" TEXT="smem -t -p"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1570546016840" ID="ID_1880967132" LINK="https://linoxide.com/linux-how-to/tlp-make-linux-laptop-battery-last-longer/" MODIFIED="1570546027866" TEXT="TLP">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1570547091023" ID="ID_452019073" MODIFIED="1570547098442" TEXT="tlp-stat -p">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1570547100639" ID="ID_227601080" MODIFIED="1570547114691" TEXT="Lists CPU threasholds"/>
+</node>
+<node COLOR="#990000" CREATED="1570547081071" ID="ID_1185340075" MODIFIED="1570547088060" TEXT="Example for performance">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1570546996183" ID="ID_1068178848" MODIFIED="1570547089568">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      TLP_ENABLE=1
+    </p>
+    <p>
+      TLP_DEFAULT_MODE=AC
+    </p>
+    <p>
+      DISK_IDLE_SECS_ON_AC=0
+    </p>
+    <p>
+      CPU_SCALING_GOVERNOR_ON_AC=performance
+    </p>
+    <p>
+      CPU_HWP_ON_AC=performance
+    </p>
+    <p>
+      CPU_MIN_PERF_ON_AC=100
+    </p>
+    <p>
+      CPU_MAX_PERF_ON_AC=100
+    </p>
+    <p>
+      CPU_BOOST_ON_AC=1
+    </p>
+    <p>
+      SCHED_POWERSAVE_ON_AC=0
+    </p>
+    <p>
+      ENERGY_PERF_POLICY_ON_AC=performance
+    </p>
+    <p>
+      SATA_LINKPWR_ON_AC=&quot;max_performance max_performance&quot;
+    </p>
+    <p>
+      CPU_SCALING_MIN_FREQ_ON_AC=[max speed]
+    </p>
+    <p>
+      CPU_SCALING_MAX_FREQ_ON_AC=[max speed]
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1545492993066" ID="ID_1327894045" LINK="https://superuser.com/questions/1266479/wi-fi-bridging-in-qemu-kvm-works-but-not-with-virt-manager" MODIFIED="1545493004222" TEXT="Wifi bridging">

@@ -66,6 +66,12 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1544729119900" ID="ID_1759007977" LINK="https://www.dell.com/support/home/us/en/04/product-support/product/precision-490-dt/drivers" MODIFIED="1544729130258" TEXT="Drivers"/>
+<node COLOR="#111111" CREATED="1476713652036" ID="ID_1026165951" MODIFIED="1570557496410" TEXT="Socket J">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1477655266708" ID="ID_63933628" MODIFIED="1509824388636" TEXT="3.0 GHz Quad-Core Intel Xeon Processor with 8MB Cache -- X5365">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node COLOR="#990000" CREATED="1512060771416" ID="ID_1472742335" LINK="https://www.dell.com/support/home/us/en/04/product-support/product/precision-t5400/diagnose" MODIFIED="1543949987757" TEXT="T5400">
 <font NAME="SansSerif" SIZE="14"/>
@@ -91,7 +97,7 @@
 <node COLOR="#0033ff" CREATED="1544729087535" ID="ID_1363252769" MODIFIED="1544729097704" POSITION="right" TEXT="D-Link">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1327003827279" ID="ID_1488479797" LINK="DNS-320.mm" MODIFIED="1544729099514" TEXT="DNS-320">
+<node COLOR="#00b439" CREATED="1570559051331" ID="ID_1623438159" MODIFIED="1570559054215" TEXT="DNS-320">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -99,17 +105,11 @@
 <node COLOR="#0033ff" CREATED="1545683185173" ID="ID_1662465793" MODIFIED="1545683187430" POSITION="right" TEXT="Samsung">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1373370717257" ID="ID_238604231" MODIFIED="1545683205764" TEXT="ssh">
+<node COLOR="#00b439" CREATED="1373370712646" ID="ID_1218199126" MODIFIED="1545683199508" TEXT="Galaxy J7">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1373370719708" ID="ID_1621703102" MODIFIED="1545683205288" TEXT="images">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1373370810040" ID="ID_901971772" MODIFIED="1373370813613" TEXT="Port">
-<node COLOR="#111111" CREATED="1373370816509" ID="ID_1266647333" MODIFIED="1373370818563" TEXT="2222"/>
 </node>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1373370712646" ID="ID_1218199126" MODIFIED="1545683199508" TEXT="Galaxy J7">
+<node COLOR="#00b439" CREATED="1545779298274" ID="ID_1552021099" MODIFIED="1545779302528" TEXT="Galaxy Tab 2">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -117,19 +117,41 @@
 <node COLOR="#0033ff" CREATED="1542639159736" ID="ID_471738460" MODIFIED="1544839484194" POSITION="left" TEXT="Lenovo">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1437223310863" ID="ID_1707578866" LINK="Lenovo%20T540p.mm" MODIFIED="1543855036080" TEXT="T540p">
+<node COLOR="#00b439" CREATED="1570558081858" ID="ID_729402812" MODIFIED="1570558915199" TEXT="Laptop">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1543190030701" ID="ID_128412452" LINK="https://www.lenovo.com/us/en/laptops/thinkpad/thinkpad-t-series/ThinkPad-T460p/p/22TP2TT460P" MODIFIED="1543855036081" TEXT="T460p">
+<node COLOR="#990000" CREATED="1543190030701" ID="ID_128412452" LINK="https://www.lenovo.com/us/en/laptops/thinkpad/thinkpad-t-series/ThinkPad-T460p/p/22TP2TT460P" MODIFIED="1570558086031" TEXT="T460p">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1543854323369" ID="ID_1096925805" MODIFIED="1543855036081" TEXT="B8000-F">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1543854332249" FOLDED="true" ID="ID_1445383276" LINK="https://forums.lenovo.com/t5/Android-Yoga-Series-Tablets/b8000-f-USB-Debugging-Mode/td-p/1764967" MODIFIED="1560259958567" TEXT="Enable USB Debugging Mode">
 <font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1437223310863" ID="ID_1707578866" LINK="Lenovo%20T540p.mm" MODIFIED="1570558087562" TEXT="T540p">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1570558088786" ID="ID_1473501258" MODIFIED="1570558091101" TEXT="All in One">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1550764909518" ID="ID_1623417777" LINK="https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/lenovo-c-series-all-in-ones/lenovo-c345-all-in-one?linkTrack=&amp;searchType=3&amp;keyWordSearch=C345%20All-in-One%20(Lenovo)" MODIFIED="1570558092715" TEXT="C345">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1550761082547" ID="ID_122797736" LINK="https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/700-series/aio700-24ish?linkTrack=&amp;searchType=3&amp;keyWordSearch=AIO%20700-24ISH%20All-in-One%20(ideacentre)" MODIFIED="1570558094843" TEXT="Ideacenter AI0 700-22ISH">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1550766984737" ID="ID_1050815601" MODIFIED="1570558094843" TEXT="16GB max, DDR4 2133, two 260-pin SO-DIMM sockets, dual-channel capable">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1570558154649" ID="ID_326686266" MODIFIED="1570558157893" TEXT="Tablet">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1543854323369" ID="ID_1096925805" MODIFIED="1570558160375" TEXT="B8000-F">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1543854332249" FOLDED="true" ID="ID_1445383276" LINK="https://forums.lenovo.com/t5/Android-Yoga-Series-Tablets/b8000-f-USB-Debugging-Mode/td-p/1764967" MODIFIED="1570558160375" TEXT="Enable USB Debugging Mode">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1543854368342" ID="ID_298176997" MODIFIED="1543854383207" TEXT="Settings">
 <icon BUILTIN="full-1"/>
 </node>
@@ -140,32 +162,22 @@
 <icon BUILTIN="full-3"/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1545627782697" ID="ID_1562358096" LINK="https://firmwarefile.com/lenovo-yoga-tablet-10-b8000" MODIFIED="1545627841672" TEXT="Firmware Download">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1545627782697" ID="ID_1562358096" LINK="https://firmwarefile.com/lenovo-yoga-tablet-10-b8000" MODIFIED="1570558160376" TEXT="Firmware Download">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#990000" CREATED="1545681642893" ID="ID_1228725979" LINK="https://pcsupport.lenovo.com/us/en/products/tablets/yoga-series/yoga-tablet-10-b8000/downloads" MODIFIED="1545681728006" TEXT="Official Drivers &amp; Software">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1545681642893" ID="ID_1228725979" LINK="https://pcsupport.lenovo.com/us/en/products/tablets/yoga-series/yoga-tablet-10-b8000/downloads" MODIFIED="1570558160376" TEXT="Official Drivers &amp; Software">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#990000" CREATED="1545682474933" ID="ID_978296623" LINK="https://stockromfiles.com/?s=lenovo+yoga+tablet+b8000f" MODIFIED="1545682890548" TEXT="Stock ROM Files">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1545682474933" ID="ID_978296623" LINK="https://stockromfiles.com/?s=lenovo+yoga+tablet+b8000f" MODIFIED="1570558160376" TEXT="Stock ROM Files">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#990000" CREATED="1545682681060" ID="ID_967080136" LINK="https://firmwarehost.com/lenovo-yoga-tablet-10-b8000f-firmware-stock-rom-4-2-2" MODIFIED="1545682701258" TEXT="Firmware Host">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1560260516136" ID="ID_1977652689" MODIFIED="1560260520787" TEXT="Reinstall">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1560260523839" ID="ID_595952542" MODIFIED="1560260529387" TEXT="MBR"/>
-<node COLOR="#111111" CREATED="1560260529935" ID="ID_439524270" MODIFIED="1560260536427" TEXT="Boot Image"/>
-<node COLOR="#111111" CREATED="1560260552063" ID="ID_1507651827" MODIFIED="1560260558275" TEXT="Soc Ro"/>
-<node COLOR="#111111" CREATED="1560260558663" ID="ID_301091938" MODIFIED="1560260560899" TEXT="Logo"/>
-<node COLOR="#111111" CREATED="1560260562527" ID="ID_168150856" MODIFIED="1560260568027" TEXT="EBR2"/>
-<node COLOR="#111111" CREATED="1560260568623" ID="ID_408633517" MODIFIED="1560260573587" TEXT="Android"/>
-<node COLOR="#111111" CREATED="1560260574055" ID="ID_1656249083" MODIFIED="1560260575491" TEXT="Cache"/>
-<node COLOR="#111111" CREATED="1560260575903" ID="ID_794130529" MODIFIED="1560260579436" TEXT="Usr Data"/>
+<node COLOR="#111111" CREATED="1545682681060" ID="ID_967080136" LINK="https://firmwarehost.com/lenovo-yoga-tablet-10-b8000f-firmware-stock-rom-4-2-2" MODIFIED="1570558160376" TEXT="Firmware Host">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1542472563645" ID="ID_419967328" LINK="Raspberry%20PI.mm" MODIFIED="1544839489189" POSITION="left" TEXT="Raspberry PI">
+</node>
+<node COLOR="#0033ff" CREATED="1551368122193" ID="ID_722782309" MODIFIED="1570558978995" POSITION="left" TEXT="Raspberry PI">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
@@ -185,6 +197,49 @@
 <node COLOR="#111111" CREATED="1514664724819" ID="ID_55384442" MODIFIED="1514664727026" TEXT="Boot menu"/>
 </node>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1570558636874" ID="ID_845909364" MODIFIED="1570558638214" POSITION="left" TEXT="NVR">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1512060751468" ID="ID_760669302" MODIFIED="1543854570181" POSITION="right" TEXT="Netgear">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1545323431217" ID="ID_1126368080" MODIFIED="1545323512685" TEXT="WNDR3700v4">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1388611021781" ID="ID_927250594" MODIFIED="1546024666678" TEXT="Atheros">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1545323670003" ID="ID_914576197" MODIFIED="1545323678717" TEXT="R9000  Nighthawk">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1545323277983" ID="ID_710351309" MODIFIED="1545764045820" POSITION="left" TEXT="Buffalo">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1460207385283" ID="ID_1669871710" MODIFIED="1570558383716" TEXT="WZR-1750DHPD">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1460207414682" ID="ID_254564862" MODIFIED="1570558383716" TEXT="kirkwood generic">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1460207354584" ID="ID_1100712107" MODIFIED="1546024672978" TEXT="Broadcom">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1545318022861" ID="ID_430885711" MODIFIED="1545764050723" POSITION="left" TEXT="Linksys">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1545323378495" ID="ID_1843117725" MODIFIED="1545323521170" TEXT="EA6300v1">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>
