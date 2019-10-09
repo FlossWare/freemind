@@ -292,6 +292,20 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1570635795412" ID="ID_1890260108" MODIFIED="1570635798224" POSITION="right" TEXT="Debugging">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1570635806972" ID="ID_380311017" MODIFIED="1570635808672" TEXT="GC">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1570635810468" ID="ID_1026392574" LINK="https://gcplot.com/" MODIFIED="1570635820650" TEXT="GCplot">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1570635838788" ID="ID_944117106" LINK="https://www.gceasy.io/gc-index.jsp#banner" MODIFIED="1570635848986" TEXT="GCeasy">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1390752245771" ID="ID_499215218" MODIFIED="1469888045084" POSITION="left" TEXT="IDE">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
