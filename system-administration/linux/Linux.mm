@@ -1483,7 +1483,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1517575230286" FOLDED="true" ID="ID_1138121868" MODIFIED="1542309076803" TEXT="terminator">
+<node COLOR="#00b439" CREATED="1517575230286" ID="ID_1138121868" MODIFIED="1571054954935" TEXT="terminator">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1517575238144" ID="ID_552139637" MODIFIED="1517575251477" TEXT="To run need dbus-x11">
@@ -1509,6 +1509,10 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
   </body>
 </html></richcontent>
 </node>
+</node>
+<node COLOR="#990000" CREATED="1571054958089" ID="ID_456781290" LINK="https://terminator-gtk3.readthedocs.io/en/latest/advancedusage.html#the-config-file" MODIFIED="1571054991903" TEXT="Config file">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1571054969363" ID="ID_481420690" MODIFIED="1571054971587" TEXT="${HOME}/.config/terminator/config"/>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1344603055439" ID="ID_1807790648" MODIFIED="1416757471878" TEXT="tidy">

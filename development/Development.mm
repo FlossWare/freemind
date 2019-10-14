@@ -306,6 +306,22 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1570724857931" ID="ID_1913266455" MODIFIED="1570724860561" POSITION="right" TEXT="Research">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1571071021569" ID="ID_961697221" LINK="https://byteman.jboss.org/" MODIFIED="1571071031490" TEXT="Byteman">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1570724868893" ID="ID_531477372" LINK="https://plasma-umass.org/doppio-demo/" MODIFIED="1570724885026" TEXT="DoppioJVM: JVM in the Browser">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1571070826387" ID="ID_1293923543" LINK="http://teavm.org/" MODIFIED="1571070847245" TEXT="TeaVM">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1390752245771" ID="ID_499215218" MODIFIED="1469888045084" POSITION="left" TEXT="IDE">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
