@@ -2320,5 +2320,13 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1571847785022" ID="ID_868251284" MODIFIED="1571847786634" POSITION="left" TEXT="Shells">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1571847788158" ID="ID_1856913231" LINK="https://fishshell.com/docs/current/index.html" MODIFIED="1571847800644" TEXT="Fish">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 </map>
