@@ -368,18 +368,21 @@
 <node COLOR="#00b439" CREATED="1527528694489" ID="ID_1496590302" MODIFIED="1568654118336" TEXT="Document">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1572106991634" ID="ID_1311045625" LINK="Elasticsearch.mm" MODIFIED="1572106991637" TEXT="Elasticsearch">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1530630864803" ID="ID_553682239" LINK="Fusion.mm" MODIFIED="1572106974055" TEXT="Fusion">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 <node COLOR="#990000" CREATED="1527528729449" ID="ID_1452771460" LINK="Mongo.mm" MODIFIED="1530724897269" TEXT="Mongo">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+<node COLOR="#990000" CREATED="1471002942272" ID="ID_1212949608" LINK="Search.mm" MODIFIED="1572106970631" TEXT="Search">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 <node COLOR="#990000" CREATED="1469206812834" ID="ID_1478183056" LINK="Solr.mm" MODIFIED="1530724865255" TEXT="Solr">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1530630864803" ID="ID_553682239" LINK="Fusion.mm" MODIFIED="1530724868764" TEXT="Fusion">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1471002942272" ID="ID_1212949608" LINK="Search.mm" MODIFIED="1542471660347" TEXT="Search">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
