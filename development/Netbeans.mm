@@ -107,7 +107,7 @@
 <node COLOR="#0033ff" CREATED="1548863472292" ID="ID_1184727873" LINK="https://netbeans.apache.org/" MODIFIED="1548863510526" POSITION="right" TEXT="Home Page">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1548863521836" ID="ID_1515547940" LINK="https://netbeans.apache.org/download/nb100/nb100.html" MODIFIED="1548863543770" TEXT="Downloads">
+<node COLOR="#00b439" CREATED="1548863521836" ID="ID_1515547940" LINK="https://netbeans.apache.org/download/index.html" MODIFIED="1572273462221" TEXT="Downloads">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

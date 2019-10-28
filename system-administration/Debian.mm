@@ -88,35 +88,17 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1429890288588" ID="ID_849867569" MODIFIED="1546979086418" TEXT="Set Default JDK">
+<node COLOR="#00b439" CREATED="1525443780266" ID="ID_301869249" LINK="https://olimex.wordpress.com/2014/07/21/how-to-create-bare-minimum-debian-wheezy-rootfs-from-scratch/" MODIFIED="1572269257119" TEXT="rootfs">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1429890301950" ID="ID_1807064061" MODIFIED="1546979094416" TEXT="updatealternatives --config java">
+<node COLOR="#990000" CREATED="1525443852070" ID="ID_1083252400" MODIFIED="1572269184553" TEXT="To create">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1544585243912" ID="ID_1345487183" MODIFIED="1544585246976" TEXT="tftpd">
+<node COLOR="#111111" CREATED="1525443805510" ID="ID_156355171" MODIFIED="1572269184553" TEXT="apt-get install -y qemu-user-static debootstrap binfmt-support qemu-system-arm">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1544585250378" ID="ID_1527786787" MODIFIED="1544585254596" TEXT="install">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1544585255877" ID="ID_1284198165" MODIFIED="1544585271395" TEXT="tftpd"/>
-<node COLOR="#111111" CREATED="1544585255877" ID="ID_1239794454" MODIFIED="1544585277340" TEXT="xinetd"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1525443780266" ID="ID_301869249" LINK="https://olimex.wordpress.com/2014/07/21/how-to-create-bare-minimum-debian-wheezy-rootfs-from-scratch/" MODIFIED="1542309427556" POSITION="right" TEXT="rootfs">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1525443852070" ID="ID_1083252400" MODIFIED="1539537597072" TEXT="To create">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1525443805510" ID="ID_156355171" MODIFIED="1563069405037" TEXT="apt-get install -y qemu-user-static debootstrap binfmt-support qemu-system-arm">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1525443829748" ID="ID_742672828" MODIFIED="1563069506199">
+<node COLOR="#111111" CREATED="1525443829748" ID="ID_742672828" MODIFIED="1572269184554">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -129,12 +111,11 @@
       distro=buster
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#990000" CREATED="1525443842508" ID="ID_1318395168" MODIFIED="1539537597073">
+<node COLOR="#111111" CREATED="1525443842508" ID="ID_1318395168" MODIFIED="1572269184555">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -149,9 +130,9 @@
   </body>
 </html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#990000" CREATED="1525443865714" ID="ID_1887422763" MODIFIED="1539537597074">
+<node COLOR="#111111" CREATED="1525443865714" ID="ID_1887422763" MODIFIED="1572269184555">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -165,10 +146,10 @@
     </p>
   </body>
 </html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#990000" CREATED="1525443892631" ID="ID_1870134531" MODIFIED="1539537597074" TEXT="chroot $targetdir">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1525443892631" ID="ID_1870134531" MODIFIED="1572269184556" TEXT="chroot $targetdir">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1525443904003" ID="ID_1099887261" MODIFIED="1563069488049">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -182,8 +163,7 @@
       export LANG=C
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#111111" CREATED="1525443928199" ID="ID_67024809" MODIFIED="1525443930075" TEXT="/debootstrap/debootstrap --second-stage"/>
@@ -237,8 +217,7 @@
       dpkg-reconfigure locales
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1525443979899" ID="ID_1383932169" MODIFIED="1525443981937" TEXT="passwd"/>
 <node COLOR="#111111" CREATED="1525443986119" ID="ID_1281826069" MODIFIED="1525443998539">
@@ -272,6 +251,67 @@
 </html></richcontent>
 <icon BUILTIN="help"/>
 </node>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1572269266419" ID="ID_1296460069" MODIFIED="1572269280414" TEXT="Repos">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1572269282731" ID="ID_1987277538" LINK="https://askubuntu.com/questions/170348/how-to-create-a-local-apt-repository" MODIFIED="1572269299303" TEXT="Local">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1572269309091" ID="ID_1391911150" MODIFIED="1572269310495" TEXT="dpkg-scanpackages . /dev/null | gzip -9c &gt; Packages.gz"/>
+</node>
+<node COLOR="#990000" CREATED="1572269312211" ID="ID_1134633862" LINK="https://blog.heckel.io/2015/10/18/how-to-create-debian-package-and-debian-repository/" MODIFIED="1572269323246" TEXT="Proper">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1572269335507" ID="ID_718118755" MODIFIED="1572269337055" TEXT="dpkg-scanpackages -m -a [arch] [dir] | gzip &gt; [dir]/Packages.gz"/>
+</node>
+<node COLOR="#990000" CREATED="1572269342715" ID="ID_171716981" MODIFIED="1572269343952" TEXT="Trust">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1572269352659" ID="ID_1425776561" MODIFIED="1572269353687" TEXT="/etc/apt/sources.list">
+<node COLOR="#111111" CREATED="1572269373411" ID="ID_729607320" MODIFIED="1572269398761">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Add<b><i>&#160;[ trusted=yes ]</i></b>&#160;to sources.list
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1572269359491" ID="ID_219425513" MODIFIED="1572269372197">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      deb <b><i>[ trusted=yes ] </i></b>http://ftp.us.debian.org/debian/ jessie main contrib non-free
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1429890288588" ID="ID_849867569" MODIFIED="1546979086418" TEXT="Set Default JDK">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1429890301950" ID="ID_1807064061" MODIFIED="1546979094416" TEXT="updatealternatives --config java">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1544585243912" ID="ID_1345487183" MODIFIED="1544585246976" TEXT="tftpd">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1544585250378" ID="ID_1527786787" MODIFIED="1544585254596" TEXT="install">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1544585255877" ID="ID_1284198165" MODIFIED="1544585271395" TEXT="tftpd"/>
+<node COLOR="#111111" CREATED="1544585255877" ID="ID_1239794454" MODIFIED="1544585277340" TEXT="xinetd"/>
 </node>
 </node>
 </node>

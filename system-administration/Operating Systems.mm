@@ -80,6 +80,13 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1572269560612" ID="ID_1512834159" LINK="http://git.yoctoproject.org/cgit/cgit.cgi/opkg-utils/" MODIFIED="1572269570294" TEXT="opkg-utils">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1572269602251" ID="ID_1601667410" MODIFIED="1572270036364" TEXT="opkg-make-index -a -v -p Packages .">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1357485379270" ID="ID_860807073" LINK="mac/Mac.mm" MODIFIED="1543855051173" POSITION="left" TEXT="Mac">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
