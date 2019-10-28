@@ -1,0 +1,805 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Karate</title>
+<style type="text/css">
+    li { list-style: none;  margin: 0; }
+    p { margin: 0; }
+
+    span.l { color: red; font-weight: bold; }
+
+    a.mapnode:link {text-decoration: none; color: black; }
+    a.mapnode:visited {text-decoration: none; color: black; }
+    a.mapnode:active {text-decoration: none; color: black; }
+    a.mapnode:hover {text-decoration: none; color: black; background: #eeeee0; }
+
+</style>
+<!-- ^ Position is not set to relative / absolute here because of Mozilla -->
+</head>
+<body>
+<p><a href="Development.mm.html" target="_blank"><span class=l>~</span>&nbsp;<span style="color: #000000;font-size: 166%;font-family: SansSerif, sans-serif; ">Karate</span>
+</a>
+<ul><li><span style="color: #0033ff;font-size: 150%;font-family: SansSerif, sans-serif; ">How To</span>
+<ul><li><a href="https://intuit.github.io/karate/#http-basic-authentication-example" target="_blank"><span class=l>~</span>&nbsp;<span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">Basic Auth</span>
+</a>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <div http-equiv="content-type" content="text/html; charset=utf-8" class="language-javascript highlighter-rouge">&#xa;      <div class="highlight">&#xa;        <pre class="highlight"><code>function fn(creds) {&#xa;  var temp = creds.username + ':' + creds.password;&#xa;  var Base64 = Java.type('java.util.Base64');&#xa;  var encoded = Base64.getEncoder().encodeToString(temp.bytes);&#xa;  return 'Basic ' + encoded;&#xa;}</code></pre>&#xa;      </div>&#xa;    </div>&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* header Authorization = call read('basic-auth.js') { username: 'john', password: 'secret' }</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">Ignore Test</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">@ignore</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">Params</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Command line</span>
+<ul><li><span style="color: #111111;font-family: SansSerif, sans-serif; ">-Dsome.name=foo</span>
+
+</li>
+<li><span style="color: #111111;font-family: SansSerif, sans-serif; ">karate.properties['some.name']</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Operating System</span>
+<ul><li><span style="color: #111111;">var systemPath = java.lang.System.getenv('PATH');</span>
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="color: #0033ff;font-size: 150%;font-family: SansSerif, sans-serif; ">Markup</span>
+<ul><li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">JSON</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">First class citizen</span>
+
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">No escaping</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">XML</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">First class citizen</span>
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="color: #0033ff;font-size: 150%;font-family: SansSerif, sans-serif; ">Scripts</span>
+<ul><li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">.feature files</span>
+
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">Structure</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Feature</span>
+
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Background</span>
+
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Scenario</span>
+
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; "># are comments</span>
+
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Example</span>
+<ul><li><span style="color: #111111;">&#xa;    <div http-equiv="content-type" content="text/html; charset=utf-8" class="language-cucumber highlighter-rouge">&#xa;      <div class="highlight">&#xa;        <pre class="highlight"><code>Feature: brief description of what is being tested&#xa;    more lines of description if needed.&#xa;&#xa;Background:&#xa;  # this section is optional !&#xa;  # steps here are executed before each Scenario in this file&#xa;  # variables defined here will be 'global' to all scenarios&#xa;  # and will be re-initialized before every scenario&#xa;&#xa;Scenario: brief description of this scenario&#xa;  # steps for this scenario&#xa;&#xa;Scenario: a different scenario&#xa;  # steps for this other scenario</code></pre>&#xa;      </div>&#xa;    </div>&#xa;  </span>
+</li>
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><a href="https://intuit.github.io/karate/" target="_blank"><span class=l>~</span>&nbsp;<span style="color: #0033ff;font-size: 150%;font-family: SansSerif, sans-serif; ">Documentation</span>
+</a>
+<ul><li><a href="https://intuit.github.io/karate/#javascript-functions" target="_blank"><span class=l>~</span>&nbsp;<span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">JavaScript Functions</span>
+</a>
+
+</li>
+<li><a href="https://intuit.github.io/karate/karate-core/" target="_blank"><span class=l>~</span>&nbsp;<span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">Karate Driver</span>
+</a>
+
+</li>
+<li><a href="https://intuit.github.io/karate/#the-karate-object" target="_blank"><span class=l>~</span>&nbsp;<span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">Karate Object</span>
+</a>
+
+</li>
+<li><a href="https://intuit.github.io/karate/#parallel-execution" target="_blank"><span class=l>~</span>&nbsp;<span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">Parallel Execution</span>
+</a>
+
+</li>
+<li><a href="https://intuit.github.io/karate/#syntax-guide" target="_blank"><span class=l>~</span>&nbsp;<span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">Syntax Guide</span>
+</a>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #0033ff;font-size: 150%;font-family: SansSerif, sans-serif; ">Config</span>
+<ul><li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">karate-config.js</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Requirements</span>
+<ul><li><span style="color: #111111;font-family: SansSerif, sans-serif; ">Must be found on the classpath</span>
+
+</li>
+<li><a href="#ID_421792732" target="_blank"><span class=l>~</span>&nbsp;<span style="color: #111111;font-family: SansSerif, sans-serif; ">Must contain a JavaScript function</span>
+</a>
+<ul><li><p><span style="color: #111111;">Must return a JSON</span>
+<span style="color: #111111;">&#xa;    <div http-equiv="content-type" content="text/html; charset=utf-8" class="language-javascript highlighter-rouge">&#xa;      <div class="highlight">&#xa;        <pre class="highlight"><code>function fn() {   &#xa;  var env = karate.env; // get java system property 'karate.env'&#xa;  karate.log('karate.env system property was:', env);&#xa;  if (!env) {&#xa;    env = 'dev'; // a custom 'intelligent' default&#xa;  }&#xa;  var config = { // base config JSON&#xa;    appId: 'my.app.id',&#xa;    appSecret: 'my.secret',&#xa;    someUrlBase: 'https://some-host.com/v1/auth/',&#xa;    anotherUrlBase: 'https://another-host.com/v1/'&#xa;  };&#xa;  if (env == 'stage') {&#xa;    // over-ride only those that need to be&#xa;    config.someUrlBase = 'https://stage-host/v1/auth';&#xa;  } else if (env == 'e2e') {&#xa;    config.someUrlBase = 'https://e2e-host/v1/auth';&#xa;  }&#xa;  // don't waste time waiting for a connection or if servers don't respond within 5 seconds&#xa;  karate.configure('connectTimeout', 5000);&#xa;  karate.configure('readTimeout', 5000);&#xa;  return config;&#xa;}</code></pre>&#xa;      </div>&#xa;    </div>&#xa;  </span>
+</li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Environment</span>
+<ul><li><span style="color: #111111;">&#xa;    <p>&#xa;      mvn test -DargLine=&quot;-D<b><i>karate.env</i></b>=e2e&quot;&#xa;    </p>&#xa;  </span>
+</li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">karate-config-[env].js</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <p>&#xa;      Processed for value of <b><i>karate.env</i></b>&#xa;    </p>&#xa;  </span>
+</li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="color: #0033ff;font-size: 150%;font-family: SansSerif, sans-serif; ">Keywords</span>
+<ul><li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">call</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">* def signIn = call read('classpath:my-signin.feature') { username: 'john', password: 'secret' }</span>
+
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Data Driven</span>
+<ul><li><span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* table kittens &#xa;  | name   | age |&#xa;  | 'Bob'  |   2 |&#xa;  | 'Wild' |   1 |&#xa;  | 'Nyan' |   3 |&#xa;&#xa;* def result = call read('cat-create.feature') kittens</code></pre>&#xa;    <p>&#xa;      &#xa;    </p>&#xa;  </span>
+</li>
+</ul>
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Built-in</span>
+<ul><li><span style="color: #111111;">__arg</span>
+<ul><li><span style="color: #111111;">the single call (or callonce) argument, will be null if there was none</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #111111;">__loop</span>
+<ul><li><span style="color: #111111;">the current iteration index (starts from 0) if being called in a loop, will be -1 if not</span>
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">method</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">HTTP Verb</span>
+<ul><li><span style="color: #111111;">get</span>
+
+</li>
+<li><span style="color: #111111;">post</span>
+
+</li>
+<li><span style="color: #111111;">put</span>
+
+</li>
+<li><span style="color: #111111;">delete</span>
+
+</li>
+<li><span style="color: #111111;">patch</span>
+
+</li>
+<li><span style="color: #111111;">options</span>
+
+</li>
+<li><span style="color: #111111;">head</span>
+
+</li>
+<li><span style="color: #111111;">connext</span>
+
+</li>
+<li><span style="color: #111111;">trace</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">When method post</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">path</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Given path 'documents/' + documentId + '/download'</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">repeat</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def fun = function(i){ return { name: 'User ' + (i + 1) } }&#xa;* def foo = karate.repeat(3, fun)</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">response</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">json</span>
+<ul><li><span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>Then match response $ == { name: 'Billie' }&#xa;Then match response == { name: 'Billie' }&#xa;Then match $ == { name: 'Billie' }</code></pre>&#xa;  </span>
+<span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>Then match response.name == 'Billie'&#xa;Then match response $.name == 'Billie'&#xa;Then match $.name == 'Billie'</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">xml</span>
+<ul><li><span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>Then match response / == &lt;cat&gt;&lt;name&gt;Billie&lt;/name&gt;&lt;/cat&gt;&#xa;Then match response/ == &lt;cat&gt;&lt;name&gt;Billie&lt;/name&gt;&lt;/cat&gt;&#xa;Then match response == &lt;cat&gt;&lt;name&gt;Billie&lt;/name&gt;&lt;/cat&gt;&#xa;Then match / == &lt;cat&gt;&lt;name&gt;Billie&lt;/name&gt;&lt;/cat&gt; </code></pre>&#xa;  </span>
+<span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>Then match response /cat/name == 'Billie'&#xa;Then match response/cat/name == 'Billie'&#xa;Then match /cat/name == 'Billie'</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">responseBytes</span>
+
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">responseCookies</span>
+<ul><li><span style="color: #111111;">assert responseCookies['my.key'].value == 'someValue'</span>
+
+</li>
+<li><span style="color: #111111;">* match responseCookies contains { time: '#notnull' }</span>
+
+</li>
+<li><span style="color: #111111;">* match responseCookies !contains { blah: '#notnull' }</span>
+
+</li>
+<li><span style="color: #111111;">* def time = responseCookies.time.value</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">responseHeaders</span>
+<ul><li><span style="color: #111111;">* def contentType = responseHeaders['Content-Type'][0]</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">responseStatus</span>
+<ul><li><span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def uploadStatusCode = responseStatus&#xa;&#xa;Then assert responseStatus == 200 || responseStatus == 204</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">resposneTime</span>
+<ul><li><span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>When method post&#xa;Then status 201&#xa;And assert responseTime &lt; 1000</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">request</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Given request { name: 'Billie', type: 'LOL' } </span>
+
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">And request &lt;cat&gt;&lt;name&gt;Billie&lt;/name&gt;&lt;type&gt;Ceiling&lt;/type&gt;&lt;/cat&gt;</span>
+
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Given request read('my-json.json')</span>
+
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">And request myVariable</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">retry</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">* configure retry = { count: 10, interval: 5000 } </span>
+
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">until</span>
+<ul><li><span style="color: #111111;">And retry until response.id &gt; 3</span>
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">status</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Then status 200</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">set key-value pairs</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">param</span>
+<ul><li><span style="color: #111111;">* param myParam = 'foo', 'bar'</span>
+
+</li>
+<li><span style="color: #111111;">* params { searchBy: 'client', active: true, someList: [1, 2, 3] }</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">header</span>
+<ul><li><span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>Given header Authorization = myAuthFunction()&#xa;And header transaction-id = 'test-' + myIdString</code></pre>&#xa;  </span>
+<p><span style="color: #111111;">* header myHeader = 'foo', 'bar'</span>
+<span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def someData = { Authorization: 'sometoken', tx_id: '1234', extraTokens: ['abc', 'def'] }&#xa;* headers someData</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">cookie</span>
+<ul><li><span style="color: #111111;">Given cookie foo = 'bar'</span>
+
+</li>
+<li><span style="color: #111111;">* cookies { someKey: 'someValue', foo: 'bar' } </span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">form field</span>
+<ul><li><span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>And form field username = 'john'&#xa;And form field password = 'secret'</code></pre>&#xa;  </span>
+<p><span style="color: #111111;">* form field selected = 'apple', 'orange'</span>
+<span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def credentials = { username: '#(user.name)', password: 'secret', projects: ['one', 'two'] }&#xa;* form fields credentials</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">multipart field</span>
+<ul><li><p><span style="color: #111111;">read:</span>
+<ul><li><span style="color: #111111;">the name of a file, and the classpath: prefix also is allowed. mandatory unless value is used</span>
+
+</li>
+
+</ul><p><span style="color: #111111;">value:</span>
+<ul><li><p><span style="color: #111111;">alternative to read in rare cases where something like a JSON or XML file is being uploaded and you want to create it dynamically.</span>
+</li>
+</ul><p><span style="color: #111111;">filename:</span>
+<ul><li><span style="color: #111111;">optional, will default to the multipart field name if not specified</span>
+
+</li>
+
+</ul><p><span style="color: #111111;">contentType:</span>
+<ul><li><span style="color: #111111;">optional, will default to application/octet-stream</span>
+
+</li>
+
+</ul><span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>Given multipart file myFile = { read: 'test.pdf', filename: 'upload-name.pdf', contentType: 'application/pdf' }&#xa;And multipart field message = 'hello world'</code></pre>&#xa;  </span>
+<p><span style="color: #111111;">And multipart fields { message: 'hello world', json: { foo: 'bar' } }</span>
+</li>
+</ul>
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">multipart entity</span>
+<ul><li><span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>And multipart entity read('foo.json')&#xa;And multipart field image = read('bar.jpg')&#xa;And header Content-Type = 'multipart/related'</code></pre>&#xa;  </span>
+<span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def json = {}&#xa;* set json.myFile1 = { read: 'test1.pdf', filename: 'upload-name1.pdf', contentType: 'application/pdf' }&#xa;# if you have dynamic keys you can do this&#xa;* def key = 'myFile2'&#xa;* json[key] = { read: 'test2.pdf', filename: 'upload-name2.pdf', contentType: 'application/pdf' }&#xa;And multipart files json</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">soap action</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>Given request read('soap-request.xml')&#xa;When soap action 'QueryUsageBalance'&#xa;Then status 200&#xa;And match response /Envelope/Body/QueryUsageBalanceResponse/Result/Error/Code == 'DAT_USAGE_1003'&#xa;And match response /Envelope/Body/QueryUsageBalanceResponse == read('expected-response.xml')</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">url</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Given url 'https://myhost.com/v1/cats' </span>
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="color: #0033ff;font-size: 150%;font-family: SansSerif, sans-serif; ">Variables</span>
+<ul><li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">def</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">string</span>
+
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">json</span>
+
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">xml</span>
+
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">xmlstring</span>
+
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">csv</span>
+
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">yaml</span>
+
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">bytes</span>
+
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">copy</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">set</span>
+<ul><li><p><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">def myNum = 5</span>
+<span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def myJson = { foo: 'bar' }&#xa;* set myJson.foo = 'world'</code></pre>&#xa;  </span>
+<span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def cat = { name: '' }&#xa;&#xa;* set cat&#xa;  | path   | value |&#xa;  | name   | 'Bob' |&#xa;  | age    | 5     |</code></pre>&#xa;  </span>
+<span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <div http-equiv="content-type" content="text/html; charset=utf-8" class="language-cucumber highlighter-rouge">&#xa;      <div class="highlight">&#xa;        <pre class="highlight"><code>* set foo.bar&#xa;  | path   | value |&#xa;  | one    | 1     |&#xa;  | two[0] | 2     |&#xa;  | two[1] | 3     |&#xa;&#xa;* match foo == { bar: { one: 1, two: [2, 3] } </code></pre>&#xa;      </div>&#xa;    </div>&#xa;  </span>
+</li>
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">get</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def actual = 23&#xa;&#xa;# so instead of this&#xa;* def kitnums = <b><i>get</i></b> cat.kittens[*].id&#xa;* match actual == kitnums[0]&#xa;&#xa;# you can do this in one line&#xa;* match actual == <b><i>get</i></b>[0] cat.kittens[*].id</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">match</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def myJson = { foo: 'bar' }&#xa;* set myJson.foo = 'world'&#xa;* match myJson == { foo: 'world' }</code></pre>&#xa;  </span>
+<span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* match foo == '#string'&#xa;# convenient (and recommended) way to check for array length&#xa;* match bar == '#[2]'</code></pre>&#xa;  </span>
+<span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <div http-equiv="content-type" content="text/html; charset=utf-8" class="language-cucumber highlighter-rouge">&#xa;      <div class="highlight">&#xa;        <pre class="highlight"><code>* def foo = { }&#xa;* match foo == { a: '##null' }&#xa;* match foo == { a: '##notnull' }&#xa;* match foo == { a: '#notpresent' }&#xa;* match foo == { a: '#ignore' }</code></pre>&#xa;      </div>&#xa;    </div>&#xa;  </span>
+<span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <div http-equiv="content-type" content="text/html; charset=utf-8" class="language-cucumber highlighter-rouge">&#xa;      <div class="highlight">&#xa;        <pre class="highlight"><code>* def foo = { a: null }&#xa;* match foo == { a: '#null' }&#160;&#160;&#160; &#xa;* match foo == { a: '##null' }&#xa;* match foo == { a: '#present' }&#xa;* match foo == { a: '#ignore' }</code></pre>&#xa;      </div>&#xa;    </div>&#xa;  </span>
+<span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <div http-equiv="content-type" content="text/html; charset=utf-8" class="language-cucumber highlighter-rouge">&#xa;      <div class="highlight">&#xa;        <pre class="highlight"><code>* def foo = { a: 1 }&#xa;* match foo == { a: '#notnull' }&#xa;* match foo == { a: '##notnull' }&#xa;* match foo == { a: '#present' }&#xa;* match foo == { a: '#ignore' }</code></pre>&#xa;      </div>&#xa;    </div>&#xa;  </span>
+<span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def foo = { a: 1 }&#xa;* match foo.a == '#present'&#xa;* match foo.nope == '#notpresent'</code></pre>&#xa;  </span>
+<p><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">self</span>
+<ul><li><p><span style="color: #111111;">Symbols</span>
+<ul><li><span style="color: #111111;">$</span>
+<ul><li><span style="color: #111111;"> 	The &#8216;root&#8217; of the JSON document in scope</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #111111;">_</span>
+<ul><li><span style="color: #111111;">The value of &#8216;self&#8217;</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #111111;">_$</span>
+<ul><li><span style="color: #111111;">The &#8216;parent&#8217; of &#8216;self&#8217; or &#8216;current&#8217; item in the list, relevant when using match each</span>
+
+</li>
+
+</ul>
+</li>
+
+</ul><span style="color: #111111;">&#xa;    <div http-equiv="content-type" content="text/html; charset=utf-8" class="language-cucumber highlighter-rouge">&#xa;      <div class="highlight">&#xa;        <pre class="highlight"><code>* def date = { month: 3 }&#xa;* match date == { month: '#? _ &gt; 0 &amp;&amp; _ &lt; 13' </code></pre>&#xa;      </div>&#xa;    </div>&#xa;  </span>
+<span style="color: #111111;">&#xa;    <div http-equiv="content-type" content="text/html; charset=utf-8" class="language-cucumber highlighter-rouge">&#xa;      <div class="highlight">&#xa;        <pre class="highlight"><code>* def date = { month: 3 }&#xa;* def min = 1&#xa;* def max = 12&#xa;* match date == { month: '#? _ &gt;= min &amp;&amp; _ &lt;= max' </code></pre>&#xa;      </div>&#xa;    </div>&#xa;  </span>
+<span style="color: #111111;">&#xa;    <div http-equiv="content-type" content="text/html; charset=utf-8" class="language-cucumber highlighter-rouge">&#xa;      <div class="highlight">&#xa;        <pre class="highlight"><code>* def date = { month: 3 }&#xa;* def isValidMonth = function(m) { return m &gt;= 0 &amp;&amp; m &lt;= 12 }&#xa;* match date == { month: '#? isValidMonth(_)' }</code></pre>&#xa;      </div>&#xa;    </div>&#xa;  </span>
+<span style="color: #111111;">&#xa;    <div http-equiv="content-type" content="text/html; charset=utf-8" class="language-cucumber highlighter-rouge">&#xa;      <div class="highlight">&#xa;        <pre class="highlight"><code># given this invalid input (string instead of number)&#xa;* def date = { month: '3' }&#xa;# this will pass&#xa;* match date == { month: '#? _ &gt; 0' }&#xa;# but this 'combined form' will fail, which is what we want&#xa;# * match date == { month: '#number? _ &gt; 0' }</code></pre>&#xa;      </div>&#xa;    </div>&#xa;  </span>
+<p><span style="color: #111111;">contains</span>
+<ul><li><p><span style="color: #111111;">short-cuts</span>
+<ul><li><span style="color: #111111;">^</span>
+<ul><li><span style="color: #111111;">contains</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #111111;">^^</span>
+<ul><li><span style="color: #111111;">contains only</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #111111;">^*</span>
+<ul><li><span style="color: #111111;">contains any'</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #111111;">!^</span>
+<ul><li><span style="color: #111111;">not contains</span>
+
+</li>
+
+</ul>
+</li>
+
+</ul><span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def hello = 'Hello World!'&#xa;* match hello contains 'World'&#xa;* match hello !contains 'blah'</code></pre>&#xa;  </span>
+<span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def foo = { bar: 1, baz: 'hello', ban: 'world' }&#xa;&#xa;* match foo contains { bar: 1 }&#xa;* match foo contains { baz: 'hello' }&#xa;* match foo contains { bar:1, baz: 'hello' }</code></pre>&#xa;  </span>
+<p><span style="color: #111111;">not</span>
+<ul><li><span style="color: #111111;">&#xa;    <div http-equiv="content-type" content="text/html; charset=utf-8" class="language-cucumber highlighter-rouge">&#xa;      <div class="highlight">&#xa;        <pre class="highlight"><code>* def foo = { bar: 1, baz: 'hello', ban: 'world' }&#xa;* match foo !contains { bar: 2 }&#xa;* match foo !contains { huh: '#notnull' }</code></pre>&#xa;      </div>&#xa;    </div>&#xa;  </span>
+<span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def foo = [1, 2, 3]&#xa;* match foo !contains 4&#xa;* match foo !contains [5, 6]</code></pre>&#xa;  </span>
+</li>
+</ul><p><span style="color: #111111;">any</span>
+<ul><li><span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def data = { foo: [1, 2, 3] }&#xa;* match data.foo contains any [9, 2, 8]</code></pre>&#xa;  </span>
+<span style="color: #111111;">&#xa;    <div http-equiv="content-type" content="text/html; charset=utf-8" class="language-cucumber highlighter-rouge">&#xa;      <div class="highlight">&#xa;        <pre class="highlight"><code>* def data = { a: 1, b: 'x' }&#xa;* match data contains any { b: 'x', c: true </code></pre>&#xa;      </div>&#xa;    </div>&#xa;  </span>
+</li>
+</ul></li>
+</ul><p><span style="color: #111111;">header</span>
+<ul><li><span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code># so after a http request&#xa;Then match header Content-Type == 'application/json'&#xa;# 'contains' works as well&#xa;Then match header Content-Type contains 'application'</code></pre>&#xa;  </span>
+</li>
+</ul><p><span style="color: #111111;">xml</span>
+<ul><li><span style="color: #111111;">&#xa;    <div class="language-cucumber highlighter-rouge">&#xa;      <div class="highlight">&#xa;        <pre class="highlight"><code>* def xml = &lt;root&gt;&lt;hello&gt;world&lt;/hello&gt;&lt;foo&gt;bar&lt;/foo&gt;&lt;/root&gt;&#xa;* match xml == &lt;root&gt;&lt;hello&gt;world&lt;/hello&gt;&lt;foo&gt;#ignore&lt;/foo&gt;&lt;/root&gt;&#xa;* def xml = &lt;root&gt;&lt;hello foo=&quot;bar&quot;&gt;world&lt;/hello&gt;&lt;/root&gt;&#xa;* match xml == &lt;root&gt;&lt;hello foo=&quot;#ignore&quot;&gt;world&lt;/hello&gt;&lt;/root&gt;</code></pre>&#xa;      </div>&#xa;    </div>&#xa;  </span>
+</li>
+</ul></li>
+</ul><p><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Fuzzy</span>
+<ul><li><span style="color: #111111;">#ignore</span>
+<ul><li><span style="color: #111111;">Skip comparison for this field even if the data element or JSON key is present</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #111111;">#null</span>
+<ul><li><span style="color: #111111;"> 	Expects actual value to be null, and the data element or JSON key must be present</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #111111;">#notnull</span>
+<ul><li><span style="color: #111111;"> 	Expects actual value to be not-null</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #111111;">#present</span>
+<ul><li><p><span style="color: #111111;">Actual value can be any type or even null, but the key must be present (only for JSON / XML, see below)</span>
+<span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def json = { foo: 'bar' }&#xa;* match json == { foo: '#present' }</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+<li><span style="color: #111111;">#notpresent</span>
+<ul><li><p><span style="color: #111111;">Expects the key to be not present at all (only for JSON / XML,</span>
+<span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def json = { foo: 'bar' }&#xa;* match json.nope == '#notpresent'</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+<li><span style="color: #111111;">#array</span>
+<ul><li><span style="color: #111111;">Expects actual value to be a JSON array</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #111111;">#object</span>
+<ul><li><span style="color: #111111;">Expects actual value to be a JSON object</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #111111;">#boolean</span>
+<ul><li><span style="color: #111111;">Expects actual value to be a boolean true or false</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #111111;">#number</span>
+<ul><li><span style="color: #111111;">Expects actual value to be a number</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #111111;">#string</span>
+<ul><li><span style="color: #111111;">Expects actual value to be a string</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #111111;">#uuid</span>
+<ul><li><span style="color: #111111;">Expects actual (string) value to conform to the UUID format</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #111111;">#regex STR</span>
+<ul><li><span style="color: #111111;">Expects actual (string) value to match the regular-expression &#8216;STR&#8217;</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #111111;">#? EXPR</span>
+<ul><li><span style="color: #111111;">Expects the JavaScript expression &#8216;EXPR&#8217; to evaluate to true</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #111111;">#[NUM] EXPR</span>
+<ul><li><span style="color: #111111;">Advanced array validation</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #111111;">#(EXPR)</span>
+<ul><li><span style="color: #111111;">For completeness, embedded expressions belong in this list as well</span>
+
+</li>
+
+</ul>
+</li>
+
+</ul></li>
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">remove</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <div http-equiv="content-type" content="text/html; charset=utf-8" class="language-cucumber highlighter-rouge">&#xa;      <div class="highlight">&#xa;        <pre class="highlight"><code>* def json = { foo: 'world', hey: 'ho', zee: [1, 2, 3] }&#xa;* remove json.hey&#xa;* match json == { foo: 'world', zee: [1, 2, 3] }&#xa;* remove json $.zee[1]&#xa;* match json == { foo: 'world', zee: [1, 3] }</code></pre>&#xa;      </div>&#xa;    </div>&#xa;  </span>
+</li>
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">assert</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Then assert color + num == 'red 5'</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">print</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">* print 'the value of a is:', a </span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">JSON</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Given def user = { name: 'john', age: 21 }</span>
+
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">* def cat = { name: 'Billie', scores: [2, 5] }</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">XML</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Given def cat = &lt;cat&gt;&lt;name&gt;Billie&lt;/name&gt;&lt;scores&gt;&lt;score&gt;2&lt;/score&gt;&lt;score&gt;5&lt;/score&gt;&lt;/scores&gt;&lt;/cat&gt;</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">expressions</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">embedded</span>
+<ul><li><span style="color: #111111;">Evaluated as a JavaScript expression</span>
+
+</li>
+<li><span style="color: #111111;">#(variable)</span>
+
+</li>
+<li><span style="color: #111111;">Example</span>
+<ul><li><p><span style="color: #111111;">When def session = { name: '#(user.name)', locale: '#(lang)', sessionUser: '#(user)' &nbsp;}</span>
+<p><span style="color: #111111;">* def foo = { bar: '#("hello " + name)' }</span>
+<span style="color: #111111;">&#xa;    <p>&#xa;      * def embedded = { name: '#(user.name)', locale: '#(lang)', sessionUser: '#(user)' }&#160;<br >&#xa;    </p>&#xa;  </span>
+</li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">multiline</span>
+<ul><li><span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def cat = &#xa;  &quot;&quot;&quot;&#xa;  &lt;cat&gt;&#xa;      &lt;name&gt;Billie&lt;/name&gt;&#xa;      &lt;scores&gt;&#xa;          &lt;score&gt;2&lt;/score&gt;&#xa;          &lt;score&gt;5&lt;/score&gt;&#xa;      &lt;/scores&gt;&#xa;  &lt;/cat&gt;&#xa;  &quot;&quot;</code></pre>&#xa;  </span>
+<span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>Then match response ==&#xa;  &quot;&quot;&quot;&#xa;  { id: { domain: &quot;DOM&quot;, type: &quot;entityId&quot;, value: &quot;#ignore&quot; },&#xa;    created: { on: &quot;#ignore&quot; }, &#xa;    lastUpdated: { on: &quot;#ignore&quot; },&#xa;    entityState: &quot;ACTIVE&quot;&#xa;  }&#xa;  &quot;&quot;&quot;</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">table</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>Then match response ==&#xa;  &quot;&quot;&quot;&#xa;  { id: { domain: &quot;DOM&quot;, type: &quot;entityId&quot;, value: &quot;#ignore&quot; },&#xa;    created: { on: &quot;#ignore&quot; }, &#xa;    lastUpdated: { on: &quot;#ignore&quot; },&#xa;    entityState: &quot;ACTIVE&quot;&#xa;  }&#xa;  &quot;&quot;&quot;</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">text</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">raw</span>
+<ul><li><span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>  * text query =&#xa;    &quot;&quot;&quot;&#xa;    {&#xa;      hero(name: &quot;&lt;name&gt;&quot;) {&#xa;        height&#xa;        mass&#xa;      }&#xa;    }&#xa;    &quot;&quot;&quot;</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">placeholder replacement</span>
+<ul><li><span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def text = 'hello &lt;foo&gt; world'&#xa;* replace text.foo = 'bar</code></pre>&#xa;  </span>
+<span style="color: #111111;">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def text = 'hello &lt;one&gt; world &lt;two&gt; bye'&#xa;&#xa;* replace text&#xa;  | token | value   |&#xa;  | one   | 'cruel' |&#xa;  | two   | 'good'  |</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">yaml</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* text foo =&#xa;  &quot;&quot;&quot;&#xa;  name: John&#xa;  input:&#xa;    id: 1&#xa;    subType: &#xa;      name: Smith&#xa;      deleted: false&#xa;  &quot;&quot;&quot;</code></pre>&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* yaml foo = foo</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">csv</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* text foo =&#xa;    &quot;&quot;&quot;&#xa;    name,type&#xa;    Billie,LOL&#xa;    Bob,Wild&#xa;    &quot;&quot;&quot;&#xa;* csv bar = foo</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">JavaScript Functions</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def greeter = function(title, name) { return 'hello ' + title + ' ' + name }&#xa;* assert greeter('Mr.', 'Bob') == 'hello Mr. Bob'</code></pre>&#xa;  </span>
+<span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">&#xa;    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="highlight"><code>* def dateStringToLong =&#xa;  &quot;&quot;&quot;&#xa;  function(s) {&#xa;    var SimpleDateFormat = Java.type('java.text.SimpleDateFormat');&#xa;    var sdf = new SimpleDateFormat(&quot;yyyy-MM-dd'T'HH:mm:ss.SSSZ&quot;);&#xa;    return sdf.parse(s).time; // '.getTime()' would also have worked instead of '.time'&#xa;  } &#xa;  &quot;&quot;&quot;</code></pre>&#xa;  </span>
+</li>
+</ul>
+</li>
+<li><span style="color: #00b439;font-size: 133%;font-family: SansSerif, sans-serif; ">Reading files</span>
+<ul><li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">classpath:</span>
+<ul><li><span style="color: #111111;">relative to the classpath, recommended for re-usable features</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">file:</span>
+<ul><li><span style="color: #111111;">do not use this unless you know what you are doing, see above</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">this:</span>
+<ul><li><span style="color: #111111;">when in a called feature, ensure that files are resolved relative to the current feature file</span>
+
+</li>
+
+</ul>
+</li>
+<li><span style="color: #990000;font-size: 116%;font-family: SansSerif, sans-serif; ">Example</span>
+<ul><li><span style="color: #111111;">&#xa;    <div class="language-cucumber highlighter-rouge">&#xa;      <div class="highlight">&#xa;        <pre class="highlight"><code># json&#xa;* def someJson = read('some-json.json')&#xa;* def moreJson = read('classpath:more-json.json')&#xa;&#xa;# xml&#xa;* def someXml = read('../common/my-xml.xml')&#xa;&#xa;# import yaml (will be converted to json)&#xa;* def jsonFromYaml = read('some-data.yaml')&#xa;&#xa;# csv (will be converted to json)&#xa;* def jsonFromCsv = read('some-data.csv')&#xa;&#xa;# string&#xa;* def someString = read('classpath:messages.txt')&#xa;&#xa;# javascript (will be evaluated)&#xa;* def someValue = read('some-js-code.js')</code></pre>&#xa;      </div>&#xa;    </div>&#xa;  </span>
+<p><span style="color: #111111;">* def someStream = read('some-pdf.pdf')</span>
+<p><span style="color: #111111;">* def someBigString = read('first.txt') + read('second.txt')</span>
+<p><span style="color: #111111;">Given request read('some-big-payload.json') </span>
+<p><span style="color: #111111;">feature files</span>
+<ul><li><span style="color: #111111;">* def result = call read('classpath:some-reusable-steps.feature')</span>
+
+</li>
+
+</ul><p><span style="color: #111111;">side-by-side</span>
+<ul><li><span style="color: #111111;">* def data = read('this:payload.json') </span>
+
+</li>
+
+</ul><p><span style="color: #111111;">file as a string</span>
+<ul><li><span style="color: #111111;">And request karate.readAsString('classpath:my.csv')</span>
+
+</li>
+
+</ul></li>
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul></body>
+</html>
