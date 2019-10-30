@@ -194,24 +194,7 @@
 <node COLOR="#0033ff" CREATED="1540924338190" ID="ID_804417128" MODIFIED="1540924340294" POSITION="right" TEXT="Upgrade">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1562245074003" ID="ID_1590691" LINK="https://fedoramagazine.org/upgrading-fedora-29-to-fedora-30/" MODIFIED="1562245093308" TEXT="29 to 30">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1562245110456" ID="ID_1636213577" MODIFIED="1562245133276" TEXT="dnf upgrade --refresh">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1556643343684" ID="ID_284752530" MODIFIED="1556643345830" TEXT="--allowerasing"/>
-</node>
-<node COLOR="#990000" CREATED="1562245116072" ID="ID_110291475" MODIFIED="1562245129938" TEXT="dnf install dnf-plugin-system-upgrade">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1562245122785" ID="ID_461912441" MODIFIED="1562245124447" TEXT="dnf system-upgrade download --releasever=30">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1562245140000" ID="ID_1453423890" MODIFIED="1562245141600" TEXT="dnf system-upgrade reboot">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1540924345203" FOLDED="true" ID="ID_962325158" LINK="https://tecadmin.net/upgrade-fedora/" MODIFIED="1562245160763" TEXT="system-upgrade">
+<node COLOR="#00b439" CREATED="1540924345203" ID="ID_962325158" LINK="https://tecadmin.net/upgrade-fedora/" MODIFIED="1572442612917" TEXT="system-upgrade">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1540924595026" ID="ID_1102796344" MODIFIED="1540924597142" TEXT="https://tecadmin.net/upgrade-fedora/">
@@ -224,11 +207,11 @@
 <icon BUILTIN="full-1"/>
 <node COLOR="#111111" CREATED="1556643343684" ID="ID_1712043075" MODIFIED="1556643345830" TEXT="--allowerasing"/>
 </node>
-<node COLOR="#111111" CREATED="1540924546494" ID="ID_1772714190" MODIFIED="1540924602978" TEXT="dnf install dnf-plugin-system-upgrade">
+<node COLOR="#111111" CREATED="1540924546494" ID="ID_1772714190" MODIFIED="1572448999425" TEXT="dnf install dnf-plugin-system-upgrade -y">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
 </node>
-<node COLOR="#111111" CREATED="1540924557254" ID="ID_641943752" MODIFIED="1540924602980" TEXT="dnf system-upgrade download --refresh --releasever=[version]">
+<node COLOR="#111111" CREATED="1540924557254" ID="ID_641943752" MODIFIED="1572449031225" TEXT="dnf system-upgrade download --refresh --releasever=[version] -y">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-3"/>
 </node>
@@ -238,12 +221,19 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1449686779889" FOLDED="true" ID="ID_50212624" MODIFIED="1562245065773" TEXT="FedUp">
+<node COLOR="#00b439" CREATED="1572442705263" ID="ID_1242885747" LINK="https://docs.fedoraproject.org/en-US/quick-docs/dnf-system-upgrade/#Resolving_post-upgrade_issues" MODIFIED="1572442721434" TEXT="DNF System Upgrade Quick Docs">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1449686807008" ID="ID_1143948262" MODIFIED="1540924342333" TEXT="Install">
+</node>
+<node COLOR="#00b439" CREATED="1572442772255" FOLDED="true" ID="ID_179310739" MODIFIED="1572442788378" TEXT="23 and before">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1449686779889" FOLDED="true" ID="ID_50212624" MODIFIED="1572442777258" TEXT="FedUp">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1449686807008" ID="ID_1143948262" MODIFIED="1572442777258" TEXT="Install">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1449691522422" ID="ID_1103427746" MODIFIED="1540924342333" TEXT="yum install fedup">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
@@ -256,9 +246,9 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1449686813840" ID="ID_710581151" MODIFIED="1545600620530" TEXT="fedup --network [Fedora Version] --nogpgcheck">
+<node COLOR="#111111" CREATED="1449686813840" ID="ID_710581151" MODIFIED="1572442777259" TEXT="fedup --network [Fedora Version] --nogpgcheck">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1390052126715" ID="ID_1775162212" MODIFIED="1545600631184" TEXT="fedup --network 20">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="12"/>
@@ -270,9 +260,51 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1449686864212" ID="ID_379077197" MODIFIED="1540924342336" TEXT="dnf system-upgrade reboot">
+<node COLOR="#111111" CREATED="1449686864212" ID="ID_379077197" MODIFIED="1572442777259" TEXT="dnf system-upgrade reboot">
 <edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1562245074003" FOLDED="true" ID="ID_1590691" LINK="https://fedoramagazine.org/upgrading-fedora-29-to-fedora-30/" MODIFIED="1572449098009" TEXT="29 to 30">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1562245110456" ID="ID_1636213577" MODIFIED="1572442732590" TEXT="dnf upgrade --refresh">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+<node COLOR="#111111" CREATED="1556643343684" ID="ID_284752530" MODIFIED="1556643345830" TEXT="--allowerasing"/>
+</node>
+<node COLOR="#990000" CREATED="1562245116072" ID="ID_110291475" MODIFIED="1572442734388" TEXT="dnf install dnf-plugin-system-upgrade">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#990000" CREATED="1562245122785" ID="ID_461912441" MODIFIED="1572442735884" TEXT="dnf system-upgrade download --releasever=30">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#990000" CREATED="1562245140000" ID="ID_1453423890" MODIFIED="1572442737301" TEXT="dnf system-upgrade reboot">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-4"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1572442624621" ID="ID_305160107" LINK="https://fedoramagazine.org/upgrading-fedora-30-to-fedora-31/" MODIFIED="1572442788377" TEXT="30 to 31">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1572442665119" ID="ID_1858987010" MODIFIED="1572448937961" TEXT="dnf upgrade --refresh --allowerasing">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#990000" CREATED="1572442673287" ID="ID_1064574794" MODIFIED="1572448994513" TEXT="dnf install dnf-plugin-system-upgrade -y">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#990000" CREATED="1572442681200" ID="ID_373480215" MODIFIED="1572449035593" TEXT="dnf system-upgrade download --releasever=31 -y">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#990000" CREATED="1572442690864" ID="ID_1861384065" MODIFIED="1572442746244" TEXT="dnf system-upgrade reboot">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-4"/>
 </node>
 </node>
 </node>
