@@ -16,13 +16,17 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1566312477631" ID="ID_259931615" LINK="https://www.groovy-lang.org/documentation.html" MODIFIED="1566312485596" POSITION="right" TEXT="Documentation">
+<node COLOR="#0033ff" CREATED="1566312477631" ID="ID_259931615" LINK="https://www.groovy-lang.org/documentation.html" MODIFIED="1572535928718" POSITION="right" TEXT="Documentation">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1566312443246" ID="ID_1070555186" LINK="https://www.groovy-lang.org/syntax.html" MODIFIED="1566313579155" TEXT="Syntax">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+</node>
+<node COLOR="#0033ff" CREATED="1572535951558" ID="ID_1029750373" LINK="https://groovy.apache.org/download.html" MODIFIED="1572535959206" POSITION="right" TEXT="Download">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
 </node>
 </node>
 </map>
