@@ -552,7 +552,7 @@
 <node COLOR="#111111" CREATED="1561745087634" ID="ID_1055697712" MODIFIED="1561745096942" TEXT="showmount [options] [host | ip]"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1543241518034" ID="ID_182976986" LINK="https://debian-administration.org/article/178/An_introduction_to_port_scanning_with_nmap" MODIFIED="1543241536606" TEXT="Port Scan">
+<node COLOR="#00b439" CREATED="1543241518034" ID="ID_182976986" LINK="https://debian-administration.org/article/178/An_introduction_to_port_scanning_with_nmap" MODIFIED="1572977154085" TEXT="Port Scan">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1543241543486" ID="ID_359430801" MODIFIED="1543241555226" TEXT="nmap [ip address | host name]">
@@ -575,7 +575,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1570560416342" ID="ID_858650044" LINK="https://www.tecmint.com/powertop-monitors-linux-laptop-battery-usage/" MODIFIED="1570560427043" TEXT="Powertop">
+<node COLOR="#00b439" CREATED="1570560416342" ID="ID_858650044" LINK="https://www.tecmint.com/powertop-monitors-linux-laptop-battery-usage/" MODIFIED="1572977121581" TEXT="Powertop">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
@@ -1862,7 +1862,7 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1509823179162" FOLDED="true" ID="ID_1556079271" MODIFIED="1570106652826" POSITION="right" TEXT="systemd">
+<node COLOR="#0033ff" CREATED="1509823179162" FOLDED="true" ID="ID_1556079271" MODIFIED="1572977719747" POSITION="right" TEXT="systemd">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1509823769307" ID="ID_651212842" MODIFIED="1509823771751" TEXT="Structure">
