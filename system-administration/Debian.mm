@@ -278,8 +278,7 @@
       Add<b><i>&#160;[ trusted=yes ]</i></b>&#160;to sources.list
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1572269359491" ID="ID_219425513" MODIFIED="1572269372197">
 <richcontent TYPE="NODE"><html>
@@ -291,8 +290,7 @@
       deb <b><i>[ trusted=yes ] </i></b>http://ftp.us.debian.org/debian/ jessie main contrib non-free
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -550,6 +548,10 @@
 <node COLOR="#0033ff" CREATED="1517782979925" ID="ID_15133688" LINK="https://raw.githubusercontent.com/luisbolson/cobbler/master/cobbler_install-ubuntu_14.04.sh" MODIFIED="1542309464445" POSITION="right" TEXT="install cobbler">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1573596557482" ID="ID_519672430" MODIFIED="1573596559433" TEXT="https://github.com/livecd-tools/livecd-tools">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 <node COLOR="#00b439" CREATED="1518021312169" ID="ID_598050789" MODIFIED="1518022881613">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -648,7 +650,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1529749503832" ID="ID_1592857498" MODIFIED="1529749509826" TEXT="/usr/local/share/cobbler/web/settings.py ">
+<node COLOR="#00b439" CREATED="1529749503832" ID="ID_1592857498" MODIFIED="1573596553383" TEXT="/usr/local/share/cobbler/web/settings.py ">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1529749511008" ID="ID_1325952838" MODIFIED="1529749541038" TEXT="Set any old value for SECRET_KEY">

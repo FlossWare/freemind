@@ -31,7 +31,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1558620052509" FOLDED="true" ID="ID_1202643120" MODIFIED="1558620284783" TEXT="Include">
+<node COLOR="#00b439" CREATED="1558620052509" FOLDED="true" ID="ID_1202643120" MODIFIED="1573057234249" TEXT="Include">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1357677400097" FOLDED="true" ID="ID_1808226012" MODIFIED="1558620061665" TEXT="test jars">
@@ -264,7 +264,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1558620147653" FOLDED="true" ID="ID_421387062" MODIFIED="1558620168528" TEXT="Projects">
+<node COLOR="#00b439" CREATED="1558620147653" FOLDED="true" ID="ID_421387062" MODIFIED="1573057230051" TEXT="Projects">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1489238448689" ID="ID_830008068" MODIFIED="1558620164338" TEXT="Create">
@@ -555,10 +555,13 @@ echo $RESULT</pre>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1433878046918" FOLDED="true" ID="ID_1523390593" LINK="http://stackoverflow.com/questions/15767132/how-do-i-skip-a-maven-plugin-execution-if-dskiptests-or-dmaven-test-skip-tr" MODIFIED="1558619884217" TEXT="Skip plugin execution">
+<node COLOR="#00b439" CREATED="1573057359526" ID="ID_754754011" MODIFIED="1573057363279" TEXT="Skip">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1433878065333" ID="ID_178362328" MODIFIED="1558619884218">
+<node COLOR="#990000" CREATED="1433878046918" ID="ID_1523390593" LINK="http://stackoverflow.com/questions/15767132/how-do-i-skip-a-maven-plugin-execution-if-dskiptests-or-dmaven-test-skip-tr" MODIFIED="1573057525803" TEXT="Plugin execution">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1433878065333" ID="ID_178362328" MODIFIED="1573057365120">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -588,9 +591,9 @@ echo $RESULT</pre>
   </body>
 </html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#990000" CREATED="1433878065333" ID="ID_1627927272" MODIFIED="1558619884218">
+<node COLOR="#111111" CREATED="1433878065333" ID="ID_1627927272" MODIFIED="1573057365121">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -620,15 +623,20 @@ echo $RESULT</pre>
   </body>
 </html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1541536577119" ID="ID_1680702383" MODIFIED="1558619884220" TEXT="Skip javadocs">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1541536582247" ID="ID_168698135" MODIFIED="1558619884220" TEXT="-Dmaven.javadoc.skip=true">
+<node COLOR="#990000" CREATED="1541536577119" ID="ID_1680702383" MODIFIED="1573057378519" TEXT="javadocs">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1541536582247" ID="ID_168698135" MODIFIED="1573057366322" TEXT="-Dmaven.javadoc.skip=true">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1573057378994" ID="ID_1565604836" LINK="https://stackoverflow.com/questions/32308188/disable-maven-checkstyle" MODIFIED="1573057575260" TEXT="Checkstyle">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1573057393219" ID="ID_1000996298" MODIFIED="1573057405595" TEXT="-Dcheckstyle.skip"/>
 </node>
 </node>
 </node>
@@ -787,7 +795,7 @@ echo $RESULT</pre>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1559395521918" ID="ID_561047594" MODIFIED="1559395523954" TEXT="settings.x">
+<node COLOR="#00b439" CREATED="1559395521918" ID="ID_561047594" MODIFIED="1573129127620" STYLE="fork" TEXT="settings.x">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

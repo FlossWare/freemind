@@ -6,7 +6,7 @@
 <node COLOR="#0033ff" CREATED="1542471334451" ID="ID_1414082584" MODIFIED="1549894181406" POSITION="right" TEXT="How to">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1542486085788" ID="ID_1460486651" LINK="https://ubuntuforums.org/showthread.php?t=1873477" MODIFIED="1542798504882" TEXT="Allow any user to enable VPN">
+<node COLOR="#00b439" CREATED="1542486085788" ID="ID_1460486651" LINK="https://ubuntuforums.org/showthread.php?t=1873477" MODIFIED="1572987373367" TEXT="Allow any user to enable VPN">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1542486118765" ID="ID_1436682932" MODIFIED="1543865081870" TEXT="/usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy">
@@ -89,6 +89,38 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1572987374352" ID="ID_209946303" MODIFIED="1572987448682" TEXT="Shutdown">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1572987381262" ID="ID_1868328508" MODIFIED="1572987442531" TEXT="/usr/share/polkit-1/actions/org.freedesktop.login1.policy">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1542486141512" ID="ID_409389006" MODIFIED="1572987430908">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;action id=&quot;org.freedesktop.login1.power-off&quot;&gt;
+    </p>
+    <p>
+      ...
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;defaults&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;allow_any&gt;<b><i>yes</i></b>&lt;/allow_any&gt;
+    </p>
+    <p>
+      ...
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
