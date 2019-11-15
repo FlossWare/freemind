@@ -545,14 +545,17 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1517782979925" ID="ID_15133688" LINK="https://raw.githubusercontent.com/luisbolson/cobbler/master/cobbler_install-ubuntu_14.04.sh" MODIFIED="1542309464445" POSITION="right" TEXT="install cobbler">
+<node COLOR="#0033ff" CREATED="1573835483272" ID="ID_147689008" MODIFIED="1573835486277" POSITION="right" TEXT="cobbler">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1573596557482" ID="ID_519672430" MODIFIED="1573596559433" TEXT="https://github.com/livecd-tools/livecd-tools">
+<node COLOR="#00b439" CREATED="1517782979925" ID="ID_15133688" LINK="https://raw.githubusercontent.com/luisbolson/cobbler/master/cobbler_install-ubuntu_14.04.sh" MODIFIED="1573835494651" TEXT="install">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1573596557482" ID="ID_519672430" MODIFIED="1573835489280" TEXT="https://github.com/livecd-tools/livecd-tools">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1518021312169" ID="ID_598050789" MODIFIED="1518022881613">
+<node COLOR="#990000" CREATED="1518021312169" ID="ID_598050789" MODIFIED="1573835489283">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -564,59 +567,59 @@
   </body>
 </html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1518021519436" ID="ID_1088528622" MODIFIED="1518021552712" TEXT="make install devinstall webtest">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1518022016881" ID="ID_339301763" MODIFIED="1518022027940" TEXT="a2enmod proxy">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1518022028608" ID="ID_1419918730" MODIFIED="1518022034468" TEXT="a2enmod proxy_http">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1518022034884" ID="ID_1140522470" MODIFIED="1518022040920" TEXT="a2enmod rewrite">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1518022114880" ID="ID_824311908" MODIFIED="1518028461127" TEXT="ln -s /etc/apache2/conf-available/cobbler.conf /etc/apache2/conf-enabled/">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1518028455643" ID="ID_965819858" MODIFIED="1518028457604" TEXT="ln -s /etc/apache2/conf-available/cobbler_web.conf /etc/apache2/conf-enabled">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1518022171208" ID="ID_692644746" MODIFIED="1518022173456" TEXT="ln -s /usr/local/lib/python2.6/dist-packages/cobbler /usr/lib/python2.6/dist-packages/">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1518022176880" ID="ID_391509978" MODIFIED="1518022178895" TEXT="ln -s /usr/local/lib/python2.7/dist-packages/cobbler /usr/lib/python2.7/dist-packages/ ">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1518022187120" ID="ID_1413162097" MODIFIED="1518022189168" TEXT="chown www-data /var/lib/cobbler/webui_sessions">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1518022468648" ID="ID_313877769" MODIFIED="1518022470544" TEXT="/etc/cobbler/settings">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1518022474760" ID="ID_170049739" MODIFIED="1518022478908" TEXT="server: 192.168.168.31">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-</node>
-<node COLOR="#00b439" CREATED="1518022599824" ID="ID_1462129670" MODIFIED="1518022602680" TEXT="htdigest /etc/cobbler/users.digest &quot;Cobbler&quot; cobbler">
+<node COLOR="#990000" CREATED="1518021519436" ID="ID_1088528622" MODIFIED="1573835489285" TEXT="make install devinstall webtest">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1529749454828" ID="ID_557637660" MODIFIED="1529749457433" TEXT="Maybe?">
+<node COLOR="#990000" CREATED="1518022016881" ID="ID_339301763" MODIFIED="1573835489287" TEXT="a2enmod proxy">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1518028563512" ID="ID_934564322" MODIFIED="1529749459304">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1518022028608" ID="ID_1419918730" MODIFIED="1573835489290" TEXT="a2enmod proxy_http">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1518022034884" ID="ID_1140522470" MODIFIED="1573835489292" TEXT="a2enmod rewrite">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1518022114880" ID="ID_824311908" MODIFIED="1573835489294" TEXT="ln -s /etc/apache2/conf-available/cobbler.conf /etc/apache2/conf-enabled/">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1518028455643" ID="ID_965819858" MODIFIED="1573835489296" TEXT="ln -s /etc/apache2/conf-available/cobbler_web.conf /etc/apache2/conf-enabled">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1518022171208" ID="ID_692644746" MODIFIED="1573835489298" TEXT="ln -s /usr/local/lib/python2.6/dist-packages/cobbler /usr/lib/python2.6/dist-packages/">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1518022176880" ID="ID_391509978" MODIFIED="1573835489299" TEXT="ln -s /usr/local/lib/python2.7/dist-packages/cobbler /usr/lib/python2.7/dist-packages/ ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1518022187120" ID="ID_1413162097" MODIFIED="1573835489301" TEXT="chown www-data /var/lib/cobbler/webui_sessions">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1518022468648" ID="ID_313877769" MODIFIED="1573835489303" TEXT="/etc/cobbler/settings">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1518022474760" ID="ID_170049739" MODIFIED="1573835489305" TEXT="server: 192.168.168.31">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1518022599824" ID="ID_1462129670" MODIFIED="1573835489307" TEXT="htdigest /etc/cobbler/users.digest &quot;Cobbler&quot; cobbler">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1529749454828" ID="ID_557637660" MODIFIED="1573835489309" TEXT="Maybe?">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1518028563512" ID="ID_934564322" MODIFIED="1573835489311">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -631,33 +634,93 @@
   </body>
 </html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1529749463883" ID="ID_1342001055" MODIFIED="1529749469691" TEXT="apt-get install aptitude -y">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1531186330759" ID="ID_1345529220" LINK="https://askubuntu.com/questions/138284/how-to-downgrade-a-package-via-apt-get#138327" MODIFIED="1542309483335" TEXT="apt-cache showpkg python-django">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1532351361556" ID="ID_498008015" MODIFIED="1532351367764" TEXT="Downgrade django">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1529749475974" ID="ID_1958952366" MODIFIED="1532351369994" TEXT="aptitude install python-django=1.7.11-1+deb8u3 python-django-common=1.7.11-1+deb8u3">
+<node COLOR="#990000" CREATED="1529749463883" ID="ID_1342001055" MODIFIED="1573835489313" TEXT="apt-get install aptitude -y">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+<node COLOR="#990000" CREATED="1531186330759" ID="ID_1345529220" LINK="https://askubuntu.com/questions/138284/how-to-downgrade-a-package-via-apt-get#138327" MODIFIED="1573835489315" TEXT="apt-cache showpkg python-django">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1529749503832" ID="ID_1592857498" MODIFIED="1573596553383" TEXT="/usr/local/share/cobbler/web/settings.py ">
+<node COLOR="#990000" CREATED="1532351361556" ID="ID_498008015" MODIFIED="1573835489317" TEXT="Downgrade django">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1529749475974" ID="ID_1958952366" MODIFIED="1573835489319" TEXT="aptitude install python-django=1.7.11-1+deb8u3 python-django-common=1.7.11-1+deb8u3">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1529749503832" ID="ID_1592857498" MODIFIED="1573835489321" TEXT="/usr/local/share/cobbler/web/settings.py ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1529749511008" ID="ID_1325952838" MODIFIED="1573835489323" TEXT="Set any old value for SECRET_KEY">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1529749541579" ID="ID_335466741" MODIFIED="1573835489325" TEXT="SECRET_KEY = &apos;cobblerisawesome&apos;">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1573835497743" ID="ID_1865410415" MODIFIED="1573835499506" TEXT="koan">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1529749511008" ID="ID_1325952838" MODIFIED="1529749541038" TEXT="Set any old value for SECRET_KEY">
+<node COLOR="#990000" CREATED="1573835658385" ID="ID_1999545838" MODIFIED="1573835667612" TEXT="/usr/lib/python2.7/dist-packages/koan/virtinstall.py">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1573835723562" ID="ID_1300512331" MODIFIED="1573835766111">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if os_version in supported_variants:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pass&#160;&#160;# os_version is correct
+    </p>
+    <p>
+      elif os_version + &quot;.0&quot; in supported_variants:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# osinfo based virt-install only knows about major.minor
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# variants, not just major variants like it used to. Default
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# to major.0 variant in that case. Lack of backwards
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# compatibility in virt-install grumble grumble.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;os_version = os_version + &quot;.0&quot;
+    </p>
+    <p>
+      else:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if &quot;virtio26&quot; in supported_variants:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;os_version = &quot;virtio26&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;else:
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#os_version = &quot;generic26&quot; </i></b>
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;os_version = &quot;virtio26&quot;</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node COLOR="#990000" CREATED="1529749541579" ID="ID_335466741" MODIFIED="1529749551367" TEXT="SECRET_KEY = &apos;cobblerisawesome&apos;">
-<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>
