@@ -667,7 +667,21 @@
 <node COLOR="#00b439" CREATED="1573835497743" ID="ID_1865410415" MODIFIED="1573835499506" TEXT="koan">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1573835658385" ID="ID_1999545838" MODIFIED="1573835667612" TEXT="/usr/lib/python2.7/dist-packages/koan/virtinstall.py">
+<node COLOR="#990000" CREATED="1573835658385" ID="ID_1999545838" MODIFIED="1574195604119">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      /usr/lib/python2.7/dist-packages/koan/virtinstall.py
+    </p>
+    <p>
+      /usr/local/lib/python2.7/dist-packages/koan/virtinstall.py
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1573835723562" ID="ID_1300512331" MODIFIED="1573835766111">
 <richcontent TYPE="NODE"><html>
@@ -718,8 +732,7 @@
       <b><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;os_version = &quot;virtio26&quot;</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
