@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1295104454850" ID="ID_1224862914" LINK="../System%20Administration.mm" MODIFIED="1557256135124" TEXT="/us">
+<node COLOR="#000000" CREATED="1295104454850" ID="ID_1224862914" LINK="../System%20Administration.mm" MODIFIED="1575396629494" TEXT="Cobbler">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
@@ -553,8 +553,7 @@
       },
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
