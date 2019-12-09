@@ -171,8 +171,13 @@
 <node COLOR="#111111" CREATED="1545682474933" ID="ID_978296623" LINK="https://stockromfiles.com/?s=lenovo+yoga+tablet+b8000f" MODIFIED="1570558160376" TEXT="Stock ROM Files">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+<node COLOR="#111111" CREATED="1575661648415" ID="ID_651129837" LINK="https://realimagess.com/download-lenovo-yoga-tablet-10-b8000-firmware/" MODIFIED="1575661660204" TEXT="Real Images"/>
 <node COLOR="#111111" CREATED="1545682681060" ID="ID_967080136" LINK="https://firmwarehost.com/lenovo-yoga-tablet-10-b8000f-firmware-stock-rom-4-2-2" MODIFIED="1570558160376" TEXT="Firmware Host">
 <font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1575661696460" ID="ID_707579999" LINK="http://www.mediafire.com/file/lllf5bcs64lp74m/Lenovo_Yoga_Tablet_10_B8000F_A422_000_085_140402_MT6589.zip/file" MODIFIED="1575661711795" TEXT="Download Firmware"/>
+<node COLOR="#111111" CREATED="1575661775556" ID="ID_1476651770" LINK="https://spflashtools.com/" MODIFIED="1575661933040" TEXT="Smart Phone Flash Tool">
+<node COLOR="#111111" CREATED="1575661887908" ID="ID_1088672218" LINK="https://spflashtools.com/linux/sp-flash-tool-v5-1824-for-linux" MODIFIED="1575661935985" TEXT="Linux"/>
 </node>
 </node>
 </node>

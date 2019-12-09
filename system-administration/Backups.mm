@@ -25,7 +25,7 @@
 <icon BUILTIN="full-3"/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1563049767970" ID="ID_1259923235" MODIFIED="1563049770759" TEXT="Condifgure">
+<node COLOR="#990000" CREATED="1563049767970" ID="ID_1259923235" MODIFIED="1575660912680" TEXT="Configure">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1563049776202" ID="ID_1180571888" MODIFIED="1563049778220" TEXT="onedrive-perf"/>
 </node>
@@ -37,6 +37,14 @@
 <node COLOR="#00b439" CREATED="1563049820258" ID="ID_778637403" LINK="https://mega.nz/cmd" MODIFIED="1563049833058" TEXT="MEGAcmd">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1575655726215" ID="ID_1844440893" MODIFIED="1575655729732" TEXT="Downloads">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1575655731812" ID="ID_1768911599" LINK="https://www.mega.nz/linux/MEGAsync/" MODIFIED="1575655744113" TEXT="Linux">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1575656365805" ID="ID_1892765962" MODIFIED="1575656367904" TEXT="dpkg -i megasync_2.0.0_i386.deb nautilus-megasync_2.0.0_i386.deb"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1563049871939" ID="ID_1565615882" LINK="https://my.pcloud.com/" MODIFIED="1563049918677" POSITION="right" TEXT="pCloud">
