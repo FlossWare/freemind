@@ -261,7 +261,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1442857126948" ID="ID_1785753150" MODIFIED="1469887952513" POSITION="right" TEXT="Testing">
+<node COLOR="#0033ff" CREATED="1442857126948" ID="ID_1785753150" MODIFIED="1576786616245" POSITION="right" TEXT="Testing">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1391466272643" ID="ID_1269941543" LINK="Arquillian.mm" MODIFIED="1469887951986" TEXT="Arquillian">
@@ -288,6 +288,22 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 <node COLOR="#00b439" CREATED="1354046236274" ID="ID_1992164604" LINK="Mockito.mm" MODIFIED="1469888003769" TEXT="Mockito">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1576786617167" ID="ID_1850215072" MODIFIED="1576786619218" POSITION="right" TEXT="Templating">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1576786620870" ID="ID_1616441437" LINK="https://freemarker.apache.org/" MODIFIED="1576786674070" TEXT="Apache FreeMarker">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1576786720814" ID="ID_974507869" LINK="https://pythonhosted.org/Cheetah/" MODIFIED="1576786730831" TEXT="Cheetah">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1576786737862" ID="ID_945808465" LINK="https://jinja.palletsprojects.com/en/2.10.x/" MODIFIED="1576786793699" TEXT="Jinja">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

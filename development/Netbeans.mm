@@ -104,10 +104,22 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1548863472292" ID="ID_1184727873" LINK="https://netbeans.apache.org/" MODIFIED="1548863510526" POSITION="right" TEXT="Home Page">
+<node COLOR="#0033ff" CREATED="1548863472292" ID="ID_1184727873" LINK="https://netbeans.apache.org/" MODIFIED="1576786268146" POSITION="right" TEXT="Home Page">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1548863521836" ID="ID_1515547940" LINK="https://netbeans.apache.org/download/index.html" MODIFIED="1572273462221" TEXT="Downloads">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1576786268754" ID="ID_596803577" MODIFIED="1576786270498" POSITION="right" TEXT="Templates">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1576786402446" ID="ID_760752808" LINK="https://platform.netbeans.org/tutorials/nbm-filetemplates.html" MODIFIED="1576786426929" TEXT="File Templates">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1576786274398" ID="ID_1821421906" LINK="http://wiki.netbeans.org/FaqFreeMarker" MODIFIED="1576786294755" TEXT="FreeMarker">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>

@@ -28,7 +28,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1382361840878" ID="ID_1258071252" MODIFIED="1382361845216" POSITION="right" TEXT="Update takes forver">
+<node COLOR="#0033ff" CREATED="1382361840878" ID="ID_1258071252" MODIFIED="1576532743044" POSITION="right" TEXT="Update takes forver">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1382361846570" ID="ID_248615989" MODIFIED="1382361881668" TEXT="proxycfg -d">
@@ -50,6 +50,27 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-4"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1576532744937" ID="ID_1503390835" LINK="https://www.howtogeek.com/322112/what-is-an-n-or-kn-edition-of-windows/" MODIFIED="1576532798633" POSITION="right" TEXT="Differences N/KN">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1576532901553" ID="ID_583794015" MODIFIED="1576532902900" TEXT="N">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1576532927528" ID="ID_1957676982" MODIFIED="1576532982061" TEXT=" exclude multimedia features">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1576532932513" ID="ID_1276202770" MODIFIED="1576532944740" TEXT="K">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1576532946040" ID="ID_287606973" MODIFIED="1576532947660" TEXT="Korea">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1576532948113" ID="ID_1840594983" MODIFIED="1576532975296" TEXT="without Windows Media Player and MSN Messenger">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 </node>
