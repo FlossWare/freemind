@@ -6,7 +6,7 @@
 <node COLOR="#0033ff" CREATED="1542471334451" ID="ID_1414082584" MODIFIED="1549894181406" POSITION="right" TEXT="How to">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1542486085788" ID="ID_1460486651" LINK="https://ubuntuforums.org/showthread.php?t=1873477" MODIFIED="1572987373367" TEXT="Allow any user to enable VPN">
+<node COLOR="#00b439" CREATED="1542486085788" ID="ID_1460486651" LINK="https://ubuntuforums.org/showthread.php?t=1873477" MODIFIED="1578748723959" TEXT="Allow any user to enable VPN">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1542486118765" ID="ID_1436682932" MODIFIED="1574092534416" TEXT="/usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy">
@@ -61,6 +61,63 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1578748827105" ID="ID_1981403116" MODIFIED="1578748958420" TEXT="Start/stop/enable/disable services">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1578748838921" ID="ID_1921721138" MODIFIED="1578748841653" TEXT="/usr/share/polkit-1/actions/org.freedesktop.systemd1.policy">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1542486141512" ID="ID_1521375196" MODIFIED="1578748887809">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;action id=&quot;org.freedesktop.systemd1.manage-units&quot;&gt;
+    </p>
+    <p>
+      ...
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;defaults&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;allow_any&gt;<b><i>yes</i></b>&lt;/allow_any&gt;
+    </p>
+    <p>
+      ...
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1542486141512" ID="ID_325156657" MODIFIED="1578749010543">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;action id=&quot;org.freedesktop.systemd1.reload-daemon&quot;&gt;
+    </p>
+    <p>
+      ...
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;defaults&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;allow_any&gt;<b><i>yes</i></b>&lt;/allow_any&gt;
+    </p>
+    <p>
+      ...
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1543189077611" ID="ID_534954252" MODIFIED="1543189147713" TEXT="Authentication is required to access the PC/SC daemon">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -92,7 +149,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1572987374352" ID="ID_209946303" MODIFIED="1572987448682" TEXT="Shutdown">
+<node COLOR="#00b439" CREATED="1572987374352" ID="ID_209946303" MODIFIED="1578748740131" TEXT="Shutdown / poweroff">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1572987381262" ID="ID_1868328508" MODIFIED="1572987442531" TEXT="/usr/share/polkit-1/actions/org.freedesktop.login1.policy">
