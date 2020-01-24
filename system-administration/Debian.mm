@@ -481,12 +481,61 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1483872903793" ID="ID_1141472358" MODIFIED="1483872905769" POSITION="right" TEXT="pip">
+<node COLOR="#0033ff" CREATED="1483872903793" ID="ID_1141472358" MODIFIED="1579197064483" POSITION="right" TEXT="pip">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1483872913593" ID="ID_719926372" MODIFIED="1483872922188" TEXT="apt-get install python-pip">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1579197065496" ID="ID_826350616" MODIFIED="1579197066600" POSITION="right" TEXT="ssh">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1579197083202" ID="ID_101347497" LINK="https://www.daveperrett.com/articles/2010/09/14/ssh-authentication-refused/" MODIFIED="1579197142563" TEXT="Authentication refused: bad ownership or modes for directory /root">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1579197113929" ID="ID_602466498" MODIFIED="1579197119242">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      chown root /root
+    </p>
+    <p>
+      chown root /root/.ssh
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1579197149376" ID="ID_493729500" MODIFIED="1579197165843">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      chmod g-w /home/your_user
+    </p>
+    <p>
+      chmod 700 /home/your_user/.ssh
+    </p>
+    <p>
+      chmod 600 /home/your_user/.ssh/authorized_keys
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1579197170255" ID="ID_1388216464" MODIFIED="1579197189220" TEXT="/etc/ssh/ssh_config">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1579197324023" ID="ID_1877186206" MODIFIED="1579197326218" TEXT="StrictModes no"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1416233634117" ID="ID_98572430" LINK="http://askubuntu.com/questions/192050/how-to-run-sudo-command-with-no-password/443071#443071" MODIFIED="1542309404028" POSITION="right" TEXT="sudo">
@@ -680,8 +729,7 @@
       /usr/local/lib/python2.7/dist-packages/koan/virtinstall.py
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1573835723562" ID="ID_1300512331" MODIFIED="1573835766111">
 <richcontent TYPE="NODE"><html>
