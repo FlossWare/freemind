@@ -508,8 +508,7 @@
       chown root /root/.ssh
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#990000" CREATED="1579197149376" ID="ID_493729500" MODIFIED="1579197165843">
@@ -528,8 +527,7 @@
       chmod 600 /home/your_user/.ssh/authorized_keys
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#990000" CREATED="1579197170255" ID="ID_1388216464" MODIFIED="1579197189220" TEXT="/etc/ssh/ssh_config">
@@ -716,7 +714,7 @@
 <node COLOR="#00b439" CREATED="1573835497743" ID="ID_1865410415" MODIFIED="1573835499506" TEXT="koan">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1573835658385" ID="ID_1999545838" MODIFIED="1574195604119">
+<node COLOR="#990000" CREATED="1573835658385" ID="ID_1999545838" MODIFIED="1581360931715">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -781,6 +779,13 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1581360933020" ID="ID_1119302724" MODIFIED="1581360943829" TEXT="Correct net boot images">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1581360952658" ID="ID_1200781371" LINK="http://ftp.debian.org/debian/dists/buster/main/installer-amd64/current/images/netboot/debian-installer/amd64/initrd.gz" MODIFIED="1581360971918" TEXT="initrd.gz"/>
+<node COLOR="#111111" CREATED="1581360949310" ID="ID_164158582" LINK="http://ftp.debian.org/debian/dists/buster/main/installer-amd64/current/images/netboot/debian-installer/amd64/linux" MODIFIED="1581360991120" TEXT="linux">
+<node COLOR="#111111" CREATED="1581361002865" ID="ID_1152344445" MODIFIED="1581361006728" TEXT="Rename to vmlinuz"/>
 </node>
 </node>
 </node>

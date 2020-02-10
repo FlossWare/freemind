@@ -114,13 +114,39 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1551735573455" ID="ID_1328056975" LINK="http://wiki.netbeans.org/FaqFontRendering" MODIFIED="1551735614963" TEXT="Fix bad looking fonts">
+<node COLOR="#00b439" CREATED="1551735573455" ID="ID_1328056975" LINK="http://wiki.netbeans.org/FaqFontRendering" MODIFIED="1580486069882" TEXT="Fix bad looking fonts">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1551735646473" ID="ID_1069966959" MODIFIED="1551735663477" TEXT="${NETBEANS_HOME}/etc/netbeans.conf">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1551735674887" ID="ID_1509412006" MODIFIED="1551735676973" TEXT="-J-Dawt.useSystemAAFontSettings=lcd"/>
 <node COLOR="#111111" CREATED="1551794726559" ID="ID_166928673" MODIFIED="1551794728834" TEXT="-J-Dswing.aatext=true"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1580486070427" ID="ID_1272263870" LINK="https://stackoverflow.com/questions/4119872/can-netbeans-remove-trailing-whitespace-and-change-tabs-to-spaces-on-save" MODIFIED="1580486090149" TEXT="Removing trailing spaces on save">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1580486104640" ID="ID_1586743022" MODIFIED="1580486134256" TEXT="Tools">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#990000" CREATED="1580486108384" ID="ID_445424052" MODIFIED="1580486135811" TEXT="Options">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#990000" CREATED="1580486110104" ID="ID_151852988" MODIFIED="1580486138854" TEXT="Editor">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#990000" CREATED="1580486112223" ID="ID_1886400564" MODIFIED="1580486140806" TEXT="On Save">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-4"/>
+<node COLOR="#111111" CREATED="1580486117191" ID="ID_1537040797" MODIFIED="1580486143493" TEXT="Remove Trailing Whitespace From">
+<icon BUILTIN="full-5"/>
+</node>
+<node COLOR="#111111" CREATED="1580486146231" ID="ID_918699413" MODIFIED="1580486152126" TEXT="All lines">
+<icon BUILTIN="full-6"/>
+</node>
 </node>
 </node>
 </node>
