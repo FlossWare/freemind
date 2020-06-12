@@ -4,7 +4,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1270222854170" ID="ID_1277942523" LINK="linux/Linux.mm" MODIFIED="1567682632470" POSITION="right" TEXT="Linux">
+<node COLOR="#0033ff" CREATED="1270222854170" ID="ID_1277942523" LINK="linux/Linux.mm" MODIFIED="1585656371842" POSITION="right" TEXT="Linux">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1380459961076" ID="ID_1543002571" LINK="Debian.mm" MODIFIED="1543855051170" TEXT="Debian">
@@ -48,6 +48,14 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1582909025607" ID="ID_476202409" MODIFIED="1582909027637" POSITION="right" TEXT="BSD">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1582909051800" ID="ID_1928682305" LINK="FreeBSD.mm" MODIFIED="1582909051810" TEXT="FreeBSD">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1545491280275" ID="ID_1941941934" MODIFIED="1545491281871" POSITION="right" TEXT="Embedded">

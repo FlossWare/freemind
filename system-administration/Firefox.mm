@@ -16,14 +16,6 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1516894805948" ID="ID_744216498" MODIFIED="1516894808067" POSITION="right" TEXT="libflashplayer.so">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1516894811856" ID="ID_1092409938" MODIFIED="1516894821720" TEXT="~/.mozilla/plugins">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
 <node COLOR="#0033ff" CREATED="1530899599731" ID="ID_1714803249" MODIFIED="1536262429201" POSITION="right" TEXT="Firefox Plugin">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -35,12 +27,15 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1533317831777" ID="ID_1499223164" MODIFIED="1557933084608" TEXT="Video DownloadHelper Companion App">
+<node COLOR="#00b439" CREATED="1582393015249" ID="ID_929027818" MODIFIED="1582393021085" TEXT="Video DownloadHelper">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1533334140830" ID="ID_378376618" MODIFIED="1536262433970" TEXT="net.downloadhelper.coapp-linux-64">
+<node COLOR="#990000" CREATED="1533317831777" ID="ID_1499223164" MODIFIED="1582393028940" TEXT="Companion App">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1533334140830" ID="ID_378376618" MODIFIED="1582393022362" TEXT="net.downloadhelper.coapp-linux-64">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1533317845769" ID="ID_1429425234" MODIFIED="1536262433972" TEXT="install --user">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
@@ -59,18 +54,16 @@
 </node>
 </node>
 </node>
+</node>
 <node COLOR="#00b439" CREATED="1530899638707" ID="ID_1364875223" MODIFIED="1536262429205" TEXT="Nimbus Screen Capture: Screenshots, Annotate">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1535129016598" ID="ID_1587217002" MODIFIED="1535129020837" POSITION="right" TEXT="Enable flash">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1535129033754" ID="ID_913073441" MODIFIED="1535129036890" TEXT="about:addons">
+<node COLOR="#00b439" CREATED="1516894805948" ID="ID_744216498" MODIFIED="1582393056765" TEXT="libflashplayer.so">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1535129038306" ID="ID_1675841865" MODIFIED="1535129054066" TEXT="always activate">
+<node COLOR="#990000" CREATED="1516894811856" ID="ID_1092409938" MODIFIED="1582393056765" TEXT="~/.mozilla/plugins">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
@@ -85,10 +78,21 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
-<node COLOR="#990000" CREATED="1556625515590" ID="ID_1622375946" MODIFIED="1556625525749" TEXT="browser.tabs.insertRelatedAfterCurrent">
+<node COLOR="#990000" CREATED="1556625515590" ID="ID_1622375946" MODIFIED="1582311558303" TEXT="browser.tabs.insertRelatedAfterCurrent">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-2"/>
 <node COLOR="#111111" CREATED="1556625518984" ID="ID_1184581781" MODIFIED="1556625520531" TEXT="false"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1535129016598" ID="ID_1587217002" MODIFIED="1582392797772" TEXT="Enable flash">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1535129033754" ID="ID_913073441" MODIFIED="1582392797773" TEXT="about:addons">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1535129038306" ID="ID_1675841865" MODIFIED="1582392797773" TEXT="always activate">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 </node>

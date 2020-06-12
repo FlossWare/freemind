@@ -88,8 +88,7 @@
       ...
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1542486141512" ID="ID_325156657" MODIFIED="1578749010543">
 <richcontent TYPE="NODE"><html>
@@ -113,15 +112,14 @@
       ...
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1543189077611" ID="ID_534954252" MODIFIED="1543189147713" TEXT="Authentication is required to access the PC/SC daemon">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1543189029234" ID="ID_221207809" MODIFIED="1547756587091" TEXT="/usr/share/polkit-1/actions/org.debian.pcsc-lite.policy">
+<node COLOR="#990000" CREATED="1543189029234" ID="ID_221207809" MODIFIED="1585665250849" TEXT="/usr/share/polkit-1/actions/org.debian.pcsc-lite.policy">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1543189090043" ID="ID_1659506072" MODIFIED="1543189141049">
 <richcontent TYPE="NODE"><html>
@@ -598,6 +596,27 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1588861944584" ID="ID_1456600415" MODIFIED="1588861945957" TEXT="gpg">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1588861947281" ID="ID_176584866" LINK="https://www.maketecheasier.com/generate-gpg-keys-linux/" MODIFIED="1588861958612" TEXT="Generate">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1588861974667" ID="ID_1241467986" MODIFIED="1588861976669" TEXT="install">
+<node COLOR="#111111" CREATED="1588861983625" ID="ID_211320371" MODIFIED="1588861985821" TEXT="apt install gnupg"/>
+<node COLOR="#111111" CREATED="1588861986273" ID="ID_1905613861" MODIFIED="1588861991797" TEXT="yum install gnupg"/>
+<node COLOR="#111111" CREATED="1588861992129" ID="ID_1694638529" MODIFIED="1588861997266" TEXT="dnf install gnupg"/>
+</node>
+<node COLOR="#111111" CREATED="1588862004321" ID="ID_1342027257" MODIFIED="1588862009327" TEXT="gpg --gen-key"/>
+<node COLOR="#111111" CREATED="1588862027689" ID="ID_1142561410" MODIFIED="1588862029547" TEXT="gpg --armor --export your@emailaccount.com &gt; key.asc"/>
+<node COLOR="#111111" CREATED="1588862035331" ID="ID_1590832793" MODIFIED="1588862037212" TEXT="gpg --armor --output key.txt --export your@emailaccount.com"/>
+</node>
+<node COLOR="#990000" CREATED="1588863694896" ID="ID_1385799443" MODIFIED="1588863697250" TEXT="gpg --encrypt --recipient &apos;your@emailaccount.com&apos; --output encryptedfile.txt.enc originalfile.txt">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1588863711192" ID="ID_178170589" MODIFIED="1588863713099" TEXT="gpg --decrypt --output decrypted.txt encryptedfile.txt.enc">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1412694946657" ID="ID_161101779" MODIFIED="1545490773069" TEXT="Image to pdf">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -708,7 +727,7 @@
 <node COLOR="#990000" CREATED="1562605466413" ID="ID_1550930900" LINK="https://serverfault.com/questions/244294/how-to-re-order-windows-change-the-scroll-shortcut-and-modify-the-status-bar-c" MODIFIED="1562605480780" TEXT="Move to new position">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1562605511364" ID="ID_467429669" MODIFIED="1562605533088" TEXT="ctrl-a [: number X]"/>
-<node COLOR="#111111" CREATED="1562605534948" ID="ID_1789343125" MODIFIED="1562605544304" TEXT="ctrl-a :0 X">
+<node COLOR="#111111" CREATED="1562605534948" ID="ID_1789343125" MODIFIED="1591900674437" TEXT="ctrl-a :number 0">
 <node COLOR="#111111" CREATED="1562605547660" ID="ID_138776808" MODIFIED="1562605557944" TEXT="Moves current session to the 0th one"/>
 </node>
 </node>
@@ -2346,6 +2365,9 @@ sda.img1   *          56     6400000     3199972+   c  W95 FAT32 (LBA</font></co
 </node>
 <node COLOR="#111111" CREATED="1566401983152" ID="ID_1950841875" MODIFIED="1566402052051" TEXT="vgextend [LVM name] [disk partition]">
 <icon BUILTIN="full-3"/>
+<node COLOR="#111111" CREATED="1585656348713" ID="ID_679064862" MODIFIED="1585656351879" TEXT="vgdisplay">
+<node COLOR="#111111" CREATED="1585656358687" ID="ID_1484510875" MODIFIED="1585656365748" TEXT="lists the LVM name"/>
+</node>
 </node>
 <node COLOR="#111111" CREATED="1566402034128" ID="ID_1045685633" MODIFIED="1566402055123" TEXT="lvextend -l +100%FREE /dev/mapper/[LVM name] -r">
 <icon BUILTIN="full-4"/>
