@@ -433,6 +433,17 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1603385570018" ID="ID_154512804" MODIFIED="1603385572338" POSITION="left" TEXT="Zookeeper">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1603385611212" ID="ID_558188977" MODIFIED="1603385649808" TEXT="echo ruok | nc [host] [port]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1603385654208" ID="ID_27290534" MODIFIED="1603385662256" TEXT="echo ruok | nc localhost 2181">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1555592174550" ID="ID_444227719" MODIFIED="1555592176331" POSITION="left" TEXT="Search">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

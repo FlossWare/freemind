@@ -1,0 +1,157 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node COLOR="#000000" CREATED="1605283237937" ID="ID_1675113208" LINK="System%20Administration.mm" MODIFIED="1605283286846" TEXT="Helm">
+<font NAME="SansSerif" SIZE="20"/>
+<hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<node COLOR="#0033ff" CREATED="1605283351303" ID="ID_47301687" LINK="https://helm.sh/docs/" MODIFIED="1605283370630" POSITION="right" TEXT="Docs">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1605285379320" ID="ID_1135280067" LINK="https://github.com/helm/charts" MODIFIED="1605285403719" TEXT="Kubernetes Charts GitHub repository">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1605285457310" ID="ID_429099505" LINK="https://helm.sh/docs/topics/charts/" MODIFIED="1605285473443" TEXT="Chart Development Guide">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1605283431176" ID="ID_1929434139" MODIFIED="1605285447651" POSITION="right" TEXT="package manager for Kubernetes">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1605283488747" ID="ID_867725109" MODIFIED="1605285447652" POSITION="right" TEXT="Concepts">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1605283456465" ID="ID_689989801" MODIFIED="1605285447653" TEXT="Chart">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1605283461725" ID="ID_642791491" MODIFIED="1605285447653" TEXT="Helm package">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1605283512103" ID="ID_1017280281" MODIFIED="1605285447653" TEXT="Similar">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1605283520395" ID="ID_235606649" MODIFIED="1605283521519" TEXT="apt"/>
+<node COLOR="#111111" CREATED="1605283522122" ID="ID_265150864" MODIFIED="1605283522930" TEXT="rpm"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1605283471647" ID="ID_1611664044" MODIFIED="1605285447654" TEXT="Repository">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1605283480485" ID="ID_1699037914" MODIFIED="1605285447654" TEXT="Place where charts can be collected and shared">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1605283530345" ID="ID_1826931013" MODIFIED="1605285447654" TEXT="Similar">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1605284503291" ID="ID_1285371759" MODIFIED="1605284509082" TEXT="Fedora Package Database"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1605283485321" ID="ID_1122342704" MODIFIED="1605285447654" TEXT="Release">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1605283504305" ID="ID_1825627036" MODIFIED="1605285447654" TEXT="Instance of a chart running in a Kubernetes cluster">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1605284511515" ID="ID_372288786" MODIFIED="1605285447655" TEXT="Each install is a new release">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1605284473309" ID="ID_212211678" MODIFIED="1605285447660" POSITION="right" TEXT="Commands">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1605284766400" ID="ID_803589627" MODIFIED="1605285447661" TEXT="helm">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font ITALIC="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1605284620940" ID="ID_822179091" MODIFIED="1605285447661" TEXT="install">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1605284628116" ID="ID_891804385" MODIFIED="1605284634286" TEXT="Installs new package"/>
+<node COLOR="#111111" CREATED="1605284692249" ID="ID_1244177752" MODIFIED="1605284694638" TEXT="helm install happy-panda stable/mariadb">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1605284865659" ID="ID_309372512" MODIFIED="1605285447661" TEXT="uninstall">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1605284873680" ID="ID_55777212" MODIFIED="1605284876843" TEXT="Remove a release"/>
+<node COLOR="#111111" CREATED="1605284882150" ID="ID_1919910768" MODIFIED="1605284889158" TEXT="helm uninstall happy-panda">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1605285281649" ID="ID_26114478" MODIFIED="1605285447661" TEXT="create">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1605285308577" ID="ID_1243535211" MODIFIED="1605285317311" TEXT="Create your own charts"/>
+<node COLOR="#111111" CREATED="1605285317785" ID="ID_808522991" MODIFIED="1605285325248" TEXT="helm create deis-workflow">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1605285336504" ID="ID_228710089" MODIFIED="1605285447662" TEXT="package">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1605285340850" ID="ID_1087328866" MODIFIED="1605285351057" TEXT="Package for distribution"/>
+<node COLOR="#111111" CREATED="1605285358249" ID="ID_1553520742" MODIFIED="1605285361678" TEXT="helm package deis-workflow">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1605284481746" ID="ID_282600004" MODIFIED="1605285447662" TEXT="search">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1605284487645" ID="ID_807841956" MODIFIED="1605284646092" TEXT="hub">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1605284562271" ID="ID_239306587" MODIFIED="1605284575318" TEXT="Lists charts from different repos"/>
+<node COLOR="#111111" CREATED="1605284664805" ID="ID_1011814822" MODIFIED="1605284668542" TEXT="helm search hub wordpress">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1605284544869" ID="ID_1133605056" MODIFIED="1605284648260" TEXT="repo">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1605284580337" ID="ID_389034380" MODIFIED="1605284606366" TEXT="Searches your added repositories"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1605284752859" ID="ID_1122930904" MODIFIED="1605285447662" TEXT="upgrade">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1605284843918" ID="ID_663818551" MODIFIED="1605284850494" TEXT="Upgrade to a new version"/>
+<node COLOR="#111111" CREATED="1605284854206" ID="ID_1551055753" MODIFIED="1605284856534" TEXT="helm upgrade -f panda.yaml happy-panda stable/mariadb">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1605284757514" ID="ID_1455287434" MODIFIED="1605285447663" TEXT="rollback">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1605284814519" ID="ID_33427707" MODIFIED="1605284826619" TEXT="Roll back to a previous release"/>
+<node COLOR="#111111" CREATED="1605284809610" ID="ID_1751204588" MODIFIED="1605284813179" TEXT="helm rollback happy-panda 1">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1605284712617" ID="ID_1655630489" MODIFIED="1605285447663" TEXT="status">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1605284722098" ID="ID_1404865840" MODIFIED="1605284728494" TEXT="Keeps track of release&apos;s state"/>
+</node>
+<node COLOR="#990000" CREATED="1605285100209" ID="ID_397643144" MODIFIED="1605285447663" TEXT="list">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1605285114530" ID="ID_1883448398" MODIFIED="1605285117495" TEXT="--all">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1605285118420" ID="ID_248190966" MODIFIED="1605285136359" TEXT="List currently deployed releases"/>
+</node>
+<node COLOR="#990000" CREATED="1605285154635" ID="ID_1837123337" MODIFIED="1605285447663" TEXT="repo">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1605285175796" ID="ID_583214027" MODIFIED="1605285179260" TEXT="list">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1605285194694" ID="ID_1128285319" MODIFIED="1605285200183" TEXT="Configured repositories"/>
+</node>
+<node COLOR="#111111" CREATED="1605285204095" ID="ID_1574523865" MODIFIED="1605285205823" TEXT="add">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1605285211567" ID="ID_647428981" MODIFIED="1605285214581" TEXT="Add new repositories"/>
+<node COLOR="#111111" CREATED="1605285217936" ID="ID_1480968938" MODIFIED="1605285226183" TEXT="helm repo add dev https://example.com/dev-charts">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1605285233079" ID="ID_1543223708" MODIFIED="1605285235133" TEXT="update">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1605285243606" ID="ID_337147831" MODIFIED="1605285246487" TEXT="Update repos"/>
+</node>
+<node COLOR="#111111" CREATED="1605285252198" ID="ID_142360525" MODIFIED="1605285255509" TEXT="remove">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1605285261537" ID="ID_1676352802" MODIFIED="1605285267816" TEXT="Removes repos"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</map>

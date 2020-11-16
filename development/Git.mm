@@ -238,6 +238,9 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
+<node COLOR="#990000" CREATED="1597947849442" ID="ID_899107492" MODIFIED="1597947851467" TEXT="git submodule update --remote --merge">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 <node COLOR="#990000" CREATED="1431446179713" ID="ID_291742375" MODIFIED="1571668689787" TEXT="configure">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>

@@ -34,6 +34,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1605283230982" ID="ID_1898590484" LINK="Helm.mm" MODIFIED="1605283321198" TEXT="Helm">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 <node COLOR="#00b439" CREATED="1452774627126" ID="ID_479468681" LINK="Kubernetes.mm" MODIFIED="1546028730242" TEXT="Kubernetes">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>

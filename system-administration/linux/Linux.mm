@@ -9,7 +9,7 @@
 <node COLOR="#00b439" CREATED="1542486085788" ID="ID_1460486651" LINK="https://ubuntuforums.org/showthread.php?t=1873477" MODIFIED="1578748723959" TEXT="Allow any user to enable VPN">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1542486118765" ID="ID_1436682932" MODIFIED="1574092534416" TEXT="/usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy">
+<node COLOR="#990000" CREATED="1542486118765" ID="ID_1436682932" MODIFIED="1598195090346" TEXT="/usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1542486141512" ID="ID_1664408206" MODIFIED="1542488277860">
 <richcontent TYPE="NODE"><html>
