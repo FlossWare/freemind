@@ -465,6 +465,85 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1614711963149" ID="ID_1103957797" MODIFIED="1614711969433" POSITION="right" TEXT="FreeBSD">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1614712007021" ID="ID_1764969480" LINK="https://cobbler.readthedocs.io/en/release28/2_installation/installing%20from%20source.html" MODIFIED="1614712019547" TEXT="From Source">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1614711970829" ID="ID_1796980380" MODIFIED="1614711978878" TEXT="apt-get install make">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1614711985749" ID="ID_1278654575" MODIFIED="1614711987945" TEXT="pkg install gmake">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1614711988606" ID="ID_1927715274" MODIFIED="1614711995713" TEXT="apt-get install git">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1614711997028" ID="ID_1317411635" MODIFIED="1614712000521" TEXT="pkg install git">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1614712001205" ID="ID_1995246678" MODIFIED="1614712031220" TEXT="apt-get install python-yaml">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1614712945468" ID="ID_1169954270" MODIFIED="1614712956232" TEXT="pkg install py37-yaml">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1614713399566" ID="ID_8215582" MODIFIED="1614713401403" TEXT="apt-get install python-cheetah">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1614713409157" ID="ID_1802847269" MODIFIED="1614713410746" TEXT="pkg install py37-cheetah3">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1614713463662" ID="ID_990220361" MODIFIED="1614713467986" TEXT="apt-get install python-netaddr">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1614713495687" ID="ID_1045690018" MODIFIED="1614713504890" TEXT="pkg install py37-netaddr">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1614713659511" ID="ID_1137142672" MODIFIED="1614713661500" TEXT="apt-get install python-simplejson">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1614713664392" ID="ID_191574121" MODIFIED="1614713682855" TEXT="pkg install py37-simplejson">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1614713696408" ID="ID_1801496676" MODIFIED="1614713698052" TEXT="apt-get install python-urlgrabber">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1614713825024" ID="ID_392380154" MODIFIED="1614713835258" TEXT="pkg install py37-urlgrabber">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1614713698584" ID="ID_457710289" MODIFIED="1614713704324" TEXT="apt-get install libapache2-mod-wsgi">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1614714012393" ID="ID_313610756" MODIFIED="1614714015099" TEXT="pkg install -y ap24-py37-mod_wsgi">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1614713704728" ID="ID_1017037714" MODIFIED="1614713712292" TEXT="apt-get install python-django">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1614714138000" ID="ID_565460814" MODIFIED="1614714169276" TEXT="pkg install py37-django">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1614713718048" ID="ID_1477825676" MODIFIED="1614713720084" TEXT="apt-get install atftpd">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1614714359525" ID="ID_1672625363" MODIFIED="1614714361267" TEXT="pkg install utftpd">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1267198368495" ID="ID_1253917073" MODIFIED="1269099380575" POSITION="left" TEXT="RPMForge">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
