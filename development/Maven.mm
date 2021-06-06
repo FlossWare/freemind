@@ -242,6 +242,23 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1619140882248" ID="ID_179571144" LINK="https://stackoverflow.com/questions/45612814/maven-error-pkix-path-building-failed-unable-to-find-valid-certification-path" MODIFIED="1620679542613" TEXT="PKI errors">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1619140886418" ID="ID_798829759" MODIFIED="1619140888426" TEXT=" -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true ">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1620679543692" ID="ID_1185865597" LINK="https://stackoverflow.com/questions/1251192/how-do-i-use-maven-through-a-proxy" MODIFIED="1620679603545" TEXT="Proxies">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1620679552772" ID="ID_869533107" MODIFIED="1620679571679" TEXT="-Dhttp.proxyHost=&lt;host&gt; -Dhttp.proxyPort=&lt;port&gt;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1620679552772" ID="ID_1625678812" MODIFIED="1620679578902" TEXT="-Dhttps.proxyHost=&lt;host&gt; -Dhttps.proxyPort=&lt;port&gt;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 <node COLOR="#00b439" CREATED="1355674961836" ID="ID_1112239377" LINK="http://maven.apache.org/guides/introduction/introduction-to-profiles.html" MODIFIED="1563196133027" TEXT="Profiles">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
