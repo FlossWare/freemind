@@ -16,5 +16,9 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 </node>
+<node COLOR="#0033ff" CREATED="1397170906550" ID="ID_1219226958" MODIFIED="1622997409636" POSITION="right" TEXT="git review -d &lt;review number&gt;">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 </node>
 </map>

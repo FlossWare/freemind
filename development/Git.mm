@@ -53,18 +53,6 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1397170903826" ID="ID_1331083498" MODIFIED="1571668707798" POSITION="right" TEXT="Gerrit">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1397170906550" ID="ID_1219226958" MODIFIED="1397170919478" TEXT="git review -d &lt;review number&gt;">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1397170924925" ID="ID_214073387" MODIFIED="1397170930474" TEXT="git review -R">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
 <node COLOR="#0033ff" CREATED="1571668668180" ID="ID_222762306" MODIFIED="1571668670080" POSITION="right" TEXT="How To">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>

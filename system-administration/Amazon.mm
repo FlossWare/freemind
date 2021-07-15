@@ -4,15 +4,18 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1546372574901" ID="ID_1808876399" MODIFIED="1546372580009" POSITION="right" TEXT="Smart plug">
+<node COLOR="#0033ff" CREATED="1626378092080" ID="ID_253759421" MODIFIED="1626378093665" POSITION="left" TEXT="Devices">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1543328445797" ID="ID_11080525" LINK="https://www.amazon.com/gp/help/customer/display.html?nodeId=GJL9P9S22S2HBUDF" MODIFIED="1546372586546" TEXT="Setup">
+<node COLOR="#00b439" CREATED="1546372574901" ID="ID_1808876399" MODIFIED="1626378096070" TEXT="Smart plug">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1546371773737" FOLDED="true" ID="ID_330977148" MODIFIED="1546373064119" TEXT="Insert plug into wall">
+<node COLOR="#990000" CREATED="1543328445797" ID="ID_11080525" LINK="https://www.amazon.com/gp/help/customer/display.html?nodeId=GJL9P9S22S2HBUDF" MODIFIED="1626378096070" TEXT="Setup">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1546371773737" FOLDED="true" ID="ID_330977148" MODIFIED="1626378096071" TEXT="Insert plug into wall">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1546371822077" ID="ID_1375505297" MODIFIED="1546372586547" TEXT="Should Work">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1546371547729" ID="ID_1582316353" MODIFIED="1546371829415" TEXT="Open the Alexa app on your phone">
@@ -66,11 +69,11 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1546372718865" FOLDED="true" ID="ID_510621629" MODIFIED="1546373067169" TEXT="Control">
+<node COLOR="#990000" CREATED="1546372718865" FOLDED="true" ID="ID_510621629" MODIFIED="1626378096071" TEXT="Control">
 <edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1546372787729" ID="ID_864626069" MODIFIED="1546372945396" TEXT="Set name">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1546372787729" ID="ID_864626069" MODIFIED="1626378096071" TEXT="Set name">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1546372836660" ID="ID_1203654327" MODIFIED="1546372917715" TEXT="Open the Alexa app on your phone">
 <icon BUILTIN="full-1"/>
 </node>
@@ -90,8 +93,8 @@
 <icon BUILTIN="full-5"/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1546372767345" ID="ID_1884255904" MODIFIED="1546372972128" TEXT="Manual">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1546372767345" ID="ID_1884255904" MODIFIED="1626378096072" TEXT="Manual">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1546372730672" ID="ID_1348015819" MODIFIED="1546372775579" TEXT="Open the Alexa app on your phone">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
@@ -115,14 +118,14 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1544643206487" ID="ID_654818270" MODIFIED="1544643209030" POSITION="right" TEXT="Dot">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1544646887159" ID="ID_402646500" LINK="https://www.smartdevicessupport.com/how-to-reset-echo-dot/" MODIFIED="1544646900638" TEXT="Factory Reset">
+<node COLOR="#00b439" CREATED="1544643206487" ID="ID_654818270" MODIFIED="1626378097062" TEXT="Dot">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1544647269192" FOLDED="true" ID="ID_1023703922" MODIFIED="1544647309059" TEXT="Dot 2">
+<node COLOR="#990000" CREATED="1544646887159" ID="ID_402646500" LINK="https://www.smartdevicessupport.com/how-to-reset-echo-dot/" MODIFIED="1626378097064" TEXT="Factory Reset">
+<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1544647269192" FOLDED="true" ID="ID_1023703922" MODIFIED="1626378097065" TEXT="Dot 2">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1544643291035" ID="ID_1840413594" MODIFIED="1544647276452" TEXT="Plug in device">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
@@ -144,8 +147,8 @@
 <icon BUILTIN="full-5"/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1544647284074" ID="ID_595822635" MODIFIED="1544647285710" TEXT="Dot 3">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1544647284074" ID="ID_595822635" MODIFIED="1626378097066" TEXT="Dot 3">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1544643291035" ID="ID_1331876046" MODIFIED="1544647276452" TEXT="Plug in device">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
@@ -155,9 +158,57 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1544643213654" ID="ID_1653894051" LINK="https://www.amazon.com/gp/help/customer/display.html?nodeId=201357520" MODIFIED="1544643246787" TEXT="Unregister">
+<node COLOR="#990000" CREATED="1544643213654" ID="ID_1653894051" LINK="https://www.amazon.com/gp/help/customer/display.html?nodeId=201357520" MODIFIED="1626378097068" TEXT="Unregister">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1626378104391" ID="ID_1519376655" MODIFIED="1626378106859" POSITION="right" TEXT="AWS">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1626378108229" ID="ID_1986991416" MODIFIED="1626378112476" TEXT="IaC">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1626378116151" ID="ID_1839439847" MODIFIED="1626379427482" TEXT="Infrastructure as Code">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1626378130317" ID="ID_765322187" MODIFIED="1626378131873" TEXT="YAML"/>
+<node COLOR="#111111" CREATED="1626378132413" ID="ID_1354653220" MODIFIED="1626378133753" TEXT="JSON"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1626378758592" ID="ID_64243880" LINK="https://aws.amazon.com/architecture/well-architected/?e=gs2020&amp;p=fundcore&amp;p=gsrc&amp;c=fcc" MODIFIED="1626379061405" TEXT="Well-Architected Framework">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1626379062657" ID="ID_391488620" MODIFIED="1626379066533" TEXT="Five Pillars">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1626379068611" ID="ID_1992810401" MODIFIED="1626379078655" TEXT="Operational Excellence">
+<node COLOR="#111111" CREATED="1626379144777" ID="ID_66412692" MODIFIED="1626379153669" TEXT="Continuously improve ability">
+<node COLOR="#111111" CREATED="1626379155057" ID="ID_745722824" MODIFIED="1626379156805" TEXT="run systems"/>
+<node COLOR="#111111" CREATED="1626379157065" ID="ID_1202309431" MODIFIED="1626379162232" TEXT="create better procedures"/>
+<node COLOR="#111111" CREATED="1626379162785" ID="ID_475430475" MODIFIED="1626379165461" TEXT="gain insights"/>
+</node>
+<node COLOR="#111111" CREATED="1626379179114" ID="ID_380461591" MODIFIED="1626379188279" TEXT="Think automation"/>
+<node COLOR="#111111" CREATED="1626379245898" ID="ID_1290308191" MODIFIED="1626379247462" TEXT="Focus">
+<node COLOR="#111111" CREATED="1626379251884" ID="ID_762741980" LINK="https://en.wikipedia.org/wiki/Infrastructure_as_code" MODIFIED="1626379427481" TEXT="Infrastructure as code (IaC) ">
+<node COLOR="#111111" CREATED="1626379311146" ID="ID_1369468111" MODIFIED="1626379318694" TEXT="Manage infrastructure"/>
+<node COLOR="#111111" CREATED="1626379320194" ID="ID_1308360192" MODIFIED="1626379326464" TEXT="Machine readable config files"/>
+<node COLOR="#111111" CREATED="1626378126246" ID="ID_805307281" LINK="https://docs.aws.amazon.com/cloudformation/?id=docs_gateway" MODIFIED="1626379387196" TEXT="Cloud Formation">
+<node COLOR="#111111" CREATED="1626379487925" ID="ID_1113843573" LINK="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html" MODIFIED="1626379516591" TEXT="Properties Reference"/>
+</node>
+<node COLOR="#111111" CREATED="1626378144765" ID="ID_1003763650" LINK="https://docs.aws.amazon.com/cdk/?id=docs_gateway" MODIFIED="1626379557391" TEXT="Cloud Development Kit (CDK)">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1626379493699" ID="ID_1789321461" LINK="https://docs.aws.amazon.com/cdk/api/latest/docs/aws-construct-library.html" MODIFIED="1626379530116" TEXT="API Reference"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1626379296445" ID="ID_687351735" MODIFIED="1626379301710" TEXT="Observability"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1626379079954" ID="ID_1998621402" MODIFIED="1626379086871" TEXT="Security"/>
+<node COLOR="#111111" CREATED="1626379091605" ID="ID_508317669" MODIFIED="1626379093573" TEXT="Reliability"/>
+<node COLOR="#111111" CREATED="1626379098915" ID="ID_1330399965" MODIFIED="1626379101064" TEXT="Performance Efficiency"/>
+<node COLOR="#111111" CREATED="1626379101932" ID="ID_1307873091" MODIFIED="1626379109816" TEXT="Cost Optimization"/>
+</node>
 </node>
 </node>
 </node>
