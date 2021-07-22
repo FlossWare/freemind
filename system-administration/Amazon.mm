@@ -171,10 +171,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1626723992684" ID="ID_669110390" LINK="https://aws.amazon.com/getting-started/fundamentals-core-concepts/?e=gs2020&amp;p=gsrc" MODIFIED="1626813584025" TEXT="Core Concepts">
+<node COLOR="#00b439" CREATED="1626723992684" FOLDED="true" ID="ID_669110390" LINK="https://aws.amazon.com/getting-started/fundamentals-core-concepts/?e=gs2020&amp;p=gsrc" MODIFIED="1626990797518" TEXT="Core Concepts">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1626803511885" FOLDED="true" ID="ID_237123196" MODIFIED="1626813032079" TEXT="Operational">
+<node COLOR="#990000" CREATED="1626803511885" ID="ID_237123196" MODIFIED="1626990792602" TEXT="Operational">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1626724124428" ID="ID_1480859679" LINK="https://en.wikipedia.org/wiki/Infrastructure_as_code" MODIFIED="1626803689046" TEXT="Infrastructor as Code (IaC)">
 <font NAME="SansSerif" SIZE="12"/>
@@ -410,7 +410,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1626724018782" FOLDED="true" ID="ID_1741031949" MODIFIED="1626813575131" TEXT="Descriptions">
+<node COLOR="#00b439" CREATED="1626724018782" ID="ID_1741031949" MODIFIED="1626990781741" TEXT="Descriptions">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1626378108229" ID="ID_1986991416" MODIFIED="1626724023535" TEXT="IaC">
@@ -998,6 +998,22 @@
 </node>
 </node>
 </node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1626990799330" ID="ID_1269411495" MODIFIED="1626990800659" TEXT="Services">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1626990879503" ID="ID_474444355" LINK="https://aws.amazon.com/ecs/" MODIFIED="1626990891998" TEXT="Elastic Container Service (ECS)">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1626990898959" ID="ID_535948732" MODIFIED="1626990901089" TEXT="highly scalable, high-performance container management system that enables you to run and scale containerized applications"/>
+</node>
+<node COLOR="#990000" CREATED="1626990839570" ID="ID_1383448035" LINK="https://aws.amazon.com/eks/" MODIFIED="1626990853715" TEXT="Elastic Kubernetes Service (EKS)">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1626990863655" ID="ID_1627993172" MODIFIED="1626990869820" TEXT="fully managed service that you can use to run Kubernetes"/>
+</node>
+<node COLOR="#990000" CREATED="1626990805262" ID="ID_956569408" LINK="https://aws.amazon.com/fargate/" MODIFIED="1626990820096" TEXT="Fargate">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1626990827591" ID="ID_671080442" MODIFIED="1626990833357" TEXT="serverless compute engine for containers"/>
 </node>
 </node>
 </node>
