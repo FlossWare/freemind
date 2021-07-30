@@ -119,6 +119,13 @@
 </node>
 <node COLOR="#990000" CREATED="1550868007074" ID="ID_1383921704" LINK="http://zookeeper.apache.org/" MODIFIED="1550868064083" TEXT="Zookeeper">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1603385611212" ID="ID_558188977" MODIFIED="1627664784839" TEXT="echo ruok | nc [host] [port]">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1603385654208" ID="ID_27290534" MODIFIED="1627664784840" TEXT="echo ruok | nc localhost 2181">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 <node COLOR="#990000" CREATED="1568663504429" ID="ID_1260693480" LINK="http://commons.apache.org/components.html" MODIFIED="1568663514796" TEXT="Components">
 <font NAME="SansSerif" SIZE="14"/>
@@ -429,17 +436,6 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1568654125726" ID="ID_1878338319" LINK="https://www.influxdata.com/" MODIFIED="1568654142348" TEXT="InfluxDB">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1603385570018" ID="ID_154512804" MODIFIED="1603385572338" POSITION="left" TEXT="Zookeeper">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1603385611212" ID="ID_558188977" MODIFIED="1603385649808" TEXT="echo ruok | nc [host] [port]">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1603385654208" ID="ID_27290534" MODIFIED="1603385662256" TEXT="echo ruok | nc localhost 2181">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
