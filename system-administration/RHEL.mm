@@ -210,6 +210,16 @@
 </node>
 </node>
 </node>
+<node COLOR="#00b439" CREATED="1628088126939" ID="ID_863939094" LINK="https://access.redhat.com/solutions/3755901" MODIFIED="1628088136628" TEXT="createrepo">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1628088148747" ID="ID_1584120453" MODIFIED="1628088156319" TEXT="now in createrepo_c package">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1628088145547" ID="ID_1773738801" MODIFIED="1628088147647" TEXT="yum -y install createrepo_c">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1418754302458" ID="ID_51564136" MODIFIED="1421503251608" POSITION="left" TEXT="subscription-manager">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
