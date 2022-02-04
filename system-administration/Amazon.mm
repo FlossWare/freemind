@@ -171,7 +171,7 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1626723992684" FOLDED="true" ID="ID_669110390" LINK="https://aws.amazon.com/getting-started/fundamentals-core-concepts/?e=gs2020&amp;p=gsrc" MODIFIED="1628102851053" TEXT="Core Concepts">
+<node COLOR="#00b439" CREATED="1626723992684" FOLDED="true" ID="ID_669110390" LINK="https://aws.amazon.com/getting-started/fundamentals-core-concepts/?e=gs2020&amp;p=gsrc" MODIFIED="1637241943209" TEXT="Core Concepts">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1626803511885" ID="ID_237123196" MODIFIED="1626990792602" TEXT="Operational">
@@ -1000,7 +1000,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1626990799330" ID="ID_1269411495" MODIFIED="1628275106118" TEXT="Services">
+<node COLOR="#00b439" CREATED="1626990799330" FOLDED="true" ID="ID_1269411495" MODIFIED="1631032545036" TEXT="Services">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1627321982983" FOLDED="true" ID="ID_164817878" MODIFIED="1627322016174" TEXT="Compute in the Cloud">
@@ -1792,6 +1792,18 @@
 <node COLOR="#111111" CREATED="1627765677906" ID="ID_1580811677" MODIFIED="1627765679854" TEXT="un systems to deliver business value at the lowest price point"/>
 </node>
 </node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1631033244945" ID="ID_440322268" MODIFIED="1631033246421" TEXT="Links">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1631032545839" ID="ID_464310767" LINK="https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#KeyPairs:" MODIFIED="1631033247220" TEXT="Keypairs">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1631033228433" ID="ID_1371137595" LINK="https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#Instances:" MODIFIED="1631033248108" TEXT="Instances">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>

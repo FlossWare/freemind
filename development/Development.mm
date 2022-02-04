@@ -165,6 +165,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#00b439" CREATED="1530630864803" ID="ID_553682239" LINK="Fusion.mm" MODIFIED="1630420578125" TEXT="Fusion">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
 <node COLOR="#00b439" CREATED="1568653978911" ID="ID_696059506" LINK="https://grafana.com/" MODIFIED="1568653987966" TEXT="Graphana">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
@@ -392,10 +396,6 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1572106991634" ID="ID_1311045625" LINK="Elasticsearch.mm" MODIFIED="1572106991637" TEXT="Elasticsearch">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1530630864803" ID="ID_553682239" LINK="Fusion.mm" MODIFIED="1572106974055" TEXT="Fusion">
-<edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#990000" CREATED="1527528729449" ID="ID_1452771460" LINK="Mongo.mm" MODIFIED="1530724897269" TEXT="Mongo">

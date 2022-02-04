@@ -4,7 +4,293 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1469215772144" ID="ID_1711936063" MODIFIED="1469215776836" POSITION="right" TEXT="Search">
+<node COLOR="#0033ff" CREATED="1630420609516" ID="ID_189565726" MODIFIED="1630420610592" POSITION="right" TEXT="7.7">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1630345979802" ID="ID_846654502" LINK="https://solr.apache.org/guide/7_7/securing-solr.html" MODIFIED="1630346012563" TEXT="Securing Solr">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1630346335996" ID="ID_767714133" MODIFIED="1630346339096" TEXT="security.json">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1630346300332" ID="ID_1058267506" MODIFIED="1630346342122" TEXT="Standalone">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1630346314916" ID="ID_1525167979" MODIFIED="1630346323832" TEXT="$SOLR_HOME"/>
+</node>
+<node COLOR="#111111" CREATED="1630346324676" ID="ID_1480640797" MODIFIED="1630346342123" TEXT="Cloud">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1630346326924" ID="ID_591992197" MODIFIED="1630346330663" TEXT="Zookeeper">
+<node COLOR="#111111" CREATED="1630353500057" ID="ID_225157888" LINK="https://solr.apache.org/guide/7_7/zookeeper-access-control.html#zookeeper-access-control" MODIFIED="1630353514342" TEXT="Access Control"/>
+<node COLOR="#111111" CREATED="1630353518009" ID="ID_1756123564" MODIFIED="1630353525005" TEXT="Upload">
+<node COLOR="#111111" CREATED="1630351523399" ID="ID_581464694" MODIFIED="1630351536741">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $SOLR_HOME/server/scripts/cloud-scripts/zkcli.sh -zkhost localhost:2181 -cmd put /security.json
+    </p>
+    <p>
+      &#160;&#160;'{&quot;authentication&quot;: {&quot;class&quot;: &quot;org.apache.solr.security.KerberosPlugin&quot;}}'
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1630352475340" ID="ID_370813234" MODIFIED="1630352477297" TEXT="bin/solr zk cp file:path_to_local_security.json zk:/security.json -z localhost:9983"/>
+<node COLOR="#111111" CREATED="1630352370212" ID="ID_1797090700" MODIFIED="1630352401125">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $FUSION_HOME/apps/solr-dist/server/scripts/cloud-scripts/zkcli.sh
+    </p>
+    <p>
+      -zkhost localhost:2181 -cmd put /security.json
+    </p>
+    <p>
+      &#160;&#160;'{&quot;authentication&quot;: {&quot;class&quot;: &quot;org.apache.solr.security.KerberosPlugin&quot;}}'
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1630351291726" ID="ID_307663761" MODIFIED="1630351296592">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&quot;authentication&quot; : {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;class&quot;: &quot;class.that.implements.authentication&quot;&#160;&#160;},
+    </p>
+    <p>
+      &#160;&#160;&quot;authorization&quot;: {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;class&quot;: &quot;class.that.implements.authorization&quot;&#160;&#160;}
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1630353361777" ID="ID_1504175441" MODIFIED="1630353367071">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      {
+    </p>
+    <p>
+      &quot;authentication&quot;:{
+    </p>
+    <p>
+      &#160;&#160;&#160;&quot;class&quot;:&quot;solr.BasicAuthPlugin&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&quot;credentials&quot;:{&quot;solr&quot;:&quot;IV0EHq1OnNrj6gvRCwvFwTrZ1+z1oBbnQdiVC3otuq0= Ndd7LKvVBAaZIF0QAVi1ekCfAJXr1GGfLtRUXhgrF8c=&quot;}
+    </p>
+    <p>
+      },
+    </p>
+    <p>
+      &quot;authorization&quot;:{
+    </p>
+    <p>
+      &#160;&#160;&#160;&quot;class&quot;:&quot;solr.RuleBasedAuthorizationPlugin&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&quot;permissions&quot;:[{&quot;name&quot;:&quot;security-edit&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&quot;role&quot;:&quot;admin&quot;}],
+    </p>
+    <p>
+      &#160;&#160;&#160;&quot;user-role&quot;:{&quot;solr&quot;:&quot;admin&quot;}
+    </p>
+    <p>
+      }}
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1630351413582" ID="ID_674253969" MODIFIED="1630351431274" TEXT="Plugins">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1630351774848" ID="ID_1047352835" MODIFIED="1630351776716" TEXT="Types">
+<node COLOR="#111111" CREATED="1630351447871" ID="ID_91894909" LINK="https://solr.apache.org/guide/7_7/basic-authentication-plugin.html#basic-authentication-plugin" MODIFIED="1630351778754" TEXT="Basic"/>
+<node COLOR="#111111" CREATED="1630351432950" ID="ID_1374180340" LINK="https://solr.apache.org/guide/7_7/kerberos-authentication-plugin.html#kerberos-authentication-plugin" MODIFIED="1630351442788" TEXT="Kerberos"/>
+<node COLOR="#111111" CREATED="1630351810880" ID="ID_1482644162" LINK="https://solr.apache.org/guide/7_7/hadoop-authentication-plugin.html#hadoop-authentication-plugin" MODIFIED="1630351824126" TEXT="Hadoop"/>
+</node>
+<node COLOR="#111111" CREATED="1630351846353" ID="ID_1010156741" MODIFIED="1630351850076" TEXT="Authorization">
+<node COLOR="#111111" CREATED="1630351851409" ID="ID_401762343" LINK="https://solr.apache.org/guide/7_7/rule-based-authorization-plugin.html#rule-based-authorization-plugin" MODIFIED="1630351864361" TEXT="Rule Based"/>
+</node>
+<node COLOR="#111111" CREATED="1630351463454" ID="ID_867992891" LINK="https://solr.apache.org/guide/7_7/enabling-ssl.html#enabling-ssl" MODIFIED="1630351473847" TEXT="Enable SSL"/>
+</node>
+<node COLOR="#990000" CREATED="1630352607653" ID="ID_1311293637" MODIFIED="1630352611449" TEXT="Authentication">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1630352614357" ID="ID_1087256258" MODIFIED="1630352615257" TEXT="v1">
+<node COLOR="#111111" CREATED="1630352622925" ID="ID_1799417727" MODIFIED="1630352624993" TEXT="http://localhost:8983/solr/admin/authentication ">
+<node COLOR="#111111" CREATED="1630352692629" ID="ID_404362302" MODIFIED="1630352694513" TEXT="add user">
+<node COLOR="#111111" CREATED="1630352660077" ID="ID_408135792" MODIFIED="1630352673872">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      curl --user solr:SolrRocks http://localhost:8983/solr/admin/authentication -H 'Content-type:application/json' -d '{&quot;set-user&quot;: {&quot;tom&quot;:&quot;TomIsCool&quot;, &quot;harry&quot;:&quot;HarrysSecret&quot;}}'
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1630352701917" ID="ID_1991140856" MODIFIED="1630352704369" TEXT="del user">
+<node COLOR="#111111" CREATED="1630352713621" ID="ID_770001855" MODIFIED="1630352718124" TEXT="curl --user solr:SolrRocks http://localhost:8983/solr/admin/authentication -H &apos;Content-type:application/json&apos; -d  &apos;{&quot;delete-user&quot;: [&quot;tom&quot;, &quot;harry&quot;]}&apos;"/>
+</node>
+<node COLOR="#111111" CREATED="1630352735685" ID="ID_976244307" MODIFIED="1630352738866" TEXT="set property">
+<node COLOR="#111111" CREATED="1630352749669" ID="ID_367563818" MODIFIED="1630352754164" TEXT=" curl --user solr:SolrRocks http://localhost:8983/solr/admin/authentication -H &apos;Content-type:application/json&apos; -d  &apos;{&quot;set-property&quot;: {&quot;blockUnknown&quot;:false}}&apos;"/>
+</node>
+<node COLOR="#111111" CREATED="1630352773901" ID="ID_808521255" MODIFIED="1630352780097" TEXT="change relm">
+<node COLOR="#111111" CREATED="1630352787470" ID="ID_658609310" MODIFIED="1630352789259" TEXT=" curl --user solr:SolrRocks http://localhost:8983/solr/admin/authentication -H &apos;Content-type:application/json&apos; -d  &apos;{&quot;set-property&quot;: {&quot;realm&quot;:&quot;My Solr users&quot;}}&apos;"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1630352617141" ID="ID_1522518046" MODIFIED="1630352618553" TEXT="v2">
+<node COLOR="#111111" CREATED="1630352632069" ID="ID_1808111160" MODIFIED="1630352634063" TEXT="http://localhost:8983/api/cluster/security/authentication">
+<node COLOR="#111111" CREATED="1630352697229" ID="ID_183179665" MODIFIED="1630352699273" TEXT="add user">
+<node COLOR="#111111" CREATED="1630352681381" ID="ID_1327758296" MODIFIED="1630352683080" TEXT="curl --user solr:SolrRocks http://localhost:8983/api/cluster/security/authentication -H &apos;Content-type:application/json&apos; -d &apos;{&quot;set-user&quot;: {&quot;tom&quot;:&quot;TomIsCool&quot;, &quot;harry&quot;:&quot;HarrysSecret&quot;}}&apos;"/>
+</node>
+<node COLOR="#111111" CREATED="1630352705189" ID="ID_1440902459" MODIFIED="1630352706770" TEXT="del user">
+<node COLOR="#111111" CREATED="1630352725413" ID="ID_355224039" MODIFIED="1630352727314" TEXT="curl --user solr:SolrRocks http://localhost:8983/api/cluster/security/authentication -H &apos;Content-type:application/json&apos; -d  &apos;{&quot;delete-user&quot;: [&quot;tom&quot;, &quot;harry&quot;]}&apos; "/>
+</node>
+<node COLOR="#111111" CREATED="1630352739877" ID="ID_718232815" MODIFIED="1630352742505" TEXT="set property">
+<node COLOR="#111111" CREATED="1630352761181" ID="ID_114230277" MODIFIED="1630352763031" TEXT="curl --user solr:SolrRocks http://localhost:8983/api/cluster/security/authentication -H &apos;Content-type:application/json&apos; -d  &apos;{&quot;set-property&quot;: {&quot;blockUnknown&quot;:false}}&apos;"/>
+</node>
+<node COLOR="#111111" CREATED="1630352773901" ID="ID_1163041077" MODIFIED="1630352780097" TEXT="change relm">
+<node COLOR="#111111" CREATED="1630352796742" ID="ID_1842244369" MODIFIED="1630352799023" TEXT="curl --user solr:SolrRocks http://localhost:8983/api/cluster/security/authentication -H &apos;Content-type:application/json&apos; -d  &apos;{&quot;set-property&quot;: {&quot;realm&quot;:&quot;My Solr users&quot;}}&apos;"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1630352898118" ID="ID_695120163" MODIFIED="1630352900666" TEXT="Basic">
+<node COLOR="#111111" CREATED="1630352902462" ID="ID_1279089023" MODIFIED="1630352910295">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SolrRequest req ;//create a new request object
+    </p>
+    <p>
+      req.setBasicAuthCredentials(userName, password);
+    </p>
+    <p>
+      solrClient.request(req);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1630352915438" ID="ID_1220672413" MODIFIED="1630352940067">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      QueryRequest req = new QueryRequest(new SolrQuery(&quot;*:*&quot;));
+    </p>
+    <p>
+      req.setBasicAuthCredentials(userName, password);
+    </p>
+    <p>
+      QueryResponse rsp = req.process(solrClient);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1630352975974" ID="ID_1169643915" MODIFIED="1630352994891" TEXT="$SOLR_HOME/bin/solr/solr.in.sh">
+<node COLOR="#111111" CREATED="1630353005191" ID="ID_1175204815" MODIFIED="1630353011624">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SOLR_AUTH_TYPE=&quot;basic&quot;
+    </p>
+    <p>
+      SOLR_AUTHENTICATION_OPTS=&quot;-Dbasicauth=solr:SolrRocks&quot;
+    </p>
+  </body>
+</html></richcontent>
+<node COLOR="#111111" CREATED="1630353018383" ID="ID_296716172" MODIFIED="1630353020427" TEXT="user">
+<node COLOR="#111111" CREATED="1630353024047" ID="ID_784779128" MODIFIED="1630353025099" TEXT="solr"/>
+</node>
+<node COLOR="#111111" CREATED="1630353020743" ID="ID_1150079643" MODIFIED="1630353022147" TEXT="pass">
+<node COLOR="#111111" CREATED="1630353027023" ID="ID_866697310" MODIFIED="1630353028835" TEXT="SolrRocks"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1470858765328" ID="ID_279854326" MODIFIED="1470858767044" POSITION="left" TEXT="4.5">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1470858768188" ID="ID_1421512744" MODIFIED="1470858778072" TEXT="java -jar start.jar">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1544046737160" ID="ID_1564329383" MODIFIED="1630420629702" POSITION="left" TEXT="How To">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1561570048975" ID="ID_1859004361" LINK="https://gist.github.com/manisnesan/1747f6a7954c1c17d310d93492204f26" MODIFIED="1561575062435" TEXT="Backups">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1561575006820" ID="ID_808197772" LINK="https://gist.github.com/manisnesan/f97de0f35b779c34c2938df37e38c2c8" MODIFIED="1561575068965" TEXT="Active/Passive (or Two Collection) Pattern">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1537828828378" ID="ID_9400884" LINK="https://stackoverflow.com/questions/16943134/how-do-i-get-solr-back-up-when-indexes-are-locked-and-unlockonstartuptrue-does#21947891" MODIFIED="1561575070006" TEXT="Cleaning up locks">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1537828852178" ID="ID_761143480" MODIFIED="1544046743350" TEXT="find data/solr -name \*ock | xargs rm -rf">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1565197603246" ID="ID_1007577561" LINK="https://lucene.apache.org/solr/guide/6_6/faceting.html" MODIFIED="1565197638035" TEXT="Pivot">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1565197667513" ID="ID_1607392848" MODIFIED="1565197669077" TEXT="Params">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1565197648721" ID="ID_773602592" MODIFIED="1565197672078" TEXT="facet=true">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1565197654553" ID="ID_915816474" MODIFIED="1565197672080" TEXT="facet.pivot=[field]">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1469215772144" ID="ID_1711936063" MODIFIED="1630420633222" POSITION="left" TEXT="Search">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1469208163299" FOLDED="true" ID="ID_1895329248" MODIFIED="1542386184056" TEXT="Managing text-centric data">
@@ -301,47 +587,6 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1544046737160" ID="ID_1564329383" MODIFIED="1544046741267" POSITION="right" TEXT="How To">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1561570048975" ID="ID_1859004361" LINK="https://gist.github.com/manisnesan/1747f6a7954c1c17d310d93492204f26" MODIFIED="1561575062435" TEXT="Backups">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1561575006820" ID="ID_808197772" LINK="https://gist.github.com/manisnesan/f97de0f35b779c34c2938df37e38c2c8" MODIFIED="1561575068965" TEXT="Active/Passive (or Two Collection) Pattern">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#00b439" CREATED="1537828828378" ID="ID_9400884" LINK="https://stackoverflow.com/questions/16943134/how-do-i-get-solr-back-up-when-indexes-are-locked-and-unlockonstartuptrue-does#21947891" MODIFIED="1561575070006" TEXT="Cleaning up locks">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1537828852178" ID="ID_761143480" MODIFIED="1544046743350" TEXT="find data/solr -name \*ock | xargs rm -rf">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1565197603246" ID="ID_1007577561" LINK="https://lucene.apache.org/solr/guide/6_6/faceting.html" MODIFIED="1565197638035" TEXT="Pivot">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1565197667513" ID="ID_1607392848" MODIFIED="1565197669077" TEXT="Params">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1565197648721" ID="ID_773602592" MODIFIED="1565197672078" TEXT="facet=true">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#111111" CREATED="1565197654553" ID="ID_915816474" MODIFIED="1565197672080" TEXT="facet.pivot=[field]">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1470858765328" ID="ID_279854326" MODIFIED="1470858767044" POSITION="left" TEXT="4.5">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1470858768188" ID="ID_1421512744" MODIFIED="1470858778072" TEXT="java -jar start.jar">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
 <node COLOR="#0033ff" CREATED="1469208424770" ID="ID_1633498833" MODIFIED="1469208428046" POSITION="left" TEXT="Fields">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
@@ -354,7 +599,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1472144268418" FOLDED="true" ID="ID_1785894165" MODIFIED="1544464609403" POSITION="left" TEXT="Solr Unleashed">
+<node COLOR="#0033ff" CREATED="1472144268418" FOLDED="true" ID="ID_1785894165" MODIFIED="1630420618882" POSITION="left" TEXT="Solr Unleashed">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1472150598592" ID="ID_456208300" MODIFIED="1472150600324" TEXT="Queries">
